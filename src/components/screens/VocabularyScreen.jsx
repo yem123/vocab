@@ -18,6 +18,8 @@ export default function VocabularyScreen({
   handleImportBackup,
   selectedLevelFilter,
   setSelectedLevelFilter,
+  selectedTypeFilter,
+  setSelectedTypeFilter,
 }) {
   return (
     <div className="flex-1 flex flex-col px-6 py-5 space-y-5">
@@ -40,6 +42,8 @@ export default function VocabularyScreen({
         setSelectedThemeFilter={setSelectedThemeFilter}
         selectedLevelFilter={selectedLevelFilter}
         setSelectedLevelFilter={setSelectedLevelFilter}
+        selectedTypeFilter={selectedTypeFilter}
+        setSelectedTypeFilter={setSelectedTypeFilter}
       />
 
       {/* Word of the Morning banner */}

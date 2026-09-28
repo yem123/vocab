@@ -1,6 +1,7 @@
 import React, { useMemo } from "react";
 import { Search, X } from "lucide-react";
 import GermanTextField from "../common/GermanTextField";
+import { WORD_TYPES, getWordType } from "../../utils/wordTypes";
 
 export default function SearchAndFilters({
   vocabulary,
@@ -10,6 +11,8 @@ export default function SearchAndFilters({
   setSelectedThemeFilter,
   selectedLevelFilter,
   setSelectedLevelFilter,
+  selectedTypeFilter,
+  setSelectedTypeFilter,
 }) {
   const themeFilterActive =
     selectedThemeFilter !== "All Words" &&
@@ -20,6 +23,15 @@ export default function SearchAndFilters({
     const counts = { "All Words": vocabulary.length };
     ["Basic", "Intermediate", "Advanced"].forEach((level) => {
       counts[level] = vocabulary.filter((w) => w.level === level).length;
+    });
+    return counts;
+  }, [vocabulary]);
+
+  // Number of entries per type (saved type, or the guess for older words)
+  const typeCounts = useMemo(() => {
+    const counts = { "All Types": vocabulary.length };
+    WORD_TYPES.forEach((type) => {
+      counts[type] = vocabulary.filter((w) => getWordType(w) === type).length;
     });
     return counts;
   }, [vocabulary]);
@@ -61,6 +73,32 @@ export default function SearchAndFilters({
               }`}
             >
               {levelCounts[pill]}
+            </span>
+          </button>
+        ))}
+      </div>
+
+      {/* Type pills: Word / Phrase / Sentence */}
+      <div className="flex items-center gap-2 overflow-x-auto pt-2 pr-2 pb-1 no-scrollbar font-sans text-xs">
+        {["All Types", ...WORD_TYPES].map((pill) => (
+          <button
+            key={pill}
+            onClick={() => setSelectedTypeFilter(pill)}
+            className={`relative px-3.5 py-1.5 rounded-full font-medium transition-all shrink-0 ${
+              selectedTypeFilter === pill
+                ? "bg-[#435249] text-white shadow-sm"
+                : "bg-[#f4f6f4] text-[#637368] hover:bg-[#e2e7e3]"
+            }`}
+          >
+            {pill}
+            <span
+              className={`absolute -top-1.5 -right-1.5 min-w-4 h-4 px-1 rounded-full flex items-center justify-center text-[9px] font-bold leading-none ${
+                selectedTypeFilter === pill
+                  ? "bg-white text-[#435249] border border-[#435249]"
+                  : "bg-[#637368] text-white"
+              }`}
+            >
+              {typeCounts[pill]}
             </span>
           </button>
         ))}

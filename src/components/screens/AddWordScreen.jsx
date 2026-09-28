@@ -27,6 +27,8 @@ export default function AddWordScreen({
   setFormCustomThema,
   formLevel,
   setFormLevel,
+  formType,
+  setFormType,
 }) {
   return (
     <div className="flex-1 flex flex-col px-6 py-5 space-y-5 animate-slide-up">
@@ -60,6 +62,8 @@ export default function AddWordScreen({
         removeTheme={removeTheme}
         formCustomThema={formCustomThema}
         setFormCustomThema={setFormCustomThema}
+        formType={formType}
+        setFormType={setFormType}
         formLevel={formLevel}
         setFormLevel={setFormLevel}
       />

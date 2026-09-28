@@ -10,6 +10,7 @@ import AddWordScreen from "./components/screens/AddWordScreen";
 import DetailScreen from "./components/screens/DetailScreen";
 import { fetchWordDetails } from "./utils/aiWordHelper";
 import CollectionsScreen from "./components/screens/CollectionsScreen";
+import { WORD_TYPES, getWordType, guessWordType } from "./utils/wordTypes";
 
 const DEFAULT_THEMES = [
   "im Restaurant",
@@ -53,6 +54,8 @@ export default function App() {
   const [detailOrigin, setDetailOrigin] = useState("vocabulary");
   const [selectedLevelFilter, setSelectedLevelFilter] = useState("All Words");
   const [formLevel, setFormLevel] = useState("");
+  const [selectedTypeFilter, setSelectedTypeFilter] = useState("All Types");
+  const [formType, setFormType] = useState("");
 
   // Add word form state
   const [formThema, setFormThema] = useState("Alltag");
@@ -90,6 +93,9 @@ export default function App() {
     setFormExample("");
     setFormExampleTranslation("");
     setFormPriority("High");
+    setFormLevel("");
+    setFormType("");
+    setFormCustomThema("");
   };
 
   // Opens the Add Word page pre-filled with an existing word
@@ -118,6 +124,8 @@ export default function App() {
     setFormExampleTranslation(
       isPlaceholderExampleTranslation ? "" : word.exampleTranslation || "",
     );
+    setFormLevel(word.level || "");
+    setFormType(getWordType(word));
     setFormPriority(word.priority || "High");
     navigateTo("add", "slide_up");
   };
@@ -126,6 +134,7 @@ export default function App() {
   const openTheme = (name) => {
     setSelectedThemeFilter(name);
     setSelectedLevelFilter("All Words");
+    setSelectedTypeFilter("All Types");
     setSearchQuery("");
     navigateTo("vocabulary", "push_back");
   };
@@ -163,7 +172,10 @@ export default function App() {
       const matchesLevel =
         selectedLevelFilter === "All Words" ||
         item.level === selectedLevelFilter;
-      if (!matchesSearch || !matchesLevel) return false;
+      const matchesType =
+        selectedTypeFilter === "All Types" ||
+        getWordType(item) === selectedTypeFilter;
+      if (!matchesSearch || !matchesLevel || !matchesType) return false;
       if (
         selectedThemeFilter === "All Words" ||
         selectedThemeFilter === "Alle Themen"
@@ -174,7 +186,13 @@ export default function App() {
         selectedThemeFilter.toLowerCase()
       );
     });
-  }, [vocabulary, searchQuery, selectedThemeFilter, selectedLevelFilter]);
+  }, [
+    vocabulary,
+    searchQuery,
+    selectedThemeFilter,
+    selectedLevelFilter,
+    selectedTypeFilter,
+  ]);
 
   const favoriteVocabulary = useMemo(() => {
     return vocabulary.filter((w) => w.favorite);
@@ -282,6 +300,7 @@ export default function App() {
                   "English translation of study example.",
                 thema: finalThema,
                 level: formLevel,
+                type: formType || guessWordType(formWord),
                 priority: formPriority,
               }
             : w,
@@ -308,6 +327,7 @@ export default function App() {
         "English translation of study example.",
       thema: finalThema,
       level: formLevel,
+      type: formType || guessWordType(formWord),
       priority: formPriority,
       favorite: false,
     };
@@ -320,6 +340,7 @@ export default function App() {
     setFormCustomThema("");
     setFormExampleTranslation("");
     setFormLevel("");
+    setFormType("");
     navigateTo("vocabulary", "push_back");
   };
 
@@ -379,6 +400,8 @@ export default function App() {
               handleImportBackup={handleImportBackup}
               selectedLevelFilter={selectedLevelFilter}
               setSelectedLevelFilter={setSelectedLevelFilter}
+              selectedTypeFilter={selectedTypeFilter}
+              setSelectedTypeFilter={setSelectedTypeFilter}
             />
           )}
 
@@ -429,6 +452,8 @@ export default function App() {
               setFormCustomThema={setFormCustomThema}
               formLevel={formLevel}
               setFormLevel={setFormLevel}
+              formType={formType}
+              setFormType={setFormType}
             />
           )}
 

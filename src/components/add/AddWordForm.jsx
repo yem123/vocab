@@ -2,6 +2,7 @@ import React from "react";
 import { Sparkles } from "lucide-react";
 import ThemeDropdown from "./ThemeDropdown";
 import GermanTextField from "../common/GermanTextField";
+import { WORD_TYPES } from "../../utils/wordTypes";
 
 export default function AddWordForm({
   handleSaveNewWord,
@@ -25,6 +26,7 @@ export default function AddWordForm({
   removeTheme,
   formCustomThema,
   setFormCustomThema,
+  formType,
   formLevel,
   setFormLevel,
 }) {
@@ -79,6 +81,32 @@ export default function AddWordForm({
               }`}
             >
               {level}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* Word type */}
+      <div className="bg-[#f9f9f7] border border-[#e8e5e0] p-3.5 rounded-2xl space-y-2">
+        <div className="flex justify-between items-center text-[#767d78]">
+          <span className="font-semibold uppercase tracking-wider text-[10px]">
+            Art
+          </span>
+          <span>Leer = automatisch</span>
+        </div>
+        <div className="flex gap-1.5">
+          {WORD_TYPES.map((type) => (
+            <button
+              key={type}
+              type="button"
+              onClick={() => setFormType(formType === type ? "" : type)}
+              className={`flex-1 py-1.5 rounded-lg font-semibold transition-colors ${
+                formType === type
+                  ? "bg-[#435249] text-white"
+                  : "bg-[#f4f3ef] text-[#637368] hover:bg-[#eae7e2]"
+              }`}
+            >
+              {type}
             </button>
           ))}
         </div>

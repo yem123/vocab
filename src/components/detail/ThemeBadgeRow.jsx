@@ -1,10 +1,11 @@
 import React from "react";
 import { Trash2, Pencil } from "lucide-react";
+import { getWordType } from "../../utils/wordTypes";
 
 export default function ThemeBadgeRow({ activeWord, deleteWord, editWord }) {
   return (
     <div className="flex items-center justify-between">
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-2 flex-wrap">
         <span className="font-sans text-[10px] tracking-widest uppercase font-bold text-[#637368] bg-[#f4f6f4] px-3 py-1 rounded-full border border-[#e5eae6]">
           {activeWord.thema}
         </span>
@@ -13,6 +14,9 @@ export default function ThemeBadgeRow({ activeWord, deleteWord, editWord }) {
             {activeWord.level}
           </span>
         )}
+        <span className="font-sans text-[10px] tracking-widest uppercase font-bold text-[#526859] bg-[#f4f6f4] px-2.5 py-1 rounded-full border border-[#e5eae6]">
+          {getWordType(activeWord)}
+        </span>
       </div>
       <div className="flex items-center gap-1">
         <button
