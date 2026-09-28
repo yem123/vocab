@@ -65,15 +65,6 @@ export default function SearchAndFilters({
             }`}
           >
             {pill}
-            <span
-              className={`absolute -top-1.5 -right-1.5 min-w-4 h-4 px-1 rounded-full flex items-center justify-center text-[9px] font-bold leading-none ${
-                selectedLevelFilter === pill
-                  ? "bg-white text-[#2c302e] border border-[#2c302e]"
-                  : "bg-[#637368] text-white"
-              }`}
-            >
-              {levelCounts[pill]}
-            </span>
           </button>
         ))}
       </div>
@@ -91,15 +82,6 @@ export default function SearchAndFilters({
             }`}
           >
             {pill}
-            <span
-              className={`absolute -top-1.5 -right-1.5 min-w-4 h-4 px-1 rounded-full flex items-center justify-center text-[9px] font-bold leading-none ${
-                selectedTypeFilter === pill
-                  ? "bg-white text-[#435249] border border-[#435249]"
-                  : "bg-[#637368] text-white"
-              }`}
-            >
-              {typeCounts[pill]}
-            </span>
           </button>
         ))}
       </div>
