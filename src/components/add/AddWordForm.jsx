@@ -14,8 +14,12 @@ export default function AddWordForm({
   setFormTranslation,
   formDefinition,
   setFormDefinition,
+  formDefinitionTranslation,
+  setFormDefinitionTranslation,
   formExample,
   setFormExample,
+  formExampleTranslation,
+  setFormExampleTranslation,
   formPriority,
   setFormPriority,
   handleAIFill,
@@ -27,6 +31,7 @@ export default function AddWordForm({
   formCustomThema,
   setFormCustomThema,
   formType,
+  setFormType,
   formLevel,
   setFormLevel,
 }) {
@@ -183,6 +188,13 @@ export default function AddWordForm({
           onChange={(e) => setFormDefinition(e.target.value)}
           className="w-full bg-transparent border-none text-sm font-serif text-[#2c302e] focus:outline-none resize-none placeholder:text-[#b8c2bc]"
         />
+        <input
+          type="text"
+          placeholder="English translation of the definition..."
+          value={formDefinitionTranslation}
+          onChange={(e) => setFormDefinitionTranslation(e.target.value)}
+          className="w-full bg-transparent border-t border-[#e8e5e0] pt-1.5 text-xs text-[#767d78] focus:outline-none placeholder:text-[#b8c2bc]"
+        />
       </div>
 
       {/* Deutscher Beispielsatz */}
@@ -200,6 +212,13 @@ export default function AddWordForm({
           value={formExample}
           onChange={(e) => setFormExample(e.target.value)}
           className="w-full bg-transparent border-none text-sm font-serif text-[#2c302e] focus:outline-none resize-none placeholder:text-[#b8c2bc]"
+        />
+        <input
+          type="text"
+          placeholder="English translation of the example..."
+          value={formExampleTranslation}
+          onChange={(e) => setFormExampleTranslation(e.target.value)}
+          className="w-full bg-transparent border-t border-[#dce3df] pt-1.5 text-xs text-[#526859] focus:outline-none placeholder:text-[#b8c2bc]"
         />
       </div>
 

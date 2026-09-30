@@ -14,8 +14,12 @@ export default function AddWordScreen({
   setFormTranslation,
   formDefinition,
   setFormDefinition,
+  formDefinitionTranslation,
+  setFormDefinitionTranslation,
   formExample,
   setFormExample,
+  formExampleTranslation,
+  setFormExampleTranslation,
   formPriority,
   setFormPriority,
   handleAIFill,
@@ -50,8 +54,12 @@ export default function AddWordScreen({
         setFormTranslation={setFormTranslation}
         formDefinition={formDefinition}
         setFormDefinition={setFormDefinition}
+        formDefinitionTranslation={formDefinitionTranslation}
+        setFormDefinitionTranslation={setFormDefinitionTranslation}
         formExample={formExample}
         setFormExample={setFormExample}
+        formExampleTranslation={formExampleTranslation}
+        setFormExampleTranslation={setFormExampleTranslation}
         formPriority={formPriority}
         setFormPriority={setFormPriority}
         handleAIFill={handleAIFill}
