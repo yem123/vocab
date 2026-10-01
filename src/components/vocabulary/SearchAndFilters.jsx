@@ -21,7 +21,7 @@ export default function SearchAndFilters({
   // Number of words per level; "All Words" counts every word
   const levelCounts = useMemo(() => {
     const counts = { "All Words": vocabulary.length };
-    ["Basic", "Intermediate", "Advanced"].forEach((level) => {
+    ["A1", "A2", "B1", "B2", "C1", "C2"].forEach((level) => {
       counts[level] = vocabulary.filter((w) => w.level === level).length;
     });
     return counts;
@@ -51,7 +51,7 @@ export default function SearchAndFilters({
 
       {/* pt-2 / pr-2 leave room for the count badges that overhang each pill */}
       <div className="flex items-center gap-2 overflow-x-auto pt-2 pr-2 pb-1 no-scrollbar font-sans text-xs">
-        {["All Words", "Basic", "Intermediate", "Advanced"].map((pill) => (
+        {["All Words", "A1", "A2", "B1", "B2", "C1", "C2"].map((pill) => (
           <button
             key={pill}
             onClick={() => {

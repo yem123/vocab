@@ -74,7 +74,7 @@ export default function AddWordForm({
           <span>Optional</span>
         </div>
         <div className="flex gap-1.5">
-          {["Basic", "Intermediate", "Advanced"].map((level) => (
+          {["A1", "A2", "B1", "B2", "C1", "C2"].map((level) => (
             <button
               key={level}
               type="button"
