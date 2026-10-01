@@ -72,7 +72,7 @@ export const parseBackup = (text) => {
         level: ["A1", "A2", "B1", "B2", "C1", "C2"].includes(w.level)
           ? w.level
           : "",
-        type: ["Word", "Phrase", "Sentence"].includes(w.type) ? w.type : "",
+        type: ["Word", "Phrase"].includes(w.type) ? w.type : "",
         favorite: Boolean(w.favorite),
       };
     });

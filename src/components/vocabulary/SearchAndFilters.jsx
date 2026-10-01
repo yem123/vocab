@@ -69,7 +69,7 @@ export default function SearchAndFilters({
         ))}
       </div>
 
-      {/* Type pills: Word / Phrase / Sentence */}
+      {/* Type pills: Word / Phrase */}
       <div className="flex items-center gap-2 overflow-x-auto pt-2 pr-2 pb-1 no-scrollbar font-sans text-xs">
         {["All Types", ...WORD_TYPES].map((pill) => (
           <button

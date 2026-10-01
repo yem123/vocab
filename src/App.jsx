@@ -1,6 +1,9 @@
 import React, { useState, useEffect, useMemo } from "react";
 
-import { INITIAL_VOCABULARY } from "./data/vocabularyData";
+import { A1_Vocabulary } from "./data/a1Vocabulary";
+import { A2_Vocabulary } from "./data/a2Vocabulary";
+import { B1_Vocabulary } from "./data/b1Vocabulary";
+import { B2_Vocabulary } from "./data/b2Vocabulary";
 
 import Header from "./components/layout/Header";
 import BottomNav from "./components/layout/BottomNav";
@@ -25,16 +28,66 @@ const DEFAULT_THEMES = [
   "Alltag",
 ];
 
-export default function App() {
-  const [currentScreen, setCurrentScreen] = useState("vocabulary"); // 'vocabulary' | 'themen' | 'add' | 'detail' | 'collections'
-  const [vocabulary, setVocabulary] = useState(() => {
-    try {
-      const saved = localStorage.getItem("lexis_german_vocab");
-      return saved ? JSON.parse(saved) : INITIAL_VOCABULARY;
-    } catch {
-      return INITIAL_VOCABULARY;
+// Combine all level vocabularies into a single master array (the built-in,
+// read-only layer). .flat() guards against any file that's accidentally
+// nested in an extra array, like [[ {...}, {...} ]] instead of [ {...}, {...} ].
+const ALL_VOCABULARY = [
+  ...A1_Vocabulary,
+  ...A2_Vocabulary,
+  ...B1_Vocabulary,
+  ...B2_Vocabulary,
+].flat();
+
+// Highest id across the built-in files. New user words start above this,
+// so they never collide with a built-in id, even as more get added later.
+const BASE_MAX_ID = ALL_VOCABULARY.reduce(
+  (max, w) => (typeof w.id === "number" && w.id > max ? w.id : max),
+  0,
+);
+
+// Merges the built-in list with the user layer (additions, edits, deletions)
+const mergeVocabulary = (userLayer) => {
+  const overrides = new Map();
+  const deleted = new Set();
+  const additions = [];
+
+  userLayer.forEach((entry) => {
+    if (entry.deleted) {
+      deleted.add(entry.id);
+    } else if (entry.id <= BASE_MAX_ID) {
+      overrides.set(entry.id, entry);
+    } else {
+      additions.push(entry);
     }
   });
+
+  const base = ALL_VOCABULARY.filter((w) => !deleted.has(w.id)).map(
+    (w) => overrides.get(w.id) || w,
+  );
+
+  // Newest-first, matching the app's existing display order
+  return [...additions, ...base];
+};
+
+export default function App() {
+  const [currentScreen, setCurrentScreen] = useState("vocabulary"); // 'vocabulary' | 'themen' | 'add' | 'detail' | 'collections'
+
+  // Only what the user added, edited, or deleted. Built-in words themselves
+  // are never stored here, so fixing data/a1Vocabulary.js etc. always takes effect.
+  const [userVocabulary, setUserVocabulary] = useState(() => {
+    try {
+      const saved = localStorage.getItem("lexis_german_vocab_user");
+      const parsed = saved ? JSON.parse(saved) : [];
+      return Array.isArray(parsed) ? parsed : [];
+    } catch {
+      return [];
+    }
+  });
+
+  const vocabulary = useMemo(
+    () => mergeVocabulary(userVocabulary),
+    [userVocabulary],
+  );
 
   const [themes, setThemes] = useState(() => {
     try {
@@ -44,6 +97,7 @@ export default function App() {
       return DEFAULT_THEMES;
     }
   });
+
   const [formCustomThema, setFormCustomThema] = useState("");
 
   const [selectedWordId, setSelectedWordId] = useState(1);
@@ -73,11 +127,14 @@ export default function App() {
 
   useEffect(() => {
     try {
-      localStorage.setItem("lexis_german_vocab", JSON.stringify(vocabulary));
+      localStorage.setItem(
+        "lexis_german_vocab_user",
+        JSON.stringify(userVocabulary),
+      );
     } catch (e) {
       console.error("Failed to save to localStorage", e);
     }
-  }, [vocabulary]);
+  }, [userVocabulary]);
 
   useEffect(() => {
     try {
@@ -179,8 +236,10 @@ export default function App() {
   const filteredVocabulary = useMemo(() => {
     return vocabulary.filter((item) => {
       const matchesSearch =
-        item.word.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        item.translation.toLowerCase().includes(searchQuery.toLowerCase());
+        (item.word || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
+        (item.translation || "")
+          .toLowerCase()
+          .includes(searchQuery.toLowerCase());
       const matchesLevel =
         selectedLevelFilter === "All Words" ||
         item.level === selectedLevelFilter;
@@ -235,7 +294,19 @@ export default function App() {
     }
   };
 
-  // Merges an imported backup into the current vocabulary (skips duplicate words)
+  // Highest id currently in use, across built-in words AND the user layer
+  // (so re-importing or re-adding never reuses an id, even one from a
+  // since-deleted or since-edited word).
+  const getNextId = () => {
+    const userIds = userVocabulary
+      .map((w) => w.id)
+      .filter((id) => typeof id === "number");
+    const maxUser = userIds.length > 0 ? Math.max(...userIds) : BASE_MAX_ID;
+    return Math.max(BASE_MAX_ID, maxUser) + 1;
+  };
+
+  // Merges an imported backup into the user layer (skips duplicate words,
+  // matched against the full merged vocabulary)
   const handleImportBackup = ({
     vocabulary: imported,
     themes: importedThemes,
@@ -243,29 +314,22 @@ export default function App() {
     const existingWords = new Set(
       vocabulary.map((w) => w.word.trim().toLowerCase()),
     );
-    const usedIds = new Set(vocabulary.map((w) => w.id));
+    let nextId = getNextId();
     const newEntries = [];
     let skipped = 0;
 
-    imported.forEach((w, i) => {
+    imported.forEach((w) => {
       const key = w.word.toLowerCase();
       if (existingWords.has(key)) {
         skipped++;
         return;
       }
       existingWords.add(key);
-
-      // Keep the original id unless it's missing or already taken
-      let id = w.id;
-      if (id === undefined || id === null || usedIds.has(id)) {
-        id = Date.now() + i;
-        while (usedIds.has(id)) id++;
-      }
-      usedIds.add(id);
-      newEntries.push({ ...w, id });
+      newEntries.push({ ...w, id: nextId });
+      nextId += 1;
     });
 
-    setVocabulary([...newEntries, ...vocabulary]);
+    setUserVocabulary([...newEntries, ...userVocabulary]);
 
     // Add any new themes from the file (ignoring upper/lower case)
     const newThemes = importedThemes.filter(
@@ -295,35 +359,38 @@ export default function App() {
       }
     }
 
-    // Editing an existing word: update it instead of adding a new one
+    // Editing an existing word: store it as an override (if it's a built-in
+    // word) or update it in place (if it's already a user-layer word)
     if (editingWordId !== null) {
-      setVocabulary(
-        vocabulary.map((w) =>
-          w.id === editingWordId
-            ? {
-                ...w,
-                word: formWord.trim(),
-                translation: formTranslation.trim(),
-                definition:
-                  formDefinition.trim() ||
-                  "Keine deutsche Definition hinterlegt.",
-                definitionTranslation:
-                  formDefinitionTranslation.trim() ||
-                  "English translation of definition not provided.",
-                example:
-                  formExample.trim() ||
-                  `„Ein wunderbares Beispiel für ${formWord.trim()}.“`,
-                exampleTranslation:
-                  formExampleTranslation.trim() ||
-                  "English translation of study example.",
-                thema: finalThema,
-                level: formLevel,
-                type: formType || guessWordType(formWord),
-                priority: formPriority,
-              }
-            : w,
-        ),
-      );
+      const original = vocabulary.find((w) => w.id === editingWordId);
+      const updated = {
+        ...original,
+        word: formWord.trim(),
+        translation: formTranslation.trim(),
+        definition:
+          formDefinition.trim() || "Keine deutsche Definition hinterlegt.",
+        definitionTranslation:
+          formDefinitionTranslation.trim() ||
+          "English translation of definition not provided.",
+        example:
+          formExample.trim() ||
+          `„Ein wunderbares Beispiel für ${formWord.trim()}.“`,
+        exampleTranslation:
+          formExampleTranslation.trim() ||
+          "English translation of study example.",
+        thema: finalThema,
+        level: formLevel,
+        type: formType || guessWordType(formWord),
+        priority: formPriority,
+      };
+
+      setUserVocabulary((prev) => {
+        const exists = prev.some((w) => w.id === editingWordId);
+        return exists
+          ? prev.map((w) => (w.id === editingWordId ? updated : w))
+          : [updated, ...prev];
+      });
+
       setSelectedWordId(editingWordId);
       setEditingWordId(null);
       resetForm();
@@ -332,7 +399,7 @@ export default function App() {
     }
 
     const newEntry = {
-      id: Date.now(),
+      id: getNextId(),
       word: formWord.trim(),
       translation: formTranslation.trim(),
       definition:
@@ -353,15 +420,14 @@ export default function App() {
       favorite: false,
     };
 
-    setVocabulary([newEntry, ...vocabulary]);
+    setUserVocabulary([newEntry, ...userVocabulary]);
     setFormWord("");
     setFormTranslation("");
     setFormDefinition("");
-    setFormExampleTranslation("");
-    setFormDefinitionTranslation("");
     setFormExample("");
     setFormCustomThema("");
     setFormExampleTranslation("");
+    setFormDefinitionTranslation("");
     setFormLevel("");
     setFormType("");
     navigateTo("vocabulary", "push_back");
@@ -369,19 +435,32 @@ export default function App() {
 
   const toggleFavorite = (id, e) => {
     if (e) e.stopPropagation();
-    setVocabulary(
-      vocabulary.map((w) =>
-        w.id === id ? { ...w, favorite: !w.favorite } : w,
-      ),
-    );
+    const current = vocabulary.find((w) => w.id === id);
+    if (!current) return;
+    const updated = { ...current, favorite: !current.favorite };
+
+    setUserVocabulary((prev) => {
+      const exists = prev.some((w) => w.id === id);
+      return exists
+        ? prev.map((w) => (w.id === id ? updated : w))
+        : [updated, ...prev];
+    });
   };
 
   const deleteWord = (id, e) => {
     if (e) e.stopPropagation();
-    if (confirm("Möchten Sie dieses Wort wirklich löschen?")) {
-      setVocabulary(vocabulary.filter((w) => w.id !== id));
-      navigateTo("vocabulary", "push_back");
-    }
+    if (!confirm("Möchten Sie dieses Wort wirklich löschen?")) return;
+
+    setUserVocabulary((prev) => {
+      const isBuiltIn = id <= BASE_MAX_ID;
+      const withoutExisting = prev.filter((w) => w.id !== id);
+      // Built-in words need a tombstone so the merge hides them;
+      // user-added words can just be removed outright.
+      return isBuiltIn
+        ? [...withoutExisting, { id, deleted: true }]
+        : withoutExisting;
+    });
+    navigateTo("vocabulary", "push_back");
   };
 
   const removeTheme = (name) => {

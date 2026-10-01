@@ -1,16 +1,59 @@
-export const WORD_TYPES = ["Word", "Phrase", "Sentence"];
+export const WORD_TYPES = ["Word", "Phrase"];
 
-// Guess for words that have no saved type (older or imported words)
-export const guessWordType = (text = "") => {
-  const clean = text.trim();
-  // Ignore a leading article or "sich", so "die Speisekarte" counts as one word
-  const core = clean.replace(/^(der|die|das|ein|eine|sich)\s+/i, "");
-  const count = core.split(/\s+/).filter(Boolean).length;
-  if (count <= 1) return "Word";
-  if (count >= 5 || /[.!]$/.test(clean)) return "Sentence";
-  return "Phrase";
+const LEADING_STRIP =
+  /^(der|die|das|den|dem|des|ein|eine|einem|einen|sich|mit|in|im|auf|für|von|vom|vor|zu|zum|zur|bei|beim|nach|über|unter|zwischen|durch|um|an|am|aus|gegen|ohne|während|wegen)\s+/i;
+
+const stripLeadingNoise = (text) => {
+  let result = text.trim();
+  let prev;
+  do {
+    prev = result;
+    result = result.replace(LEADING_STRIP, "").trim();
+  } while (result !== prev);
+  return result;
 };
 
-// Saved type if there is one, otherwise the guess
+const mainPart = (segment) => {
+  const noParens = segment.replace(/\([^)]*\)/g, " ");
+  return noParens.split(",")[0].trim();
+};
+
+const mergeCompoundTokens = (tokens) => {
+  const merged = [];
+  tokens.forEach((tok) => {
+    const isLowercaseContinuation = merged.length > 0 && /^[a-zäöüß]/.test(tok);
+    if (isLowercaseContinuation) {
+      merged[merged.length - 1] += tok;
+    } else {
+      merged.push(tok);
+    }
+  });
+  return merged;
+};
+
+const countRealWords = (segment) => {
+  const cleaned = stripLeadingNoise(mainPart(segment));
+  const tokens = cleaned.split(/\s+/).filter(Boolean);
+  return mergeCompoundTokens(tokens).length;
+};
+
+export const guessWordType = (text = "") => {
+  const clean = text.trim();
+  if (!clean) return "Word";
+
+  const segments = clean
+    .split("/")
+    .map((s) => s.trim())
+    .filter(Boolean);
+  if (
+    segments.length > 1 &&
+    segments.every((seg) => countRealWords(seg) <= 1)
+  ) {
+    return "Word";
+  }
+
+  return countRealWords(clean) <= 1 ? "Word" : "Phrase";
+};
+
 export const getWordType = (item) =>
   WORD_TYPES.includes(item.type) ? item.type : guessWordType(item.word);
