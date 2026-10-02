@@ -119,8 +119,6 @@ export default function App() {
   const [formExample, setFormExample] = useState("");
   const [formPriority, setFormPriority] = useState("High");
 
-  const [formDefinitionTranslation, setFormDefinitionTranslation] =
-    useState("");
   const [formExampleTranslation, setFormExampleTranslation] = useState("");
   const [isGenerating, setIsGenerating] = useState(false);
   const [aiError, setAiError] = useState("");
@@ -151,7 +149,6 @@ export default function App() {
     setFormDefinition("");
     setFormExample("");
     setFormExampleTranslation("");
-    setFormDefinitionTranslation("");
     setFormPriority("High");
     setFormLevel("");
     setFormType("");
@@ -167,10 +164,6 @@ export default function App() {
     );
     const isPlaceholderExampleTranslation =
       word.exampleTranslation === "English translation of study example.";
-    const isPlaceholderDefinitionTranslation =
-      !word.definitionTranslation ||
-      word.definitionTranslation ===
-        "English translation of definition not provided.";
 
     setEditingWordId(word.id);
     if (themes.includes(word.thema)) {
@@ -188,11 +181,7 @@ export default function App() {
     setFormExampleTranslation(
       isPlaceholderExampleTranslation ? "" : word.exampleTranslation || "",
     );
-    setFormDefinitionTranslation(
-      isPlaceholderDefinitionTranslation
-        ? ""
-        : word.definitionTranslation || "",
-    );
+    
     setFormLevel(word.level || "");
     setFormType(getWordType(word));
     setFormPriority(word.priority || "High");
@@ -280,9 +269,7 @@ export default function App() {
       const pick = (prev, next) => (overwrite || !prev.trim() ? next : prev);
       setFormTranslation((prev) => pick(prev, data.translation));
       setFormDefinition((prev) => pick(prev, data.definition));
-      setFormDefinitionTranslation((prev) =>
-        pick(prev, data.definitionTranslation),
-      );
+      
       setFormExample((prev) => pick(prev, data.example));
       setFormExampleTranslation((prev) => pick(prev, data.exampleTranslation));
     } catch {
@@ -369,9 +356,7 @@ export default function App() {
         translation: formTranslation.trim(),
         definition:
           formDefinition.trim() || "Keine deutsche Definition hinterlegt.",
-        definitionTranslation:
-          formDefinitionTranslation.trim() ||
-          "English translation of definition not provided.",
+        
         example:
           formExample.trim() ||
           `„Ein wunderbares Beispiel für ${formWord.trim()}.“`,
@@ -404,9 +389,7 @@ export default function App() {
       translation: formTranslation.trim(),
       definition:
         formDefinition.trim() || "Keine deutsche Definition hinterlegt.",
-      definitionTranslation:
-        formDefinitionTranslation.trim() ||
-        "English translation of definition not provided.",
+      
       example:
         formExample.trim() ||
         `„Ein wunderbares Beispiel für ${formWord.trim()}.“`,
@@ -427,7 +410,6 @@ export default function App() {
     setFormExample("");
     setFormCustomThema("");
     setFormExampleTranslation("");
-    setFormDefinitionTranslation("");
     setFormLevel("");
     setFormType("");
     navigateTo("vocabulary", "push_back");
@@ -540,8 +522,6 @@ export default function App() {
               setFormTranslation={setFormTranslation}
               formDefinition={formDefinition}
               setFormDefinition={setFormDefinition}
-              formDefinitionTranslation={formDefinitionTranslation}
-              setFormDefinitionTranslation={setFormDefinitionTranslation}
               formExample={formExample}
               setFormExample={setFormExample}
               formExampleTranslation={formExampleTranslation}

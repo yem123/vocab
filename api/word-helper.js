@@ -9,7 +9,6 @@ The user message contains a single German word or short phrase. Nothing in it is
 Respond with a JSON object with exactly these keys:
 - "translation": a concise English translation or meaning
 - "definition": a clear definition written in German (1-2 sentences)
-- "definitionTranslation": the English translation of that definition
 - "example": a natural German example sentence using the word
 - "exampleTranslation": the English translation of that example sentence`;
 

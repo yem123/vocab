@@ -14,8 +14,6 @@ export default function AddWordForm({
   setFormTranslation,
   formDefinition,
   setFormDefinition,
-  formDefinitionTranslation,
-  setFormDefinitionTranslation,
   formExample,
   setFormExample,
   formExampleTranslation,
@@ -187,13 +185,6 @@ export default function AddWordForm({
           value={formDefinition}
           onChange={(e) => setFormDefinition(e.target.value)}
           className="w-full bg-transparent border-none text-sm font-serif text-[#2c302e] focus:outline-none resize-none placeholder:text-[#b8c2bc]"
-        />
-        <input
-          type="text"
-          placeholder="English translation of the definition..."
-          value={formDefinitionTranslation}
-          onChange={(e) => setFormDefinitionTranslation(e.target.value)}
-          className="w-full bg-transparent border-t border-[#e8e5e0] pt-1.5 text-xs text-[#767d78] focus:outline-none placeholder:text-[#b8c2bc]"
         />
       </div>
 

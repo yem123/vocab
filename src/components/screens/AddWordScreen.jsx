@@ -14,8 +14,6 @@ export default function AddWordScreen({
   setFormTranslation,
   formDefinition,
   setFormDefinition,
-  formDefinitionTranslation,
-  setFormDefinitionTranslation,
   formExample,
   setFormExample,
   formExampleTranslation,
@@ -54,8 +52,6 @@ export default function AddWordScreen({
         setFormTranslation={setFormTranslation}
         formDefinition={formDefinition}
         setFormDefinition={setFormDefinition}
-        formDefinitionTranslation={formDefinitionTranslation}
-        setFormDefinitionTranslation={setFormDefinitionTranslation}
         formExample={formExample}
         setFormExample={setFormExample}
         formExampleTranslation={formExampleTranslation}
