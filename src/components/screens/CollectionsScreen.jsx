@@ -1,6 +1,7 @@
 import React from "react";
 import { Star } from "lucide-react";
 import WordCard from "../vocabulary/WordCard";
+import SaveToGithubButton from "../collections/SaveToGithubButton";
 
 export default function CollectionsScreen({
   favoriteVocabulary,
@@ -24,6 +25,8 @@ export default function CollectionsScreen({
           Deine mit einem Stern markierten Wörter an einem Ort.
         </p>
       </div>
+
+      <SaveToGithubButton favoriteVocabulary={favoriteVocabulary} />
 
       {/* Favorite words list */}
       <div className="space-y-2 pt-1">

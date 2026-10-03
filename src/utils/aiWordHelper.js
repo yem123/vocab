@@ -9,8 +9,5 @@ export const fetchWordDetails = async (word) => {
   if (!response.ok) {
     throw new Error("AI request failed");
   }
-
-  // Expected shape:
-  // { translation, definition, example, exampleTranslation }
   return response.json();
 };
