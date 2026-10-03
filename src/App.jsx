@@ -4,6 +4,7 @@ import { A1_Vocabulary } from "./data/a1Vocabulary";
 import { A2_Vocabulary } from "./data/a2Vocabulary";
 import { B1_Vocabulary } from "./data/b1Vocabulary";
 import { B2_Vocabulary } from "./data/b2Vocabulary";
+import { FAVORITE_VOCABULARY } from "./data/favoriteVocabulary";
 
 import Header from "./components/layout/Header";
 import BottomNav from "./components/layout/BottomNav";
@@ -36,6 +37,7 @@ const ALL_VOCABULARY = [
   ...A2_Vocabulary,
   ...B1_Vocabulary,
   ...B2_Vocabulary,
+  ...FAVORITE_VOCABULARY,
 ].flat();
 
 // Highest id across the built-in files. New user words start above this,
