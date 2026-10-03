@@ -277,9 +277,6 @@ export default function App() {
         const pick = (prev, next) => (overwrite || !prev.trim() ? next : prev);
         setFormTranslation((prev) => pick(prev, data.translation));
         setFormDefinition((prev) => pick(prev, data.definition));
-        setFormDefinitionTranslation((prev) =>
-          pick(prev, data.definitionTranslation),
-        );
         setFormExample((prev) => pick(prev, data.example));
         setFormExampleTranslation((prev) =>
           pick(prev, data.exampleTranslation),
