@@ -1,13 +1,14 @@
-// Calls our backend, which holds the API key and talks to Claude
-export const fetchWordDetails = async (word) => {
+export const fetchWordDetails = async (word, password) => {
   const response = await fetch("/api/word-helper", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ word }),
+    body: JSON.stringify({ word, password }),
   });
 
   if (!response.ok) {
-    throw new Error("AI request failed");
+    const data = await response.json().catch(() => ({}));
+    throw new Error(data.error || "AI request failed");
   }
+
   return response.json();
 };

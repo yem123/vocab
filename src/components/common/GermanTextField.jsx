@@ -1,6 +1,6 @@
 import React, { useRef, useState, useLayoutEffect } from "react";
 
-const GERMAN_CHARS = ["ä", "ö", "ü", "ß", "Ä", "Ö", "Ü", "„", "“"];
+const GERMAN_CHARS = ["ä", "ö", "ü", "ß", "Ä", "Ö", "Ü"];
 
 /**
  * Drop-in replacement for <input> / <textarea>.

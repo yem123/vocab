@@ -45,6 +45,12 @@ const callWithRetry = async (word) => {
 
 app.post("/api/word-helper", async (req, res) => {
   const word = (req.body?.word || "").trim();
+  const password = req.body?.password || "";
+
+  if (!process.env.SAVE_PASSWORD || password !== process.env.SAVE_PASSWORD) {
+    return res.status(401).json({ error: "Incorrect password" });
+  }
+
   if (!word || word.length > 100) {
     return res.status(400).json({ error: "Invalid word" });
   }

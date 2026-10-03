@@ -100,6 +100,8 @@ export default function App() {
     }
   });
 
+  const [aiPassword, setAiPassword] = useState("");
+
   const [formCustomThema, setFormCustomThema] = useState("");
 
   const [selectedWordId, setSelectedWordId] = useState(1);
@@ -262,26 +264,36 @@ export default function App() {
 
   // AI auto-fill for the Add Word form.
   // overwrite=false: only fills empty fields. overwrite=true: replaces all AI fields.
-  const handleAIFill = async (overwrite = false) => {
-    if (!formWord.trim()) return;
-    setIsGenerating(true);
-    setAiError("");
-    try {
-      const data = await fetchWordDetails(formWord.trim());
-      const pick = (prev, next) => (overwrite || !prev.trim() ? next : prev);
-      setFormTranslation((prev) => pick(prev, data.translation));
-      setFormDefinition((prev) => pick(prev, data.definition));
-      
-      setFormExample((prev) => pick(prev, data.example));
-      setFormExampleTranslation((prev) => pick(prev, data.exampleTranslation));
-    } catch {
-      setAiError(
-        "Could not generate details. Check your connection and try again.",
-      );
-    } finally {
-      setIsGenerating(false);
-    }
-  };
+    const handleAIFill = async (overwrite = false) => {
+      if (!formWord.trim()) return;
+      if (!aiPassword.trim()) {
+        setAiError("Please enter the password first.");
+        return;
+      }
+      setIsGenerating(true);
+      setAiError("");
+      try {
+        const data = await fetchWordDetails(formWord.trim(), aiPassword.trim());
+        const pick = (prev, next) => (overwrite || !prev.trim() ? next : prev);
+        setFormTranslation((prev) => pick(prev, data.translation));
+        setFormDefinition((prev) => pick(prev, data.definition));
+        setFormDefinitionTranslation((prev) =>
+          pick(prev, data.definitionTranslation),
+        );
+        setFormExample((prev) => pick(prev, data.example));
+        setFormExampleTranslation((prev) =>
+          pick(prev, data.exampleTranslation),
+        );
+      } catch (err) {
+        setAiError(
+          err.message === "Incorrect password"
+            ? "Incorrect password."
+            : "Could not generate details. Check your connection and try again.",
+        );
+      } finally {
+        setIsGenerating(false);
+      }
+    };
 
   // Highest id currently in use, across built-in words AND the user layer
   // (so re-importing or re-adding never reuses an id, even one from a
@@ -542,6 +554,8 @@ export default function App() {
               setFormLevel={setFormLevel}
               formType={formType}
               setFormType={setFormType}
+              aiPassword={aiPassword}
+              setAiPassword={setAiPassword}
             />
           )}
 

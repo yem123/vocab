@@ -32,6 +32,8 @@ export default function AddWordForm({
   setFormType,
   formLevel,
   setFormLevel,
+  aiPassword,
+  setAiPassword,
 }) {
   return (
     <form onSubmit={handleSaveNewWord} className="space-y-4 font-sans text-xs">
@@ -41,7 +43,7 @@ export default function AddWordForm({
           <span className="font-semibold uppercase tracking-wider text-[10px]">
             Thema
           </span>
-          <span>Optional</span>
+          <span>(Optional)</span>
         </div>
 
         {/* Manual thema input: added to the dropdown list on save if it's new */}
@@ -65,12 +67,6 @@ export default function AddWordForm({
 
       {/* Word level */}
       <div className="bg-[#f9f9f7] border border-[#e8e5e0] p-3.5 rounded-2xl space-y-2">
-        <div className="flex justify-between items-center text-[#767d78]">
-          <span className="font-semibold uppercase tracking-wider text-[10px]">
-            Wortniveau
-          </span>
-          <span>Optional</span>
-        </div>
         <div className="flex gap-1.5">
           {["A1", "A2", "B1", "B2", "C1", "C2"].map((level) => (
             <button
@@ -91,12 +87,6 @@ export default function AddWordForm({
 
       {/* Word type */}
       <div className="bg-[#f9f9f7] border border-[#e8e5e0] p-3.5 rounded-2xl space-y-2">
-        <div className="flex justify-between items-center text-[#767d78]">
-          <span className="font-semibold uppercase tracking-wider text-[10px]">
-            Art
-          </span>
-          <span>Leer = automatisch</span>
-        </div>
         <div className="flex gap-1.5">
           {WORD_TYPES.map((type) => (
             <button
@@ -128,26 +118,35 @@ export default function AddWordForm({
           onChange={(e) => setFormWord(e.target.value)}
           className="w-full bg-transparent border-none text-sm font-serif text-[#2c302e] focus:outline-none placeholder:text-[#b8c2bc]"
         />{" "}
-        <div className="mt-2 flex items-center gap-2">
-          <button
-            type="button"
-            onClick={() => handleAIFill(false)}
-            disabled={isGenerating || !formWord.trim()}
-            className="flex items-center gap-1.5 bg-[#2c302e] text-white px-3 py-1.5 rounded-full font-semibold text-[11px] hover:bg-black transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
-          >
-            <Sparkles className="w-3.5 h-3.5" />
-            {isGenerating ? "Generating..." : "AI Fill"}
-          </button>
-          {isEditing && (
+        <div className="mt-2 space-y-1.5">
+          <div className="flex items-center gap-2">
             <button
               type="button"
-              onClick={() => handleAIFill(true)}
+              onClick={() => handleAIFill(false)}
               disabled={isGenerating || !formWord.trim()}
-              className="flex items-center gap-1.5 bg-[#f4f3ef] text-[#2c302e] px-3 py-1.5 rounded-full font-semibold text-[11px] hover:bg-[#eae7e2] transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+              className="flex items-center gap-1.5 bg-[#2c302e] text-white px-3 py-1.5 rounded-full font-semibold text-[11px] hover:bg-black transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
             >
-              Regenerate all
+              <Sparkles className="w-3.5 h-3.5" />
+              {isGenerating ? "Generating..." : "AI Fill"}
             </button>
-          )}
+            {isEditing && (
+              <button
+                type="button"
+                onClick={() => handleAIFill(true)}
+                disabled={isGenerating || !formWord.trim()}
+                className="flex items-center gap-1.5 bg-[#f4f3ef] text-[#2c302e] px-3 py-1.5 rounded-full font-semibold text-[11px] hover:bg-[#eae7e2] transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+              >
+                Regenerate all
+              </button>
+            )}
+          </div>
+          <input
+            type="password"
+            value={aiPassword}
+            onChange={(e) => setAiPassword(e.target.value)}
+            placeholder="AI password"
+            className="w-full bg-white border border-[#e8e5e0] rounded-lg px-2.5 py-1.5 text-[11px] focus:outline-none focus:border-[#637368] placeholder:text-[#b8c2bc]"
+          />
         </div>
         {aiError && <p className="text-rose-500 text-[11px] mt-1">{aiError}</p>}
       </div>
