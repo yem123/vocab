@@ -11,18 +11,20 @@ export default function WordCard({ item, setSelectedWordId, navigateTo }) {
       }}
       className="group bg-white border border-[#f0eee9] hover:border-[#d0d7d3] p-2 px-4 rounded shadow-xs transition-all cursor-pointer flex items-center justify-between"
     >
-      <div className="flex-1 pr-3">
-        <div className="flex items-center gap-4">
-          <h4 className="font-serif text-base text-[#2c302e] group-hover:text-[#435249] transition-colors min-w-30">
+      <div className="flex-1 min-w-0 pr-3">
+        <div className="flex items-center gap-3 min-w-0">
+          <h4 className="font-serif text-base text-[#2c302e] group-hover:text-[#435249] transition-colors truncate max-w-[45%] shrink-0">
             {item.word}
           </h4>
-          <p className="font-sans text-xs text-[#637368] mt-0.5 truncate max-w-30">
+          <p className="font-sans text-xs text-[#637368] mt-0.5 truncate flex-1 min-w-0">
             {item.translation}
           </p>
-          {item.favorite && <span className="text-amber-400 text-xs">⭐</span>}
+          {item.favorite && (
+            <span className="text-amber-400 text-xs shrink-0">⭐</span>
+          )}
         </div>
       </div>
-      <div className="flex items-center gap-2 text-[#a8b0ac] group-hover:text-[#2c302e]">
+      <div className="flex items-center gap-2 text-[#a8b0ac] group-hover:text-[#2c302e] shrink-0">
         <ChevronRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5" />
       </div>
     </div>
