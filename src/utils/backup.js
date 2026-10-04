@@ -69,7 +69,7 @@ export const parseBackup = (text) => {
         priority: ["High", "Medium", "Low"].includes(w.priority)
           ? w.priority
           : "High",
-        level: ["A1", "A2", "B1", "B2", "C1", "C2"].includes(w.level)
+        level: ["A1", "A2", "B1", "B2"].includes(w.level)
           ? w.level
           : "",
         type: ["Word", "Phrase"].includes(w.type) ? w.type : "",

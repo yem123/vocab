@@ -12,7 +12,7 @@ import {
   Layers,
 } from "lucide-react";
 
-export const LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"];
+export const LEVELS = ["A1", "A2", "B1", "B2"];
 
 // Themes are user-defined, so icons are picked by keyword (first match wins)
 const ICON_RULES = [

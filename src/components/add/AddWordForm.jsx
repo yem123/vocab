@@ -68,7 +68,7 @@ export default function AddWordForm({
       {/* Word level */}
       <div className="bg-[#f9f9f7] border border-[#e8e5e0] p-3.5 rounded-2xl space-y-2">
         <div className="flex gap-1.5">
-          {["A1", "A2", "B1", "B2", "C1", "C2"].map((level) => (
+          {["A1", "A2", "B1", "B2"].map((level) => (
             <button
               key={level}
               type="button"
