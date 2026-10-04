@@ -10,7 +10,7 @@ export default function SanctuaryBanner({ vocabulary, navigateTo }) {
             Mein Deutsches Vokabular
           </h2>
           <p className="font-sans text-xs text-[#637368] mt-1">
-            {vocabulary.length} curated words · Stored locally on device
+            {vocabulary.length} curated words
           </p>
         </div>
         <button

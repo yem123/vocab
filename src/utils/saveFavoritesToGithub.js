@@ -1,8 +1,8 @@
-export const saveFavoritesToGithub = async (password, words) => {
+export const saveFavoritesToGithub = async (password, filesFavorites) => {
   const response = await fetch("/api/save-favorites", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ password, words }),
+    body: JSON.stringify({ password, filesFavorites }),
   });
 
   const data = await response.json().catch(() => ({}));

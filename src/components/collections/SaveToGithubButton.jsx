@@ -2,7 +2,11 @@ import React, { useState } from "react";
 import { UploadCloud, Check } from "lucide-react";
 import { saveFavoritesToGithub } from "../../utils/saveFavoritesToGithub";
 
-export default function SaveToGithubButton({ favoriteVocabulary }) {
+export default function SaveToGithubButton({
+  favoriteVocabulary,
+  idToFile,
+  cleanupSyncedFavorites,
+}) {
   const [showPrompt, setShowPrompt] = useState(false);
   const [password, setPassword] = useState("");
   const [status, setStatus] = useState("idle"); // idle | saving | success | error
@@ -12,9 +16,21 @@ export default function SaveToGithubButton({ favoriteVocabulary }) {
     setStatus("saving");
     setMessage("");
     try {
-      const result = await saveFavoritesToGithub(password, favoriteVocabulary);
+      const filesFavorites = {};
+      favoriteVocabulary.forEach((w) => {
+        const path = idToFile.get(w.id);
+        if (!path) return;
+        if (!filesFavorites[path]) filesFavorites[path] = [];
+        filesFavorites[path].push(w.id);
+      });
+
+      await saveFavoritesToGithub(password, filesFavorites);
+
+      const savedIds = new Set(Object.values(filesFavorites).flat());
+      if (cleanupSyncedFavorites) cleanupSyncedFavorites(savedIds);
+
       setStatus("success");
-      setMessage(`Saved ${result.count} words to GitHub.`);
+      setMessage("Favorites saved to server.");
       setPassword("");
       setShowPrompt(false);
     } catch (err) {
@@ -41,8 +57,8 @@ export default function SaveToGithubButton({ favoriteVocabulary }) {
       ) : (
         <div className="bg-[#f4f3ef] border border-[#e8e5e0] rounded-xl p-3 space-y-2">
           <p className="font-sans text-[11px] text-[#637368]">
-            Enter the password to commit {favoriteVocabulary.length} favorites
-            to GitHub.
+            Enter the password to save {favoriteVocabulary.length} favorites
+            to server.
           </p>
           <input
             type="password"

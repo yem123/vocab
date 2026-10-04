@@ -4,7 +4,6 @@ import { A1_Vocabulary } from "./data/a1Vocabulary";
 import { A2_Vocabulary } from "./data/a2Vocabulary";
 import { B1_Vocabulary } from "./data/b1Vocabulary";
 import { B2_Vocabulary } from "./data/b2Vocabulary";
-import { FAVORITE_VOCABULARY } from "./data/favoriteVocabulary";
 
 import Header from "./components/layout/Header";
 import BottomNav from "./components/layout/BottomNav";
@@ -29,25 +28,28 @@ const DEFAULT_THEMES = [
   "Alltag",
 ];
 
-// Combine all level vocabularies into a single master array (the built-in,
-// read-only layer). .flat() guards against any file that's accidentally
-// nested in an extra array, like [[ {...}, {...} ]] instead of [ {...}, {...} ].
-const ALL_VOCABULARY = [
-  ...A1_Vocabulary,
-  ...A2_Vocabulary,
-  ...B1_Vocabulary,
-  ...B2_Vocabulary,
-  ...FAVORITE_VOCABULARY,
-].flat();
+const SOURCE_FILES = [
+  { path: "src/data/a1Vocabulary.js", words: A1_Vocabulary },
+  { path: "src/data/a2Vocabulary.js", words: A2_Vocabulary },
+  { path: "src/data/b1Vocabulary.js", words: B1_Vocabulary },
+  { path: "src/data/b2Vocabulary.js", words: B2_Vocabulary },
+];
 
-// Highest id across the built-in files. New user words start above this,
-// so they never collide with a built-in id, even as more get added later.
+const ALL_VOCABULARY = SOURCE_FILES.flatMap((f) => f.words).flat();
+
 const BASE_MAX_ID = ALL_VOCABULARY.reduce(
   (max, w) => (typeof w.id === "number" && w.id > max ? w.id : max),
   0,
 );
 
-// Merges the built-in list with the user layer (additions, edits, deletions)
+// id -> source file path, for ids that belong to a built-in word
+const ID_TO_FILE = new Map();
+SOURCE_FILES.forEach(({ path, words }) => {
+  words.flat().forEach((w) => {
+    if (typeof w.id === "number") ID_TO_FILE.set(w.id, path);
+  });
+});
+
 const mergeVocabulary = (userLayer) => {
   const overrides = new Map();
   const deleted = new Set();
@@ -67,7 +69,6 @@ const mergeVocabulary = (userLayer) => {
     (w) => overrides.get(w.id) || w,
   );
 
-  // Newest-first, matching the app's existing display order
   return [...additions, ...base];
 };
 
@@ -468,6 +469,27 @@ export default function App() {
     if (formThema === name) setFormThema(remaining[0] || "");
   };
 
+  const cleanupSyncedFavorites = (savedIds) => {
+    setUserVocabulary((prev) =>
+      prev.filter((entry) => {
+        if (entry.deleted) return true; // never touch deletion tombstones
+        if (!savedIds.has(entry.id)) return true; // not part of this save
+
+        const builtIn = BASE_VOCABULARY.find((w) => w.id === entry.id);
+        if (!builtIn) return true; // not a built-in word, keep as-is
+
+        // Compare entry to builtIn ignoring the favorite field; if everything
+        // else matches, this override is now redundant and can be dropped.
+        const { favorite: entryFav, ...entryRest } = entry;
+        const { favorite: builtInFav, ...builtInRest } = builtIn;
+        const isPureFavoriteDuplicate =
+          JSON.stringify(entryRest) === JSON.stringify(builtInRest);
+
+        return !isPureFavoriteDuplicate;
+      }),
+    );
+  };
+
   return (
     <div className="min-h-screen bg-[#fcfbf9] text-[#2c302e] font-serif flex flex-col items-center justify-start selection:bg-[#8fa394]/30">
       <div className="w-full max-w-md bg-white min-h-screen shadow-2xl flex flex-col relative border-x border-[#eae7e2]">
@@ -515,6 +537,8 @@ export default function App() {
               favoriteVocabulary={favoriteVocabulary}
               setSelectedWordId={setSelectedWordId}
               navigateTo={navigateTo}
+              idToFile={ID_TO_FILE}
+              cleanupSyncedFavorites={cleanupSyncedFavorites}
             />
           )}
 
