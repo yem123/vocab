@@ -37,7 +37,7 @@ export default function SearchAndFilters({
   }, [vocabulary]);
 
   return (
-    <div className="space-y-3">
+    <div className="space-y-2">
       <GermanTextField
         icon={
           <Search className="absolute left-3.5 top-3.5 w-4 h-4 text-[#8a928e]" />
@@ -50,7 +50,7 @@ export default function SearchAndFilters({
       />
 
       {/* pt-2 / pr-2 leave room for the count badges that overhang each pill */}
-      <div className="flex items-center gap-2 overflow-x-auto pt-2 pr-2 pb-1 no-scrollbar font-sans text-xs">
+      <div className="flex items-center gap-2 overflow-x-auto pt-2 pr-2 no-scrollbar font-sans text-xs">
         {["All Words", "A1", "A2", "B1", "B2", "C1", "C2"].map((pill) => (
           <button
             key={pill}
@@ -58,11 +58,12 @@ export default function SearchAndFilters({
               setSelectedLevelFilter(pill);
               if (pill === "All Words") setSelectedThemeFilter("All Words");
             }}
-            className={`relative px-3.5 py-1.5 rounded-full font-medium transition-all shrink-0 ${
+            className={`relative px-3.5 py-1.5 font-medium transition-all shrink-0 ${
               selectedLevelFilter === pill
                 ? "bg-[#2c302e] text-white shadow-sm"
                 : "bg-[#f4f3ef] text-[#637368] hover:bg-[#eae7e2]"
-            }`}
+            }
+            ${pill === "All Words" ? "rounded-full" : "rounded-md "}`}
           >
             {pill}
           </button>

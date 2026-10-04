@@ -15200,20 +15200,6 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 4870,
-      word: "der Rucksack, -e",
-      translation: "backpack",
-      definition: "Eine Tasche, die man auf dem Rücken trägt.",
-      example:
-        "Für die Wanderung in den Bergen packte er Proviant in seinen Rucksack.",
-      exampleTranslation:
-        "For the hike in the mountains, he packed provisions in his backpack.",
-      thema: "Freizeit",
-      priority: "Medium",
-      favorite: false,
-      level: "B2",
-    },
-    {
       id: 4871,
       word: "die Entspannung, -en",
       translation: "relaxation",
