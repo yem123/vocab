@@ -4972,7 +4972,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "My everyday life starts early in the morning.",
     thema: "Alltag",
     priority: "High",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -5033,9 +5033,8 @@ export const A1_Vocabulary = [
     exampleTranslation: "I have to do laundry today.",
     thema: "Alltag",
     priority: "Medium",
-    favorite: false,
+    favorite: true,
     level: "A1",
-    family: "die Wäsche",
   },
   {
     id: 411,
@@ -5229,9 +5228,8 @@ export const A1_Vocabulary = [
     exampleTranslation: "The shop is not open on Sundays.",
     thema: "Adjektive",
     priority: "High",
-    favorite: false,
+    favorite: true,
     level: "A1",
-    family: "geöffnet",
   },
   {
     id: 427,
@@ -5268,7 +5266,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "On the weekend I have to tidy up my room.",
     thema: "Grundverben",
     priority: "High",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -5367,7 +5365,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "I have a date with Anna today.",
     thema: "Alltag",
     priority: "Medium",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -5623,7 +5621,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "Corn tastes very good in salad.",
     thema: "Essen und Trinken",
     priority: "Low",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -5635,7 +5633,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "We are collecting mushrooms in the forest.",
     thema: "Essen und Trinken",
     priority: "Low",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -5671,7 +5669,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "The amount is enough for four people.",
     thema: "Mengen",
     priority: "Medium",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -5732,7 +5730,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "We are buying a crate of mineral water.",
     thema: "Verpackungen",
     priority: "Medium",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -5744,7 +5742,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "The soup is in a can.",
     thema: "Verpackungen",
     priority: "Medium",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -5756,7 +5754,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "A pack of flour costs little.",
     thema: "Verpackungen",
     priority: "Medium",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -5780,7 +5778,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "Coffee beans are ground for coffee.",
     thema: "Essen und Trinken",
     priority: "Low",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -5840,7 +5838,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "He likes a roll with ham.",
     thema: "Essen und Trinken",
     priority: "Medium",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -5928,7 +5926,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "The book is on the bedside table.",
     thema: "Möbel",
     priority: "Medium",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -5964,7 +5962,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "The food tastes delicious.",
     thema: "Adjektive",
     priority: "Medium",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -5976,7 +5974,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "Your idea is great!",
     thema: "Adjektive",
     priority: "Medium",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -5993,7 +5991,7 @@ export const A1_Vocabulary = [
   },
   {
     id: 489,
-    word: "fast",
+    word: "fast (ዳርጋ)",
     translation: "almost / nearly",
     definition: "Beinahe, nicht ganz vollständig.",
     example: "Ich bin fast fertig mit der Arbeit.",
@@ -6002,6 +6000,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "Word",
   },
   {
     id: 490,
@@ -6024,7 +6023,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "Actually I am off today.",
     thema: "Adverbien",
     priority: "High",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -6109,7 +6108,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "For breakfast I eat a French croissant.",
     thema: "Essen und Trinken",
     priority: "Medium",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -6121,7 +6120,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "I drink coffee from a large mug.",
     thema: "Essen und Trinken",
     priority: "Medium",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -6182,7 +6181,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "I am buying a newspaper at the kiosk.",
     thema: "Orte",
     priority: "Medium",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -6218,7 +6217,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "Every person is different.",
     thema: "Menschen",
     priority: "High",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -6386,7 +6385,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "The grandson visits his grandparents.",
     thema: "Familie",
     priority: "Medium",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -6398,7 +6397,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "The granddaughter goes to kindergarten.",
     thema: "Familie",
     priority: "Medium",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -6434,9 +6433,8 @@ export const A1_Vocabulary = [
     exampleTranslation: "Her husband works as an engineer.",
     thema: "Familie",
     priority: "High",
-    favorite: false,
+    favorite: true,
     level: "A1",
-    family: "verheiratet",
   },
   {
     id: 526,
@@ -6459,9 +6457,8 @@ export const A1_Vocabulary = [
     exampleTranslation: "His wife cooks very well.",
     thema: "Familie",
     priority: "High",
-    favorite: false,
+    favorite: true,
     level: "A1",
-    family: "verheiratet",
   },
   {
     id: 528,
@@ -6532,9 +6529,8 @@ export const A1_Vocabulary = [
     exampleTranslation: "They kiss each other as a greeting.",
     thema: "Gefühle",
     priority: "Medium",
-    favorite: false,
+    favorite: true,
     level: "A1",
-    family: "der Kuss",
   },
   {
     id: 534,
@@ -6545,9 +6541,8 @@ export const A1_Vocabulary = [
     exampleTranslation: "He gives her a kiss.",
     thema: "Gefühle",
     priority: "Medium",
-    favorite: false,
+    favorite: true,
     level: "A1",
-    family: "der Kuss",
   },
   {
     id: 535,
@@ -6558,7 +6553,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "Children like riding on ponies.",
     thema: "Tiere",
     priority: "Low",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -6815,9 +6810,8 @@ export const A1_Vocabulary = [
     exampleTranslation: "At this age one learns quickly.",
     thema: "Zeit",
     priority: "Medium",
-    favorite: false,
+    favorite: true,
     level: "A1",
-    family: "das Alter",
   },
   {
     id: 557,
@@ -6840,7 +6834,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "What is your marital status?",
     thema: "Persönliche Daten",
     priority: "Medium",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -6877,7 +6871,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "He is divorced and has two children.",
     thema: "Persönliche Daten",
     priority: "Medium",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -6889,7 +6883,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "The old lady is widowed.",
     thema: "Persönliche Daten",
     priority: "Low",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -6925,7 +6919,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "The two of them are very much in love.",
     thema: "Gefühle",
     priority: "Medium",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -6949,7 +6943,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "On the weekend I like to go shopping.",
     thema: "Freizeit",
     priority: "Medium",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
@@ -7023,7 +7017,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "The educator works in the kindergarten.",
     thema: "Arbeit",
     priority: "Medium",
-    favorite: false,
+    favorite: true,
     level: "A1",
   },
   {
