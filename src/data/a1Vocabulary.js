@@ -111,6 +111,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    family: "Begrüßung",
   },
   {
     id: 10,
@@ -283,6 +284,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Land",
   },
   {
     id: 24,
@@ -514,6 +516,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "Name",
   },
   {
     id: 43,
@@ -526,6 +529,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "Name",
   },
   {
     id: 44,
@@ -613,6 +617,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "Nummer",
   },
   {
     id: 51,
@@ -831,6 +836,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    family: "das Land",
   },
   {
     id: 69,
@@ -891,6 +897,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    family: "sprechen",
   },
   {
     id: 74,
@@ -999,6 +1006,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "Frage",
   },
   {
     id: 83,
@@ -1011,6 +1019,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "Antwort",
   },
   {
     id: 84,
@@ -1072,6 +1081,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "Frage",
   },
   {
     id: 89,
@@ -1084,6 +1094,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "Antwort",
   },
   {
     id: 90,
@@ -1120,6 +1131,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "Nummer",
   },
   {
     id: 93,
@@ -1555,6 +1567,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Kurs",
   },
   {
     id: 129,
@@ -1796,6 +1809,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "Mitarbeiter",
   },
   {
     id: 149,
@@ -1808,6 +1822,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "Mitarbeiter",
   },
   {
     id: 150,
@@ -1966,6 +1981,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Beruf",
   },
   {
     id: 163,
@@ -2014,6 +2030,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    family: "passen",
   },
   {
     id: 167,
@@ -2039,6 +2056,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    family: "lesen",
   },
   {
     id: 169,
@@ -2051,6 +2069,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "lesen",
   },
   {
     id: 170,
@@ -2377,6 +2396,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    family: "Tasche",
   },
   {
     id: 197,
@@ -2389,6 +2409,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "Tasche",
   },
   {
     id: 198,
@@ -2569,6 +2590,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: true,
     level: "A1",
+    family: "der Kurs",
   },
   {
     id: 213,
@@ -2726,6 +2748,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: true,
     level: "A1",
+    family: "markieren",
   },
   {
     id: 226,
@@ -2738,6 +2761,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "Deutsch",
   },
   {
     id: 227,
@@ -2750,6 +2774,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "danke",
   },
   {
     id: 228,
@@ -2834,6 +2859,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "zeichnen",
   },
   {
     id: 235,
@@ -2979,6 +3005,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "liegen",
   },
   {
     id: 247,
@@ -3015,6 +3042,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Information",
   },
   {
     id: 250,
@@ -3099,6 +3127,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    family: "notieren",
   },
   {
     id: 257,
@@ -3111,6 +3140,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    family: "zeichnen",
   },
   {
     id: 258,
@@ -3183,6 +3213,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Markt",
   },
   {
     id: 264,
@@ -3195,6 +3226,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Markt",
   },
   {
     id: 265,
@@ -3267,6 +3299,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Arbeit",
   },
   {
     id: 271,
@@ -3353,6 +3386,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Speise",
   },
   {
     id: 278,
@@ -3377,6 +3411,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "trinken",
   },
   {
     id: 280,
@@ -3487,6 +3522,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "trinken",
   },
   {
     id: 289,
@@ -3511,6 +3547,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    family: "die Speise",
   },
   {
     id: 291,
@@ -3523,6 +3560,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Apfel",
   },
   {
     id: 292,
@@ -3559,6 +3597,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Brot",
   },
   {
     id: 295,
@@ -3619,6 +3658,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Essen",
   },
   {
     id: 300,
@@ -3691,6 +3731,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "freihaben",
   },
   {
     id: 306,
@@ -3776,6 +3817,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Apfel",
   },
   {
     id: 313,
@@ -3800,6 +3842,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "der Apfel",
   },
   {
     id: 315,
@@ -3812,6 +3855,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Käse",
   },
   {
     id: 316,
@@ -3824,6 +3868,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "der Käse",
   },
   {
     id: 317,
@@ -3837,6 +3882,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "der Käse",
   },
   {
     id: 318,
@@ -3873,6 +3919,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Tomate",
   },
   {
     id: 321,
@@ -3981,6 +4028,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    family: "freihaben",
   },
   {
     id: 330,
@@ -4065,6 +4113,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Essen",
   },
   {
     id: 337,
@@ -4113,6 +4162,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "der Kurs",
   },
   {
     id: 341,
@@ -4197,6 +4247,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Tomate",
   },
   {
     id: 348,
@@ -4259,6 +4310,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Tag",
   },
   {
     id: 353,
@@ -4367,6 +4419,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Frühstück",
   },
   {
     id: 362,
@@ -4415,6 +4468,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Tanz",
   },
   {
     id: 366,
@@ -4463,6 +4517,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "der Tanz",
   },
   {
     id: 370,
@@ -4475,6 +4530,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Arbeit",
   },
   {
     id: 371,
@@ -4499,6 +4555,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "das Meeting",
   },
   {
     id: 373,
@@ -4511,6 +4568,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Frühstück",
   },
   {
     id: 374,
@@ -4559,6 +4617,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Tag",
   },
   {
     id: 378,
@@ -4571,6 +4630,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Uhr",
   },
   {
     id: 379,
@@ -4583,6 +4643,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Uhr",
   },
   {
     id: 380,
@@ -4607,6 +4668,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Zeit",
   },
   {
     id: 382,
@@ -4619,6 +4681,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "das Meeting",
   },
   {
     id: 383,
@@ -4715,6 +4778,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Tag",
   },
   {
     id: 391,
@@ -4728,6 +4792,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Zeit",
   },
   {
     id: 392,
@@ -4740,6 +4805,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Tag",
   },
   {
     id: 393,
@@ -4752,6 +4818,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Morgen",
   },
   {
     id: 394,
@@ -4764,6 +4831,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Morgen",
   },
   {
     id: 395,
@@ -4776,6 +4844,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Vormittag",
   },
   {
     id: 396,
@@ -4788,6 +4857,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Vormittag",
   },
   {
     id: 397,
@@ -4800,6 +4870,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Mittag",
   },
   {
     id: 398,
@@ -4812,6 +4883,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Mittag",
   },
   {
     id: 399,
@@ -4824,6 +4896,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Nachmittag",
   },
   {
     id: 400,
@@ -4836,6 +4909,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Nachmittag",
   },
   {
     id: 401,
@@ -4848,6 +4922,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Abend",
   },
   {
     id: 402,
@@ -4860,6 +4935,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Abend",
   },
   {
     id: 403,
@@ -4872,6 +4948,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Nacht",
   },
   {
     id: 404,
@@ -4884,6 +4961,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Nacht",
   },
   {
     id: 405,
@@ -4944,6 +5022,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Wäsche",
   },
   {
     id: 410,
@@ -4956,6 +5035,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Wäsche",
   },
   {
     id: 411,
@@ -4992,6 +5072,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "offiziell",
   },
   {
     id: 414,
@@ -5004,6 +5085,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "offiziell",
   },
   {
     id: 415,
@@ -5124,6 +5206,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "geöffnet",
   },
   {
     id: 425,
@@ -5148,6 +5231,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "geöffnet",
   },
   {
     id: 427,
@@ -5160,6 +5244,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "geöffnet",
   },
   {
     id: 428,
@@ -5172,6 +5257,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Freizeit",
   },
   {
     id: 429,
@@ -5197,6 +5283,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Einladung",
   },
   {
     id: 431,
@@ -5221,6 +5308,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "kaufen",
   },
   {
     id: 433,
@@ -5354,6 +5442,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Markt",
   },
   {
     id: 444,
@@ -5390,6 +5479,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Wasser",
   },
   {
     id: 447,
@@ -5414,6 +5504,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Olive",
   },
   {
     id: 449,
@@ -5611,7 +5702,7 @@ export const A1_Vocabulary = [
   {
     id: 465,
     word: "das Kilo, -s (kg)",
-    translation: " кило / kilogram",
+    translation: "kilogram",
     definition: "Eine Maßeinheit für Gewicht entsprechend 1000 Gramm.",
     example: "Ein Kilo Bananen kostet zwei Euro.",
     exampleTranslation: "A kilo of bananas costs two euros.",
@@ -5787,6 +5878,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Salat",
   },
   {
     id: 480,
@@ -5799,6 +5891,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Salat",
   },
   {
     id: 481,
@@ -5811,6 +5904,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Einladung",
   },
   {
     id: 482,
@@ -5823,6 +5917,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Essen",
   },
   {
     id: 483,
@@ -6003,6 +6098,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "das Brot",
   },
   {
     id: 498,
@@ -6063,6 +6159,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Arbeit",
   },
   {
     id: 503,
@@ -6339,6 +6436,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "verheiratet",
   },
   {
     id: 526,
@@ -6363,6 +6461,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "verheiratet",
   },
   {
     id: 528,
@@ -6435,6 +6534,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Kuss",
   },
   {
     id: 534,
@@ -6447,6 +6547,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Kuss",
   },
   {
     id: 535,
@@ -6531,6 +6632,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Augenfarbe",
   },
   {
     id: 542,
@@ -6543,6 +6645,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Augenfarbe",
   },
   {
     id: 543,
@@ -6555,6 +6658,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Farbe",
   },
   {
     id: 544,
@@ -6567,6 +6671,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Farbe",
   },
   {
     id: 545,
@@ -6699,6 +6804,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Alter",
   },
   {
     id: 556,
@@ -6711,6 +6817,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "das Alter",
   },
   {
     id: 557,
@@ -6759,6 +6866,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "verheiratet",
   },
   {
     id: 561,
@@ -6891,6 +6999,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Student",
   },
   {
     id: 572,
@@ -6903,6 +7012,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Student",
   },
   {
     id: 573,
@@ -6999,6 +7109,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "Deutsch",
   },
   {
     id: 581,
@@ -7036,6 +7147,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Eltern",
   },
   {
     id: 584,
@@ -7181,6 +7293,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Haus",
   },
   {
     id: 596,
@@ -7205,6 +7318,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "kaufen",
   },
   {
     id: 598,
@@ -7265,6 +7379,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "anstrengen",
   },
   {
     id: 603,
@@ -7277,6 +7392,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Interesse",
   },
   {
     id: 604,
@@ -7349,6 +7465,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "laufen",
   },
   {
     id: 610,
@@ -7361,6 +7478,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Spaß",
   },
   {
     id: 611,
@@ -7373,6 +7491,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "das Glück",
   },
   {
     id: 612,
@@ -7385,6 +7504,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "besuchen",
   },
   {
     id: 613,
@@ -7409,6 +7529,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "treffen",
   },
   {
     id: 615,
@@ -7433,6 +7554,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "schlafen",
   },
   {
     id: 617,
@@ -7445,6 +7567,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "das Kind",
   },
   {
     id: 618,
@@ -7457,6 +7580,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "arbeiten",
   },
   {
     id: 619,
@@ -7505,6 +7629,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "badet",
   },
   {
     id: 623,
@@ -7517,6 +7642,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "kochen",
   },
   {
     id: 624,
@@ -7529,6 +7655,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "duschen",
   },
   {
     id: 625,
@@ -7541,6 +7668,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Toilette",
   },
   {
     id: 626,
@@ -7553,6 +7681,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Toilette",
   },
   {
     id: 627,
@@ -7565,6 +7694,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Toilette",
   },
   {
     id: 628,
@@ -7589,6 +7719,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Tisch",
   },
   {
     id: 630,
@@ -7686,6 +7817,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "die Sonne",
   },
   {
     id: 638,
@@ -7698,6 +7830,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Wäsche",
   },
   {
     id: 639,
@@ -7710,6 +7843,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "kühlen",
   },
   {
     id: 640,
@@ -7722,6 +7856,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "spülen",
   },
   {
     id: 641,
@@ -7734,6 +7869,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Kaffee",
   },
   {
     id: 642,
@@ -7794,6 +7930,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Alter",
   },
   {
     id: 647,
@@ -7806,6 +7943,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "modern",
   },
   {
     id: 648,
@@ -7818,6 +7956,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "modern",
   },
   {
     id: 649,
@@ -7927,6 +8066,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "mieten",
   },
   {
     id: 658,
@@ -7999,6 +8139,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "parken",
   },
   {
     id: 664,
@@ -8023,6 +8164,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Wohngemeinschaft",
   },
   {
     id: 666,
@@ -8035,6 +8177,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "die Wohngemeinschaft",
   },
   {
     id: 667,
@@ -8119,6 +8262,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "anfangen",
   },
   {
     id: 674,
@@ -8131,6 +8275,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "anfangen",
   },
   {
     id: 675,
@@ -8156,6 +8301,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Wohnung",
   },
   {
     id: 677,
@@ -8193,6 +8339,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Garten",
   },
   {
     id: 680,
@@ -8205,6 +8352,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Balkon",
   },
   {
     id: 681,
@@ -8229,6 +8377,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Nachbar",
   },
   {
     id: 683,
@@ -8241,6 +8390,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Glück",
   },
   {
     id: 684,
@@ -8265,6 +8415,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Platz",
   },
   {
     id: 686,
@@ -8325,6 +8476,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "mieten",
   },
   {
     id: 691,
@@ -8337,6 +8489,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "mieten",
   },
   {
     id: 692,
@@ -8349,6 +8502,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "mieten",
   },
   {
     id: 693,
@@ -8373,6 +8527,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "heizen",
   },
   {
     id: 695,
@@ -8397,6 +8552,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "verbieten",
   },
   {
     id: 697,
@@ -8409,6 +8565,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "erlauben",
   },
   {
     id: 698,
@@ -8421,6 +8578,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "das Kind",
   },
   {
     id: 699,
@@ -8469,6 +8627,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "parken",
   },
   {
     id: 703,
@@ -8493,6 +8652,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Freizeit",
   },
   {
     id: 705,
@@ -8541,6 +8701,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "das Spiel",
   },
   {
     id: 709,
@@ -8553,6 +8714,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "treffen",
   },
   {
     id: 710,
@@ -8625,6 +8787,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "das Spiel",
   },
   {
     id: 716,
@@ -8673,6 +8836,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Bäcker",
   },
   {
     id: 720,
@@ -8757,6 +8921,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "schwimmen",
   },
   {
     id: 727,
@@ -8769,6 +8934,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Tag",
   },
   {
     id: 728,
@@ -8793,6 +8959,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "laufen",
   },
   {
     id: 730,
@@ -8817,6 +8984,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "treffen",
   },
   {
     id: 732,
@@ -8853,6 +9021,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "das Konzert",
   },
   {
     id: 735,
@@ -8877,6 +9046,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "der Sport",
   },
   {
     id: 737,
@@ -8901,6 +9071,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "fahren",
   },
   {
     id: 739,
@@ -8925,6 +9096,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "reisen",
   },
   {
     id: 741,
@@ -8949,6 +9121,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Person",
   },
   {
     id: 743,
@@ -8961,6 +9134,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Verabredung",
   },
   {
     id: 744,
@@ -9009,6 +9183,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "fahren",
   },
   {
     id: 748,
@@ -9046,6 +9221,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "die Zeit",
   },
   {
     id: 751,
@@ -9118,6 +9294,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Bus",
   },
   {
     id: 757,
@@ -9166,6 +9343,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "fliegen",
   },
   {
     id: 761,
@@ -9178,6 +9356,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "fliegen",
   },
   {
     id: 762,
@@ -9190,6 +9369,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "fliegen",
   },
   {
     id: 763,
@@ -9286,6 +9466,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "empfangen",
   },
   {
     id: 771,
@@ -9298,6 +9479,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "fahren",
   },
   {
     id: 772,
@@ -9310,6 +9492,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Kurs",
   },
   {
     id: 773,
@@ -9322,6 +9505,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "der Kurs",
   },
   {
     id: 774,
@@ -9358,6 +9542,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "die Stunde",
   },
   {
     id: 777,
@@ -9370,6 +9555,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "kosten",
   },
   {
     id: 778,
@@ -9382,6 +9568,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "kosten",
   },
   {
     id: 779,
@@ -9418,6 +9605,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Familie",
   },
   {
     id: 782,
@@ -9430,6 +9618,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Schule",
   },
   {
     id: 783,
@@ -9478,6 +9667,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Schule",
   },
   {
     id: 787,
@@ -9490,6 +9680,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "der Kurs",
   },
   {
     id: 788,
@@ -9586,6 +9777,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Gruß",
   },
   {
     id: 796,
@@ -9647,6 +9839,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Karte",
   },
   {
     id: 801,
@@ -9659,6 +9852,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Bank",
   },
   {
     id: 802,
@@ -9671,6 +9865,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Bahn",
   },
   {
     id: 803,
@@ -9683,6 +9878,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Karte",
   },
   {
     id: 804,
@@ -9707,6 +9903,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "setzen",
   },
   {
     id: 806,
@@ -9719,6 +9916,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "das Konto",
   },
   {
     id: 807,
@@ -9731,6 +9929,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "das Ausland",
   },
   {
     id: 808,
@@ -9743,6 +9942,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Konto",
   },
   {
     id: 809,
@@ -9780,6 +9980,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "fahren",
   },
   {
     id: 812,
@@ -9840,6 +10041,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "bewerben",
   },
   {
     id: 817,
@@ -9864,6 +10066,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "bewerben",
   },
   {
     id: 819,
@@ -9888,6 +10091,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "studieren",
   },
   {
     id: 821,
@@ -9972,6 +10176,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "bewegen",
   },
   {
     id: 828,
@@ -9984,6 +10189,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Post",
   },
   {
     id: 829,
@@ -9996,6 +10202,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "tragen",
   },
   {
     id: 830,
@@ -10021,6 +10228,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "das Büro",
   },
   {
     id: 832,
@@ -10033,6 +10241,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "ausweisen",
   },
   {
     id: 833,
@@ -10058,6 +10267,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Arbeit",
   },
   {
     id: 835,
@@ -10071,6 +10281,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Bürger",
   },
   {
     id: 836,
@@ -10083,6 +10294,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "reisen",
   },
   {
     id: 837,
@@ -10107,6 +10319,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "legen",
   },
   {
     id: 839,
@@ -10167,6 +10380,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "unterschreiben",
   },
   {
     id: 844,
@@ -10179,6 +10393,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "unterschreiben",
   },
   {
     id: 845,
@@ -10203,6 +10418,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "tragen",
   },
   {
     id: 847,
@@ -10239,6 +10455,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "waschen",
   },
   {
     id: 850,
@@ -10299,6 +10516,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "machen",
   },
   {
     id: 855,
@@ -10311,6 +10529,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "machen",
   },
   {
     id: 856,
@@ -10323,6 +10542,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Herz",
   },
   {
     id: 857,
@@ -10347,6 +10567,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "kommen",
   },
   {
     id: 859,
@@ -10383,6 +10604,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "voll",
   },
   {
     id: 862,
@@ -10395,6 +10617,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "nehmen",
   },
   {
     id: 863,
@@ -10431,6 +10654,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Mann",
   },
   {
     id: 866,
@@ -10467,6 +10691,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Bedeutung",
   },
   {
     id: 869,
@@ -10479,6 +10704,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Beruf",
   },
   {
     id: 870,
@@ -10491,6 +10717,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "schließen",
   },
   {
     id: 871,
@@ -10527,6 +10754,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "ziehen",
   },
   {
     id: 874,
@@ -10600,6 +10828,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "das Jahr",
   },
   {
     id: 880,
@@ -10612,6 +10841,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "geboren",
   },
   {
     id: 881,
@@ -10636,6 +10866,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Ausland",
   },
   {
     id: 883,
@@ -10660,6 +10891,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "einziehen",
   },
   {
     id: 885,
@@ -10672,6 +10904,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "einziehen",
   },
   {
     id: 886,
@@ -10684,6 +10917,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "geboren",
   },
   {
     id: 887,
@@ -10696,6 +10930,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "geboren",
   },
   {
     id: 888,
@@ -10708,6 +10943,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "geboren",
   },
   {
     id: 889,
@@ -10720,6 +10956,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "geboren",
   },
   {
     id: 890,
@@ -10732,6 +10969,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Staat",
   },
   {
     id: 891,
@@ -10744,6 +10982,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Glück",
   },
   {
     id: 892,
@@ -10756,6 +10995,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Glück",
   },
   {
     id: 893,
@@ -10768,6 +11008,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Herz",
   },
   {
     id: 894,
@@ -10780,6 +11021,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Geburtstag",
   },
   {
     id: 895,
@@ -10792,6 +11034,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Geburtstag",
   },
   {
     id: 896,
@@ -10805,6 +11048,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "der Geburtstag",
   },
   {
     id: 897,
@@ -10817,6 +11061,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Geburtstag",
   },
   {
     id: 898,
@@ -10829,6 +11074,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "schenken",
   },
   {
     id: 899,
@@ -10841,6 +11087,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Ball",
   },
   {
     id: 900,
@@ -10878,6 +11125,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Jahr",
   },
   {
     id: 903,
@@ -10938,6 +11186,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Monat",
   },
   {
     id: 908,
@@ -11130,6 +11379,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "badet",
   },
   {
     id: 924,
@@ -11142,6 +11392,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "schwimmen",
   },
   {
     id: 925,
@@ -11286,6 +11537,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "schenken",
   },
   {
     id: 937,
@@ -11370,6 +11622,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "süß",
   },
   {
     id: 944,
@@ -11442,6 +11695,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Nacht",
   },
   {
     id: 950,
@@ -11514,6 +11768,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Wunsch",
   },
   {
     id: 956,
@@ -11550,6 +11805,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Angebot",
   },
   {
     id: 959,
@@ -11574,6 +11830,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Weg",
   },
   {
     id: 961,
@@ -11586,6 +11843,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "fahren",
   },
   {
     id: 962,
@@ -11634,6 +11892,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Nacht",
   },
   {
     id: 966,
@@ -11694,6 +11953,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "fliegen",
   },
   {
     id: 972,
@@ -11706,6 +11966,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Bahn",
   },
   {
     id: 973,
@@ -11718,6 +11979,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Bahn",
   },
   {
     id: 974,
@@ -11730,6 +11992,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Verkehrsmittel",
   },
   {
     id: 975,
@@ -11742,6 +12005,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "fahren",
   },
   {
     id: 976,
@@ -11802,6 +12066,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Bahnhof",
   },
   {
     id: 981,
@@ -11814,6 +12079,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "abfahren",
   },
   {
     id: 982,
@@ -11826,6 +12092,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "ankommen",
   },
   {
     id: 983,
@@ -11838,6 +12105,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "ankommen",
   },
   {
     id: 984,
@@ -11850,6 +12118,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Bahn",
   },
   {
     id: 985,
@@ -11874,6 +12143,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "fahren",
   },
   {
     id: 987,
@@ -11910,6 +12180,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "gültig",
   },
   {
     id: 990,
@@ -11934,6 +12205,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "verbinden",
   },
   {
     id: 992,
@@ -11946,6 +12218,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "reservieren",
   },
   {
     id: 993,
@@ -11958,6 +12231,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "fahren",
   },
   {
     id: 994,
@@ -11970,6 +12244,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "halten",
   },
   {
     id: 995,
@@ -11994,6 +12269,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "fahren",
   },
   {
     id: 997,
@@ -12006,6 +12282,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "steigen",
   },
   {
     id: 998,
@@ -12018,6 +12295,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "sagen",
   },
   {
     id: 999,
@@ -12030,6 +12308,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Bahnhof",
   },
   {
     id: 1000,
@@ -12042,6 +12321,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "gehen",
   },
   {
     id: 1001,
@@ -12049,11 +12329,12 @@ export const A1_Vocabulary = [
     translation: "entrance",
     definition: "Der Weg hinein.",
     example: "Wir treffen uns am Haupteingang.",
-    exampleTranslation: "क्चर We are meeting at the main entrance.",
+    exampleTranslation: "We are meeting at the main entrance.",
     thema: "Orte",
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "gehen",
   },
   {
     id: 1002,
@@ -12066,6 +12347,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Plan",
   },
   {
     id: 1003,
@@ -12078,6 +12360,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "kreuzen",
   },
   {
     id: 1004,
@@ -12090,6 +12373,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "richten",
   },
   {
     id: 1005,
@@ -12138,6 +12422,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "warten",
   },
   {
     id: 1009,
@@ -12162,6 +12447,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Arbeit",
   },
   {
     id: 1011,
@@ -12186,6 +12472,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "stoppen",
   },
   {
     id: 1013,
@@ -12198,6 +12485,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "machen",
   },
   {
     id: 1014,
@@ -12210,6 +12498,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Apotheke",
   },
   {
     id: 1015,
@@ -12234,6 +12523,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "das Büro",
   },
   {
     id: 1017,
@@ -12258,6 +12548,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "halten",
   },
   {
     id: 1019,
@@ -12282,6 +12573,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Stadt",
   },
   {
     id: 1021,
@@ -12294,6 +12586,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Weg",
   },
   {
     id: 1022,
@@ -12306,6 +12599,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "steigen",
   },
   {
     id: 1023,
@@ -12318,6 +12612,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "steigen",
   },
   {
     id: 1024,
@@ -12354,6 +12649,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "wohnen",
   },
   {
     id: 1027,
@@ -12366,6 +12662,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Stadt",
   },
   {
     id: 1028,
@@ -12390,6 +12687,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "sehen",
   },
   {
     id: 1030,
@@ -12402,6 +12700,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "sehen",
   },
   {
     id: 1031,
@@ -12414,6 +12713,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "kennen",
   },
   {
     id: 1032,
@@ -12498,6 +12798,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "richten",
   },
   {
     id: 1039,
@@ -12558,6 +12859,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "liegen",
   },
   {
     id: 1044,
@@ -12582,6 +12884,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "studieren",
   },
   {
     id: 1046,
@@ -12594,6 +12897,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "gesund",
   },
   {
     id: 1047,
@@ -12607,6 +12911,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "krank",
   },
   {
     id: 1048,
@@ -12620,6 +12925,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "husten",
   },
   {
     id: 1049,
@@ -12656,6 +12962,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "kalt",
   },
   {
     id: 1052,
@@ -12668,6 +12975,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Karte",
   },
   {
     id: 1053,
@@ -12681,6 +12989,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Arzt",
   },
   {
     id: 1054,
@@ -12705,6 +13014,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Arzt",
   },
   {
     id: 1056,
@@ -12717,6 +13027,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Doktor",
   },
   {
     id: 1057,
@@ -12729,6 +13040,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Doktor",
   },
   {
     id: 1058,
@@ -12753,6 +13065,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Praxis",
   },
   {
     id: 1060,
@@ -12765,6 +13078,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Praxis",
   },
   {
     id: 1061,
@@ -12777,6 +13091,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "schließen",
   },
   {
     id: 1062,
@@ -12801,6 +13116,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Körper",
   },
   {
     id: 1064,
@@ -12813,6 +13129,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Körper",
   },
   {
     id: 1065,
@@ -13005,6 +13322,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "tun",
   },
   {
     id: 1081,
@@ -13029,6 +13347,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Arzt",
   },
   {
     id: 1083,
@@ -13077,6 +13396,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "krank",
   },
   {
     id: 1087,
@@ -13089,6 +13409,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "kommen",
   },
   {
     id: 1088,
@@ -13113,6 +13434,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "tun",
   },
   {
     id: 1090,
@@ -13149,6 +13471,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "reservieren",
   },
   {
     id: 1093,
@@ -13173,6 +13496,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Apotheke",
   },
   {
     id: 1095,
@@ -13197,6 +13521,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "husten",
   },
   {
     id: 1097,
@@ -13221,6 +13546,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Nase",
   },
   {
     id: 1099,
@@ -13281,6 +13607,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Karte",
   },
   {
     id: 1104,
@@ -13341,6 +13668,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "der Rücken",
   },
   {
     id: 1109,
@@ -13389,6 +13717,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "gehen",
   },
   {
     id: 1113,
@@ -13425,6 +13754,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "freuen",
   },
   {
     id: 1116,
@@ -13473,6 +13803,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "schlagen",
   },
   {
     id: 1120,
@@ -13581,6 +13912,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "groß",
   },
   {
     id: 1129,
@@ -13605,6 +13937,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "gesund",
   },
   {
     id: 1131,
@@ -13642,12 +13975,13 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Hoffnung",
   },
   {
     id: 1134,
     word: "vor allem",
     translation: "above all / especially",
-    definition: "Insbesondere oder vor allen anderen Dingen.",
+    definition: "Insbesondere oder vor allen anderen Dingern.",
     example: "Ich mag Sommer, vor allem den August.",
     exampleTranslation: "I like summer, above all August.",
     thema: "Adverbien",
@@ -13678,6 +14012,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "anrufen",
   },
   {
     id: 1137,
@@ -13690,6 +14025,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "vorsichtig",
   },
   {
     id: 1138,
@@ -13702,6 +14038,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Liste",
   },
   {
     id: 1139,
@@ -13714,6 +14051,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "denken",
   },
   {
     id: 1140,
@@ -13726,6 +14064,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "schauen",
   },
   {
     id: 1141,
@@ -13750,6 +14089,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "wechseln",
   },
   {
     id: 1143,
@@ -13762,6 +14102,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "lösen",
   },
   {
     id: 1144,
@@ -13774,6 +14115,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "das Programm",
   },
   {
     id: 1145,
@@ -13846,6 +14188,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "reagieren",
   },
   {
     id: 1151,
@@ -13906,6 +14249,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "warten",
   },
   {
     id: 1156,
@@ -13919,6 +14263,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Arbeit",
   },
   {
     id: 1157,
@@ -13943,6 +14288,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Nacht",
   },
   {
     id: 1159,
@@ -13979,6 +14325,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "studieren",
   },
   {
     id: 1162,
@@ -14064,6 +14411,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Ende",
   },
   {
     id: 1169,
@@ -14101,6 +14449,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Angebot",
   },
   {
     id: 1172,
@@ -14125,6 +14474,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Arbeit",
   },
   {
     id: 1174,
@@ -14138,6 +14488,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "helfen",
   },
   {
     id: 1175,
@@ -14150,6 +14501,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "zahlen",
   },
   {
     id: 1176,
@@ -14174,6 +14526,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Angebot",
   },
   {
     id: 1178,
@@ -14234,6 +14587,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Interesse",
   },
   {
     id: 1183,
@@ -14258,6 +14612,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Raum",
   },
   {
     id: 1185,
@@ -14270,6 +14625,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "der Tag",
   },
   {
     id: 1186,
@@ -14282,6 +14638,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "der Raum",
   },
   {
     id: 1187,
@@ -14294,6 +14651,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Programm",
   },
   {
     id: 1188,
@@ -14306,6 +14664,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "fahren",
   },
   {
     id: 1189,
@@ -14330,6 +14689,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Zeit",
   },
   {
     id: 1191,
@@ -14342,6 +14702,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Arbeit",
   },
   {
     id: 1192,
@@ -14354,6 +14715,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Arbeit",
   },
   {
     id: 1193,
@@ -14379,6 +14741,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "kennen",
   },
   {
     id: 1195,
@@ -14391,6 +14754,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "reparieren",
   },
   {
     id: 1196,
@@ -14403,6 +14767,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "prüfen",
   },
   {
     id: 1197,
@@ -14415,6 +14780,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "studieren",
   },
   {
     id: 1198,
@@ -14428,6 +14794,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Haus",
   },
   {
     id: 1199,
@@ -14464,6 +14831,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "sprechen",
   },
   {
     id: 1202,
@@ -14476,6 +14844,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "stehen",
   },
   {
     id: 1203,
@@ -14489,6 +14858,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "fahren",
   },
   {
     id: 1204,
@@ -14502,6 +14872,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "das Kind",
   },
   {
     id: 1205,
@@ -14514,6 +14885,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Sprache",
   },
   {
     id: 1206,
@@ -14526,6 +14898,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Kind",
   },
   {
     id: 1207,
@@ -14539,6 +14912,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Schule",
   },
   {
     id: 1208,
@@ -14551,6 +14925,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "studieren",
   },
   {
     id: 1209,
@@ -14563,6 +14938,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Musik",
   },
   {
     id: 1210,
@@ -14587,6 +14963,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "bilden",
   },
   {
     id: 1212,
@@ -14599,6 +14976,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "das Programm",
   },
   {
     id: 1213,
@@ -14611,6 +14989,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "lernen",
   },
   {
     id: 1214,
@@ -14624,6 +15003,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "spielen",
   },
   {
     id: 1215,
@@ -14636,6 +15016,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "malen",
   },
   {
     id: 1216,
@@ -14648,6 +15029,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "dienen",
   },
   {
     id: 1217,
@@ -14660,6 +15042,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "wachsen",
   },
   {
     id: 1218,
@@ -14672,6 +15055,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Rente",
   },
   {
     id: 1219,
@@ -14708,6 +15092,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "normal",
   },
   {
     id: 1222,
@@ -14732,6 +15117,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "fahren",
   },
   {
     id: 1224,
@@ -14744,6 +15130,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "aktiv",
   },
   {
     id: 1225,
@@ -14804,6 +15191,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "spielen",
   },
   {
     id: 1230,
@@ -14816,6 +15204,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "spielen",
   },
   {
     id: 1231,
@@ -14828,6 +15217,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "fahren",
   },
   {
     id: 1232,
@@ -14864,6 +15254,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "fliegen",
   },
   {
     id: 1235,
@@ -14876,6 +15267,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "gehen",
   },
   {
     id: 1236,
@@ -14888,6 +15280,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "geben",
   },
   {
     id: 1237,
@@ -14925,6 +15318,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Schmerz",
   },
   {
     id: 1240,
@@ -14961,6 +15355,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Musik",
   },
   {
     id: 1243,
@@ -15082,6 +15477,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "der Satz",
   },
   {
     id: 1253,
@@ -15106,6 +15502,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "viel",
   },
   {
     id: 1255,
@@ -15130,6 +15527,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Teil",
   },
   {
     id: 1257,
@@ -15142,6 +15540,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "das Land",
   },
   {
     id: 1258,
@@ -15166,6 +15565,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "lösen",
   },
   {
     id: 1260,
@@ -15190,6 +15590,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "probieren",
   },
   {
     id: 1262,
@@ -15202,6 +15603,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "das Buch",
   },
   {
     id: 1263,
@@ -15214,6 +15616,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "lernen",
   },
   {
     id: 1264,
@@ -15239,6 +15642,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "senden",
   },
   {
     id: 1266,
@@ -15263,6 +15667,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "üben",
   },
   {
     id: 1268,
@@ -15275,6 +15680,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Titel",
   },
   {
     id: 1269,
@@ -15287,6 +15693,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "sehen",
   },
   {
     id: 1270,
@@ -15311,6 +15718,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "das Werk",
   },
   {
     id: 1272,
@@ -15323,6 +15731,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "schreiben",
   },
   {
     id: 1273,
@@ -15335,6 +15744,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "lernen",
   },
   {
     id: 1274,
@@ -15347,6 +15757,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "lernen",
   },
   {
     id: 1275,
@@ -15371,6 +15782,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "geben",
   },
   {
     id: 1277,
@@ -15419,6 +15831,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Firma",
   },
   {
     id: 1281,
@@ -15431,6 +15844,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "ziehen",
   },
   {
     id: 1282,
@@ -15443,6 +15857,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "das Programm",
   },
   {
     id: 1283,
@@ -15455,6 +15870,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Kasse",
   },
   {
     id: 1284,
@@ -15491,6 +15907,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Plan",
   },
   {
     id: 1287,
@@ -15503,21 +15920,21 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "wünschen",
   },
   {
     id: 1288,
     word: "der Markt, Märkte",
     translation: "market",
-    definition:
-      "Ein Ort für den Handel von Waren im Freien oder in Hallen[cite: 16].",
-    example:
-      "Der Weihnachtsmarkt und der Wochenmarkt sind sehr beliebt[cite: 16].",
+    definition: "Ein Ort für den Handel von Waren im Freien oder in Hallen.",
+    example: "Der Weihnachtsmarkt und der Wochenmarkt sind sehr beliebt.",
     exampleTranslation:
       "The Christmas market and the weekly market are very popular.",
     thema: "Orte",
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Markt",
   },
   {
     id: 1289,
@@ -15535,13 +15952,14 @@ export const A1_Vocabulary = [
     id: 1290,
     word: "der Stand, Stände",
     translation: "stand / booth",
-    definition: "Ein Verkaufsstand auf dem Markt[cite: 16].",
+    definition: "Ein Verkaufsstand auf dem Markt.",
     example: "Am Stand kaufen wir frisches Obst.",
     exampleTranslation: "At the stand we buy fresh fruit.",
     thema: "Orte",
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "stehen",
   },
   {
     id: 1291,
@@ -15566,18 +15984,20 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "spielen",
   },
   {
     id: 1293,
     word: "die Kleidung (Sg.)",
     translation: "clothing / clothes",
-    definition: "Das, was man am Körper trägt[cite: 16].",
+    definition: "Das, was man am Körper trägt.",
     example: "Ich kaufe neue Kleidung für den Winter.",
     exampleTranslation: "I am buying new clothing for the winter.",
     thema: "Kleidung",
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "kleiden",
   },
   {
     id: 1294,
@@ -15602,6 +16022,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "glühen",
   },
   {
     id: 1296,
@@ -15614,6 +16035,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "das Herz",
   },
   {
     id: 1297,
@@ -15626,6 +16048,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "der Zucker",
   },
   {
     id: 1298,
@@ -15638,6 +16061,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "schmücken",
   },
   {
     id: 1299,
@@ -15650,6 +16074,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Mann",
   },
   {
     id: 1300,
@@ -15662,6 +16087,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "bauen",
   },
   {
     id: 1301,
@@ -15686,6 +16112,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "geben",
   },
   {
     id: 1303,
@@ -15698,6 +16125,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "nehmen",
   },
   {
     id: 1304,
@@ -15710,6 +16138,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "gucken",
   },
   {
     id: 1305,
@@ -15746,6 +16175,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "braten",
   },
   {
     id: 1308,
@@ -15758,6 +16188,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "würzen",
   },
   {
     id: 1309,
@@ -15770,6 +16201,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "die Kartoffel",
   },
   {
     id: 1310,
@@ -15830,13 +16262,14 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Bauch",
   },
   {
     id: 1315,
     word: "satt",
     translation: "full / satisfied (after eating)",
     definition: "Keinen Hunger mehr haben.",
-    example: "Ich bin satt, ich will nichts mehr[cite: 16].",
+    example: "Ich bin satt, ich will nichts mehr.",
     exampleTranslation: "I am full, I don't want anything else.",
     thema: "Essen und Trinken",
     priority: "High",
@@ -15854,6 +16287,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "alt",
   },
   {
     id: 1317,
@@ -15866,6 +16300,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Hass",
   },
   {
     id: 1318,
@@ -15902,6 +16337,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "knacken",
   },
   {
     id: 1321,
@@ -15922,11 +16358,12 @@ export const A1_Vocabulary = [
     definition: "Christbaumschmuck in Kugelform.",
     example: "Wir hängen bunte Weihnachtskugeln an den Baum.",
     exampleTranslation:
-      " ഞങ്ങൾ are hanging colorful Christmas baubles on the tree.",
+      "We are hanging colorful Christmas baubles on the tree.",
     thema: "Feste",
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "die Kugel",
   },
   {
     id: 1323,
@@ -16012,6 +16449,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Hand",
   },
   {
     id: 1330,
@@ -16024,25 +16462,27 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "geboren",
   },
   {
     id: 1331,
     word: "das Fest, -e",
     translation: "festival / celebration",
-    definition: "Eine feierliche Veranstaltung[cite: 16].",
-    example: "Wir feiern ein großes Fest im Sommer[cite: 16].",
+    definition: "Eine feierliche Veranstaltung.",
+    example: "Wir feiern ein großes Fest im Sommer.",
     exampleTranslation: "We are celebrating a big festival in summer.",
     thema: "Feste",
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "feiern",
   },
   {
     id: 1332,
     word: "Ostern",
     translation: "Easter",
-    definition: "Ein christliches Frühlingsfest[cite: 16].",
-    example: "Zu Oststern suchen die Kinder Ostereier[cite: 16].",
+    definition: "Ein christliches Frühlingsfest.",
+    example: "Zu Ostern suchen die Kinder Ostereier.",
     exampleTranslation: "At Easter children look for Easter eggs.",
     thema: "Feste",
     priority: "High",
@@ -16053,8 +16493,8 @@ export const A1_Vocabulary = [
     id: 1333,
     word: "Weihnachten",
     translation: "Christmas",
-    definition: "Das Fest der Geburt Christi im Dezember[cite: 16].",
-    example: "Zu Weihnachten feiern wir mit der Familie[cite: 16].",
+    definition: "Das Fest der Geburt Christi im Dezember.",
+    example: "Zu Weihnachten feiern wir mit der Familie.",
     exampleTranslation: "At Christmas we celebrate with the family.",
     thema: "Feste",
     priority: "High",
@@ -16072,6 +16512,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Tag",
   },
   {
     id: 1335,
@@ -16084,6 +16525,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Karte",
   },
   {
     id: 1336,
@@ -16145,6 +16587,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "ziehen",
   },
   {
     id: 1341,
@@ -16181,6 +16624,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "werben",
   },
   {
     id: 1344,
@@ -16193,6 +16637,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "suchen",
   },
   {
     id: 1345,
@@ -16205,6 +16650,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "das Fest",
   },
   {
     id: 1346,
@@ -16217,6 +16663,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "das Fest",
   },
   {
     id: 1347,
@@ -16230,6 +16677,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "der Hase",
   },
   {
     id: 1348,
@@ -16255,6 +16703,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "das Rad",
   },
   {
     id: 1350,
@@ -16279,6 +16728,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "der Baum",
   },
   {
     id: 1352,
@@ -16291,6 +16741,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Tag",
   },
   {
     id: 1353,
@@ -16315,6 +16766,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "werben",
   },
   {
     id: 1355,
@@ -16351,6 +16803,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "fragen",
   },
   {
     id: 1358,
@@ -16363,6 +16816,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Kraft",
   },
   {
     id: 1359,
@@ -16375,6 +16829,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Stunde",
   },
   {
     id: 1360,
@@ -16387,6 +16842,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "helfen",
   },
   {
     id: 1361,
@@ -16399,6 +16855,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Zeit",
   },
   {
     id: 1362,
@@ -16411,6 +16868,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "die Stunde",
   },
   {
     id: 1363,
@@ -16423,6 +16881,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "studieren",
   },
   {
     id: 1364,
@@ -16495,6 +16954,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Sinn",
   },
   {
     id: 1370,
@@ -16507,6 +16967,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "bestimmen",
   },
   {
     id: 1371,
@@ -16519,6 +16980,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    family: "knüllen",
   },
   {
     id: 1372,
@@ -16531,6 +16993,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "nehmen",
   },
   {
     id: 1373,
@@ -16543,6 +17006,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "das Jahr",
   },
   {
     id: 1374,
@@ -16556,6 +17020,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "bilden",
   },
   {
     id: 1375,
@@ -16592,6 +17057,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "setzen",
   },
   {
     id: 1378,
@@ -16616,6 +17082,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "blicken",
   },
   {
     id: 1380,
@@ -16628,6 +17095,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "feiern",
   },
   {
     id: 1381,
@@ -16664,6 +17132,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "ziehen",
   },
   {
     id: 1384,
@@ -16676,6 +17145,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "ziehen",
   },
   {
     id: 1385,
@@ -16688,6 +17158,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "tragen",
   },
   {
     id: 1386,
@@ -16700,6 +17171,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "der Abend",
   },
   {
     id: 1387,
@@ -16712,6 +17184,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "nah",
   },
   {
     id: 1388,
@@ -16736,6 +17209,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    family: "die Erde",
   },
   {
     id: 1390,
@@ -16748,6 +17222,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    family: "zahlen",
   },
   {
     id: 1391,

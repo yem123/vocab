@@ -34,6 +34,8 @@ export default function AddWordForm({
   setFormLevel,
   aiPassword,
   setAiPassword,
+  formFamily,
+  setFormFamily,
 }) {
   return (
     <form onSubmit={handleSaveNewWord} className="space-y-4 font-sans text-xs">
@@ -63,6 +65,27 @@ export default function AddWordForm({
           setFormCustomThema={setFormCustomThema}
           removeTheme={removeTheme}
         />
+      </div>
+
+      {/* Word family: links related entries (e.g. entscheiden, die Entscheidung, ...) */}
+      <div className="bg-[#f9f9f7] border border-[#e8e5e0] p-3.5 rounded-2xl space-y-1">
+        <div className="flex justify-between items-center text-[#767d78]">
+          <span className="font-semibold uppercase tracking-wider text-[10px]">
+            Wortfamilie
+          </span>
+          <span>Optional</span>
+        </div>
+        <GermanTextField
+          type="text"
+          placeholder="z.B. entscheiden"
+          value={formFamily}
+          onChange={(e) => setFormFamily(e.target.value)}
+          className="w-full bg-transparent border-none text-sm font-serif text-[#2c302e] focus:outline-none placeholder:text-[#b8c2bc]"
+        />
+        <p className="text-[10px] text-[#8a928e] pt-0.5">
+          Use the same text for every related word (verb, noun, phrase,
+          adjective) to link them together.
+        </p>
       </div>
 
       {/* Word level */}

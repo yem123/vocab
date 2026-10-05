@@ -73,10 +73,9 @@ const mergeVocabulary = (userLayer) => {
 };
 
 export default function App() {
-  const [currentScreen, setCurrentScreen] = useState("vocabulary"); // 'vocabulary' | 'themen' | 'add' | 'detail' | 'collections'
+  const [currentScreen, setCurrentScreen] = useState("vocabulary");
+  const [formFamily, setFormFamily] = useState("");
 
-  // Only what the user added, edited, or deleted. Built-in words themselves
-  // are never stored here, so fixing data/a1Vocabulary.js etc. always takes effect.
   const [userVocabulary, setUserVocabulary] = useState(() => {
     try {
       const saved = localStorage.getItem("lexis_german_vocab_user");
@@ -158,9 +157,16 @@ export default function App() {
     setFormLevel("");
     setFormType("");
     setFormCustomThema("");
+    setFormFamily("");
   };
 
-  // Opens the Add Word page pre-filled with an existing word
+  const getFamilyMembers = (word) => {
+    if (!word.family) return [];
+    return vocabulary.filter(
+      (w) => w.family === word.family && w.id !== word.id,
+    );
+  };
+
   const startEditWord = (word) => {
     const isPlaceholderDefinition =
       word.definition === "Keine deutsche Definition hinterlegt.";
@@ -186,11 +192,12 @@ export default function App() {
     setFormExampleTranslation(
       isPlaceholderExampleTranslation ? "" : word.exampleTranslation || "",
     );
-    
+
     setFormLevel(word.level || "");
     setFormType(getWordType(word));
     setFormPriority(word.priority || "High");
     navigateTo("add", "slide_up");
+    setFormFamily(word.family || "");
   };
 
   // Opens the Vocabulary list filtered to one thema
@@ -263,39 +270,32 @@ export default function App() {
     return vocabulary.filter((w) => w.favorite);
   }, [vocabulary]);
 
-  // AI auto-fill for the Add Word form.
-  // overwrite=false: only fills empty fields. overwrite=true: replaces all AI fields.
-    const handleAIFill = async (overwrite = false) => {
-      if (!formWord.trim()) return;
-      if (!aiPassword.trim()) {
-        setAiError("Please enter the password first.");
-        return;
-      }
-      setIsGenerating(true);
-      setAiError("");
-      try {
-        const data = await fetchWordDetails(formWord.trim(), aiPassword.trim());
-        const pick = (prev, next) => (overwrite || !prev.trim() ? next : prev);
-        setFormTranslation((prev) => pick(prev, data.translation));
-        setFormDefinition((prev) => pick(prev, data.definition));
-        setFormExample((prev) => pick(prev, data.example));
-        setFormExampleTranslation((prev) =>
-          pick(prev, data.exampleTranslation),
-        );
-      } catch (err) {
-        setAiError(
-          err.message === "Incorrect password"
-            ? "Incorrect password."
-            : "Could not generate details. Check your connection and try again.",
-        );
-      } finally {
-        setIsGenerating(false);
-      }
-    };
+  const handleAIFill = async (overwrite = false) => {
+    if (!formWord.trim()) return;
+    if (!aiPassword.trim()) {
+      setAiError("Please enter the password first.");
+      return;
+    }
+    setIsGenerating(true);
+    setAiError("");
+    try {
+      const data = await fetchWordDetails(formWord.trim(), aiPassword.trim());
+      const pick = (prev, next) => (overwrite || !prev.trim() ? next : prev);
+      setFormTranslation((prev) => pick(prev, data.translation));
+      setFormDefinition((prev) => pick(prev, data.definition));
+      setFormExample((prev) => pick(prev, data.example));
+      setFormExampleTranslation((prev) => pick(prev, data.exampleTranslation));
+    } catch (err) {
+      setAiError(
+        err.message === "Incorrect password"
+          ? "Incorrect password."
+          : "Could not generate details. Check your connection and try again.",
+      );
+    } finally {
+      setIsGenerating(false);
+    }
+  };
 
-  // Highest id currently in use, across built-in words AND the user layer
-  // (so re-importing or re-adding never reuses an id, even one from a
-  // since-deleted or since-edited word).
   const getNextId = () => {
     const userIds = userVocabulary
       .map((w) => w.id)
@@ -358,8 +358,6 @@ export default function App() {
       }
     }
 
-    // Editing an existing word: store it as an override (if it's a built-in
-    // word) or update it in place (if it's already a user-layer word)
     if (editingWordId !== null) {
       const original = vocabulary.find((w) => w.id === editingWordId);
       const updated = {
@@ -368,7 +366,7 @@ export default function App() {
         translation: formTranslation.trim(),
         definition:
           formDefinition.trim() || "Keine deutsche Definition hinterlegt.",
-        
+
         example:
           formExample.trim() ||
           `„Ein wunderbares Beispiel für ${formWord.trim()}.“`,
@@ -379,6 +377,7 @@ export default function App() {
         level: formLevel,
         type: formType || guessWordType(formWord),
         priority: formPriority,
+        family: formFamily.trim() || undefined,
       };
 
       setUserVocabulary((prev) => {
@@ -401,7 +400,7 @@ export default function App() {
       translation: formTranslation.trim(),
       definition:
         formDefinition.trim() || "Keine deutsche Definition hinterlegt.",
-      
+
       example:
         formExample.trim() ||
         `„Ein wunderbares Beispiel für ${formWord.trim()}.“`,
@@ -413,6 +412,7 @@ export default function App() {
       type: formType || guessWordType(formWord),
       priority: formPriority,
       favorite: false,
+      family: formFamily.trim() || undefined,
     };
 
     setUserVocabulary([newEntry, ...userVocabulary]);
@@ -425,6 +425,7 @@ export default function App() {
     setFormLevel("");
     setFormType("");
     navigateTo("vocabulary", "push_back");
+    setFormFamily("");
   };
 
   const toggleFavorite = (id, e) => {
@@ -577,6 +578,8 @@ export default function App() {
               setFormType={setFormType}
               aiPassword={aiPassword}
               setAiPassword={setAiPassword}
+              formFamily={formFamily}
+              setFormFamily={setFormFamily}
             />
           )}
 
@@ -593,6 +596,7 @@ export default function App() {
               setSelectedWordId={setSelectedWordId}
               editWord={startEditWord}
               detailOrigin={detailOrigin}
+              getFamilyMembers={getFamilyMembers}
             />
           )}
         </main>
