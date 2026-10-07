@@ -1,6 +1,6 @@
 export const B2_Vocabulary = [
   {
-    id: 5703,
+    id: 4800,
     word: "die Werkbank, -e",
     translation: "workbench",
     definition: "Ein stabiler Tisch für handwerkliche Arbeiten.",
@@ -12,7 +12,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5704,
+    id: 4801,
     word: "der Werkzeugkasten, =",
     translation: "toolbox",
     definition: "Ein Kasten zur Aufbewahrung von Werkzeugen.",
@@ -24,7 +24,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5705,
+    id: 4802,
     word: "der Schutzhelm, -e",
     translation: "protective helmet, hard hat",
     definition:
@@ -38,7 +38,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5706,
+    id: 4803,
     word: "sanitäre Anlagen installieren",
     translation: "to install sanitary facilities",
     definition: "Toiletten und Waschbecken einbauen.",
@@ -51,7 +51,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5707,
+    id: 4804,
     word: "verstopfte Rohre reinigen",
     translation: "to clean clogged pipes",
     definition: "Blockierte Abwasserrohre wieder frei machen.",
@@ -64,7 +64,7 @@ export const B2_Vocabulary = [
     family: "reinigen",
   },
   {
-    id: 5708,
+    id: 4805,
     word: "die Mieterhöhung, -en",
     translation: "rent increase",
     definition: "Die Erhöhung des monatlichen Mietpreises durch den Vermieter.",
@@ -77,7 +77,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5709,
+    id: 4806,
     word: "die Zusage, -n",
     translation: "confirmation, acceptance",
     definition: "Die verbindliche Zustimmung zu etwas.",
@@ -90,7 +90,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5711,
+    id: 4807,
     word: "das Onlineportal, -e",
     translation: "online portal",
     definition:
@@ -105,7 +105,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5712,
+    id: 4808,
     word: "das Objekt, -e",
     translation: "property, object",
     definition: "Hier: eine Immobilie, die vermietet oder verkauft wird.",
@@ -118,7 +118,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5713,
+    id: 4809,
     word: "der Grundriss, -e",
     translation: "floor plan",
     definition: "Eine maßstabsgetreue Zeichnung einer Etage oder Wohnung.",
@@ -131,7 +131,7 @@ export const B2_Vocabulary = [
     family: "der Riss",
   },
   {
-    id: 5714,
+    id: 4810,
     word: "jdn. (über etwas) auf dem Laufenden halten",
     translation: "to keep someone updated (about something)",
     definition: "Jemanden regelmäßig über Neuigkeiten informieren.",
@@ -143,7 +143,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5715,
+    id: 4811,
     word: "der Interessent, -en",
     translation: "interested party (male)",
     definition:
@@ -158,7 +158,7 @@ export const B2_Vocabulary = [
     family: "der Interessent",
   },
   {
-    id: 5716,
+    id: 4812,
     word: "die Interessentin, -nen",
     translation: "interested party (female)",
     definition: "Eine weibliche Person, die an etwas interessiert ist.",
@@ -172,7 +172,7 @@ export const B2_Vocabulary = [
     family: "der Interessent",
   },
   {
-    id: 5717,
+    id: 4813,
     word: "die Altbauwohnung, -en",
     translation: "old building apartment",
     definition:
@@ -186,7 +186,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5719,
+    id: 4814,
     word: "der Fghrstuhl, -se",
     translation: "elevator",
     definition:
@@ -200,7 +200,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5720,
+    id: 4815,
     word: "das Erfolgserlebnis, -se",
     translation: "sense of achievement",
     definition:
@@ -215,7 +215,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5722,
+    id: 4816,
     word: "die Hausverwaltung, -en",
     translation: "property management",
     definition:
@@ -231,7 +231,7 @@ export const B2_Vocabulary = [
     family: "verwalten",
   },
   {
-    id: 5723,
+    id: 4817,
     word: "die Daumen drücken",
     translation: "to keep one's fingers crossed",
     definition: "Jiemandem viel Erfolg oder Glück wünschen.",
@@ -243,7 +243,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5724,
+    id: 4818,
     word: "sich vormerken lassen",
     translation: "to put oneself on a waiting list",
     definition: "Sich registrieren lassen, um später berücksichtigt zu werden.",
@@ -256,7 +256,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5725,
+    id: 4819,
     word: "der Auszug, -e",
     translation: "moving out",
     definition: "Das Verlassen einer bisherigen Wohnung.",
@@ -268,7 +268,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5726,
+    id: 4820,
     word: "sanieren",
     translation: "to renovate, to restore",
     definition: "Ein Gebäude grundlegend modernisieren und instand setzen.",
@@ -280,7 +280,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5727,
+    id: 4821,
     word: "abschleifen",
     translation: "to sand down",
     definition:
@@ -295,7 +295,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5730,
+    id: 4822,
     word: "die Spedition, -en",
     translation: "shipping company, forwarding agency",
     definition: "Ein Unternehmen, das Gütertransporte und Umzüge organisiert.",
@@ -308,7 +308,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5731,
+    id: 4823,
     word: "aus Sicherheitsgründen",
     translation: "for safety reasons",
     definition: "Aus Motiven des Schutzes und der Gefahrenvermeidung.",
@@ -322,7 +322,7 @@ export const B2_Vocabulary = [
     family: "sich",
   },
   {
-    id: 5732,
+    id: 4824,
     word: "der Nachsendeantrag, -e",
     translation: "mail forwarding order",
     definition:
@@ -336,7 +336,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5733,
+    id: 4825,
     word: "einen Nachsendeantrag stellen",
     translation: "to submit a mail forwarding order",
     definition: "Die Postnachsendung bei einem Umzug offiziell beauftragen.",
@@ -349,7 +349,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5734,
+    id: 4826,
     word: "der Umzugskarton, -s",
     translation: "moving box",
     definition:
@@ -362,7 +362,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5736,
+    id: 4827,
     word: "das Maklerbüro, -s",
     translation: "real estate agency office",
     definition: "Das Büro eines Maklers für Immobilien oder Versicherungen.",
@@ -375,7 +375,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5738,
+    id: 4828,
     word: "die Kaution, -en",
     translation: "security deposit",
     definition: "Eine Geldsumme als finanzielle Sicherheit für den Vermieter.",
@@ -387,7 +387,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5739,
+    id: 4829,
     word: "eine Kaution hinterlegen",
     translation: "to deposit a security",
     definition:
@@ -401,7 +401,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5740,
+    id: 4830,
     word: "der Besichtigungstermin, -e",
     translation: "viewing appointment",
     definition:
@@ -414,7 +414,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5743,
+    id: 4831,
     word: "die Branche, -n",
     translation: "industry, sector",
     definition: "Ein Wirtschaftszweig oder Geschäftsbereich.",
@@ -427,7 +427,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5744,
+    id: 4832,
     word: "das Start-up, -s",
     translation: "start-up company",
     definition: "Ein neu gegründetes, oft technologieorientiertes Unternehmen.",
@@ -440,7 +440,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5745,
+    id: 4833,
     word: "die Checkliste, -n",
     translation: "checklist",
     definition: "Eine Liste von Punkten, die man zur Kontrolle abhakt.",
@@ -453,7 +453,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5746,
+    id: 4834,
     word: "der Gewerberaum, -räume",
     translation: "commercial space, business premises",
     definition:
@@ -468,7 +468,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5747,
+    id: 4835,
     word: "die Hygieneanforderung, -en",
     translation: "hygiene requirement",
     definition: "Vorgeschriebene Standards zur Sauberkeit und Gesundheit.",
@@ -483,7 +483,7 @@ export const B2_Vocabulary = [
     family: "anfordern",
   },
   {
-    id: 5748,
+    id: 4836,
     word: "die Flexibilität (Sg.)",
     translation: "flexibility",
     definition:
@@ -497,7 +497,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5749,
+    id: 4837,
     word: "untervermieten",
     translation: "to sublet",
     definition:
@@ -512,7 +512,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5750,
+    id: 4838,
     word: "die Übergabe, -n",
     translation: "handover",
     definition:
@@ -526,7 +526,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5751,
+    id: 4839,
     word: "das Übergabeprotokoll, -e",
     translation: "handover protocol, inspection report",
     definition:
@@ -541,7 +541,7 @@ export const B2_Vocabulary = [
     family: "das Protokoll",
   },
   {
-    id: 5752,
+    id: 4840,
     word: "ein Angebot einholen (für + A.)",
     translation: "to obtain a quote / an offer",
     definition: "Nachfragen und Kostenvoranschläge von Firmen anfordern.",
@@ -553,7 +553,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5754,
+    id: 4841,
     word: "noch etwas Spielraum haben (bei + D.)",
     translation: "to have some leeway / margin",
     definition: "Noch Handlungsspielraum oder Verhandlungsspielraum besitzen.",
@@ -566,7 +566,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5755,
+    id: 4842,
     word: "ausgebucht (bis + A.)",
     translation: "fully booked (until)",
     definition:
@@ -579,7 +579,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5756,
+    id: 4843,
     word: "jdm. (bei etwas) entgegenkommen",
     translation: "to accommodate someone, to meet halfway",
     definition:
@@ -593,7 +593,7 @@ export const B2_Vocabulary = [
     family: "kommen",
   },
   {
-    id: 5757,
+    id: 4844,
     word: "der Fixpreis, -e",
     translation: "fixed price",
     definition: "Ein fester Preis, der nicht verhandelbar ist.",
@@ -605,7 +605,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5758,
+    id: 4845,
     word: "mutig sein",
     translation: "to be courageous",
     definition: "Keine Angst vor schwierigen Situationen oder Risiken haben.",
@@ -617,7 +617,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5759,
+    id: 4846,
     word: "spontan",
     translation: "spontaneous",
     definition: "Ungeplant, aus dem Augenblick heraus handelnd.",
@@ -629,7 +629,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5760,
+    id: 4847,
     word: "mittelgroß",
     translation: "medium-sized",
     definition: "Weder sehr groß noch sehr klein.",
@@ -641,7 +641,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5761,
+    id: 4848,
     word: "Menschen mit Behinderungen",
     translation: "people with disabilities",
     definition: "Personen mit körperlichen oder geistigen Beeinträchtigungen.",
@@ -656,7 +656,7 @@ export const B2_Vocabulary = [
     family: "Menschen",
   },
   {
-    id: 5762,
+    id: 4849,
     word: "für etwas verantwortlich sein",
     translation: "to be responsible for something",
     definition: "Die Verantwortung für eine Aufgabe oder Situation tragen.",
@@ -668,7 +668,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5763,
+    id: 4850,
     word: "selbstständig arbeiten",
     translation: "to work independently",
     definition: "Ohne ständige Anleitung und eigenverantwortlich arbeiten.",
@@ -683,7 +683,7 @@ export const B2_Vocabulary = [
     family: "arbeiten",
   },
   {
-    id: 5764,
+    id: 4851,
     word: "Kontakt bekommen",
     translation: "to make contact, to get in touch",
     definition: "Die Verbindung zu jemandem herstellen oder erhalten.",
@@ -696,7 +696,7 @@ export const B2_Vocabulary = [
     family: "kommen",
   },
   {
-    id: 5768,
+    id: 4852,
     word: "die Kaffeeküche, -n",
     translation: "coffee kitchen, break room",
     definition:
@@ -711,7 +711,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5769,
+    id: 4853,
     word: "der Küchenboden, =",
     translation: "kitchen floor",
     definition: "Der Bodenbelag in einer Küche.",
@@ -723,7 +723,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5770,
+    id: 4854,
     word: "der Riss, -e",
     translation: "crack, tear",
     definition: "Eine spaltförmige Beschädigung an einer Oberfläche.",
@@ -736,7 +736,7 @@ export const B2_Vocabulary = [
     family: "der Riss",
   },
   {
-    id: 5771,
+    id: 4855,
     word: "sich um etwas kümmern",
     translation: "to look after something, to deal with something",
     definition: "Sich aktiv einer Angelegenheit annehmen.",
@@ -748,7 +748,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5772,
+    id: 4856,
     word: "einen Handwerker bestellen",
     translation: "to book / call a craftsman",
     definition: "Einen Fachmann für Reparaturen anfordern.",
@@ -761,7 +761,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5773,
+    id: 4857,
     word: "sich ein Problem ansehen",
     translation: "to look into a problem",
     definition: "Ein Problem genauer prüfen oder untersuchen.",
@@ -773,7 +773,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5774,
+    id: 4858,
     word: "die Schilderung des Problems",
     translation: "description of the problem",
     definition: "Die genaue Erklärung eines vorliegenden Missstands.",
@@ -787,7 +787,7 @@ export const B2_Vocabulary = [
     family: "schildern",
   },
   {
-    id: 5775,
+    id: 4859,
     word: "ein Problem schildern",
     translation: "to describe a problem",
     definition: "Einen Fehler oder eine Schwierigkeit verbal darstellen.",
@@ -800,7 +800,7 @@ export const B2_Vocabulary = [
     family: "schildern",
   },
   {
-    id: 5776,
+    id: 4860,
     word: "die Erledigung (Sg.)",
     translation: "completion, settlement",
     definition: "Das erfolgreiche Ausführen einer Aufgabe oder Arbeit.",
@@ -812,7 +812,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5777,
+    id: 4861,
     word: "die Erreichbarkeit, -en",
     translation: "accessibility, reachability",
     definition:
@@ -827,7 +827,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5778,
+    id: 4862,
     word: "die verantwortliche Firma",
     translation: "responsible company",
     definition:
@@ -840,7 +840,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5779,
+    id: 4863,
     word: "einen Schaden beheben",
     translation: "to repair damage, to fix a defect",
     definition: "Einen aufgetretenen Mangel reparieren.",
@@ -854,7 +854,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5780,
+    id: 4864,
     word: "sich auf etwas beziehen",
     translation: "to refer to something",
     definition:
@@ -868,7 +868,7 @@ export const B2_Vocabulary = [
     family: "beziehen",
   },
   {
-    id: 5782,
+    id: 4865,
     word: "die entstandenen Unannehmlichkeiten",
     translation: "the inconvenience caused",
     definition: "Aufgetretene Probleme oder Störungen, die Unmut erzeugen.",
@@ -881,7 +881,7 @@ export const B2_Vocabulary = [
     family: "annehmen",
   },
   {
-    id: 5783,
+    id: 4866,
     word: "der Reparaturauftrag, -aufträge",
     translation: "repair order",
     definition: "Ein Auftrag zur Instandsetzung eines defekten Gegenstands.",
@@ -893,7 +893,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5784,
+    id: 4867,
     word: "mindern (um + A.)",
     translation: "to reduce, to decrease",
     definition: "Etwas verringern oder herabsetzen.",
@@ -905,7 +905,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5786,
+    id: 4868,
     word: "der Lieferant, -en / die Lieferantin, -nen",
     translation: "supplier, delivery person",
     definition: "Eine Person oder ein Betrieb, die Waren anliefert.",
@@ -918,7 +918,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5787,
+    id: 4869,
     word: "die Tiefkühlkost (Sg.)",
     translation: "frozen food",
     definition: "Lebensmittel, die durch Tiefkühlung konserviert wurden.",
@@ -932,7 +932,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5789,
+    id: 4870,
     word: "das Warenangebot, -e",
     translation: "product range, range of goods",
     definition: "Die Gesamtheit der zum Verkauf stehenden Waren.",
@@ -944,7 +944,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5793,
+    id: 4871,
     word: "begehren",
     translation: "to desire, to crave",
     definition: "Einen starken Wunsch nach etwas haben.",
@@ -957,7 +957,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5794,
+    id: 4872,
     word: "die Besorgung, -en",
     translation: "errand",
     definition: "Das Erledigen von Einkäufen oder geschäftlichen Besorgungen.",
@@ -970,7 +970,7 @@ export const B2_Vocabulary = [
     family: "die Besorgung",
   },
   {
-    id: 5795,
+    id: 4873,
     word: "der/die Einheimische, -n",
     translation: "local resident",
     definition: "Eine Person, die dauerhaft in einem bestimmten Ort lebt.",
@@ -983,7 +983,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5798,
+    id: 4874,
     word: "ein offenes Ohr für jemanden haben",
     translation: "to lend an ear to someone, to be a good listener",
     definition: "Bereit sein, jemandes Sorgen oder Probleme anzuhören.",
@@ -997,7 +997,7 @@ export const B2_Vocabulary = [
     family: "jemanden",
   },
   {
-    id: 5799,
+    id: 4875,
     word: "die Entdeckung, -en",
     translation: "discovery",
     definition:
@@ -1010,7 +1010,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5800,
+    id: 4876,
     word: "hetzen",
     translation: "to rush, to hurry",
     definition: "Sich sehr beeilen, unter großem Zeitdruck stehen.",
@@ -1023,7 +1023,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5802,
+    id: 4877,
     word: "sich etwas einteilen",
     translation: "to manage / budget one's time or resources",
     definition: "Die eigene Zeit oder Kräfte gut planen.",
@@ -1035,7 +1035,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5805,
+    id: 4878,
     word: "die Gleitzeit (Sg.)",
     translation: "flexitime, flexible working hours",
     definition: "Ein Arbeitszeitmodell mit flexiblen Beginn- und Endzeiten.",
@@ -1048,7 +1048,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5806,
+    id: 4879,
     word: "der Schichtdienst, -e",
     translation: "shift work",
     definition:
@@ -1063,7 +1063,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5808,
+    id: 4880,
     word: "Das ist nicht seine Schuld.",
     translation: "That is not his fault.",
     definition: "Er trägt keine Verantwortung für den Fehler.",
@@ -1075,7 +1075,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5810,
+    id: 4881,
     word: "die Frühschicht, -en",
     translation: "early shift",
     definition: "Eine Arbeitszeit, die früh am Morgen beginnt.",
@@ -1088,7 +1088,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5811,
+    id: 4882,
     word: "der Kioskbesitzer, - / die Kioskbesitzerin, -nen",
     translation: "kiosk owner",
     definition: "Eine Person, die einen Kiosk besitzt und betreibt.",
@@ -1101,7 +1101,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5812,
+    id: 4883,
     word: "die Spätschicht, -en",
     translation: "late shift",
     definition: "Eine Arbeitszeit, die am Nachmittag oder Abend stattfindet.",
@@ -1113,7 +1113,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5813,
+    id: 4884,
     word: "die Redaktion, -en",
     translation: "editorial office, editorial team",
     definition: "Das Team oder Büro, das Texte für Medien bearbeitet.",
@@ -1127,7 +1127,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5814,
+    id: 4885,
     word: "Besorgungen machen",
     translation: "to run errands",
     definition:
@@ -1141,7 +1141,7 @@ export const B2_Vocabulary = [
     family: "die Besorgung",
   },
   {
-    id: 5815,
+    id: 4886,
     word: "einen Kiosk betreiben",
     translation: "to run a kiosk",
     definition: "Als Inhaber ein Kiosk-Geschäft führen.",
@@ -1153,7 +1153,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5816,
+    id: 4887,
     word: "die Buchführung (Sg.)",
     translation: "bookkeeping, accounting",
     definition:
@@ -1166,7 +1166,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5817,
+    id: 4888,
     word: "der Pachtvertrag, -e",
     translation: "lease agreement, tenancy agreement",
     definition:
@@ -1182,7 +1182,7 @@ export const B2_Vocabulary = [
     family: "ertragen",
   },
   {
-    id: 5818,
+    id: 4889,
     word: "das Sortiment, -e",
     translation: "product range, assortment",
     definition: "Die Gesamtheit der angebotenen Waren in einem Geschäft.",
@@ -1195,7 +1195,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5819,
+    id: 4890,
     word: "finanzielle Rücklagen",
     translation: "financial reserves",
     definition: "Zurückgelegtes Geld für unvorhergesehene Ausgaben.",
@@ -1209,7 +1209,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5822,
+    id: 4891,
     word: "gewerblich",
     translation: "commercial, industrial",
     definition: "Auf den Gewinn oder das Geschäft bezogen.",
@@ -1221,7 +1221,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5823,
+    id: 4892,
     word: "die Reserve, -n",
     translation: "reserve",
     definition: "Ein Vorrat für den Notfall.",
@@ -1234,7 +1234,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5826,
+    id: 4893,
     word: "die Verwirklichung (Sg.)",
     translation: "realization, implementation",
     definition: "Das Umsetzen eines Plans oder Traums in die Realität.",
@@ -1248,7 +1248,7 @@ export const B2_Vocabulary = [
     family: "verwirklichen",
   },
   {
-    id: 5827,
+    id: 4894,
     word: "profitieren (von + D.)",
     translation: "to profit from, to benefit from",
     definition: "Vorteile aus etwas ziehen.",
@@ -1261,7 +1261,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5830,
+    id: 4895,
     word: "das Existenzgründerseminar, -e",
     translation: "business start-up seminar",
     definition: "Ein Kurs für Personen, die sich selbstständig machen wollen.",
@@ -1275,7 +1275,7 @@ export const B2_Vocabulary = [
     family: "der Existenzgründer",
   },
   {
-    id: 5831,
+    id: 4896,
     word: "die Geschäftsidee, -n",
     translation: "business idea",
     definition: "Ein origineller Einfall für ein neues kommerzielles Geschäft.",
@@ -1288,7 +1288,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5833,
+    id: 4897,
     word: "der Konzern, -e",
     translation: "corporation, enterprise",
     definition:
@@ -1303,7 +1303,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5834,
+    id: 4898,
     word: "der/die Vorgesetzte, -n",
     translation: "superior, boss",
     definition: "Eine Person mit leitender Funktion über andere Mitarbeiter.",
@@ -1316,7 +1316,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5836,
+    id: 4899,
     word: "die Rücksendung, -en",
     translation: "return (of goods)",
     definition: "Das Zurückschicken einer erhaltenen Ware an den Händler.",
@@ -1328,7 +1328,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5837,
+    id: 4900,
     word: "die Logistik (Sg.)",
     translation: "logistics",
     definition:
@@ -1342,7 +1342,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5840,
+    id: 4901,
     word: "die Pleite, -n",
     translation: "bankruptcy, flop",
     definition: "Die finanzielle Zahlungsunfähigkeit eines Unternehmens.",
@@ -1357,7 +1357,7 @@ export const B2_Vocabulary = [
     family: "die Pleite",
   },
   {
-    id: 5841,
+    id: 4902,
     word: "pleitegehen",
     translation: "to go bankrupt",
     definition: "Finanziell scheitern und zahlungsunfähig werden.",
@@ -1371,7 +1371,7 @@ export const B2_Vocabulary = [
     family: "die Pleite",
   },
   {
-    id: 5843,
+    id: 4903,
     word: "einen Kredit aufnehmen",
     translation: "to take out a loan",
     definition: "Geld von einer Bank leihen und vertraglich binden.",
@@ -1383,7 +1383,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5844,
+    id: 4904,
     word: "niedergeschlagen",
     translation: "dejected, depressed",
     definition: "Traurig, niedergedrückt gestimmt sein.",
@@ -1395,7 +1395,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5846,
+    id: 4905,
     word: "die Gewerbefläche, -n",
     translation: "commercial area, industrial land",
     definition: "Ein für geschäftliche Zwecke ausgewiesenes Grundstück.",
@@ -1409,7 +1409,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5847,
+    id: 4906,
     word: "der Existenzgründer, - / die Existenzgründerin, -nen",
     translation: "business founder, start-up founder",
     definition: "Eine Person, die ein eigenes Unternehmen gründet.",
@@ -1423,7 +1423,7 @@ export const B2_Vocabulary = [
     family: "der Existenzgründer",
   },
   {
-    id: 5849,
+    id: 4907,
     word: "der Zuschuss, -e",
     translation: "grant, subsidy",
     definition: "Eine finanzielle Unterstützung für einen bestimmten Zweck.",
@@ -1436,7 +1436,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5850,
+    id: 4908,
     word: "der Dienstplan, -e",
     translation: "duty roster, work schedule",
     definition:
@@ -1450,7 +1450,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5851,
+    id: 4909,
     word: "etwas übernehmen",
     translation: "to take over something",
     definition: "Eine Aufgabe oder Verantwortung annehmen.",
@@ -1463,7 +1463,7 @@ export const B2_Vocabulary = [
     family: "nehmen",
   },
   {
-    id: 5852,
+    id: 4910,
     word: "etwas einhalten",
     translation: "to comply with something, to keep to something",
     definition: "Sich an Regeln, Fristen oder Vereinbarungen halten.",
@@ -1477,7 +1477,7 @@ export const B2_Vocabulary = [
     family: "einhalten",
   },
   {
-    id: 5853,
+    id: 4911,
     word: "der Umstand, -e",
     translation: "circumstance",
     definition: "Die Bedingung oder Begleiterscheinung einer Situation.",
@@ -1490,7 +1490,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5854,
+    id: 4912,
     word: "der Arbeitsauftrag, -e",
     translation: "work order, task assignment",
     definition:
@@ -1504,7 +1504,7 @@ export const B2_Vocabulary = [
     family: "arbeiten",
   },
   {
-    id: 5855,
+    id: 4913,
     word: "das Telefon abnehmen",
     translation: "to pick up the phone, to answer the phone",
     definition: "Den Hörer abheben, um einen Anruf entgegenzunehmen.",
@@ -1516,7 +1516,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5857,
+    id: 4914,
     word: "die Nachbestellung, -en",
     translation: "reorder, subsequent order",
     definition: "Das erneute Bestellen von Waren, die ausgegangen sind.",
@@ -1529,7 +1529,7 @@ export const B2_Vocabulary = [
     family: "stellen",
   },
   {
-    id: 5859,
+    id: 4915,
     word: "das Zusammenspiel (Sg.)",
     translation: "interaction, interplay",
     definition:
@@ -1544,7 +1544,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5860,
+    id: 4916,
     word: "sich anstrengen (bei + D. / mit + D.)",
     translation: "to make an effort, to exert oneself",
     definition: "Kräfte oder Mühe aufwenden, um ein Ziel zu erreichen.",
@@ -1558,7 +1558,7 @@ export const B2_Vocabulary = [
     family: "anstrengen",
   },
   {
-    id: 5861,
+    id: 4917,
     word: "weiterkommen",
     translation: "to make progress, to get ahead",
     definition: "Fortschritte machen oder im Leben/Beruf vorankommen.",
@@ -1572,7 +1572,7 @@ export const B2_Vocabulary = [
     family: "kommen",
   },
   {
-    id: 5864,
+    id: 4918,
     word: "Kritik üben/äußern (an + D.)",
     translation: "to criticize, to express criticism",
     definition: "Sich kritisch zu einer Sache oder Person äußern.",
@@ -1584,7 +1584,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5865,
+    id: 4919,
     word: "die Rundmail, -s",
     translation: "circular email, group email",
     definition:
@@ -1597,7 +1597,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5866,
+    id: 4920,
     word: "souverän",
     translation: "confident, sovereign",
     definition: "Sicher, gelassen und überlegen in seinem Auftreten.",
@@ -1609,7 +1609,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5868,
+    id: 4921,
     word: "unvoreingenommen",
     translation: "unbiased, impartial",
     definition: "Frei von Vorurteilen gegenüber etwas oder jemandem.",
@@ -1621,7 +1621,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5870,
+    id: 4922,
     word: "überlastet sein",
     translation: "to be overloaded, to be overworked",
     definition: "Mehr Arbeit oder Last haben, als man bewältigen kann.",
@@ -1634,7 +1634,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5871,
+    id: 4923,
     word: "der Verbesserungsvorschlag, -e",
     translation: "suggestion for improvement",
     definition: "Ein Vorschlag, wie man etwas besser machen kann.",
@@ -1647,7 +1647,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5872,
+    id: 4924,
     word: "sich unbeliebt machen (bei + D.)",
     translation: "to make oneself unpopular (with)",
     definition: "Durch sein Verhalten Sympathien bei anderen verlieren.",
@@ -1662,7 +1662,7 @@ export const B2_Vocabulary = [
     family: "machen",
   },
   {
-    id: 5873,
+    id: 4925,
     word: "einen schlechten Eindruck hinterlassen (bei + D.)",
     translation: "to leave a bad impression (on)",
     definition: "Bewirken, dass andere eine negative Meinung über einen haben.",
@@ -1676,7 +1676,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5875,
+    id: 4926,
     word: "jdn. loben (für + A.)",
     translation: "to praise someone (for)",
     definition: "Anerkennung oder Lob für eine Leistung aussprechen.",
@@ -1688,7 +1688,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5876,
+    id: 4927,
     word: "etwas vertuschen",
     translation: "to cover up something",
     definition:
@@ -1703,7 +1703,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5877,
+    id: 4928,
     word: "überfordert",
     translation: "overwhelmed, overtaxed",
     definition: "Den Anforderungen nicht gewachsen sein.",
@@ -1717,7 +1717,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5878,
+    id: 4929,
     word: "das Gerücht, -e",
     translation: "rumor, gossip",
     definition: "Eine Information unbestimmter Herkunft, die sich verbreitet.",
@@ -1729,7 +1729,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5879,
+    id: 4930,
     word: "der/die IT-Beauftragte, -n",
     translation: "IT officer, IT representative",
     definition:
@@ -1744,7 +1744,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5881,
+    id: 4931,
     word: "gelassen",
     translation: "calm, relaxed, serene",
     definition: " Ruhig und unbeeindruckt von Stress oder Hektik.",
@@ -1758,7 +1758,7 @@ export const B2_Vocabulary = [
     family: "gelassen",
   },
   {
-    id: 5882,
+    id: 4932,
     word: "das Vorurteil, -e",
     translation: "prejudice, bias",
     definition:
@@ -1773,7 +1773,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5884,
+    id: 4933,
     word: "eine Entscheidung treffen",
     translation: "to make a decision",
     definition: "Sich nach Überlegung für eine Option festlegen.",
@@ -1786,7 +1786,7 @@ export const B2_Vocabulary = [
     family: "treffen",
   },
   {
-    id: 5885,
+    id: 4934,
     word: "der Abteilungsleiter, - / die Abteilungsleiterin, -nen",
     translation: "head of department, department manager",
     definition:
@@ -1799,7 +1799,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5886,
+    id: 4935,
     word: "Verhandlungen führen (mit + D.)",
     translation: "to conduct negotiations",
     definition:
@@ -1813,7 +1813,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5887,
+    id: 4936,
     word: "einen Auftrag vergeben/annehmen",
     translation: "to award / accept an order or contract",
     definition:
@@ -1829,7 +1829,7 @@ export const B2_Vocabulary = [
     family: "annehmen",
   },
   {
-    id: 5888,
+    id: 4937,
     word: "die Buchhaltung (Sg.)",
     translation: "bookkeeping, accounting department",
     definition: "Die Abteilung für die Finanzbuchhaltung in einem Betrieb.",
@@ -1844,7 +1844,7 @@ export const B2_Vocabulary = [
     family: "die Haltung",
   },
   {
-    id: 5889,
+    id: 4938,
     word: "auf jdn. zukommen",
     translation: "to approach someone, to come towards someone",
     definition:
@@ -1859,7 +1859,7 @@ export const B2_Vocabulary = [
     family: "kommen",
   },
   {
-    id: 5890,
+    id: 4939,
     word: "der Personalchef, -s / die Personalchefin, -nen",
     translation: "head of human resources, HR manager",
     definition: "Die leitende Person in der Personalabteilung.",
@@ -1871,7 +1871,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5891,
+    id: 4940,
     word: "die Fachhochschule, -n (FH)",
     translation: "university of applied sciences",
     definition: "Eine Hochschule mit praxisorientiertem Studienschwerpunkt.",
@@ -1884,7 +1884,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5892,
+    id: 4941,
     word: "der Versand (Sg.)",
     translation: "shipping, dispatch",
     definition: "Das Verschicken von Waren an Kunden.",
@@ -1898,7 +1898,7 @@ export const B2_Vocabulary = [
     family: "der Versand",
   },
   {
-    id: 5894,
+    id: 4942,
     word: "das Protokoll, -e",
     translation: "minutes, protocol, record",
     definition:
@@ -1912,7 +1912,7 @@ export const B2_Vocabulary = [
     family: "das Protokoll",
   },
   {
-    id: 5895,
+    id: 4943,
     word: "der Tagesordnungspunkt, -e (der TOP, -s)",
     translation: "agenda item",
     definition: "Ein einzelner Punkt auf der Tagesordnung einer Versammlung.",
@@ -1924,7 +1924,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5898,
+    id: 4944,
     word: "präzise",
     translation: "precise, accurate",
     definition: "Sehr genau und exakt.",
@@ -1936,7 +1936,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5899,
+    id: 4945,
     word: "sachlich",
     translation: "objective, factual",
     definition: "Nur auf die Sache bezogen, sachgerecht und emotionslos.",
@@ -1949,7 +1949,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5900,
+    id: 4946,
     word: "neutral",
     translation: "neutral",
     definition: "Unparteiisch, sich keiner Seite anschliessend.",
@@ -1963,7 +1963,7 @@ export const B2_Vocabulary = [
     family: "neutral",
   },
   {
-    id: 5902,
+    id: 4947,
     word: "die Sitzung, -en",
     translation: "meeting, session",
     definition:
@@ -1978,7 +1978,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5903,
+    id: 4948,
     word: "mithilfe (von + D.)",
     translation: "with the help of, by means of",
     definition: "Unterstützt durch etwas oder jemanden.",
@@ -1991,7 +1991,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5904,
+    id: 4949,
     word: "der Entwurf, -e",
     translation: "draft, design, sketch",
     definition: "Ein erster vorläufiger Plan oder Entwurf eines Werks.",
@@ -2003,7 +2003,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5905,
+    id: 4950,
     word: "einen Entwurf erstellen",
     translation: "to create a draft / design",
     definition: "Einen ersten Plan oder Entwurf anfertigen.",
@@ -2016,7 +2016,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5906,
+    id: 4951,
     word: "der Flyer, -",
     translation: "flyer, leaflet",
     definition: "Ein einzelnes bedrucktes Blatt Papier zu Werbezwecken.",
@@ -2028,7 +2028,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5908,
+    id: 4952,
     word: "die Aushilfskraft, -e",
     translation: "temporary worker, assistant",
     definition:
@@ -2043,7 +2043,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5909,
+    id: 4953,
     word: "die Sommersaison (Sg.)",
     translation: "summer season",
     definition: "Die warme Jahreszeit als Hauptreise- oder Geschäftszeit.",
@@ -2057,7 +2057,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5911,
+    id: 4954,
     word: "problematisch",
     translation: "problematic",
     definition: "Schwierigkeiten bereitend oder unklar.",
@@ -2071,7 +2071,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5912,
+    id: 4955,
     word: "das Ganze (Sg.)",
     translation: "the whole, the entirety",
     definition: "Die Gesamtheit einer Sache.",
@@ -2083,7 +2083,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5916,
+    id: 4956,
     word: "komplex",
     translation: "complex",
     definition:
@@ -2096,7 +2096,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5917,
+    id: 4957,
     word: "per Zufall",
     translation: "by chance, accidentally",
     definition: "Ungeplant oder ohne Absicht geschehend.",
@@ -2108,7 +2108,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5918,
+    id: 4958,
     word: "ein Ergebnis erzielen",
     translation: "to achieve a result",
     definition:
@@ -2122,7 +2122,7 @@ export const B2_Vocabulary = [
     family: "erzielen",
   },
   {
-    id: 5919,
+    id: 4959,
     word: "die Kompetenz, -en",
     translation: "competence, skill",
     definition: "Die Fähigkeit oder Sachkenntnis, etwas erfolgreich zu tun.",
@@ -2134,7 +2134,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5920,
+    id: 4960,
     word: "der Macher, - / die Macherin, -nen",
     translation: "doer, high achiever",
     definition: "Eine Person, die Dinge anpackt und umsetzt.",
@@ -2147,7 +2147,7 @@ export const B2_Vocabulary = [
     family: "machen",
   },
   {
-    id: 5921,
+    id: 4961,
     word: "ohne Rücksicht auf Verluste",
     translation: "regardless of losses, at all costs",
     definition: "Ohne Beachtung möglicher negativer Folgen für andere.",
@@ -2159,7 +2159,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5922,
+    id: 4962,
     word: "die Abwechslung, -en",
     translation: "variety, change",
     definition: "Eine willkommene Abwechslung zum gewohnten Alltag.",
@@ -2171,7 +2171,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5923,
+    id: 4963,
     word: "sich festlegen lassen (auf + A.)",
     translation: "to be pinned down (to), to commit to",
     definition:
@@ -2185,7 +2185,7 @@ export const B2_Vocabulary = [
     family: "legen",
   },
   {
-    id: 5924,
+    id: 4964,
     word: "improvisieren",
     translation: "to improvise",
     definition: "Ohne Vorbereitung aus der Situation heraus handeln.",
@@ -2199,7 +2199,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5925,
+    id: 4965,
     word: "die Flexibilität (Sg.)",
     translation: "flexibility",
     definition: "Die Fähigkeit, sich flexibel anzupassen.",
@@ -2211,7 +2211,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5926,
+    id: 4966,
     word: "die Experimentierfreude (Sg.)",
     translation: "joy of experimenting, willingness to experiment",
     definition: "Die Freude daran, neue Dinge auszuprobieren.",
@@ -2224,7 +2224,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5927,
+    id: 4967,
     word: "der/die Konservative, -n",
     translation: "conservative person",
     definition: "Eine Person, die an bewährten Traditionen festhält.",
@@ -2237,7 +2237,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5928,
+    id: 4968,
     word: "über Bord werfen",
     translation: "to throw overboard, to abandon",
     definition: "Etwas (z.B. Prinzipien oder Pläne) komplett aufgeben.",
@@ -2250,7 +2250,7 @@ export const B2_Vocabulary = [
     family: "werfen",
   },
   {
-    id: 5929,
+    id: 4969,
     word: "die Ausdauer (Sg.)",
     translation: "endurance, stamina",
     definition:
@@ -2264,7 +2264,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5930,
+    id: 4970,
     word: "die Treue (Sg.)",
     translation: "loyalty, faithfulness",
     definition: "Die Eigenschaft, zuverlässig und treu zu sein.",
@@ -2277,7 +2277,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5931,
+    id: 4971,
     word: "einen Gegenpol bilden (zu + D.)",
     translation: "to form a counterpart (to)",
     definition: "Einen Kontrast oder ein Gegengewicht zu etwas darstellen.",
@@ -2291,7 +2291,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5932,
+    id: 4972,
     word: "etwas in die Tat umsetzen",
     translation: "to put something into practice",
     definition: "Einen Plan oder eine Idee verwirklichen.",
@@ -2304,7 +2304,7 @@ export const B2_Vocabulary = [
     family: "umsetzen",
   },
   {
-    id: 5933,
+    id: 4973,
     word: "systematisch",
     translation: "systematic",
     definition: "Planmäßig und nach einem festen System vorgehend.",
@@ -2316,7 +2316,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5934,
+    id: 4974,
     word: "das Faktenwissen (Sg.)",
     translation: "factual knowledge",
     definition: "Wissen, das auf konkreten Fakten beruht.",
@@ -2329,7 +2329,7 @@ export const B2_Vocabulary = [
     family: "die Fakten",
   },
   {
-    id: 5936,
+    id: 4975,
     word: "detailliert",
     translation: "detailed",
     definition: "Mit vielen Einzelheiten versehen.",
@@ -2341,7 +2341,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5937,
+    id: 4976,
     word: "fasziniert (von + D.)",
     translation: "fascinated (by)",
     definition: "Sehr begeistert und eingenommen von etwas sein.",
@@ -2354,7 +2354,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5938,
+    id: 4977,
     word: "die Realität aus den Augen verlieren",
     translation: "to lose touch with reality",
     definition: "Den Bezug zur tatsächlichen Wirklichkeit verlieren.",
@@ -2368,7 +2368,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5939,
+    id: 4978,
     word: "formal",
     translation: "formal",
     definition: "Den äußeren Formen oder Vorschriften entsprechend.",
@@ -2380,7 +2380,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5940,
+    id: 4979,
     word: "die Vorgabe, -n",
     translation: "specification, guideline, target",
     definition: "Eine vorgegebene Richtlinie oder Zielvorgabe.",
@@ -2392,7 +2392,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5941,
+    id: 4980,
     word: "ignorieren",
     translation: "to ignore",
     definition: "Etwas absichtlich nicht beachten.",
@@ -2404,7 +2404,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5942,
+    id: 4981,
     word: "die Neugier (Sg.)",
     translation: "curiosity",
     definition: "Der Drang, etwas Neues zu erfahren oder zu sehen.",
@@ -2416,7 +2416,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5943,
+    id: 4982,
     word: "die Innovation, -en",
     translation: "innovation",
     definition: "Die Einführung einer Neuerung oder Erfindung.",
@@ -2428,7 +2428,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5944,
+    id: 4983,
     word: "das Wachstum (Sg.)",
     translation: "growth",
     definition: "Die Vergrößerung oder Zunahme von etwas.",
@@ -2441,7 +2441,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5945,
+    id: 4984,
     word: "konstruktiv - destruktiv",
     translation: "constructive - destructive",
     definition: "Fördernd und aufbauend im Gegensatz zu zerstörerisch.",
@@ -2453,7 +2453,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5946,
+    id: 4985,
     word: "chaotisch - strukturiert",
     translation: "chaotic - structured",
     definition: "Ungegliedert und durcheinander im Gegensatz zu geordnet.",
@@ -2467,7 +2467,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5947,
+    id: 4986,
     word: "traditionell - innovativ",
     translation: "traditional - innovative",
     definition: "Althergebracht im Gegensatz zu neuartig und fortschrittlich.",
@@ -2481,7 +2481,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5948,
+    id: 4987,
     word: "gefühlsbetont - rationell",
     translation: "emotional - rational",
     definition: "Von Gefühlen bestimmt im Gegensatz zu vernunftgemäß.",
@@ -2495,7 +2495,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5949,
+    id: 4988,
     word: "voreilig",
     translation: "hasty, premature",
     definition: "Zu schnell und ohne langes Nachdenken geschehend.",
@@ -2507,7 +2507,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5950,
+    id: 4989,
     word: "motivierend - demotivierend",
     translation: "motivating - demotivating",
     definition: "Anspornend im Gegensatz zu entmutigend.",
@@ -2520,7 +2520,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5951,
+    id: 4990,
     word: "provozierend - ausgleichend",
     translation: "provocative - balancing, conciliatory",
     definition: "Herausfordernd im Gegensatz zu Streit schlichtend.",
@@ -2534,7 +2534,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5952,
+    id: 4991,
     word: "pessimistisch - optimistisch",
     translation: "pessimistic - optimistic",
     definition:
@@ -2548,7 +2548,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5953,
+    id: 4992,
     word: "einen Einblick bekommen (in + A.)",
     translation: "to get an insight (into)",
     definition: "Informationen oder Einblicke in einen Bereich erhalten.",
@@ -2562,7 +2562,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5954,
+    id: 4993,
     word: "jdn. freistellen (für + A.)",
     translation: "to release someone (from duties/for a purpose)",
     definition:
@@ -2576,7 +2576,7 @@ export const B2_Vocabulary = [
     family: "stellen",
   },
   {
-    id: 5955,
+    id: 4994,
     word: "Kundenwünsche",
     translation: "customer requests, customer wishes",
     definition: "Die spezifischen Wünsche und Anforderungen von Kunden.",
@@ -2588,7 +2588,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5956,
+    id: 4995,
     word: "die Pauschalreise, -n",
     translation: "package tour, package holiday",
     definition:
@@ -2603,7 +2603,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5957,
+    id: 4996,
     word: "die Vollpension (Sg.)",
     translation: "full board",
     definition: "Hotelunterkunft inklusive Frühstück, Mittag- und Abendessen.",
@@ -2617,7 +2617,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5958,
+    id: 4997,
     word: "alles inklusive",
     translation: "all inclusive",
     definition: "Alle Leistungen und Speisen sind im Preis enthalten.",
@@ -2629,7 +2629,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5959,
+    id: 4998,
     word: "die Hotelanlage, -n",
     translation: "hotel complex, resort",
     definition:
@@ -2643,7 +2643,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5960,
+    id: 4999,
     word: "die Reisegruppe, -n",
     translation: "tour group",
     definition: "Eine Gruppe von Reisenden, die gemeinsam unterwegs sind.",
@@ -2656,7 +2656,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5963,
+    id: 5000,
     word: "der Frühbucherrabatt, -e",
     translation: "early bird discount",
     definition: "Ein Preisnachlass bei früher Buchung einer Reise.",
@@ -2670,7 +2670,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5967,
+    id: 5001,
     word: "sensationell",
     translation: "sensational",
     definition: "Außergewöhnlich und großes Aufsehen erregend.",
@@ -2682,7 +2682,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5968,
+    id: 5002,
     word: "der Haken, -",
     translation: "catch, snag, hook",
     definition:
@@ -2695,7 +2695,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5970,
+    id: 5003,
     word: "versteckte Gebühren",
     translation: "hidden fees",
     definition: "Kosten, die nicht sofort offensichtlich sind.",
@@ -2709,7 +2709,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5971,
+    id: 5004,
     word: "die Anzahlung, -en",
     translation: "down payment, deposit",
     definition: "Eine erste Teilzahlung vor der Gesamtzahlung.",
@@ -2721,7 +2721,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5972,
+    id: 5005,
     word: "Ich wäre Ihnen dankbar ...",
     translation: "I would be grateful to you ...",
     definition: "Eine höfliche Formulierung für eine Bitte.",
@@ -2735,7 +2735,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5974,
+    id: 5006,
     word: "die Reiserücktrittsversicherung, -en",
     translation: "trip cancellation insurance",
     definition:
@@ -2750,7 +2750,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5975,
+    id: 5007,
     word: "eine Versicherung abschließen",
     translation: "to take out an insurance policy",
     definition: "Einen Versicherungsvertrag eingehen.",
@@ -2765,7 +2765,7 @@ export const B2_Vocabulary = [
     family: "abschließen",
   },
   {
-    id: 5977,
+    id: 5008,
     word: "für die Kosten aufkommen",
     translation: "to cover the costs, to bear the expenses",
     definition: "Die Bezahlung der Kosten übernehmen.",
@@ -2778,7 +2778,7 @@ export const B2_Vocabulary = [
     family: "Kosten",
   },
   {
-    id: 5978,
+    id: 5009,
     word: "die allgemeinen Geschäftsbedingungen (AGBs)",
     translation: "general terms and conditions (T&C)",
     definition: "Rechtliche Standardbedingungen eines Vertrages.",
@@ -2792,7 +2792,7 @@ export const B2_Vocabulary = [
     family: "die Geschäftsbedingungen",
   },
   {
-    id: 5979,
+    id: 5010,
     word: "(eine Reise) stornieren",
     translation: "to cancel (a trip)",
     definition: "Einen Vertrag oder eine Buchung rückgängig machen.",
@@ -2804,7 +2804,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5980,
+    id: 5011,
     word: "bychen",
     translation: "to book",
     definition:
@@ -2817,7 +2817,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5981,
+    id: 5012,
     word: "im Krankheitsfall",
     translation: "in case of illness",
     definition: "Für den Fall, dass eine Person krank wird.",
@@ -2829,7 +2829,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5983,
+    id: 5013,
     word: "der Master, -",
     translation: "master's degree",
     definition: "Ein universitärer Studiabschluss nach dem Bachelor.",
@@ -2842,7 +2842,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5984,
+    id: 5014,
     word: "sich spezialisieren (auf + A.)",
     translation: "to specialize (in)",
     definition: "Sich auf ein bestimmtes Fachgebiet konzentrieren.",
@@ -2857,7 +2857,7 @@ export const B2_Vocabulary = [
     family: "spezialisieren",
   },
   {
-    id: 5986,
+    id: 5015,
     word: "unterwegs sein",
     translation: "to be on the way, to be out and about",
     definition: "Sich auf einer Reise oder dem Weg befinden.",
@@ -2869,7 +2869,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5987,
+    id: 5016,
     word: "zur Verfügung stehen",
     translation: "to be available",
     definition: "Für jemanden bereitstehen oder nutzbar sein.",
@@ -2882,7 +2882,7 @@ export const B2_Vocabulary = [
     family: "stehen",
   },
   {
-    id: 5988,
+    id: 5017,
     word: "anspruchsvoll",
     translation: "demanding, challenging",
     definition: "Hohe Anforderungen stellend.",
@@ -2895,7 +2895,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5989,
+    id: 5018,
     word: "das feste Einkommen",
     translation: "steady income, fixed income",
     definition: "Ein regelmäßiges, sicheres Gehalt.",
@@ -2908,7 +2908,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5990,
+    id: 5019,
     word: "die Geschäftsleitung, -en",
     translation: "management, executive board",
     definition: "Die leitende Direktion eines Unternehmens.",
@@ -2920,7 +2920,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5991,
+    id: 5020,
     word: "reibungslos",
     translation: "smooth, without friction",
     definition: "Ohne Probleme oder Störungen ablaufend.",
@@ -2932,7 +2932,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5992,
+    id: 5021,
     word: "das Check-in/out",
     translation: "check-in / check-out",
     definition: "Die An- oder Abmeldung in einem Hotel oder am Flughafen.",
@@ -2944,7 +2944,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5993,
+    id: 5022,
     word: "die Koordination (Sg.)",
     translation: "coordination",
     definition: "Das geordnete Zusammenwirken verschiedener Abläufe.",
@@ -2958,7 +2958,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5996,
+    id: 5023,
     word: "die Begeisterung (Sg.)",
     translation: "enthusiasm",
     definition: "Ein starkes Gefühl der Freude und des Beifalls.",
@@ -2972,7 +2972,7 @@ export const B2_Vocabulary = [
     family: "begeistern",
   },
   {
-    id: 5997,
+    id: 5024,
     word: "das Grundgehalt, -er",
     translation: "base salary, basic wage",
     definition: "Das feste Grundgehalt ohne zusätzliche Prämien.",
@@ -2984,7 +2984,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 5998,
+    id: 5025,
     word: "die Aufstiegsmöglichkeit, -en",
     translation: "career opportunity, chance of promotion",
     definition: "Die Möglichkeit, beruflich aufzusteigen.",
@@ -2998,7 +2998,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6000,
+    id: 5026,
     word: "die Anerkennung (Sg.)",
     translation: "recognition, appreciation",
     definition: "Die positive Bestätigung und Wertschätzung einer Leistung.",
@@ -3011,7 +3011,7 @@ export const B2_Vocabulary = [
     family: "erkennen",
   },
   {
-    id: 6001,
+    id: 5027,
     word: "todmüde",
     translation: "dead tired, exhausted",
     definition: "Extrem müde sein.",
@@ -3023,7 +3023,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6003,
+    id: 5028,
     word: "die Anforderung, -en",
     translation: "requirement, demand",
     definition: "Eine Bedingung oder Erwartung, die an jemanden gestellt wird.",
@@ -3036,7 +3036,7 @@ export const B2_Vocabulary = [
     family: "anfordern",
   },
   {
-    id: 6004,
+    id: 5029,
     word: "die Team- und Kommunikationsfähigkeit",
     translation: "teamwork and communication skills",
     definition: "Die Fähigkeit, gut im Team zu arbeiten und zu kommunizieren.",
@@ -3050,7 +3050,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6005,
+    id: 5030,
     word: "die Bewerbungsunterlagen (Pl.)",
     translation: "application documents",
     definition:
@@ -3066,7 +3066,7 @@ export const B2_Vocabulary = [
     family: "bewerben",
   },
   {
-    id: 6007,
+    id: 5031,
     word: "das Berufsbild, -er",
     translation: "professional profile, job profile",
     definition: "Das typische Profil und die Aufgaben eines Berufs.",
@@ -3080,7 +3080,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6008,
+    id: 5032,
     word: "die Satire, -n",
     translation: "satire",
     definition: "Eine spöttische, kritische Darstellung von Missständen.",
@@ -3093,7 +3093,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6009,
+    id: 5033,
     word: "die Umbuchung, -en",
     translation: "rebooking, transfer",
     definition: "Das Ändern einer bereits getätigten Buchung.",
@@ -3105,7 +3105,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6011,
+    id: 5034,
     word: "ausgebucht",
     translation: "fully booked",
     definition: "Keine freien Plätze mehr verfügbar.",
@@ -3118,7 +3118,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6012,
+    id: 5035,
     word: "hoffnungslos",
     translation: "hopeless",
     definition: "Ohne jede Hoffnung auf Besserung oder Erfolg.",
@@ -3132,7 +3132,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6013,
+    id: 5036,
     word: "überbucht",
     translation: "overbooked",
     definition: "Mehr Buchungen angenommen als Kapazitäten vorhanden sind.",
@@ -3146,7 +3146,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6014,
+    id: 5037,
     word: "zgubern",
     translation: "to hesitate",
     definition:
@@ -3159,7 +3159,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6015,
+    id: 5038,
     word: "in der Lgge sein",
     translation: "to be in a position to, to be able to",
     definition:
@@ -3173,7 +3173,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6019,
+    id: 5039,
     word: "psychisch",
     translation: "psychological, mental",
     definition: "Die Seele und den Geist betreffend.",
@@ -3186,7 +3186,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6020,
+    id: 5040,
     word: "therapeutisch",
     translation: "therapeutic",
     definition: "Zur Heilung oder Linderung einer Krankheit dienend.",
@@ -3198,7 +3198,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6021,
+    id: 5041,
     word: "alles im Griff haben",
     translation: "to have everything under control",
     definition: "Eine Situation vollkommen beherrschen.",
@@ -3211,7 +3211,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6022,
+    id: 5042,
     word: "der Sinn des Lebens",
     translation: "the meaning of life",
     definition:
@@ -3226,7 +3226,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6024,
+    id: 5043,
     word: "gut umgehen können (mit + D.)",
     translation: "to be able to handle well",
     definition: "Fähig sein, gut mit etwas oder jemandem zu verfahren.",
@@ -3239,7 +3239,7 @@ export const B2_Vocabulary = [
     family: "gehen",
   },
   {
-    id: 6027,
+    id: 5044,
     word: "sicherlich",
     translation: "certainly, surely",
     definition: "Mit Sicherheit, gewiss.",
@@ -3252,7 +3252,7 @@ export const B2_Vocabulary = [
     family: "sich",
   },
   {
-    id: 6028,
+    id: 5045,
     word: "abschließend",
     translation: "concluding, finally",
     definition: "Zum Schluss, als letztes.",
@@ -3265,7 +3265,7 @@ export const B2_Vocabulary = [
     family: "abschließen",
   },
   {
-    id: 6029,
+    id: 5046,
     word: "(Boden/Stromleitungen) verlegen",
     translation: "to lay (flooring / power lines)",
     definition: "Materialien fest auf oder in den Boden einbauen.",
@@ -3278,7 +3278,7 @@ export const B2_Vocabulary = [
     family: "legen",
   },
   {
-    id: 6031,
+    id: 5047,
     word: "die Dichtung, -en",
     translation: "seal, gasket, poetry",
     definition: "Hier: ein Material zum Abdichten von Fugen oder Rohren.",
@@ -3290,7 +3290,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6032,
+    id: 5048,
     word: "(eine Steckdose) anbringen",
     translation: "to install, to attach (a socket)",
     definition: "Etwas an einem Ort befestigen.",
@@ -3304,7 +3304,7 @@ export const B2_Vocabulary = [
     family: "bringen",
   },
   {
-    id: 6034,
+    id: 5049,
     word: "der Schraubenzieher, -",
     translation: "screwdriver",
     definition: "Ein Werkzeug zum Festziehen oder Lösen von Schrauben.",
@@ -3316,7 +3316,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6035,
+    id: 5050,
     word: "Metallstücke zusammenschweißen",
     translation: "to weld pieces of metal together",
     definition: "Metallteile durch Hitze dauerhaft verbinden.",
@@ -3328,7 +3328,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6037,
+    id: 5051,
     word: "Waschbecken montieren",
     translation: "to assemble / install washbasins",
     definition: "Ein Waschbecken fachgerecht anbringen und anschließen.",
@@ -3340,7 +3340,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6040,
+    id: 5052,
     word: "das Maßband, -er",
     translation: "measuring tape",
     definition: "Ein flexibler Streifen zum Messen von Längen.",
@@ -3353,7 +3353,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6041,
+    id: 5053,
     word: "defekt",
     translation: "defective, broken",
     definition: "Kaputt, nicht funktionstüchtig.",
@@ -3366,7 +3366,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6042,
+    id: 5054,
     word: "das Abflussrohr, -e",
     translation: "drain pipe",
     definition: "Ein Rohr zum Ableiten von Schmutzwasser.",
@@ -3378,7 +3378,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6043,
+    id: 5055,
     word: "der Baumarkt, -e",
     translation: "hardware store, DIY store",
     definition: "Ein Geschäft für Heimwerkerbedarf und Baustoffe.",
@@ -3391,7 +3391,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6044,
+    id: 5056,
     word: "der Umgang (mit + D.)",
     translation: "dealings with, handling of",
     definition: "Die Art und Weise, wie man mit jemandem oder etwas umgeht.",
@@ -3403,7 +3403,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6046,
+    id: 5057,
     word: "das Konzept, -e",
     translation: "concept, plan",
     definition: "Ein strukturierter Entwurf oder Plan für ein Vorhaben.",
@@ -3417,7 +3417,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6047,
+    id: 5058,
     word: "für sich sprechen",
     translation: "to speak for itself",
     definition: "Offensichtlich und klar sein, ohne weitere Erklärung.",
@@ -3430,7 +3430,7 @@ export const B2_Vocabulary = [
     family: "sprechen",
   },
   {
-    id: 6048,
+    id: 5059,
     word: "sich fest etablieren",
     translation: "to establish oneself firmly",
     definition:
@@ -3444,7 +3444,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6050,
+    id: 5060,
     word: "etwas zur Verfügung stellen",
     translation: "to make something available",
     definition: "Etwas bereitstellen, damit andere es nutzen können.",
@@ -3457,7 +3457,7 @@ export const B2_Vocabulary = [
     family: "stellen",
   },
   {
-    id: 6051,
+    id: 5061,
     word: "das Niveau, -s",
     translation: "level, standard",
     definition: "Die Qualität oder das Höhenmaß von etwas.",
@@ -3470,7 +3470,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6052,
+    id: 5062,
     word: "der Fortbildungsbedarf, -e",
     translation: "training need, need for further education",
     definition: "Der Bedarf an zusätzlicher beruflicher Qualifizierung.",
@@ -3485,7 +3485,7 @@ export const B2_Vocabulary = [
     family: "fortbilden",
   },
   {
-    id: 6053,
+    id: 5063,
     word: "den Teppich reinigen",
     translation: "to clean the carpet",
     definition: "Einen Teppich von Schmutz befreien.",
@@ -3500,7 +3500,7 @@ export const B2_Vocabulary = [
     family: "reinigen",
   },
   {
-    id: 6054,
+    id: 5064,
     word: "das Preisschild, -er",
     translation: "price tag",
     definition: "Ein Etikett mit dem Preis einer Ware.",
@@ -3514,7 +3514,7 @@ export const B2_Vocabulary = [
     family: "schildern",
   },
   {
-    id: 6057,
+    id: 5065,
     word: "die Aufmerksamkeit (Sg.)",
     translation: "attention",
     definition: "Die Konzentration auf etwas oder jemanden.",
@@ -3527,7 +3527,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6059,
+    id: 5066,
     word: "verzweifelt",
     translation: "desperate",
     definition: "Voller Verzweiflung, keinen Ausweg mehr sehend.",
@@ -3539,7 +3539,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6061,
+    id: 5067,
     word: "der Anschlusszug, -e",
     translation: "connecting train",
     definition:
@@ -3552,7 +3552,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6062,
+    id: 5068,
     word: "die Kündigungsfrist, -en",
     translation: "notice period, period of notice",
     definition: "Die Frist, innerhalb derer ein Vertrag gekündigt werden muss.",
@@ -3565,7 +3565,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6063,
+    id: 5069,
     word: "die Arbeitsbedingung, -en",
     translation: "working condition",
     definition: "Die Bedingungen, unter denen gearbeitet wird.",
@@ -3580,7 +3580,7 @@ export const B2_Vocabulary = [
     family: "arbeiten",
   },
   {
-    id: 6065,
+    id: 5070,
     word: "beitreten",
     translation: "to join",
     definition: "Mitglied in einer Organisation oder Partei werden.",
@@ -3592,7 +3592,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6066,
+    id: 5071,
     word: "der/die Heimwerker, - / die Heimwerkerin, -nen",
     translation: "DIY enthusiast, handyman",
     definition:
@@ -3606,7 +3606,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6067,
+    id: 5072,
     word: "der Notdienst, -e",
     translation: "emergency service",
     definition:
@@ -3620,7 +3620,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6069,
+    id: 5073,
     word: "die Montage (Sg.)",
     translation: "assembly, installation",
     definition: "Das Zusammenbauen oder Installieren von technischen Anlagen.",
@@ -3633,7 +3633,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6070,
+    id: 5074,
     word: "die Montageanleitung, -en",
     translation: "assembly instructions, installation manual",
     definition: "Eine Anleitung zum Zusammenbauen von Geräten oder Möbeln.",
@@ -3648,7 +3648,7 @@ export const B2_Vocabulary = [
     family: "anleiten",
   },
   {
-    id: 6071,
+    id: 5075,
     word: "der Geldbeutel, =",
     translation: "wallet, purse",
     definition: "Ein kleines Behältnis für Bargeld und Karten.",
@@ -3660,7 +3660,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6072,
+    id: 5076,
     word: "allgln klarkommen",
     translation: "to get along generally",
     definition:
@@ -3673,7 +3673,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6073,
+    id: 5077,
     word: "der Haupthahn, -e",
     translation: "main stopcock, main valve",
     definition: "Das Hauptventil für Wasser oder Gas in einem Gebäude.",
@@ -3687,7 +3687,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6074,
+    id: 5078,
     word: "zudrehen",
     translation: "to turn off, to close (a tap)",
     definition: "Ein Ventil oder einen Wasserhahn durch Drehen schließen.",
@@ -3699,7 +3699,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6075,
+    id: 5079,
     word: "(Wasser) ablassen",
     translation: "to drain (water)",
     definition: "Flüssigkeit aus einem Behälter oder System abfließen lassen.",
@@ -3712,7 +3712,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6078,
+    id: 5080,
     word: "abdecken",
     translation: "to cover",
     definition: "Etwas mit einer Decke oder Plane bedecken, um es zu schützen.",
@@ -3725,7 +3725,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6079,
+    id: 5081,
     word: "die Klappe, -n",
     translation: "flap, hatch",
     definition: "Ein beweglicher Deckel oder eine kleine Tür an einem Gerät.",
@@ -3737,7 +3737,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6080,
+    id: 5082,
     word: "die Grundlage legen (für + A.)",
     translation: "to lay the foundation (for)",
     definition: "Die Basis für etwas schaffen.",
@@ -3752,7 +3752,7 @@ export const B2_Vocabulary = [
     family: "die Grundlage",
   },
   {
-    id: 6081,
+    id: 5083,
     word: "intern - extern",
     translation: "internal - external",
     definition: "Innerhalb eines Betriebs oder von außen kommend.",
@@ -3766,7 +3766,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6082,
+    id: 5084,
     word: "der Arbeitsbereich, -e",
     translation: "work area, field of work",
     definition: "Der Bereich, in dem man beruflich tätig ist.",
@@ -3779,7 +3779,7 @@ export const B2_Vocabulary = [
     family: "arbeiten",
   },
   {
-    id: 6083,
+    id: 5085,
     word: "das Mobbing (Sg.)",
     translation: "bullying, mobbing",
     definition: "Das systematische Anfeinden oder Schikanieren von Kollegen.",
@@ -3793,7 +3793,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6084,
+    id: 5086,
     word: "ausgerechnet dann, wenn ...",
     translation: "just when ..., of all times when ...",
     definition: "Ausgerechnet zu dem Zeitpunkt, an dem...",
@@ -3805,7 +3805,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6086,
+    id: 5087,
     word: "vereinfachen",
     translation: "to simplify",
     definition: "Etwas leichter oder verständlicher machen.",
@@ -3818,7 +3818,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6087,
+    id: 5088,
     word: "verbilligen",
     translation: "to make cheaper, to reduce in price",
     definition: "Den Preis von etwas senken.",
@@ -3831,7 +3831,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6088,
+    id: 5089,
     word: "die Instandhaltung (Sg.)",
     translation: "maintenance, upkeep",
     definition: "Maßnahmen zur Bewahrung des funktionsfähigen Zustands.",
@@ -3845,7 +3845,7 @@ export const B2_Vocabulary = [
     family: "die Haltung",
   },
   {
-    id: 6089,
+    id: 5090,
     word: "die Wartung (Sg.)",
     translation: "servicing, maintenance",
     definition: "Regelmäßige Pflege und Prüfung von technischen Anlagen.",
@@ -3857,7 +3857,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6090,
+    id: 5091,
     word: "senken",
     translation: "to lower, to reduce",
     definition: "Etwas nach unten bewegen oder verringern.",
@@ -3870,7 +3870,7 @@ export const B2_Vocabulary = [
     family: "senken",
   },
   {
-    id: 6091,
+    id: 5092,
     word: "die Eingangsbestätigung, -en",
     translation: "acknowledgement of receipt",
     definition:
@@ -3885,7 +3885,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6092,
+    id: 5093,
     word: "sorgfältig",
     translation: "careful, thorough",
     definition: "Mit großer Genauigkeit und Sorgfalt ausgeführt.",
@@ -3897,7 +3897,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6093,
+    id: 5094,
     word: "(einen Vorschlag) umsetzen",
     translation: "to implement (a proposal)",
     definition: "Einen Vorschlag in die Tat umsetzen oder verwirklichen.",
@@ -3910,7 +3910,7 @@ export const B2_Vocabulary = [
     family: "setzen",
   },
   {
-    id: 6094,
+    id: 5095,
     word: "unterkommen (in + D.)",
     translation: "to find accommodation, to find a place to stay",
     definition: "Eine Bleibe oder einen Arbeitsplatz finden.",
@@ -3925,7 +3925,7 @@ export const B2_Vocabulary = [
     family: "kommen",
   },
   {
-    id: 6096,
+    id: 5096,
     word: "sich fit machen (für + A.)",
     translation: "to get fit (for)",
     definition: "Sich durch Training oder Vorbereitung auf etwas einstellen.",
@@ -3940,7 +3940,7 @@ export const B2_Vocabulary = [
     family: "machen",
   },
   {
-    id: 6097,
+    id: 5097,
     word: "die duale Ausbildung",
     translation: "dual vocational training",
     definition: "Eine Berufsausbildung im Betrieb und in der Berufsschule.",
@@ -3952,7 +3952,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6098,
+    id: 5098,
     word: "durchlaufen",
     translation: "to go through, to undergo",
     definition: "Einen Prozess oder eine Ausbildung komplett durchlaufen.",
@@ -3964,7 +3964,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6099,
+    id: 5099,
     word: "einen guten Ruf haben",
     translation: "to have a good reputation",
     definition: "Bei anderen hoch geschätzt und bekannt für Qualität sein.",
@@ -3977,7 +3977,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6100,
+    id: 5100,
     word: "der Ausbildungsbetrieb, -e",
     translation: "training company, apprenticeship company",
     definition: "Ein Betrieb, der Ausbildungsplätze anbietet.",
@@ -3991,7 +3991,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6102,
+    id: 5101,
     word: "der/die Schulabgänger, - / die Schulabgängerin, -nen",
     translation: "school leaver, graduate",
     definition: "Eine Person, die die Schule mit einem Abschluss verlässt.",
@@ -4005,7 +4005,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6103,
+    id: 5102,
     word: "durchführen",
     translation: "to carry out, to perform",
     definition: "Eine Aufgabe oder Aktion ausführen.",
@@ -4018,7 +4018,7 @@ export const B2_Vocabulary = [
     family: "führen",
   },
   {
-    id: 6104,
+    id: 5103,
     word: "etwas überdenken",
     translation: "to rethink something, to reconsider",
     definition: "Eine Sache noch einmal kritisch prüfen.",
@@ -4031,7 +4031,7 @@ export const B2_Vocabulary = [
     family: "überdenken",
   },
   {
-    id: 6106,
+    id: 5104,
     word: "der/die Geflüchtete, -n",
     translation: "refugee",
     definition: "Eine Person, die aus ihrer Heimat geflüchtet ist.",
@@ -4043,7 +4043,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6107,
+    id: 5105,
     word: "jdm. etwas ermöglichen",
     translation: "to make something possible for someone",
     definition: "Jiemandem die Chance geben, etwas zu tun.",
@@ -4057,7 +4057,7 @@ export const B2_Vocabulary = [
     family: "ermöglichen",
   },
   {
-    id: 6108,
+    id: 5106,
     word: "nachhaltig",
     translation: "sustainable, lasting",
     definition: "Umweltschonend oder von langer Dauer wirkend.",
@@ -4070,7 +4070,7 @@ export const B2_Vocabulary = [
     family: "nachhaltig",
   },
   {
-    id: 6109,
+    id: 5107,
     word: "sanieren",
     translation: "to renovate, to sanitize",
     definition: "Ein Gebäude oder System grundlegend erneuern.",
@@ -4083,7 +4083,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6111,
+    id: 5108,
     word: "eingeschränkt",
     translation: "limited, restricted",
     definition: "Nicht uneingeschränkt oder nur unter Bedingungen verfügbar.",
@@ -4097,7 +4097,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6112,
+    id: 5109,
     word: "überlaufen",
     translation: "to overflow, to be overrun",
     definition:
@@ -4110,7 +4110,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6113,
+    id: 5110,
     word: "unpraktisch",
     translation: "impractical",
     definition: "Nicht praktisch oder unzweckmäßig im Gebrauch.",
@@ -4122,7 +4122,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6115,
+    id: 5111,
     word: "etw. umgehen",
     translation: "to bypass, to circumvent",
     definition: "Einem Hindernis oder einer Vorschrift ausweichen.",
@@ -4136,7 +4136,7 @@ export const B2_Vocabulary = [
     family: "gehen",
   },
   {
-    id: 6116,
+    id: 5112,
     word: "die Messung, -en",
     translation: "measurement",
     definition: "Das Ermitteln von Messwerten.",
@@ -4148,7 +4148,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6117,
+    id: 5113,
     word: "die Auswirkung, -en",
     translation: "impact, effect",
     definition: "Die Folge oder Wirkung eines Ereignisses.",
@@ -4162,7 +4162,7 @@ export const B2_Vocabulary = [
     family: "auswirken",
   },
   {
-    id: 6118,
+    id: 5114,
     word: "Auswirkungen haben (auf + A.)",
     translation: "to have an impact (on)",
     definition: "Konsequenzen für etwas mit sich bringen.",
@@ -4175,7 +4175,7 @@ export const B2_Vocabulary = [
     family: "auswirken",
   },
   {
-    id: 6120,
+    id: 5115,
     word: "jdn. unter Druck setzen",
     translation: "to put someone under pressure",
     definition:
@@ -4189,7 +4189,7 @@ export const B2_Vocabulary = [
     family: "setzen",
   },
   {
-    id: 6121,
+    id: 5116,
     word: "das Design, -s",
     translation: "design",
     definition: "Die gestalterische Formgebung von Objekten.",
@@ -4201,7 +4201,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6123,
+    id: 5117,
     word: "die Kosten überschlagen (für + A.)",
     translation: "to estimate the costs",
     definition: "Die anfallenden Kosten grob überschlagen oder berechnen.",
@@ -4214,7 +4214,7 @@ export const B2_Vocabulary = [
     family: "Kosten",
   },
   {
-    id: 6124,
+    id: 5118,
     word: "begleitende Zeugnisse",
     translation: "accompanying certificates, supporting references",
     definition: "Zeugnisse, die einer Bewerbung oder Unterlage beiliegen.",
@@ -4228,7 +4228,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6125,
+    id: 5119,
     word: "der Schwerpunkt, -e",
     translation: "main focus, focal point",
     definition: "Der wichtigste Bereich, auf den man sich konzentriert.",
@@ -4242,7 +4242,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6126,
+    id: 5120,
     word: "die Semesterferien (Pl.)",
     translation: "semester break, university vacation",
     definition: "Die vorlesungsfreie Zeit an Universitäten.",
@@ -4255,7 +4255,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6127,
+    id: 5121,
     word: "der Bergisch, -e",
     translation: "mountainous / regional term (Bergisch)",
     definition:
@@ -4270,7 +4270,7 @@ export const B2_Vocabulary = [
     family: "bergen",
   },
   {
-    id: 6130,
+    id: 5122,
     word: "beruflich/ehrenamtlich tätig sein",
     translation: "to be professionally / voluntarily active",
     definition: "Einen Beruf ausüben oder sich ehrenamtlich engagieren.",
@@ -4283,7 +4283,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6131,
+    id: 5123,
     word: "überdurchschnittlich - unterdurchschnittlich",
     translation: "above average - below average",
     definition: "Höher oder niedriger als der Durchschnitt liegend.",
@@ -4295,7 +4295,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6133,
+    id: 5124,
     word: "das Industrieunternehmen, -",
     translation: "industrial enterprise, manufacturing company",
     definition: "Ein Unternehmen, das industriell produziert.",
@@ -4308,7 +4308,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6134,
+    id: 5125,
     word: "der öffentliche Nahverkehr (Sg.)",
     translation: "public local transport",
     definition: "Busse, Bahnen und U-Bahnen im Nahverkehr.",
@@ -4322,7 +4322,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6135,
+    id: 5126,
     word: "der Aspekt, -e",
     translation: "aspect, point of view",
     definition: "Ein Gesichtspunkt oder Teilbereich einer Sache.",
@@ -4334,7 +4334,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6136,
+    id: 5127,
     word: "der Lottogewinn, -e",
     translation: "lottery win",
     definition: "Ein Geldgewinn beim Lotto.",
@@ -4347,7 +4347,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6137,
+    id: 5128,
     word: "wirtschaftlich",
     translation: "economic, economical",
     definition: "Die Wirtschaft betreffend oder rentabel.",
@@ -4360,7 +4360,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6138,
+    id: 5129,
     word: "sich Gedanken machen (über + A.)",
     translation: "to think about, to worry about",
     definition: "Über etwas nachdenken oder sich Sorgen machen.",
@@ -4372,7 +4372,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6139,
+    id: 5130,
     word: "demografisch",
     translation: "demographic",
     definition: "Die Bevölkerung und ihre Struktur betreffend.",
@@ -4386,7 +4386,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6141,
+    id: 5131,
     word: "einheimisch",
     translation: "local, native",
     definition: "Aus dem jeweiligen Land oder Ort stammend.",
@@ -4399,7 +4399,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6143,
+    id: 5132,
     word: "die Zywanderung, -en",
     translation: "migration, immigration",
     definition:
@@ -4413,7 +4413,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6144,
+    id: 5133,
     word: "die dugle Hochschule, -en",
     translation: "dual university",
     definition:
@@ -4426,7 +4426,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6145,
+    id: 5134,
     word: "die Fghrzeit, -en",
     translation: "travel time, driving time",
     definition:
@@ -4439,7 +4439,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6146,
+    id: 5135,
     word: "in Kauf nehmen",
     translation: "to accept, to put up with",
     definition: "Nachteile oder negative Folgen tolerieren.",
@@ -4454,7 +4454,7 @@ export const B2_Vocabulary = [
     family: "nehmen",
   },
   {
-    id: 6147,
+    id: 5136,
     word: "das Freibad, -er",
     translation: "open-air public pool",
     definition: "Ein Freiluft-Schwimmbad.",
@@ -4467,7 +4467,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6148,
+    id: 5137,
     word: "vielfältig",
     translation: "diverse, varied",
     definition: "In vielen verschiedenen Arten oder Formen vorkommend.",
@@ -4480,7 +4480,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6149,
+    id: 5138,
     word: "das Freizeitangebot, -e",
     translation: "recreational activities, leisure offerings",
     definition: "Die Gesamtheit der Angebote für die Freizeitgestaltung.",
@@ -4492,7 +4492,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6150,
+    id: 5139,
     word: "knapp sein/werden",
     translation: "to be / become scarce",
     definition: "Nicht mehr in ausreichendem Maße vorhanden sein.",
@@ -4505,7 +4505,7 @@ export const B2_Vocabulary = [
     family: "werden",
   },
   {
-    id: 6151,
+    id: 5140,
     word: "die Kosten tragen (für + A.)",
     translation: "to bear the costs (for)",
     definition: "Für die Bezahlung von Kosten aufkommen.",
@@ -4519,7 +4519,7 @@ export const B2_Vocabulary = [
     family: "Kosten",
   },
   {
-    id: 6152,
+    id: 5141,
     word: "Einfluss nehmen (auf + A.)",
     translation: "to influence, to exert influence (on)",
     definition: "Einen Effekt oder Einfluss auf etwas ausüben.",
@@ -4532,7 +4532,7 @@ export const B2_Vocabulary = [
     family: "nehmen",
   },
   {
-    id: 6153,
+    id: 5142,
     word: "jmd. Hilfe leisten",
     translation: "to render assistance to someone, to help someone",
     definition: "Jemandem in einer Notlage helfen.",
@@ -4546,7 +4546,7 @@ export const B2_Vocabulary = [
     family: "leisten",
   },
   {
-    id: 6154,
+    id: 5143,
     word: "etwas kostet Zeit und Kraft",
     translation: "something takes time and effort",
     definition: "Etwas erfordert viel Aufwand und Energie.",
@@ -4559,7 +4559,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6155,
+    id: 5144,
     word: "jmd. unterstützen",
     translation: "to support someone",
     definition: "Jemanden bei etwas helfen oder fördern.",
@@ -4572,7 +4572,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6156,
+    id: 5145,
     word: "ein Gespräch führen",
     translation: "to conduct a conversation, to have a talk",
     definition: "Sich mit jemandem unterhalten.",
@@ -4586,7 +4586,7 @@ export const B2_Vocabulary = [
     family: "führen",
   },
   {
-    id: 6157,
+    id: 5146,
     word: "die Stydiengebühren (Pl.)",
     translation: "tuition fees",
     definition:
@@ -4601,7 +4601,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6158,
+    id: 5147,
     word: "der Arbeitsmarkt, -e",
     translation: "labor market",
     definition: "Der Markt für Arbeitskräfte und offene Stellen.",
@@ -4616,7 +4616,7 @@ export const B2_Vocabulary = [
     family: "arbeiten",
   },
   {
-    id: 6159,
+    id: 5148,
     word: "das duale Studium",
     translation: "dual study program",
     definition: "Ein Studium kombiniert mit einer betrieblichen Ausbildung.",
@@ -4630,7 +4630,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6160,
+    id: 5149,
     word: "die Ausbildungsdauer (Sg.)",
     translation: "duration of training, apprenticeship period",
     definition: "Die Länge der Zeit, die eine Ausbildung dauert.",
@@ -4644,7 +4644,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6161,
+    id: 5150,
     word: "mithilfe von",
     translation: "with the help of",
     definition: "Unter Verwendung oder Unterstützung von etwas.",
@@ -4657,7 +4657,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6162,
+    id: 5151,
     word: "überzeugt (von + D.)",
     translation: "convinced (of)",
     definition: "Sicher sein, dass etwas richtig oder gut ist.",
@@ -4669,7 +4669,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6164,
+    id: 5152,
     word: "die Laufzeit, -en",
     translation: "duration, term",
     definition: "Die Gültigkeitsdauer eines Vertrages.",
@@ -4681,7 +4681,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6165,
+    id: 5153,
     word: "die Laufzeit des Vertrags",
     translation: "term of the contract",
     definition: "Die gesamte Gültigkeitsdauer eines vertraglichen Abkommens.",
@@ -4696,7 +4696,7 @@ export const B2_Vocabulary = [
     family: "ertragen",
   },
   {
-    id: 6166,
+    id: 5154,
     word: "der Vertragsbeginn (Sg.)",
     translation: "start of contract",
     definition: "Der Tag, an dem ein Vertrag wirksam wird.",
@@ -4709,7 +4709,7 @@ export const B2_Vocabulary = [
     family: "ertragen",
   },
   {
-    id: 6167,
+    id: 5155,
     word: "innerhalb - außerhalb",
     translation: "inside - outside",
     definition: "Drinnen oder draußen in Bezug auf eine Grenze oder Frist.",
@@ -4721,7 +4721,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6168,
+    id: 5156,
     word: "die Vergütung, -en",
     translation: "remuneration, compensation",
     definition: "Die Bezahlung für eine geleistete Arbeit.",
@@ -4734,7 +4734,7 @@ export const B2_Vocabulary = [
     family: "vergüten",
   },
   {
-    id: 6170,
+    id: 5157,
     word: "betrüglich",
     translation: "fraudulent",
     definition: "Auf Betrug beruhend oder betrügerisch.",
@@ -4746,7 +4746,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6171,
+    id: 5158,
     word: "sich verpflichten (zu + D.)",
     translation: "to commit oneself (to), to obligate oneself",
     definition: "Eine verbindliche Verpflichtung eingehen.",
@@ -4761,7 +4761,7 @@ export const B2_Vocabulary = [
     family: "verpflichten",
   },
   {
-    id: 6172,
+    id: 5159,
     word: "das Ausscheiden (Sg.)",
     translation: "leaving, resignation, retirement",
     definition: "Das Verlassen einer Organisation oder Position.",
@@ -4775,7 +4775,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6175,
+    id: 5160,
     word: "die Körperpflege (Sg.)",
     translation: "personal hygiene, body care",
     definition: "Maßnahmen zur Pflege des eigenen Körpers.",
@@ -4787,7 +4787,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6176,
+    id: 5161,
     word: "wetterfest",
     translation: "weatherproof",
     definition: "Gegen Witterungseinflüsse beständig.",
@@ -4800,7 +4800,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6177,
+    id: 5162,
     word: "geheimnisvoll",
     translation: "mysterious",
     definition: "Voller Geheimnisse, nicht leicht zu durchschauen.",
@@ -4812,7 +4812,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6178,
+    id: 5163,
     word: "weltberühmt",
     translation: "world-famous",
     definition: "Auf der ganzen Welt bekannt.",
@@ -4826,7 +4826,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6179,
+    id: 5164,
     word: "die Ruine, -n",
     translation: "ruin",
     definition: "Das Überbleibsel eines zerstörten Gebäudes.",
@@ -4838,7 +4838,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6180,
+    id: 5165,
     word: "altersmäßig",
     translation: "in terms of age, by age",
     definition: "Dem Alter nach.",
@@ -4850,7 +4850,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6181,
+    id: 5166,
     word: "die Begrenzung, -en",
     translation: "limit, boundary",
     definition: "Eine Grenze oder Einschränkung für etwas.",
@@ -4863,7 +4863,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6182,
+    id: 5167,
     word: "sich richten (an + A.)",
     translation: "to be addressed to, to target",
     definition: "Sich an eine bestimmte Zielgruppe wenden.",
@@ -4877,7 +4877,7 @@ export const B2_Vocabulary = [
     family: "richten",
   },
   {
-    id: 6183,
+    id: 5168,
     word: "die Überbrückung, -en",
     translation: "bridging, interim solution",
     definition: "Das Überbrücken einer Zeitspanne.",
@@ -4890,7 +4890,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6185,
+    id: 5169,
     word: "das Motiv, -e",
     translation: "motif, motive",
     definition: "Ein Beweggrund oder ein künstlerisches Motiv.",
@@ -4903,7 +4903,7 @@ export const B2_Vocabulary = [
     family: "das Motiv",
   },
   {
-    id: 6187,
+    id: 5170,
     word: "wertvoll - wertlos",
     translation: "valuable - worthless",
     definition: "Einen hohen Wert habend im Gegensatz zu ohne Wert.",
@@ -4915,7 +4915,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6189,
+    id: 5171,
     word: "der Durchfall (Sg.)",
     translation: "diarrhea",
     definition: "Eine Magen-Darm-Erkrankung mit flüssigem Stuhlgang.",
@@ -4929,7 +4929,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6190,
+    id: 5172,
     word: "der Krebs (Sg.)",
     translation: "cancer",
     definition:
@@ -4944,7 +4944,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6191,
+    id: 5173,
     word: "die Arznei, -en",
     translation: "medicine, drug",
     definition:
@@ -4957,7 +4957,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6192,
+    id: 5174,
     word: "die Kapsel, -n",
     translation: "capsule",
     definition:
@@ -4971,7 +4971,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6193,
+    id: 5175,
     word: "das Antibiotikum, Antibiotika",
     translation: "antibiotic",
     definition: "Ein Medikament zur Bekämpfung von Bakterien.",
@@ -4984,7 +4984,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6194,
+    id: 5176,
     word: "der Masseur, -e / die Masseurin, -nen",
     translation: "masseur, massage therapist",
     definition: "Eine Person, die beruflich Massagen durchführt.",
@@ -4996,7 +4996,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6195,
+    id: 5177,
     word: "der Logopäde, -n / die Logopädin, -nen",
     translation: "speech therapist",
     definition: "Ein Therapeut für Sprach-, Sprech- und Stimmstörungen.",
@@ -5008,7 +5008,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6196,
+    id: 5178,
     word: "der Orthopäde, -n / die Orthopädin, -nen",
     translation: "orthopedist, orthopedic surgeon",
     definition: "Ein Facharzt für den Bewegungsapparat.",
@@ -5020,7 +5020,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6197,
+    id: 5179,
     word: "die Diagnose, -n",
     translation: "diagnosis",
     definition: "Die ärztliche Feststellung einer Krankheit.",
@@ -5033,7 +5033,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6198,
+    id: 5180,
     word: "jemandem assistieren",
     translation: "to assist someone",
     definition: "Jemanden bei einer Arbeit unterstützen.",
@@ -5047,7 +5047,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6199,
+    id: 5181,
     word: "anleiten",
     translation: "to guide, to instruct",
     definition: "Jemanden anweisen, eine Tätigkeit richtig auszuführen.",
@@ -5061,7 +5061,7 @@ export const B2_Vocabulary = [
     family: "anleiten",
   },
   {
-    id: 6200,
+    id: 5182,
     word: "jemandem etwas verschreiben",
     translation: "to prescribe something to someone",
     definition: "Ein Rezept für ein Medikament ausstellen.",
@@ -5073,7 +5073,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6201,
+    id: 5183,
     word: "die Physiotherapie, -n",
     translation: "physiotherapy",
     definition: "Eine Behandlung zur Wiederherstellung der Beweglichkeit.",
@@ -5085,7 +5085,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6203,
+    id: 5184,
     word: "ansteckend",
     translation: "contagious, infectious",
     definition: "Auf andere übertragbar sein (bei Krankheiten).",
@@ -5097,7 +5097,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6204,
+    id: 5185,
     word: "die Früherkennung (Sg.)",
     translation: "early detection, screening",
     definition:
@@ -5113,7 +5113,7 @@ export const B2_Vocabulary = [
     family: "erkennen",
   },
   {
-    id: 6205,
+    id: 5186,
     word: "der Gesundheitscheck, -s",
     translation: "health check-up",
     definition:
@@ -5128,7 +5128,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6206,
+    id: 5187,
     word: "der Impfpass, -e",
     translation: "vaccination card, vaccination certificate",
     definition: "Ein Dokument über erhaltene Schutzimpfungen.",
@@ -5141,7 +5141,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6207,
+    id: 5188,
     word: "die Vorsorge (Sg.)",
     translation: "precaution, preventive care",
     definition: "Maßnahmen zur Verhütung von Krankheiten oder Schäden.",
@@ -5154,7 +5154,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6208,
+    id: 5189,
     word: "die Übertreibung, -en",
     translation: "exaggeration",
     definition:
@@ -5167,7 +5167,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6209,
+    id: 5190,
     word: "das Gleichgewicht (Sg.)",
     translation: "balance",
     definition: "Ein stabiler Zustand, in dem sich Kräfte ausgleichen.",
@@ -5180,7 +5180,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6210,
+    id: 5191,
     word: "die Basis, Basen",
     translation: "basis, base",
     definition: "Die Grundlage für etwas.",
@@ -5192,7 +5192,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6211,
+    id: 5192,
     word: "akut",
     translation: "acute",
     definition:
@@ -5205,7 +5205,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6212,
+    id: 5193,
     word: "ambulant",
     translation: "outpatient",
     definition: "Ohne Aufenthalt im Krankenhaus (behandelt werden).",
@@ -5219,7 +5219,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6213,
+    id: 5194,
     word: "stationär",
     translation: "inpatient",
     definition: "Mit Aufenthalt im Krankenhaus.",
@@ -5233,7 +5233,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6214,
+    id: 5195,
     word: "die Lungenentzündung, -en",
     translation: "pneumonia",
     definition: "Eine entzündliche Erkrankung der Lunge.",
@@ -5246,7 +5246,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6215,
+    id: 5196,
     word: "der Pflegebericht, -e",
     translation: "nursing report, care report",
     definition: "Ein Dokument über den Pflegeverlauf eines Patienten.",
@@ -5261,7 +5261,7 @@ export const B2_Vocabulary = [
     family: "richten",
   },
   {
-    id: 6216,
+    id: 5197,
     word: "die Übergabe, -n",
     translation: "handover",
     definition:
@@ -5275,7 +5275,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6217,
+    id: 5198,
     word: "das Hospiz, -e",
     translation: "hospice",
     definition:
@@ -5289,7 +5289,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6218,
+    id: 5199,
     word: "angewiesen sein (auf + A.)",
     translation: "to be dependent on",
     definition: "Hilfe oder Unterstützung von jemandem brauchen.",
@@ -5302,7 +5302,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6219,
+    id: 5200,
     word: "verpflichtend",
     translation: "mandatory, obligatory",
     definition: "Verbindlich vorgeschrieben.",
@@ -5317,7 +5317,7 @@ export const B2_Vocabulary = [
     family: "verpflichten",
   },
   {
-    id: 6220,
+    id: 5201,
     word: "beabsichtigen",
     translation: "to intend",
     definition: "Die Absicht haben, etwas zu tun.",
@@ -5329,7 +5329,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6221,
+    id: 5202,
     word: "befürchten",
     translation: "to fear, to dread",
     definition: "Angst vor etwas Negativem haben.",
@@ -5341,7 +5341,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6222,
+    id: 5203,
     word: "bedauern",
     translation: "to regret",
     definition: "Traurigkeit oder Bedauern über etwas ausdrücken.",
@@ -5353,7 +5353,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6223,
+    id: 5204,
     word: "liebevoll",
     translation: "affectionate, loving",
     definition: "Voller Liebe und Fürsorge.",
@@ -5366,7 +5366,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6224,
+    id: 5205,
     word: "Wert legen (auf + A.)",
     translation: "to place value on, to attach importance to",
     definition: "Wichtig finden, dass etwas Bestimmtes erfüllt wird.",
@@ -5380,7 +5380,7 @@ export const B2_Vocabulary = [
     family: "legen",
   },
   {
-    id: 6226,
+    id: 5206,
     word: "der Kreislauf (Sg.)",
     translation: "circulation, circulatory system",
     definition: "Das Herzkreislaufsystem im Körper.",
@@ -5393,7 +5393,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6227,
+    id: 5207,
     word: "der Blutdruck (Sg.)",
     translation: "blood pressure",
     definition: "Der Druck des Blutes in den Blutgefäßen.",
@@ -5406,7 +5406,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6228,
+    id: 5208,
     word: "der Puls (Sg.)",
     translation: "pulse",
     definition: "Der durch den Herzschlag erzeugte Rhythmus in den Arterien.",
@@ -5418,7 +5418,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6229,
+    id: 5209,
     word: "der Vorrat, -e",
     translation: "supply, stock",
     definition: "Eine Menge von Dingen, die für die Zukunft aufbewahrt werden.",
@@ -5430,7 +5430,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6231,
+    id: 5210,
     word: "die Pflegekraft, -e",
     translation: "care worker, nursing staff",
     definition: "Eine professionelle Arbeitskraft in der Pflege.",
@@ -5444,7 +5444,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6232,
+    id: 5211,
     word: "etwas in den Griff bekommen",
     translation: "to get a grip on something, to get under control",
     definition: "Ein Problem erfolgreich lösen oder beherrschen.",
@@ -5459,7 +5459,7 @@ export const B2_Vocabulary = [
     family: "kommen",
   },
   {
-    id: 6233,
+    id: 5212,
     word: "die Fakten (Pl.)",
     translation: "facts",
     definition: "Tatsachen und belegbare Informationen.",
@@ -5474,7 +5474,7 @@ export const B2_Vocabulary = [
     family: "die Fakten",
   },
   {
-    id: 6234,
+    id: 5213,
     word: "subjektiv + objektiv",
     translation: "subjective + objective",
     definition:
@@ -5487,7 +5487,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6235,
+    id: 5214,
     word: "die Einschätzung, -en",
     translation: "assessment, estimation",
     definition: "Eine Beurteilung oder Meinung zu einer Situation.",
@@ -5501,7 +5501,7 @@ export const B2_Vocabulary = [
     family: "einschätzen",
   },
   {
-    id: 6236,
+    id: 5215,
     word: "jemanden antreffen",
     translation: "to find someone (at a place)",
     definition: "Jemanden an einem bestimmten Ort vorfinden.",
@@ -5515,7 +5515,7 @@ export const B2_Vocabulary = [
     family: "jemanden",
   },
   {
-    id: 6238,
+    id: 5216,
     word: "der Schwindel (Sg.)",
     translation: "dizziness, vertigo",
     definition: "Ein Gefühl von Benommenheit oder Kreisung im Kopf.",
@@ -5528,7 +5528,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6239,
+    id: 5217,
     word: "jemanden verständigen",
     translation: "to notify someone, to contact someone",
     definition: "Jemanden informieren oder herbeirufen.",
@@ -5542,7 +5542,7 @@ export const B2_Vocabulary = [
     family: "jemanden",
   },
   {
-    id: 6240,
+    id: 5218,
     word: "eintreffen",
     translation: "to arrive",
     definition: "An einem Zielort ankommen.",
@@ -5555,7 +5555,7 @@ export const B2_Vocabulary = [
     family: "treffen",
   },
   {
-    id: 6241,
+    id: 5219,
     word: "jemanden motivieren (zu + D.)",
     translation: "to motivate someone (to)",
     definition: "Jemandem Ansporn geben, etwas zu tun.",
@@ -5568,7 +5568,7 @@ export const B2_Vocabulary = [
     family: "jemanden",
   },
   {
-    id: 6242,
+    id: 5220,
     word: "verwirrt",
     translation: "confused",
     definition: "Desorientiert oder unklar im Denken sein.",
@@ -5582,7 +5582,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6245,
+    id: 5221,
     word: "die Klarheit (Sg.)",
     translation: "clarity",
     definition: "Ein klarer, eindeutiger Zustand.",
@@ -5594,7 +5594,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6247,
+    id: 5222,
     word: "der Kontostand, -e",
     translation: "account balance",
     definition: "Der aktuelle Geldbetrag auf einem Bankkonto.",
@@ -5607,7 +5607,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6249,
+    id: 5223,
     word: "das Darlehen, -",
     translation: "loan, credit",
     definition: "Ein geliehener Geldbetrag, meist von einer Bank.",
@@ -5621,7 +5621,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6251,
+    id: 5224,
     word: "verdrängen",
     translation: "to displace, to suppress",
     definition: "Etwas verdrängen oder an einen anderen Platz drängen.",
@@ -5633,7 +5633,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6252,
+    id: 5225,
     word: "langfristig",
     translation: "long-term",
     definition: "Über einen langen Zeitraum hinweg wirksam.",
@@ -5646,7 +5646,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6254,
+    id: 5226,
     word: "der Neid (Sg.)",
     translation: "envy, jealousy",
     definition:
@@ -5659,7 +5659,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6256,
+    id: 5227,
     word: "jemandem begegnen",
     translation: "to encounter someone, to meet someone",
     definition: "Jemanden unerwartet oder zufällig treffen.",
@@ -5673,7 +5673,7 @@ export const B2_Vocabulary = [
     family: "begegnen",
   },
   {
-    id: 6257,
+    id: 5228,
     word: "die Feststellung, -en",
     translation: "statement, finding, determination",
     definition: "Das Erkennen und Festhalten einer Tatsache.",
@@ -5686,7 +5686,7 @@ export const B2_Vocabulary = [
     family: "stellen",
   },
   {
-    id: 6258,
+    id: 5229,
     word: "zwangsläufig",
     translation: "inevitably, necessarily",
     definition: "Als logische und unvermeidliche Folge.",
@@ -5698,7 +5698,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6259,
+    id: 5230,
     word: "die Belastung, -en",
     translation: "burden, strain, stress",
     definition: "Eine physische oder psychische Beanspruchung.",
@@ -5713,7 +5713,7 @@ export const B2_Vocabulary = [
     family: "die Belastung",
   },
   {
-    id: 6260,
+    id: 5231,
     word: "das Prinzip, -ien",
     translation: "principle",
     definition: "Eine grundlegende Regel oder Handlungsweise.",
@@ -5725,7 +5725,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6261,
+    id: 5232,
     word: "die Beschleunigung, -en",
     translation: "acceleration",
     definition: "Die Zunahme der Geschwindigkeit.",
@@ -5738,7 +5738,7 @@ export const B2_Vocabulary = [
     family: "beschleunigen",
   },
   {
-    id: 6262,
+    id: 5233,
     word: "die Entschleunigung (Sg.)",
     translation: "deceleration, slowing down",
     definition: "Das bewusste Verlangsamen des Lebens- oder Arbeitstempos.",
@@ -5751,7 +5751,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6263,
+    id: 5234,
     word: "die Einstellung, -en (zu + D.)",
     translation: "attitude, mindset (towards)",
     definition: "Die persönliche Haltung oder Meinung zu etwas.",
@@ -5766,7 +5766,7 @@ export const B2_Vocabulary = [
     family: "stellen",
   },
   {
-    id: 6264,
+    id: 5235,
     word: "unnötig",
     translation: "unnecessary",
     definition: "Nicht notwendig, überflüssig.",
@@ -5778,7 +5778,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6265,
+    id: 5236,
     word: "die Podiumsdiskussion, -en",
     translation: "panel discussion",
     definition:
@@ -5793,7 +5793,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6268,
+    id: 5237,
     word: "die Work-Life-Balance (Sg.)",
     translation: "work-life balance",
     definition: "Ein ausgewogenes Verhältnis von Arbeit und Freizeit.",
@@ -5807,7 +5807,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6269,
+    id: 5238,
     word: "grundlegend",
     translation: "fundamental, basic",
     definition: "Von grundlegender Bedeutung, tiefgreifend.",
@@ -5820,7 +5820,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6270,
+    id: 5239,
     word: "die Revolution, -en",
     translation: "revolution",
     definition: "Eine radikale Umwälzung der bestehenden Verhältnisse.",
@@ -5834,7 +5834,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6271,
+    id: 5240,
     word: "zum Ausgleich",
     translation: "to compensate, as a balance",
     definition: "Als Ausgleich für eine Belastung oder Anstrengung.",
@@ -5846,7 +5846,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6272,
+    id: 5241,
     word: "etwas als ... betrachten",
     translation: "to view something as ...",
     definition: "Eine bestimmte Meinung oder Sichtweise über etwas haben.",
@@ -5859,7 +5859,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6273,
+    id: 5242,
     word: "permanent",
     translation: "permanent, constantly",
     definition: "Ununterbrochen, ständig.",
@@ -5871,7 +5871,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6275,
+    id: 5243,
     word: "sich eine Existenz aufbauen",
     translation: "to build a livelihood",
     definition: "Sich eine eigene wirtschaftliche Lebensgrundlage schaffen.",
@@ -5885,7 +5885,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6276,
+    id: 5244,
     word: "aus meiner Sicht",
     translation: "from my point of view",
     definition: "Meiner persönlichen Meinung nach.",
@@ -5898,7 +5898,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6278,
+    id: 5245,
     word: "mild + scharf",
     translation: "mild + spicy",
     definition: "Geschmacksrichtungen von Speisen.",
@@ -5910,7 +5910,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6279,
+    id: 5246,
     word: "die silberne Hochzeit, -en",
     translation: "silver wedding anniversary",
     definition: "Der 25. Hochzeitstag eines Ehepaares.",
@@ -5923,7 +5923,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6280,
+    id: 5247,
     word: "gewürzt",
     translation: "seasoned, spiced",
     definition: "Mit Gewürzen versehen für einen besseren Geschmack.",
@@ -5935,7 +5935,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6282,
+    id: 5248,
     word: "die Sorgfalt (Sg.)",
     translation: "care, diligence",
     definition: "Die genaue und gewissenhafte Ausführung einer Arbeit.",
@@ -5947,7 +5947,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6284,
+    id: 5249,
     word: "der Allergiker, - / die Allergikerin, -nen",
     translation: "allergy sufferer",
     definition: "Eine Person, die an einer Allergie leidet.",
@@ -5961,7 +5961,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6285,
+    id: 5250,
     word: "der Liebhaber, - / die Liebhaberin, -nen",
     translation: "lover, enthusiast",
     definition: "Eine Person, die eine große Vorliebe für etwas hat.",
@@ -5974,7 +5974,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6286,
+    id: 5251,
     word: "erstklassig",
     translation: "first-class, top-notch",
     definition: "Von hervorragender Qualität.",
@@ -5986,7 +5986,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6287,
+    id: 5252,
     word: "die Zutat, -en",
     translation: "ingredient",
     definition: "Ein Bestandteil eines Rezepts oder Gerichts.",
@@ -5998,7 +5998,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6288,
+    id: 5253,
     word: "umfangreich",
     translation: "extensive, comprehensive",
     definition: "Groß im Umfang oder Inhalt.",
@@ -6012,7 +6012,7 @@ export const B2_Vocabulary = [
     family: "der Umfang",
   },
   {
-    id: 6289,
+    id: 5254,
     word: "der Genuss, -e",
     translation: "enjoyment, pleasure",
     definition: "Das Genießen von etwas Angenehmem.",
@@ -6025,7 +6025,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6290,
+    id: 5255,
     word: "zeitgemäß",
     translation: "up-to-date, contemporary",
     definition: "Der heutigen Zeit entsprechend, modern.",
@@ -6038,7 +6038,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6292,
+    id: 5256,
     word: "knusprig",
     translation: "crispy, crunchy",
     definition: "Fest und beim Beißen knackend (bei Lebensmitteln).",
@@ -6050,7 +6050,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6293,
+    id: 5257,
     word: "cremig",
     translation: "creamy",
     definition: "Von cremiger Konsistenz.",
@@ -6062,7 +6062,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6294,
+    id: 5258,
     word: "reichhaltig",
     translation: "rich, abundant",
     definition: "In großer Menge vorhanden oder nahrhaft.",
@@ -6074,7 +6074,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6295,
+    id: 5259,
     word: "bewährt",
     translation: "proven, tried and tested",
     definition: "Sich in der Praxis als gut erwiesen habend.",
@@ -6086,7 +6086,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6296,
+    id: 5260,
     word: "würzig",
     translation: "spicy, flavorful",
     definition: "Kräftig im Geschmack durch Gewürze.",
@@ -6098,7 +6098,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6297,
+    id: 5261,
     word: "das Ambiente (Sg.)",
     translation: "ambiance, atmosphere",
     definition: "Die räumliche Atmosphäre einer Umgebung.",
@@ -6110,7 +6110,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6298,
+    id: 5262,
     word: "der Speisesaal, -e",
     translation: "dining hall, dining room",
     definition: "Ein großer Raum zum Einnehmen von Mahlzeiten.",
@@ -6122,7 +6122,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6299,
+    id: 5263,
     word: "bewerten",
     translation: "to evaluate, to rate",
     definition: "Eine Beurteilung oder Note abgeben.",
@@ -6135,7 +6135,7 @@ export const B2_Vocabulary = [
     family: "bewerten",
   },
   {
-    id: 6300,
+    id: 5264,
     word: "die Bewertung, -en",
     translation: "evaluation, rating",
     definition: "Das Ergebnis einer Beurteilung.",
@@ -6150,7 +6150,7 @@ export const B2_Vocabulary = [
     family: "bewerten",
   },
   {
-    id: 6301,
+    id: 5265,
     word: "der Pluspunkt, -e",
     translation: "plus point, advantage",
     definition: "Ein Vorteil oder positiver Aspekt.",
@@ -6163,7 +6163,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6302,
+    id: 5266,
     word: "aromatisch",
     translation: "aromatic",
     definition: "Angenehm duftend oder schmeckend.",
@@ -6175,7 +6175,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6303,
+    id: 5267,
     word: "sich etwas gönnen",
     translation: "to treat oneself to something",
     definition: "Sich etwas Angenehmes erlauben.",
@@ -6189,7 +6189,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6308,
+    id: 5268,
     word: "schwören (auf + A.)",
     translation: "to swear by, to be devoted to",
     definition: "Große Stücke auf etwas halten oder einen Eid leisten.",
@@ -6203,7 +6203,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6310,
+    id: 5269,
     word: "die Pfanne, -n",
     translation: "pan, frying pan",
     definition: "Ein flaches Kochgeschirr zum Braten.",
@@ -6215,7 +6215,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6311,
+    id: 5270,
     word: "das Backblech, -e",
     translation: "baking sheet",
     definition: "Ein flaches Blech zum Backen von Speisen im Ofen.",
@@ -6228,7 +6228,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6313,
+    id: 5271,
     word: "das Sieb, -e",
     translation: "sieve, strainer",
     definition:
@@ -6241,7 +6241,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6315,
+    id: 5272,
     word: "die Pfeffermühle, -n",
     translation: "pepper mill, pepper grinder",
     definition: "Ein Gerät zum Mahlen von Pfefferkörnern.",
@@ -6255,7 +6255,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6316,
+    id: 5273,
     word: "der Salzstreuer, -",
     translation: "salt shaker",
     definition: "Ein kleines Gefäß zum Streuen von Salz.",
@@ -6267,7 +6267,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6317,
+    id: 5274,
     word: "die Knoblauchpresse, -n",
     translation: "garlic press",
     definition: "Ein Küchenwerkzeug zum Zerkleinern von Knoblauchzehen.",
@@ -6281,7 +6281,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6318,
+    id: 5275,
     word: "der Mixer, -",
     translation: "blender, mixer",
     definition: "Ein elektrisches Küchengerät zum Rühren und Pürieren.",
@@ -6294,7 +6294,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6319,
+    id: 5276,
     word: "abwiegen",
     translation: "to weigh out",
     definition: "Das Gewicht einer Zutat auf der Waage bestimmen.",
@@ -6307,7 +6307,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6320,
+    id: 5277,
     word: "rgiben",
     translation: "to grate",
     definition:
@@ -6320,7 +6320,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6321,
+    id: 5278,
     word: "rühren",
     translation: "to stir",
     definition:
@@ -6334,7 +6334,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6322,
+    id: 5279,
     word: "brgten",
     translation: "to roast, to fry",
     definition:
@@ -6347,7 +6347,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6323,
+    id: 5280,
     word: "schglen",
     translation: "to peel",
     definition:
@@ -6360,7 +6360,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6324,
+    id: 5281,
     word: "die Schürze, -n",
     translation: "apron",
     definition: "Ein Schutzüberzug für die Kleidung beim Kochen.",
@@ -6372,7 +6372,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6325,
+    id: 5282,
     word: "etwas vermitteln",
     translation: "to impart something, to convey",
     definition: "Wissen, Informationen oder Kontakte weitergeben.",
@@ -6386,7 +6386,7 @@ export const B2_Vocabulary = [
     family: "vermitteln",
   },
   {
-    id: 6326,
+    id: 5283,
     word: "vorausdenken",
     translation: "to think ahead",
     definition: "Planend in die Zukunft denken.",
@@ -6401,7 +6401,7 @@ export const B2_Vocabulary = [
     family: "ausdenken",
   },
   {
-    id: 6327,
+    id: 5284,
     word: "verantwortungsvoll",
     translation: "responsible",
     definition: "Sich seiner Verantwortung bewusst und danach handelnd.",
@@ -6413,7 +6413,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6329,
+    id: 5285,
     word: "eigenverantwortlich",
     translation: "independently responsible, self-reliant",
     definition: "Selbst die Verantwortung für das eigene Handeln tragen.",
@@ -6426,7 +6426,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6330,
+    id: 5286,
     word: "serviceorientiert",
     translation: "service-oriented",
     definition: "Auf die Zufriedenheit von Kunden ausgerichtet.",
@@ -6440,7 +6440,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6331,
+    id: 5287,
     word: "engagiert",
     translation: "committed, dedicated",
     definition: "Mit großem Einsatz bei der Sache.",
@@ -6453,7 +6453,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6332,
+    id: 5288,
     word: "belastbar",
     translation: "resilient, able to withstand stress",
     definition: "Fähig, mit Stress und hoher Belastung umzugehen.",
@@ -6467,7 +6467,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6333,
+    id: 5289,
     word: "die Flexibilität (Sg.)",
     translation: "flexibility",
     definition: "Anpassungsfähigkeit an neue Bedingungen.",
@@ -6479,7 +6479,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6335,
+    id: 5290,
     word: "die Geschicklichkeit (Sg.)",
     translation: "dexterity, skill",
     definition:
@@ -6493,7 +6493,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6336,
+    id: 5291,
     word: "das Durchsetzungsvermögen (Sg.)",
     translation: "assertiveness",
     definition: "Die Fähigkeit, die eigenen Interessen durchzusetzen.",
@@ -6506,7 +6506,7 @@ export const B2_Vocabulary = [
     family: "durchsetzen",
   },
   {
-    id: 6337,
+    id: 5292,
     word: "die Vollständigkeit (Sg.)",
     translation: "completeness",
     definition: "Der Zustand, vollständig zu sein.",
@@ -6518,7 +6518,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6338,
+    id: 5293,
     word: "der Verbrauch (Sg.)",
     translation: "consumption",
     definition: "Der Verbrauch von Energie, Wasser oder Gütern.",
@@ -6531,7 +6531,7 @@ export const B2_Vocabulary = [
     family: "der Verbrauch",
   },
   {
-    id: 6339,
+    id: 5294,
     word: "die Instandhaltung (Sg.)",
     translation: "maintenance",
     definition: "Die Pflege und Instandhaltung von Anlagen oder Gebäuden.",
@@ -6546,7 +6546,7 @@ export const B2_Vocabulary = [
     family: "die Haltung",
   },
   {
-    id: 6340,
+    id: 5295,
     word: "durchführen",
     translation: "to carry out",
     definition: "Eine Maßnahme oder Aufgabe ausführen.",
@@ -6560,7 +6560,7 @@ export const B2_Vocabulary = [
     family: "führen",
   },
   {
-    id: 6341,
+    id: 5296,
     word: "zuständig sein (für + A.)",
     translation: "to be responsible for",
     definition: "Die offizielle Zuständigkeit für einen Bereich haben.",
@@ -6572,7 +6572,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6344,
+    id: 5297,
     word: "Ruhe bewahren",
     translation: "to keep calm",
     definition: "Auch in stressigen Situationen ruhig bleiben.",
@@ -6585,7 +6585,7 @@ export const B2_Vocabulary = [
     family: "bewahren",
   },
   {
-    id: 6345,
+    id: 5298,
     word: "die Kompetenz, -en",
     translation: "competence",
     definition: "Fachliche oder soziale Fähigkeit.",
@@ -6599,7 +6599,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6346,
+    id: 5299,
     word: "einen Beruf ausüben",
     translation: "to practice a profession, to work as",
     definition: "Beruflich tätig sein in einem bestimmten Beruf.",
@@ -6612,7 +6612,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6349,
+    id: 5300,
     word: "ayssigekräftig",
     translation: "expressive, persuasive",
     definition:
@@ -6625,7 +6625,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6350,
+    id: 5301,
     word: "seither",
     translation: "since then",
     definition: "Seit dem genannten Zeitpunkt an.",
@@ -6639,7 +6639,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6351,
+    id: 5302,
     word: "aufgeschlossen",
     translation: "open-minded, receptive",
     definition: "Neuem gegenüber positiv und interessiert eingestellt.",
@@ -6653,7 +6653,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6352,
+    id: 5303,
     word: "verderben",
     translation: "to spoil, to go bad",
     definition: "Unbrauchbar oder schlecht werden (bei Lebensmitteln).",
@@ -6666,7 +6666,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6353,
+    id: 5304,
     word: "vorrätig sein",
     translation: "to be in stock, to be available",
     definition: "Als Vorrat vorhanden und lieferbar sein.",
@@ -6679,7 +6679,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6358,
+    id: 5305,
     word: "akzeptabel",
     translation: "acceptable",
     definition: "Hinnehmbar, so dass man es annehmen kann.",
@@ -6691,7 +6691,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6359,
+    id: 5306,
     word: "der Lieferschein, -e",
     translation: "delivery note",
     definition: "Ein Begleitpapier zu einer Warenlieferung.",
@@ -6706,7 +6706,7 @@ export const B2_Vocabulary = [
     family: "erscheinen",
   },
   {
-    id: 6360,
+    id: 5307,
     word: "vermerken",
     translation: "to note down, to record",
     definition: "Etwas schriftlich festhalten.",
@@ -6718,7 +6718,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6361,
+    id: 5308,
     word: "stattdessen",
     translation: "instead",
     definition: "Anstelle von etwas anderem.",
@@ -6731,7 +6731,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6362,
+    id: 5309,
     word: "auf den Markt kommen",
     translation: "to come onto the market, to be launched",
     definition: "Erstmals zum Verkauf angeboten werden.",
@@ -6745,7 +6745,7 @@ export const B2_Vocabulary = [
     family: "kommen",
   },
   {
-    id: 6364,
+    id: 5310,
     word: "die Lieferzeit, -en",
     translation: "delivery time",
     definition: "Die Zeitspanne bis zum Eintreffen einer Lieferung.",
@@ -6759,7 +6759,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6365,
+    id: 5311,
     word: "der Vertriebsleiter, - / die Vertriebsleiterin, -nen",
     translation: "sales manager",
     definition: "Die leitende Person in der Vertriebsabteilung.",
@@ -6771,7 +6771,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6367,
+    id: 5312,
     word: "der Verhandlungspartner, - / die Verhandlungspartnerin, -nen",
     translation: "negotiation partner",
     definition: "Eine Person, mit der man Verhandlungen führt.",
@@ -6783,7 +6783,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6369,
+    id: 5313,
     word: "ausweichen",
     translation: "to avoid, to evade",
     definition: "Einem Hindernis oder einer Situation aus dem Weg gehen.",
@@ -6795,7 +6795,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6374,
+    id: 5314,
     word: "das Selbstbewusstsein (Sg.)",
     translation: "self-confidence",
     definition:
@@ -6810,7 +6810,7 @@ export const B2_Vocabulary = [
     family: "selbstbewusst",
   },
   {
-    id: 6376,
+    id: 5315,
     word: "die Dienstleistung, -en",
     translation: "service",
     definition: "Eine immaterielle wirtschaftliche Leistung.",
@@ -6825,7 +6825,7 @@ export const B2_Vocabulary = [
     family: "leisten",
   },
   {
-    id: 6377,
+    id: 5316,
     word: "expandieren",
     translation: "to expand",
     definition: "Sich ausdehnen, wachsen (bei Unternehmen).",
@@ -6839,7 +6839,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6380,
+    id: 5317,
     word: "global + lokal",
     translation: "global + local",
     definition: "Weltweit im Gegensatz zu örtlich begrenzt.",
@@ -6852,7 +6852,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6382,
+    id: 5318,
     word: "die Kundenorientierung (Sg.)",
     translation: "customer orientation",
     definition:
@@ -6867,7 +6867,7 @@ export const B2_Vocabulary = [
     family: "orientieren",
   },
   {
-    id: 6384,
+    id: 5319,
     word: "die Marktlücke, -n",
     translation: "market niche, gap in the market",
     definition:
@@ -6882,7 +6882,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6386,
+    id: 5320,
     word: "die Nachhaltigkeit (Sg.)",
     translation: "sustainability",
     definition:
@@ -6896,7 +6896,7 @@ export const B2_Vocabulary = [
     family: "nachhaltig",
   },
   {
-    id: 6387,
+    id: 5321,
     word: "online + offline",
     translation: "online + offline",
     definition: "Über das Internet verbunden oder im realen Leben.",
@@ -6909,7 +6909,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6390,
+    id: 5322,
     word: "der Umweltstandard, -s",
     translation: "environmental standard",
     definition: "Vorgeschriebene Normen zum Schutz der Umwelt.",
@@ -6922,7 +6922,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6391,
+    id: 5323,
     word: "die Währung, -en",
     translation: "currency",
     definition: "Das gesetzliche Zahlungsmittel eines Landes.",
@@ -6935,7 +6935,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6392,
+    id: 5324,
     word: "der Wechselkurs, -e",
     translation: "exchange rate",
     definition: "Das Wertverhältnis zweier Währungen zueinander.",
@@ -6948,7 +6948,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6393,
+    id: 5325,
     word: "die Zielgruppe, -n",
     translation: "target group, target audience",
     definition:
@@ -6963,7 +6963,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6396,
+    id: 5326,
     word: "der Webauftritt, -e",
     translation: "website presence, web presence",
     definition: "Der Internetauftritt oder die Website eines Unternehmens.",
@@ -6977,7 +6977,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6397,
+    id: 5327,
     word: "etwas/jemanden schätzen",
     translation: "to appreciate someone/something",
     definition: "Hohe Wertschätzung für jemanden oder etwas empfinden.",
@@ -6990,7 +6990,7 @@ export const B2_Vocabulary = [
     family: "jemanden",
   },
   {
-    id: 6398,
+    id: 5328,
     word: "gut ankommen",
     translation: "to go down well, to be well received",
     definition: "Positive Resonanz bei anderen finden.",
@@ -7004,7 +7004,7 @@ export const B2_Vocabulary = [
     family: "ankommen",
   },
   {
-    id: 6400,
+    id: 5329,
     word: "universell",
     translation: "universal",
     definition: "Für alles passend oder weltweit gültig.",
@@ -7016,7 +7016,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6401,
+    id: 5330,
     word: "ohne ... dass",
     translation: "without ... that",
     definition:
@@ -7029,7 +7029,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6402,
+    id: 5331,
     word: "potenziell",
     translation: "potential",
     definition: "Möglich, denkbar in der Zukunft.",
@@ -7043,7 +7043,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6403,
+    id: 5332,
     word: "etwas ausgleichen",
     translation: "to compensate for something",
     definition: "Einen Mangel oder Nachteil wettmachen.",
@@ -7057,7 +7057,7 @@ export const B2_Vocabulary = [
     family: "ausgleichen",
   },
   {
-    id: 6404,
+    id: 5333,
     word: "visuell",
     translation: "visual",
     definition: "Das Sehvermögen oder die Optik betreffend.",
@@ -7070,7 +7070,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6405,
+    id: 5334,
     word: "der Effekt, -e",
     translation: "effect",
     definition: "Die Wirkung oder das Resultat von etwas.",
@@ -7084,7 +7084,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6406,
+    id: 5335,
     word: "freizügig",
     translation: "liberal, permissive, revealing",
     definition: "Frei in den Ansichten oder körperlich freizügig.",
@@ -7098,7 +7098,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6407,
+    id: 5336,
     word: "provozieren",
     translation: "to provoke",
     definition: "Absichtlich eine Reaktion oder einen Konflikt hervorrufen.",
@@ -7112,7 +7112,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6408,
+    id: 5337,
     word: "die Geste, -n",
     translation: "gesture",
     definition: "Eine Ausdrucksbewegung mit Hand oder Kopf.",
@@ -7124,7 +7124,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6409,
+    id: 5338,
     word: "die Beleidigung, -en",
     translation: "insult",
     definition: "Eine kränkende Äußerung gegenüber jemandem.",
@@ -7136,7 +7136,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6410,
+    id: 5339,
     word: "ohne zu ...",
     translation: "without ...ing",
     definition: "Präpositionale Angabe zur Unterlassung einer Handlung.",
@@ -7148,7 +7148,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6412,
+    id: 5340,
     word: "vertikal + horizontal",
     translation: "vertical + horizontal",
     definition: "Senkrecht im Gegensatz zu waagerecht verlaufend.",
@@ -7162,7 +7162,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6413,
+    id: 5341,
     word: "sich zurechtfinden",
     translation: "to find one's way around",
     definition: "Sich in einer neuen Umgebung orientieren können.",
@@ -7174,7 +7174,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6414,
+    id: 5342,
     word: "freischalten",
     translation: "to activate, to unlock",
     definition: "Zugang zu einem System oder Gerät gewähren.",
@@ -7187,7 +7187,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6415,
+    id: 5343,
     word: "etwas herausfinden",
     translation: "to find out something",
     definition:
@@ -7201,7 +7201,7 @@ export const B2_Vocabulary = [
     family: "finden",
   },
   {
-    id: 6416,
+    id: 5344,
     word: "Stellung beziehen",
     translation: "to take a stand, to take a position",
     definition: "Seine Meinung zu einem Thema öffentlich äußern.",
@@ -7216,7 +7216,7 @@ export const B2_Vocabulary = [
     family: "beziehen",
   },
   {
-    id: 6418,
+    id: 5345,
     word: "jemanden in eine Rolle drängen",
     translation: "to push someone into a role",
     definition: "Jemanden dazu bringen, eine bestimmte Rolle einzunehmen.",
@@ -7230,7 +7230,7 @@ export const B2_Vocabulary = [
     family: "jemanden",
   },
   {
-    id: 6419,
+    id: 5346,
     word: "die Ausdauer (Sg.)",
     translation: "endurance, stamina",
     definition: "Durchhaltevermögen bei Anstrengungen.",
@@ -7243,7 +7243,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6420,
+    id: 5347,
     word: "nachgeben",
     translation: "to give in, to yield",
     definition: "Seinen Widerstand aufgeben und nachgeben.",
@@ -7255,7 +7255,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6425,
+    id: 5348,
     word: "bewusst",
     translation: "conscious, deliberately",
     definition: "Wissend und absichtlich handelnd.",
@@ -7268,7 +7268,7 @@ export const B2_Vocabulary = [
     family: "bewusst",
   },
   {
-    id: 6426,
+    id: 5349,
     word: "berücksichtigen",
     translation: "to take into account, to consider",
     definition: "Etwas bei einer Entscheidung einbeziehen.",
@@ -7282,7 +7282,7 @@ export const B2_Vocabulary = [
     family: "berücksichtigen",
   },
   {
-    id: 6427,
+    id: 5350,
     word: "anpassungsfähig",
     translation: "adaptable, flexible",
     definition: "Fähig, sich an neue Bedingungen anzupassen.",
@@ -7297,7 +7297,7 @@ export const B2_Vocabulary = [
     family: "die Anpassung",
   },
   {
-    id: 6428,
+    id: 5351,
     word: "etwas umsetzen",
     translation: "to implement something",
     definition: "Einen Plan oder eine Idee verwirklichen.",
@@ -7311,7 +7311,7 @@ export const B2_Vocabulary = [
     family: "setzen",
   },
   {
-    id: 6429,
+    id: 5352,
     word: "der Konsument, -en / die Konsumentin, -nen",
     translation: "consumer",
     definition: "Eine Person, die Güter oder Dienstleistungen konsumiert.",
@@ -7325,7 +7325,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6430,
+    id: 5353,
     word: "die Zuwachsrate, -n",
     translation: "growth rate",
     definition: "Die prozentuale Zunahme von etwas in einem Zeitraum.",
@@ -7339,7 +7339,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6431,
+    id: 5354,
     word: "das Bauteil, -e",
     translation: "component, part",
     definition: "Ein einzelnes Element einer technischen Anlage oder Maschine.",
@@ -7351,7 +7351,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6432,
+    id: 5355,
     word: "die Wunschliste, -n",
     translation: "wish list",
     definition: "Eine Liste von Dingen, die man sich wünscht.",
@@ -7364,7 +7364,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6433,
+    id: 5356,
     word: "(eine Ware) vertreiben",
     translation: "to distribute (goods), to market",
     definition: "Waren gewerbsmäßig verkaufen und vertreiben.",
@@ -7377,7 +7377,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6434,
+    id: 5357,
     word: "das Budget, -s",
     translation: "budget",
     definition: "Der finanzielle Rahmen für Ausgaben.",
@@ -7389,7 +7389,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6437,
+    id: 5358,
     word: "einen Ablauf darstellen",
     translation: "to depict a process, to illustrate a procedure",
     definition:
@@ -7404,7 +7404,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6438,
+    id: 5359,
     word: "die Grundlage, -n",
     translation: "basis, foundation",
     definition: "Die Basis für ein Vorhaben.",
@@ -7419,7 +7419,7 @@ export const B2_Vocabulary = [
     family: "die Grundlage",
   },
   {
-    id: 6439,
+    id: 5360,
     word: "etwas festlegen",
     translation: "to determine something, to specify",
     definition: "Etwas verbindlich bestimmen oder vereinbaren.",
@@ -7433,7 +7433,7 @@ export const B2_Vocabulary = [
     family: "legen",
   },
   {
-    id: 6440,
+    id: 5361,
     word: "einen Entwurf erstellen",
     translation: "to create a draft",
     definition: "Einen ersten Plan anfertigen.",
@@ -7445,7 +7445,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6441,
+    id: 5362,
     word: "kommentieren",
     translation: "to comment",
     definition: "Einen Kommentar zu etwas abgeben.",
@@ -7459,7 +7459,7 @@ export const B2_Vocabulary = [
     family: "kommen",
   },
   {
-    id: 6442,
+    id: 5363,
     word: "überarbeiten",
     translation: "to revise, to rework",
     definition: "Einen Text oder Entwurf verbessern und korrigieren.",
@@ -7474,7 +7474,7 @@ export const B2_Vocabulary = [
     family: "arbeiten",
   },
   {
-    id: 6444,
+    id: 5364,
     word: "die Überarbeitung, -en",
     translation: "revision",
     definition: "Die erneute Bearbeitung zur Verbesserung.",
@@ -7489,7 +7489,7 @@ export const B2_Vocabulary = [
     family: "arbeiten",
   },
   {
-    id: 6445,
+    id: 5365,
     word: "die Benutzerfreundlichkeit (Sg.)",
     translation: "user-friendliness, usability",
     definition:
@@ -7504,7 +7504,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6446,
+    id: 5366,
     word: "die Lesbarkeit (Sg.)",
     translation: "readability",
     definition: "Die Eigenschaft eines Textes, gut lesbar zu sein.",
@@ -7517,7 +7517,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6448,
+    id: 5367,
     word: "(einen Fehler) beseitigen",
     translation: "to eliminate (an error), to fix",
     definition: "Einen Fehler oder Mangel beheben.",
@@ -7530,7 +7530,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6449,
+    id: 5368,
     word: "die Erprobungsphase, -n",
     translation: "testing phase, trial period",
     definition: "Ein Zeitraum zum Testen von etwas Neuem.",
@@ -7543,7 +7543,7 @@ export const B2_Vocabulary = [
     family: "die Phase",
   },
   {
-    id: 6450,
+    id: 5369,
     word: "einen Termin halten",
     translation: "to keep an appointment, to meet a deadline",
     definition: "Pünktlich zu einem vereinbarten Termin fertig sein.",
@@ -7556,7 +7556,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6452,
+    id: 5370,
     word: "jemanden auffordern",
     translation: "to ask someone, to prompt someone",
     definition: "Jemanden ausdrücklich bitten, etwas zu tun.",
@@ -7569,7 +7569,7 @@ export const B2_Vocabulary = [
     family: "jemanden",
   },
   {
-    id: 6453,
+    id: 5371,
     word: "online gehen",
     translation: "to go online",
     definition:
@@ -7583,7 +7583,7 @@ export const B2_Vocabulary = [
     family: "gehen",
   },
   {
-    id: 6457,
+    id: 5372,
     word: "die Konsequenz, -en",
     translation: "consequence",
     definition: "Die Folge einer Handlung.",
@@ -7596,7 +7596,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6459,
+    id: 5373,
     word: "das Maß, -e",
     translation: "measure, degree, dimension",
     definition: "Ein Grad oder Ausmaß von etwas.",
@@ -7609,7 +7609,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6460,
+    id: 5374,
     word: "der volle Preis",
     translation: "the full price",
     definition: "Der reguläre Preis ohne Rabatt.",
@@ -7623,7 +7623,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6461,
+    id: 5375,
     word: "der Abzug, -e",
     translation: "deduction",
     definition: "Ein abgezogener Geldbetrag.",
@@ -7636,7 +7636,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6462,
+    id: 5376,
     word: "im Laufe des Tages",
     translation: "during the course of the day",
     definition: "Im Verlaufe des heutigen Tages.",
@@ -7649,7 +7649,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6463,
+    id: 5377,
     word: "basieren (auf + D.)",
     translation: "to be based on",
     definition: "Auf einer Grundlage beruhen.",
@@ -7661,7 +7661,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6464,
+    id: 5378,
     word: "der gemeinsame Nenner",
     translation: "common denominator",
     definition: "Ein gemeinsamer Punkt in unterschiedlichen Meinungen.",
@@ -7674,7 +7674,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6465,
+    id: 5379,
     word: "das Bedürfnis, -se",
     translation: "need, desire",
     definition:
@@ -7688,7 +7688,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6466,
+    id: 5380,
     word: "ineinander greifen",
     translation: "to mesh, to interlock",
     definition: "Sich harmonisch ergänzen und zusammenwirken.",
@@ -7702,7 +7702,7 @@ export const B2_Vocabulary = [
     family: "greifen",
   },
   {
-    id: 6467,
+    id: 5381,
     word: "der Energieverbrauch (Sg.)",
     translation: "energy consumption",
     definition: "Der Verbrauch an Energie.",
@@ -7717,7 +7717,7 @@ export const B2_Vocabulary = [
     family: "der Verbrauch",
   },
   {
-    id: 6468,
+    id: 5382,
     word: "die Haltbarkeit (Sg.)",
     translation: "shelf life, durability",
     definition: "Die Zeitdauer, in der etwas haltbar oder nutzbar ist.",
@@ -7729,7 +7729,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6470,
+    id: 5383,
     word: "die Steuerung, -en",
     translation: "control, steering system",
     definition: "Das Steuern oder Regeln einer Anlage.",
@@ -7743,7 +7743,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6472,
+    id: 5384,
     word: "der Datenschutz (Sg.)",
     translation: "data protection, data privacy",
     definition: "Der Schutz personenbezogener Daten vor Missbrauch.",
@@ -7757,7 +7757,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6473,
+    id: 5385,
     word: "die Gleichstellung (Sg.)",
     translation: "equal treatment, equality",
     definition: "Die rechtliche und gesellschaftliche Gleichberechtigung.",
@@ -7772,7 +7772,7 @@ export const B2_Vocabulary = [
     family: "stellen",
   },
   {
-    id: 6474,
+    id: 5386,
     word: "der Arbeitsschutz (Sg.)",
     translation: "occupational health and safety",
     definition: "Maßnahmen zum Schutz der Arbeitnehmer am Arbeitsplatz.",
@@ -7787,7 +7787,7 @@ export const B2_Vocabulary = [
     family: "arbeiten",
   },
   {
-    id: 6477,
+    id: 5387,
     word: "der Tarifvertrag, -e",
     translation: "collective bargaining agreement",
     definition: "Ein Vertrag zwischen Arbeitgeberverband und Gewerkschaft.",
@@ -7802,7 +7802,7 @@ export const B2_Vocabulary = [
     family: "ertragen",
   },
   {
-    id: 6478,
+    id: 5388,
     word: "die Betriebsvereinbarung, -en",
     translation: "company agreement, works agreement",
     definition: "Eine Vereinbarung zwischen Arbeitgeber und Betriebsrat.",
@@ -7817,7 +7817,7 @@ export const B2_Vocabulary = [
     family: "vereinbaren",
   },
   {
-    id: 6479,
+    id: 5389,
     word: "etwas regeln",
     translation: "to regulate something",
     definition: "Eine Angelegenheit ordnen oder bestimmen.",
@@ -7830,7 +7830,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6480,
+    id: 5390,
     word: "die Vereinbarung, -en",
     translation: "agreement",
     definition: "Ein getroffenes Abkommen.",
@@ -7845,7 +7845,7 @@ export const B2_Vocabulary = [
     family: "vereinbaren",
   },
   {
-    id: 6481,
+    id: 5391,
     word: "die Branche, -n",
     translation: "industry, sector",
     definition: "Ein Wirtschaftszweig.",
@@ -7857,7 +7857,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6483,
+    id: 5392,
     word: "die Nebentätigkeit, -en",
     translation: "secondary activity, secondary job",
     definition: "Eine zusätzliche berufliche Tätigkeit neben dem Hauptberuf.",
@@ -7869,7 +7869,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6485,
+    id: 5393,
     word: "jemanden einstellen",
     translation: "to hire someone",
     definition: "Jemanden als Arbeitnehmer annehmen.",
@@ -7884,7 +7884,7 @@ export const B2_Vocabulary = [
     family: "jemanden",
   },
   {
-    id: 6486,
+    id: 5394,
     word: "regulär",
     translation: "regular",
     definition: "Den Vorschriften entsprechend, normal.",
@@ -7897,7 +7897,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6487,
+    id: 5395,
     word: "etwas gnordnen",
     translation: "to arrange something, to order",
     definition:
@@ -7910,7 +7910,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6488,
+    id: 5396,
     word: "verpflichtet sein",
     translation: "to be obliged, to be committed",
     definition: "Etwas tun müssen aufgrund von Vorschriften.",
@@ -7924,7 +7924,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6490,
+    id: 5397,
     word: "die Vertragtsdauer, -en",
     translation: "contract duration, term of contract",
     definition: "Die Laufzeit eines Vertrages.",
@@ -7937,7 +7937,7 @@ export const B2_Vocabulary = [
     family: "ertragen",
   },
   {
-    id: 6491,
+    id: 5398,
     word: "der Gruppenleiter, - / die Gruppenleiterin, -nen",
     translation: "group leader, team leader",
     definition: "Eine Person, die eine Arbeitsgruppe leitet.",
@@ -7950,7 +7950,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6492,
+    id: 5399,
     word: "pünktlich erscheinen",
     translation: "to appear on time, to arrive punctually",
     definition: "Zur vereinbarten Zeit am Ort sein.",
@@ -7965,7 +7965,7 @@ export const B2_Vocabulary = [
     family: "erscheinen",
   },
   {
-    id: 6493,
+    id: 5400,
     word: "eine Lösung finden",
     translation: "to find a solution",
     definition: "Einen Weg zur Behebung eines Problems entdecken.",
@@ -7978,7 +7978,7 @@ export const B2_Vocabulary = [
     family: "finden",
   },
   {
-    id: 6495,
+    id: 5401,
     word: "die Personalakte, -n",
     translation: "personnel file, employee file",
     definition: "Die Akte eines Arbeitnehmers in der Personalabteilung.",
@@ -7991,7 +7991,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6497,
+    id: 5402,
     word: "der Gewissenskonflikt, -e",
     translation: "conflict of conscience",
     definition:
@@ -8006,7 +8006,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6498,
+    id: 5403,
     word: "die Auftragslage (Sg.)",
     translation: "order situation, backlog of orders",
     definition:
@@ -8021,7 +8021,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6499,
+    id: 5404,
     word: "etwas selbst bestimmen",
     translation: "to determine something oneself, to decide for oneself",
     definition: "Eigenständig über etwas entscheiden.",
@@ -8036,7 +8036,7 @@ export const B2_Vocabulary = [
     family: "bestimmen",
   },
   {
-    id: 6500,
+    id: 5405,
     word: "die Dienstbekleidung, -en",
     translation: "work uniform, official clothing",
     definition: "Vorgeschriebene Kleidung für die Arbeit.",
@@ -8048,7 +8048,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6503,
+    id: 5406,
     word: "anstelle von (+ D.)",
     translation: "instead of",
     definition: "Anstelle einer anderen Sache.",
@@ -8060,7 +8060,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6504,
+    id: 5407,
     word: "anlässlich (+ G.)",
     translation: "on the occasion of",
     definition: "Aus Anlass eines bestimmten Ereignisses.",
@@ -8073,7 +8073,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6506,
+    id: 5408,
     word: "der/das Startup, -s",
     translation: "start-up",
     definition: "Ein junges, innovatives Unternehmen.",
@@ -8086,7 +8086,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6507,
+    id: 5409,
     word: "verpachten",
     translation: "to lease out, to farm out",
     definition: "Etwas gegen Entgelt zur Nutzung überlassen.",
@@ -8098,7 +8098,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6508,
+    id: 5410,
     word: "die Betriebsversammlung, -en",
     translation: "works meeting, staff meeting",
     definition:
@@ -8114,7 +8114,7 @@ export const B2_Vocabulary = [
     family: "versammeln",
   },
   {
-    id: 6509,
+    id: 5411,
     word: "sich schonen",
     translation: "to take it easy, to rest",
     definition: "Sich körperlich nicht überanstrengen, um sich zu erholen.",
@@ -8128,7 +8128,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6510,
+    id: 5412,
     word: "schwanger sein",
     translation: "to be pregnant",
     definition: "Ein Kind im Körper erwarten.",
@@ -8140,7 +8140,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6511,
+    id: 5413,
     word: "das Mutterschaftsgeld (Sg.)",
     translation: "maternity allowance",
     definition:
@@ -8154,7 +8154,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6512,
+    id: 5414,
     word: "Zeitungen austragen",
     translation: "to deliver newspapers",
     definition: "Zeitungen an Haushalte verteilen.",
@@ -8167,7 +8167,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6513,
+    id: 5415,
     word: "die Kinderarbeit (Sg.)",
     translation: "child labor",
     definition: "Die rechtswidrige Arbeit von Kindern.",
@@ -8182,7 +8182,7 @@ export const B2_Vocabulary = [
     family: "arbeiten",
   },
   {
-    id: 6514,
+    id: 5416,
     word: "die Schwerarbeit (Sg.)",
     translation: "heavy labor, strenuous work",
     definition: "Körperlich sehr anstrengende Arbeit.",
@@ -8195,7 +8195,7 @@ export const B2_Vocabulary = [
     family: "arbeiten",
   },
   {
-    id: 6515,
+    id: 5417,
     word: "der Gesundheitsschutz (Sg.)",
     translation: "health protection",
     definition:
@@ -8210,7 +8210,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6517,
+    id: 5418,
     word: "übermäßig",
     translation: "excessive, unduly",
     definition: "Das normale oder erlaubte Maß überschreitend.",
@@ -8222,7 +8222,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6518,
+    id: 5419,
     word: "ätzend",
     translation: "corrosive, caustic, annoying",
     definition: "Chemisch reizend oder umgangssprachlich sehr nervig.",
@@ -8234,7 +8234,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6519,
+    id: 5420,
     word: "die Schutzbrille, -n",
     translation: "safety goggles, protective glasses",
     definition: "Eine Brille zum Schutz der Augen bei gefährlichen Arbeiten.",
@@ -8248,7 +8248,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6520,
+    id: 5421,
     word: "die Einmalhandschuhe (Pl.)",
     translation: "disposable gloves",
     definition:
@@ -8263,7 +8263,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6522,
+    id: 5422,
     word: "desinfizieren",
     translation: "to disinfect",
     definition: "Keimfrei machen.",
@@ -8277,7 +8277,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6524,
+    id: 5423,
     word: "digitl",
     translation: "digital",
     definition:
@@ -8291,7 +8291,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6527,
+    id: 5424,
     word: "hochfahren",
     translation: "to boot up, to start up",
     definition: "Ein Computersystem einschalten und hochfahren.",
@@ -8305,7 +8305,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6532,
+    id: 5425,
     word: "schwerfallen",
     translation: "to be difficult for someone",
     definition: "Große Mühe oder Überwindung kosten.",
@@ -8317,7 +8317,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6533,
+    id: 5426,
     word: "kommunizieren (mit + D.)",
     translation: "to communicate",
     definition: "Informationen und Gedanken mit anderen austauschen.",
@@ -8332,7 +8332,7 @@ export const B2_Vocabulary = [
     family: "kommen",
   },
   {
-    id: 6535,
+    id: 5427,
     word: "zurückkehren",
     translation: "to return",
     definition: "An einen Ort zurückkommen.",
@@ -8344,7 +8344,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6536,
+    id: 5428,
     word: "deuten",
     translation: "to point, to interpret",
     definition: "Mit dem Finger auf etwas zeigen oder etwas deuten.",
@@ -8356,7 +8356,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6537,
+    id: 5429,
     word: "sich blamieren",
     translation: "to make a fool of oneself, to disgrace oneself",
     definition: "Durch ungeschicktes Verhalten unangenehm auffallen.",
@@ -8370,7 +8370,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6538,
+    id: 5430,
     word: "lauschen",
     translation: "to listen intently",
     definition: "Aufmerksam und heimlich oder gespannt zuhören.",
@@ -8382,7 +8382,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6539,
+    id: 5431,
     word: "vibrieren",
     translation: "to vibrate",
     definition: "Sich schnell und leicht hin und her bewegen.",
@@ -8396,7 +8396,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6541,
+    id: 5432,
     word: "auf sich selbst gestellt sein",
     translation: "to be left to one's own devices",
     definition: "Ohne fremde Hilfe auskommen müssen.",
@@ -8410,7 +8410,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6542,
+    id: 5433,
     word: "kurzfristig",
     translation: "short-term, at short notice",
     definition: "Mit sehr wenig Vorlaufzeit.",
@@ -8424,7 +8424,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6543,
+    id: 5434,
     word: "sich etwas zulegen",
     translation: "to acquire something, to get oneself something",
     definition: "Etwas kaufen oder anschaffen.",
@@ -8437,7 +8437,7 @@ export const B2_Vocabulary = [
     family: "legen",
   },
   {
-    id: 6544,
+    id: 5435,
     word: "scheitern",
     translation: "to fail",
     definition: "Keinen Erfolg haben, misslingen.",
@@ -8450,7 +8450,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6545,
+    id: 5436,
     word: "in Betrieb nehmen",
     translation: "to put into operation, to start up",
     definition: "Eine Anlage oder Maschine starten.",
@@ -8465,7 +8465,7 @@ export const B2_Vocabulary = [
     family: "nehmen",
   },
   {
-    id: 6546,
+    id: 5437,
     word: "sich rechtfertigen",
     translation: "to justify oneself",
     definition: "Gründe für ein Verhalten angeben, um Kritik abzuwehren.",
@@ -8478,7 +8478,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6548,
+    id: 5438,
     word: "vernetzt",
     translation: "networked, connected",
     definition: "Digital oder organisatorisch miteinander verbunden.",
@@ -8492,7 +8492,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6549,
+    id: 5439,
     word: "vertraut sein (mit + D.)",
     translation: "to be familiar with",
     definition: "Gute Kenntnisse über etwas haben.",
@@ -8504,7 +8504,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6550,
+    id: 5440,
     word: "stammen (aus/von + D.)",
     translation: "to originate from, to stem from",
     definition:
@@ -8517,7 +8517,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6552,
+    id: 5441,
     word: "der/die Befragte, -n",
     translation: "respondent, person surveyed",
     definition: "Eine Person, die an einer Umfrage teilgenommen hat.",
@@ -8531,7 +8531,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6555,
+    id: 5442,
     word: "an erster/letzter Stelle stehen",
     translation: "to come first / last",
     definition: "Die höchste oder niedrigste Priorität haben.",
@@ -8544,7 +8544,7 @@ export const B2_Vocabulary = [
     family: "stehen",
   },
   {
-    id: 6556,
+    id: 5443,
     word: "sich etwas vornehmen, nahm ... vor, hat ... vorgenommen",
     translation: "to plan something, to resolve to do something",
     definition: "Sich als Ziel setzen, etwas Bestimmtes zu tun.",
@@ -8557,7 +8557,7 @@ export const B2_Vocabulary = [
     family: "nehmen",
   },
   {
-    id: 6557,
+    id: 5444,
     word: "etwas durchhalten",
     translation: "to persevere, to keep going",
     definition: "Trotz Anstrengung nicht aufgeben.",
@@ -8572,7 +8572,7 @@ export const B2_Vocabulary = [
     family: "durchhalten",
   },
   {
-    id: 6558,
+    id: 5445,
     word: "bewusst",
     translation: "conscious, knowingly",
     definition: "Mit klarem Bewusstsein, absichtlich.",
@@ -8585,7 +8585,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6560,
+    id: 5446,
     word: "reklamieren",
     translation: "to make a complaint, to complain about",
     definition: "Einen Mangel an einer Ware rügen und Ersatz fordern.",
@@ -8598,7 +8598,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6563,
+    id: 5447,
     word: "die Abholung, -en",
     translation: "collection, pick-up",
     definition: "Das Abholen von Personen oder bestellten Waren.",
@@ -8611,7 +8611,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6564,
+    id: 5448,
     word: "Bezug nehmen (auf + A.)",
     translation: "to refer to",
     definition: "Sich in einer Mitteilung auf etwas Vorheriges beziehen.",
@@ -8625,7 +8625,7 @@ export const B2_Vocabulary = [
     family: "nehmen",
   },
   {
-    id: 6565,
+    id: 5449,
     word: "in Erfahrung bringen",
     translation: "to find out, to ascertain",
     definition: "Durch Nachfragen oder Recherche herausfinden.",
@@ -8639,7 +8639,7 @@ export const B2_Vocabulary = [
     family: "bringen",
   },
   {
-    id: 6566,
+    id: 5450,
     word: "in Anspruch nehmen",
     translation: "to make use of, to claim",
     definition: "Etwas nutzen oder beanspruchen.",
@@ -8652,7 +8652,7 @@ export const B2_Vocabulary = [
     family: "nehmen",
   },
   {
-    id: 6567,
+    id: 5451,
     word: "einen Auftrag erteilen",
     translation: "to place an order",
     definition: "Jemanden offiziell beauftragen.",
@@ -8666,7 +8666,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6568,
+    id: 5452,
     word: "einen Fehler beheben",
     translation: "to fix an error, to rectify a mistake",
     definition: "Einen Fehler korrigieren oder beseitigen.",
@@ -8680,7 +8680,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6569,
+    id: 5453,
     word: "sich in Verbindung setzen (mit + D.)",
     translation: "to get in touch with, to contact",
     definition: "Kontakt zu jemandem aufnehmen.",
@@ -8695,7 +8695,7 @@ export const B2_Vocabulary = [
     family: "setzen",
   },
   {
-    id: 6570,
+    id: 5454,
     word: "in Betracht kommen",
     translation: "to be considered, to come into question",
     definition: "Als Option oder Möglichkeit infrage kommen.",
@@ -8709,7 +8709,7 @@ export const B2_Vocabulary = [
     family: "kommen",
   },
   {
-    id: 6572,
+    id: 5455,
     word: "bengrichtigen",
     translation: "to notify, to inform",
     definition:
@@ -8723,7 +8723,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6573,
+    id: 5456,
     word: "defekt",
     translation: "defective",
     definition: "Kaputt, nicht funktionstüchtig.",
@@ -8736,7 +8736,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6574,
+    id: 5457,
     word: "einwandfrei",
     translation: "flawless, perfect",
     definition: "Vollkommen fehlerfrei.",
@@ -8748,7 +8748,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6575,
+    id: 5458,
     word: "bedauern",
     translation: "to regret",
     definition: "Bedauern über ein Ereignis ausdrücken.",
@@ -8760,7 +8760,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6578,
+    id: 5459,
     word: "der Kostenvoranschlag, -e",
     translation: "cost estimate, quotation",
     definition:
@@ -8776,7 +8776,7 @@ export const B2_Vocabulary = [
     family: "Kosten",
   },
   {
-    id: 6579,
+    id: 5460,
     word: "andernfalls",
     translation: "otherwise",
     definition: "Wenn nicht, ansonsten.",
@@ -8788,7 +8788,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6580,
+    id: 5461,
     word: "der Versandhandel (Sg.)",
     translation: "mail-order business, distance selling",
     definition: "Der Handel mit Waren, die per Post versendet werden.",
@@ -8803,7 +8803,7 @@ export const B2_Vocabulary = [
     family: "der Versand",
   },
   {
-    id: 6581,
+    id: 5462,
     word: "schäumen",
     translation: "to foam, to froth",
     definition: "Schaum bilden.",
@@ -8816,7 +8816,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6584,
+    id: 5463,
     word: "zur Verfügung stellen",
     translation: "to provide, to make available",
     definition: "Etwas bereitstellen.",
@@ -8829,7 +8829,7 @@ export const B2_Vocabulary = [
     family: "stellen",
   },
   {
-    id: 6585,
+    id: 5464,
     word: "in Rechnung stellen",
     translation: "to charge for, to invoice",
     definition: "Die Kosten für eine Leistung in Rechnung stellen.",
@@ -8844,7 +8844,7 @@ export const B2_Vocabulary = [
     family: "stellen",
   },
   {
-    id: 6586,
+    id: 5465,
     word: "mithilfe",
     translation: "with the help of",
     definition: "Unter Verwendung von.",
@@ -8857,7 +8857,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6587,
+    id: 5466,
     word: "fest angestellt",
     translation: "permanently employed",
     definition: "In einem festen, unbefristeten Arbeitsverhältnis stehen.",
@@ -8870,7 +8870,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6589,
+    id: 5467,
     word: "die Verständigung (Sg.)",
     translation: "communication, understanding",
     definition: "Die gegenseitige Verständigung.",
@@ -8884,7 +8884,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6590,
+    id: 5468,
     word: "die Identität, -en",
     translation: "identity",
     definition: "Das Wesen und die Einzigartigkeit einer Person oder Gruppe.",
@@ -8896,7 +8896,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6591,
+    id: 5469,
     word: "die Armut (Sg.) + der Reichtum (Sg.)",
     translation: "poverty + wealth",
     definition:
@@ -8912,7 +8912,7 @@ export const B2_Vocabulary = [
     family: "die Armut",
   },
   {
-    id: 6593,
+    id: 5470,
     word: "die Sprachbarriere, -n",
     translation: "language barrier",
     definition:
@@ -8926,7 +8926,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6594,
+    id: 5471,
     word: "das Menschenrecht, -e",
     translation: "human right",
     definition: "Ein universelles Recht jedes Menschen.",
@@ -8941,7 +8941,7 @@ export const B2_Vocabulary = [
     family: "Menschen",
   },
   {
-    id: 6595,
+    id: 5472,
     word: "der Austausch, -e",
     translation: "exchange",
     definition: "Das gegenseitige Austauschen von Dingen oder Gedanken.",
@@ -8953,7 +8953,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6596,
+    id: 5473,
     word: "die Hautfarbe, -n",
     translation: "skin color",
     definition: "Die natürliche Farbe der menschlichen Haut.",
@@ -8965,7 +8965,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6597,
+    id: 5474,
     word: "der Rassismus (Sg.)",
     translation: "racism",
     definition:
@@ -8979,7 +8979,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6598,
+    id: 5475,
     word: "die Zerstörung, -en",
     translation: "destruction",
     definition: "Das Kaputtmachen oder Vernichten von etwas.",
@@ -8992,7 +8992,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6602,
+    id: 5476,
     word: "die Vernetzung, -en",
     translation: "networking, interconnectedness",
     definition: "Die Verbindung von Systemen oder Personen.",
@@ -9006,7 +9006,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6603,
+    id: 5477,
     word: "die Kapazität, -en",
     translation: "capacity",
     definition: "Das Aufnahme- oder Leistungsvermögen.",
@@ -9018,7 +9018,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6604,
+    id: 5478,
     word: "die Effizienz (Sg.)",
     translation: "efficiency",
     definition: "Das Verhältnis von Aufwand und Nutzen.",
@@ -9030,7 +9030,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6605,
+    id: 5479,
     word: "zur Verfügung stehen",
     translation: "to be available",
     definition: "Nutzen können, bereitstehen.",
@@ -9043,7 +9043,7 @@ export const B2_Vocabulary = [
     family: "stehen",
   },
   {
-    id: 6606,
+    id: 5480,
     word: "der Bruchteil, -e",
     translation: "fraction, small part",
     definition: "Ein sehr kleiner Teil eines Ganzen.",
@@ -9055,7 +9055,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6607,
+    id: 5481,
     word: "das Phänomen, -e",
     translation: "phenomenon",
     definition: "Eine beobachtbare Erscheinung.",
@@ -9067,7 +9067,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6609,
+    id: 5482,
     word: "Interesse an ... haben",
     translation: "to have an interest in",
     definition: "Neugier oder Beteiligung an etwas zeigen.",
@@ -9079,7 +9079,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6611,
+    id: 5483,
     word: "die Anstrengung, -en",
     translation: "effort, strain",
     definition: "Eine körperliche oder geistige Kraftanstrengung.",
@@ -9094,7 +9094,7 @@ export const B2_Vocabulary = [
     family: "anstrengen",
   },
   {
-    id: 6612,
+    id: 5484,
     word: "etwas erarbeiten",
     translation: "to work out something, to develop",
     definition: "Durch eigene Arbeit gewinnen oder erstellen.",
@@ -9107,7 +9107,7 @@ export const B2_Vocabulary = [
     family: "arbeiten",
   },
   {
-    id: 6613,
+    id: 5485,
     word: "der Unfallschutz (Sg.)",
     translation: "accident prevention, occupational safety",
     definition: "Maßnahmen zur Verhütung von Unfällen.",
@@ -9121,7 +9121,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6614,
+    id: 5486,
     word: "der Mentor, -en / die Mentorin, -nen",
     translation: "mentor",
     definition: "Ein erfahrener Berater für Berufseinsteiger.",
@@ -9134,7 +9134,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6615,
+    id: 5487,
     word: "sich (nicht) scheuen",
     translation: "not to shy away from, to hesitate",
     definition: "Keine Angst oder Scheu vor etwas haben.",
@@ -9146,7 +9146,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6616,
+    id: 5488,
     word: "weiterkommen (bei + D.)",
     translation: "to make progress with",
     definition: "Fortschritte in einer Sache erzielen.",
@@ -9161,7 +9161,7 @@ export const B2_Vocabulary = [
     family: "kommen",
   },
   {
-    id: 6617,
+    id: 5489,
     word: "der Verbesserungsvorschlag, -e",
     translation: "suggestion for improvement",
     definition: "Ein Vorschlag, wie man etwas verbessern kann.",
@@ -9175,7 +9175,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6619,
+    id: 5490,
     word: "die Initiativ-Bewerbung, -en",
     translation: "unsolicited application",
     definition: "Eine Bewerbung ohne konkrete Stellenausschreibung.",
@@ -9190,7 +9190,7 @@ export const B2_Vocabulary = [
     family: "bewerben",
   },
   {
-    id: 6621,
+    id: 5491,
     word: "gezielt",
     translation: "targeted, specific",
     definition: "Bewusst und auf ein Ziel ausgerichtet.",
@@ -9204,7 +9204,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6622,
+    id: 5492,
     word: "der Aufwand (Sg.)",
     translation: "effort, expenditure, outlay",
     definition: "Der nötige Aufwand an Zeit, Geld oder Arbeit.",
@@ -9216,7 +9216,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6623,
+    id: 5493,
     word: "optimieren",
     translation: "to optimize",
     definition: "Etwas bestmöglich gestalten.",
@@ -9228,7 +9228,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6624,
+    id: 5494,
     word: "in Kontakt bleiben (mit + D.)",
     translation: "to stay in touch with",
     definition: "Die Verbindung zu jemandem aufrechterhalten.",
@@ -9240,7 +9240,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6627,
+    id: 5495,
     word: "die Gemeinsamkeit, -en",
     translation: "commonality, shared feature",
     definition: "Etwas, das man gemeinsam hat.",
@@ -9254,7 +9254,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6629,
+    id: 5496,
     word: "die Überwindung (Sg.)",
     translation: " преодоление / overcoming, effort",
     definition: "Das Überwinden eines inneren Widerstands.",
@@ -9269,7 +9269,7 @@ export const B2_Vocabulary = [
     family: "überwinden",
   },
   {
-    id: 6631,
+    id: 5497,
     word: "die Umsetzung, -en",
     translation: "implementation",
     definition: "Die Verwirklichung eines Plans.",
@@ -9283,7 +9283,7 @@ export const B2_Vocabulary = [
     family: "umsetzen",
   },
   {
-    id: 6632,
+    id: 5498,
     word: "vermischen",
     translation: "to mix, to blend",
     definition: "Verschiedene Dinge zusammenfügen.",
@@ -9296,7 +9296,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6633,
+    id: 5499,
     word: "jemanden von einem Plan abbringen",
     translation: "to dissuade someone from a plan",
     definition: "Jemanden dazu bringen, einen Plan nicht auszuführen.",
@@ -9309,7 +9309,7 @@ export const B2_Vocabulary = [
     family: "jemanden",
   },
   {
-    id: 6634,
+    id: 5500,
     word: "die Arbeitsbedingungen (Pl.)",
     translation: "working conditions",
     definition: "Die Bedingungen am Arbeitsplatz.",
@@ -9324,7 +9324,7 @@ export const B2_Vocabulary = [
     family: "arbeiten",
   },
   {
-    id: 6635,
+    id: 5501,
     word: "die Urlaubsplanung, -en",
     translation: "holiday planning, vacation planning",
     definition: "Die Planung des Jahresurlaubs.",
@@ -9338,7 +9338,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6638,
+    id: 5502,
     word: "improvisieren",
     translation: "to improvise",
     definition: "Ohne Vorbereitung handeln.",
@@ -9351,7 +9351,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6639,
+    id: 5503,
     word: "das Mobbing (Sg.)",
     translation: "bullying",
     definition: "Systematisches Schikanieren von Mitarbeitern.",
@@ -9364,7 +9364,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6641,
+    id: 5504,
     word: "einen Termin verschieben/vereinbaren/freihalten/notieren",
     translation: "to postpone / arrange / keep free / note an appointment",
     definition:
@@ -9380,7 +9380,7 @@ export const B2_Vocabulary = [
     family: "vereinbaren",
   },
   {
-    id: 6644,
+    id: 5505,
     word: "das Gespräch (mit + D. / über + A.)",
     translation: "conversation, discussion",
     definition: "Ein verbaler Austausch zwischen Personen.",
@@ -9393,7 +9393,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6645,
+    id: 5506,
     word: "erstaunt",
     translation: "astonished, surprised",
     definition: "Überrascht über etwas unerwartetes sein.",
@@ -9405,7 +9405,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6647,
+    id: 5507,
     word: "sich etwas ausdenken",
     translation: "to think up something, to invent",
     definition: "Einen Plan oder eine Idee kreativ erfinden.",
@@ -9418,7 +9418,7 @@ export const B2_Vocabulary = [
     family: "ausdenken",
   },
   {
-    id: 6648,
+    id: 5508,
     word: "die Stellungnahme, -n",
     translation: "statement, position paper",
     definition: "Eine offizielle Meinungsäußerung zu einem Thema.",
@@ -9433,7 +9433,7 @@ export const B2_Vocabulary = [
     family: "stellen",
   },
   {
-    id: 6650,
+    id: 5509,
     word: "vergüten",
     translation: "to remunerate, to pay",
     definition: "Für eine Arbeit eine finanzielle Entlohnung leisten.",
@@ -9448,7 +9448,7 @@ export const B2_Vocabulary = [
     family: "vergüten",
   },
   {
-    id: 6651,
+    id: 5510,
     word: "etwas ankündigen",
     translation: "to announce something",
     definition: "Etwas für die Zukunft bekannt geben.",
@@ -9461,7 +9461,7 @@ export const B2_Vocabulary = [
     family: "ankündigen",
   },
   {
-    id: 6652,
+    id: 5511,
     word: "das Potenzial, -e",
     translation: "potential",
     definition: "Vorhandene Entwicklungsmöglichkeiten.",
@@ -9473,7 +9473,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6653,
+    id: 5512,
     word: "jemandem danken (für + A.)",
     translation: "to thank someone for",
     definition: "Dankbarkeit für eine Tat ausdrücken.",
@@ -9487,7 +9487,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6655,
+    id: 5513,
     word: "informiert (über + A.)",
     translation: "informed about",
     definition: "Wissen über einen Sachverhalt habend.",
@@ -9501,7 +9501,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6656,
+    id: 5514,
     word: "der Gruppenleiter, - / die Gruppenleiterin, -nen",
     translation: "team leader, group leader",
     definition: "Die verantwortliche Person einer Arbeitsgruppe.",
@@ -9513,7 +9513,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6657,
+    id: 5515,
     word: "jemanden unfreundlich behandeln",
     translation: "to treat someone unkindly",
     definition: "Sich unhöflich gegenüber jemandem verhalten.",
@@ -9526,7 +9526,7 @@ export const B2_Vocabulary = [
     family: "jemanden",
   },
   {
-    id: 6658,
+    id: 5516,
     word: "etwas besprechen",
     translation: "to discuss something",
     definition: "Ein Thema gemeinsam bereden.",
@@ -9539,7 +9539,7 @@ export const B2_Vocabulary = [
     family: "sprechen",
   },
   {
-    id: 6659,
+    id: 5517,
     word: "etwas genehmigen",
     translation: "to approve something, to authorize",
     definition: "Offiziell erlauben oder zustimmen.",
@@ -9552,7 +9552,7 @@ export const B2_Vocabulary = [
     family: "genehmigen",
   },
   {
-    id: 6660,
+    id: 5518,
     word: "die Koordination (Sg.)",
     translation: "coordination",
     definition: "Das geordnete Zusammenwirken von Abläufen.",
@@ -9566,7 +9566,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6661,
+    id: 5519,
     word: "ngchlässig",
     translation: "negligent, careless",
     definition:
@@ -9581,7 +9581,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6662,
+    id: 5520,
     word: "etwas genau nehmen",
     translation: "to take something seriously, to be meticulous",
     definition: "Sehr genau auf Details oder Regeln achten.",
@@ -9594,7 +9594,7 @@ export const B2_Vocabulary = [
     family: "nehmen",
   },
   {
-    id: 6664,
+    id: 5521,
     word: "professionell + unprofessionell",
     translation: "professional + unprofessional",
     definition: "Fachmännisch und gekonnt im Gegensatz zu mangelhaft.",
@@ -9608,7 +9608,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6666,
+    id: 5522,
     word: "etwas untersagen",
     translation: "to forbid something, to prohibit",
     definition: "Etwas offiziell verbieten.",
@@ -9622,7 +9622,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6667,
+    id: 5523,
     word: "ausdrücklich",
     translation: "explicitly, expressly",
     definition: "Ganz klar und unmissverständlich betont.",
@@ -9634,7 +9634,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6668,
+    id: 5524,
     word: "das Zeitalter, -",
     translation: "age, era",
     definition: "Eine geschichtliche Epoche.",
@@ -9648,7 +9648,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6671,
+    id: 5525,
     word: "ganz zu schweigen von",
     translation: "not to mention, let alone",
     definition:
@@ -9661,7 +9661,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6672,
+    id: 5526,
     word: "auseinanderreißen",
     translation: "to tear apart",
     definition: "Brutal oder stark trennen.",
@@ -9673,7 +9673,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6673,
+    id: 5527,
     word: "die Schätzung, -en",
     translation: "estimate, estimation",
     definition: "Eine ungefähre Bewertung oder Berechnung.",
@@ -9687,7 +9687,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6675,
+    id: 5528,
     word: "in Schicht arbeiten",
     translation: "to work in shifts",
     definition: "Nach einem Wechselschichtplan arbeiten.",
@@ -9702,7 +9702,7 @@ export const B2_Vocabulary = [
     family: "arbeiten",
   },
   {
-    id: 6676,
+    id: 5529,
     word: "die Kundenbeschwerde, -n",
     translation: "customer complaint",
     definition: "Eine Beschwerde eines Kunden über ein Produkt oder Service.",
@@ -9716,7 +9716,7 @@ export const B2_Vocabulary = [
     family: "beschweren",
   },
   {
-    id: 6677,
+    id: 5530,
     word: "die Aufstiegsmöglichkeit, -en",
     translation: "opportunity for advancement",
     definition: "Die Chance, beruflich aufzusteigen.",
@@ -9730,7 +9730,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6678,
+    id: 5531,
     word: "die Babypause, -n",
     translation: "maternity break, parental leave",
     definition: "Eine berufliche Pause zur Betreuung eines Babys.",
@@ -9743,7 +9743,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6680,
+    id: 5532,
     word: "die Elternzeit (Sg.)",
     translation: "parental leave",
     definition: "Unbezahlte Freistellung für die Betreuung des eigenen Kindes.",
@@ -9757,7 +9757,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6681,
+    id: 5533,
     word: "der Meisterkurs, -e",
     translation: "master craftsman course",
     definition: "Ein beruflicher Aufbaukurs zur Erlangung des Meistertitels.",
@@ -9770,7 +9770,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6682,
+    id: 5534,
     word: "Teilzeit arbeiten",
     translation: "to work part-time",
     definition: "Mit reduzierter Stundenzahl arbeiten.",
@@ -9783,7 +9783,7 @@ export const B2_Vocabulary = [
     family: "arbeiten",
   },
   {
-    id: 6684,
+    id: 5535,
     word: "sich/jemanden beruhigen",
     translation: "to calm down",
     definition: "Wieder ruhig werden oder jemanden beruhigen.",
@@ -9797,7 +9797,7 @@ export const B2_Vocabulary = [
     family: "sich",
   },
   {
-    id: 6685,
+    id: 5536,
     word: "Respekt voreinander haben",
     translation: "to have respect for each other",
     definition: "Anderen mit Achtung begegnen.",
@@ -9810,7 +9810,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6686,
+    id: 5537,
     word: "ausreden",
     translation: "to finish speaking",
     definition: "Jemanden aussprechen lassen, ohne zu unterbrechen.",
@@ -9823,7 +9823,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6687,
+    id: 5538,
     word: "jemanden einschalten",
     translation: "to involve someone, to bring someone in",
     definition: "Eine Person (z.B. einen Experten oder Anwalt) hinzuziehen.",
@@ -9838,7 +9838,7 @@ export const B2_Vocabulary = [
     family: "jemanden",
   },
   {
-    id: 6688,
+    id: 5539,
     word: "Meinungsunterschiede offen austragen",
     translation: "to openly resolve differences of opinion",
     definition: "Konflikte ehrlich und direkt ansprechen.",
@@ -9852,7 +9852,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6689,
+    id: 5540,
     word: "sich etwas bewusst machen",
     translation: "to make oneself aware of something",
     definition: "Etwas klar erkennen und verinnerlichen.",
@@ -9866,7 +9866,7 @@ export const B2_Vocabulary = [
     family: "machen",
   },
   {
-    id: 6690,
+    id: 5541,
     word: "nachtragend sein",
     translation: "to be vengeful, to hold a grudge",
     definition: "Sich lange über Kränkungen ärgern und nicht verzeihen.",
@@ -9878,7 +9878,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6692,
+    id: 5542,
     word: "jemanden beschäftigen",
     translation: "to occupy someone, to employ someone",
     definition: "Jemanden anstellen oder gedanklich in Anspruch nehmen.",
@@ -9892,7 +9892,7 @@ export const B2_Vocabulary = [
     family: "jemanden",
   },
   {
-    id: 6693,
+    id: 5543,
     word: "das Großraumbüro, -s",
     translation: "open-plan office",
     definition: "Ein sehr großer Raum mit vielen Arbeitsplätzen.",
@@ -9905,7 +9905,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6694,
+    id: 5544,
     word: "der Schichtplan, -e",
     translation: "shift schedule, roster",
     definition: "Ein Plan für die Schichtarbeit.",
@@ -9918,7 +9918,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6695,
+    id: 5545,
     word: "der Anlass, -e",
     translation: "occasion, cause",
     definition: "Ein Grund oder Anlass für ein Ereignis.",
@@ -9931,7 +9931,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6696,
+    id: 5546,
     word: "jemandem etwas in die Schuhe schieben",
     translation: "to pin something on someone, to blame someone",
     definition: "Jemandem unrechtmäßig die Schuld an etwas geben.",
@@ -9945,7 +9945,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6698,
+    id: 5547,
     word: "Notizen durchlesen/vervollständigen",
     translation: "to read through / complete notes",
     definition: "Aufgeschriebene Notizen kontrollieren und ergänzen.",
@@ -9957,7 +9957,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6699,
+    id: 5548,
     word: "gelassen bleiben",
     translation: "to stay calm",
     definition: "Ruhig und entspannt bleiben in schwierigen Lagen.",
@@ -9971,7 +9971,7 @@ export const B2_Vocabulary = [
     family: "gelassen",
   },
   {
-    id: 6700,
+    id: 5549,
     word: "bei Bedarf",
     translation: "if necessary, upon request",
     definition: "Wenn es gebraucht wird.",
@@ -9984,7 +9984,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6701,
+    id: 5550,
     word: "belastend",
     translation: "burdensome, stressful",
     definition: "Eine schwere psychische oder physische Belastung darstellend.",
@@ -9997,7 +9997,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6702,
+    id: 5551,
     word: "etwas investieren",
     translation: "to invest something",
     definition: "Geld, Zeit oder Arbeit in ein Projekt stecken.",
@@ -10012,7 +10012,7 @@ export const B2_Vocabulary = [
     family: "investieren",
   },
   {
-    id: 6704,
+    id: 5552,
     word: "der Freiraum, -e",
     translation: "freedom, leeway, open space",
     definition: "Unabhängigkeit und Handlungsspielraum.",
@@ -10024,7 +10024,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6706,
+    id: 5553,
     word: "sich gegenseitig anregen",
     translation: "to stimulate each other, to inspire each other",
     definition: "Sich gegenseitig zu neuen Ideen motivieren.",
@@ -10038,7 +10038,7 @@ export const B2_Vocabulary = [
     family: "anregen",
   },
   {
-    id: 6707,
+    id: 5554,
     word: "etwas erschweren",
     translation: "to make something difficult, to complicate",
     definition: "Die Bedingungen für etwas verschlechtern.",
@@ -10052,7 +10052,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6708,
+    id: 5555,
     word: "die Sehjnsucht, -e",
     translation: "longing, yearning",
     definition:
@@ -10067,7 +10067,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6709,
+    id: 5556,
     word: "tendenziell",
     translation: "tending, on the whole",
     definition: "Einer bestimmten Tendenz folgend.",
@@ -10079,7 +10079,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6710,
+    id: 5557,
     word: "dominant",
     translation: "dominant",
     definition: "Herrschend, im Vordergrund stehend.",
@@ -10091,7 +10091,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6711,
+    id: 5558,
     word: "finanziell abhängig/unabhängig",
     translation: "financially dependent / independent",
     definition:
@@ -10105,7 +10105,7 @@ export const B2_Vocabulary = [
     family: "unabhängig",
   },
   {
-    id: 6712,
+    id: 5559,
     word: "folglich",
     translation: "consequently, therefore",
     definition: "Als logische Folge.",
@@ -10119,7 +10119,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6713,
+    id: 5560,
     word: "infolgedessen",
     translation: "as a result, consequently",
     definition: "Aus diesem Grund.",
@@ -10133,7 +10133,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6714,
+    id: 5561,
     word: "vielfältig",
     translation: "diverse, manifold",
     definition: "In vielen verschiedenen Formen vorhanden.",
@@ -10145,7 +10145,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6715,
+    id: 5562,
     word: "die Epoche, -n",
     translation: "epoch, era",
     definition: "Ein geschichtlicher Zeitabschnitt.",
@@ -10159,7 +10159,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6716,
+    id: 5563,
     word: "unter Druck sein",
     translation: "to be under pressure",
     definition: "Sich in einer stressigen Situation befinden.",
@@ -10172,7 +10172,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6717,
+    id: 5564,
     word: "etwas an eine Mail anhängen",
     translation: "to attach something to an email",
     definition: "Eine Datei an eine E-Mail anfügen.",
@@ -10185,7 +10185,7 @@ export const B2_Vocabulary = [
     family: "anhängen",
   },
   {
-    id: 6719,
+    id: 5565,
     word: "etwas nachvollziehen können",
     translation: "to be able to understand something, to comprehend",
     definition: "Die Gedanken oder Motive eines anderen verstehen.",
@@ -10200,7 +10200,7 @@ export const B2_Vocabulary = [
     family: "nachvollziehen",
   },
   {
-    id: 6720,
+    id: 5566,
     word: "in einer Krise stecken",
     translation: "to be in a crisis",
     definition:
@@ -10215,7 +10215,7 @@ export const B2_Vocabulary = [
     family: "stecken",
   },
   {
-    id: 6722,
+    id: 5567,
     word: "die Abschlussnote, -n",
     translation: "final grade",
     definition: "Die Note am Ende einer Ausbildung oder eines Studiums.",
@@ -10228,7 +10228,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6723,
+    id: 5568,
     word: "gleichgültig",
     translation: "indifferent",
     definition: "Ohne Interesse oder Bedeutung für jemanden.",
@@ -10241,7 +10241,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6724,
+    id: 5569,
     word: "jemandem Chancen verschaffen",
     translation: "to create opportunities for someone",
     definition: "Jemandem gute Aussichten oder Möglichkeiten eröffnen.",
@@ -10255,7 +10255,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6725,
+    id: 5570,
     word: "Wirkung zeigen",
     translation: "to take effect, to show results",
     definition: "Den gewünschten Erfolg oder Effekt erzielen.",
@@ -10268,7 +10268,7 @@ export const B2_Vocabulary = [
     family: "zeigen",
   },
   {
-    id: 6726,
+    id: 5571,
     word: "Führungsaufgabe übernehmen",
     translation: "to take on a management task",
     definition:
@@ -10282,7 +10282,7 @@ export const B2_Vocabulary = [
     family: "nehmen",
   },
   {
-    id: 6727,
+    id: 5572,
     word: "bewusst miterleben",
     translation: "to experience consciously",
     definition: "Etwas aktiv und mit vollem Bewusstsein miterleben.",
@@ -10295,7 +10295,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6729,
+    id: 5573,
     word: "die Belastungsprobe, -n",
     translation: "stress test, severe test",
     definition:
@@ -10309,7 +10309,7 @@ export const B2_Vocabulary = [
     family: "die Belastung",
   },
   {
-    id: 6730,
+    id: 5574,
     word: "jemandem vor große Herausforderungen stellen",
     translation: "to present someone with major challenges",
     definition:
@@ -10325,7 +10325,7 @@ export const B2_Vocabulary = [
     family: "herausfordern",
   },
   {
-    id: 6731,
+    id: 5575,
     word: "etwas aushandeln",
     translation: "to negotiate something",
     definition: "In Verhandlungen einen Kompromiss oder Vertrag erzielen.",
@@ -10337,7 +10337,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6733,
+    id: 5576,
     word: "die Trendwende, -n",
     translation: "trend reversal",
     definition: "Eine Wende hin zu einer entgegengesetzten Entwicklung.",
@@ -10350,7 +10350,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6735,
+    id: 5577,
     word: "angewiesen sein (auf + A.)",
     translation: "to be dependent on",
     definition:
@@ -10365,7 +10365,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6736,
+    id: 5578,
     word: "sich qualifizieren (für + A.)",
     translation: "to qualify for",
     definition: "Sich durch Ausbildung oder Leistung für etwas eignen.",
@@ -10377,7 +10377,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6737,
+    id: 5579,
     word: "die Nachwuchskraft, -e",
     translation: "young professional, junior employee",
     definition: "Eine Nachwuchskraft im Beruf.",
@@ -10391,7 +10391,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6738,
+    id: 5580,
     word: "verteidigen",
     translation: "to defend",
     definition: "Etwas gegen Angriffe schützen oder verteidigen.",
@@ -10403,7 +10403,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6739,
+    id: 5581,
     word: "jemandem blind vertrauen",
     translation: "to trust someone blindly",
     definition: "Vollkommenes Vertrauen in jemanden setzen.",
@@ -10418,7 +10418,7 @@ export const B2_Vocabulary = [
     family: "vertrauen",
   },
   {
-    id: 6740,
+    id: 5582,
     word: "sich verwirklichen",
     translation: "to realize oneself, to fulfill oneself",
     definition: "Die eigenen Träume und Potenziale im Leben umsetzen.",
@@ -10433,7 +10433,7 @@ export const B2_Vocabulary = [
     family: "verwirklichen",
   },
   {
-    id: 6741,
+    id: 5583,
     word: "Notizen durchlesen/vervollständigen",
     translation: "to read through / complete notes",
     definition: "Mitschriften prüfen und ergänzen.",
@@ -10447,7 +10447,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6742,
+    id: 5584,
     word: "gelassen bleiben",
     translation: "to stay calm",
     definition: "Ruhig bleiben.",
@@ -10461,7 +10461,7 @@ export const B2_Vocabulary = [
     family: "gelassen",
   },
   {
-    id: 6743,
+    id: 5585,
     word: "bei Bedarf",
     translation: "if necessary",
     definition: "Wenn es erforderlich ist.",
@@ -10475,7 +10475,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6745,
+    id: 5586,
     word: "drohen",
     translation: "to threaten",
     definition: "Mit einer negativen Konsequenz drohen.",
@@ -10489,7 +10489,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6746,
+    id: 5587,
     word: "etwas nachweisen",
     translation: "to prove something, to verify",
     definition: "Einen Beleg oder Beweis für etwas erbringen.",
@@ -10502,7 +10502,7 @@ export const B2_Vocabulary = [
     family: "nachweisen",
   },
   {
-    id: 6747,
+    id: 5588,
     word: "sich bergen lassen",
     translation: "to be able to be rescued / recovered",
     definition: "Aus einer Gefahr gerettet werden können.",
@@ -10517,7 +10517,7 @@ export const B2_Vocabulary = [
     family: "bergen",
   },
   {
-    id: 6748,
+    id: 5589,
     word: "zunehmen + abnehmen",
     translation: "to increase / gain weight + to decrease / lose weight",
     definition: "An Umfang oder Gewicht zunehmen bzw. abnehmen.",
@@ -10531,7 +10531,7 @@ export const B2_Vocabulary = [
     family: "nehmen",
   },
   {
-    id: 6749,
+    id: 5590,
     word: "das Berufsbild, -er",
     translation: "professional profile",
     definition: "Das typische Bild und die Anforderungen eines Berufs.",
@@ -10544,7 +10544,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6750,
+    id: 5591,
     word: "sich grundlegend ändern",
     translation: "to change fundamentally",
     definition: "Sich von Grund auf verändern.",
@@ -10558,7 +10558,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6752,
+    id: 5592,
     word: "Grundkenntnisse erwerben",
     translation: "to acquire basic knowledge",
     definition: "Die Grundlagen in einem Bereich lernen.",
@@ -10572,7 +10572,7 @@ export const B2_Vocabulary = [
     family: "erwerben",
   },
   {
-    id: 6753,
+    id: 5593,
     word: "das Arbeitsfeld, -er",
     translation: "working field, domain",
     definition: "Ein beruflicher Tätigkeitsbereich.",
@@ -10586,7 +10586,7 @@ export const B2_Vocabulary = [
     family: "arbeiten",
   },
   {
-    id: 6754,
+    id: 5594,
     word: "die Fachkraft, -e",
     translation: "skilled worker, specialist",
     definition: "Eine ausgebildete Fachkraft in einem Beruf.",
@@ -10598,7 +10598,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6755,
+    id: 5595,
     word: "die zuständigen Stellen",
     translation: "the competent authorities / bodies",
     definition: "Die offiziell verantwortlichen Behörden oder Institutionen.",
@@ -10612,7 +10612,7 @@ export const B2_Vocabulary = [
     family: "stellen",
   },
   {
-    id: 6757,
+    id: 5596,
     word: "offene Fragen klären",
     translation: "to clarify open questions",
     definition: "Unklare Punkte besprechen und lösen.",
@@ -10626,7 +10626,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6758,
+    id: 5597,
     word: "die Anreise, -n",
     translation: "arrival, journey to",
     definition: "Die Anreise zu einem Ort.",
@@ -10638,7 +10638,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6759,
+    id: 5598,
     word: "der Anmeldeschluss (Sg.)",
     translation: "registration deadline",
     definition: "Der letzte Termin für eine Anmeldung.",
@@ -10651,7 +10651,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6760,
+    id: 5599,
     word: "die erste/zweite Jahreshälfte (Sg.)",
     translation: "the first / second half of the year",
     definition: "Die jeweiligen sechs Monate eines Kalenderjahres.",
@@ -10664,7 +10664,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6761,
+    id: 5600,
     word: "aufmerksam machen (auf + A.)",
     translation: "to draw attention to",
     definition: "Jemanden auf etwas hinweisen.",
@@ -10679,7 +10679,7 @@ export const B2_Vocabulary = [
     family: "machen",
   },
   {
-    id: 6762,
+    id: 5601,
     word: "ausgleichen",
     translation: "to balance, to compensate",
     definition: "Einen Unterschied ausgleichen.",
@@ -10694,7 +10694,7 @@ export const B2_Vocabulary = [
     family: "ausgleichen",
   },
   {
-    id: 6766,
+    id: 5602,
     word: "die Ergebnisse belegen/zeigen ...",
     translation: "the results prove / show ...",
     definition: "Ergebnisse dokumentieren oder beweisen einen Sachverhalt.",
@@ -10708,7 +10708,7 @@ export const B2_Vocabulary = [
     family: "zeigen",
   },
   {
-    id: 6767,
+    id: 5603,
     word: "verknüpfen (mit + D.)",
     translation: "to link with, to connect",
     definition: "Miteinander verbinden.",
@@ -10721,7 +10721,7 @@ export const B2_Vocabulary = [
     family: "knüpfen",
   },
   {
-    id: 6768,
+    id: 5604,
     word: "einschränken",
     translation: "to restrict, to limit",
     definition: "Begrenzen oder verringern.",
@@ -10735,7 +10735,7 @@ export const B2_Vocabulary = [
     family: "einschränken",
   },
   {
-    id: 6769,
+    id: 5605,
     word: "differenzieren (zwischen + D.)",
     translation: "to differentiate between",
     definition: "Unterschiede zwischen Dingen machen.",
@@ -10750,7 +10750,7 @@ export const B2_Vocabulary = [
     family: "die Differenz",
   },
   {
-    id: 6770,
+    id: 5606,
     word: "signalisieren",
     translation: "to signal",
     definition: "Ein Zeichen geben oder anzeigen.",
@@ -10763,7 +10763,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6771,
+    id: 5607,
     word: "etwas senken/steigern",
     translation: "to lower / increase something",
     definition: "Etwas verringern oder erhöhen.",
@@ -10776,7 +10776,7 @@ export const B2_Vocabulary = [
     family: "senken",
   },
   {
-    id: 6772,
+    id: 5608,
     word: "messbar",
     translation: "measurable",
     definition: "In Zahlen oder Werten erfassbar.",
@@ -10788,7 +10788,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6773,
+    id: 5609,
     word: "etwas verursachen",
     translation: "to cause something",
     definition: "Auslöser für ein Ereignis oder einen Schaden sein.",
@@ -10800,7 +10800,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6774,
+    id: 5610,
     word: "einen Abschluss nachholen",
     translation: "to catch up on a degree / qualification",
     definition: "Einen Schul- oder Berufsabschluss nachträglich machen.",
@@ -10813,7 +10813,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6777,
+    id: 5611,
     word: "innerhalb kürzester Zeit",
     translation: "within a very short time",
     definition: "Sehr schnell, in kurzer Frist.",
@@ -10825,7 +10825,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6778,
+    id: 5612,
     word: "enorm viel",
     translation: "enormously much, a tremendous amount",
     definition: "Sehr viel, in großem Maße.",
@@ -10837,7 +10837,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6780,
+    id: 5613,
     word: "Nutzen ziehen aus",
     translation: "to draw benefits from",
     definition: "Vorteile aus etwas gewinnen.",
@@ -10850,7 +10850,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6781,
+    id: 5614,
     word: "das Durchhaltevermögen (Sg.)",
     translation: "perseverance, staying power",
     definition: "Die Fähigkeit, nicht aufzugeben.",
@@ -10863,7 +10863,7 @@ export const B2_Vocabulary = [
     family: "durchhalten",
   },
   {
-    id: 6782,
+    id: 5615,
     word: "das Mitgefühl (Sg.)",
     translation: "sympathy, empathy",
     definition: "Mit anderen mitfühlen.",
@@ -10876,7 +10876,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6784,
+    id: 5616,
     word: "depressiv sein/werden",
     translation: "to be / become depressed",
     definition:
@@ -10892,7 +10892,7 @@ export const B2_Vocabulary = [
     family: "werden",
   },
   {
-    id: 6785,
+    id: 5617,
     word: "die Umschulung, -en",
     translation: "retraining",
     definition: "Eine berufliche Ausbildung für einen neuen Beruf.",
@@ -10905,7 +10905,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6786,
+    id: 5618,
     word: "die Pubertät (Sg.)",
     translation: "puberty",
     definition: "Die Entwicklungsphase vom Kind zum Jugendlichen.",
@@ -10919,7 +10919,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6789,
+    id: 5619,
     word: "die Gesellenprüfung, -en",
     translation: "journeyman's examination",
     definition: "Die Abschlussprüfung für Handwerker nach der Lehre.",
@@ -10932,7 +10932,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6790,
+    id: 5620,
     word: "die Ausbildungsvergütung, -en",
     translation: "apprenticeship allowance, training salary",
     definition: "Die monatliche Bezahlung während einer Ausbildung.",
@@ -10946,7 +10946,7 @@ export const B2_Vocabulary = [
     family: "vergüten",
   },
   {
-    id: 6791,
+    id: 5621,
     word: "mehr als genug",
     translation: "more than enough",
     definition: "Reichlich vorhanden.",
@@ -10958,7 +10958,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6793,
+    id: 5622,
     word: "das Weiterbildungsangebot, -e",
     translation: "further training offer",
     definition: "Das Angebot an Weiterbildungsmöglichkeiten.",
@@ -10972,7 +10972,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6794,
+    id: 5623,
     word: "etwas erkennen",
     translation: "to recognize something",
     definition: "Etwas deutlich wahrnehmen oder begreifen.",
@@ -10986,7 +10986,7 @@ export const B2_Vocabulary = [
     family: "erkennen",
   },
   {
-    id: 6795,
+    id: 5624,
     word: "sich (geistig) fit fühlen",
     translation: "to feel (mentally) fit",
     definition: "Sich geistig leistungsfähig und gesund fühlen.",
@@ -10999,7 +10999,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6796,
+    id: 5625,
     word: "offensichtlich",
     translation: "obvious, evidently",
     definition: "Klar erkennbar.",
@@ -11013,7 +11013,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6797,
+    id: 5626,
     word: "erhalten bleiben",
     translation: "to remain intact, to be preserved",
     definition: "Nicht verloren gehen, bestehen bleiben.",
@@ -11027,7 +11027,7 @@ export const B2_Vocabulary = [
     family: "erhalten",
   },
   {
-    id: 6799,
+    id: 5627,
     word: "etwas betonen",
     translation: "to emphasize something",
     definition: "Besonders hervorheben.",
@@ -11041,7 +11041,7 @@ export const B2_Vocabulary = [
     family: "betonen",
   },
   {
-    id: 6800,
+    id: 5628,
     word: "Kontakte knüpfen",
     translation: "to make contacts, to network",
     definition: "Neue Bekanntschaften oder Geschäftsverbindungen herstellen.",
@@ -11056,7 +11056,7 @@ export const B2_Vocabulary = [
     family: "knüpfen",
   },
   {
-    id: 6801,
+    id: 5629,
     word: "diszipliniert + disziplinlos",
     translation: "disciplined + undisciplined",
     definition: "Diszipliniert handelnd im Gegensatz zu undiszipliniert.",
@@ -11068,7 +11068,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6803,
+    id: 5630,
     word: "tolerant + intolerant",
     translation: "tolerant + intolerant",
     definition:
@@ -11083,7 +11083,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6804,
+    id: 5631,
     word: "kämpferisch",
     translation: "combative, militant, fighting",
     definition: "Bereit, für seine Ziele zu kämpfen.",
@@ -11095,7 +11095,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6805,
+    id: 5632,
     word: "kollegial + unkollegial",
     translation: "collegial, cooperative + uncooperative",
     definition: "Hilfsbereit gegenüber Kollegen im Gegensatz zu unfair.",
@@ -11108,7 +11108,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6807,
+    id: 5633,
     word: "selbstständig + unselbstständig",
     translation: "independent + dependent / unindependent",
     definition: "Ohne fremde Hilfe arbeitend im Gegensatz zu unselbstständig.",
@@ -11122,7 +11122,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6808,
+    id: 5634,
     word: "temperamentvoll",
     translation: "temperamental, spirited",
     definition: "Voller Energie und Emotionen.",
@@ -11136,7 +11136,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6809,
+    id: 5635,
     word: "verantwortungsbewusst + verantwortungslos",
     translation: "responsible + irresponsible",
     definition:
@@ -11150,7 +11150,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6810,
+    id: 5636,
     word: "zgh",
     translation: "tough, resilient",
     definition:
@@ -11164,7 +11164,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6811,
+    id: 5637,
     word: "zielstrebig + ziellos",
     translation: "goal-oriented, ambitious + aimless",
     definition: "Klar auf ein Ziel ausgerichtet im Gegensatz zu ohne Plan.",
@@ -11178,7 +11178,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6812,
+    id: 5638,
     word: "stellvertretend (für + A.)",
     translation: "representative, on behalf of",
     definition: "Anstelle von anderen oder als Repräsentant.",
@@ -11193,7 +11193,7 @@ export const B2_Vocabulary = [
     family: "stellen",
   },
   {
-    id: 6813,
+    id: 5639,
     word: "etwas versäumen",
     translation: "to miss something, to neglect",
     definition: "Etwas verpassen oder versäumen.",
@@ -11206,7 +11206,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6814,
+    id: 5640,
     word: "die Zelle, -n (Gefängnis)",
     translation: "cell (prison)",
     definition: "Ein kleiner Haftraum in einem Gefängnis.",
@@ -11218,7 +11218,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6817,
+    id: 5641,
     word: "erwerbstätig",
     translation: "gainfully employed",
     definition: "Einer regulären Arbeit nachgehend.",
@@ -11233,7 +11233,7 @@ export const B2_Vocabulary = [
     family: "erwerben",
   },
   {
-    id: 6818,
+    id: 5642,
     word: "das Jahreseinkommen, -",
     translation: "annual income, yearly salary",
     definition: "Das gesamte Einkommen innerhalb eines Jahres.",
@@ -11246,7 +11246,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6819,
+    id: 5643,
     word: "versteuern",
     translation: "to pay tax on, to tax",
     definition: "Steuern für ein Einkommen oder eine Ware zahlen.",
@@ -11258,7 +11258,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6820,
+    id: 5644,
     word: "übersteigen",
     translation: "to exceed",
     definition: "Höher sein als ein bestimmter Betrag oder Wert.",
@@ -11270,7 +11270,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6821,
+    id: 5645,
     word: "das Anerkennungsverfahren, -",
     translation: "recognition procedure, validation process",
     definition: "Das Verfahren zur Anerkennung ausländischer Abschlüsse.",
@@ -11285,7 +11285,7 @@ export const B2_Vocabulary = [
     family: "erkennen",
   },
   {
-    id: 6822,
+    id: 5646,
     word: "entsprechen",
     translation: "to correspond to, to meet",
     definition: "Den Anforderungen oder Erwartungen entsprechen.",
@@ -11299,7 +11299,7 @@ export const B2_Vocabulary = [
     family: "entsprechen",
   },
   {
-    id: 6823,
+    id: 5647,
     word: "Unterstützung erhalten",
     translation: "to receive support",
     definition: "Hilfe oder Förderung bekommen.",
@@ -11314,7 +11314,7 @@ export const B2_Vocabulary = [
     family: "erhalten",
   },
   {
-    id: 6824,
+    id: 5648,
     word: "promovieren",
     translation: "to get a doctorate, to do a Ph.D.",
     definition: "Den Doktorgrad erwerben.",
@@ -11328,7 +11328,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6825,
+    id: 5649,
     word: "forschen",
     translation: "to research",
     definition: "Wissenschaftliche Untersuchungen durchführen.",
@@ -11342,7 +11342,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
     {
-      id: 6827,
+      id: 5650,
       word: "sich beschweren (bei + D. / über + A.)",
       translation: "to complain",
       definition: "Seinen Unmut über etwas oder jemanden äußern.",
@@ -11357,7 +11357,7 @@ export const B2_Vocabulary = [
       family: "beschweren",
     },
     {
-      id: 6829,
+      id: 5651,
       word: "das Profil, -e",
       translation: "profile",
       definition:
@@ -11370,7 +11370,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6830,
+      id: 5652,
       word: "der Steckbrief, -e",
       translation: "profile, wanted poster",
       definition: "Eine kurze Beschreibung von Merkmalen oder einer Person.",
@@ -11385,7 +11385,7 @@ export const B2_Vocabulary = [
       family: "stecken",
     },
     {
-      id: 6835,
+      id: 5653,
       word: "sehenswert",
       translation: "worth seeing",
       definition: "Es wert, betrachtet oder besucht zu werden.",
@@ -11399,7 +11399,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6836,
+      id: 5654,
       word: "unternehmungslustig",
       translation: "enterprising, adventurous",
       definition: "Bereit und begierig, etwas zu unternehmen.",
@@ -11413,7 +11413,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6837,
+      id: 5655,
       word: "sich bewerben (um + A., bei + D.)",
       translation: "to apply for",
       definition:
@@ -11428,7 +11428,7 @@ export const B2_Vocabulary = [
       family: "bewerben",
     },
     {
-      id: 6838,
+      id: 5656,
       word: "unkonzentriert",
       translation: "unconcentrated, distracted",
       definition: "Nicht in der Lage, sich auf eine Sache zu fokussieren.",
@@ -11441,7 +11441,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6839,
+      id: 5657,
       word: "zurückhaltend",
       translation: "reserved, reticent",
       definition: "Vorsichtig und nicht aufdringlich im Verhalten.",
@@ -11453,7 +11453,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6840,
+      id: 5658,
       word: "die Charaktereigenschaft, -en",
       translation: "character trait",
       definition: "Ein typisches Merkmal des persönlichen Charakters.",
@@ -11465,7 +11465,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6841,
+      id: 5659,
       word: "gegenseitig",
       translation: "mutual, each other",
       definition: "Wechselseitig aufeinander bezogen.",
@@ -11478,7 +11478,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6850,
+      id: 5660,
       word: "organisiert",
       translation: "organized",
       definition: "Strukturiert und gut geplant vorgehend.",
@@ -11491,7 +11491,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6852,
+      id: 5661,
       word: "die Veränderung, -en",
       translation: "change, alteration",
       definition: "Die Umgestaltung oder das Anderswerden von etwas.",
@@ -11505,7 +11505,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6853,
+      id: 5662,
       word: "die Agentur, -en",
       translation: "agency",
       definition: "Ein Dienstleistungsunternehmen oder eine Vertretung.",
@@ -11518,7 +11518,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6855,
+      id: 5663,
       word: "die Einarbeitung, -en",
       translation: "training period, familiarization",
       definition:
@@ -11534,7 +11534,7 @@ export const B2_Vocabulary = [
       family: "arbeiten",
     },
     {
-      id: 6856,
+      id: 5664,
       word: "das Aufgabengebiet, -e",
       translation: "field of responsibility, duties",
       definition: "Der Bereich von Aufgaben, für die man zuständig ist.",
@@ -11548,7 +11548,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6858,
+      id: 5665,
       word: "erledigt sein",
       translation: "to be finished, to be exhausted",
       definition: "Abgeschlossen sein oder erschöpft sein.",
@@ -11561,7 +11561,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6860,
+      id: 5666,
       word: "seitdem",
       translation: "since then",
       definition: "Ab dem Zeitpunkt in der Vergangenheit bis jetzt.",
@@ -11575,7 +11575,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6862,
+      id: 5667,
       word: "die Zusage, -n",
       translation: "acceptance, confirmation",
       definition: "Die positive Rückmeldung auf einen Antrag oder ein Angebot.",
@@ -11589,7 +11589,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6863,
+      id: 5668,
       word: "unbefristet",
       translation: "open-ended, permanent",
       definition: "Ohne zeitliche Begrenzung (z.B. ein Arbeitsvertrag).",
@@ -11603,7 +11603,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6865,
+      id: 5669,
       word: "die Anfrage, -n",
       translation: "inquiry, request",
       definition: "Eine Frage nach bestimmten Informationen oder Angeboten.",
@@ -11616,7 +11616,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6871,
+      id: 5670,
       word: "die Entspannung, -en",
       translation: "relaxation",
       definition: "Der Zustand der Erholung und Ruhe.",
@@ -11630,7 +11630,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6873,
+      id: 5671,
       word: "die Leidenschaft, -en",
       translation: "passion",
       definition: "Eine starke Begeisterung für etwas.",
@@ -11643,7 +11643,7 @@ export const B2_Vocabulary = [
       family: "die Leidenschaft",
     },
     {
-      id: 6877,
+      id: 5672,
       word: "etwas dabeizuhaben",
       translation: "to have something with oneself",
       definition: "Etwas bei sich tragen.",
@@ -11655,7 +11655,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6878,
+      id: 5673,
       word: "etwas von jemandem übernehmen",
       translation: "to take over something from someone",
       definition: "Eine Aufgabe oder Sache von jemand anderem weiterführen.",
@@ -11670,7 +11670,7 @@ export const B2_Vocabulary = [
       family: "nehmen",
     },
     {
-      id: 6879,
+      id: 5674,
       word: "sich begeistern (für + A.)",
       translation: "to be enthusiastic about",
       definition: "Großes Interesse und Freude für etwas zeigen.",
@@ -11684,7 +11684,7 @@ export const B2_Vocabulary = [
       family: "begeistern",
     },
     {
-      id: 6880,
+      id: 5675,
       word: "auf etwas kommen",
       translation: "to come up with something, to figure out",
       definition: "Eine Idee haben oder einen Gedanken finden.",
@@ -11698,7 +11698,7 @@ export const B2_Vocabulary = [
       family: "kommen",
     },
     {
-      id: 6883,
+      id: 5676,
       word: "das Naturschutzgebiet, -e",
       translation: "nature reserve",
       definition: "Ein unter Schutz gestelltes Naturgebiet.",
@@ -11712,7 +11712,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6884,
+      id: 5677,
       word: "die Geschäftsbedingungen (Pl.)",
       translation: "terms and conditions",
       definition: "Rechtliche Bedingungen für geschäftliche Transaktionen.",
@@ -11727,7 +11727,7 @@ export const B2_Vocabulary = [
       family: "die Geschäftsbedingungen",
     },
     {
-      id: 6887,
+      id: 5678,
       word: "die Aufstiegsmöglichkeit, -en",
       translation: "opportunity for advancement",
       definition: "Die Chance, beruflich aufzusteigen.",
@@ -11741,7 +11741,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6894,
+      id: 5679,
       word: "sich auskennen (mit + D.)",
       translation: "to be familiar with, to know one's way around",
       definition: "Gute Kenntnisse über etwas haben.",
@@ -11754,7 +11754,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6896,
+      id: 5680,
       word: "die Sprachkenntnis, -se",
       translation: "language skill",
       definition: "Die Fähigkeit, eine Sprache zu sprechen und zu verstehen.",
@@ -11767,7 +11767,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6898,
+      id: 5681,
       word: "sich informieren (bei + D. / über + A.)",
       translation: "to inform oneself",
       definition: "Informationen zu einem Thema einholen.",
@@ -11780,7 +11780,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6901,
+      id: 5682,
       word: "passend",
       translation: "suitable, matching",
       definition: "Genau richtig für einen bestimmten Zweck.",
@@ -11794,7 +11794,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6906,
+      id: 5683,
       word: "geschickt sein",
       translation: "to be skillful",
       definition: "Garant für gewandtes und kluges Handeln.",
@@ -11808,7 +11808,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6920,
+      id: 5684,
       word: "das Fremdwort, -er",
       translation: "foreign word",
       definition: "Ein aus einer anderen Sprache übernommenes Wort.",
@@ -11822,7 +11822,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6923,
+      id: 5685,
       word: "die Branche, -n",
       translation: "industry, sector",
       definition: "Ein bestimmter Wirtschaftszweig.",
@@ -11836,7 +11836,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6925,
+      id: 5686,
       word: "die Dienstleistung, -en",
       translation: "service",
       definition: "Eine immaterielle wirtschaftliche Leistung.",
@@ -11851,7 +11851,7 @@ export const B2_Vocabulary = [
       family: "leisten",
     },
     {
-      id: 6927,
+      id: 5687,
       word: "anspruchsvoll",
       translation: "demanding, sophisticated",
       definition: "Hohe Anforderungen stellend.",
@@ -11863,7 +11863,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6929,
+      id: 5688,
       word: "die Karrierechance, -n",
       translation: "career opportunity",
       definition: "Die Möglichkeit, beruflich voranzukommen.",
@@ -11876,7 +11876,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6930,
+      id: 5689,
       word: "sich fortbilden",
       translation: "to undergo further training",
       definition: "Sich beruflich weiterbilden.",
@@ -11891,7 +11891,7 @@ export const B2_Vocabulary = [
       family: "fortbilden",
     },
     {
-      id: 6932,
+      id: 5690,
       word: "riskant",
       translation: "risky",
       definition: "Mit einem Risiko verbunden.",
@@ -11903,7 +11903,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6933,
+      id: 5691,
       word: "der Ablauf, -e",
       translation: "sequence, course of events",
       definition: "Die chronologische Reihenfolge eines Vorgangs.",
@@ -11916,7 +11916,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6935,
+      id: 5692,
       word: "das Auftragsbuch, -er",
       translation: "order book",
       definition: "Ein Verzeichnis aller vorliegenden Aufträge.",
@@ -11929,7 +11929,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6938,
+      id: 5693,
       word: "kürzen",
       translation: "to shorten, to cut",
       definition: "Die Länge oder den Betrag verringern.",
@@ -11941,7 +11941,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6940,
+      id: 5694,
       word: "die Vereinbarung, -en",
       translation: "agreement",
       definition: "Ein getroffenes Abkommen.",
@@ -11955,7 +11955,7 @@ export const B2_Vocabulary = [
       family: "vereinbaren",
     },
     {
-      id: 6943,
+      id: 5695,
       word: "vorbeikommen",
       translation: "to drop by, to come over",
       definition: "Kurz einen Ort besuchen.",
@@ -11969,7 +11969,7 @@ export const B2_Vocabulary = [
       family: "kommen",
     },
     {
-      id: 6951,
+      id: 5696,
       word: "die Priorität, -en",
       translation: "priority",
       definition: "Die Wichtigkeit einer Sache im Vergleich zu anderen.",
@@ -11983,7 +11983,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6953,
+      id: 5697,
       word: "die Nachbestellung, -en",
       translation: "reorder",
       definition: "Eine erneute Bestellung von Waren.",
@@ -11997,7 +11997,7 @@ export const B2_Vocabulary = [
       family: "stellen",
     },
     {
-      id: 6954,
+      id: 5698,
       word: "nachbestellen",
       translation: "to reorder",
       definition: "Waren noch einmal bestellen.",
@@ -12011,7 +12011,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6958,
+      id: 5699,
       word: "das Missverständnis, -se",
       translation: "misunderstanding",
       definition: "Eine Fehlinterpretation einer Aussage oder Situation.",
@@ -12025,7 +12025,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6959,
+      id: 5700,
       word: "die Beschwerde, -n",
       translation: "complaint",
       definition: "Eine offizielle Rüge oder Unmutsäußerung.",
@@ -12040,7 +12040,7 @@ export const B2_Vocabulary = [
       family: "beschweren",
     },
     {
-      id: 6961,
+      id: 5701,
       word: "(eine Arbeit) ausführen",
       translation: "to carry out (work)",
       definition: "Eine berufliche Tätigkeit verrichten.",
@@ -12053,7 +12053,7 @@ export const B2_Vocabulary = [
       family: "ausführen",
     },
     {
-      id: 6965,
+      id: 5702,
       word: "innovativ",
       translation: "innovative",
       definition: "Neuartig und fortschrittlich.",
@@ -12067,7 +12067,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6968,
+      id: 5703,
       word: "die Gemeinsamkeit, -en",
       translation: "commonality",
       definition: "Etwas, das von mehreren geteilt wird.",
@@ -12081,7 +12081,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6971,
+      id: 5704,
       word: "die Zusage, -en",
       translation: "commitment, approval",
       definition: "Eine positive Zusage für eine Sache.",
@@ -12095,7 +12095,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
     {
-      id: 6972,
+      id: 5705,
       word: "verpflichtet sein (zu + D.)",
       translation: "to be obliged to",
       definition: "Etwas tun müssen aufgrund von Regeln.",
@@ -12109,7 +12109,7 @@ export const B2_Vocabulary = [
       level: "B2",
     },
   {
-    id: 6973,
+    id: 5706,
     word: "abbrechen",
     translation: "to break off, abort",
     definition: "Etwas vorzeitig beenden.",
@@ -12121,7 +12121,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6974,
+    id: 5707,
     word: "abgrenzen (sich)",
     translation: "to distinguish, set apart",
     definition: "Eine Grenze zwischen sich und anderen ziehen.",
@@ -12133,7 +12133,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6975,
+    id: 5708,
     word: "die Abhängigkeit, -en",
     translation: "dependence",
     definition: "Der Zustand, auf jemanden oder etwas angewiesen zu sein.",
@@ -12145,7 +12145,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6976,
+    id: 5709,
     word: "das Abkommen, -",
     translation: "agreement, treaty",
     definition: "Ein offizieller Vertrag zwischen Staaten oder Gruppen.",
@@ -12157,7 +12157,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6977,
+    id: 5710,
     word: "ableiten",
     translation: "to derive, deduce",
     definition: "Etwas aus etwas anderem folgern.",
@@ -12169,7 +12169,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6978,
+    id: 5711,
     word: "ablenken",
     translation: "to distract",
     definition: "Die Aufmerksamkeit von etwas weglenken.",
@@ -12181,7 +12181,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6979,
+    id: 5712,
     word: "ablösen",
     translation: "to replace, relieve",
     definition: "An die Stelle von jemandem treten.",
@@ -12193,7 +12193,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6980,
+    id: 5713,
     word: "abschätzen",
     translation: "to estimate, assess",
     definition: "Etwas ungefähr beurteilen.",
@@ -12205,7 +12205,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6981,
+    id: 5714,
     word: "die Absicherung, -en",
     translation: "safeguard, protection",
     definition: "Der Schutz vor Risiken.",
@@ -12217,7 +12217,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6982,
+    id: 5715,
     word: "die Abstimmung, -en",
     translation: "vote; coordination",
     definition: "Eine Wahl durch Stimmen; das Aufeinander-Abstimmen.",
@@ -12229,7 +12229,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6983,
+    id: 5716,
     word: "abweichen",
     translation: "to deviate, differ",
     definition: "Von einer Regel oder Norm verschieden sein.",
@@ -12242,7 +12242,7 @@ export const B2_Vocabulary = [
     family: "abweichen",
   },
   {
-    id: 6984,
+    id: 5717,
     word: "die Abweichung, -en",
     translation: "deviation",
     definition: "Der Unterschied zu einem Standard.",
@@ -12255,7 +12255,7 @@ export const B2_Vocabulary = [
     family: "abweichen",
   },
   {
-    id: 6985,
+    id: 5718,
     word: "die Abwesenheit, -en",
     translation: "absence",
     definition: "Das Nicht-Anwesend-Sein.",
@@ -12267,7 +12267,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6986,
+    id: 5719,
     word: "akademisch",
     translation: "academic",
     definition: "Die Universität oder Wissenschaft betreffend.",
@@ -12279,7 +12279,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6987,
+    id: 5720,
     word: "aktivieren",
     translation: "to activate",
     definition: "Etwas einschalten oder in Gang setzen.",
@@ -12291,7 +12291,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6988,
+    id: 5721,
     word: "die Akzeptanz",
     translation: "acceptance",
     definition: "Die Bereitschaft, etwas anzunehmen.",
@@ -12303,7 +12303,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6989,
+    id: 5722,
     word: "allmählich",
     translation: "gradually",
     definition: "Langsam, Schritt für Schritt.",
@@ -12315,7 +12315,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6990,
+    id: 5723,
     word: "allzu",
     translation: "all too",
     definition: "Viel zu, übertrieben.",
@@ -12327,7 +12327,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6991,
+    id: 5724,
     word: "amüsant",
     translation: "amusing",
     definition: "Unterhaltsam und lustig.",
@@ -12339,7 +12339,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6992,
+    id: 5725,
     word: "die Analyse, -n",
     translation: "analysis",
     definition: "Die genaue Untersuchung einer Sache.",
@@ -12351,7 +12351,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6993,
+    id: 5726,
     word: "analytisch",
     translation: "analytical",
     definition: "Logisch zerlegend und untersuchend.",
@@ -12363,7 +12363,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6994,
+    id: 5727,
     word: "anfordern",
     translation: "to request",
     definition: "Etwas offiziell verlangen.",
@@ -12376,7 +12376,7 @@ export const B2_Vocabulary = [
     family: "anfordern",
   },
   {
-    id: 6995,
+    id: 5728,
     word: "angeblich",
     translation: "allegedly",
     definition: "Wie behauptet wird, aber nicht bewiesen.",
@@ -12388,7 +12388,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6996,
+    id: 5729,
     word: "angemessen",
     translation: "appropriate",
     definition: "Passend in Art oder Höhe.",
@@ -12400,7 +12400,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6997,
+    id: 5730,
     word: "angesichts",
     translation: "in view of",
     definition: "Wenn man etwas bedenkt.",
@@ -12412,7 +12412,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6998,
+    id: 5731,
     word: "die Angewohnheit, -en",
     translation: "habit",
     definition: "Etwas, das man regelmäßig tut.",
@@ -12424,7 +12424,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 6999,
+    id: 5732,
     word: "anhaltend",
     translation: "persistent",
     definition: "Über lange Zeit andauernd.",
@@ -12436,7 +12436,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7000,
+    id: 5733,
     word: "anhand",
     translation: "on the basis of",
     definition: "Mithilfe von etwas.",
@@ -12448,7 +12448,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7001,
+    id: 5734,
     word: "anhängen",
     translation: "to attach, append",
     definition: "Etwas an etwas befestigen oder dazufügen.",
@@ -12461,7 +12461,7 @@ export const B2_Vocabulary = [
     family: "anhängen",
   },
   {
-    id: 7002,
+    id: 5735,
     word: "das Anliegen, -",
     translation: "request, concern",
     definition: "Eine Bitte oder ein wichtiges Thema.",
@@ -12473,7 +12473,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7003,
+    id: 5736,
     word: "annähern (sich)",
     translation: "to approach, get closer",
     definition: "Näher an etwas herankommen.",
@@ -12486,7 +12486,7 @@ export const B2_Vocabulary = [
     family: "annähern",
   },
   {
-    id: 7004,
+    id: 5737,
     word: "annähernd",
     translation: "approximately",
     definition: "Ungefähr, fast.",
@@ -12499,7 +12499,7 @@ export const B2_Vocabulary = [
     family: "annähern",
   },
   {
-    id: 7005,
+    id: 5738,
     word: "anordnen",
     translation: "to arrange; to order",
     definition: "Etwas ordnen; etwas befehlen.",
@@ -12511,7 +12511,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7006,
+    id: 5739,
     word: "die Anpassung, -en",
     translation: "adjustment, adaptation",
     definition: "Die Veränderung an neue Bedingungen.",
@@ -12524,7 +12524,7 @@ export const B2_Vocabulary = [
     family: "die Anpassung",
   },
   {
-    id: 7007,
+    id: 5740,
     word: "anregend",
     translation: "stimulating",
     definition: "Interessant und belebend.",
@@ -12537,7 +12537,7 @@ export const B2_Vocabulary = [
     family: "anregen",
   },
   {
-    id: 7008,
+    id: 5741,
     word: "der Anreiz, -e",
     translation: "incentive",
     definition: "Etwas, das zum Handeln motiviert.",
@@ -12549,7 +12549,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7009,
+    id: 5742,
     word: "der Ansatz, Ansätze",
     translation: "approach, starting point",
     definition: "Eine Idee, mit der man ein Problem angeht.",
@@ -12561,7 +12561,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7010,
+    id: 5743,
     word: "anschaulich",
     translation: "vivid, clear",
     definition: "So erklärt, dass man es sich gut vorstellen kann.",
@@ -12573,7 +12573,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7011,
+    id: 5744,
     word: "die Ansicht, -en",
     translation: "opinion; view",
     definition: "Die eigene Meinung; ein Anblick.",
@@ -12585,7 +12585,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7012,
+    id: 5745,
     word: "ansonsten",
     translation: "otherwise, apart from that",
     definition: "Im Übrigen; sonst.",
@@ -12597,7 +12597,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7013,
+    id: 5746,
     word: "die Ansprache, -n",
     translation: "speech, address",
     definition: "Eine kurze Rede.",
@@ -12609,7 +12609,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7014,
+    id: 5747,
     word: "anstelle",
     translation: "instead of",
     definition: "An der Stelle von.",
@@ -12621,7 +12621,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7015,
+    id: 5748,
     word: "anstreben",
     translation: "to strive for",
     definition: "Ein Ziel erreichen wollen.",
@@ -12633,7 +12633,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7016,
+    id: 5749,
     word: "anweisen",
     translation: "to instruct, direct",
     definition: "Jemandem sagen, was er tun soll.",
@@ -12646,7 +12646,7 @@ export const B2_Vocabulary = [
     family: "anweisen",
   },
   {
-    id: 7017,
+    id: 5750,
     word: "der Applaus",
     translation: "applause",
     definition: "Das Klatschen des Publikums.",
@@ -12658,7 +12658,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7018,
+    id: 5751,
     word: "die Armut",
     translation: "poverty",
     definition: "Der Zustand, sehr wenig Geld zu haben.",
@@ -12671,7 +12671,7 @@ export const B2_Vocabulary = [
     family: "die Armut",
   },
   {
-    id: 7019,
+    id: 5752,
     word: "die Arroganz",
     translation: "arrogance",
     definition: "Ein überheblicher Charakter.",
@@ -12683,7 +12683,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7020,
+    id: 5753,
     word: "die Atmung",
     translation: "breathing",
     definition: "Das Ein- und Ausatmen.",
@@ -12695,7 +12695,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7021,
+    id: 5754,
     word: "auffällig",
     translation: "striking, conspicuous",
     definition: "So, dass es sofort bemerkt wird.",
@@ -12707,7 +12707,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7022,
+    id: 5755,
     word: "aufgreifen",
     translation: "to take up (an idea)",
     definition: "Ein Thema oder eine Idee weiterverfolgen.",
@@ -12720,7 +12720,7 @@ export const B2_Vocabulary = [
     family: "greifen",
   },
   {
-    id: 7023,
+    id: 5756,
     word: "die Aufregung",
     translation: "excitement, commotion",
     definition: "Ein Zustand von Unruhe.",
@@ -12732,7 +12732,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7024,
+    id: 5757,
     word: "aufrichtig",
     translation: "sincere",
     definition: "Ehrlich und ohne Falschheit.",
@@ -12744,7 +12744,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7025,
+    id: 5758,
     word: "das Aufsehen",
     translation: "stir, sensation",
     definition: "Große öffentliche Aufmerksamkeit.",
@@ -12756,7 +12756,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7026,
+    id: 5759,
     word: "der Auftraggeber, - / die Auftraggeberin, -nen",
     translation: "client",
     definition: "Eine Person, die einen Auftrag gibt.",
@@ -12768,7 +12768,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7027,
+    id: 5760,
     word: "aufweisen",
     translation: "to show, exhibit",
     definition: "Eigenschaften oder Merkmale haben.",
@@ -12780,7 +12780,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7028,
+    id: 5761,
     word: "aufwendig",
     translation: "elaborate, costly",
     definition: "Mit viel Aufwand verbunden.",
@@ -12792,7 +12792,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7029,
+    id: 5762,
     word: "aufzeigen",
     translation: "to point out, demonstrate",
     definition: "Etwas deutlich machen.",
@@ -12805,7 +12805,7 @@ export const B2_Vocabulary = [
     family: "zeigen",
   },
   {
-    id: 7030,
+    id: 5763,
     word: "die Auseinandersetzung, -en",
     translation: "debate, dispute",
     definition:
@@ -12818,7 +12818,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7031,
+    id: 5764,
     word: "ausführlich",
     translation: "detailed",
     definition: "Mit vielen Einzelheiten.",
@@ -12831,7 +12831,7 @@ export const B2_Vocabulary = [
     family: "ausführen",
   },
   {
-    id: 7032,
+    id: 5765,
     word: "die Ausführung, -en",
     translation: "execution; version",
     definition: "Das Durchführen; eine bestimmte Art von Produkt.",
@@ -12844,7 +12844,7 @@ export const B2_Vocabulary = [
     family: "ausführen",
   },
   {
-    id: 7033,
+    id: 5766,
     word: "der Ausgangspunkt, -e",
     translation: "starting point",
     definition: "Der Ort oder Punkt, von dem etwas beginnt.",
@@ -12856,7 +12856,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7034,
+    id: 5767,
     word: "ausgeprägt",
     translation: "pronounced, marked",
     definition: "Deutlich entwickelt.",
@@ -12868,7 +12868,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7035,
+    id: 5768,
     word: "ausgewogen",
     translation: "balanced",
     definition: "In gutem Verhältnis zueinander.",
@@ -12880,7 +12880,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7036,
+    id: 5769,
     word: "der Ausgleich, -e",
     translation: "balance, compensation",
     definition: "Das Herstellen eines Gleichgewichts.",
@@ -12893,7 +12893,7 @@ export const B2_Vocabulary = [
     family: "ausgleichen",
   },
   {
-    id: 7037,
+    id: 5770,
     word: "aushalten",
     translation: "to endure, bear",
     definition: "Etwas Unangenehmes ertragen.",
@@ -12905,7 +12905,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7038,
+    id: 5771,
     word: "auslassen",
     translation: "to omit, skip",
     definition: "Etwas nicht berücksichtigen.",
@@ -12917,7 +12917,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7039,
+    id: 5772,
     word: "ausliefern",
     translation: "to deliver; to extradite",
     definition: "Waren zum Kunden bringen.",
@@ -12929,7 +12929,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7040,
+    id: 5773,
     word: "auslösen",
     translation: "to trigger, cause",
     definition: "Etwas in Gang setzen.",
@@ -12942,7 +12942,7 @@ export const B2_Vocabulary = [
     family: "auslösen",
   },
   {
-    id: 7041,
+    id: 5774,
     word: "der Auslöser, -",
     translation: "trigger",
     definition: "Der Grund, der etwas startet.",
@@ -12955,7 +12955,7 @@ export const B2_Vocabulary = [
     family: "auslösen",
   },
   {
-    id: 7042,
+    id: 5775,
     word: "das Ausmaß, -e",
     translation: "extent, scale",
     definition: "Die Größe oder Stärke von etwas.",
@@ -12967,7 +12967,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7043,
+    id: 5776,
     word: "ausnahmsweise",
     translation: "exceptionally, just this once",
     definition: "Nur dieses eine Mal.",
@@ -12979,7 +12979,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7044,
+    id: 5777,
     word: "die Ausrichtung, -en",
     translation: "orientation, alignment",
     definition: "Die Richtung oder das Ziel von etwas.",
@@ -12992,7 +12992,7 @@ export const B2_Vocabulary = [
     family: "richten",
   },
   {
-    id: 7045,
+    id: 5778,
     word: "der Ausschuss, Ausschüsse",
     translation: "committee",
     definition: "Eine Gruppe, die ein Thema bearbeitet.",
@@ -13004,7 +13004,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7046,
+    id: 5779,
     word: "ausschöpfen",
     translation: "to exhaust, make full use of",
     definition: "Etwas ganz nutzen.",
@@ -13016,7 +13016,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7047,
+    id: 5780,
     word: "ausweiten",
     translation: "to expand",
     definition: "Etwas größer machen.",
@@ -13028,7 +13028,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7048,
+    id: 5781,
     word: "auswerten",
     translation: "to evaluate",
     definition: "Daten oder Ergebnisse untersuchen.",
@@ -13040,7 +13040,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7049,
+    id: 5782,
     word: "auswirken (sich)",
     translation: "to affect, have an impact",
     definition: "Eine Wirkung haben.",
@@ -13053,7 +13053,7 @@ export const B2_Vocabulary = [
     family: "auswirken",
   },
   {
-    id: 7050,
+    id: 5783,
     word: "auszeichnen",
     translation: "to award, distinguish",
     definition: "Jemandem einen Preis geben; hervorheben.",
@@ -13065,7 +13065,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7051,
+    id: 5784,
     word: "ausüben",
     translation: "to practise, exercise",
     definition: "Einen Beruf oder eine Tätigkeit haben.",
@@ -13077,7 +13077,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7052,
+    id: 5785,
     word: "authentisch",
     translation: "authentic",
     definition: "Echt und glaubwürdig.",
@@ -13089,7 +13089,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7053,
+    id: 5786,
     word: "die Autonomie, -n",
     translation: "autonomy",
     definition: "Die Fähigkeit, selbst zu entscheiden.",
@@ -13101,7 +13101,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7054,
+    id: 5787,
     word: "die Autorität, -en",
     translation: "authority",
     definition: "Die Macht oder der Einfluss einer Person.",
@@ -13113,7 +13113,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7055,
+    id: 5788,
     word: "außergewöhnlich",
     translation: "extraordinary",
     definition: "Nicht normal, besonders.",
@@ -13125,7 +13125,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7056,
+    id: 5789,
     word: "beachtlich",
     translation: "considerable",
     definition: "Ziemlich groß und bemerkenswert.",
@@ -13137,7 +13137,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7057,
+    id: 5790,
     word: "bedenken",
     translation: "to consider, bear in mind",
     definition: "Etwas genau überlegen.",
@@ -13149,7 +13149,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7058,
+    id: 5791,
     word: "bedeutend",
     translation: "significant",
     definition: "Wichtig und groß.",
@@ -13161,7 +13161,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7059,
+    id: 5792,
     word: "bedeutsam",
     translation: "significant",
     definition: "Von großer Bedeutung.",
@@ -13173,7 +13173,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7060,
+    id: 5793,
     word: "bedingt",
     translation: "limited, conditional",
     definition: "Nur unter Bedingungen oder teilweise.",
@@ -13185,7 +13185,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7061,
+    id: 5794,
     word: "die Bedrohung, -en",
     translation: "threat",
     definition: "Eine Gefahr für jemanden oder etwas.",
@@ -13197,7 +13197,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7062,
+    id: 5795,
     word: "beeinträchtigen",
     translation: "to impair, affect",
     definition: "Etwas schlechter machen.",
@@ -13210,7 +13210,7 @@ export const B2_Vocabulary = [
     family: "beeinträchtigen",
   },
   {
-    id: 7063,
+    id: 5796,
     word: "die Beeinträchtigung, -en",
     translation: "impairment",
     definition: "Eine Einschränkung oder Verschlechterung.",
@@ -13223,7 +13223,7 @@ export const B2_Vocabulary = [
     family: "beeinträchtigen",
   },
   {
-    id: 7064,
+    id: 5797,
     word: "befassen (sich)",
     translation: "to deal with",
     definition: "Sich mit einem Thema beschäftigen.",
@@ -13235,7 +13235,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7065,
+    id: 5798,
     word: "befürworten",
     translation: "to support, favour",
     definition: "Für etwas sein.",
@@ -13247,7 +13247,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7066,
+    id: 5799,
     word: "die Begegnung, -en",
     translation: "encounter, meeting",
     definition: "Ein zufälliges oder geplantes Treffen.",
@@ -13260,7 +13260,7 @@ export const B2_Vocabulary = [
     family: "begegnen",
   },
   {
-    id: 7067,
+    id: 5800,
     word: "begründet",
     translation: "justified",
     definition: "Mit einem Grund versehen.",
@@ -13272,7 +13272,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7068,
+    id: 5801,
     word: "begünstigen",
     translation: "to favour, benefit",
     definition: "Jemandem oder etwas Vorteile geben.",
@@ -13284,7 +13284,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7069,
+    id: 5802,
     word: "beharren (auf)",
     translation: "to insist (on)",
     definition: "Auf etwas bestehen.",
@@ -13296,7 +13296,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7070,
+    id: 5803,
     word: "beinhalten",
     translation: "to include, contain",
     definition: "Etwas als Teil haben.",
@@ -13308,7 +13308,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7071,
+    id: 5804,
     word: "beispielsweise",
     translation: "for example",
     definition: "Zum Beispiel.",
@@ -13320,7 +13320,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7072,
+    id: 5805,
     word: "bekanntlich",
     translation: "as is well known",
     definition: "Wie allgemein bekannt ist.",
@@ -13332,7 +13332,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7073,
+    id: 5806,
     word: "bekräftigen",
     translation: "to reaffirm",
     definition: "Etwas noch einmal deutlich bestätigen.",
@@ -13344,7 +13344,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7074,
+    id: 5807,
     word: "bekämpfen",
     translation: "to combat, fight",
     definition: "Gegen etwas kämpfen.",
@@ -13356,7 +13356,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7075,
+    id: 5808,
     word: "belegen",
     translation: "to prove; to book",
     definition: "Etwas mit Beweisen zeigen; einen Kurs wählen.",
@@ -13369,7 +13369,7 @@ export const B2_Vocabulary = [
     family: "legen",
   },
   {
-    id: 7076,
+    id: 5809,
     word: "beleuchten",
     translation: "to illuminate; to examine",
     definition: "Mit Licht hell machen; ein Thema genau ansehen.",
@@ -13381,7 +13381,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7077,
+    id: 5810,
     word: "bemerkenswert",
     translation: "remarkable",
     definition: "Wert, beachtet zu werden.",
@@ -13393,7 +13393,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7078,
+    id: 5811,
     word: "die Bemühung, -en",
     translation: "effort",
     definition: "Der Versuch, etwas zu erreichen.",
@@ -13405,7 +13405,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7079,
+    id: 5812,
     word: "der Beobachter, - / die Beobachterin, -nen",
     translation: "observer",
     definition: "Eine Person, die etwas beobachtet.",
@@ -13417,7 +13417,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7080,
+    id: 5813,
     word: "berechtigt",
     translation: "entitled; justified",
     definition: "Mit dem Recht, etwas zu tun.",
@@ -13429,7 +13429,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7081,
+    id: 5814,
     word: "bereitstellen",
     translation: "to provide, make available",
     definition: "Etwas zur Verfügung stellen.",
@@ -13441,7 +13441,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7082,
+    id: 5815,
     word: "die Berücksichtigung",
     translation: "consideration",
     definition: "Das Beachten von etwas.",
@@ -13454,7 +13454,7 @@ export const B2_Vocabulary = [
     family: "berücksichtigen",
   },
   {
-    id: 7083,
+    id: 5816,
     word: "beschleunigen",
     translation: "to accelerate, speed up",
     definition: "Etwas schneller machen.",
@@ -13467,7 +13467,7 @@ export const B2_Vocabulary = [
     family: "beschleunigen",
   },
   {
-    id: 7084,
+    id: 5817,
     word: "die Beschränkung, -en",
     translation: "restriction",
     definition: "Eine Einschränkung.",
@@ -13479,7 +13479,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7085,
+    id: 5818,
     word: "beschuldigen",
     translation: "to accuse",
     definition: "Jemandem die Schuld geben.",
@@ -13491,7 +13491,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7086,
+    id: 5819,
     word: "die Beschwerden (Pl.)",
     translation: "complaints, ailments",
     definition: "Körperliche Probleme oder Klagen.",
@@ -13504,7 +13504,7 @@ export const B2_Vocabulary = [
     family: "beschweren",
   },
   {
-    id: 7087,
+    id: 5820,
     word: "der Bestandteil, -e",
     translation: "component, part",
     definition: "Ein Teil eines Ganzen.",
@@ -13516,7 +13516,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7088,
+    id: 5821,
     word: "die Bestimmung, -en",
     translation: "regulation; purpose",
     definition: "Eine Vorschrift; ein Zweck.",
@@ -13529,7 +13529,7 @@ export const B2_Vocabulary = [
     family: "bestimmen",
   },
   {
-    id: 7089,
+    id: 5822,
     word: "bestreiten",
     translation: "to deny, dispute",
     definition: "Sagen, dass etwas nicht stimmt.",
@@ -13541,7 +13541,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7090,
+    id: 5823,
     word: "beständig",
     translation: "constant, stable",
     definition: "Gleichbleibend und dauerhaft.",
@@ -13553,7 +13553,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7091,
+    id: 5824,
     word: "die Beteiligung, -en",
     translation: "participation",
     definition: "Das Mitmachen bei etwas.",
@@ -13565,7 +13565,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7092,
+    id: 5825,
     word: "betonen",
     translation: "to emphasise",
     definition: "Etwas besonders hervorheben.",
@@ -13578,7 +13578,7 @@ export const B2_Vocabulary = [
     family: "betonen",
   },
   {
-    id: 7093,
+    id: 5826,
     word: "betragen",
     translation: "to amount to",
     definition: "Eine bestimmte Summe ergeben.",
@@ -13590,7 +13590,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7094,
+    id: 5827,
     word: "betreffen",
     translation: "to concern, affect",
     definition: "Jemanden oder etwas angehen.",
@@ -13603,7 +13603,7 @@ export const B2_Vocabulary = [
     family: "treffen",
   },
   {
-    id: 7095,
+    id: 5828,
     word: "betroffen",
     translation: "affected; moved",
     definition: "Von etwas berührt oder getroffen.",
@@ -13615,7 +13615,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7096,
+    id: 5829,
     word: "beträchtlich",
     translation: "considerable",
     definition: "Ziemlich groß.",
@@ -13627,7 +13627,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7097,
+    id: 5830,
     word: "beunruhigen",
     translation: "to worry, disturb",
     definition: "Jemandem Sorgen machen.",
@@ -13639,7 +13639,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7098,
+    id: 5831,
     word: "beurteilen",
     translation: "to judge, assess",
     definition: "Etwas einschätzen und bewerten.",
@@ -13652,7 +13652,7 @@ export const B2_Vocabulary = [
     family: "beurteilen",
   },
   {
-    id: 7099,
+    id: 5832,
     word: "die Beurteilung, -en",
     translation: "assessment",
     definition: "Die Bewertung von etwas.",
@@ -13665,7 +13665,7 @@ export const B2_Vocabulary = [
     family: "beurteilen",
   },
   {
-    id: 7100,
+    id: 5833,
     word: "bevorzugen",
     translation: "to prefer",
     definition: "Etwas lieber mögen.",
@@ -13677,7 +13677,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7101,
+    id: 5834,
     word: "bewahren",
     translation: "to preserve, keep",
     definition: "Etwas schützen und behalten.",
@@ -13690,7 +13690,7 @@ export const B2_Vocabulary = [
     family: "bewahren",
   },
   {
-    id: 7102,
+    id: 5835,
     word: "bewirken",
     translation: "to bring about, cause",
     definition: "Eine Wirkung haben.",
@@ -13702,7 +13702,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7103,
+    id: 5836,
     word: "das Bewusstsein",
     translation: "awareness, consciousness",
     definition: "Das Wissen um etwas.",
@@ -13715,7 +13715,7 @@ export const B2_Vocabulary = [
     family: "bewusst",
   },
   {
-    id: 7104,
+    id: 5837,
     word: "bewältigen",
     translation: "to cope with, manage",
     definition: "Eine schwierige Aufgabe schaffen.",
@@ -13728,7 +13728,7 @@ export const B2_Vocabulary = [
     family: "bewältigen",
   },
   {
-    id: 7105,
+    id: 5838,
     word: "die Bewältigung",
     translation: "coping, mastering",
     definition: "Das Schaffen einer schweren Aufgabe.",
@@ -13741,7 +13741,7 @@ export const B2_Vocabulary = [
     family: "bewältigen",
   },
   {
-    id: 7106,
+    id: 5839,
     word: "bezeichnend",
     translation: "characteristic, telling",
     definition: "Typisch für etwas.",
@@ -13753,7 +13753,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7107,
+    id: 5840,
     word: "beziehen",
     translation: "to obtain; to refer; to cover",
     definition: "Waren bekommen; Bett beziehen.",
@@ -13766,7 +13766,7 @@ export const B2_Vocabulary = [
     family: "beziehen",
   },
   {
-    id: 7108,
+    id: 5841,
     word: "bezüglich",
     translation: "regarding",
     definition: "In Bezug auf etwas.",
@@ -13778,7 +13778,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7109,
+    id: 5842,
     word: "die Bilanz, -en",
     translation: "balance sheet; summary",
     definition: "Eine Gegenüberstellung von Einnahmen und Ausgaben; ein Fazit.",
@@ -13791,7 +13791,7 @@ export const B2_Vocabulary = [
     family: "die Bilanz",
   },
   {
-    id: 7110,
+    id: 5843,
     word: "bindend",
     translation: "binding",
     definition: "Verpflichtend und verbindlich.",
@@ -13803,7 +13803,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7111,
+    id: 5844,
     word: "bislang",
     translation: "so far",
     definition: "Bis jetzt.",
@@ -13815,7 +13815,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7112,
+    id: 5845,
     word: "der Blickwinkel, -",
     translation: "point of view",
     definition: "Die Art, wie man etwas betrachtet.",
@@ -13827,7 +13827,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7113,
+    id: 5846,
     word: "brutal",
     translation: "brutal",
     definition: "Sehr hart und gewalttätig.",
@@ -13839,7 +13839,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7114,
+    id: 5847,
     word: "bürokratisch",
     translation: "bureaucratic",
     definition: "Mit vielen Formalitäten verbunden.",
@@ -13851,7 +13851,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7115,
+    id: 5848,
     word: "charakterisieren",
     translation: "to characterise",
     definition: "Die Eigenschaften von etwas beschreiben.",
@@ -13863,7 +13863,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7116,
+    id: 5849,
     word: "charakteristisch",
     translation: "characteristic",
     definition: "Typisch für etwas.",
@@ -13875,7 +13875,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7117,
+    id: 5850,
     word: "der Charakterzug, Charakterzüge",
     translation: "trait",
     definition: "Eine typische Eigenschaft eines Menschen.",
@@ -13887,7 +13887,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7118,
+    id: 5851,
     word: "chronisch",
     translation: "chronic",
     definition: "Lange andauernd, zum Beispiel eine Krankheit.",
@@ -13899,7 +13899,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7119,
+    id: 5852,
     word: "dadurch",
     translation: "thereby, as a result",
     definition: "Auf diese Weise.",
@@ -13911,7 +13911,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7120,
+    id: 5853,
     word: "darlegen",
     translation: "to explain, set out",
     definition: "Etwas ausführlich erklären.",
@@ -13924,7 +13924,7 @@ export const B2_Vocabulary = [
     family: "legen",
   },
   {
-    id: 7121,
+    id: 5854,
     word: "dauerhaft",
     translation: "permanent",
     definition: "Für lange Zeit.",
@@ -13936,7 +13936,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7122,
+    id: 5855,
     word: "die Debatte, -n",
     translation: "debate",
     definition: "Eine Diskussion über ein Thema.",
@@ -13948,7 +13948,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7123,
+    id: 5856,
     word: "die Definition, -en",
     translation: "definition",
     definition: "Die genaue Bedeutung eines Begriffs.",
@@ -13960,7 +13960,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7124,
+    id: 5857,
     word: "definitiv",
     translation: "definitely",
     definition: "Endgültig und sicher.",
@@ -13972,7 +13972,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7125,
+    id: 5858,
     word: "demnächst",
     translation: "soon, shortly",
     definition: "In naher Zukunft.",
@@ -13984,7 +13984,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7126,
+    id: 5859,
     word: "demonstrieren",
     translation: "to demonstrate",
     definition: "Etwas zeigen; öffentlich protestieren.",
@@ -13996,7 +13996,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7127,
+    id: 5860,
     word: "die Denkweise, -n",
     translation: "way of thinking",
     definition: "Die Art, wie jemand denkt.",
@@ -14008,7 +14008,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7128,
+    id: 5861,
     word: "dennoch",
     translation: "nevertheless",
     definition: "Trotzdem.",
@@ -14020,7 +14020,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7129,
+    id: 5862,
     word: "die Differenz, -en",
     translation: "difference",
     definition: "Der Unterschied zwischen zwei Zahlen oder Meinungen.",
@@ -14033,7 +14033,7 @@ export const B2_Vocabulary = [
     family: "die Differenz",
   },
   {
-    id: 7130,
+    id: 5863,
     word: "das Dilemma, -s",
     translation: "dilemma",
     definition: "Eine schwierige Lage mit zwei schlechten Möglichkeiten.",
@@ -14045,7 +14045,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7131,
+    id: 5864,
     word: "die Dimension, -en",
     translation: "dimension",
     definition: "Ein Maß oder Ausmaß.",
@@ -14057,7 +14057,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7132,
+    id: 5865,
     word: "die Disziplin",
     translation: "discipline",
     definition: "Die Fähigkeit, sich an Regeln zu halten.",
@@ -14069,7 +14069,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7133,
+    id: 5866,
     word: "dominieren",
     translation: "to dominate",
     definition: "Die wichtigste Rolle spielen.",
@@ -14081,7 +14081,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7134,
+    id: 5867,
     word: "dramatisch",
     translation: "dramatic",
     definition: "Sehr spannend oder ernst.",
@@ -14093,7 +14093,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7135,
+    id: 5868,
     word: "drastisch",
     translation: "drastic",
     definition: "Sehr stark und deutlich.",
@@ -14105,7 +14105,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7136,
+    id: 5869,
     word: "drängen",
     translation: "to urge, push",
     definition: "Jemanden zur Eile antreiben.",
@@ -14117,7 +14117,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7137,
+    id: 5870,
     word: "durchaus",
     translation: "quite, definitely",
     definition: "Ohne Zweifel, sehr wohl.",
@@ -14129,7 +14129,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7138,
+    id: 5871,
     word: "durchhalten",
     translation: "to persevere, hold out",
     definition: "Trotz Schwierigkeiten weitermachen.",
@@ -14142,7 +14142,7 @@ export const B2_Vocabulary = [
     family: "durchhalten",
   },
   {
-    id: 7139,
+    id: 5872,
     word: "durchsetzen",
     translation: "to enforce; to assert oneself",
     definition: "Ein Ziel gegen Widerstand erreichen.",
@@ -14155,7 +14155,7 @@ export const B2_Vocabulary = [
     family: "durchsetzen",
   },
   {
-    id: 7140,
+    id: 5873,
     word: "die Dynamik",
     translation: "dynamics",
     definition: "Die Kraft und Bewegung einer Entwicklung.",
@@ -14167,7 +14167,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7141,
+    id: 5874,
     word: "effizient",
     translation: "efficient",
     definition: "Mit wenig Aufwand und gutem Ergebnis.",
@@ -14179,7 +14179,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7142,
+    id: 5875,
     word: "der Ehrgeiz",
     translation: "ambition",
     definition: "Der starke Wunsch, etwas zu erreichen.",
@@ -14192,7 +14192,7 @@ export const B2_Vocabulary = [
     family: "der Ehrgeiz",
   },
   {
-    id: 7143,
+    id: 5876,
     word: "ehrgeizig",
     translation: "ambitious",
     definition: "Mit großem Willen zum Erfolg.",
@@ -14205,7 +14205,7 @@ export const B2_Vocabulary = [
     family: "der Ehrgeiz",
   },
   {
-    id: 7144,
+    id: 5877,
     word: "eifersüchtig",
     translation: "jealous",
     definition: "Neidisch auf die Zuneigung anderer.",
@@ -14217,7 +14217,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7145,
+    id: 5878,
     word: "eigenartig",
     translation: "strange, peculiar",
     definition: "Seltsam und ungewöhnlich.",
@@ -14229,7 +14229,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7146,
+    id: 5879,
     word: "einbeziehen",
     translation: "to include, involve",
     definition: "Jemanden oder etwas mit berücksichtigen.",
@@ -14242,7 +14242,7 @@ export const B2_Vocabulary = [
     family: "beziehen",
   },
   {
-    id: 7147,
+    id: 5880,
     word: "der Einblick, -e",
     translation: "insight",
     definition: "Ein kurzer Blick in etwas Inneres.",
@@ -14254,7 +14254,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7148,
+    id: 5881,
     word: "einbringen",
     translation: "to contribute",
     definition: "Etwas zu einer Gruppe beitragen.",
@@ -14267,7 +14267,7 @@ export const B2_Vocabulary = [
     family: "bringen",
   },
   {
-    id: 7149,
+    id: 5882,
     word: "eindringlich",
     translation: "urgent, insistent",
     definition: "Mit großer Intensität gesagt.",
@@ -14279,7 +14279,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7150,
+    id: 5883,
     word: "eingehend",
     translation: "thorough",
     definition: "Sehr genau.",
@@ -14291,7 +14291,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7151,
+    id: 5884,
     word: "eingestehen",
     translation: "to admit",
     definition: "Zugeben, dass etwas stimmt.",
@@ -14303,7 +14303,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7152,
+    id: 5885,
     word: "eingrenzen",
     translation: "to narrow down",
     definition: "Auf einen kleineren Bereich beschränken.",
@@ -14315,7 +14315,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7153,
+    id: 5886,
     word: "einhalten",
     translation: "to keep, comply with",
     definition: "Eine Regel oder einen Termin beachten.",
@@ -14328,7 +14328,7 @@ export const B2_Vocabulary = [
     family: "einhalten",
   },
   {
-    id: 7154,
+    id: 5887,
     word: "einigermaßen",
     translation: "fairly, reasonably",
     definition: "Ziemlich, ganz gut.",
@@ -14340,7 +14340,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7155,
+    id: 5888,
     word: "die Einigung, -en",
     translation: "agreement",
     definition: "Das Erreichen einer gemeinsamen Lösung.",
@@ -14352,7 +14352,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7156,
+    id: 5889,
     word: "einleiten",
     translation: "to initiate, introduce",
     definition: "Etwas beginnen lassen.",
@@ -14364,7 +14364,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7157,
+    id: 5890,
     word: "einleuchtend",
     translation: "plausible",
     definition: "Gut verständlich und logisch.",
@@ -14376,7 +14376,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7158,
+    id: 5891,
     word: "einmischen (sich)",
     translation: "to interfere",
     definition: "Sich in fremde Angelegenheiten einmischen.",
@@ -14388,7 +14388,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7159,
+    id: 5892,
     word: "einordnen",
     translation: "to classify, categorise",
     definition: "Etwas in eine Kategorie bringen.",
@@ -14400,7 +14400,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7160,
+    id: 5893,
     word: "die Einschränkung, -en",
     translation: "restriction",
     definition: "Eine Begrenzung.",
@@ -14413,7 +14413,7 @@ export const B2_Vocabulary = [
     family: "einschränken",
   },
   {
-    id: 7161,
+    id: 5894,
     word: "einschätzen",
     translation: "to assess, estimate",
     definition: "Etwas beurteilen.",
@@ -14426,7 +14426,7 @@ export const B2_Vocabulary = [
     family: "einschätzen",
   },
   {
-    id: 7162,
+    id: 5895,
     word: "einseitig",
     translation: "one-sided",
     definition: "Nur eine Seite betrachtend.",
@@ -14438,7 +14438,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7163,
+    id: 5896,
     word: "der Einwand, Einwände",
     translation: "objection",
     definition: "Ein Argument gegen etwas.",
@@ -14450,7 +14450,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7164,
+    id: 5897,
     word: "empfinden",
     translation: "to feel, perceive",
     definition: "Ein Gefühl haben.",
@@ -14463,7 +14463,7 @@ export const B2_Vocabulary = [
     family: "empfinden",
   },
   {
-    id: 7165,
+    id: 5898,
     word: "empfindlich",
     translation: "sensitive",
     definition: "Schnell verletzt oder gestört.",
@@ -14476,7 +14476,7 @@ export const B2_Vocabulary = [
     family: "empfinden",
   },
   {
-    id: 7166,
+    id: 5899,
     word: "entgegnen",
     translation: "to reply",
     definition: "Auf etwas antworten.",
@@ -14488,7 +14488,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7167,
+    id: 5900,
     word: "entsprechend",
     translation: "corresponding, accordingly",
     definition: "Passend zu etwas.",
@@ -14501,7 +14501,7 @@ export const B2_Vocabulary = [
     family: "entsprechen",
   },
   {
-    id: 7168,
+    id: 5901,
     word: "entwerfen",
     translation: "to design, draft",
     definition: "Etwas planen und zeichnen.",
@@ -14514,7 +14514,7 @@ export const B2_Vocabulary = [
     family: "werfen",
   },
   {
-    id: 7169,
+    id: 5902,
     word: "erarbeiten",
     translation: "to work out, develop",
     definition: "Etwas durch Arbeit entwickeln.",
@@ -14527,7 +14527,7 @@ export const B2_Vocabulary = [
     family: "arbeiten",
   },
   {
-    id: 7170,
+    id: 5903,
     word: "erben",
     translation: "to inherit",
     definition: "Nach dem Tod etwas bekommen.",
@@ -14539,7 +14539,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7171,
+    id: 5904,
     word: "erfreut",
     translation: "pleased",
     definition: "Froh über etwas.",
@@ -14551,7 +14551,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7172,
+    id: 5905,
     word: "die Erfüllung",
     translation: "fulfilment",
     definition: "Das Verwirklichen eines Wunsches.",
@@ -14563,7 +14563,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7173,
+    id: 5906,
     word: "erheblich",
     translation: "considerable",
     definition: "Deutlich und groß.",
@@ -14575,7 +14575,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7174,
+    id: 5907,
     word: "die Erkenntnis, -se",
     translation: "insight, realisation",
     definition: "Eine neue Einsicht.",
@@ -14588,7 +14588,7 @@ export const B2_Vocabulary = [
     family: "erkennen",
   },
   {
-    id: 7175,
+    id: 5908,
     word: "die Erkrankung, -en",
     translation: "illness",
     definition: "Eine Krankheit.",
@@ -14600,7 +14600,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7176,
+    id: 5909,
     word: "die Erleichterung",
     translation: "relief",
     definition: "Das gute Gefühl, wenn eine Sorge weg ist.",
@@ -14612,7 +14612,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7177,
+    id: 5910,
     word: "erläutern",
     translation: "to explain, elaborate",
     definition: "Etwas genau erklären.",
@@ -14624,7 +14624,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7178,
+    id: 5911,
     word: "ermöglichen",
     translation: "to make possible",
     definition: "Etwas möglich machen.",
@@ -14637,7 +14637,7 @@ export const B2_Vocabulary = [
     family: "ermöglichen",
   },
   {
-    id: 7179,
+    id: 5912,
     word: "erschöpfen",
     translation: "to exhaust",
     definition: "Jemanden sehr müde machen.",
@@ -14650,7 +14650,7 @@ export const B2_Vocabulary = [
     family: "erschöpfen",
   },
   {
-    id: 7180,
+    id: 5913,
     word: "die Erschöpfung",
     translation: "exhaustion",
     definition: "Ein Zustand großer Müdigkeit.",
@@ -14663,7 +14663,7 @@ export const B2_Vocabulary = [
     family: "erschöpfen",
   },
   {
-    id: 7181,
+    id: 5914,
     word: "erteilen",
     translation: "to give, grant",
     definition: "Eine Erlaubnis oder Auskunft geben.",
@@ -14675,7 +14675,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7182,
+    id: 5915,
     word: "ertragen",
     translation: "to bear, endure",
     definition: "Etwas Unangenehmes aushalten.",
@@ -14688,7 +14688,7 @@ export const B2_Vocabulary = [
     family: "ertragen",
   },
   {
-    id: 7183,
+    id: 5916,
     word: "erweisen (sich)",
     translation: "to prove (to be)",
     definition: "Sich als etwas zeigen.",
@@ -14700,7 +14700,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7184,
+    id: 5917,
     word: "die Erweiterung, -en",
     translation: "extension, expansion",
     definition: "Das Größermachen von etwas.",
@@ -14712,7 +14712,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7185,
+    id: 5918,
     word: "erwägen",
     translation: "to consider",
     definition: "Etwas ernsthaft überlegen.",
@@ -14724,7 +14724,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7186,
+    id: 5919,
     word: "erwähnen",
     translation: "to mention",
     definition: "Etwas kurz nennen.",
@@ -14736,7 +14736,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7187,
+    id: 5920,
     word: "erzeugen",
     translation: "to produce, generate",
     definition: "Etwas herstellen oder hervorbringen.",
@@ -14748,7 +14748,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7188,
+    id: 5921,
     word: "erzielen",
     translation: "to achieve",
     definition: "Ein Ergebnis erreichen.",
@@ -14761,7 +14761,7 @@ export const B2_Vocabulary = [
     family: "erzielen",
   },
   {
-    id: 7189,
+    id: 5922,
     word: "eskalieren",
     translation: "to escalate",
     definition: "Sich stark verschlimmern.",
@@ -14773,7 +14773,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7190,
+    id: 5923,
     word: "exakt",
     translation: "exact",
     definition: "Ganz genau.",
@@ -14785,7 +14785,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7191,
+    id: 5924,
     word: "die Fairness",
     translation: "fairness",
     definition: "Gerechtes Verhalten.",
@@ -14797,7 +14797,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7192,
+    id: 5925,
     word: "fehlerhaft",
     translation: "faulty",
     definition: "Mit Fehlern.",
@@ -14809,7 +14809,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7193,
+    id: 5926,
     word: "die Formulierung, -en",
     translation: "wording",
     definition: "Die Art, wie etwas gesagt wird.",
@@ -14821,7 +14821,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7194,
+    id: 5927,
     word: "fundiert",
     translation: "well-founded",
     definition: "Auf gutem Wissen gestützt.",
@@ -14833,7 +14833,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7195,
+    id: 5928,
     word: "fähig",
     translation: "capable",
     definition: "Mit der Fähigkeit, etwas zu tun.",
@@ -14845,7 +14845,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7196,
+    id: 5929,
     word: "gefährden",
     translation: "to endanger",
     definition: "In Gefahr bringen.",
@@ -14857,7 +14857,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7197,
+    id: 5930,
     word: "gelegentlich",
     translation: "occasionally",
     definition: "Manchmal, ab und zu.",
@@ -14869,7 +14869,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7198,
+    id: 5931,
     word: "gemäß",
     translation: "according to",
     definition: "Entsprechend etwas.",
@@ -14881,7 +14881,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7199,
+    id: 5932,
     word: "die Genehmigung, -en",
     translation: "permit, approval",
     definition: "Die offizielle Erlaubnis.",
@@ -14894,7 +14894,7 @@ export const B2_Vocabulary = [
     family: "genehmigen",
   },
   {
-    id: 7200,
+    id: 5933,
     word: "generell",
     translation: "generally",
     definition: "Im Allgemeinen.",
@@ -14906,7 +14906,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7201,
+    id: 5934,
     word: "die Gerechtigkeit",
     translation: "justice",
     definition: "Das Richtige und Faire.",
@@ -14918,7 +14918,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7202,
+    id: 5935,
     word: "geringfügig",
     translation: "minor, slight",
     definition: "Nur ein bisschen.",
@@ -14930,7 +14930,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7203,
+    id: 5936,
     word: "gesellschaftlich",
     translation: "social, societal",
     definition: "Die Gesellschaft betreffend.",
@@ -14942,7 +14942,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7204,
+    id: 5937,
     word: "gesetzlich",
     translation: "legal, statutory",
     definition: "Vom Gesetz bestimmt.",
@@ -14954,7 +14954,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7205,
+    id: 5938,
     word: "gestalten",
     translation: "to shape, design",
     definition: "Etwas formen oder planen.",
@@ -14967,7 +14967,7 @@ export const B2_Vocabulary = [
     family: "gestalten",
   },
   {
-    id: 7206,
+    id: 5939,
     word: "die Gestaltung",
     translation: "design, layout",
     definition: "Die Art, wie etwas geformt ist.",
@@ -14980,7 +14980,7 @@ export const B2_Vocabulary = [
     family: "gestalten",
   },
   {
-    id: 7207,
+    id: 5940,
     word: "gewissermaßen",
     translation: "so to speak",
     definition: "In gewisser Weise.",
@@ -14992,7 +14992,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7208,
+    id: 5941,
     word: "gewährleisten",
     translation: "to guarantee, ensure",
     definition: "Sicherstellen, dass etwas gilt.",
@@ -15004,7 +15004,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7209,
+    id: 5942,
     word: "glaubwürdig",
     translation: "credible",
     definition: "Man kann es glauben.",
@@ -15016,7 +15016,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7210,
+    id: 5943,
     word: "die Gleichberechtigung",
     translation: "equal rights",
     definition: "Gleiche Rechte für alle.",
@@ -15028,7 +15028,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7211,
+    id: 5944,
     word: "gleichermaßen",
     translation: "equally",
     definition: "In gleicher Weise.",
@@ -15040,7 +15040,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7212,
+    id: 5945,
     word: "die Globalisierung",
     translation: "globalisation",
     definition: "Die weltweite Verflechtung von Wirtschaft und Kultur.",
@@ -15052,7 +15052,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7213,
+    id: 5946,
     word: "glücklicherweise",
     translation: "fortunately",
     definition: "Zum Glück.",
@@ -15064,7 +15064,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7214,
+    id: 5947,
     word: "gravierend",
     translation: "serious, grave",
     definition: "Sehr ernst und bedeutend.",
@@ -15076,7 +15076,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7215,
+    id: 5948,
     word: "grundsätzlich",
     translation: "fundamental, in principle",
     definition: "Im Prinzip und immer.",
@@ -15088,7 +15088,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7216,
+    id: 5949,
     word: "die Haltung, -en",
     translation: "attitude; posture",
     definition: "Die innere Einstellung; die Körperhaltung.",
@@ -15101,7 +15101,7 @@ export const B2_Vocabulary = [
     family: "die Haltung",
   },
   {
-    id: 7217,
+    id: 5950,
     word: "hartnäckig",
     translation: "persistent, stubborn",
     definition: "Mit großer Ausdauer.",
@@ -15113,7 +15113,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7218,
+    id: 5951,
     word: "herausfordern",
     translation: "to challenge",
     definition: "Jemanden zu etwas auffordern; schwierig sein.",
@@ -15126,7 +15126,7 @@ export const B2_Vocabulary = [
     family: "herausfordern",
   },
   {
-    id: 7219,
+    id: 5952,
     word: "herausstellen (sich)",
     translation: "to turn out",
     definition: "Sich später als etwas zeigen.",
@@ -15139,7 +15139,7 @@ export const B2_Vocabulary = [
     family: "stellen",
   },
   {
-    id: 7220,
+    id: 5953,
     word: "hervorheben",
     translation: "to emphasise, highlight",
     definition: "Etwas besonders betonen.",
@@ -15151,7 +15151,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7221,
+    id: 5954,
     word: "hervorrufen",
     translation: "to cause, provoke",
     definition: "Etwas entstehen lassen.",
@@ -15163,7 +15163,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7222,
+    id: 5955,
     word: "hierbei",
     translation: "in doing so",
     definition: "Dabei.",
@@ -15175,7 +15175,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7223,
+    id: 5956,
     word: "hinsichtlich",
     translation: "with regard to",
     definition: "In Bezug auf.",
@@ -15187,7 +15187,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7224,
+    id: 5957,
     word: "hingegen",
     translation: "on the other hand",
     definition: "Im Gegensatz dazu.",
@@ -15199,7 +15199,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7225,
+    id: 5958,
     word: "die Hürde, -n",
     translation: "hurdle",
     definition: "Ein Hindernis.",
@@ -15211,7 +15211,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7226,
+    id: 5959,
     word: "immerhin",
     translation: "at least, after all",
     definition: "Zumindest, wenigstens.",
@@ -15223,7 +15223,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7227,
+    id: 5960,
     word: "der Impuls, -e",
     translation: "impulse",
     definition: "Ein plötzlicher Antrieb.",
@@ -15235,7 +15235,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7228,
+    id: 5961,
     word: "die Initiative, -n",
     translation: "initiative",
     definition: "Der erste Schritt, etwas zu tun.",
@@ -15247,7 +15247,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7229,
+    id: 5962,
     word: "insbesondere",
     translation: "in particular",
     definition: "Vor allem.",
@@ -15259,7 +15259,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7230,
+    id: 5963,
     word: "insofern",
     translation: "in that respect",
     definition: "In dieser Hinsicht.",
@@ -15271,7 +15271,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7231,
+    id: 5964,
     word: "intensivieren",
     translation: "to intensify",
     definition: "Etwas stärker machen.",
@@ -15283,7 +15283,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7232,
+    id: 5965,
     word: "die Intention, -en",
     translation: "intention",
     definition: "Die Absicht hinter etwas.",
@@ -15295,7 +15295,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7233,
+    id: 5966,
     word: "die Interpretation, -en",
     translation: "interpretation",
     definition: "Die Deutung eines Textes oder Ereignisses.",
@@ -15307,7 +15307,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7234,
+    id: 5967,
     word: "interpretieren",
     translation: "to interpret",
     definition: "Etwas deuten.",
@@ -15319,7 +15319,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7235,
+    id: 5968,
     word: "investieren",
     translation: "to invest",
     definition: "Geld oder Zeit in etwas stecken.",
@@ -15332,7 +15332,7 @@ export const B2_Vocabulary = [
     family: "investieren",
   },
   {
-    id: 7236,
+    id: 5969,
     word: "die Investition, -en",
     translation: "investment",
     definition: "Das Anlegen von Geld oder Zeit.",
@@ -15344,7 +15344,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7237,
+    id: 5970,
     word: "ironisch",
     translation: "ironic",
     definition: "Mit einem Gegenteil des Gemeinten.",
@@ -15356,7 +15356,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7238,
+    id: 5971,
     word: "irreführend",
     translation: "misleading",
     definition: "Einen falschen Eindruck gebend.",
@@ -15368,7 +15368,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7239,
+    id: 5972,
     word: "irrelevant",
     translation: "irrelevant",
     definition: "Ohne Bedeutung.",
@@ -15380,7 +15380,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7240,
+    id: 5973,
     word: "jedoch",
     translation: "however",
     definition: "Aber, dagegen.",
@@ -15392,7 +15392,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7241,
+    id: 5974,
     word: "kennzeichnen",
     translation: "to mark, characterise",
     definition: "Mit einem Zeichen versehen; prägen.",
@@ -15404,7 +15404,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7242,
+    id: 5975,
     word: "das Klischee, -s",
     translation: "cliché",
     definition: "Ein bekanntes, oft falsches Bild.",
@@ -15416,7 +15416,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7243,
+    id: 5976,
     word: "die Klärung, -en",
     translation: "clarification",
     definition: "Das Beseitigen von Unklarheit.",
@@ -15428,7 +15428,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7244,
+    id: 5977,
     word: "das Kriterium, Kriterien",
     translation: "criterion",
     definition: "Ein Merkmal für eine Entscheidung.",
@@ -15440,7 +15440,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7245,
+    id: 5978,
     word: "die Konfrontation, -en",
     translation: "confrontation",
     definition: "Das direkte Gegenübertreten bei einem Konflikt.",
@@ -15452,7 +15452,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7246,
+    id: 5979,
     word: "konkret",
     translation: "concrete, specific",
     definition: "Genau und greifbar.",
@@ -15464,7 +15464,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7247,
+    id: 5980,
     word: "der Konsens",
     translation: "consensus",
     definition: "Eine gemeinsame Meinung aller.",
@@ -15476,7 +15476,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7248,
+    id: 5981,
     word: "konsequent",
     translation: "consistent",
     definition: "Immer gleich und folgerichtig handelnd.",
@@ -15488,7 +15488,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7249,
+    id: 5982,
     word: "konstruktiv",
     translation: "constructive",
     definition: "Hilfreich und aufbauend.",
@@ -15500,7 +15500,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7250,
+    id: 5983,
     word: "der Kontext, -e",
     translation: "context",
     definition: "Der Zusammenhang, in dem etwas steht.",
@@ -15512,7 +15512,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7251,
+    id: 5984,
     word: "kontinuierlich",
     translation: "continuous",
     definition: "Ohne Unterbrechung.",
@@ -15524,7 +15524,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7252,
+    id: 5985,
     word: "konventionell",
     translation: "conventional",
     definition: "Üblich und traditionell.",
@@ -15536,7 +15536,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7253,
+    id: 5986,
     word: "die Konzentration",
     translation: "concentration",
     definition: "Die volle Aufmerksamkeit auf etwas.",
@@ -15548,7 +15548,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7254,
+    id: 5987,
     word: "koordinieren",
     translation: "to coordinate",
     definition: "Aufgaben aufeinander abstimmen.",
@@ -15560,7 +15560,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7255,
+    id: 5988,
     word: "die Korruption",
     translation: "corruption",
     definition: "Das Annehmen unerlaubter Vorteile.",
@@ -15572,7 +15572,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7256,
+    id: 5989,
     word: "künftig",
     translation: "future, in future",
     definition: "Zukünftig.",
@@ -15584,7 +15584,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7257,
+    id: 5990,
     word: "lediglich",
     translation: "merely, only",
     definition: "Nur.",
@@ -15596,7 +15596,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7258,
+    id: 5991,
     word: "legitim",
     translation: "legitimate",
     definition: "Rechtlich und moralisch in Ordnung.",
@@ -15608,7 +15608,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7259,
+    id: 5992,
     word: "lehren",
     translation: "to teach",
     definition: "Anderen Wissen beibringen.",
@@ -15620,7 +15620,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7260,
+    id: 5993,
     word: "leidenschaftlich",
     translation: "passionate",
     definition: "Mit großer Begeisterung.",
@@ -15633,7 +15633,7 @@ export const B2_Vocabulary = [
     family: "die Leidenschaft",
   },
   {
-    id: 7261,
+    id: 5994,
     word: "letztendlich",
     translation: "ultimately",
     definition: "Am Ende.",
@@ -15645,7 +15645,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7262,
+    id: 5995,
     word: "letztlich",
     translation: "ultimately",
     definition: "Zum Schluss.",
@@ -15657,7 +15657,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7263,
+    id: 5996,
     word: "lindern",
     translation: "to relieve, ease",
     definition: "Schmerzen oder Not weniger machen.",
@@ -15669,7 +15669,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7264,
+    id: 5997,
     word: "logisch",
     translation: "logical",
     definition: "Folgerichtig und vernünftig.",
@@ -15681,7 +15681,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7265,
+    id: 5998,
     word: "loyal",
     translation: "loyal",
     definition: "Treu und zuverlässig.",
@@ -15693,7 +15693,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7266,
+    id: 5999,
     word: "maßgeblich",
     translation: "decisive, significant",
     definition: "Von großem Einfluss.",
@@ -15705,7 +15705,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7267,
+    id: 6000,
     word: "der Maßstab, Maßstäbe",
     translation: "standard, scale",
     definition: "Ein Wert zum Vergleichen.",
@@ -15717,7 +15717,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7268,
+    id: 6001,
     word: "der Mechanismus, Mechanismen",
     translation: "mechanism",
     definition: "Die Funktionsweise von etwas.",
@@ -15729,7 +15729,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7269,
+    id: 6002,
     word: "meiden",
     translation: "to avoid",
     definition: "Etwas absichtlich nicht tun oder nicht treffen.",
@@ -15741,7 +15741,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7270,
+    id: 6003,
     word: "das Merkmal, -e",
     translation: "feature, characteristic",
     definition: "Eine typische Eigenschaft.",
@@ -15753,7 +15753,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7271,
+    id: 6004,
     word: "die Methodik",
     translation: "methodology",
     definition: "Die Art und Weise des Vorgehens.",
@@ -15765,7 +15765,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7272,
+    id: 6005,
     word: "minimieren",
     translation: "to minimise",
     definition: "Etwas so klein wie möglich machen.",
@@ -15777,7 +15777,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7273,
+    id: 6006,
     word: "der Misserfolg, -e",
     translation: "failure",
     definition: "Das Nichterreichen eines Ziels.",
@@ -15789,7 +15789,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7274,
+    id: 6007,
     word: "das Misstrauen",
     translation: "distrust",
     definition: "Fehlendes Vertrauen.",
@@ -15801,7 +15801,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7275,
+    id: 6008,
     word: "misstrauisch",
     translation: "suspicious",
     definition: "Ohne Vertrauen.",
@@ -15813,7 +15813,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7276,
+    id: 6009,
     word: "mithalten",
     translation: "to keep up",
     definition: "Mit anderen Schritt halten.",
@@ -15825,7 +15825,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7277,
+    id: 6010,
     word: "mittelfristig",
     translation: "medium-term",
     definition: "Für einen Zeitraum von einigen Jahren.",
@@ -15837,7 +15837,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7278,
+    id: 6011,
     word: "moderat",
     translation: "moderate",
     definition: "Nicht extrem.",
@@ -15849,7 +15849,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7279,
+    id: 6012,
     word: "moralisch",
     translation: "moral",
     definition: "Die Moral betreffend.",
@@ -15861,7 +15861,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7280,
+    id: 6013,
     word: "motivieren",
     translation: "to motivate",
     definition: "Jemanden zum Handeln anregen.",
@@ -15874,7 +15874,7 @@ export const B2_Vocabulary = [
     family: "das Motiv",
   },
   {
-    id: 7281,
+    id: 6014,
     word: "das Muster, -",
     translation: "pattern; sample",
     definition: "Eine regelmäßige Form; ein Beispiel.",
@@ -15886,7 +15886,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7282,
+    id: 6015,
     word: "mündig",
     translation: "of age, responsible",
     definition: "Fähig, selbst zu entscheiden.",
@@ -15898,7 +15898,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7283,
+    id: 6016,
     word: "nachdenklich",
     translation: "thoughtful, pensive",
     definition: "In Gedanken versunken.",
@@ -15910,7 +15910,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7284,
+    id: 6017,
     word: "der Nachdruck",
     translation: "emphasis",
     definition: "Besondere Betonung.",
@@ -15922,7 +15922,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7285,
+    id: 6018,
     word: "nachlässig",
     translation: "careless",
     definition: "Ohne Sorgfalt.",
@@ -15934,7 +15934,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7286,
+    id: 6019,
     word: "nachvollziehen",
     translation: "to understand, follow",
     definition: "Etwas verstehen können.",
@@ -15947,7 +15947,7 @@ export const B2_Vocabulary = [
     family: "nachvollziehen",
   },
   {
-    id: 7287,
+    id: 6020,
     word: "nachweisbar",
     translation: "provable, demonstrable",
     definition: "Es lässt sich beweisen.",
@@ -15960,7 +15960,7 @@ export const B2_Vocabulary = [
     family: "nachweisen",
   },
   {
-    id: 7288,
+    id: 6021,
     word: "nahelegen",
     translation: "to suggest, recommend",
     definition: "Etwas als Vorschlag nennen.",
@@ -15972,7 +15972,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7289,
+    id: 6022,
     word: "nahezu",
     translation: "almost",
     definition: "Fast.",
@@ -15984,7 +15984,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7290,
+    id: 6023,
     word: "nebensächlich",
     translation: "minor, secondary",
     definition: "Unwichtig.",
@@ -15996,7 +15996,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7291,
+    id: 6024,
     word: "neigen (zu)",
     translation: "to tend (to)",
     definition: "Eine Tendenz zu etwas haben.",
@@ -16009,7 +16009,7 @@ export const B2_Vocabulary = [
     family: "neigen",
   },
   {
-    id: 7292,
+    id: 6025,
     word: "die Neigung, -en",
     translation: "inclination, tendency",
     definition: "Eine Vorliebe oder Tendenz.",
@@ -16022,7 +16022,7 @@ export const B2_Vocabulary = [
     family: "neigen",
   },
   {
-    id: 7293,
+    id: 6026,
     word: "nennenswert",
     translation: "notable, appreciable",
     definition: "Wert, genannt zu werden.",
@@ -16034,7 +16034,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7294,
+    id: 6027,
     word: "neuerdings",
     translation: "recently, lately",
     definition: "Seit kurzer Zeit.",
@@ -16046,7 +16046,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7295,
+    id: 6028,
     word: "die Neutralität",
     translation: "neutrality",
     definition: "Die Haltung, nicht Partei zu ergreifen.",
@@ -16059,7 +16059,7 @@ export const B2_Vocabulary = [
     family: "neutral",
   },
   {
-    id: 7296,
+    id: 6029,
     word: "die Norm, -en",
     translation: "norm, standard",
     definition: "Eine allgemeine Regel.",
@@ -16071,7 +16071,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7297,
+    id: 6030,
     word: "die Notwendigkeit, -en",
     translation: "necessity",
     definition: "Etwas, das nötig ist.",
@@ -16083,7 +16083,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7298,
+    id: 6031,
     word: "nüchtern",
     translation: "sober; matter-of-fact",
     definition: "Ohne Alkohol; sachlich.",
@@ -16095,7 +16095,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7299,
+    id: 6032,
     word: "oberflächlich",
     translation: "superficial",
     definition: "Nicht tief oder gründlich.",
@@ -16107,7 +16107,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7300,
+    id: 6033,
     word: "offenkundig",
     translation: "obvious",
     definition: "Klar sichtbar.",
@@ -16119,7 +16119,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7301,
+    id: 6034,
     word: "ohnehin",
     translation: "anyway, in any case",
     definition: "Sowieso.",
@@ -16131,7 +16131,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7302,
+    id: 6035,
     word: "orientieren (sich)",
     translation: "to orient oneself",
     definition: "Die eigene Position bestimmen.",
@@ -16144,7 +16144,7 @@ export const B2_Vocabulary = [
     family: "orientieren",
   },
   {
-    id: 7303,
+    id: 6036,
     word: "die Perspektive, -n",
     translation: "perspective",
     definition: "Ein Blickwinkel; eine Aussicht für die Zukunft.",
@@ -16156,7 +16156,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7304,
+    id: 6037,
     word: "die Persönlichkeit, -en",
     translation: "personality",
     definition: "Der Charakter eines Menschen.",
@@ -16168,7 +16168,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7305,
+    id: 6038,
     word: "die Phase, -n",
     translation: "phase",
     definition: "Ein Abschnitt in einer Entwicklung.",
@@ -16181,7 +16181,7 @@ export const B2_Vocabulary = [
     family: "die Phase",
   },
   {
-    id: 7306,
+    id: 6039,
     word: "die Position, -en",
     translation: "position",
     definition: "Eine Stelle oder Stellung.",
@@ -16193,7 +16193,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7307,
+    id: 6040,
     word: "die Problematik",
     translation: "problem, issues",
     definition: "Die Probleme rund um ein Thema.",
@@ -16205,7 +16205,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7308,
+    id: 6041,
     word: "die Produktivität",
     translation: "productivity",
     definition: "Die Leistung pro Zeit oder Aufwand.",
@@ -16217,7 +16217,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7309,
+    id: 6042,
     word: "prägen",
     translation: "to shape, coin",
     definition: "Stark beeinflussen.",
@@ -16230,7 +16230,7 @@ export const B2_Vocabulary = [
     family: "prägen",
   },
   {
-    id: 7310,
+    id: 6043,
     word: "prägnant",
     translation: "concise",
     definition: "Kurz und treffend.",
@@ -16243,7 +16243,7 @@ export const B2_Vocabulary = [
     family: "prägen",
   },
   {
-    id: 7311,
+    id: 6044,
     word: "quasi",
     translation: "virtually, as it were",
     definition: "Gewissermaßen.",
@@ -16255,7 +16255,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7312,
+    id: 6045,
     word: "radikal",
     translation: "radical",
     definition: "Sehr extrem und grundlegend.",
@@ -16267,7 +16267,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7313,
+    id: 6046,
     word: "rasch",
     translation: "quick",
     definition: "Schnell.",
@@ -16279,7 +16279,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7314,
+    id: 6047,
     word: "rational",
     translation: "rational",
     definition: "Vernünftig und logisch.",
@@ -16291,7 +16291,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7315,
+    id: 6048,
     word: "die Rechenschaft",
     translation: "account",
     definition: "Die Erklärung des eigenen Handelns.",
@@ -16303,7 +16303,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7316,
+    id: 6049,
     word: "reflektieren",
     translation: "to reflect",
     definition: "Über etwas gründlich nachdenken.",
@@ -16315,7 +16315,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7317,
+    id: 6050,
     word: "die Regelung, -en",
     translation: "regulation, arrangement",
     definition: "Eine Vereinbarung oder Vorschrift.",
@@ -16327,7 +16327,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7318,
+    id: 6051,
     word: "regulieren",
     translation: "to regulate",
     definition: "Etwas lenken oder kontrollieren.",
@@ -16339,7 +16339,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7319,
+    id: 6052,
     word: "die Reichweite",
     translation: "range, reach",
     definition: "Die Entfernung, die etwas erreicht.",
@@ -16351,7 +16351,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7320,
+    id: 6053,
     word: "relevant",
     translation: "relevant",
     definition: "Wichtig für eine Sache.",
@@ -16363,7 +16363,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7321,
+    id: 6054,
     word: "die Relevanz",
     translation: "relevance",
     definition: "Die Bedeutung für eine Sache.",
@@ -16375,7 +16375,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7322,
+    id: 6055,
     word: "die Referenz, -en",
     translation: "reference",
     definition: "Eine Empfehlung oder ein Verweis.",
@@ -16387,7 +16387,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7323,
+    id: 6056,
     word: "respektieren",
     translation: "to respect",
     definition: "Jemanden oder etwas achten.",
@@ -16399,7 +16399,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7324,
+    id: 6057,
     word: "revidieren",
     translation: "to revise",
     definition: "Etwas ändern und neu bewerten.",
@@ -16411,7 +16411,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7325,
+    id: 6058,
     word: "die Richtlinie, -n",
     translation: "guideline",
     definition: "Eine Vorgabe für das Handeln.",
@@ -16424,7 +16424,7 @@ export const B2_Vocabulary = [
     family: "richten",
   },
   {
-    id: 7326,
+    id: 6059,
     word: "riskieren",
     translation: "to risk",
     definition: "Etwas aufs Spiel setzen.",
@@ -16436,7 +16436,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7327,
+    id: 6060,
     word: "der Rückgang, Rückgänge",
     translation: "decline",
     definition: "Das Weniger-Werden.",
@@ -16448,7 +16448,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7328,
+    id: 6061,
     word: "rücksichtslos",
     translation: "inconsiderate",
     definition: "Ohne Rücksicht auf andere.",
@@ -16460,7 +16460,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7329,
+    id: 6062,
     word: "rücksichtsvoll",
     translation: "considerate",
     definition: "Mit Rücksicht auf andere.",
@@ -16472,7 +16472,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7330,
+    id: 6063,
     word: "der Sachverhalt, -e",
     translation: "facts of the matter",
     definition: "Die tatsächlichen Umstände.",
@@ -16485,7 +16485,7 @@ export const B2_Vocabulary = [
     family: "erhalten",
   },
   {
-    id: 7331,
+    id: 6064,
     word: "die Scham",
     translation: "shame",
     definition: "Ein unangenehmes Gefühl wegen eigener Fehler.",
@@ -16497,7 +16497,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7332,
+    id: 6065,
     word: "scheinbar",
     translation: "apparently, seemingly",
     definition: "Dem Anschein nach.",
@@ -16509,7 +16509,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7333,
+    id: 6066,
     word: "schildern",
     translation: "to describe, portray",
     definition: "Etwas lebendig erzählen.",
@@ -16522,7 +16522,7 @@ export const B2_Vocabulary = [
     family: "schildern",
   },
   {
-    id: 7334,
+    id: 6067,
     word: "die Schilderung, -en",
     translation: "account, description",
     definition: "Eine ausführliche Beschreibung.",
@@ -16535,7 +16535,7 @@ export const B2_Vocabulary = [
     family: "schildern",
   },
   {
-    id: 7335,
+    id: 6068,
     word: "die Schlussfolgerung, -en",
     translation: "conclusion",
     definition: "Ein Ergebnis aus Gedanken oder Fakten.",
@@ -16547,7 +16547,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7336,
+    id: 6069,
     word: "schlüssig",
     translation: "conclusive, coherent",
     definition: "Logisch und überzeugend.",
@@ -16559,7 +16559,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7337,
+    id: 6070,
     word: "schrittweise",
     translation: "step by step",
     definition: "Nach und nach.",
@@ -16571,7 +16571,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7338,
+    id: 6071,
     word: "die Schwachstelle, -n",
     translation: "weak point",
     definition: "Ein Punkt, an dem etwas schwach ist.",
@@ -16584,7 +16584,7 @@ export const B2_Vocabulary = [
     family: "stellen",
   },
   {
-    id: 7339,
+    id: 6072,
     word: "schwerwiegend",
     translation: "serious, grave",
     definition: "Von großer Bedeutung und Gefahr.",
@@ -16596,7 +16596,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7340,
+    id: 6073,
     word: "das Selbstvertrauen",
     translation: "self-confidence",
     definition: "Der Glaube an sich selbst.",
@@ -16609,7 +16609,7 @@ export const B2_Vocabulary = [
     family: "vertrauen",
   },
   {
-    id: 7341,
+    id: 6074,
     word: "sensibel",
     translation: "sensitive",
     definition: "Fein im Empfinden.",
@@ -16621,7 +16621,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7342,
+    id: 6075,
     word: "sicherstellen",
     translation: "to ensure",
     definition: "Dafür sorgen, dass etwas gilt.",
@@ -16634,7 +16634,7 @@ export const B2_Vocabulary = [
     family: "sich",
   },
   {
-    id: 7343,
+    id: 6076,
     word: "signifikant",
     translation: "significant",
     definition: "Deutlich und wichtig.",
@@ -16646,7 +16646,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7344,
+    id: 6077,
     word: "skeptisch",
     translation: "sceptical",
     definition: "Voller Zweifel.",
@@ -16658,7 +16658,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7345,
+    id: 6078,
     word: "skizzieren",
     translation: "to sketch, outline",
     definition: "Kurz darstellen.",
@@ -16670,7 +16670,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7346,
+    id: 6079,
     word: "sofern",
     translation: "provided that",
     definition: "Unter der Bedingung, dass.",
@@ -16682,7 +16682,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7347,
+    id: 6080,
     word: "somit",
     translation: "thus, therefore",
     definition: "Deshalb, also.",
@@ -16694,7 +16694,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7348,
+    id: 6081,
     word: "sozusagen",
     translation: "so to speak",
     definition: "Gewissermaßen.",
@@ -16706,7 +16706,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7349,
+    id: 6082,
     word: "der Spielraum, Spielräume",
     translation: "leeway",
     definition: "Die Freiheit zu entscheiden.",
@@ -16718,7 +16718,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7350,
+    id: 6083,
     word: "spezifisch",
     translation: "specific",
     definition: "Für etwas Bestimmtes typisch.",
@@ -16730,7 +16730,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7351,
+    id: 6084,
     word: "spürbar",
     translation: "noticeable",
     definition: "Man kann es merken.",
@@ -16742,7 +16742,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7352,
+    id: 6085,
     word: "stabil",
     translation: "stable",
     definition: "Fest und sicher.",
@@ -16755,7 +16755,7 @@ export const B2_Vocabulary = [
     family: "stabil",
   },
   {
-    id: 7353,
+    id: 6086,
     word: "die Stabilität",
     translation: "stability",
     definition: "Der Zustand, fest und sicher zu sein.",
@@ -16768,7 +16768,7 @@ export const B2_Vocabulary = [
     family: "stabil",
   },
   {
-    id: 7354,
+    id: 6087,
     word: "stetig",
     translation: "steady",
     definition: "Gleichmäßig und dauernd.",
@@ -16780,7 +16780,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7355,
+    id: 6088,
     word: "stets",
     translation: "always",
     definition: "Immer.",
@@ -16792,7 +16792,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7356,
+    id: 6089,
     word: "strittig",
     translation: "disputed",
     definition: "Nicht geklärt, umstritten.",
@@ -16804,7 +16804,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7357,
+    id: 6090,
     word: "strukturieren",
     translation: "to structure",
     definition: "In eine Ordnung bringen.",
@@ -16816,7 +16816,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7358,
+    id: 6091,
     word: "subjektiv",
     translation: "subjective",
     definition: "Von der eigenen Meinung abhängig.",
@@ -16828,7 +16828,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7359,
+    id: 6092,
     word: "die Substanz, -en",
     translation: "substance",
     definition: "Der Stoff; der Kern von etwas.",
@@ -16840,7 +16840,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7360,
+    id: 6093,
     word: "das Symptom, -e",
     translation: "symptom",
     definition: "Ein Anzeichen für eine Krankheit.",
@@ -16852,7 +16852,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7361,
+    id: 6094,
     word: "die These, -n",
     translation: "thesis, claim",
     definition: "Eine Behauptung, die man prüft.",
@@ -16864,7 +16864,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7362,
+    id: 6095,
     word: "tolerieren",
     translation: "to tolerate",
     definition: "Etwas dulden.",
@@ -16876,7 +16876,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7363,
+    id: 6096,
     word: "transparent",
     translation: "transparent",
     definition: "Klar und nachvollziehbar.",
@@ -16888,7 +16888,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7364,
+    id: 6097,
     word: "die Transparenz",
     translation: "transparency",
     definition: "Offenheit und Nachvollziehbarkeit.",
@@ -16900,7 +16900,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7365,
+    id: 6098,
     word: "trauern",
     translation: "to mourn",
     definition: "Traurig über einen Verlust sein.",
@@ -16912,7 +16912,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7366,
+    id: 6099,
     word: "treffend",
     translation: "apt, fitting",
     definition: "Genau passend.",
@@ -16925,7 +16925,7 @@ export const B2_Vocabulary = [
     family: "treffen",
   },
   {
-    id: 7367,
+    id: 6100,
     word: "täuschen",
     translation: "to deceive, mislead",
     definition: "Jemanden etwas Falsches glauben lassen.",
@@ -16937,7 +16937,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7368,
+    id: 6101,
     word: "der Umfang, Umfänge",
     translation: "extent, volume",
     definition: "Die Größe oder Menge von etwas.",
@@ -16950,7 +16950,7 @@ export const B2_Vocabulary = [
     family: "der Umfang",
   },
   {
-    id: 7369,
+    id: 6102,
     word: "umfassen",
     translation: "to comprise, include",
     definition: "Etwas als Teil enthalten.",
@@ -16962,7 +16962,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7370,
+    id: 6103,
     word: "umstritten",
     translation: "controversial",
     definition: "Nicht von allen anerkannt.",
@@ -16974,7 +16974,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7371,
+    id: 6104,
     word: "die Unabhängigkeit",
     translation: "independence",
     definition: "Der Zustand, von niemandem abhängig zu sein.",
@@ -16987,7 +16987,7 @@ export const B2_Vocabulary = [
     family: "unabhängig",
   },
   {
-    id: 7372,
+    id: 6105,
     word: "unangemessen",
     translation: "inappropriate",
     definition: "Nicht passend.",
@@ -16999,7 +16999,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7373,
+    id: 6106,
     word: "unausweichlich",
     translation: "inevitable",
     definition: "Nicht zu vermeiden.",
@@ -17011,7 +17011,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7374,
+    id: 6107,
     word: "unbeabsichtigt",
     translation: "unintentional",
     definition: "Ohne Absicht.",
@@ -17023,7 +17023,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7375,
+    id: 6108,
     word: "unbegründet",
     translation: "unfounded",
     definition: "Ohne guten Grund.",
@@ -17035,7 +17035,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7376,
+    id: 6109,
     word: "das Unbehagen",
     translation: "unease",
     definition: "Ein unangenehmes Gefühl.",
@@ -17047,7 +17047,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7377,
+    id: 6110,
     word: "unerlässlich",
     translation: "essential",
     definition: "Unbedingt nötig.",
@@ -17059,7 +17059,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7378,
+    id: 6111,
     word: "unerträglich",
     translation: "unbearable",
     definition: "Nicht auszuhalten.",
@@ -17071,7 +17071,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7379,
+    id: 6112,
     word: "unerwartet",
     translation: "unexpected",
     definition: "Nicht vorhergesehen.",
@@ -17083,7 +17083,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7380,
+    id: 6113,
     word: "unfassbar",
     translation: "unbelievable",
     definition: "Kaum zu glauben.",
@@ -17095,7 +17095,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7381,
+    id: 6114,
     word: "die Ungeduld",
     translation: "impatience",
     definition: "Mangel an Geduld.",
@@ -17107,7 +17107,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7382,
+    id: 6115,
     word: "ungewiss",
     translation: "uncertain",
     definition: "Nicht sicher.",
@@ -17119,7 +17119,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7383,
+    id: 6116,
     word: "unmittelbar",
     translation: "immediate, direct",
     definition: "Direkt und ohne Zwischenraum.",
@@ -17131,7 +17131,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7384,
+    id: 6117,
     word: "untermauern",
     translation: "to underpin, back up",
     definition: "Eine Aussage durch Argumente stützen.",
@@ -17143,7 +17143,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7385,
+    id: 6118,
     word: "unterschätzen",
     translation: "to underestimate",
     definition: "Etwas als zu klein einschätzen.",
@@ -17155,7 +17155,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7386,
+    id: 6119,
     word: "unverbindlich",
     translation: "non-binding",
     definition: "Ohne Verpflichtung.",
@@ -17167,7 +17167,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7387,
+    id: 6120,
     word: "unvermeidlich",
     translation: "unavoidable",
     definition: "Nicht zu verhindern.",
@@ -17179,7 +17179,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7388,
+    id: 6121,
     word: "unwahrscheinlich",
     translation: "unlikely",
     definition: "Kaum zu erwarten.",
@@ -17191,7 +17191,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7389,
+    id: 6122,
     word: "unzureichend",
     translation: "insufficient",
     definition: "Nicht genug.",
@@ -17203,7 +17203,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7390,
+    id: 6123,
     word: "die Variante, -n",
     translation: "variant",
     definition: "Eine besondere Form von etwas.",
@@ -17215,7 +17215,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7391,
+    id: 6124,
     word: "variieren",
     translation: "to vary",
     definition: "Sich ändern, nicht gleich sein.",
@@ -17227,7 +17227,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7392,
+    id: 6125,
     word: "veralten",
     translation: "to become outdated",
     definition: "Alt und unbrauchbar werden.",
@@ -17239,7 +17239,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7393,
+    id: 6126,
     word: "veranlassen",
     translation: "to cause, arrange",
     definition: "Etwas in Gang setzen.",
@@ -17251,7 +17251,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7394,
+    id: 6127,
     word: "veranschaulichen",
     translation: "to illustrate",
     definition: "Etwas bildlich deutlich machen.",
@@ -17263,7 +17263,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7395,
+    id: 6128,
     word: "verantwortungsbewusst",
     translation: "responsible",
     definition: "Mit Gefühl für die eigene Verantwortung.",
@@ -17275,7 +17275,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7396,
+    id: 6129,
     word: "verarbeiten",
     translation: "to process",
     definition: "Etwas bearbeiten oder seelisch bewältigen.",
@@ -17288,7 +17288,7 @@ export const B2_Vocabulary = [
     family: "arbeiten",
   },
   {
-    id: 7397,
+    id: 6130,
     word: "verbindlich",
     translation: "binding, firm",
     definition: "Fest und verpflichtend.",
@@ -17300,7 +17300,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7398,
+    id: 6131,
     word: "die Verbreitung",
     translation: "spread, distribution",
     definition: "Das Sich-Ausbreiten von etwas.",
@@ -17312,7 +17312,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7399,
+    id: 6132,
     word: "verdeutlichen",
     translation: "to clarify, illustrate",
     definition: "Etwas klar machen.",
@@ -17324,7 +17324,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7400,
+    id: 6133,
     word: "vereinbar",
     translation: "compatible",
     definition: "Zusammenpassend.",
@@ -17337,7 +17337,7 @@ export const B2_Vocabulary = [
     family: "vereinbaren",
   },
   {
-    id: 7401,
+    id: 6134,
     word: "vereinigen",
     translation: "to unite",
     definition: "Zu einem Ganzen zusammenfügen.",
@@ -17349,7 +17349,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7402,
+    id: 6135,
     word: "das Verfahren, -",
     translation: "procedure; proceedings",
     definition: "Eine Methode oder ein offizieller Ablauf.",
@@ -17361,7 +17361,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7403,
+    id: 6136,
     word: "verfassen",
     translation: "to compose, write",
     definition: "Einen Text schreiben.",
@@ -17373,7 +17373,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7404,
+    id: 6137,
     word: "die Verfassung, -en",
     translation: "constitution; condition",
     definition: "Das Grundgesetz eines Staates; der Zustand.",
@@ -17385,7 +17385,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7405,
+    id: 6138,
     word: "verfolgen",
     translation: "to pursue, follow",
     definition: "Jemandem folgen; ein Ziel haben.",
@@ -17397,7 +17397,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7406,
+    id: 6139,
     word: "verfügbar",
     translation: "available",
     definition: "Zur Verfügung stehend.",
@@ -17410,7 +17410,7 @@ export const B2_Vocabulary = [
     family: "verfügen",
   },
   {
-    id: 7407,
+    id: 6140,
     word: "verfügen (über)",
     translation: "to have at one's disposal",
     definition: "Etwas besitzen oder haben.",
@@ -17423,7 +17423,7 @@ export const B2_Vocabulary = [
     family: "verfügen",
   },
   {
-    id: 7408,
+    id: 6141,
     word: "vergleichbar",
     translation: "comparable",
     definition: "Man kann es vergleichen.",
@@ -17435,7 +17435,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7409,
+    id: 6142,
     word: "verheerend",
     translation: "devastating",
     definition: "Sehr zerstörerisch.",
@@ -17447,7 +17447,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7410,
+    id: 6143,
     word: "verleihen",
     translation: "to award, lend",
     definition: "Jemandem etwas geben oder leihen.",
@@ -17459,7 +17459,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7411,
+    id: 6144,
     word: "vermeintlich",
     translation: "supposed, alleged",
     definition: "Dem Anschein nach, aber nicht wirklich.",
@@ -17471,7 +17471,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7412,
+    id: 6145,
     word: "vermitteln",
     translation: "to convey, mediate",
     definition: "Etwas weitergeben; zwischen Parteien helfen.",
@@ -17484,7 +17484,7 @@ export const B2_Vocabulary = [
     family: "vermitteln",
   },
   {
-    id: 7413,
+    id: 6146,
     word: "vernachlässigen",
     translation: "to neglect",
     definition: "Sich nicht genug um etwas kümmern.",
@@ -17496,7 +17496,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7414,
+    id: 6147,
     word: "die Vernunft",
     translation: "reason",
     definition: "Die Fähigkeit, vernünftig zu denken.",
@@ -17508,7 +17508,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7415,
+    id: 6148,
     word: "die Verpflichtung, -en",
     translation: "obligation",
     definition: "Eine Pflicht.",
@@ -17521,7 +17521,7 @@ export const B2_Vocabulary = [
     family: "verpflichten",
   },
   {
-    id: 7416,
+    id: 6149,
     word: "versammeln (sich)",
     translation: "to gather",
     definition: "Zusammenkommen.",
@@ -17534,7 +17534,7 @@ export const B2_Vocabulary = [
     family: "versammeln",
   },
   {
-    id: 7417,
+    id: 6150,
     word: "verschwenden",
     translation: "to waste",
     definition: "Etwas unnötig verbrauchen.",
@@ -17546,7 +17546,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7418,
+    id: 6151,
     word: "verschärfen",
     translation: "to tighten, intensify",
     definition: "Strenger oder schlimmer machen.",
@@ -17558,7 +17558,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7419,
+    id: 6152,
     word: "vertiefen",
     translation: "to deepen",
     definition: "Etwas intensiver machen.",
@@ -17570,7 +17570,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7420,
+    id: 6153,
     word: "vertraut",
     translation: "familiar",
     definition: "Bekannt und gewohnt.",
@@ -17582,7 +17582,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7421,
+    id: 6154,
     word: "verwalten",
     translation: "to manage, administer",
     definition: "Etwas organisieren und führen.",
@@ -17595,7 +17595,7 @@ export const B2_Vocabulary = [
     family: "verwalten",
   },
   {
-    id: 7422,
+    id: 6155,
     word: "verweigern",
     translation: "to refuse",
     definition: "Etwas nicht erlauben oder tun.",
@@ -17607,7 +17607,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7423,
+    id: 6156,
     word: "verwirren",
     translation: "to confuse",
     definition: "Jemanden unsicher machen.",
@@ -17619,7 +17619,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7424,
+    id: 6157,
     word: "verzögern",
     translation: "to delay",
     definition: "Etwas später geschehen lassen.",
@@ -17632,7 +17632,7 @@ export const B2_Vocabulary = [
     family: "verzögern",
   },
   {
-    id: 7425,
+    id: 6158,
     word: "die Verzögerung, -en",
     translation: "delay",
     definition: "Eine Verspätung.",
@@ -17645,7 +17645,7 @@ export const B2_Vocabulary = [
     family: "verzögern",
   },
   {
-    id: 7426,
+    id: 6159,
     word: "die Vielfalt",
     translation: "diversity",
     definition: "Eine große Zahl verschiedener Dinge.",
@@ -17657,7 +17657,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7427,
+    id: 6160,
     word: "vielversprechend",
     translation: "promising",
     definition: "Mit guten Aussichten.",
@@ -17669,7 +17669,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7428,
+    id: 6161,
     word: "vorankommen",
     translation: "to make progress",
     definition: "Fortschritte machen.",
@@ -17682,7 +17682,7 @@ export const B2_Vocabulary = [
     family: "ankommen",
   },
   {
-    id: 7429,
+    id: 6162,
     word: "voraussetzen",
     translation: "to presuppose, require",
     definition: "Etwas als Bedingung brauchen.",
@@ -17695,7 +17695,7 @@ export const B2_Vocabulary = [
     family: "voraussetzen",
   },
   {
-    id: 7430,
+    id: 6163,
     word: "vorbeugen",
     translation: "to prevent",
     definition: "Vorher etwas tun, damit etwas nicht passiert.",
@@ -17707,7 +17707,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7431,
+    id: 6164,
     word: "das Vorbild, -er",
     translation: "role model",
     definition: "Eine Person, der man nacheifert.",
@@ -17719,7 +17719,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7432,
+    id: 6165,
     word: "der Vorgang, Vorgänge",
     translation: "process, procedure",
     definition: "Ein Ablauf von Ereignissen.",
@@ -17731,7 +17731,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7433,
+    id: 6166,
     word: "die Vorgehensweise, -n",
     translation: "procedure, approach",
     definition: "Die Art, wie man vorgeht.",
@@ -17744,7 +17744,7 @@ export const B2_Vocabulary = [
     family: "vorgehen",
   },
   {
-    id: 7434,
+    id: 6167,
     word: "vorgehen",
     translation: "to proceed",
     definition: "Handeln oder Vorrang haben.",
@@ -17757,7 +17757,7 @@ export const B2_Vocabulary = [
     family: "vorgehen",
   },
   {
-    id: 7435,
+    id: 6168,
     word: "die Vorhersage, -n",
     translation: "forecast",
     definition: "Eine Aussage über die Zukunft.",
@@ -17769,7 +17769,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7436,
+    id: 6169,
     word: "vorliegen",
     translation: "to be available, exist",
     definition: "Vorhanden sein.",
@@ -17781,7 +17781,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7437,
+    id: 6170,
     word: "vorrangig",
     translation: "priority",
     definition: "Als Wichtigstes zuerst.",
@@ -17793,7 +17793,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7438,
+    id: 6171,
     word: "vorwerfen",
     translation: "to accuse, reproach",
     definition: "Jemandem einen Fehler zuschreiben.",
@@ -17806,7 +17806,7 @@ export const B2_Vocabulary = [
     family: "werfen",
   },
   {
-    id: 7439,
+    id: 6172,
     word: "vorwiegend",
     translation: "predominantly",
     definition: "Hauptsächlich.",
@@ -17818,7 +17818,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7440,
+    id: 6173,
     word: "vorziehen",
     translation: "to prefer; to bring forward",
     definition: "Etwas lieber mögen; früher machen.",
@@ -17830,7 +17830,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7441,
+    id: 6174,
     word: "vorübergehend",
     translation: "temporary",
     definition: "Nur für kurze Zeit.",
@@ -17842,7 +17842,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7442,
+    id: 6175,
     word: "wahrnehmen",
     translation: "to perceive; to take up",
     definition: "Etwas bemerken; eine Chance nutzen.",
@@ -17855,7 +17855,7 @@ export const B2_Vocabulary = [
     family: "wahrnehmen",
   },
   {
-    id: 7443,
+    id: 6176,
     word: "die Wahrnehmung, -en",
     translation: "perception",
     definition: "Das Erkennen mit den Sinnen.",
@@ -17868,7 +17868,7 @@ export const B2_Vocabulary = [
     family: "wahrnehmen",
   },
   {
-    id: 7444,
+    id: 6177,
     word: "die Wechselwirkung, -en",
     translation: "interaction",
     definition: "Die gegenseitige Wirkung.",
@@ -17880,7 +17880,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7445,
+    id: 6178,
     word: "wehren (sich)",
     translation: "to defend oneself",
     definition: "Sich gegen etwas verteidigen.",
@@ -17892,7 +17892,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7446,
+    id: 6179,
     word: "weiterentwickeln",
     translation: "to develop further",
     definition: "Etwas verbessern und ausbauen.",
@@ -17904,7 +17904,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7447,
+    id: 6180,
     word: "weiterhin",
     translation: "still, continue to",
     definition: "Auch in Zukunft.",
@@ -17916,7 +17916,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7448,
+    id: 6181,
     word: "weitgehend",
     translation: "largely",
     definition: "Zum größten Teil.",
@@ -17928,7 +17928,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7449,
+    id: 6182,
     word: "weitverbreitet",
     translation: "widespread",
     definition: "An vielen Orten vorkommend.",
@@ -17940,7 +17940,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7450,
+    id: 6183,
     word: "die Wertung, -en",
     translation: "rating, evaluation",
     definition: "Die Bewertung einer Leistung.",
@@ -17952,7 +17952,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7451,
+    id: 6184,
     word: "widerspiegeln",
     translation: "to reflect",
     definition: "Etwas deutlich zeigen.",
@@ -17964,7 +17964,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7452,
+    id: 6185,
     word: "der Widerstand, Widerstände",
     translation: "resistance",
     definition: "Der Gegendruck oder die Ablehnung.",
@@ -17976,7 +17976,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7453,
+    id: 6186,
     word: "wiedergeben",
     translation: "to reproduce, convey",
     definition: "Etwas inhaltlich noch einmal sagen.",
@@ -17988,7 +17988,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7454,
+    id: 6187,
     word: "wiederum",
     translation: "in turn, again",
     definition: "Seinerseits; erneut.",
@@ -18000,7 +18000,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7455,
+    id: 6188,
     word: "wirksam",
     translation: "effective",
     definition: "Mit guter Wirkung.",
@@ -18012,7 +18012,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7456,
+    id: 6189,
     word: "wissenschaftlich",
     translation: "scientific",
     definition: "Die Wissenschaft betreffend.",
@@ -18024,7 +18024,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7457,
+    id: 6190,
     word: "wohingegen",
     translation: "whereas",
     definition: "Dagegen, im Gegensatz dazu.",
@@ -18036,7 +18036,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7458,
+    id: 6191,
     word: "das Wohlbefinden",
     translation: "well-being",
     definition: "Ein Gefühl, dass es einem gut geht.",
@@ -18048,7 +18048,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7459,
+    id: 6192,
     word: "womöglich",
     translation: "possibly",
     definition: "Vielleicht.",
@@ -18060,7 +18060,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7460,
+    id: 6193,
     word: "wünschenswert",
     translation: "desirable",
     definition: "Gut und wünschenswert.",
@@ -18072,7 +18072,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7461,
+    id: 6194,
     word: "zerstreuen",
     translation: "to disperse; to dispel",
     definition: "Auseinandertreiben; Sorgen vertreiben.",
@@ -18084,7 +18084,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7462,
+    id: 6195,
     word: "zielführend",
     translation: "effective, productive",
     definition: "Zum Ziel führend.",
@@ -18096,7 +18096,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7463,
+    id: 6196,
     word: "die Zielsetzung, -en",
     translation: "objective, goal",
     definition: "Das gesteckte Ziel.",
@@ -18108,7 +18108,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7464,
+    id: 6197,
     word: "zudem",
     translation: "moreover",
     definition: "Außerdem.",
@@ -18120,7 +18120,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7465,
+    id: 6198,
     word: "die Zufriedenheit",
     translation: "satisfaction",
     definition: "Das Gefühl, zufrieden zu sein.",
@@ -18132,7 +18132,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7466,
+    id: 6199,
     word: "zugrunde",
     translation: "at the basis",
     definition: "Als Grundlage.",
@@ -18144,7 +18144,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7467,
+    id: 6200,
     word: "zurückführen (auf)",
     translation: "to trace back (to)",
     definition: "Die Ursache in etwas sehen.",
@@ -18157,7 +18157,7 @@ export const B2_Vocabulary = [
     family: "führen",
   },
   {
-    id: 7468,
+    id: 6201,
     word: "zurückweisen",
     translation: "to reject",
     definition: "Etwas nicht annehmen.",
@@ -18169,7 +18169,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7469,
+    id: 6202,
     word: "die Zusammenfassung, -en",
     translation: "summary",
     definition: "Eine kurze Darstellung der wichtigsten Punkte.",
@@ -18181,7 +18181,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7470,
+    id: 6203,
     word: "der Zusammenhalt",
     translation: "solidarity, cohesion",
     definition: "Das enge Verbundensein einer Gruppe.",
@@ -18193,7 +18193,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7471,
+    id: 6204,
     word: "zusammenhängen",
     translation: "to be connected",
     definition: "In Verbindung stehen.",
@@ -18205,7 +18205,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7472,
+    id: 6205,
     word: "zuschreiben",
     translation: "to attribute",
     definition: "Etwas jemandem als Ursache oder Eigenschaft geben.",
@@ -18217,7 +18217,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7473,
+    id: 6206,
     word: "die Zuständigkeit, -en",
     translation: "responsibility",
     definition: "Der Bereich, für den man verantwortlich ist.",
@@ -18229,7 +18229,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7474,
+    id: 6207,
     word: "zutreffend",
     translation: "accurate, applicable",
     definition: "Richtig oder passend.",
@@ -18241,7 +18241,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7475,
+    id: 6208,
     word: "die Zuverlässigkeit",
     translation: "reliability",
     definition: "Die Eigenschaft, verlässlich zu sein.",
@@ -18253,7 +18253,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7476,
+    id: 6209,
     word: "zuversichtlich",
     translation: "confident, optimistic",
     definition: "Voller Hoffnung.",
@@ -18265,7 +18265,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7477,
+    id: 6210,
     word: "zuweisen",
     translation: "to assign",
     definition: "Jemandem etwas zuteilen.",
@@ -18277,7 +18277,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7478,
+    id: 6211,
     word: "zweifelhaft",
     translation: "doubtful",
     definition: "Nicht sicher oder fragwürdig.",
@@ -18289,7 +18289,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7479,
+    id: 6212,
     word: "zweifellos",
     translation: "undoubtedly",
     definition: "Ohne Zweifel.",
@@ -18301,7 +18301,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7480,
+    id: 6213,
     word: "zwingend",
     translation: "compelling, mandatory",
     definition: "Unbedingt notwendig.",
@@ -18313,7 +18313,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7481,
+    id: 6214,
     word: "zynisch",
     translation: "cynical",
     definition: "Spöttisch und ohne Mitgefühl.",
@@ -18325,7 +18325,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7482,
+    id: 6215,
     word: "ähneln",
     translation: "to resemble",
     definition: "Jemandem oder etwas ähnlich sein.",
@@ -18337,7 +18337,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7483,
+    id: 6216,
     word: "die Ähnlichkeit, -en",
     translation: "similarity",
     definition: "Eine Gemeinsamkeit im Aussehen oder Wesen.",
@@ -18349,7 +18349,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7484,
+    id: 6217,
     word: "ökonomisch",
     translation: "economic",
     definition: "Die Wirtschaft betreffend; sparsam.",
@@ -18361,7 +18361,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7485,
+    id: 6218,
     word: "überdenken",
     translation: "to reconsider",
     definition: "Noch einmal darüber nachdenken.",
@@ -18374,7 +18374,7 @@ export const B2_Vocabulary = [
     family: "überdenken",
   },
   {
-    id: 7486,
+    id: 6219,
     word: "übereinstimmen",
     translation: "to agree, match",
     definition: "Mit etwas gleich sein.",
@@ -18387,7 +18387,7 @@ export const B2_Vocabulary = [
     family: "übereinstimmen",
   },
   {
-    id: 7487,
+    id: 6220,
     word: "die Übereinstimmung, -en",
     translation: "agreement, match",
     definition: "Gleichheit in den Punkten.",
@@ -18400,7 +18400,7 @@ export const B2_Vocabulary = [
     family: "übereinstimmen",
   },
   {
-    id: 7488,
+    id: 6221,
     word: "überflüssig",
     translation: "superfluous",
     definition: "Nicht nötig.",
@@ -18412,7 +18412,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7489,
+    id: 6222,
     word: "übergeordnet",
     translation: "superior, overriding",
     definition: "Auf höherer Ebene stehend.",
@@ -18424,7 +18424,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7490,
+    id: 6223,
     word: "übergreifend",
     translation: "overarching",
     definition: "Mehrere Bereiche umfassend.",
@@ -18436,7 +18436,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7491,
+    id: 6224,
     word: "überschätzen",
     translation: "to overestimate",
     definition: "Etwas zu hoch einschätzen.",
@@ -18448,7 +18448,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7492,
+    id: 6225,
     word: "die Überstunden (Pl.)",
     translation: "overtime",
     definition: "Arbeitszeit über das Normale hinaus.",
@@ -18460,7 +18460,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7493,
+    id: 6226,
     word: "die Übertragung, -en",
     translation: "transmission; broadcast",
     definition: "Das Weitergeben von etwas, auch im Fernsehen.",
@@ -18472,7 +18472,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7494,
+    id: 6227,
     word: "überwachen",
     translation: "to monitor",
     definition: "Etwas kontrollieren.",
@@ -18484,7 +18484,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7495,
+    id: 6228,
     word: "überwiegen",
     translation: "to predominate",
     definition: "Das Wichtigere oder Größere sein.",
@@ -18497,7 +18497,7 @@ export const B2_Vocabulary = [
     family: "überwiegen",
   },
   {
-    id: 7496,
+    id: 6229,
     word: "überwiegend",
     translation: "predominantly",
     definition: "Hauptsächlich.",
@@ -18510,7 +18510,7 @@ export const B2_Vocabulary = [
     family: "überwiegen",
   },
   {
-    id: 7497,
+    id: 6230,
     word: "überwinden",
     translation: "to overcome",
     definition: "Eine Schwierigkeit besiegen.",
@@ -18523,7 +18523,7 @@ export const B2_Vocabulary = [
     family: "überwinden",
   },
   {
-    id: 7498,
+    id: 6231,
     word: "überzeugend",
     translation: "convincing",
     definition: "So, dass man davon überzeugt wird.",
@@ -18535,7 +18535,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7499,
+    id: 6232,
     word: "üblicherweise",
     translation: "usually",
     definition: "Normalerweise.",
@@ -18547,7 +18547,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7500,
+    id: 6233,
     word: "der Arbeitgeber, - / die Arbeitgeberin, -nen",
     translation: "employer",
     definition: "Eine Person oder Firma, die Mitarbeiter beschäftigt.",
@@ -18560,7 +18560,7 @@ export const B2_Vocabulary = [
     family: "arbeiten",
   },
   {
-    id: 7501,
+    id: 6234,
     word: "die Hilfsorganisation, -en",
     translation: "aid organisation",
     definition: "Eine Organisation, die Menschen in Not hilft.",
@@ -18572,7 +18572,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7502,
+    id: 6235,
     word: "die Berufsausbildung, -en",
     translation: "vocational training",
     definition: "Eine Ausbildung für einen Beruf.",
@@ -18584,7 +18584,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7503,
+    id: 6236,
     word: "der Berufsabschluss, Berufsabschlüsse",
     translation: "vocational qualification",
     definition: "Das Zeugnis nach der Berufsausbildung.",
@@ -18597,7 +18597,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7504,
+    id: 6237,
     word: "der Bachelor, -s",
     translation: "bachelor's degree",
     definition: "Der erste Abschluss an einer Hochschule.",
@@ -18609,7 +18609,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7505,
+    id: 6238,
     word: "der Ansprechpartner, - / die Ansprechpartnerin, -nen",
     translation: "contact person",
     definition: "Eine Person, an die man sich bei Fragen wenden kann.",
@@ -18622,7 +18622,7 @@ export const B2_Vocabulary = [
     family: "sprechen",
   },
   {
-    id: 7506,
+    id: 6239,
     word: "das Berufspraktikum, Berufspraktika",
     translation: "work placement",
     definition: "Ein Praktikum in einem Beruf.",
@@ -18634,7 +18634,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7507,
+    id: 6240,
     word: "die Meisterprüfung, -en",
     translation: "master craftsman's exam",
     definition: "Die Prüfung, um Meister im Handwerk zu werden.",
@@ -18646,7 +18646,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7508,
+    id: 6241,
     word: "der Wunschberuf, -e",
     translation: "dream job",
     definition: "Der Beruf, den man sich wünscht.",
@@ -18658,7 +18658,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7509,
+    id: 6242,
     word: "die Zugangsvoraussetzung, -en",
     translation: "entry requirement",
     definition: "Eine Bedingung für die Aufnahme.",
@@ -18671,7 +18671,7 @@ export const B2_Vocabulary = [
     family: "voraussetzen",
   },
   {
-    id: 7510,
+    id: 6243,
     word: "lernbereit",
     translation: "willing to learn",
     definition: "Offen dafür, Neues zu lernen.",
@@ -18683,7 +18683,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7511,
+    id: 6244,
     word: "hilfsbereit",
     translation: "helpful",
     definition: "Bereit, anderen zu helfen.",
@@ -18695,7 +18695,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7512,
+    id: 6245,
     word: "selbstbewusst",
     translation: "self-confident",
     definition: "Mit sicherem Auftreten.",
@@ -18708,7 +18708,7 @@ export const B2_Vocabulary = [
     family: "selbstbewusst",
   },
   {
-    id: 7513,
+    id: 6246,
     word: "die Berechtigung, -en",
     translation: "authorisation",
     definition: "Das Recht, etwas zu tun.",
@@ -18720,7 +18720,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7514,
+    id: 6247,
     word: "der Lehrgang, Lehrgänge",
     translation: "training course",
     definition: "Ein Kurs zur beruflichen Weiterbildung.",
@@ -18732,7 +18732,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7515,
+    id: 6248,
     word: "die Vorkenntnisse (Pl.)",
     translation: "prior knowledge",
     definition: "Wissen, das man schon hat.",
@@ -18744,7 +18744,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7516,
+    id: 6249,
     word: "der Vermittler, - / die Vermittlerin, -nen",
     translation: "agent, mediator",
     definition: "Eine Person, die zwischen zwei Seiten hilft.",
@@ -18757,7 +18757,7 @@ export const B2_Vocabulary = [
     family: "vermitteln",
   },
   {
-    id: 7517,
+    id: 6250,
     word: "das Bewerbungstraining, -s",
     translation: "application training",
     definition: "Ein Kurs, der auf Bewerbungen vorbereitet.",
@@ -18770,7 +18770,7 @@ export const B2_Vocabulary = [
     family: "bewerben",
   },
   {
-    id: 7518,
+    id: 6251,
     word: "die Spezialisierung, -en",
     translation: "specialisation",
     definition: "Die Konzentration auf ein Fachgebiet.",
@@ -18783,7 +18783,7 @@ export const B2_Vocabulary = [
     family: "spezialisieren",
   },
   {
-    id: 7519,
+    id: 6252,
     word: "das Stellengesuch, -e",
     translation: "job-wanted ad",
     definition: "Eine Anzeige, in der man eine Stelle sucht.",
@@ -18796,7 +18796,7 @@ export const B2_Vocabulary = [
     family: "stellen",
   },
   {
-    id: 7520,
+    id: 6253,
     word: "der Arbeitssuchende, -n / die Arbeitssuchende, -n",
     translation: "job seeker",
     definition: "Eine Person, die Arbeit sucht.",
@@ -18809,7 +18809,7 @@ export const B2_Vocabulary = [
     family: "arbeiten",
   },
   {
-    id: 7521,
+    id: 6254,
     word: "verhandlungssicher",
     translation: "fluent in negotiations",
     definition: "Fähig, auch schwierige Gespräche in einer Sprache zu führen.",
@@ -18821,7 +18821,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7522,
+    id: 6255,
     word: "die Gehaltsvorstellung, -en",
     translation: "salary expectation",
     definition: "Das Gehalt, das man sich wünscht.",
@@ -18834,7 +18834,7 @@ export const B2_Vocabulary = [
     family: "stellen",
   },
   {
-    id: 7523,
+    id: 6256,
     word: "das Arbeitsverhältnis, -se",
     translation: "employment relationship",
     definition:
@@ -18848,7 +18848,7 @@ export const B2_Vocabulary = [
     family: "arbeiten",
   },
   {
-    id: 7524,
+    id: 6257,
     word: "das Betriebsgeheimnis, -se",
     translation: "trade secret",
     definition: "Eine geheime Information einer Firma.",
@@ -18860,7 +18860,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7525,
+    id: 6258,
     word: "die Krankmeldung, -en",
     translation: "sick note",
     definition: "Die Mitteilung, dass man krank ist.",
@@ -18872,7 +18872,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7526,
+    id: 6259,
     word: "die Lohnfortzahlung",
     translation: "continued payment of wages",
     definition: "Das Weiterzahlen des Lohns bei Krankheit.",
@@ -18884,7 +18884,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7527,
+    id: 6260,
     word: "die Probezeit, -en",
     translation: "probationary period",
     definition: "Die erste Zeit in einem neuen Job.",
@@ -18896,7 +18896,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7528,
+    id: 6261,
     word: "der Verdienst, -e",
     translation: "earnings",
     definition: "Das Geld, das man verdient.",
@@ -18908,7 +18908,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7529,
+    id: 6262,
     word: "die Verschwiegenheitspflicht",
     translation: "duty of confidentiality",
     definition: "Die Pflicht, Informationen geheim zu halten.",
@@ -18920,7 +18920,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7530,
+    id: 6263,
     word: "die Anweisung, -en",
     translation: "instruction",
     definition: "Eine Aufforderung, etwas zu tun.",
@@ -18933,7 +18933,7 @@ export const B2_Vocabulary = [
     family: "anweisen",
   },
   {
-    id: 7531,
+    id: 6264,
     word: "der Krankenschein, -e",
     translation: "sick certificate",
     definition: "Ein Dokument für die Krankenkasse.",
@@ -18945,7 +18945,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7532,
+    id: 6265,
     word: "der Stromschlag, Stromschläge",
     translation: "electric shock",
     definition: "Ein Schlag durch elektrischen Strom.",
@@ -18957,7 +18957,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7533,
+    id: 6266,
     word: "die Übelkeit",
     translation: "nausea",
     definition: "Das Gefühl, sich übergeben zu müssen.",
@@ -18969,7 +18969,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7534,
+    id: 6267,
     word: "der Mengenrabatt, -e",
     translation: "bulk discount",
     definition: "Ein Preisnachlass bei großer Menge.",
@@ -18981,7 +18981,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7535,
+    id: 6268,
     word: "der Preisnachlass, Preisnachlässe",
     translation: "price reduction",
     definition: "Ein Rabatt.",
@@ -18993,7 +18993,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7536,
+    id: 6269,
     word: "der Maschinenbau",
     translation: "mechanical engineering",
     definition: "Der Bau von Maschinen als Branche.",
@@ -19005,7 +19005,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7537,
+    id: 6270,
     word: "die Personalabteilung, -en",
     translation: "HR department",
     definition: "Die Abteilung für Mitarbeiter.",
@@ -19017,7 +19017,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7538,
+    id: 6271,
     word: "das Image, -s",
     translation: "image",
     definition: "Das Bild, das andere von jemandem haben.",
@@ -19029,7 +19029,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7539,
+    id: 6272,
     word: "förmlich",
     translation: "formal",
     definition: "Nach festen Regeln.",
@@ -19041,7 +19041,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7540,
+    id: 6273,
     word: "respektlos",
     translation: "disrespectful",
     definition: "Ohne Respekt.",
@@ -19053,7 +19053,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7541,
+    id: 6274,
     word: "absolvieren",
     translation: "to complete",
     definition: "Eine Ausbildung oder Prüfung beenden.",
@@ -19065,7 +19065,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7542,
+    id: 6275,
     word: "die Jobbörse, -n",
     translation: "job exchange",
     definition: "Eine Plattform für Stellenangebote.",
@@ -19077,7 +19077,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7543,
+    id: 6276,
     word: "die Aufstiegschancen (Pl.)",
     translation: "chances of promotion",
     definition: "Möglichkeiten, beruflich weiterzukommen.",
@@ -19089,7 +19089,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7544,
+    id: 6277,
     word: "die Sozialleistungen (Pl.)",
     translation: "social benefits",
     definition: "Zusätzliche Leistungen des Arbeitgebers oder Staates.",
@@ -19102,7 +19102,7 @@ export const B2_Vocabulary = [
     family: "leisten",
   },
   {
-    id: 7545,
+    id: 6278,
     word: "die Kernzeit, -en",
     translation: "core hours",
     definition: "Die Zeit, in der alle anwesend sein müssen.",
@@ -19114,7 +19114,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7546,
+    id: 6279,
     word: "die Wechselschicht, -en",
     translation: "rotating shift",
     definition: "Ein Schichtsystem mit wechselnden Zeiten.",
@@ -19126,7 +19126,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7547,
+    id: 6280,
     word: "der Besprechungsraum, Besprechungsräume",
     translation: "meeting room",
     definition: "Ein Raum für Treffen.",
@@ -19139,7 +19139,7 @@ export const B2_Vocabulary = [
     family: "sprechen",
   },
   {
-    id: 7548,
+    id: 6281,
     word: "die Fahrgemeinschaft, -en",
     translation: "carpool",
     definition: "Mehrere Personen fahren zusammen mit einem Auto.",
@@ -19151,7 +19151,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7549,
+    id: 6282,
     word: "die Flugverbindung, -en",
     translation: "flight connection",
     definition: "Eine Flugroute zwischen zwei Orten.",
@@ -19163,7 +19163,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7550,
+    id: 6283,
     word: "das Gewerbegebiet, -e",
     translation: "industrial estate",
     definition: "Ein Gebiet für Firmen und Betriebe.",
@@ -19175,7 +19175,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7551,
+    id: 6284,
     word: "die Qualitätssicherung",
     translation: "quality assurance",
     definition: "Maßnahmen für gleichbleibend gute Qualität.",
@@ -19187,7 +19187,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7552,
+    id: 6285,
     word: "der Vorarbeiter, - / die Vorarbeiterin, -nen",
     translation: "foreman",
     definition: "Eine Person, die ein Team in der Produktion leitet.",
@@ -19200,7 +19200,7 @@ export const B2_Vocabulary = [
     family: "arbeiten",
   },
   {
-    id: 7553,
+    id: 6286,
     word: "der Großhändler, - / die Großhändlerin, -nen",
     translation: "wholesaler",
     definition: "Eine Person, die Waren in großen Mengen verkauft.",
@@ -19212,7 +19212,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7554,
+    id: 6287,
     word: "der Wettbewerber, - / die Wettbewerberin, -nen",
     translation: "competitor",
     definition: "Eine Firma oder Person im Wettbewerb.",
@@ -19225,7 +19225,7 @@ export const B2_Vocabulary = [
     family: "bewerben",
   },
   {
-    id: 7555,
+    id: 6288,
     word: "einzigartig",
     translation: "unique",
     definition: "Nur einmal vorhanden.",
@@ -19237,7 +19237,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7556,
+    id: 6289,
     word: "wettbewerbsfähig",
     translation: "competitive",
     definition: "Fähig, im Wettbewerb zu bestehen.",
@@ -19249,7 +19249,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7557,
+    id: 6290,
     word: "der Gesamtpreis, -e",
     translation: "total price",
     definition: "Der gesamte Preis.",
@@ -19261,7 +19261,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7558,
+    id: 6291,
     word: "der Nettopreis, -e",
     translation: "net price",
     definition: "Der Preis ohne Steuer.",
@@ -19273,7 +19273,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7559,
+    id: 6292,
     word: "der Bruttopreis, -e",
     translation: "gross price",
     definition: "Der Preis mit Steuer.",
@@ -19285,7 +19285,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7560,
+    id: 6293,
     word: "der Sonderwunsch, Sonderwünsche",
     translation: "special request",
     definition: "Ein besonderer Wunsch.",
@@ -19297,7 +19297,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7561,
+    id: 6294,
     word: "die Lieferkosten (Pl.)",
     translation: "delivery costs",
     definition: "Die Kosten für die Zustellung.",
@@ -19309,7 +19309,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7562,
+    id: 6295,
     word: "die Ratenzahlung, -en",
     translation: "payment in instalments",
     definition: "Das Bezahlen in mehreren Teilen.",
@@ -19321,7 +19321,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7563,
+    id: 6296,
     word: "das Skonto, -s",
     translation: "cash discount",
     definition: "Ein Preisnachlass bei schneller Zahlung.",
@@ -19333,7 +19333,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7564,
+    id: 6297,
     word: "die Vorauszahlung, -en",
     translation: "advance payment",
     definition: "Eine Zahlung vor der Lieferung.",
@@ -19345,7 +19345,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7565,
+    id: 6298,
     word: "frühestens",
     translation: "at the earliest",
     definition: "Nicht früher als.",
@@ -19357,7 +19357,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7566,
+    id: 6299,
     word: "die Barzahlung, -en",
     translation: "cash payment",
     definition: "Das Bezahlen mit Bargeld.",
@@ -19369,7 +19369,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7567,
+    id: 6300,
     word: "das Onlinebanking",
     translation: "online banking",
     definition: "Das Erledigen von Bankgeschäften im Internet.",
@@ -19381,7 +19381,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7568,
+    id: 6301,
     word: "der Zahlungsempfänger, - / die Zahlungsempfängerin, -nen",
     translation: "payee",
     definition: "Die Person, die Geld bekommt.",
@@ -19393,7 +19393,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7569,
+    id: 6302,
     word: "die Zahlungserinnerung, -en",
     translation: "payment reminder",
     definition: "Eine Erinnerung an eine offene Rechnung.",
@@ -19405,7 +19405,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7570,
+    id: 6303,
     word: "das Komma, -s",
     translation: "comma",
     definition: "Ein Satzzeichen oder Dezimalzeichen.",
@@ -19417,7 +19417,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7571,
+    id: 6304,
     word: "der Vorfall, Vorfälle",
     translation: "incident",
     definition: "Ein besonderes Ereignis.",
@@ -19429,7 +19429,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7572,
+    id: 6305,
     word: "ungerecht",
     translation: "unfair",
     definition: "Nicht fair und nicht gerecht.",
@@ -19441,7 +19441,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7573,
+    id: 6306,
     word: "die Agenda, Agenden",
     translation: "agenda",
     definition: "Eine Liste von Themen für ein Treffen.",
@@ -19453,7 +19453,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7574,
+    id: 6307,
     word: "die Ankündigung, -en",
     translation: "announcement",
     definition: "Eine Mitteilung über etwas Zukünftiges.",
@@ -19466,7 +19466,7 @@ export const B2_Vocabulary = [
     family: "ankündigen",
   },
   {
-    id: 7575,
+    id: 6308,
     word: "das Besprechungsprotokoll, -e",
     translation: "meeting minutes",
     definition: "Ein Text, der festhält, was besprochen wurde.",
@@ -19479,7 +19479,7 @@ export const B2_Vocabulary = [
     family: "sprechen",
   },
   {
-    id: 7576,
+    id: 6309,
     word: "der Rückblick, -e",
     translation: "review, look back",
     definition: "Der Blick auf vergangene Zeiten.",
@@ -19491,7 +19491,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7577,
+    id: 6310,
     word: "protokollieren",
     translation: "to record, take minutes",
     definition: "Etwas schriftlich festhalten.",
@@ -19504,7 +19504,7 @@ export const B2_Vocabulary = [
     family: "das Protokoll",
   },
   {
-    id: 7578,
+    id: 6311,
     word: "der Beamer, -",
     translation: "projector",
     definition: "Ein Gerät, das Bilder an die Wand wirft.",
@@ -19516,7 +19516,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7579,
+    id: 6312,
     word: "die Leinwand, Leinwände",
     translation: "screen",
     definition: "Eine Fläche für Projektionen.",
@@ -19528,7 +19528,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7580,
+    id: 6313,
     word: "die Pinnwand, Pinnwände",
     translation: "pinboard",
     definition: "Eine Tafel für Zettel.",
@@ -19540,7 +19540,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7581,
+    id: 6314,
     word: "der Ausblick, -e",
     translation: "outlook; view",
     definition: "Eine Vorschau auf die Zukunft; die Aussicht.",
@@ -19552,7 +19552,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7582,
+    id: 6315,
     word: "die Jahresbilanz, -en",
     translation: "annual balance",
     definition: "Die Zahlen eines Geschäftsjahres.",
@@ -19565,7 +19565,7 @@ export const B2_Vocabulary = [
     family: "die Bilanz",
   },
   {
-    id: 7583,
+    id: 6316,
     word: "die Quote, -n",
     translation: "quota, rate",
     definition: "Ein Anteil in Prozent.",
@@ -19577,7 +19577,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7584,
+    id: 6317,
     word: "der Standort, -e",
     translation: "location",
     definition: "Der Ort, an dem etwas liegt.",
@@ -19589,7 +19589,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7585,
+    id: 6318,
     word: "der Touchscreen, -s",
     translation: "touchscreen",
     definition: "Ein Bildschirm, den man berührt.",
@@ -19601,7 +19601,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7586,
+    id: 6319,
     word: "aktualisieren",
     translation: "to update",
     definition: "Etwas auf den neuesten Stand bringen.",
@@ -19613,7 +19613,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7587,
+    id: 6320,
     word: "navigieren",
     translation: "to navigate",
     definition: "Den Weg finden oder lenken.",
@@ -19625,7 +19625,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7588,
+    id: 6321,
     word: "die Arbeitsunfähigkeit",
     translation: "incapacity for work",
     definition: "Der Zustand, nicht arbeiten zu können.",
@@ -19638,7 +19638,7 @@ export const B2_Vocabulary = [
     family: "arbeiten",
   },
   {
-    id: 7589,
+    id: 6322,
     word: "die Freistellung, -en",
     translation: "release from work",
     definition: "Die Befreiung von der Arbeit.",
@@ -19651,7 +19651,7 @@ export const B2_Vocabulary = [
     family: "stellen",
   },
   {
-    id: 7590,
+    id: 6323,
     word: "der Freizeitausgleich",
     translation: "time off in lieu",
     definition: "Freie Zeit statt bezahlter Überstunden.",
@@ -19664,7 +19664,7 @@ export const B2_Vocabulary = [
     family: "ausgleichen",
   },
   {
-    id: 7591,
+    id: 6324,
     word: "die Schutzausrüstung, -en",
     translation: "protective equipment",
     definition: "Kleidung oder Geräte zum Schutz bei der Arbeit.",
@@ -19676,7 +19676,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7592,
+    id: 6325,
     word: "der Ersthelfer, - / die Ersthelferin, -nen",
     translation: "first aider",
     definition: "Eine Person, die bei einem Unfall zuerst hilft.",
@@ -19688,7 +19688,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7593,
+    id: 6326,
     word: "die Evakuierung, -en",
     translation: "evacuation",
     definition: "Das Räumen eines Gebäudes im Notfall.",
@@ -19700,7 +19700,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7594,
+    id: 6327,
     word: "der Rettungswagen, -",
     translation: "ambulance",
     definition: "Ein Fahrzeug für Notfälle.",
@@ -19712,7 +19712,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7595,
+    id: 6328,
     word: "die Abmahnung, -en",
     translation: "formal warning",
     definition: "Eine offizielle Verwarnung, zum Beispiel vom Arbeitgeber.",
@@ -19724,7 +19724,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7596,
+    id: 6329,
     word: "die Beförderung, -en",
     translation: "promotion; transport",
     definition: "Der Aufstieg in eine höhere Position.",
@@ -19736,7 +19736,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7597,
+    id: 6330,
     word: "der Minijob, -s",
     translation: "mini-job",
     definition: "Ein Job mit geringem Verdienst.",
@@ -19748,7 +19748,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7598,
+    id: 6331,
     word: "die Zeitarbeit",
     translation: "temporary employment",
     definition: "Arbeit über eine Leihfirma.",
@@ -19761,7 +19761,7 @@ export const B2_Vocabulary = [
     family: "arbeiten",
   },
   {
-    id: 7599,
+    id: 6332,
     word: "die Steuerklasse, -n",
     translation: "tax class",
     definition: "Eine Kategorie für die Lohnsteuer.",
@@ -19773,7 +19773,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7600,
+    id: 6333,
     word: "die Lohnsteuer",
     translation: "income tax (on wages)",
     definition: "Die Steuer, die vom Lohn abgezogen wird.",
@@ -19785,7 +19785,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7601,
+    id: 6334,
     word: "die Rentenversicherung, -en",
     translation: "pension insurance",
     definition: "Eine Versicherung für das Alter.",
@@ -19797,7 +19797,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7602,
+    id: 6335,
     word: "die Arbeitslosenversicherung, -en",
     translation: "unemployment insurance",
     definition: "Eine Versicherung bei Verlust des Jobs.",
@@ -19811,7 +19811,7 @@ export const B2_Vocabulary = [
     family: "arbeiten",
   },
   {
-    id: 7603,
+    id: 6336,
     word: "die Belegschaft, -en",
     translation: "workforce",
     definition: "Alle Mitarbeiter einer Firma.",
@@ -19823,7 +19823,7 @@ export const B2_Vocabulary = [
     level: "B2",
   },
   {
-    id: 7604,
+    id: 6337,
     word: "der Nachfolger, - / die Nachfolgerin, -nen",
     translation: "successor",
     definition: "Eine Person, die auf eine andere folgt.",

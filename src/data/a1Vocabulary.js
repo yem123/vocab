@@ -104,7 +104,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 10,
+    id: 9,
     word: "der Kurs, -e",
     translation: "course / class",
     definition: "Eine Gruppe von Menschen, die zusammen etwas lernen.",
@@ -117,7 +117,7 @@ export const A1_Vocabulary = [
     family: "der Kurs",
   },
   {
-    id: 11,
+    id: 10,
     word: "anfangen",
     translation: "to begin / start",
     definition: "Mit einer Handlung oder Arbeit starten.",
@@ -130,7 +130,7 @@ export const A1_Vocabulary = [
     family: "der Anfang",
   },
   {
-    id: 12,
+    id: 11,
     word: "Willkommen!",
     translation: "Welcome!",
     definition: "Ein freundlicher Gruß zur Begrüßung von Gästen.",
@@ -143,7 +143,7 @@ export const A1_Vocabulary = [
     family: "willkommen",
   },
   {
-    id: 13,
+    id: 12,
     word: "die Mail, -s (- die E-Mail, -s)",
     translation: "the mail / email",
     definition: "Eine elektronische Nachricht.",
@@ -156,7 +156,7 @@ export const A1_Vocabulary = [
     family: "die Mail",
   },
   {
-    id: 14,
+    id: 13,
     word: "Herr",
     translation: "Mr. / man / gentleman",
     definition: "Eine höfliche Anrede für einen Mann.",
@@ -168,7 +168,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 15,
+    id: 14,
     word: "Frau",
     translation: "Mrs. / Ms. / woman",
     definition: "Eine höfliche Anrede für eine Frau.",
@@ -180,7 +180,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 16,
+    id: 15,
     word: "der Name, -n",
     translation: "name",
     definition:
@@ -194,7 +194,7 @@ export const A1_Vocabulary = [
     family: "der Name",
   },
   {
-    id: 17,
+    id: 16,
     word: "die Familie, -n",
     translation: "family",
     definition:
@@ -208,7 +208,7 @@ export const A1_Vocabulary = [
     family: "die Familie",
   },
   {
-    id: 18,
+    id: 17,
     word: "Entschuldigung",
     translation: "excuse me / sorry",
     definition:
@@ -222,7 +222,7 @@ export const A1_Vocabulary = [
     family: "entschuldigen",
   },
   {
-    id: 19,
+    id: 18,
     word: "gehen",
     translation: "to go / to walk",
     definition: "Sich zu Fuß von einem Ort zu einem anderen bewegen.",
@@ -235,7 +235,7 @@ export const A1_Vocabulary = [
     family: "gehen",
   },
   {
-    id: 20,
+    id: 19,
     word: "Wie geht's?",
     translation: "How are you? / How's it going?",
     definition: "Eine informelle Frage nach dem Befinden einer Person.",
@@ -247,7 +247,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 21,
+    id: 20,
     word: "hoffen",
     translation: "to hope",
     definition: "Den starken Wunsch haben, dass etwas eintrifft.",
@@ -260,7 +260,7 @@ export const A1_Vocabulary = [
     family: "hoffen",
   },
   {
-    id: 22,
+    id: 21,
     word: "gut",
     translation: "good / well / fine",
     definition: "Positiv, in Ordnung oder von hoher Qualität.",
@@ -272,7 +272,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 23,
+    id: 22,
     word: "das Land, Länder",
     translation: "country / land",
     definition:
@@ -286,7 +286,7 @@ export const A1_Vocabulary = [
     family: "das Land",
   },
   {
-    id: 24,
+    id: 23,
     word: "Deutschland",
     translation: "Germany",
     definition: "Ein Land in Mitteleuropa mit der Hauptstadt Berlin.",
@@ -299,7 +299,7 @@ export const A1_Vocabulary = [
     family: "Deutsch",
   },
   {
-    id: 25,
+    id: 24,
     word: "Spanien",
     translation: "Spain",
     definition: "Ein Land in Südwesteuropa mit der Hauptstadt Madrid.",
@@ -312,7 +312,7 @@ export const A1_Vocabulary = [
     family: "Spanien",
   },
   {
-    id: 26,
+    id: 25,
     word: "Polen",
     translation: "Poland",
     definition: "Ein Land in Mitteleuropa mit der Hauptstadt Warschau.",
@@ -325,7 +325,7 @@ export const A1_Vocabulary = [
     family: "Polen",
   },
   {
-    id: 27,
+    id: 26,
     word: "Kroatien",
     translation: "Croatia",
     definition: "Ein Land in Südosteuropa mit der Hauptstadt Zagreb.",
@@ -337,7 +337,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 28,
+    id: 27,
     word: "Mexiko",
     translation: "Mexico",
     definition: "Ein Land in Nordamerika mit der Hauptstadt Mexiko-Stadt.",
@@ -349,7 +349,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 29,
+    id: 28,
     word: "Syrien",
     translation: "Syria",
     definition: "Ein Land im Nahen Osten mit der Hauptstadt Damaskus.",
@@ -362,7 +362,7 @@ export const A1_Vocabulary = [
     family: "Syrien",
   },
   {
-    id: 31,
+    id: 29,
     word: "der Irak",
     translation: "Iraq",
     definition: "Ein Land im Nahen Osten mit der Hauptstadt Bagdad.",
@@ -374,7 +374,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 32,
+    id: 30,
     word: "die USA",
     translation: "the USA",
     definition:
@@ -387,7 +387,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 33,
+    id: 31,
     word: "die Stadt, Städte",
     translation: "city / town",
     definition: "Ein großer Ort, in dem viele Menschen wohnen und arbeiten.",
@@ -400,7 +400,7 @@ export const A1_Vocabulary = [
     family: "die Stadt",
   },
   {
-    id: 34,
+    id: 32,
     word: "basteln",
     translation: "to do crafts / make handicrafts",
     definition: "Mit den Händen kleine handwerkliche Arbeiten machen.",
@@ -412,7 +412,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 35,
+    id: 33,
     word: "kommen",
     translation: "to come",
     definition: "Sich auf einen Ort zubewegen oder von einem Ort stammen.",
@@ -425,7 +425,7 @@ export const A1_Vocabulary = [
     family: "kommen",
   },
   {
-    id: 36,
+    id: 34,
     word: "wohnen",
     translation: "to live / to reside",
     definition: "An einem bestimmten Ort zu Hause sein.",
@@ -438,7 +438,7 @@ export const A1_Vocabulary = [
     family: "wohnen",
   },
   {
-    id: 37,
+    id: 35,
     word: "jetzt",
     translation: "now",
     definition: "In diesem Moment, in der Gegenwart.",
@@ -450,7 +450,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 38,
+    id: 36,
     word: "die Musik (Sg.)",
     translation: "music",
     definition: "Töne und Klänge, die man singt oder mit Instrumenten spielt.",
@@ -463,7 +463,7 @@ export const A1_Vocabulary = [
     family: "die Musik",
   },
   {
-    id: 39,
+    id: 37,
     word: "er",
     translation: "he",
     definition: "Ein Pronomen für eine männliche Person.",
@@ -475,7 +475,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 40,
+    id: 38,
     word: "sie",
     translation: "she / they",
     definition:
@@ -488,7 +488,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 41,
+    id: 39,
     word: "erzählen",
     translation: "to tell / narrate",
     definition: "Eine Geschichte oder Begebenheit berichten.",
@@ -500,7 +500,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 42,
+    id: 40,
     word: "der Vorname, -n",
     translation: "first name",
     definition: "Der persönliche Name einer Person, vor dem Familiennamen.",
@@ -513,7 +513,7 @@ export const A1_Vocabulary = [
     family: "der Name",
   },
   {
-    id: 43,
+    id: 41,
     word: "der Familienname, -n",
     translation: "last name / surname",
     definition: "Der Name, den alle Mitglieder einer Familie haben.",
@@ -526,7 +526,7 @@ export const A1_Vocabulary = [
     family: "die Familie",
   },
   {
-    id: 44,
+    id: 42,
     word: "die Adresse, -n",
     translation: "address",
     definition: "Die Angabe, wo jemand wohnt, mit Straße, Hausnummer und Ort.",
@@ -539,7 +539,7 @@ export const A1_Vocabulary = [
     family: "die Adresse",
   },
   {
-    id: 45,
+    id: 43,
     word: "die Straße, -n",
     translation: "street / road",
     definition:
@@ -552,7 +552,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 46,
+    id: 44,
     word: "die Hausnummer, -n",
     translation: "house number",
     definition: "Die Zahl, die ein Haus in einer Straße kennzeichnet.",
@@ -565,7 +565,7 @@ export const A1_Vocabulary = [
     family: "die Nummer",
   },
   {
-    id: 47,
+    id: 45,
     word: "die Ferien (Pl.)",
     translation: "the holidays / vacation",
     definition: "Die schulfreie Zeit oder der Urlaub.",
@@ -577,7 +577,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 48,
+    id: 46,
     word: "der Spaß (Sg.)",
     translation: "the fun",
     definition: "Vergnügen oder Freude an etwas.",
@@ -590,7 +590,7 @@ export const A1_Vocabulary = [
     family: "der Spaß",
   },
   {
-    id: 49,
+    id: 47,
     word: "die Nummer, -n",
     translation: "number",
     definition:
@@ -604,7 +604,7 @@ export const A1_Vocabulary = [
     family: "die Nummer",
   },
   {
-    id: 50,
+    id: 48,
     word: "die Telefonnummer, -n",
     translation: "phone number",
     definition: "Die Zahlenfolge, mit der man jemanden anrufen kann.",
@@ -617,7 +617,7 @@ export const A1_Vocabulary = [
     family: "die Nummer",
   },
   {
-    id: 51,
+    id: 49,
     word: "schreiben",
     translation: "to write",
     definition:
@@ -631,7 +631,7 @@ export const A1_Vocabulary = [
     family: "schreiben",
   },
   {
-    id: 52,
+    id: 50,
     word: "bitte",
     translation: "please / you're welcome",
     definition:
@@ -644,7 +644,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 53,
+    id: 51,
     word: "Auf Wiedersehen.",
     translation: "Goodbye.",
     definition: "Ein höflicher Gruß zum Abschied.",
@@ -656,7 +656,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 54,
+    id: 52,
     word: "die Assistentin, -nen",
     translation: "assistant (female)",
     definition: "Eine Frau, die jemandem bei der Arbeit hilft.",
@@ -668,7 +668,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 55,
+    id: 53,
     word: "wiederholen",
     translation: "to repeat",
     definition: "Etwas noch einmal sagen oder machen.",
@@ -680,7 +680,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 56,
+    id: 54,
     word: "schade",
     translation: "pity / a shame",
     definition: "Ein Ausdruck des Bedauerns.",
@@ -692,7 +692,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 57,
+    id: 55,
     word: "null",
     translation: "zero (0)",
     definition: "Die Zahl 0, also gar nichts.",
@@ -704,7 +704,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 58,
+    id: 56,
     word: "eins",
     translation: "one (1)",
     definition: "Die Zahl 1.",
@@ -716,7 +716,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 59,
+    id: 57,
     word: "zwei",
     translation: "two (2)",
     definition: "Die Zahl 2.",
@@ -728,7 +728,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 60,
+    id: 58,
     word: "drei",
     translation: "three (3)",
     definition: "Die Zahl 3.",
@@ -740,7 +740,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 61,
+    id: 59,
     word: "vier",
     translation: "four (4)",
     definition: "Die Zahl 4.",
@@ -752,7 +752,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 62,
+    id: 60,
     word: "fünf",
     translation: "five (5)",
     definition: "Die Zahl 5.",
@@ -764,7 +764,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 63,
+    id: 61,
     word: "sechs",
     translation: "six (6)",
     definition: "Die Zahl 6.",
@@ -776,7 +776,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 64,
+    id: 62,
     word: "sieben",
     translation: "seven (7)",
     definition: "Die Zahl 7.",
@@ -788,7 +788,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 65,
+    id: 63,
     word: "acht",
     translation: "eight (8)",
     definition: "Die Zahl 8.",
@@ -800,7 +800,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 66,
+    id: 64,
     word: "neun",
     translation: "nine (9)",
     definition: "Die Zahl 9.",
@@ -812,7 +812,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 67,
+    id: 65,
     word: "zehn",
     translation: "ten (10)",
     definition: "Die Zahl 10.",
@@ -824,7 +824,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 68,
+    id: 66,
     word: "das Nachbarland, -länder",
     translation: "neighboring country",
     definition: "Ein Land, das direkt an ein anderes Land grenzt.",
@@ -837,7 +837,7 @@ export const A1_Vocabulary = [
     family: "das Land",
   },
   {
-    id: 69,
+    id: 67,
     word: "Tschüss.",
     translation: "Bye. / See you.",
     definition: "Ein informeller Gruß zum Abschied.",
@@ -849,7 +849,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 70,
+    id: 68,
     word: "hören",
     translation: "to hear / to listen",
     definition: "Geräusche oder Sprache mit den Ohren wahrnehmen.",
@@ -861,7 +861,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 71,
+    id: 69,
     word: "lesen",
     translation: "to read",
     definition: "Geschriebene Wörter mit den Augen aufnehmen und verstehen.",
@@ -874,7 +874,7 @@ export const A1_Vocabulary = [
     family: "lesen",
   },
   {
-    id: 72,
+    id: 70,
     word: "sprechen",
     translation: "to speak / to talk",
     definition: "Mit Wörtern etwas sagen.",
@@ -887,7 +887,7 @@ export const A1_Vocabulary = [
     family: "sprechen",
   },
   {
-    id: 73,
+    id: 71,
     word: "nachsprechen",
     translation: "to repeat (after someone) / to say after",
     definition: "Das wiederholen, was eine andere Person gesagt hat.",
@@ -900,7 +900,7 @@ export const A1_Vocabulary = [
     family: "sprechen",
   },
   {
-    id: 75,
+    id: 72,
     word: "der Strand, Strände",
     translation: "the beach",
     definition: "Der sandige oder kiesige Uferbereich am Meer.",
@@ -912,7 +912,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 76,
+    id: 73,
     word: "markieren",
     translation: "to mark / to highlight",
     definition: "Etwas mit einer Farbe oder einem Zeichen kennzeichnen.",
@@ -925,7 +925,7 @@ export const A1_Vocabulary = [
     family: "markieren",
   },
   {
-    id: 77,
+    id: 74,
     word: "kennen",
     translation: "to know (a person or thing)",
     definition: "Mit einer Person oder Sache vertraut sein.",
@@ -938,7 +938,7 @@ export const A1_Vocabulary = [
     family: "kennen",
   },
   {
-    id: 78,
+    id: 75,
     word: "das Tier, -e",
     translation: "the animal",
     definition: "Ein Lebewesen, das kein Mensch oder keine Pflanze ist.",
@@ -950,7 +950,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 79,
+    id: 76,
     word: "vorstellen",
     translation: "to introduce",
     definition: "Eine Person oder sich selbst anderen Menschen bekannt machen.",
@@ -963,7 +963,7 @@ export const A1_Vocabulary = [
     family: "stellen",
   },
   {
-    id: 80,
+    id: 77,
     word: "ankreuzen",
     translation: "to tick / to mark with a cross",
     definition: "Mit einem Kreuz markieren, was richtig ist.",
@@ -975,7 +975,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 81,
+    id: 78,
     word: "Basketball",
     translation: "basketball",
     definition:
@@ -989,7 +989,7 @@ export const A1_Vocabulary = [
     family: "der Ball",
   },
   {
-    id: 82,
+    id: 79,
     word: "fragen",
     translation: "to ask",
     definition: "Eine Frage stellen, um eine Antwort zu bekommen.",
@@ -1002,7 +1002,7 @@ export const A1_Vocabulary = [
     family: "fragen",
   },
   {
-    id: 83,
+    id: 80,
     word: "antworten",
     translation: "to answer / to reply",
     definition: "Auf eine Frage reagieren und etwas dazu sagen.",
@@ -1015,7 +1015,7 @@ export const A1_Vocabulary = [
     family: "antworten",
   },
   {
-    id: 84,
+    id: 81,
     word: "sagen",
     translation: "to say / to tell",
     definition: "Etwas mit Worten ausdrücken.",
@@ -1027,7 +1027,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 85,
+    id: 82,
     word: "das Foto, -s",
     translation: "photo / picture",
     definition: "Ein Bild, das man mit einer Kamera macht.",
@@ -1040,7 +1040,7 @@ export const A1_Vocabulary = [
     family: "das Foto",
   },
   {
-    id: 87,
+    id: 83,
     word: "das Rad, Räder",
     translation: "the wheel / bike",
     definition: "Kurzform für Fahrrad oder ein rundes Bauteil.",
@@ -1053,7 +1053,7 @@ export const A1_Vocabulary = [
     family: "das Rad",
   },
   {
-    id: 88,
+    id: 84,
     word: "die Frage, -n",
     translation: "question",
     definition: "Ein Satz, mit dem man etwas wissen möchte.",
@@ -1065,7 +1065,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 89,
+    id: 85,
     word: "die Antwort, -en",
     translation: "answer / reply",
     definition: "Das, was man auf eine Frage sagt oder schreibt.",
@@ -1078,7 +1078,7 @@ export const A1_Vocabulary = [
     family: "antworten",
   },
   {
-    id: 91,
+    id: 86,
     word: "der Regen (Sg.)",
     translation: "the rain",
     definition: "Wassertropfen, die aus Wolken auf die Erde fallen.",
@@ -1090,7 +1090,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 92,
+    id: 87,
     word: "die Handynummer, -n",
     translation: "cell phone number / mobile number",
     definition: "Die Telefonnummer eines Mobiltelefons.",
@@ -1103,7 +1103,7 @@ export const A1_Vocabulary = [
     family: "die Nummer",
   },
   {
-    id: 93,
+    id: 88,
     word: "die E-Mail-Adresse, -n",
     translation: "email address",
     definition:
@@ -1117,7 +1117,7 @@ export const A1_Vocabulary = [
     family: "die Adresse",
   },
   {
-    id: 94,
+    id: 89,
     word: "regnen",
     translation: "to rain",
     definition: "Wassertropfen fallen aus dem Himmel.",
@@ -1129,7 +1129,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 95,
+    id: 90,
     word: "das Restaurant, -s",
     translation: "restaurant",
     definition: "Ein Ort, an dem man Essen bestellen und essen kann.",
@@ -1141,7 +1141,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 96,
+    id: 91,
     word: "jung <> alt",
     translation: "young <> old",
     definition: "Gegensatzpaar bezogen auf das Lebensalter.",
@@ -1153,7 +1153,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 98,
+    id: 92,
     word: "Unterstrich",
     translation: "underscore",
     definition:
@@ -1166,7 +1166,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 99,
+    id: 93,
     word: "at",
     translation: "at (@)",
     definition: "Das Klammeraffen-Zeichen für E-Mail-Adressen.",
@@ -1178,7 +1178,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 100,
+    id: 94,
     word: "der Dank",
     translation: "the thanks",
     definition: "Ausdruck der Dankbarkeit.",
@@ -1191,7 +1191,7 @@ export const A1_Vocabulary = [
     family: "danken",
   },
   {
-    id: 101,
+    id: 95,
     word: "noch einmal",
     translation: "once again / again",
     definition: "Eine Wiederholung von etwas.",
@@ -1203,7 +1203,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 102,
+    id: 96,
     word: "machen",
     translation: "to do / to make",
     definition: "Eine Handlung ausführen oder etwas herstellen.",
@@ -1216,7 +1216,7 @@ export const A1_Vocabulary = [
     family: "machen",
   },
   {
-    id: 103,
+    id: 97,
     word: "sicher",
     translation: "safe / secure / sure",
     definition: "Ohne Risiko oder gewiss.",
@@ -1228,7 +1228,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 104,
+    id: 98,
     word: "haben",
     translation: "to have",
     definition: "Besitz oder eine Eigenschaft aufweisen.",
@@ -1240,7 +1240,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 105,
+    id: 99,
     word: "das Problem, -e",
     translation: "problem",
     definition: "Eine schwierige Situation, die man lösen muss.",
@@ -1252,7 +1252,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 106,
+    id: 100,
     word: "vierzehn",
     translation: "fourteen (14)",
     definition: "Die Zahl 14.",
@@ -1264,7 +1264,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 107,
+    id: 101,
     word: "fünfzehn",
     translation: "fifteen (15)",
     definition: "Die Zahl 15.",
@@ -1276,7 +1276,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 108,
+    id: 102,
     word: "sechzehn",
     translation: "sixteen (16)",
     definition: "Die Zahl 16.",
@@ -1288,7 +1288,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 109,
+    id: 103,
     word: "siebzehn",
     translation: "seventeen (17)",
     definition: "Die Zahl 17.",
@@ -1300,7 +1300,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 110,
+    id: 104,
     word: "achtzehn",
     translation: "eighteen (18)",
     definition: "Die Zahl 18.",
@@ -1312,7 +1312,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 111,
+    id: 105,
     word: "neunzehn",
     translation: "nineteen (19)",
     definition: "Die Zahl 19.",
@@ -1324,7 +1324,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 112,
+    id: 106,
     word: "zwanzig",
     translation: "twenty (20)",
     definition: "Die Zahl 20.",
@@ -1336,7 +1336,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 113,
+    id: 107,
     word: "einundzwanzig",
     translation: "twenty-one (21)",
     definition: "Die Zahl 21.",
@@ -1348,7 +1348,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 114,
+    id: 108,
     word: "dreißig",
     translation: "thirty (30)",
     definition: "Die Zahl 30.",
@@ -1360,7 +1360,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 115,
+    id: 109,
     word: "vierzig",
     translation: "forty (40)",
     definition: "Die Zahl 40.",
@@ -1372,7 +1372,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 116,
+    id: 110,
     word: "fünfzig",
     translation: "fifty (50)",
     definition: "Die Zahl 50.",
@@ -1384,7 +1384,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 117,
+    id: 111,
     word: "sechzig",
     translation: "sixty (60)",
     definition: "Die Zahl 60.",
@@ -1396,7 +1396,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 118,
+    id: 112,
     word: "siebzig",
     translation: "seventy (70)",
     definition: "Die Zahl 70.",
@@ -1408,7 +1408,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 119,
+    id: 113,
     word: "achtzig",
     translation: "eighty (80)",
     definition: "Die Zahl 80.",
@@ -1420,7 +1420,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 120,
+    id: 114,
     word: "neunzig",
     translation: "ninety (90)",
     definition: "Die Zahl 90.",
@@ -1432,7 +1432,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 121,
+    id: 115,
     word: "hundert",
     translation: "hundred (100)",
     definition: "Die Zahl 100.",
@@ -1444,7 +1444,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 122,
+    id: 116,
     word: "klar",
     translation: "clear / sure / of course",
     definition: "Eindeutig, verständlich oder zustimmend.",
@@ -1456,7 +1456,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 123,
+    id: 117,
     word: "ja",
     translation: "yes",
     definition: "Ein zustimmendes Wort.",
@@ -1468,7 +1468,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 124,
+    id: 118,
     word: "nein",
     translation: "no",
     definition: "Ein verneinendes Wort.",
@@ -1480,7 +1480,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 125,
+    id: 119,
     word: "nicht",
     translation: "not",
     definition: "Ein Wort zur Verneinung von Sätzen oder Eigenschaften.",
@@ -1492,7 +1492,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 126,
+    id: 120,
     word: "lernen",
     translation: "to learn / to study",
     definition: "Wissen oder Fähigkeiten neu erwerben.",
@@ -1505,7 +1505,7 @@ export const A1_Vocabulary = [
     family: "lernen",
   },
   {
-    id: 127,
+    id: 121,
     word: "schön",
     translation: "beautiful / nice / lovely",
     definition: "Optisch oder akustisch sehr angenehm, gut.",
@@ -1517,7 +1517,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 128,
+    id: 122,
     word: "der Deutschkurs, -e",
     translation: "German course",
     definition: "Ein Kurs, in dem man die deutsche Sprache lernt.",
@@ -1530,7 +1530,7 @@ export const A1_Vocabulary = [
     family: "der Kurs",
   },
   {
-    id: 129,
+    id: 123,
     word: "hier",
     translation: "here",
     definition: "An diesem Ort.",
@@ -1542,7 +1542,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 130,
+    id: 124,
     word: "auch",
     translation: "also / too",
     definition: "Ebenfalls, in gleicher Weise.",
@@ -1554,7 +1554,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 131,
+    id: 125,
     word: "die Sprache, -n",
     translation: "language",
     definition:
@@ -1568,7 +1568,7 @@ export const A1_Vocabulary = [
     family: "sprechen",
   },
   {
-    id: 132,
+    id: 126,
     word: "Spanisch",
     translation: "Spanish",
     definition: "Die spanische Sprache.",
@@ -1581,7 +1581,7 @@ export const A1_Vocabulary = [
     family: "Spanien",
   },
   {
-    id: 133,
+    id: 127,
     word: "Italienisch",
     translation: "Italian",
     definition: "Die italienische Sprache.",
@@ -1594,7 +1594,7 @@ export const A1_Vocabulary = [
     family: "Italien",
   },
   {
-    id: 134,
+    id: 128,
     word: "Englisch",
     translation: "English",
     definition: "Die englische Sprache.",
@@ -1607,7 +1607,7 @@ export const A1_Vocabulary = [
     family: "England",
   },
   {
-    id: 135,
+    id: 129,
     word: "Deutsch",
     translation: "German",
     definition: "Die deutsche Sprache.",
@@ -1620,7 +1620,7 @@ export const A1_Vocabulary = [
     family: "Deutsch",
   },
   {
-    id: 136,
+    id: 130,
     word: "Farsi",
     translation: "Farsi / Persian",
     definition: "Die persische Sprache.",
@@ -1632,7 +1632,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 137,
+    id: 131,
     word: "Arabisch",
     translation: "Arabic",
     definition: "Die arabische Sprache.",
@@ -1644,7 +1644,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 138,
+    id: 132,
     word: "Hindi",
     translation: "Hindi",
     definition: "Die Hindi-Sprache.",
@@ -1656,7 +1656,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 139,
+    id: 133,
     word: "Polnisch",
     translation: "Polish",
     definition: "Die polnische Sprache.",
@@ -1669,7 +1669,7 @@ export const A1_Vocabulary = [
     family: "Polen",
   },
   {
-    id: 141,
+    id: 134,
     word: "Bulgarisch",
     translation: "Bulgarian",
     definition: "Die bulgarische Sprache.",
@@ -1681,7 +1681,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 143,
+    id: 135,
     word: "ein bisschen",
     translation: "a little bit",
     definition: "Eine kleine Menge oder Grad von etwas.",
@@ -1693,7 +1693,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 144,
+    id: 136,
     word: "gemütlich",
     translation: "cozy / comfortable",
     definition: "Angenehm und entspannend.",
@@ -1705,7 +1705,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 145,
+    id: 137,
     word: "die Homepage, -s",
     translation: "homepage / website",
     definition: "Die Internetseite einer Person oder Organisation.",
@@ -1717,7 +1717,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 146,
+    id: 138,
     word: "da",
     translation: "there / here / present",
     definition: "An diesem Ort oder anwesend sein.",
@@ -1729,7 +1729,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 147,
+    id: 139,
     word: "für",
     translation: "for",
     definition: "Eine Präposition, die einen Zweck oder Empfänger angibt.",
@@ -1741,7 +1741,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 148,
+    id: 140,
     word: "die Angst, Ängste",
     translation: "the fear / anxiety",
     definition: "Ein unangenehmes Gefühl der Bedrohung oder Besorgnis.",
@@ -1753,7 +1753,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 151,
+    id: 141,
     word: "der Beruf, -e",
     translation: "job / profession / occupation",
     definition:
@@ -1767,7 +1767,7 @@ export const A1_Vocabulary = [
     family: "der Beruf",
   },
   {
-    id: 152,
+    id: 142,
     word: "der Informatiker, -",
     translation: "computer scientist / IT specialist",
     definition:
@@ -1781,7 +1781,7 @@ export const A1_Vocabulary = [
     family: "die Informatik",
   },
   {
-    id: 153,
+    id: 143,
     word: "die Klassenarbeit, -en",
     translation: "the test / exam",
     definition: "Eine schriftliche Prüfung in der Schule.",
@@ -1794,7 +1794,7 @@ export const A1_Vocabulary = [
     family: "die Arbeit",
   },
   {
-    id: 154,
+    id: 144,
     word: "das Fach, Fächer",
     translation: "the subject / compartment",
     definition: "Ein Unterrichtsfach oder ein Ablagefach.",
@@ -1806,7 +1806,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 155,
+    id: 145,
     word: "die Lageristin, -nen",
     translation: "warehouse worker / stockist (female)",
     definition: "Eine Frau, die im Lager arbeitet und Waren verwaltet.",
@@ -1818,7 +1818,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 156,
+    id: 146,
     word: "die Lehrerin, -nen",
     translation: "teacher (female)",
     definition: "Eine Frau, die Schülern oder Studenten etwas beibringt.",
@@ -1831,7 +1831,7 @@ export const A1_Vocabulary = [
     family: "der Lehrer",
   },
   {
-    id: 157,
+    id: 147,
     word: "der Schauspieler, -",
     translation: "actor",
     definition: "Eine Person, die in Filmen oder im Theater spielt.",
@@ -1844,7 +1844,7 @@ export const A1_Vocabulary = [
     family: "der Schauspieler",
   },
   {
-    id: 158,
+    id: 148,
     word: "die Pilotin, -nen",
     translation: "pilot (female)",
     definition: "Eine Frau, die ein Flugzeug fliegt.",
@@ -1856,7 +1856,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 159,
+    id: 149,
     word: "die Grundschule, -n",
     translation: "the elementary school / primary school",
     definition: "Die Schule für die ersten Schuljahre von Kindern.",
@@ -1869,7 +1869,7 @@ export const A1_Vocabulary = [
     family: "die Schule",
   },
   {
-    id: 160,
+    id: 150,
     word: "aufpassen",
     translation: "to pay attention / watch out",
     definition: "Konzentriert zuhören oder vorsichtig sein.",
@@ -1881,7 +1881,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 161,
+    id: 151,
     word: "die CD, -s",
     translation: "the CD",
     definition: "Ein optischer Datenträger für Musik oder Daten.",
@@ -1893,7 +1893,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 162,
+    id: 152,
     word: "der Traumberuf, -e",
     translation: "dream job",
     definition: "Der Beruf, den man sich am meisten wünscht.",
@@ -1906,7 +1906,7 @@ export const A1_Vocabulary = [
     family: "der Beruf",
   },
   {
-    id: 163,
+    id: 153,
     word: "das Kind, -er",
     translation: "child",
     definition: "Ein junger Mensch, der noch nicht erwachsen ist.",
@@ -1919,7 +1919,7 @@ export const A1_Vocabulary = [
     family: "das Kind",
   },
   {
-    id: 164,
+    id: 154,
     word: "das Mädchen, -",
     translation: "girl",
     definition: "Ein weibliches Kind.",
@@ -1931,7 +1931,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 165,
+    id: 155,
     word: "der Junge, -n",
     translation: "boy",
     definition: "Ein männliches Kind.",
@@ -1943,7 +1943,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 166,
+    id: 156,
     word: "zusammenpassen",
     translation: "to match / to fit together",
     definition: "Gut zueinander passen oder eine richtige Kombination bilden.",
@@ -1956,7 +1956,7 @@ export const A1_Vocabulary = [
     family: "zusammen",
   },
   {
-    id: 168,
+    id: 157,
     word: "mitlesen",
     translation: "to read along",
     definition:
@@ -1970,7 +1970,7 @@ export const A1_Vocabulary = [
     family: "lesen",
   },
   {
-    id: 169,
+    id: 158,
     word: "laut lesen",
     translation: "to read aloud",
     definition: "Einen Text so lesen, dass andere es hören können.",
@@ -1982,7 +1982,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 170,
+    id: 159,
     word: "chatten",
     translation: "to chat",
     definition: "Sich schriftlich über das Internet unterhalten.",
@@ -1995,7 +1995,7 @@ export const A1_Vocabulary = [
     family: "der Chat",
   },
   {
-    id: 172,
+    id: 160,
     word: "suchen",
     translation: "to search / to look for",
     definition: "Nach etwas oder jemandem Ausschau halten, um es zu finden.",
@@ -2007,7 +2007,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 174,
+    id: 161,
     word: "das Smartphone, -s",
     translation: "the smartphone",
     definition: "Ein modernes Mobiltelefon mit Computerfunktionen.",
@@ -2019,7 +2019,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 175,
+    id: 162,
     word: "dumm",
     translation: "stupid / silly",
     definition: "Nicht intelligent oder unüberlegt.",
@@ -2031,7 +2031,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 176,
+    id: 163,
     word: "klatschen",
     translation: "to clap",
     definition:
@@ -2044,7 +2044,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 177,
+    id: 164,
     word: "blöd",
     translation: "stupid / annoying",
     definition: "Ärgerlich oder nicht klug.",
@@ -2056,7 +2056,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 178,
+    id: 165,
     word: "die Nachricht, -en",
     translation: "message / news",
     definition: "Eine Information, die man jemandem schickt oder übermittelt.",
@@ -2068,7 +2068,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 179,
+    id: 166,
     word: "das Wort, Wörter",
     translation: "word",
     definition: "Eine sprachliche Einheit mit einer bestimmten Bedeutung.",
@@ -2080,7 +2080,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 180,
+    id: 167,
     word: "überall",
     translation: "everywhere",
     definition: "An jedem Ort.",
@@ -2093,7 +2093,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 181,
+    id: 168,
     word: "die Information, -en",
     translation: "information",
     definition: "Wissen oder Fakten über etwas.",
@@ -2105,7 +2105,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 182,
+    id: 169,
     word: "die Idee, -n",
     translation: "idea",
     definition: "Ein Einfall oder Plan im Kopf.",
@@ -2117,7 +2117,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 183,
+    id: 170,
     word: "das Buch, Bücher",
     translation: "book",
     definition:
@@ -2131,7 +2131,7 @@ export const A1_Vocabulary = [
     family: "das Buch",
   },
   {
-    id: 184,
+    id: 171,
     word: "das Heft, -e",
     translation: "notebook",
     definition: "Ein kleines Buch aus Papier zum Schreiben und Notieren.",
@@ -2143,7 +2143,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 185,
+    id: 172,
     word: "googeln",
     translation: "to google / search online",
     definition: "Im Internet mit einer Suchmaschine suchen.",
@@ -2155,7 +2155,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 186,
+    id: 173,
     word: "das Handy, -s",
     translation: "cell phone / mobile phone",
     definition: "Ein tragbares Telefon fürstliche Kommunikation.",
@@ -2167,7 +2167,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 187,
+    id: 174,
     word: "der Laptop, -s",
     translation: "laptop",
     definition: "Ein tragbarer Computer.",
@@ -2179,7 +2179,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 189,
+    id: 175,
     word: "der Tisch, -e",
     translation: "table",
     definition: "Ein Möbelstück mit einer Platte und Beinen.",
@@ -2192,7 +2192,7 @@ export const A1_Vocabulary = [
     family: "der Tisch",
   },
   {
-    id: 190,
+    id: 176,
     word: "das Theater, -",
     translation: "the theater",
     definition: "Eine Spielstätte für dramatische Aufführungen.",
@@ -2204,7 +2204,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 191,
+    id: 177,
     word: "die Lampe, -n",
     translation: "lamp",
     definition: "Ein Gerät, das Licht macht.",
@@ -2216,7 +2216,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 192,
+    id: 178,
     word: "das Glas, Gläser",
     translation: "glass",
     definition: "Ein Gefäß zum Trinken aus Glas.",
@@ -2228,7 +2228,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 193,
+    id: 179,
     word: "der Architekt, -en",
     translation: "the architect (male)",
     definition: "Jemand, der Gebäude entwirft und plant.",
@@ -2241,7 +2241,7 @@ export const A1_Vocabulary = [
     family: "der Architekt",
   },
   {
-    id: 194,
+    id: 180,
     word: "die Flasche, -n",
     translation: "bottle",
     definition: "Ein schmales Gefäß für Flüssigkeiten.",
@@ -2253,7 +2253,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 195,
+    id: 181,
     word: "der Kaffee, -s",
     translation: "coffee",
     definition: "Ein warmes, braunes Heißgetränk.",
@@ -2266,7 +2266,7 @@ export const A1_Vocabulary = [
     family: "der Kaffee",
   },
   {
-    id: 196,
+    id: 182,
     word: "der Rucksack, -säcke",
     translation: "backpack",
     definition: "Eine Tasche, die man auf dem Rücken trägt.",
@@ -2278,7 +2278,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 197,
+    id: 183,
     word: "die Tasche, -n",
     translation: "bag",
     definition: "Ein Behältnis zum Transportieren von Gegenständen.",
@@ -2290,7 +2290,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 198,
+    id: 184,
     word: "wahr",
     translation: "true",
     definition: "Der Wirklichkeit entsprechend, nicht gelogen.",
@@ -2302,7 +2302,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 199,
+    id: 185,
     word: "die Jacke, -n",
     translation: "jacket",
     definition: "Ein Kleidungsstück für den Oberkörper für draußen.",
@@ -2314,7 +2314,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 200,
+    id: 186,
     word: "das Auto, -s",
     translation: "car",
     definition: "Ein Kraftfahrzeug mit vier Rädern.",
@@ -2326,7 +2326,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 201,
+    id: 187,
     word: "das Geld (Sg.)",
     translation: "money",
     definition: "Münzen und Banknoten zum Bezahlen.",
@@ -2339,7 +2339,7 @@ export const A1_Vocabulary = [
     family: "das Geld",
   },
   {
-    id: 202,
+    id: 188,
     word: "der/die Angestellte, -n",
     translation: "the employee",
     definition: "Eine in einem Betrieb angestellte Person.",
@@ -2352,7 +2352,7 @@ export const A1_Vocabulary = [
     family: "stellen",
   },
   {
-    id: 204,
+    id: 189,
     word: "aber",
     translation: "but",
     definition: "Eine Konjunktion für einen Gegensatz.",
@@ -2364,7 +2364,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 205,
+    id: 190,
     word: "abgeben",
     translation: "to hand in",
     definition: "Etwas jemandem übergeben.",
@@ -2377,7 +2377,7 @@ export const A1_Vocabulary = [
     family: "geben",
   },
   {
-    id: 206,
+    id: 191,
     word: "wichtig",
     translation: "important",
     definition: "Von großer Bedeutung.",
@@ -2389,7 +2389,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 207,
+    id: 192,
     word: "alle",
     translation: "all / everyone",
     definition: "Die Gesamtheit von Personen oder Dingen.",
@@ -2401,7 +2401,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 208,
+    id: 193,
     word: "das Haus, Häuser",
     translation: "house",
     definition: "Ein Gebäude, in dem Menschen wohnen.",
@@ -2414,7 +2414,7 @@ export const A1_Vocabulary = [
     family: "das Haus",
   },
   {
-    id: 209,
+    id: 194,
     word: "aus dem Haus gehen",
     translation: "to leave the house",
     definition: "Das Haus verlassen, um nach draußen zu gehen.",
@@ -2427,7 +2427,7 @@ export const A1_Vocabulary = [
     family: "gehen",
   },
   {
-    id: 210,
+    id: 195,
     word: "Achtung (Sg.)",
     translation: "attention / caution",
     definition: "Ein Warnruf: Pass auf!",
@@ -2439,7 +2439,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 211,
+    id: 196,
     word: "zeigen",
     translation: "to show",
     definition: "Etwas mit dem Finger oder einer Gedeck aufzeigen.",
@@ -2451,7 +2451,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 212,
+    id: 197,
     word: "der Kursraum, -räume",
     translation: "classroom (for a course)",
     definition: "Ein Raum, in dem ein Kurs stattfindet.",
@@ -2464,7 +2464,7 @@ export const A1_Vocabulary = [
     family: "der Kurs",
   },
   {
-    id: 213,
+    id: 198,
     word: "das Fenster, -",
     translation: "window",
     definition: "Eine Öffnung in der Wand mit Glas zum Durchschauen.",
@@ -2476,7 +2476,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 214,
+    id: 199,
     word: "die Tür, -en",
     translation: "door",
     definition: "Ein beweglicher Verschluss für den Eingang oder Durchgang.",
@@ -2488,7 +2488,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 215,
+    id: 200,
     word: "das Whiteboard, -s",
     translation: "whiteboard",
     definition:
@@ -2501,7 +2501,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 216,
+    id: 201,
     word: "allein",
     translation: "alone",
     definition: "Ohne andere Personen.",
@@ -2513,7 +2513,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 217,
+    id: 202,
     word: "das Waschbecken, -",
     translation: "washbasin / sink",
     definition: "Ein Becken zum Waschen von Händen oder Gesicht.",
@@ -2526,7 +2526,7 @@ export const A1_Vocabulary = [
     family: "waschen",
   },
   {
-    id: 218,
+    id: 203,
     word: "der Computer, -",
     translation: "computer",
     definition: "Ein elektronisches Gerät zur Datenverarbeitung.",
@@ -2539,7 +2539,7 @@ export const A1_Vocabulary = [
     family: "der Computer",
   },
   {
-    id: 219,
+    id: 204,
     word: "also",
     translation: "so / therefore",
     definition: "Ein Wort für eine Folgerung.",
@@ -2551,7 +2551,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 221,
+    id: 205,
     word: "das Fahrrad, Fahrräder",
     translation: "bicycle / bike",
     definition: "Ein zweirädriges Fahrzeug, das man mit Muskelkraft antreibt.",
@@ -2564,7 +2564,7 @@ export const A1_Vocabulary = [
     family: "das Rad",
   },
   {
-    id: 222,
+    id: 206,
     word: "an",
     translation: "at / on / to",
     definition: "Eine Präposition für Ort oder Zeit.",
@@ -2576,7 +2576,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 223,
+    id: 207,
     word: "kurz",
     translation: "short",
     definition: "Von geringer Länge oder Dauer.",
@@ -2588,7 +2588,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 224,
+    id: 208,
     word: "lang",
     translation: "long",
     definition: "Von großer Länge oder Dauer.",
@@ -2600,7 +2600,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 225,
+    id: 209,
     word: "die Markierung, -en",
     translation: "marker / mark",
     definition: "Ein Zeichen oder eine Hervorhebung.",
@@ -2613,7 +2613,7 @@ export const A1_Vocabulary = [
     family: "markieren",
   },
   {
-    id: 226,
+    id: 210,
     word: "auf Deutsch",
     translation: "in German",
     definition: "In der deutschen Sprache.",
@@ -2626,7 +2626,7 @@ export const A1_Vocabulary = [
     family: "Deutsch",
   },
   {
-    id: 227,
+    id: 211,
     word: "Vielen Dank!",
     translation: "Many thanks! / Thank you very much!",
     definition: "Ein sehr höflicher Ausdruck des Dankes.",
@@ -2638,7 +2638,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 228,
+    id: 212,
     word: "der Anrufbeantworter, -",
     translation: "the answering machine",
     definition: "Ein Gerät, das Anrufe aufnimmt.",
@@ -2651,7 +2651,7 @@ export const A1_Vocabulary = [
     family: "anrufen",
   },
   {
-    id: 229,
+    id: 213,
     word: "zu dritt",
     translation: "in a group of three / threesome",
     definition: "Zu drei Personen zusammen.",
@@ -2663,7 +2663,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 231,
+    id: 214,
     word: "die Katze, -n",
     translation: "cat",
     definition: "Ein beliebtes Haustier mit vier Pfoten und Fell.",
@@ -2675,7 +2675,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 232,
+    id: 215,
     word: "der Hund, -e",
     translation: "dog",
     definition: "Ein treues Haustier mit vier Beinen.",
@@ -2687,7 +2687,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 233,
+    id: 216,
     word: "richtig",
     translation: "correct / right",
     definition: "Ohne Fehler, wahr.",
@@ -2699,7 +2699,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 237,
+    id: 217,
     word: "kaputt",
     translation: "broken",
     definition: "Beschädigt und nicht mehr funktionstüchtig.",
@@ -2711,7 +2711,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 238,
+    id: 218,
     word: "schwarz",
     translation: "black",
     definition: "Die dunkleste Farbe, das Gegenteil von weiß.",
@@ -2723,7 +2723,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 239,
+    id: 219,
     word: "der Artikel, -",
     translation: "the article",
     definition: "Ein Text in der Zeitung oder das Wort der/die/das.",
@@ -2735,7 +2735,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 240,
+    id: 220,
     word: "vielleicht",
     translation: "maybe / perhaps",
     definition: "Möglicherweise, unsicher.",
@@ -2747,7 +2747,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 241,
+    id: 221,
     word: "zu Hause",
     translation: "at home",
     definition: "An dem Ort, wo man wohnt.",
@@ -2759,7 +2759,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 242,
+    id: 222,
     word: "auf",
     translation: "on / open",
     definition: "Eine Präposition für einen Ort oben auf etwas.",
@@ -2771,7 +2771,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 244,
+    id: 223,
     word: "zu viert",
     translation: "in a group of four / foursome",
     definition: "Zu vier Personen zusammen.",
@@ -2783,7 +2783,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 245,
+    id: 224,
     word: "jeder / jede",
     translation: "every / each / everyone",
     definition: "Alle Personen oder Dinge einer Gruppe einzeln betrachtet.",
@@ -2795,7 +2795,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 246,
+    id: 225,
     word: "aus",
     translation: "from / out of / off",
     definition: "Eine Präposition für Herkunft oder Material.",
@@ -2807,7 +2807,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 247,
+    id: 226,
     word: "aussehen",
     translation: "to look (like)",
     definition: "Einen bestimmten Eindruck machen.",
@@ -2820,7 +2820,7 @@ export const A1_Vocabulary = [
     family: "sehen",
   },
   {
-    id: 249,
+    id: 227,
     word: "bald",
     translation: "soon",
     definition: "In kurzer Zeit.",
@@ -2832,7 +2832,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 250,
+    id: 228,
     word: "gern",
     translation: "gladly / with pleasure",
     definition: "Mit Freude oder Zustimmung etwas tun.",
@@ -2844,7 +2844,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 251,
+    id: 229,
     word: "die Band, -s",
     translation: "the band",
     definition: "Eine Gruppe von Musikern.",
@@ -2856,7 +2856,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 252,
+    id: 230,
     word: "schnell",
     translation: "fast / quick",
     definition: "Mit hoher Geschwindigkeit.",
@@ -2868,7 +2868,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 253,
+    id: 231,
     word: "so",
     translation: "so / like this / thus",
     definition: "Auf diese Art und Weise.",
@@ -2880,7 +2880,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 254,
+    id: 232,
     word: "langsam",
     translation: "slow / slowly",
     definition: "Mit geringer Geschwindigkeit.",
@@ -2892,7 +2892,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 255,
+    id: 233,
     word: "wissen",
     translation: "to know (a fact)",
     definition: "Informationen im Kopf haben oder kennen.",
@@ -2904,7 +2904,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 256,
+    id: 234,
     word: "beide",
     translation: "both",
     definition: "Alle zwei Personen oder Dinge.",
@@ -2916,7 +2916,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 257,
+    id: 235,
     word: "besetzt",
     translation: "occupied / busy",
     definition: "Nicht frei, schon von jemandem benutzt.",
@@ -2928,7 +2928,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 259,
+    id: 236,
     word: "freundlich",
     translation: "friendly",
     definition: "Nett, sympathisch und zuvorkommend.",
@@ -2941,7 +2941,7 @@ export const A1_Vocabulary = [
     family: "der Freund",
   },
   {
-    id: 260,
+    id: 237,
     word: "zu zweit",
     translation: "in pairs / by twos",
     definition: "Zu zwei Personen zusammen.",
@@ -2953,7 +2953,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 261,
+    id: 238,
     word: "der Bahnhof, -höfe",
     translation: "train station",
     definition: "Ein Ort, an dem Züge halten und abfahren.",
@@ -2965,7 +2965,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 262,
+    id: 239,
     word: "die Bibliothek, -en",
     translation: "the library",
     definition: "Ein Ort, an dem man Bücher leihen kann.",
@@ -2977,7 +2977,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 263,
+    id: 240,
     word: "der Markt, Märkte",
     translation: "market",
     definition: "Ein Ort, an dem Händler Waren aufbauen und verkaufen.",
@@ -2990,7 +2990,7 @@ export const A1_Vocabulary = [
     family: "der Markt",
   },
   {
-    id: 264,
+    id: 241,
     word: "der Marktplatz, -plätze",
     translation: "market square",
     definition: "Ein großer Platz in der Stadtmitte für Märkte.",
@@ -3003,7 +3003,7 @@ export const A1_Vocabulary = [
     family: "der Platz",
   },
   {
-    id: 265,
+    id: 242,
     word: "bisschen",
     translation: "a little",
     definition: "Eine kleine Menge.",
@@ -3015,7 +3015,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 268,
+    id: 243,
     word: "blond",
     translation: "blond",
     definition: "Mit hellen gelben Haaren.",
@@ -3027,7 +3027,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 269,
+    id: 244,
     word: "der Gruß, Grüße",
     translation: "greeting",
     definition: "Eine freundliche Geste oder Nachricht zur Begrüßung.",
@@ -3040,7 +3040,7 @@ export const A1_Vocabulary = [
     family: "der Gruß",
   },
   {
-    id: 270,
+    id: 245,
     word: "arbeiten",
     translation: "to work",
     definition: "Eine berufliche Tätigkeit ausüben.",
@@ -3053,7 +3053,7 @@ export const A1_Vocabulary = [
     family: "die Arbeit",
   },
   {
-    id: 271,
+    id: 246,
     word: "leben",
     translation: "to live",
     definition: "Am Leben sein oder an einem Ort wohnen.",
@@ -3065,7 +3065,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 272,
+    id: 247,
     word: "lieben",
     translation: "to love",
     definition:
@@ -3079,7 +3079,7 @@ export const A1_Vocabulary = [
     family: "lieben",
   },
   {
-    id: 273,
+    id: 248,
     word: "heute",
     translation: "today",
     definition: "An diesem aktuellen Tag.",
@@ -3091,7 +3091,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 274,
+    id: 249,
     word: "die Bluse, -n",
     translation: "the blouse",
     definition: "Ein Oberteil für Frauen.",
@@ -3103,7 +3103,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 275,
+    id: 250,
     word: "die Bedienung, -en",
     translation: "service / waiter / waitress",
     definition: "Das Personal, das in einem Restaurant Gäste bedient.",
@@ -3115,7 +3115,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 276,
+    id: 251,
     word: "bringen",
     translation: "to bring",
     definition: "Etwas zu einem Ort tragen.",
@@ -3128,7 +3128,7 @@ export const A1_Vocabulary = [
     family: "bringen",
   },
   {
-    id: 277,
+    id: 252,
     word: "der Comic, -s",
     translation: "the comic",
     definition: "Eine Geschichte in Bildern.",
@@ -3140,7 +3140,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 278,
+    id: 253,
     word: "dick",
     translation: "thick / fat",
     definition: "Mit großem Umfang.",
@@ -3152,7 +3152,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 279,
+    id: 254,
     word: "die Disco, -s",
     translation: "the disco",
     definition: "Ein Ort zum Tanzen mit Musik.",
@@ -3164,7 +3164,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 280,
+    id: 255,
     word: "der Cappuccino, -s",
     translation: "cappuccino",
     definition: "Ein italienisches Kaffeegetränk mit Espresso und Milchschaum.",
@@ -3176,7 +3176,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 281,
+    id: 256,
     word: "die Cola, -s",
     translation: "cola",
     definition: "Ein süßes, kohlensäurehaltiges Erfrischungsgetränk.",
@@ -3188,7 +3188,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 282,
+    id: 257,
     word: "der Espresso, -s",
     translation: "espresso",
     definition: "Ein sehr starker, kleiner Kaffee.",
@@ -3200,7 +3200,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 283,
+    id: 258,
     word: "die Limo, -s",
     translation: "limo / lemonade",
     definition: "Eine umgangssprachliche Abkürzung für Limonade.",
@@ -3212,7 +3212,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 284,
+    id: 259,
     word: "die Milch (Sg.)",
     translation: "milk",
     definition:
@@ -3225,7 +3225,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 285,
+    id: 260,
     word: "der Saft, Säfte",
     translation: "juice",
     definition: "Das ausgepresste Getränk aus Früchten.",
@@ -3238,7 +3238,7 @@ export const A1_Vocabulary = [
     family: "der Saft",
   },
   {
-    id: 286,
+    id: 261,
     word: "der Tee, -s",
     translation: "tea",
     definition: "Ein Heißgetränk aus aufgebrühten Teeblättern oder Kräutern.",
@@ -3250,7 +3250,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 287,
+    id: 262,
     word: "das Wasser (Sg.)",
     translation: "water",
     definition:
@@ -3264,7 +3264,7 @@ export const A1_Vocabulary = [
     family: "das Wasser",
   },
   {
-    id: 288,
+    id: 263,
     word: "trinken",
     translation: "to drink",
     definition: "Flüssigkeit zu sich nehmen.",
@@ -3276,7 +3276,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 289,
+    id: 264,
     word: "der Durst (Sg.)",
     translation: "thirst",
     definition: "Das Bedürfnis, etwas zu trinken.",
@@ -3288,7 +3288,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 291,
+    id: 265,
     word: "der Apfel, Äpfel",
     translation: "apple",
     definition: "Eine runde, knackige Baumfrucht mit Schale.",
@@ -3300,7 +3300,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 292,
+    id: 266,
     word: "die Banane, -n",
     translation: "banana",
     definition: "Eine längliche, gelbe Tropenfrucht.",
@@ -3312,7 +3312,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 293,
+    id: 267,
     word: "die Brezel, -n",
     translation: "pretzel",
     definition: "Ein charakteristisches Laugengebäck in Knotenform.",
@@ -3324,7 +3324,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 294,
+    id: 268,
     word: "das Brötchen, -",
     translation: "bread roll",
     definition: "Ein kleiner, runder oder ovaler Laib Brot.",
@@ -3337,7 +3337,7 @@ export const A1_Vocabulary = [
     family: "das Brot",
   },
   {
-    id: 295,
+    id: 269,
     word: "das Eis (Sg.)",
     translation: "ice cream / ice",
     definition: "Eine gefrorene, süße Speise oder gefrorenes Wasser.",
@@ -3349,7 +3349,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 296,
+    id: 270,
     word: "die Kiwi, -s",
     translation: "kiwi",
     definition: "Eine kleine, haarige Frucht mit grünem Fruchtfleisch.",
@@ -3361,7 +3361,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 297,
+    id: 271,
     word: "der Kuchen, -",
     translation: "cake",
     definition: "Eine süße Backware aus Teig.",
@@ -3374,7 +3374,7 @@ export const A1_Vocabulary = [
     family: "der Kuchen",
   },
   {
-    id: 298,
+    id: 272,
     word: "das Müsli, -s",
     translation: "muesli / granola",
     definition: "Eine Mischung aus Getreideflocken und Früchten zum Frühstück.",
@@ -3386,7 +3386,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 299,
+    id: 273,
     word: "essen",
     translation: "to eat",
     definition: "Feste Nahrung zu sich nehmen.",
@@ -3399,7 +3399,7 @@ export const A1_Vocabulary = [
     family: "das Essen",
   },
   {
-    id: 300,
+    id: 274,
     word: "der Hunger (Sg.)",
     translation: "hunger",
     definition: "Das körperliche Bedürfnis nach Nahrung.",
@@ -3411,7 +3411,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 301,
+    id: 275,
     word: "kosten",
     translation: "to cost",
     definition: "Einen bestimmten Preis haben.",
@@ -3423,7 +3423,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 302,
+    id: 276,
     word: "der Euro, -s",
     translation: "euro",
     definition: "Die offizielle Währung in vielen europäischen Ländern.",
@@ -3435,7 +3435,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 303,
+    id: 277,
     word: "der Cent, -s",
     translation: "cent",
     definition: "Der hundertste Teil eines Euros.",
@@ -3447,7 +3447,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 304,
+    id: 278,
     word: "etwas",
     translation: "something / a little",
     definition: "Eine unbestimmte Sache oder Menge.",
@@ -3459,7 +3459,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 305,
+    id: 279,
     word: "frei",
     translation: "free / available",
     definition: "Nicht besetzt oder ungebunden.",
@@ -3471,7 +3471,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 306,
+    id: 280,
     word: "mehr",
     translation: "more",
     definition: "Eine größere Menge von etwas.",
@@ -3483,7 +3483,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 307,
+    id: 281,
     word: "das Wörterbuch, -bücher",
     translation: "dictionary",
     definition:
@@ -3497,7 +3497,7 @@ export const A1_Vocabulary = [
     family: "das Buch",
   },
   {
-    id: 308,
+    id: 282,
     word: "duschen",
     translation: "to take a shower",
     definition: "Sich unter Wasser waschen.",
@@ -3509,7 +3509,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 309,
+    id: 283,
     word: "der Kaufmann, Kaufleute",
     translation: "the businessman",
     definition: "Ein Beruf im Handel.",
@@ -3522,7 +3522,7 @@ export const A1_Vocabulary = [
     family: "kaufen",
   },
   {
-    id: 310,
+    id: 284,
     word: "die Kauffrau, -en",
     translation: "the businesswoman",
     definition: "Eine Frau mit einem Beruf im Handel.",
@@ -3535,7 +3535,7 @@ export const A1_Vocabulary = [
     family: "kaufen",
   },
   {
-    id: 311,
+    id: 285,
     word: "sehr",
     translation: "very",
     definition: "Ein Wort zur Verstärkung von Adjektiven.",
@@ -3547,7 +3547,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 312,
+    id: 286,
     word: "der Apfelsaft, -säfte",
     translation: "apple juice",
     definition: "Saft aus Äpfeln.",
@@ -3560,7 +3560,7 @@ export const A1_Vocabulary = [
     family: "der Saft",
   },
   {
-    id: 313,
+    id: 287,
     word: "der Kakao, -s",
     translation: "cocoa / hot chocolate",
     definition: "Ein süßes Schokoladen-Heißgetränk.",
@@ -3572,7 +3572,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 314,
+    id: 288,
     word: "der Apfelkuchen, -",
     translation: "apple cake",
     definition: "Kuchen, der mit Äpfeln gebacken wird.",
@@ -3585,7 +3585,7 @@ export const A1_Vocabulary = [
     family: "der Kuchen",
   },
   {
-    id: 315,
+    id: 289,
     word: "der Käse (Sg.)",
     translation: "cheese",
     definition: "Ein Milchprodukt aus geronnener Milch.",
@@ -3597,7 +3597,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 316,
+    id: 290,
     word: "das Käsebrötchen, -",
     translation: "cheese roll",
     definition: "Ein Brötchen belegt oder überbacken mit Käse.",
@@ -3610,7 +3610,7 @@ export const A1_Vocabulary = [
     family: "das Brot",
   },
   {
-    id: 317,
+    id: 291,
     word: "der Käsekuchen, -",
     translation: "cheesecake",
     definition:
@@ -3624,7 +3624,7 @@ export const A1_Vocabulary = [
     family: "der Kuchen",
   },
   {
-    id: 318,
+    id: 292,
     word: "die Minipizza, -s",
     translation: "mini pizza",
     definition: "Eine kleine Pizza als Snack.",
@@ -3637,7 +3637,7 @@ export const A1_Vocabulary = [
     family: "die Pizza",
   },
   {
-    id: 319,
+    id: 293,
     word: "das Salami brötchen, -",
     translation: "salami roll",
     definition: "Ein Brötchen mit Salami belegt.",
@@ -3650,7 +3650,7 @@ export const A1_Vocabulary = [
     family: "das Brot",
   },
   {
-    id: 320,
+    id: 294,
     word: "die Tomatensuppe, -n",
     translation: "tomato soup",
     definition: "Eine warme Suppe aus Tomaten.",
@@ -3663,7 +3663,7 @@ export const A1_Vocabulary = [
     family: "die Suppe",
   },
   {
-    id: 321,
+    id: 295,
     word: "alles",
     translation: "all / everything",
     definition: "Das gesamte Ding oder die Gesamtheit.",
@@ -3675,7 +3675,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 322,
+    id: 296,
     word: "einmal",
     translation: "once",
     definition: "Ein Mal.",
@@ -3687,7 +3687,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 323,
+    id: 297,
     word: "zusammen",
     translation: "together",
     definition: "Gemeinsam mit anderen.",
@@ -3700,7 +3700,7 @@ export const A1_Vocabulary = [
     family: "zusammen",
   },
   {
-    id: 324,
+    id: 298,
     word: "sich entschuldigen",
     translation: "to apologize",
     definition: "Um Verzeihung bitten.",
@@ -3713,7 +3713,7 @@ export const A1_Vocabulary = [
     family: "entschuldigen",
   },
   {
-    id: 325,
+    id: 299,
     word: "der Freund, -e",
     translation: "friend (male) / boyfriend",
     definition: "Eine männliche Person, der man nahesteht.",
@@ -3726,7 +3726,7 @@ export const A1_Vocabulary = [
     family: "der Freund",
   },
   {
-    id: 326,
+    id: 300,
     word: "falsch",
     translation: "wrong",
     definition: "Nicht richtig.",
@@ -3738,7 +3738,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 327,
+    id: 301,
     word: "alleine",
     translation: "alone",
     definition: "Ohne andere Begleitung oder Hilfe.",
@@ -3750,7 +3750,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 328,
+    id: 302,
     word: "müde",
     translation: "tired",
     definition: "Das Bedürfnis zu schlafen haben.",
@@ -3762,7 +3762,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 329,
+    id: 303,
     word: "freihaben",
     translation: "to have time off / to be off work",
     definition: "Keine Arbeit oder Verpflichtung haben.",
@@ -3774,7 +3774,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 330,
+    id: 304,
     word: "fertig sein",
     translation: "to be finished / ready",
     definition: "Mit etwas zu Ende sein.",
@@ -3786,7 +3786,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 331,
+    id: 305,
     word: "morgen",
     translation: "tomorrow",
     definition: "Der Tag nach dem heutigen Tag.",
@@ -3799,7 +3799,7 @@ export const A1_Vocabulary = [
     family: "der Morgen",
   },
   {
-    id: 332,
+    id: 306,
     word: "später",
     translation: "later",
     definition: "Zu einem späteren Zeitpunkt.",
@@ -3811,7 +3811,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 333,
+    id: 307,
     word: "Wie viele?",
     translation: "How many?",
     definition: "Eine Frage nach einer Anzahl.",
@@ -3823,7 +3823,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 334,
+    id: 308,
     word: "toll",
     translation: "great / fantastic",
     definition: "Ausgezeichnet, sehr gut.",
@@ -3835,7 +3835,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 335,
+    id: 309,
     word: "der Fisch, -e",
     translation: "the fish",
     definition: "Ein Tier im Wasser oder das Essen davon.",
@@ -3847,7 +3847,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 336,
+    id: 310,
     word: "das Essen, -",
     translation: "food / meal",
     definition: "Nahrung, die man verzehrt.",
@@ -3860,7 +3860,7 @@ export const A1_Vocabulary = [
     family: "das Essen",
   },
   {
-    id: 338,
+    id: 311,
     word: "leider",
     translation: "unfortunately",
     definition: "Ein Ausdruck des Bedauerns.",
@@ -3872,7 +3872,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 339,
+    id: 312,
     word: "der Fotoapparat, -e",
     translation: "the camera",
     definition: "Ein Gerät für Fotos.",
@@ -3885,7 +3885,7 @@ export const A1_Vocabulary = [
     family: "das Foto",
   },
   {
-    id: 340,
+    id: 313,
     word: "das Kursfest, -e",
     translation: "course party",
     definition: "Eine Feier mit den Teilnehmern eines Kurses.",
@@ -3898,7 +3898,7 @@ export const A1_Vocabulary = [
     family: "der Kurs",
   },
   {
-    id: 341,
+    id: 314,
     word: "die Freundin, -nen",
     translation: "the friend (female) / girlfriend",
     definition: "Eine Frau, die man mag und gut kennt.",
@@ -3911,7 +3911,7 @@ export const A1_Vocabulary = [
     family: "der Freund",
   },
   {
-    id: 342,
+    id: 315,
     word: "brauchen",
     translation: "to need",
     definition: "Etwas für einen Zweck erforderlich haben.",
@@ -3924,7 +3924,7 @@ export const A1_Vocabulary = [
     family: "brauchen",
   },
   {
-    id: 344,
+    id: 316,
     word: "das Brot, -e",
     translation: "bread",
     definition: "Ein Grundnahrungsmittel aus gebackenem Teig.",
@@ -3937,7 +3937,7 @@ export const A1_Vocabulary = [
     family: "das Brot",
   },
   {
-    id: 345,
+    id: 317,
     word: "das Ei, -er",
     translation: "egg",
     definition: "Das Ei von Hühnern als Nahrungsmittel.",
@@ -3949,7 +3949,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 346,
+    id: 318,
     word: "die Olive, -n",
     translation: "olive",
     definition: "Die kleine, ovale Frucht des Olivenbaums.",
@@ -3962,7 +3962,7 @@ export const A1_Vocabulary = [
     family: "die Olive",
   },
   {
-    id: 347,
+    id: 319,
     word: "froh",
     translation: "glad",
     definition: "Zufrieden und glücklich.",
@@ -3974,7 +3974,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 348,
+    id: 320,
     word: "das Würstchen, -",
     translation: "sausage / little sausage",
     definition: "Eine kleine Wurst zum Kochen oder Braten.",
@@ -3987,7 +3987,7 @@ export const A1_Vocabulary = [
     family: "die Wurst",
   },
   {
-    id: 349,
+    id: 321,
     word: "das Taschengeld (Sg.)",
     translation: "the pocket money",
     definition: "Geld, das Kinder von ihren Eltern bekommen.",
@@ -4000,7 +4000,7 @@ export const A1_Vocabulary = [
     family: "das Geld",
   },
   {
-    id: 350,
+    id: 322,
     word: "die Woche, -n",
     translation: "week",
     definition: "Ein Zeitraum von sieben Tagen.",
@@ -4013,7 +4013,7 @@ export const A1_Vocabulary = [
     family: "die Woche",
   },
   {
-    id: 351,
+    id: 323,
     word: "das Wochenende, -n",
     translation: "weekend",
     definition:
@@ -4027,7 +4027,7 @@ export const A1_Vocabulary = [
     family: "die Woche",
   },
   {
-    id: 353,
+    id: 324,
     word: "der Montag, -e",
     translation: "Monday",
     definition: "Der erste Tag der Woche.",
@@ -4039,7 +4039,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 354,
+    id: 325,
     word: "der Dienstag, -e",
     translation: "Tuesday",
     definition: "Der zweite Tag der Woche.",
@@ -4051,7 +4051,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 355,
+    id: 326,
     word: "der Mittwoch, -e",
     translation: "Wednesday",
     definition: "Der dritte Tag der Woche.",
@@ -4063,7 +4063,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 356,
+    id: 327,
     word: "der Donnerstag, -e",
     translation: "Thursday",
     definition: "Der vierte Tag der Woche.",
@@ -4075,7 +4075,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 357,
+    id: 328,
     word: "der Freitag, -e",
     translation: "Friday",
     definition: "Der fünfte Tag der Woche, kurz vor dem Wochenende.",
@@ -4087,7 +4087,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 358,
+    id: 329,
     word: "der Samstag, -e",
     translation: "Saturday",
     definition: "Der sechste Tag der Woche.",
@@ -4099,7 +4099,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 359,
+    id: 330,
     word: "der Sonntag, -e",
     translation: "Sunday",
     definition: "Der siebte und letzte Tag der Woche.",
@@ -4111,7 +4111,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 360,
+    id: 331,
     word: "besuchen",
     translation: "to visit",
     definition: "Zu jemandem gehen oder einen Ort besichtigen.",
@@ -4124,7 +4124,7 @@ export const A1_Vocabulary = [
     family: "besuchen",
   },
   {
-    id: 361,
+    id: 332,
     word: "frühstücken",
     translation: "to have breakfast",
     definition: "Die erste Mahlzeit des Tages zu sich nehmen.",
@@ -4137,7 +4137,7 @@ export const A1_Vocabulary = [
     family: "frühstücken",
   },
   {
-    id: 362,
+    id: 333,
     word: "kochen",
     translation: "to cook",
     definition: "Essen zubereiten durch Erhitzen.",
@@ -4149,7 +4149,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 363,
+    id: 334,
     word: "genug",
     translation: "enough",
     definition: "So viel, wie man braucht.",
@@ -4161,7 +4161,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 364,
+    id: 335,
     word: "das Geschäft, -e",
     translation: "the shop",
     definition: "Ein Laden zum Einkaufen.",
@@ -4173,7 +4173,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 365,
+    id: 336,
     word: "tanzen",
     translation: "to dance",
     definition: "Sich rhythmisch zur Musik bewegen.",
@@ -4185,7 +4185,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 366,
+    id: 337,
     word: "telefonieren",
     translation: "to make a phone call",
     definition: "Mit jemandem über das Telefon sprechen.",
@@ -4197,7 +4197,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 367,
+    id: 338,
     word: "zoomen",
     translation: "to zoom",
     definition: "Die Bildansicht vergrößern oder ein Videomeeting abhalten.",
@@ -4210,7 +4210,7 @@ export const A1_Vocabulary = [
     family: "das Meeting",
   },
   {
-    id: 368,
+    id: 339,
     word: "Sport machen",
     translation: "to do sports",
     definition: "Körperliche Bewegung und Training betreiben.",
@@ -4223,7 +4223,7 @@ export const A1_Vocabulary = [
     family: "der Sport",
   },
   {
-    id: 370,
+    id: 340,
     word: "die Arbeit (Sg.)",
     translation: "work / job",
     definition: "Die berufliche Tätigkeit oder Beschäftigung.",
@@ -4236,7 +4236,7 @@ export const A1_Vocabulary = [
     family: "die Arbeit",
   },
   {
-    id: 371,
+    id: 341,
     word: "der E-Mail, -s",
     translation: "email",
     definition: "Eine elektronische Nachricht.",
@@ -4249,7 +4249,7 @@ export const A1_Vocabulary = [
     family: "die Mail",
   },
   {
-    id: 372,
+    id: 342,
     word: "das Zoom-Meeting, -s",
     translation: "Zoom meeting",
     definition: "Ein Online-Meeting über die Plattform Zoom.",
@@ -4262,7 +4262,7 @@ export const A1_Vocabulary = [
     family: "das Meeting",
   },
   {
-    id: 373,
+    id: 343,
     word: "das Frühstück, -e",
     translation: "breakfast",
     definition: "Die erste Mahlzeit des Tages.",
@@ -4275,7 +4275,7 @@ export const A1_Vocabulary = [
     family: "frühstücken",
   },
   {
-    id: 374,
+    id: 344,
     word: "die Geschichte, -n",
     translation: "the story / history",
     definition: "Eine Erzählung oder die Vergangenheit.",
@@ -4287,7 +4287,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 375,
+    id: 345,
     word: "der Fußball, -bälle",
     translation: "football / soccer",
     definition: "Ein beliebter Mannschaftssport mit einem runden Ball.",
@@ -4300,7 +4300,7 @@ export const A1_Vocabulary = [
     family: "der Ball",
   },
   {
-    id: 376,
+    id: 346,
     word: "nie",
     translation: "never",
     definition: "Zu keinem Zeitpunkt.",
@@ -4312,7 +4312,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 377,
+    id: 347,
     word: "jeden Tag",
     translation: "every day",
     definition: "An jedem einzelnen Tag.",
@@ -4325,7 +4325,7 @@ export const A1_Vocabulary = [
     family: "der Tag",
   },
   {
-    id: 378,
+    id: 348,
     word: "die Uhr, -en",
     translation: "clock / watch",
     definition: "Ein Instrument zum Ablesen der Zeit.",
@@ -4338,7 +4338,7 @@ export const A1_Vocabulary = [
     family: "die Uhr",
   },
   {
-    id: 379,
+    id: 349,
     word: "die Uhrzeit, -en",
     translation: "time (of day)",
     definition: "Die genaue Angabe der Stunde und Minute.",
@@ -4351,7 +4351,7 @@ export const A1_Vocabulary = [
     family: "die Uhr",
   },
   {
-    id: 380,
+    id: 350,
     word: "spät",
     translation: "late",
     definition: "Nach der regulären oder erwarteten Zeit.",
@@ -4363,7 +4363,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 381,
+    id: 351,
     word: "das Gespräch, -e",
     translation: "the conversation",
     definition: "Ein Austausch von Worten.",
@@ -4376,7 +4376,7 @@ export const A1_Vocabulary = [
     family: "das Gespräch",
   },
   {
-    id: 382,
+    id: 352,
     word: "das Meeting, -s",
     translation: "meeting",
     definition: "Eine berufliche Besprechung.",
@@ -4389,7 +4389,7 @@ export const A1_Vocabulary = [
     family: "das Meeting",
   },
   {
-    id: 383,
+    id: 353,
     word: "die Telefonkonferenz, -en",
     translation: "conference call",
     definition: "Eine telefonische Besprechung mit mehreren Personen.",
@@ -4402,7 +4402,7 @@ export const A1_Vocabulary = [
     family: "die Konferenz",
   },
   {
-    id: 385,
+    id: 354,
     word: "der Friseurtermin, -e",
     translation: "hairdresser appointment",
     definition: "Ein Termin beim Friseur zum Haareschneiden.",
@@ -4414,7 +4414,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 386,
+    id: 355,
     word: "wann",
     translation: "when",
     definition: "Eine Frage nach dem Zeitpunkt.",
@@ -4426,7 +4426,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 387,
+    id: 356,
     word: "um",
     translation: "at (time)",
     definition: "Eine Präposition für genaue Uhrzeiten.",
@@ -4438,7 +4438,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 388,
+    id: 357,
     word: "um wie viel Uhr?",
     translation: "at what time?",
     definition: "Frage nach der konkreten Uhrzeit.",
@@ -4451,7 +4451,7 @@ export const A1_Vocabulary = [
     family: "die Uhr",
   },
   {
-    id: 389,
+    id: 358,
     word: "gestern",
     translation: "yesterday",
     definition: "Der Tag vor heute.",
@@ -4463,7 +4463,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 390,
+    id: 359,
     word: "der Tag, -e",
     translation: "day",
     definition: "Ein Zeitraum von 24 Stunden.",
@@ -4476,7 +4476,7 @@ export const A1_Vocabulary = [
     family: "der Tag",
   },
   {
-    id: 391,
+    id: 360,
     word: "die Zeit, -en",
     translation: "time",
     definition:
@@ -4490,7 +4490,7 @@ export const A1_Vocabulary = [
     family: "die Zeit",
   },
   {
-    id: 392,
+    id: 361,
     word: "die Tageszeit, -en",
     translation: "time of day",
     definition: "Ein bestimmter Teil des Tages (Morgen, Mittag, Abend).",
@@ -4503,7 +4503,7 @@ export const A1_Vocabulary = [
     family: "die Zeit",
   },
   {
-    id: 393,
+    id: 362,
     word: "der Morgen, -",
     translation: "morning",
     definition: "Der frühe Teil des Tages nach der Nacht.",
@@ -4516,7 +4516,7 @@ export const A1_Vocabulary = [
     family: "der Morgen",
   },
   {
-    id: 394,
+    id: 363,
     word: "gewinnen",
     translation: "to win",
     definition: "In einem Spiel Erster sein.",
@@ -4528,7 +4528,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 395,
+    id: 364,
     word: "der Vormittag, -e",
     translation: "late morning / forenoon",
     definition: "Die Zeit zwischen Morgen und Mittag.",
@@ -4541,7 +4541,7 @@ export const A1_Vocabulary = [
     family: "der Mittag",
   },
   {
-    id: 396,
+    id: 365,
     word: "glauben",
     translation: "to believe",
     definition: "Etwas für wahr halten.",
@@ -4553,7 +4553,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 397,
+    id: 366,
     word: "der Mittag, -e",
     translation: "noon / midday",
     definition: "Die Mitte des Tages um 12 Uhr.",
@@ -4566,7 +4566,7 @@ export const A1_Vocabulary = [
     family: "der Mittag",
   },
   {
-    id: 398,
+    id: 367,
     word: "gleich",
     translation: "same / right away",
     definition: "Ohne Unterschied oder sofort.",
@@ -4578,7 +4578,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 399,
+    id: 368,
     word: "der Nachmittag, -e",
     translation: "afternoon",
     definition: "Die Zeit zwischen Mittag und Abend.",
@@ -4591,7 +4591,7 @@ export const A1_Vocabulary = [
     family: "der Mittag",
   },
   {
-    id: 400,
+    id: 369,
     word: "halten",
     translation: "to hold / stop",
     definition: "In der Hand haben oder anhalten.",
@@ -4604,7 +4604,7 @@ export const A1_Vocabulary = [
     family: "halten",
   },
   {
-    id: 401,
+    id: 370,
     word: "der Abend, -e",
     translation: "evening",
     definition: "Der späte Teil des Tages vor der Nacht.",
@@ -4617,7 +4617,7 @@ export const A1_Vocabulary = [
     family: "der Abend",
   },
   {
-    id: 402,
+    id: 371,
     word: "das Krankenhaus, Krankenhäuser",
     translation: "the hospital",
     definition: "Ein Haus für kranke Menschen.",
@@ -4630,7 +4630,7 @@ export const A1_Vocabulary = [
     family: "das Haus",
   },
   {
-    id: 403,
+    id: 372,
     word: "die Nacht, Nächte",
     translation: "night",
     definition: "Die dunkle Zeit des Tages zum Schlafen.",
@@ -4643,7 +4643,7 @@ export const A1_Vocabulary = [
     family: "die Nacht",
   },
   {
-    id: 404,
+    id: 373,
     word: "in",
     translation: "in",
     definition: "Eine Präposition für einen Ort oder eine Zeit.",
@@ -4655,7 +4655,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 406,
+    id: 374,
     word: "fahren",
     translation: "to drive / to ride / to travel",
     definition: "Mit einem Fahrzeug unterwegs sein.",
@@ -4668,7 +4668,7 @@ export const A1_Vocabulary = [
     family: "fahren",
   },
   {
-    id: 407,
+    id: 375,
     word: "schlafen",
     translation: "to sleep",
     definition: "Sich im Ruhezustand bei geschlossenen Augen befinden.",
@@ -4680,7 +4680,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 408,
+    id: 376,
     word: "die Insel, -n",
     translation: "the island",
     definition: "Land mitten im Wasser.",
@@ -4692,7 +4692,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 409,
+    id: 377,
     word: "waschen",
     translation: "to wash",
     definition: "Mit Wasser und Seife säubern.",
@@ -4705,7 +4705,7 @@ export const A1_Vocabulary = [
     family: "waschen",
   },
   {
-    id: 410,
+    id: 378,
     word: "das Internet (Sg.)",
     translation: "the internet",
     definition: "Das weltweite Computernetz.",
@@ -4717,7 +4717,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 411,
+    id: 379,
     word: "der Film, -e",
     translation: "film / movie",
     definition: "Eine bewegte Geschichte auf dem Bildschirm oder im Kino.",
@@ -4729,7 +4729,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 412,
+    id: 380,
     word: "die Pizza, -s",
     translation: "pizza",
     definition: "Ein flacher Teigboden mit Belag aus Käse und Tomaten.",
@@ -4742,7 +4742,7 @@ export const A1_Vocabulary = [
     family: "die Pizza",
   },
   {
-    id: 414,
+    id: 381,
     word: "inoffiziell",
     translation: "unofficial",
     definition: "Nicht offiziell, privat oder zwanglos.",
@@ -4754,7 +4754,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 415,
+    id: 382,
     word: "die Stunde, -n",
     translation: "hour",
     definition: "Ein Zeitraum von 60 Minuten.",
@@ -4767,7 +4767,7 @@ export const A1_Vocabulary = [
     family: "die Stunde",
   },
   {
-    id: 416,
+    id: 383,
     word: "die Viertelstunde, -n",
     translation: "quarter of an hour",
     definition: "Ein Zeitraum von 15 Minuten.",
@@ -4780,7 +4780,7 @@ export const A1_Vocabulary = [
     family: "die Stunde",
   },
   {
-    id: 417,
+    id: 384,
     word: "vor",
     translation: "before / ago / in front of",
     definition: "Eine Präposition für zeitliche oder örtliche Vorderseite.",
@@ -4792,7 +4792,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 418,
+    id: 385,
     word: "nach",
     translation: "after / to",
     definition: "Zeitlich später oder eine Richtung zu einem Ort.",
@@ -4804,7 +4804,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 420,
+    id: 386,
     word: "halb",
     translation: "half",
     definition: "Zur Hälfte geteilt.",
@@ -4816,7 +4816,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 421,
+    id: 387,
     word: "der Sport (Sg.)",
     translation: "sport / exercise",
     definition: "Körperliche Betätigung als Spiel oder Wettkampf.",
@@ -4829,7 +4829,7 @@ export const A1_Vocabulary = [
     family: "der Sport",
   },
   {
-    id: 422,
+    id: 388,
     word: "die Jeans (Pl.)",
     translation: "the jeans",
     definition: "Eine Hose aus Baumwolle.",
@@ -4841,7 +4841,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 423,
+    id: 389,
     word: "die Minute, -n",
     translation: "minute",
     definition: "Ein Zeitraum von 60 Sekunden.",
@@ -4853,7 +4853,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 424,
+    id: 390,
     word: "die Öffnungszeit, -en",
     translation: "opening hours",
     definition: "Die Zeiten, zu denen ein Geschäft geöffnet hat.",
@@ -4866,7 +4866,7 @@ export const A1_Vocabulary = [
     family: "öffnen",
   },
   {
-    id: 425,
+    id: 391,
     word: "das Fitnessstudio, -s",
     translation: "fitness studio / gym",
     definition: "Ein Ort mit Geräten zum Trainieren des Körpers.",
@@ -4878,7 +4878,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 426,
+    id: 392,
     word: "geöffnet",
     translation: "open",
     definition: "Nicht geschlossen, zugänglich.",
@@ -4891,7 +4891,7 @@ export const A1_Vocabulary = [
     family: "öffnen",
   },
   {
-    id: 427,
+    id: 393,
     word: "geschlossen",
     translation: "closed",
     definition: "Zu, nicht geöffnet.",
@@ -4904,7 +4904,7 @@ export const A1_Vocabulary = [
     family: "schließen",
   },
   {
-    id: 428,
+    id: 394,
     word: "die Freizeitaktivität, -en",
     translation: "leisure activity",
     definition: "Eine Aktivität in der Freizeit.",
@@ -4917,7 +4917,7 @@ export const A1_Vocabulary = [
     family: "die Aktivität",
   },
   {
-    id: 429,
+    id: 395,
     word: "aufräumen",
     translation: "to tidy up / to clean up",
     definition: "Ordnung in einen Raum oder Bereich bringen.",
@@ -4929,7 +4929,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 430,
+    id: 396,
     word: "einladen",
     translation: "to invite",
     definition:
@@ -4943,7 +4943,7 @@ export const A1_Vocabulary = [
     family: "einladen",
   },
   {
-    id: 431,
+    id: 397,
     word: "aufstehen",
     translation: "to get up",
     definition: "Nach dem Schlafen aufstehen und das Bett verlassen.",
@@ -4955,7 +4955,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 432,
+    id: 398,
     word: "einkaufen",
     translation: "to shop / to buy groceries",
     definition: "Waren oder Lebensmittel kaufen gehen.",
@@ -4968,7 +4968,7 @@ export const A1_Vocabulary = [
     family: "kaufen",
   },
   {
-    id: 433,
+    id: 399,
     word: "fernsehen",
     translation: "to watch television / TV",
     definition: "Das Fernsehprogramm mit den Augen anschauen.",
@@ -4981,7 +4981,7 @@ export const A1_Vocabulary = [
     family: "sehen",
   },
   {
-    id: 435,
+    id: 400,
     word: "anrufen",
     translation: "to call (on the phone)",
     definition: "Jemanden per Telefon kontaktieren.",
@@ -4994,7 +4994,7 @@ export const A1_Vocabulary = [
     family: "anrufen",
   },
   {
-    id: 436,
+    id: 401,
     word: "die Wohnung, -en",
     translation: "apartment / flat",
     definition: "Die Räumlichkeiten, in denen man wohnt.",
@@ -5007,7 +5007,7 @@ export const A1_Vocabulary = [
     family: "wohnen",
   },
   {
-    id: 438,
+    id: 402,
     word: "das Skateboard, -s",
     translation: "skateboard",
     definition: "Ein kleines Brett mit Rollen zum Fahren.",
@@ -5019,7 +5019,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 439,
+    id: 403,
     word: "die Ahnung, -en",
     translation: "idea / inkling",
     definition: "Ein vager Gedanke oder Wissen über etwas.",
@@ -5031,7 +5031,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 440,
+    id: 404,
     word: "das Kino, -s",
     translation: "cinema / movie theater",
     definition:
@@ -5044,7 +5044,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 441,
+    id: 405,
     word: "leid tun",
     translation: "to be sorry",
     definition: "Bedauern über etwas ausdrücken.",
@@ -5056,7 +5056,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 442,
+    id: 406,
     word: "dann",
     translation: "then",
     definition: "Zu diesem Zeitpunkt oder als Nächstes.",
@@ -5068,7 +5068,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 443,
+    id: 407,
     word: "der Supermarkt, -märkte",
     translation: "supermarket",
     definition: "Ein großes Geschäft für Lebensmittel und Haushaltswaren.",
@@ -5081,7 +5081,7 @@ export const A1_Vocabulary = [
     family: "der Markt",
   },
   {
-    id: 444,
+    id: 408,
     word: "das Fleisch (Sg.)",
     translation: "meat",
     definition: "Essbares Gewebe von Tieren als Nahrungsmittel.",
@@ -5093,7 +5093,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 445,
+    id: 409,
     word: "die Wurst, Würste",
     translation: "sausage",
     definition: "Zerkleinertes Fleisch in einer Pelle.",
@@ -5106,7 +5106,7 @@ export const A1_Vocabulary = [
     family: "die Wurst",
   },
   {
-    id: 446,
+    id: 410,
     word: "das Mineralwasser (Sg.)",
     translation: "mineral water",
     definition: "Natürliches Quellwasser mit Mineralien, oft mit Kohlensäure.",
@@ -5119,7 +5119,7 @@ export const A1_Vocabulary = [
     family: "das Wasser",
   },
   {
-    id: 447,
+    id: 411,
     word: "kalt",
     translation: "cold",
     definition: "Mit niedriger Temperatur.",
@@ -5131,7 +5131,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 448,
+    id: 412,
     word: "das Olivenöl, -e",
     translation: "olive oil",
     definition: "Öl aus Oliven gepresst.",
@@ -5144,7 +5144,7 @@ export const A1_Vocabulary = [
     family: "die Olive",
   },
   {
-    id: 449,
+    id: 413,
     word: "kein",
     translation: "no / not a",
     definition: "Ein Wort zur Verneinung.",
@@ -5156,7 +5156,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 450,
+    id: 414,
     word: "die Kartoffel, -n",
     translation: "potato",
     definition: "Eine wichtige Knollenfrucht als Nahrungsmittel.",
@@ -5169,7 +5169,7 @@ export const A1_Vocabulary = [
     family: "die Kartoffel",
   },
   {
-    id: 451,
+    id: 415,
     word: "die Spaghetti (Pl.)",
     translation: "spaghetti",
     definition: "Lange, dünne Teigwaren aus Italien.",
@@ -5181,7 +5181,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 452,
+    id: 416,
     word: "das Obst (Sg.)",
     translation: "fruit",
     definition: "Essbare, meist süße Früchte von Bäumen und Pflanzen.",
@@ -5193,7 +5193,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 453,
+    id: 417,
     word: "das Kleid, -er",
     translation: "the dress",
     definition: "Ein Kleidungsstück für Frauen.",
@@ -5205,7 +5205,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 454,
+    id: 418,
     word: "das Gemüse, -",
     translation: "vegetables",
     definition: "Essbare Pflanzenteile von Gartenpflanzen.",
@@ -5217,7 +5217,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 457,
+    id: 419,
     word: "die Paprika, -s",
     translation: "bell pepper / capsicum",
     definition: "Eine milde oder scharfe Fruchtgemüse in verschiedenen Farben.",
@@ -5229,7 +5229,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 458,
+    id: 420,
     word: "der Mais (Sg.)",
     translation: "corn / maize",
     definition: "Getreideart mit gelben Körnern auf einem Kolben.",
@@ -5241,7 +5241,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 460,
+    id: 421,
     word: "der Salat, -e",
     translation: "salad / lettuce",
     definition: "Ein Gericht aus rohen oder gekochten Pflanzenblättern.",
@@ -5254,7 +5254,7 @@ export const A1_Vocabulary = [
     family: "der Salat",
   },
   {
-    id: 461,
+    id: 422,
     word: "krank",
     translation: "sick",
     definition: "Nicht gesund.",
@@ -5266,7 +5266,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 462,
+    id: 423,
     word: "die Kunst, Künste",
     translation: "the art",
     definition: "Malerei, Musik und Ähnliches.",
@@ -5278,7 +5278,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 463,
+    id: 424,
     word: "das Gramm, - (g)",
     translation: "gram",
     definition: "Eine Maßeinheit für Gewicht.",
@@ -5290,7 +5290,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 464,
+    id: 425,
     word: "das Pfund, -e (500 g)",
     translation: "pound (500 grams)",
     definition:
@@ -5303,7 +5303,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 465,
+    id: 426,
     word: "das Kilo, -s (kg)",
     translation: "kilogram",
     definition: "Eine Maßeinheit für Gewicht entsprechend 1000 Gramm.",
@@ -5316,7 +5316,7 @@ export const A1_Vocabulary = [
     family: "das Kilo",
   },
   {
-    id: 466,
+    id: 427,
     word: "der Liter, - (l)",
     translation: "liter",
     definition: "Eine Maßeinheit für Flüssigkeiten.",
@@ -5328,7 +5328,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 469,
+    id: 428,
     word: "die Packung, -en",
     translation: "pack / package",
     definition: "Eine verpackte Wareneinheit.",
@@ -5340,7 +5340,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 470,
+    id: 429,
     word: "lachen",
     translation: "to laugh",
     definition: "Fröhliche Laute machen.",
@@ -5352,7 +5352,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 471,
+    id: 430,
     word: "lange",
     translation: "for a long time",
     definition: "Über eine große Zeit.",
@@ -5364,7 +5364,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 472,
+    id: 431,
     word: "die Marmelade, -n",
     translation: "jam / marmalade",
     definition: "Ein süßer Brotaufstrich aus gekochten Früchten.",
@@ -5376,7 +5376,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 473,
+    id: 432,
     word: "teuer",
     translation: "expensive",
     definition: "Von hohem Preis, viel Geld kostend.",
@@ -5388,7 +5388,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 474,
+    id: 433,
     word: "lassen",
     translation: "to let / leave",
     definition: "Etwas erlauben oder zurücklassen.",
@@ -5400,7 +5400,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 475,
+    id: 434,
     word: "der Link, -s",
     translation: "the link",
     definition: "Eine Verbindung im Internet.",
@@ -5412,7 +5412,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 477,
+    id: 435,
     word: "zumachen",
     translation: "to close",
     definition: "Etwas schließen.",
@@ -5425,7 +5425,7 @@ export const A1_Vocabulary = [
     family: "machen",
   },
   {
-    id: 478,
+    id: 436,
     word: "die Mailbox, -en",
     translation: "the voicemail",
     definition: "Der Speicher für Sprachnachrichten.",
@@ -5438,7 +5438,7 @@ export const A1_Vocabulary = [
     family: "die Mail",
   },
   {
-    id: 479,
+    id: 437,
     word: "der Kartoffelsalat, -e",
     translation: "potato salad",
     definition: "Ein Salat aus gekochten Kartoffeln.",
@@ -5451,7 +5451,7 @@ export const A1_Vocabulary = [
     family: "der Salat",
   },
   {
-    id: 480,
+    id: 438,
     word: "der Obstsalat, -e",
     translation: "fruit salad",
     definition: "Ein Gericht aus verschiedenen geschnittenen Früchten.",
@@ -5464,7 +5464,7 @@ export const A1_Vocabulary = [
     family: "der Salat",
   },
   {
-    id: 481,
+    id: 439,
     word: "die Einladung, -en",
     translation: "invitation",
     definition: "Die Aufforderung an jemanden, irgendwo teilzunehmen.",
@@ -5477,7 +5477,7 @@ export const A1_Vocabulary = [
     family: "einladen",
   },
   {
-    id: 482,
+    id: 440,
     word: "das Abendessen, -",
     translation: "dinner / supper",
     definition: "Die Mahlzeit am Abend.",
@@ -5490,7 +5490,7 @@ export const A1_Vocabulary = [
     family: "das Essen",
   },
   {
-    id: 483,
+    id: 441,
     word: "der Nachttisch, -e",
     translation: "bedside table / dessert",
     definition: "Ein kleiner Tisch neben dem Bett oder die Nachspeise.",
@@ -5503,7 +5503,7 @@ export const A1_Vocabulary = [
     family: "der Tisch",
   },
   {
-    id: 484,
+    id: 442,
     word: "mitbringen",
     translation: "to bring along",
     definition: "Etwas von unterwegs an einen Ort mitnehmen.",
@@ -5516,7 +5516,7 @@ export const A1_Vocabulary = [
     family: "bringen",
   },
   {
-    id: 485,
+    id: 443,
     word: "der Appetit (Sg.)",
     translation: "appetite",
     definition: "Das Verlangen nach Essen.",
@@ -5528,7 +5528,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 486,
+    id: 444,
     word: "köstlich",
     translation: "delicious / exquisite",
     definition: "Von hervorragendem Geschmack.",
@@ -5540,7 +5540,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 487,
+    id: 445,
     word: "spitze",
     translation: "great / top",
     definition: "Umgangssprachlich für großartig oder exzellent.",
@@ -5552,7 +5552,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 488,
+    id: 446,
     word: "mögen",
     translation: "to like",
     definition: "Zuneigung oder Vorliebe für etwas haben.",
@@ -5564,7 +5564,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 489,
+    id: 447,
     word: "man",
     translation: "one / you",
     definition: "Ein Wort für „alle Menschen“.",
@@ -5576,7 +5576,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 490,
+    id: 448,
     word: "besonders",
     translation: "especially / particularly",
     definition: "In hohem Maße oder vor allem.",
@@ -5588,7 +5588,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 491,
+    id: 449,
     word: "der Mantel, Mäntel",
     translation: "the coat",
     definition: "Warme Kleidung für draußen.",
@@ -5600,7 +5600,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 492,
+    id: 450,
     word: "die Schokolade (Sg.)",
     translation: "chocolate",
     definition: "Eine süße Süßware aus Kakaomasse.",
@@ -5612,7 +5612,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 493,
+    id: 451,
     word: "immer",
     translation: "always",
     definition: "Zu jeder Zeit, ständig.",
@@ -5624,7 +5624,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 494,
+    id: 452,
     word: "oft",
     translation: "often",
     definition: "Häufig, viele Male.",
@@ -5636,7 +5636,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 495,
+    id: 453,
     word: "manchmal",
     translation: "sometimes",
     definition: "Gelegentlich, ab und zu.",
@@ -5648,7 +5648,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 496,
+    id: 454,
     word: "mindestens",
     translation: "at least",
     definition: "Nicht weniger als.",
@@ -5660,7 +5660,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 497,
+    id: 455,
     word: "das Pausenbrot, -e",
     translation: "packed lunch / break snack",
     definition: "Ein Brot, das man für die Pause mitnimmt.",
@@ -5673,7 +5673,7 @@ export const A1_Vocabulary = [
     family: "das Brot",
   },
   {
-    id: 498,
+    id: 456,
     word: "das Croissant, -s",
     translation: "croissant",
     definition: "Ein schichtförmiges Gebäck aus Plunderteig.",
@@ -5685,7 +5685,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 499,
+    id: 457,
     word: "der Becher, -",
     translation: "beaker / cup / mug",
     definition: "Ein zylindrisches Trinkgefäß ohne Henkel oder mit Henkel.",
@@ -5697,7 +5697,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 500,
+    id: 458,
     word: "möglich",
     translation: "possible",
     definition: "Machbar.",
@@ -5709,7 +5709,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 503,
+    id: 459,
     word: "die Pause, -n",
     translation: "break / pause",
     definition: "Eine kurze Unterbrechung der Arbeit oder des Unterrichts.",
@@ -5721,7 +5721,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 504,
+    id: 460,
     word: "der Kiosk, -e",
     translation: "kiosk / newsagent",
     definition: "Ein kleiner Verkaufsstand für Zeitungen und Snacks.",
@@ -5733,7 +5733,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 505,
+    id: 461,
     word: "zum Beispiel (z. B.)",
     translation: "for example",
     definition: "Ein Ausdruck, um ein Beispiel zu nennen.",
@@ -5745,7 +5745,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 506,
+    id: 462,
     word: "bekommen",
     translation: "to get / to receive",
     definition: "Etwas erhalten oder kriegen.",
@@ -5758,7 +5758,7 @@ export const A1_Vocabulary = [
     family: "kommen",
   },
   {
-    id: 507,
+    id: 463,
     word: "nehmen",
     translation: "to take",
     definition: "Etwas in die Hand oder an sich nehmen.",
@@ -5771,7 +5771,7 @@ export const A1_Vocabulary = [
     family: "nehmen",
   },
   {
-    id: 508,
+    id: 464,
     word: "die Familie, -n",
     translation: "family",
     definition: "Eine Gruppe von verwandten Personen.",
@@ -5783,7 +5783,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 509,
+    id: 465,
     word: "die Eltern (Pl.)",
     translation: "parents",
     definition: "Vater und Mutter von Kindern.",
@@ -5796,7 +5796,7 @@ export const A1_Vocabulary = [
     family: "die Eltern",
   },
   {
-    id: 510,
+    id: 466,
     word: "der Vater, Väter",
     translation: "father",
     definition: "Der männliche Elternteil.",
@@ -5809,7 +5809,7 @@ export const A1_Vocabulary = [
     family: "der Vater",
   },
   {
-    id: 511,
+    id: 467,
     word: "die Mutter, Mütter",
     translation: "mother",
     definition: "Der weibliche Elternteil.",
@@ -5822,7 +5822,7 @@ export const A1_Vocabulary = [
     family: "die Mutter",
   },
   {
-    id: 512,
+    id: 468,
     word: "nichts",
     translation: "nothing",
     definition: "Kein Ding.",
@@ -5834,7 +5834,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 513,
+    id: 469,
     word: "die Geschwister (Pl.)",
     translation: "siblings",
     definition: "Brüder und Schwestern.",
@@ -5846,7 +5846,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 514,
+    id: 470,
     word: "der Bruder, Brüder",
     translation: "brother",
     definition: "Ein männliches Geschwisterteil.",
@@ -5858,7 +5858,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 515,
+    id: 471,
     word: "die Schwester, -n",
     translation: "sister",
     definition: "Ein weibliches Geschwisterteil.",
@@ -5870,7 +5870,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 516,
+    id: 472,
     word: "die Großeltern (Pl.)",
     translation: "grandparents",
     definition: "Die Eltern der Eltern.",
@@ -5883,7 +5883,7 @@ export const A1_Vocabulary = [
     family: "die Eltern",
   },
   {
-    id: 517,
+    id: 473,
     word: "der Großvater, -väter",
     translation: "grandfather",
     definition: "Der Vater eines Elternteils.",
@@ -5896,7 +5896,7 @@ export const A1_Vocabulary = [
     family: "der Vater",
   },
   {
-    id: 518,
+    id: 474,
     word: "niemand",
     translation: "nobody",
     definition: "Keine Person.",
@@ -5908,7 +5908,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 519,
+    id: 475,
     word: "die Großmutter, -mütter",
     translation: "grandmother",
     definition: "Die Mutter eines Elternteils.",
@@ -5921,7 +5921,7 @@ export const A1_Vocabulary = [
     family: "die Mutter",
   },
   {
-    id: 520,
+    id: 476,
     word: "noch",
     translation: "still / yet",
     definition: "Weiterhin oder zusätzlich.",
@@ -5933,7 +5933,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 521,
+    id: 477,
     word: "die Note, -n",
     translation: "the grade",
     definition: "Eine Bewertung in der Schule.",
@@ -5945,7 +5945,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 522,
+    id: 478,
     word: "nur",
     translation: "only",
     definition: "Nichts anderes als.",
@@ -5957,7 +5957,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 523,
+    id: 479,
     word: "der Onkel, -",
     translation: "uncle",
     definition: "Der Bruder der Eltern oder der Mann der Tante.",
@@ -5969,7 +5969,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 524,
+    id: 480,
     word: "die Tante, -n",
     translation: "aunt",
     definition: "Die Schwester der Eltern oder die Frau des Onkels.",
@@ -5981,7 +5981,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 525,
+    id: 481,
     word: "oder",
     translation: "or",
     definition: "Eine Konjunktion für eine Wahl.",
@@ -5993,7 +5993,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 526,
+    id: 482,
     word: "der Mann, Männer",
     translation: "man / husband",
     definition: "Eine erwachsene männliche Person.",
@@ -6005,7 +6005,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 527,
+    id: 483,
     word: "offen",
     translation: "open",
     definition: "Nicht geschlossen.",
@@ -6017,7 +6017,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 528,
+    id: 484,
     word: "die Ordnung, -en",
     translation: "the order",
     definition: "Der Zustand, wenn alles aufgeräumt ist.",
@@ -6029,7 +6029,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 529,
+    id: 485,
     word: "der Park, -s",
     translation: "the park",
     definition: "Eine große Grünfläche in der Stadt.",
@@ -6041,7 +6041,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 530,
+    id: 486,
     word: "reiten",
     translation: "to ride (a horse)",
     definition: "Auf dem Rücken eines Pferdes sitzen und sich fortbewegen.",
@@ -6053,7 +6053,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 531,
+    id: 487,
     word: "fliegen",
     translation: "to fly",
     definition: "Sich mit einem Flugzeug durch die Luft bewegen.",
@@ -6066,7 +6066,7 @@ export const A1_Vocabulary = [
     family: "fliegen",
   },
   {
-    id: 532,
+    id: 488,
     word: "finden",
     translation: "to find / to think (opinion)",
     definition: "Etwas entdecken oder eine Meinung zu etwas haben.",
@@ -6078,7 +6078,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 535,
+    id: 489,
     word: "das Pony, -s",
     translation: "pony",
     definition: "Eine kleine Pferdeart.",
@@ -6090,7 +6090,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 536,
+    id: 490,
     word: "die Kamera, -s",
     translation: "camera",
     definition: "Ein Gerät zum Fotografieren.",
@@ -6102,7 +6102,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 537,
+    id: 491,
     word: "der Partner, -",
     translation: "the partner (male)",
     definition: "Ein Mann in einer Beziehung oder Zusammenarbeit.",
@@ -6115,7 +6115,7 @@ export const A1_Vocabulary = [
     family: "der Partner",
   },
   {
-    id: 539,
+    id: 492,
     word: "die Partnerin, -nen",
     translation: "the partner (female)",
     definition: "Eine Frau in einer Beziehung oder Zusammenarbeit.",
@@ -6128,7 +6128,7 @@ export const A1_Vocabulary = [
     family: "der Partner",
   },
   {
-    id: 540,
+    id: 493,
     word: "süß",
     translation: "sweet / cute",
     definition: "Mit einem Geschmack wie Zucker oder sehr niedlich.",
@@ -6141,7 +6141,7 @@ export const A1_Vocabulary = [
     family: "süß",
   },
   {
-    id: 541,
+    id: 494,
     word: "das Auge, -n",
     translation: "eye",
     definition: "Das Sehorgan des Menschen und der Tiere.",
@@ -6154,7 +6154,7 @@ export const A1_Vocabulary = [
     family: "das Auge",
   },
   {
-    id: 542,
+    id: 495,
     word: "die Augenfarbe, -n",
     translation: "eye color",
     definition: "Die Farbe der Augen.",
@@ -6167,7 +6167,7 @@ export const A1_Vocabulary = [
     family: "das Auge",
   },
   {
-    id: 543,
+    id: 496,
     word: "die Lieblingsfarbe, -n",
     translation: "favorite color",
     definition: "Die Farbe, die man am liebsten mag.",
@@ -6180,7 +6180,7 @@ export const A1_Vocabulary = [
     family: "lieben",
   },
   {
-    id: 544,
+    id: 497,
     word: "passieren",
     translation: "to happen",
     definition: "Geschehen.",
@@ -6192,7 +6192,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 545,
+    id: 498,
     word: "schwarz",
     translation: "black",
     definition: "Die dunkelste Farbe.",
@@ -6204,7 +6204,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 546,
+    id: 499,
     word: "braun",
     translation: "brown",
     definition: "Die Farbe von Erde oder Holz.",
@@ -6216,7 +6216,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 547,
+    id: 500,
     word: "grün",
     translation: "green",
     definition: "Die Farbe von Gras und Blättern.",
@@ -6228,7 +6228,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 548,
+    id: 501,
     word: "blau",
     translation: "blue",
     definition: "Die Farbe des Himmels und des Wassers.",
@@ -6240,7 +6240,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 549,
+    id: 502,
     word: "rot",
     translation: "red",
     definition: "Die Farbe von Blut oder reifen Tomaten.",
@@ -6252,7 +6252,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 550,
+    id: 503,
     word: "das Pferd, -e",
     translation: "the horse",
     definition: "Ein großes Tier zum Reiten.",
@@ -6264,7 +6264,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 551,
+    id: 504,
     word: "die Postkarte, -n",
     translation: "the postcard",
     definition: "Eine Karte, die man verschickt.",
@@ -6277,7 +6277,7 @@ export const A1_Vocabulary = [
     family: "die Karte",
   },
   {
-    id: 552,
+    id: 505,
     word: "weiß",
     translation: "white",
     definition: "Die hellste Farbe, wie Schnee.",
@@ -6289,7 +6289,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 553,
+    id: 506,
     word: "grau",
     translation: "grey",
     definition: "Eine Farbe zwischen Schwarz und Weiß.",
@@ -6301,7 +6301,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 554,
+    id: 507,
     word: "das Poster, -",
     translation: "the poster",
     definition: "Ein Bild für die Wand.",
@@ -6313,7 +6313,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 555,
+    id: 508,
     word: "alt",
     translation: "old",
     definition: "Lange existierend oder nicht neu.",
@@ -6325,7 +6325,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 556,
+    id: 509,
     word: "das Alter (Sg.)",
     translation: "age",
     definition: "Die Lebenszeit, die jemand verbracht hat.",
@@ -6337,7 +6337,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 557,
+    id: 510,
     word: "das Jahr, -e",
     translation: "year",
     definition: "Ein Zeitraum von 365 Tagen.",
@@ -6350,7 +6350,7 @@ export const A1_Vocabulary = [
     family: "das Jahr",
   },
   {
-    id: 559,
+    id: 511,
     word: "der Pullover, -",
     translation: "the sweater",
     definition: "Warme Kleidung aus Wolle.",
@@ -6362,7 +6362,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 560,
+    id: 512,
     word: "das Quiz, -",
     translation: "the quiz",
     definition: "Ein Spiel mit Fragen.",
@@ -6374,7 +6374,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 561,
+    id: 513,
     word: "raten",
     translation: "to advise / guess",
     definition: "Einen Tipp geben oder etwas erraten.",
@@ -6386,7 +6386,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 562,
+    id: 514,
     word: "verwitwet",
     translation: "widowed",
     definition: "Wenn der Ehepartner gestorben ist.",
@@ -6398,7 +6398,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 563,
+    id: 515,
     word: "der Single, -s",
     translation: "single person",
     definition: "Eine unverheiratete Person ohne feste Partnerschaft.",
@@ -6410,7 +6410,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 564,
+    id: 516,
     word: "das Baby, -s",
     translation: "baby",
     definition: "Ein sehr kleines Kind kurz nach der Geburt.",
@@ -6422,7 +6422,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 566,
+    id: 517,
     word: "das Hobby, -s",
     translation: "hobby",
     definition: "Eine Freizeitbeschäftigung, die man gerne macht.",
@@ -6434,7 +6434,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 567,
+    id: 518,
     word: "shoppen",
     translation: "to go shopping",
     definition: "Einkaufen gehen als Freizeitaktivität.",
@@ -6446,7 +6446,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 568,
+    id: 519,
     word: "das Rätsel, -",
     translation: "the puzzle / riddle",
     definition: "Eine Aufgabe zum Nachdenken.",
@@ -6458,7 +6458,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 569,
+    id: 520,
     word: "recht haben",
     translation: "to be right",
     definition: "Mit einer Aussage richtig liegen.",
@@ -6470,7 +6470,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 570,
+    id: 521,
     word: "die Sache, -n",
     translation: "the thing / matter",
     definition: "Ein Gegenstand oder eine Angelegenheit.",
@@ -6482,7 +6482,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 571,
+    id: 522,
     word: "schlecht",
     translation: "bad",
     definition: "Nicht gut.",
@@ -6494,7 +6494,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 572,
+    id: 523,
     word: "schon",
     translation: "already",
     definition: "Ein Wort für „früher als erwartet“.",
@@ -6506,7 +6506,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 573,
+    id: 524,
     word: "die Erzieherin, -nen",
     translation: "educator / kindergarten teacher (female)",
     definition: "Eine Frau, die beruflich Kinder betreut und erzieht.",
@@ -6519,7 +6519,7 @@ export const A1_Vocabulary = [
     family: "der Erzieher",
   },
   {
-    id: 574,
+    id: 525,
     word: "der Elektriker, -",
     translation: "electrician",
     definition: "Ein Handwerker für elektrische Anlagen.",
@@ -6531,7 +6531,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 575,
+    id: 526,
     word: "die Architektin, -nen",
     translation: "architect (female)",
     definition: "Eine Frau, die Gebäude plant und entwirft.",
@@ -6544,7 +6544,7 @@ export const A1_Vocabulary = [
     family: "der Architekt",
   },
   {
-    id: 576,
+    id: 527,
     word: "der See, -n",
     translation: "the lake",
     definition: "Ein großes Gewässer im Land.",
@@ -6556,7 +6556,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 577,
+    id: 528,
     word: "du sagen",
     translation: "to say 'du' / to address informally",
     definition: "Jemanden mit dem vertrauten 'du' ansprechen.",
@@ -6568,7 +6568,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 578,
+    id: 529,
     word: "die Nationalität, -en",
     translation: "nationality",
     definition: "Die Zugehörigkeit zu einem bestimmten Staat.",
@@ -6580,7 +6580,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 579,
+    id: 530,
     word: "der Italiener, - / die Italienerin, -nen",
     translation: "Italian (person)",
     definition: "Eine Person aus Italien.",
@@ -6593,7 +6593,7 @@ export const A1_Vocabulary = [
     family: "Italien",
   },
   {
-    id: 580,
+    id: 531,
     word: "der Deutsche, -n / die Deutsche, -n",
     translation: "German (person)",
     definition: "Eine Person aus Deutschland.",
@@ -6606,7 +6606,7 @@ export const A1_Vocabulary = [
     family: "Deutsch",
   },
   {
-    id: 581,
+    id: 532,
     word: "der Pole, -n / die Polin, -nen",
     translation: "Pole / person from Poland",
     definition: "Eine Person aus Polen.",
@@ -6619,7 +6619,7 @@ export const A1_Vocabulary = [
     family: "Polen",
   },
   {
-    id: 582,
+    id: 533,
     word: "der Syrer, - / die Syrerin, -nen",
     translation: "Syrian (person)",
     definition: "Eine Person aus Syrien.",
@@ -6632,7 +6632,7 @@ export const A1_Vocabulary = [
     family: "Syrien",
   },
   {
-    id: 583,
+    id: 534,
     word: "der Elternabend, -e",
     translation: "parent-teacher evening",
     definition: "Ein Treffen von Eltern und Lehrern in der Schule.",
@@ -6646,7 +6646,7 @@ export const A1_Vocabulary = [
     family: "die Eltern",
   },
   {
-    id: 584,
+    id: 535,
     word: "sehen",
     translation: "to see",
     definition: "Mit den Augen wahrnehmen.",
@@ -6659,7 +6659,7 @@ export const A1_Vocabulary = [
     family: "sehen",
   },
   {
-    id: 585,
+    id: 536,
     word: "bleiben",
     translation: "to stay / to remain",
     definition: "An einem Ort verweilen oder nicht weggehen.",
@@ -6671,7 +6671,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 586,
+    id: 537,
     word: "die Seite, -n",
     translation: "the page / side",
     definition: "Eine Fläche im Buch oder eine Richtung.",
@@ -6683,7 +6683,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 587,
+    id: 538,
     word: "abholen",
     translation: "to pick up / to collect",
     definition: "Jemanden oder etwas an einem Ort abholen.",
@@ -6695,7 +6695,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 588,
+    id: 539,
     word: "spazieren gehen",
     translation: "to go for a walk",
     definition: "Zum Vergnügen zu Fuß gehen.",
@@ -6708,7 +6708,7 @@ export const A1_Vocabulary = [
     family: "gehen",
   },
   {
-    id: 589,
+    id: 540,
     word: "müssen",
     translation: "must / to have to",
     definition: "Eine Verpflichtung oder Notwendigkeit ausdrücken.",
@@ -6720,7 +6720,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 590,
+    id: 541,
     word: "können",
     translation: "can / to be able to",
     definition: "Eine Fähigkeit oder Möglichkeit ausdrücken.",
@@ -6732,7 +6732,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 591,
+    id: 542,
     word: "mitmachen",
     translation: "to join in / to participate",
     definition: "Bei einer Aktivität dabei sein.",
@@ -6745,7 +6745,7 @@ export const A1_Vocabulary = [
     family: "machen",
   },
   {
-    id: 592,
+    id: 543,
     word: "der Keks, -e",
     translation: "cookie / biscuit",
     definition: "Ein kleines, knuspriges Gebäck.",
@@ -6757,7 +6757,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 593,
+    id: 544,
     word: "die Blume, -n",
     translation: "flower",
     definition: "Die blühende Pflanze.",
@@ -6769,7 +6769,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 594,
+    id: 545,
     word: "das Spiel, -e",
     translation: "the game",
     definition: "Eine Aktivität mit Regeln.",
@@ -6782,7 +6782,7 @@ export const A1_Vocabulary = [
     family: "spielen",
   },
   {
-    id: 595,
+    id: 546,
     word: "die Hausaufgabe, -n",
     translation: "homework",
     definition:
@@ -6796,7 +6796,7 @@ export const A1_Vocabulary = [
     family: "das Haus",
   },
   {
-    id: 596,
+    id: 547,
     word: "der Arzt, Ärzte",
     translation: "doctor (male)",
     definition: "Eine Person, die kranke Menschen heilt.",
@@ -6809,7 +6809,7 @@ export const A1_Vocabulary = [
     family: "der Arzt",
   },
   {
-    id: 597,
+    id: 548,
     word: "kaufen",
     translation: "to buy",
     definition: "Etwas gegen Bezahlung erwerben.",
@@ -6822,7 +6822,7 @@ export const A1_Vocabulary = [
     family: "kaufen",
   },
   {
-    id: 598,
+    id: 549,
     word: "aufhängen",
     translation: "to hang up",
     definition: "Etwas an einem Haken oder einer Leine befestigen.",
@@ -6834,7 +6834,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 599,
+    id: 550,
     word: "reparieren",
     translation: "to repair / to fix",
     definition: "Etwas Kaputtes wieder funktionstüchtig machen.",
@@ -6846,7 +6846,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 600,
+    id: 551,
     word: "der Platz, Plätze",
     translation: "place / seat / square",
     definition: "Ein freier Raum oder Sitzplatz.",
@@ -6859,7 +6859,7 @@ export const A1_Vocabulary = [
     family: "der Platz",
   },
   {
-    id: 601,
+    id: 552,
     word: "spielen",
     translation: "to play",
     definition: "Etwas zum Vergnügen tun.",
@@ -6872,7 +6872,7 @@ export const A1_Vocabulary = [
     family: "spielen",
   },
   {
-    id: 603,
+    id: 553,
     word: "interessant",
     translation: "interesting",
     definition: "Die Aufmerksamkeit fesselnd.",
@@ -6884,7 +6884,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 604,
+    id: 554,
     word: "langweilig",
     translation: "boring",
     definition: "Keine Freude oder Abwechslung bringend.",
@@ -6896,7 +6896,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 605,
+    id: 555,
     word: "nett",
     translation: "nice / kind",
     definition: "Freundlich und sympathisch.",
@@ -6908,7 +6908,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 606,
+    id: 556,
     word: "endlich",
     translation: "finally",
     definition: "Nach langer Zeit oder Wartezeit schliesslich.",
@@ -6920,7 +6920,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 607,
+    id: 557,
     word: "die Suppe, -n",
     translation: "the soup",
     definition: "Ein flüssiges Gericht.",
@@ -6933,7 +6933,7 @@ export const A1_Vocabulary = [
     family: "die Suppe",
   },
   {
-    id: 608,
+    id: 558,
     word: "dort",
     translation: "there",
     definition: "An jenem Ort.",
@@ -6945,7 +6945,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 609,
+    id: 559,
     word: "surfen",
     translation: "to surf",
     definition: "Im Internet oder auf dem Wasser surfen.",
@@ -6957,7 +6957,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 610,
+    id: 560,
     word: "Spaß haben",
     translation: "to have fun",
     definition: "Freude an einer Aktivität haben.",
@@ -6970,7 +6970,7 @@ export const A1_Vocabulary = [
     family: "der Spaß",
   },
   {
-    id: 611,
+    id: 561,
     word: "Glück haben",
     translation: "to be lucky",
     definition: "In einer Situation begünstigt sein.",
@@ -6983,7 +6983,7 @@ export const A1_Vocabulary = [
     family: "das Glück",
   },
   {
-    id: 612,
+    id: 562,
     word: "die Süßigkeiten (Pl.)",
     translation: "the sweets",
     definition: "Schokolade, Bonbons und Ähnliches.",
@@ -6996,7 +6996,7 @@ export const A1_Vocabulary = [
     family: "süß",
   },
   {
-    id: 613,
+    id: 563,
     word: "der Unterricht (Sg.)",
     translation: "classes / lessons / instruction",
     definition: "Das Lehren und Lernen in der Schule oder im Kurs.",
@@ -7008,7 +7008,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 614,
+    id: 564,
     word: "das Treffen, -",
     translation: "meeting / get-together",
     definition: "Eine Verabredung von Personen.",
@@ -7020,7 +7020,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 615,
+    id: 565,
     word: "die Hochzeit, -en",
     translation: "wedding",
     definition: "Die feierliche Eheschließung zweier Menschen.",
@@ -7032,7 +7032,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 616,
+    id: 566,
     word: "sympathisch",
     translation: "likeable",
     definition: "Nett und angenehm.",
@@ -7044,7 +7044,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 617,
+    id: 567,
     word: "das Kinderzimmer, -",
     translation: "children's room / nursery",
     definition: "Ein Zimmer für Kinder.",
@@ -7057,7 +7057,7 @@ export const A1_Vocabulary = [
     family: "das Zimmer",
   },
   {
-    id: 618,
+    id: 568,
     word: "das Arbeitszimmer, -",
     translation: "study / home office",
     definition: "Ein Raum zum Arbeiten oder für das Büro zu Hause.",
@@ -7070,7 +7070,7 @@ export const A1_Vocabulary = [
     family: "das Zimmer",
   },
   {
-    id: 620,
+    id: 569,
     word: "die Tasse, -n",
     translation: "the cup",
     definition: "Ein Gefäß für heiße Getränke.",
@@ -7082,7 +7082,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 621,
+    id: 570,
     word: "der Text, -e",
     translation: "the text",
     definition: "Geschriebene Wörter.",
@@ -7094,7 +7094,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 622,
+    id: 571,
     word: "das Bad, Bäder",
     translation: "bathroom",
     definition: "Ein Raum mit Dusche, Badewanne und Waschbecken.",
@@ -7106,7 +7106,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 623,
+    id: 572,
     word: "die Küche, -n",
     translation: "kitchen",
     definition: "Ein Raum zum Kochen und Zubereiten von Speisen.",
@@ -7118,7 +7118,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 624,
+    id: 573,
     word: "das Thema, Themen",
     translation: "the topic",
     definition: "Der Inhalt eines Gesprächs.",
@@ -7130,7 +7130,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 625,
+    id: 574,
     word: "die Toilette, -n",
     translation: "toilet / restroom",
     definition: "Das Örtchen für die Notdurft.",
@@ -7143,7 +7143,7 @@ export const A1_Vocabulary = [
     family: "die Toilette",
   },
   {
-    id: 626,
+    id: 575,
     word: "die Damentoilette, -n",
     translation: "ladies' toilet / women's restroom",
     definition: "Eine Toilette speziell für Frauen.",
@@ -7156,7 +7156,7 @@ export const A1_Vocabulary = [
     family: "die Toilette",
   },
   {
-    id: 627,
+    id: 576,
     word: "die Herrentoilette, -n",
     translation: "men's toilet / men's restroom",
     definition: "Eine Toilette speziell für Männer.",
@@ -7169,7 +7169,7 @@ export const A1_Vocabulary = [
     family: "die Toilette",
   },
   {
-    id: 628,
+    id: 577,
     word: "das Bett, -en",
     translation: "bed",
     definition: "Ein Möbelstück zum Schlafen.",
@@ -7181,7 +7181,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 629,
+    id: 578,
     word: "der Schreibtisch, -e",
     translation: "desk",
     definition: "Ein Tisch zum Arbeiten oder Lernen.",
@@ -7194,7 +7194,7 @@ export const A1_Vocabulary = [
     family: "der Tisch",
   },
   {
-    id: 631,
+    id: 579,
     word: "traurig",
     translation: "sad",
     definition: "Voller Kummer.",
@@ -7206,7 +7206,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 633,
+    id: 580,
     word: "das T-Shirt, -s",
     translation: "the T-shirt",
     definition: "Ein Oberteil mit kurzen Ärmeln.",
@@ -7218,7 +7218,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 634,
+    id: 581,
     word: "die Kommode, -n",
     translation: "chest of drawers / dresser",
     definition: "Ein niedriger Schrank mit Schubladen.",
@@ -7230,7 +7230,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 637,
+    id: 582,
     word: "der Sonnenschirm, -e",
     translation: "parasol / sun umbrella",
     definition: "Ein Schirm zum Schutz vor der Sonne.",
@@ -7242,7 +7242,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 638,
+    id: 583,
     word: "die Waschmaschine, -n",
     translation: "washing machine",
     definition: "Ein elektrisches Gerät zum Waschen von Wäsche.",
@@ -7255,7 +7255,7 @@ export const A1_Vocabulary = [
     family: "waschen",
   },
   {
-    id: 639,
+    id: 584,
     word: "der Kühlschrank, -schränke",
     translation: "refrigerator / fridge",
     definition: "Ein gekühlter Schrank für Lebensmittel.",
@@ -7267,7 +7267,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 640,
+    id: 585,
     word: "die Spüle, -n",
     translation: "kitchen sink",
     definition: "Das Becken in der Küche zum Abwaschen von Geschirr.",
@@ -7279,7 +7279,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 641,
+    id: 586,
     word: "die Kaffeemaschine, -n",
     translation: "coffee machine",
     definition: "Ein Gerät zum Kochen von Kaffee.",
@@ -7292,7 +7292,7 @@ export const A1_Vocabulary = [
     family: "der Kaffee",
   },
   {
-    id: 642,
+    id: 587,
     word: "üben",
     translation: "to practice",
     definition: "Etwas wiederholen, um besser zu werden.",
@@ -7304,7 +7304,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 643,
+    id: 588,
     word: "es gibt",
     translation: "there is / there are",
     definition: "Das Vorhandensein von etwas ausdrücken.",
@@ -7316,7 +7316,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 645,
+    id: 589,
     word: "neu",
     translation: "new",
     definition: "Erst kürzlich hergestellt, gekauft oder entstanden.",
@@ -7328,7 +7328,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 646,
+    id: 590,
     word: "alt",
     translation: "old",
     definition: "Bereits lange existierend oder nicht mehr neu.",
@@ -7340,7 +7340,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 647,
+    id: 591,
     word: "über",
     translation: "over / about",
     definition: "Eine Präposition für oben oder ein Thema.",
@@ -7352,7 +7352,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 648,
+    id: 592,
     word: "unmodern",
     translation: "old-fashioned / unfashionable",
     definition: "Nicht mehr modern oder zeitgemäß.",
@@ -7364,7 +7364,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 649,
+    id: 593,
     word: "ruhig",
     translation: "quiet / calm",
     definition: "Ohne viel Lärm oder Bewegung.",
@@ -7376,7 +7376,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 650,
+    id: 594,
     word: "verdienen",
     translation: "to earn",
     definition: "Geld für Arbeit bekommen.",
@@ -7388,7 +7388,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 651,
+    id: 595,
     word: "viel",
     translation: "much / many",
     definition: "Eine große Menge.",
@@ -7400,7 +7400,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 652,
+    id: 596,
     word: "warum",
     translation: "why",
     definition: "Ein Fragewort für den Grund.",
@@ -7412,7 +7412,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 653,
+    id: 597,
     word: "groß",
     translation: "big / tall",
     definition: "Von beträchtlicher Ausdehnung oder Größe.",
@@ -7424,7 +7424,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 654,
+    id: 598,
     word: "klein",
     translation: "small / little",
     definition: "Von geringer Ausdehnung oder Größe.",
@@ -7436,7 +7436,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 655,
+    id: 599,
     word: "was",
     translation: "what",
     definition: "Ein Fragewort für Dinge.",
@@ -7448,7 +7448,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 656,
+    id: 600,
     word: "die Anzeige, -n",
     translation: "advertisement / ad",
     definition: "Ein Inserat in Zeitung oder Internet, z.B. für eine Wohnung.",
@@ -7460,7 +7460,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 657,
+    id: 601,
     word: "wecken",
     translation: "to wake up",
     definition: "Jemanden aus dem Schlaf holen.",
@@ -7472,7 +7472,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 659,
+    id: 602,
     word: "der Quadratmeter, - (qm)",
     translation: "square meter",
     definition: "Maßeinheit für Flächen.",
@@ -7485,7 +7485,7 @@ export const A1_Vocabulary = [
     family: "der Meter",
   },
   {
-    id: 662,
+    id: 603,
     word: "weit",
     translation: "far",
     definition: "Mit großer Entfernung.",
@@ -7497,7 +7497,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 663,
+    id: 604,
     word: "der Parkplatz, -plätze",
     translation: "parking space / parking lot",
     definition: "Ein ausgewiesener Platz zum Parken von Autos.",
@@ -7510,7 +7510,7 @@ export const A1_Vocabulary = [
     family: "der Platz",
   },
   {
-    id: 664,
+    id: 605,
     word: "der Garten, Gärten",
     translation: "garden",
     definition: "Eine Nutz- oder Zierfläche mit Pflanzen am Haus.",
@@ -7522,7 +7522,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 667,
+    id: 606,
     word: "weiter",
     translation: "further",
     definition: "Über etwas hinaus.",
@@ -7534,7 +7534,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 668,
+    id: 607,
     word: "welcher",
     translation: "which",
     definition: "Ein Fragewort für eine Auswahl.",
@@ -7546,7 +7546,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 669,
+    id: 608,
     word: "lustig",
     translation: "funny / amusing",
     definition: "Zum Lachen anregend.",
@@ -7559,7 +7559,7 @@ export const A1_Vocabulary = [
     family: "die Lust",
   },
   {
-    id: 672,
+    id: 609,
     word: "billig",
     translation: "cheap / inexpensive",
     definition: "Wenig kostend.",
@@ -7571,7 +7571,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 673,
+    id: 610,
     word: "der Anfang, Anfänge",
     translation: "beginning / start",
     definition: "Der Start oder erste Teil von etwas.",
@@ -7584,7 +7584,7 @@ export const A1_Vocabulary = [
     family: "der Anfang",
   },
   {
-    id: 674,
+    id: 611,
     word: "am Anfang",
     translation: "at the beginning",
     definition: "Zu Beginn einer Sache.",
@@ -7596,7 +7596,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 675,
+    id: 612,
     word: "zu wenig Platz haben",
     translation: "to have too little space",
     definition: "Nicht genug Raum zur Verfügung haben.",
@@ -7608,7 +7608,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 676,
+    id: 613,
     word: "die Traumwohnung, -en",
     translation: "dream apartment",
     definition: "Eine Wohnung, die man sich perfekt wünscht.",
@@ -7622,7 +7622,7 @@ export const A1_Vocabulary = [
     family: "wohnen",
   },
   {
-    id: 677,
+    id: 614,
     word: "auf dem Land",
     translation: "in the countryside",
     definition: "Abseits der großen Städte auf dem flachen Land wohnen.",
@@ -7634,7 +7634,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 678,
+    id: 615,
     word: "in der Stadt",
     translation: "in the city",
     definition: "Mitten im urbanen Stadtgebiet sein.",
@@ -7646,7 +7646,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 679,
+    id: 616,
     word: "mit Garten",
     translation: "with a garden",
     definition: "Eine Immobilie, die über einen Garten verfügt.",
@@ -7659,7 +7659,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 680,
+    id: 617,
     word: "mit Balkon",
     translation: "with a balcony",
     definition: "Eine Wohnung, die einen Balkon besitzt.",
@@ -7671,7 +7671,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 681,
+    id: 618,
     word: "mit Pool",
     translation: "with a pool",
     definition: "Ausgestattet mit einem Schwimmbecken.",
@@ -7683,7 +7683,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 682,
+    id: 619,
     word: "nette Nachbarn",
     translation: "nice neighbors",
     definition: "Freundliche Menschen, die nebenan wohnen.",
@@ -7695,7 +7695,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 683,
+    id: 620,
     word: "glücklich",
     translation: "happy",
     definition: "Froh und zufrieden sein.",
@@ -7708,7 +7708,7 @@ export const A1_Vocabulary = [
     family: "das Glück",
   },
   {
-    id: 684,
+    id: 621,
     word: "welt",
     translation: "world",
     definition: "Die Erde und alle Menschen darauf.",
@@ -7720,7 +7720,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 685,
+    id: 622,
     word: "der Spielplatz, -plätze",
     translation: "playground",
     definition: "Ein Platz mit Spielgeräten für Kinder im Freien.",
@@ -7733,7 +7733,7 @@ export const A1_Vocabulary = [
     family: "der Platz",
   },
   {
-    id: 686,
+    id: 623,
     word: "der Bus, -se",
     translation: "bus",
     definition: "Ein großes Kraftfahrzeug für den Linienverkehr.",
@@ -7745,7 +7745,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 687,
+    id: 624,
     word: "die U-Bahn, -en",
     translation: "subway / underground",
     definition: "Eine städtische Untergrund-Eisenbahn.",
@@ -7757,7 +7757,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 688,
+    id: 625,
     word: "die Leute (Pl.)",
     translation: "people",
     definition: "Eine Gruppe von mehreren Personen.",
@@ -7769,7 +7769,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 690,
+    id: 626,
     word: "wenig",
     translation: "little / few",
     definition: "Nicht viel.",
@@ -7781,7 +7781,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 692,
+    id: 627,
     word: "wer",
     translation: "who",
     definition: "Ein Fragewort für Personen.",
@@ -7793,7 +7793,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 693,
+    id: 628,
     word: "werden",
     translation: "to become",
     definition: "Sich verändern oder ein Ziel erreichen.",
@@ -7805,7 +7805,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 694,
+    id: 629,
     word: "wie",
     translation: "how / like",
     definition: "Ein Fragewort oder Vergleich.",
@@ -7817,7 +7817,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 695,
+    id: 630,
     word: "abstellen",
     translation: "to park / to turn off / to put down",
     definition: "Etwas an einem bestimmten Ort hinstellen oder abstellen.",
@@ -7829,7 +7829,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 697,
+    id: 631,
     word: "erlaubt",
     translation: "allowed / permitted",
     definition: "Gestattet sein.",
@@ -7841,7 +7841,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 698,
+    id: 632,
     word: "der Kinderwagen, -",
     translation: "pram / stroller",
     definition: "Ein Wagen für den Transport von Babys.",
@@ -7854,7 +7854,7 @@ export const A1_Vocabulary = [
     family: "das Kind",
   },
   {
-    id: 699,
+    id: 633,
     word: "wie viel",
     translation: "how much",
     definition: "Ein Fragewort für die Menge.",
@@ -7866,7 +7866,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 701,
+    id: 634,
     word: "wieder",
     translation: "again",
     definition: "Noch einmal.",
@@ -7878,7 +7878,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 702,
+    id: 635,
     word: "das Wiedersehen (Sg.)",
     translation: "the meeting again",
     definition: "Ein erneutes Treffen.",
@@ -7890,7 +7890,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 703,
+    id: 636,
     word: "wo",
     translation: "where",
     definition: "Ein Fragewort für den Ort.",
@@ -7902,7 +7902,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 704,
+    id: 637,
     word: "die Freizeitaktivität, -en",
     translation: "leisure activity",
     definition: "Eine Aktivität, die man in der Freizeit ausübt.",
@@ -7915,7 +7915,7 @@ export const A1_Vocabulary = [
     family: "die Aktivität",
   },
   {
-    id: 705,
+    id: 638,
     word: "chillen",
     translation: "to chill / to relax",
     definition: "Sich entspannen und nichts Anstrengendes tun.",
@@ -7927,7 +7927,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 706,
+    id: 639,
     word: "die Zeitung, -en",
     translation: "newspaper",
     definition: "Gedruckte Blätter mit aktuellen Nachrichten.",
@@ -7939,7 +7939,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 708,
+    id: 640,
     word: "das Computerspiel, -e",
     translation: "computer game",
     definition: "Ein Spiel, das auf dem Computer gespielt wird.",
@@ -7952,7 +7952,7 @@ export const A1_Vocabulary = [
     family: "spielen",
   },
   {
-    id: 709,
+    id: 641,
     word: "treffen",
     translation: "to meet",
     definition: "Mit jemandem an einem Ort zusammenkommen.",
@@ -7964,7 +7964,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 710,
+    id: 642,
     word: "einfach",
     translation: "simple / easy / just",
     definition: "Nicht schwer oder ohne große Komplikationen.",
@@ -7976,7 +7976,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 712,
+    id: 643,
     word: "der Chat, -s",
     translation: "chat",
     definition: "Eine schriftliche Unterhaltung im Internet.",
@@ -7989,7 +7989,7 @@ export const A1_Vocabulary = [
     family: "der Chat",
   },
   {
-    id: 713,
+    id: 644,
     word: "woher",
     translation: "where from",
     definition: "Ein Fragewort für die Herkunft.",
@@ -8001,7 +8001,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 714,
+    id: 645,
     word: "das Frisbee, -s",
     translation: "frisbee",
     definition: "Eine Wurfscheibe aus Kunststoff als Freizeitspiel.",
@@ -8013,7 +8013,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 715,
+    id: 646,
     word: "das Ballspiel, -e",
     translation: "ball game",
     definition: "Ein Sport oder Spiel, bei dem ein Ball verwendet wird.",
@@ -8026,7 +8026,7 @@ export const A1_Vocabulary = [
     family: "der Ball",
   },
   {
-    id: 716,
+    id: 647,
     word: "kennenlernen",
     translation: "to get to know / to meet for the first time",
     definition: "Mit jemandem oder etwas erstmals vertraut werden.",
@@ -8039,7 +8039,7 @@ export const A1_Vocabulary = [
     family: "kennen",
   },
   {
-    id: 717,
+    id: 648,
     word: "mitkommen",
     translation: "to come along",
     definition: "Gemeinsam mit jemandem an einen anderen Ort gehen.",
@@ -8052,7 +8052,7 @@ export const A1_Vocabulary = [
     family: "kommen",
   },
   {
-    id: 718,
+    id: 649,
     word: "schon lange",
     translation: "for a long time",
     definition: "Bereits seit längerer Zeit andauernd.",
@@ -8064,7 +8064,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 719,
+    id: 650,
     word: "das Wohnzimmer, -",
     translation: "the living room",
     definition: "Der Raum zum Sitzen und Fernsehen.",
@@ -8077,7 +8077,7 @@ export const A1_Vocabulary = [
     family: "das Zimmer",
   },
   {
-    id: 720,
+    id: 651,
     word: "wunderbar",
     translation: "wonderful",
     definition: "Sehr schön.",
@@ -8089,7 +8089,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 721,
+    id: 652,
     word: "der Sonnabend, -e",
     translation: "Saturday",
     definition: "Ein anderes Wort für Samstag.",
@@ -8102,7 +8102,7 @@ export const A1_Vocabulary = [
     family: "der Abend",
   },
   {
-    id: 723,
+    id: 653,
     word: "der Zahn, Zähne",
     translation: "the tooth",
     definition: "Ein Teil im Mund zum Kauen.",
@@ -8115,7 +8115,7 @@ export const A1_Vocabulary = [
     family: "der Zahn",
   },
   {
-    id: 724,
+    id: 654,
     word: "das Zimmer, -",
     translation: "the room",
     definition: "Ein Raum in einer Wohnung.",
@@ -8128,7 +8128,7 @@ export const A1_Vocabulary = [
     family: "das Zimmer",
   },
   {
-    id: 726,
+    id: 655,
     word: "das Schwimmbad, -bäder",
     translation: "swimming pool",
     definition: "Eine Anlage mit Becken zum Schwimmen.",
@@ -8141,7 +8141,7 @@ export const A1_Vocabulary = [
     family: "schwimmen",
   },
   {
-    id: 727,
+    id: 656,
     word: "zuerst",
     translation: "first",
     definition: "Als Erstes.",
@@ -8153,7 +8153,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 728,
+    id: 657,
     word: "der Antwortbogen, Antwortbögen",
     translation: "the answer sheet",
     definition: "Ein Blatt, auf dem man in der Prüfung antwortet.",
@@ -8166,7 +8166,7 @@ export const A1_Vocabulary = [
     family: "antworten",
   },
   {
-    id: 729,
+    id: 658,
     word: "laufen",
     translation: "to run / to walk",
     definition: "Sich schnell zu Fuß fortbewegen.",
@@ -8178,7 +8178,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 730,
+    id: 659,
     word: "für Jung und Alt",
     translation: "for young and old",
     definition: "Für Menschen jeden Alters geeignet.",
@@ -8190,7 +8190,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 732,
+    id: 660,
     word: "der Stadtpark, -s",
     translation: "city park",
     definition: "Eine große Grünanlage in der Stadt.",
@@ -8203,7 +8203,7 @@ export const A1_Vocabulary = [
     family: "die Stadt",
   },
   {
-    id: 733,
+    id: 661,
     word: "die Aufgabe, -n",
     translation: "the task / exercise",
     definition: "Eine Arbeit, die man lösen muss.",
@@ -8215,7 +8215,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 734,
+    id: 662,
     word: "das Sommerkonzert, -e",
     translation: "summer concert",
     definition: "Ein Konzert, das im Sommer stattfindet.",
@@ -8228,7 +8228,7 @@ export const A1_Vocabulary = [
     family: "der Sommer",
   },
   {
-    id: 736,
+    id: 663,
     word: "die Sportkneipe, -n",
     translation: "sports pub",
     definition: "Eine Kneipe, in der man Sportübertragungen sieht.",
@@ -8241,7 +8241,7 @@ export const A1_Vocabulary = [
     family: "der Sport",
   },
   {
-    id: 738,
+    id: 664,
     word: "Rad fahren",
     translation: "to ride a bike / to cycle",
     definition: "Sich mit dem Fahrrad fortbewegen.",
@@ -8254,7 +8254,7 @@ export const A1_Vocabulary = [
     family: "fahren",
   },
   {
-    id: 739,
+    id: 665,
     word: "die Stadtführung, -en",
     translation: "city tour / guided tour of the city",
     definition: "Ein geführter Rundgang durch eine Stadt.",
@@ -8267,7 +8267,7 @@ export const A1_Vocabulary = [
     family: "die Stadt",
   },
   {
-    id: 740,
+    id: 666,
     word: "das Beispiel, -e",
     translation: "the example",
     definition: "Ein Fall, der etwas zeigt.",
@@ -8279,7 +8279,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 741,
+    id: 667,
     word: "der Jugendliche, -n / die Jugendliche, -n",
     translation: "youth / teenager",
     definition: "Ein junger Mensch im Alter von etwa 13 bis 18 Jahren.",
@@ -8291,7 +8291,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 742,
+    id: 668,
     word: "pro Person",
     translation: "per person",
     definition: "Für jedes einzelne Individuum berechnet.",
@@ -8303,7 +8303,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 744,
+    id: 669,
     word: "wohin",
     translation: "where to",
     definition: "Frage nach der Richtung einer Bewegung.",
@@ -8315,7 +8315,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 745,
+    id: 670,
     word: "einverstanden sein",
     translation: "to agree / to be in agreement",
     definition: "Mit einem Vorschlag oder Plan zufrieden sein.",
@@ -8327,7 +8327,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 746,
+    id: 671,
     word: "das Schach (Sg.)",
     translation: "chess",
     definition: "Ein strategisches Brettspiel für zwei Spieler.",
@@ -8339,7 +8339,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 747,
+    id: 672,
     word: "die Fahrradtour, -en",
     translation: "bike tour / bicycle ride",
     definition: "Eine längere Fahrt mit dem Fahrrad als Ausflug.",
@@ -8352,7 +8352,7 @@ export const A1_Vocabulary = [
     family: "das Rad",
   },
   {
-    id: 748,
+    id: 673,
     word: "der Ball, Bälle",
     translation: "ball",
     definition: "Ein runder Gegenstand zum Spielen und Werfen.",
@@ -8365,7 +8365,7 @@ export const A1_Vocabulary = [
     family: "der Ball",
   },
   {
-    id: 749,
+    id: 674,
     word: "die Karte, -n",
     translation: "card / ticket",
     definition: "Eine Spielkarte oder Eintrittskarte.",
@@ -8378,7 +8378,7 @@ export const A1_Vocabulary = [
     family: "die Karte",
   },
   {
-    id: 750,
+    id: 675,
     word: "die Zeitangabe, -n",
     translation: "time specification / time detail",
     definition: "Die Angabe einer bestimmten Zeit.",
@@ -8392,7 +8392,7 @@ export const A1_Vocabulary = [
     family: "die Zeit",
   },
   {
-    id: 751,
+    id: 676,
     word: "letzten Monat",
     translation: "last month",
     definition: "Der Monat direkt vor dem aktuellen Monat.",
@@ -8404,7 +8404,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 752,
+    id: 677,
     word: "letztes Jahr",
     translation: "last year",
     definition: "Das Jahr direkt vor dem aktuellen Jahr.",
@@ -8417,7 +8417,7 @@ export const A1_Vocabulary = [
     family: "das Jahr",
   },
   {
-    id: 753,
+    id: 678,
     word: "letzte Woche",
     translation: "last week",
     definition: "Die Woche direkt vor der aktuellen Woche.",
@@ -8430,7 +8430,7 @@ export const A1_Vocabulary = [
     family: "die Woche",
   },
   {
-    id: 754,
+    id: 679,
     word: "der Teil, -e",
     translation: "the part",
     definition: "Ein Stück von einem Ganzen.",
@@ -8443,7 +8443,7 @@ export const A1_Vocabulary = [
     family: "der Teil",
   },
   {
-    id: 755,
+    id: 680,
     word: "der Beruf, -e",
     translation: "profession / job",
     definition: "Die ausgeübte berufliche Tätigkeit.",
@@ -8455,7 +8455,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 756,
+    id: 681,
     word: "der Busfahrer, - / die Busfahrerin, -nen",
     translation: "bus driver",
     definition: "Eine Person, die beruflich einen Bus fährt.",
@@ -8468,7 +8468,7 @@ export const A1_Vocabulary = [
     family: "fahren",
   },
   {
-    id: 757,
+    id: 682,
     word: "der Künstler, -",
     translation: "the artist (male)",
     definition: "Ein Mann, der Kunst macht.",
@@ -8481,7 +8481,7 @@ export const A1_Vocabulary = [
     family: "der Künstler",
   },
   {
-    id: 758,
+    id: 683,
     word: "Montag–Freitag",
     translation: "Monday to Friday",
     definition: "Die klassischen Arbeitstage der Woche.",
@@ -8493,7 +8493,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 759,
+    id: 684,
     word: "der Blog, -s",
     translation: "blog",
     definition: "Eine Website mit regelmäßigen Beiträgen im Internet.",
@@ -8505,7 +8505,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 760,
+    id: 685,
     word: "der Flughafen, -häfen",
     translation: "airport",
     definition: "Ein Gelände mit Start- und Landebahnen für Flugzeuge.",
@@ -8518,7 +8518,7 @@ export const A1_Vocabulary = [
     family: "fliegen",
   },
   {
-    id: 761,
+    id: 686,
     word: "der Abflug, Abflüge",
     translation: "departure (flight)",
     definition: "Das Starten eines Flugzeugs.",
@@ -8531,7 +8531,7 @@ export const A1_Vocabulary = [
     family: "fliegen",
   },
   {
-    id: 762,
+    id: 687,
     word: "der Fluggast, -gäste",
     translation: "air passenger",
     definition: "Ein Passagier in einem Flugzeug.",
@@ -8544,7 +8544,7 @@ export const A1_Vocabulary = [
     family: "fliegen",
   },
   {
-    id: 763,
+    id: 688,
     word: "das Gepäck (Sg.)",
     translation: "luggage / baggage",
     definition: "Die Gesamtheit der Koffer und Taschen auf Reisen.",
@@ -8556,7 +8556,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 764,
+    id: 689,
     word: "einchecken",
     translation: "to check in",
     definition: "Sich an einem Schalter oder Flugsteig anmelden.",
@@ -8568,7 +8568,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 766,
+    id: 690,
     word: "das Chaos (Sg.)",
     translation: "chaos / mess",
     definition: "Vollkommene Unordnung.",
@@ -8580,7 +8580,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 768,
+    id: 691,
     word: "die Künstlerin, -nen",
     translation: "the artist (female)",
     definition: "Eine Frau, die Kunst macht.",
@@ -8593,7 +8593,7 @@ export const A1_Vocabulary = [
     family: "der Künstler",
   },
   {
-    id: 770,
+    id: 692,
     word: "der Lehrer, -",
     translation: "the teacher (male)",
     definition: "Ein Mann, der in der Schule unterrichtet.",
@@ -8606,7 +8606,7 @@ export const A1_Vocabulary = [
     family: "der Lehrer",
   },
   {
-    id: 771,
+    id: 693,
     word: "die Schauspielerin, -nen",
     translation: "the actress",
     definition: "Eine Frau, die in Filmen oder im Theater spielt.",
@@ -8619,7 +8619,7 @@ export const A1_Vocabulary = [
     family: "der Schauspieler",
   },
   {
-    id: 772,
+    id: 694,
     word: "der Kurs, -e",
     translation: "course / class",
     definition: "Eine Bildungsveranstaltung zum Lernen.",
@@ -8631,7 +8631,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 773,
+    id: 695,
     word: "der Pilates-Kurs, -e",
     translation: "Pilates course",
     definition: "Ein Kurs für das Pilates-Ganzkörpertraining.",
@@ -8644,7 +8644,7 @@ export const A1_Vocabulary = [
     family: "der Kurs",
   },
   {
-    id: 774,
+    id: 696,
     word: "online",
     translation: "online",
     definition: "Mit dem Internet verbunden.",
@@ -8656,7 +8656,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 776,
+    id: 697,
     word: "die Probestunde, -n",
     translation: "trial lesson",
     definition: "Eine erste kostenlose Unterrichtsstunde zum Testen.",
@@ -8669,7 +8669,7 @@ export const A1_Vocabulary = [
     family: "die Stunde",
   },
   {
-    id: 778,
+    id: 698,
     word: "der Techniker, -",
     translation: "the technician (male)",
     definition: "Ein Mann mit technischem Beruf.",
@@ -8682,7 +8682,7 @@ export const A1_Vocabulary = [
     family: "der Techniker",
   },
   {
-    id: 780,
+    id: 699,
     word: "die Technikerin, -nen",
     translation: "the technician (female)",
     definition: "Eine Frau mit technischem Beruf.",
@@ -8695,7 +8695,7 @@ export const A1_Vocabulary = [
     family: "der Techniker",
   },
   {
-    id: 781,
+    id: 700,
     word: "das Familienmitglied, -er",
     translation: "family member",
     definition: "Eine Person, die zur Familie gehört.",
@@ -8708,7 +8708,7 @@ export const A1_Vocabulary = [
     family: "die Familie",
   },
   {
-    id: 783,
+    id: 701,
     word: "das Comic, -s",
     translation: "comic / comic book",
     definition: "Eine Bildergeschichte in Heftform.",
@@ -8720,7 +8720,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 784,
+    id: 702,
     word: "der Kugelschreiber, -",
     translation: "ballpoint pen",
     definition: "Ein Schreibstift mit Tinte.",
@@ -8733,7 +8733,7 @@ export const A1_Vocabulary = [
     family: "schreiben",
   },
   {
-    id: 785,
+    id: 703,
     word: "der Bleistift, -e",
     translation: "pencil",
     definition: "Ein Stift mit Graphitmine, den man radieren kann.",
@@ -8745,7 +8745,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 786,
+    id: 704,
     word: "die Musikschule, -n",
     translation: "music school",
     definition: "Eine Schule zum Erlernen von Musikinstrumenten.",
@@ -8758,7 +8758,7 @@ export const A1_Vocabulary = [
     family: "die Schule",
   },
   {
-    id: 787,
+    id: 705,
     word: "der Musikkurs, -e",
     translation: "music course",
     definition: "Ein Kurs für musikalische Ausbildung.",
@@ -8771,7 +8771,7 @@ export const A1_Vocabulary = [
     family: "der Kurs",
   },
   {
-    id: 788,
+    id: 706,
     word: "gelb",
     translation: "yellow",
     definition: "Die Farbe der Sonne.",
@@ -8783,7 +8783,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 789,
+    id: 707,
     word: "Europa (Sg.)",
     translation: "Europe",
     definition: "Ein Kontinent.",
@@ -8796,7 +8796,7 @@ export const A1_Vocabulary = [
     family: "Europa",
   },
   {
-    id: 790,
+    id: 708,
     word: "die Chemie (Sg.)",
     translation: "chemistry",
     definition: "Das Fach über Stoffe und ihre Eigenschaften.",
@@ -8808,7 +8808,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 791,
+    id: 709,
     word: "die Geografie (Sg.)",
     translation: "geography",
     definition: "Das Fach über Länder und Landschaften.",
@@ -8820,7 +8820,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 792,
+    id: 710,
     word: "die Mathematik (Sg.)",
     translation: "mathematics",
     definition: "Das Fach über Zahlen.",
@@ -8832,7 +8832,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 793,
+    id: 711,
     word: "der Herr, -en / die Dame, -n",
     translation: "Mr. / gentleman - Mrs. / lady",
     definition: "Höfliche Anrede für Männer und Frauen.",
@@ -8844,7 +8844,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 794,
+    id: 712,
     word: "Sehr geehrte Damen und Herren",
     translation: "Dear Sir or Madam",
     definition: "Formelle Anrede in offiziellen Briefen.",
@@ -8856,7 +8856,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 795,
+    id: 713,
     word: "Mit freundlichen Grüßen",
     translation: "With kind regards / Sincerely",
     definition: "Formelle Abschiedsformel in Briefen.",
@@ -8869,7 +8869,7 @@ export const A1_Vocabulary = [
     family: "der Gruß",
   },
   {
-    id: 796,
+    id: 714,
     word: "die Physik (Sg.)",
     translation: "physics",
     definition: "Das Fach über Natur und Kräfte.",
@@ -8881,7 +8881,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 798,
+    id: 715,
     word: "die Sozialkunde (Sg.)",
     translation: "social studies",
     definition: "Das Fach über Gesellschaft und Politik.",
@@ -8893,7 +8893,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 799,
+    id: 716,
     word: "der Karneval (Sg.)",
     translation: "carnival",
     definition: "Ein Fest mit Verkleidung im Winter.",
@@ -8906,7 +8906,7 @@ export const A1_Vocabulary = [
     family: "der Karneval",
   },
   {
-    id: 800,
+    id: 717,
     word: "die Monatskarte, -n",
     translation: "monthly ticket",
     definition:
@@ -8920,7 +8920,7 @@ export const A1_Vocabulary = [
     family: "die Karte",
   },
   {
-    id: 801,
+    id: 718,
     word: "tausend",
     translation: "thousand",
     definition: "Die Zahl 1000.",
@@ -8932,7 +8932,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 802,
+    id: 719,
     word: "ich",
     translation: "I",
     definition: "Das Pronomen für die Person, die gerade spricht.",
@@ -8944,7 +8944,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 803,
+    id: 720,
     word: "die SIM-Karte, -n",
     translation: "SIM card",
     definition: "Eine Chipkarte für Mobiltelefone.",
@@ -8957,7 +8957,7 @@ export const A1_Vocabulary = [
     family: "die Karte",
   },
   {
-    id: 804,
+    id: 721,
     word: "das WLAN (Sg.)",
     translation: "Wi-Fi / wireless local area network",
     definition: "Kabelloser Internetzugang.",
@@ -8969,7 +8969,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 805,
+    id: 722,
     word: "du",
     translation: "you (informal)",
     definition: "Das Pronomen für eine Person, die man gut kennt.",
@@ -8981,7 +8981,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 806,
+    id: 723,
     word: "wir",
     translation: "we",
     definition:
@@ -8994,7 +8994,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 808,
+    id: 724,
     word: "es",
     translation: "it",
     definition: "Ein Pronomen für Dinge und für Sätze ohne Person.",
@@ -9006,7 +9006,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 810,
+    id: 725,
     word: "mein / meine",
     translation: "my",
     definition: "Zeigt, dass etwas zu mir gehört.",
@@ -9018,7 +9018,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 811,
+    id: 726,
     word: "der Fahrgast, -gäste",
     translation: "passenger",
     definition: "Ein reisender Fahrgast in Bus oder Bahn.",
@@ -9031,7 +9031,7 @@ export const A1_Vocabulary = [
     family: "fahren",
   },
   {
-    id: 812,
+    id: 727,
     word: "das Porträt, -s",
     translation: "portrait",
     definition: "Ein Bildnis einer Person.",
@@ -9043,7 +9043,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 815,
+    id: 728,
     word: "dein / deine",
     translation: "your (informal)",
     definition: "Zeigt, dass etwas zu dir gehört.",
@@ -9055,7 +9055,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 816,
+    id: 729,
     word: "unser / unsere",
     translation: "our",
     definition: "Zeigt, dass etwas zu uns gehört.",
@@ -9067,7 +9067,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 817,
+    id: 730,
     word: "euer / eure",
     translation: "your (plural, informal)",
     definition: "Zeigt, dass etwas zu euch gehört.",
@@ -9079,7 +9079,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 818,
+    id: 731,
     word: "das Bewerbungsgespräch, -e",
     translation: "job interview",
     definition: "Ein Gespräch zwischen Arbeitgeber und Bewerber.",
@@ -9092,7 +9092,7 @@ export const A1_Vocabulary = [
     family: "das Gespräch",
   },
   {
-    id: 819,
+    id: 732,
     word: "Ihr / Ihre",
     translation: "your (formal)",
     definition: "Zeigt höflich, dass etwas zu Ihnen gehört.",
@@ -9104,7 +9104,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 820,
+    id: 733,
     word: "ein / eine",
     translation: "a / an",
     definition: "Der unbestimmte Artikel vor einem Nomen.",
@@ -9116,7 +9116,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 821,
+    id: 734,
     word: "der Europäer, - / die Europäerin, -nen",
     translation: "European",
     definition: "Eine Person aus Europa.",
@@ -9129,7 +9129,7 @@ export const A1_Vocabulary = [
     family: "Europa",
   },
   {
-    id: 823,
+    id: 735,
     word: "der, die, das",
     translation: "the",
     definition: "Der bestimmte Artikel; er zeigt das Geschlecht eines Nomens.",
@@ -9141,7 +9141,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 824,
+    id: 736,
     word: "beste",
     translation: "best",
     definition: "Die höchste Stufe von „gut“.",
@@ -9153,7 +9153,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 825,
+    id: 737,
     word: "ander-",
     translation: "other",
     definition: "Nicht dasselbe, sondern etwas Verschiedenes.",
@@ -9165,7 +9165,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 826,
+    id: 738,
     word: "und so weiter (usw.)",
     translation: "and so on (etc.)",
     definition: "Man sagt es am Ende einer Aufzählung.",
@@ -9177,7 +9177,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 828,
+    id: 739,
     word: "die Post (Sg.)",
     translation: "post office / mail",
     definition: "Das Postamt oder Briefe und Pakete.",
@@ -9189,7 +9189,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 829,
+    id: 740,
     word: "auf sein",
     translation: "to be open",
     definition: "Eine Tür, ein Fenster oder ein Geschäft ist offen.",
@@ -9201,7 +9201,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 830,
+    id: 741,
     word: "aus sein",
     translation: "to be over / to be off",
     definition: "Etwas ist zu Ende oder ausgeschaltet.",
@@ -9213,7 +9213,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 831,
+    id: 742,
     word: "das Personalbüro, -s",
     translation: "personnel office / HR department",
     definition: "Die Personalabteilung einer Firma.",
@@ -9225,7 +9225,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 832,
+    id: 743,
     word: "zu sein",
     translation: "to be closed",
     definition: "Etwas ist nicht geöffnet.",
@@ -9237,7 +9237,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 833,
+    id: 744,
     word: "geschlossen sein",
     translation: "to be closed",
     definition: "Nicht geöffnet sein, zum Beispiel ein Geschäft.",
@@ -9250,7 +9250,7 @@ export const A1_Vocabulary = [
     family: "schließen",
   },
   {
-    id: 834,
+    id: 745,
     word: "der Arbeitsvertrag, -verträge",
     translation: "employment contract",
     definition:
@@ -9264,7 +9264,7 @@ export const A1_Vocabulary = [
     family: "die Arbeit",
   },
   {
-    id: 835,
+    id: 746,
     word: "das Bürgeramt, -ämter",
     translation: "citizens' registration office",
     definition: "Eine städtische Behörde für Bürgerangelegenheiten.",
@@ -9277,7 +9277,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 836,
+    id: 747,
     word: "die Reise, -n",
     translation: "trip / journey / travel",
     definition: "Das Unterwegssein an einen anderen Ort.",
@@ -9289,7 +9289,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 837,
+    id: 748,
     word: "hübsch",
     translation: "pretty",
     definition: "Schön und angenehm anzusehen.",
@@ -9301,7 +9301,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 839,
+    id: 749,
     word: "erklären",
     translation: "to explain",
     definition: "Etwas verständlich machen.",
@@ -9313,7 +9313,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 840,
+    id: 750,
     word: "verrückt",
     translation: "crazy",
     definition: "Nicht normal; ungewöhnlich oder überraschend.",
@@ -9325,7 +9325,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 841,
+    id: 751,
     word: "vergessen",
     translation: "to forget",
     definition: "Etwas nicht mehr im Gedächtnis haben.",
@@ -9337,7 +9337,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 842,
+    id: 752,
     word: "verstehen",
     translation: "to understand",
     definition: "Den Sinn von etwas begreifen.",
@@ -9349,7 +9349,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 843,
+    id: 753,
     word: "lieb",
     translation: "dear / kind",
     definition: "Freundlich und nett; auch in der Anrede in Briefen.",
@@ -9362,7 +9362,7 @@ export const A1_Vocabulary = [
     family: "lieben",
   },
   {
-    id: 844,
+    id: 754,
     word: "Lieblings-",
     translation: "favourite",
     definition: "Ein Wortteil für etwas, das man am liebsten mag.",
@@ -9375,7 +9375,7 @@ export const A1_Vocabulary = [
     family: "lieben",
   },
   {
-    id: 845,
+    id: 755,
     word: "der Ohrring, -e",
     translation: "earring",
     definition: "Ein Schmuckstück, das man am Ohr trägt.",
@@ -9388,7 +9388,7 @@ export const A1_Vocabulary = [
     family: "der Ring",
   },
   {
-    id: 846,
+    id: 756,
     word: "tragen",
     translation: "to wear / to carry",
     definition: "Kleidung anhaben oder etwas Schweres tragen.",
@@ -9400,7 +9400,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 847,
+    id: 757,
     word: "der Radiergummi, -s",
     translation: "eraser",
     definition: "Ein kleines Ding, mit dem man Bleistiftstriche löscht.",
@@ -9412,7 +9412,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 848,
+    id: 758,
     word: "Tennis spielen",
     translation: "to play tennis",
     definition: "Mit Schläger und Ball auf einem Platz spielen.",
@@ -9425,7 +9425,7 @@ export const A1_Vocabulary = [
     family: "spielen",
   },
   {
-    id: 850,
+    id: 759,
     word: "sofort",
     translation: "immediately / right away",
     definition: "Unverzüglich, ohne Verzögerung.",
@@ -9437,7 +9437,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 851,
+    id: 760,
     word: "der CD-Player, -",
     translation: "CD player",
     definition: "Ein Gerät, mit dem man CDs anhört.",
@@ -9449,7 +9449,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 852,
+    id: 761,
     word: "der Chatroom, -s",
     translation: "chat room",
     definition: "Ein Ort im Internet, an dem man mit anderen schreibt.",
@@ -9462,7 +9462,7 @@ export const A1_Vocabulary = [
     family: "der Chat",
   },
   {
-    id: 854,
+    id: 762,
     word: "die DVD, -s",
     translation: "DVD",
     definition: "Eine Scheibe, auf der ein Film gespeichert ist.",
@@ -9474,7 +9474,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 855,
+    id: 763,
     word: "faxen",
     translation: "to fax",
     definition: "Ein Dokument mit einem Fax-Gerät schicken.",
@@ -9486,7 +9486,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 856,
+    id: 764,
     word: "herzlich",
     translation: "cordial / warm / heartfelt",
     definition: "Sehr freundlich und liebevoll.",
@@ -9499,7 +9499,7 @@ export const A1_Vocabulary = [
     family: "das Herz",
   },
   {
-    id: 857,
+    id: 765,
     word: "helfen",
     translation: "to help",
     definition: "Unterstützung leisten.",
@@ -9511,7 +9511,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 858,
+    id: 766,
     word: "hereinkommen",
     translation: "to come in / to enter",
     definition: "In einen Raum hineingehen.",
@@ -9523,7 +9523,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 859,
+    id: 767,
     word: "das Fax, -e",
     translation: "fax",
     definition: "Ein Dokument, das man über das Telefonnetz schickt.",
@@ -9535,7 +9535,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 860,
+    id: 768,
     word: "heiraten",
     translation: "to marry",
     definition: "Den Bund der Ehe eingehen.",
@@ -9547,7 +9547,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 861,
+    id: 769,
     word: "mailen",
     translation: "to e-mail",
     definition: "Eine Nachricht per E-Mail schicken.",
@@ -9560,7 +9560,7 @@ export const A1_Vocabulary = [
     family: "die Mail",
   },
   {
-    id: 862,
+    id: 770,
     word: "mitnehmen",
     translation: "to take along",
     definition: "Etwas oder jemanden auf einen Weg mitnehmen.",
@@ -9573,7 +9573,7 @@ export const A1_Vocabulary = [
     family: "nehmen",
   },
   {
-    id: 863,
+    id: 771,
     word: "das Paket, -e",
     translation: "parcel / package",
     definition: "Eine verpackte Postsendung.",
@@ -9585,7 +9585,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 865,
+    id: 772,
     word: "das Kreuz, -e",
     translation: "cross",
     definition: "Ein Zeichen aus zwei Strichen: ×.",
@@ -9597,7 +9597,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 866,
+    id: 773,
     word: "formulieren",
     translation: "to formulate / to word",
     definition: "Einen Gedanken in Worte fassen.",
@@ -9609,7 +9609,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 867,
+    id: 774,
     word: "divers",
     translation: "diverse / non-binary",
     definition: "Ein drittes Geschlecht neben männlich und weiblich.",
@@ -9621,7 +9621,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 868,
+    id: 775,
     word: "bedeuten",
     translation: "to mean",
     definition: "Eine bestimmte Bedeutung haben.",
@@ -9633,7 +9633,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 870,
+    id: 776,
     word: "der Prüfungsteil, -e",
     translation: "part of the exam",
     definition: "Ein Abschnitt einer Prüfung.",
@@ -9646,7 +9646,7 @@ export const A1_Vocabulary = [
     family: "der Teil",
   },
   {
-    id: 871,
+    id: 777,
     word: "der Test, -s",
     translation: "test / quiz",
     definition: "Eine kleine Prüfung von Wissen.",
@@ -9658,7 +9658,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 872,
+    id: 778,
     word: "der Ingenieur, -e",
     translation: "engineer (m.)",
     definition: "Eine Person, die technische Dinge plant und entwickelt.",
@@ -9671,7 +9671,7 @@ export const A1_Vocabulary = [
     family: "der Ingenieur",
   },
   {
-    id: 873,
+    id: 779,
     word: "die Ingenieurin, -nen",
     translation: "engineer (f.)",
     definition: "Eine Frau, die technische Dinge plant und entwickelt.",
@@ -9684,7 +9684,7 @@ export const A1_Vocabulary = [
     family: "der Ingenieur",
   },
   {
-    id: 877,
+    id: 780,
     word: "cool",
     translation: "cool",
     definition: "Großartig, modern oder lässig.",
@@ -9696,7 +9696,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 879,
+    id: 781,
     word: "die Jahreszahl, -en",
     translation: "year (number)",
     definition: "Eine Zahl, die ein bestimmtes Jahr angibt.",
@@ -9709,7 +9709,7 @@ export const A1_Vocabulary = [
     family: "das Jahr",
   },
   {
-    id: 880,
+    id: 782,
     word: "der Sekretär, -e",
     translation: "secretary (m.)",
     definition: "Ein Mann, der im Büro organisiert und schreibt.",
@@ -9722,7 +9722,7 @@ export const A1_Vocabulary = [
     family: "der Sekretär",
   },
   {
-    id: 881,
+    id: 783,
     word: "die Sekretärin, -nen",
     translation: "secretary (f.)",
     definition: "Eine Frau, die im Büro organisiert und schreibt.",
@@ -9735,7 +9735,7 @@ export const A1_Vocabulary = [
     family: "der Sekretär",
   },
   {
-    id: 882,
+    id: 784,
     word: "das Ausland (Sg.)",
     translation: "foreign country / abroad",
     definition: "Andere Länder außerhalb der Heimat.",
@@ -9748,7 +9748,7 @@ export const A1_Vocabulary = [
     family: "das Land",
   },
   {
-    id: 884,
+    id: 785,
     word: "der Einzug, Einzüge",
     translation: "moving in",
     definition: "Das Beziehen einer neuen Wohnung.",
@@ -9760,7 +9760,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 885,
+    id: 786,
     word: "der Meter, - (m)",
     translation: "metre",
     definition: "Eine Einheit für die Länge.",
@@ -9773,7 +9773,7 @@ export const A1_Vocabulary = [
     family: "der Meter",
   },
   {
-    id: 886,
+    id: 787,
     word: "das Geburtsdatum, -daten",
     translation: "date of birth",
     definition: "Der Tag, Monat und das Jahr der Geburt.",
@@ -9786,7 +9786,7 @@ export const A1_Vocabulary = [
     family: "die Geburt",
   },
   {
-    id: 887,
+    id: 788,
     word: "der Kilometer, - (km)",
     translation: "kilometre",
     definition: "Tausend Meter.",
@@ -9799,7 +9799,7 @@ export const A1_Vocabulary = [
     family: "der Meter",
   },
   {
-    id: 888,
+    id: 789,
     word: "das Geburtsland, -länder",
     translation: "country of birth",
     definition: "Das Land, in dem man geboren wurde.",
@@ -9812,7 +9812,7 @@ export const A1_Vocabulary = [
     family: "die Geburt",
   },
   {
-    id: 889,
+    id: 790,
     word: "geboren",
     translation: "born",
     definition: "Zur Welt gekommen.",
@@ -9824,7 +9824,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 890,
+    id: 791,
     word: "die Staatsangehörigkeit, -en",
     translation: "citizenship / nationality",
     definition: "Die rechtliche Zugehörigkeit zu einem Staat.",
@@ -9836,7 +9836,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 891,
+    id: 792,
     word: "der Glückwunsch, -glünsche",
     translation: "congratulation / good wish",
     definition: "Ein Ausdruck der Freude oder des Wunsches zu einem Anlass.",
@@ -9849,7 +9849,7 @@ export const A1_Vocabulary = [
     family: "das Glück",
   },
   {
-    id: 892,
+    id: 793,
     word: "das Glück (Sg.)",
     translation: "luck / happiness",
     definition: "Ein positives Schicksal oder innere Freude.",
@@ -9862,7 +9862,7 @@ export const A1_Vocabulary = [
     family: "das Glück",
   },
   {
-    id: 894,
+    id: 794,
     word: "der Geburtstag, -e",
     translation: "birthday",
     definition: "Der Jahrestag der Geburt.",
@@ -9875,7 +9875,7 @@ export const A1_Vocabulary = [
     family: "der Geburtstag",
   },
   {
-    id: 895,
+    id: 795,
     word: "die Geburtstagskarte, -n",
     translation: "birthday card",
     definition: "Eine Karte mit Glückwünschen zum Geburtstag.",
@@ -9888,7 +9888,7 @@ export const A1_Vocabulary = [
     family: "die Karte",
   },
   {
-    id: 896,
+    id: 796,
     word: "das Geburtstagslied, -er",
     translation: "birthday song",
     definition: "Ein Lied, das man zum Geburtstag singt.",
@@ -9902,7 +9902,7 @@ export const A1_Vocabulary = [
     family: "der Geburtstag",
   },
   {
-    id: 897,
+    id: 797,
     word: "der Geburtstagskuchen, -",
     translation: "birthday cake",
     definition: "Ein Kuchen mit Kerzen zum Geburtstag.",
@@ -9915,7 +9915,7 @@ export const A1_Vocabulary = [
     family: "der Kuchen",
   },
   {
-    id: 898,
+    id: 798,
     word: "das Geschenk, -e",
     translation: "gift / present",
     definition: "Etwas, das man jemandem schenkt.",
@@ -9927,7 +9927,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 899,
+    id: 799,
     word: "der Luftballon, -s",
     translation: "balloon",
     definition: "Ein mit Luft gefüllter Gummiballon zur Dekoration.",
@@ -9939,7 +9939,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 900,
+    id: 800,
     word: "der Gutschein, -e",
     translation: "voucher / gift certificate",
     definition: "Ein Berechtigungsschein zum Einlösen von Waren oder Geld.",
@@ -9951,7 +9951,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 901,
+    id: 801,
     word: "das Kilogramm, - (kg)",
     translation: "kilogram",
     definition: "Eine Einheit für das Gewicht: 1000 Gramm.",
@@ -9964,7 +9964,7 @@ export const A1_Vocabulary = [
     family: "das Kilo",
   },
   {
-    id: 902,
+    id: 802,
     word: "die Jahreszeit, -en",
     translation: "season",
     definition: "Ein Abschnitt des Jahres (Frühling, Sommer, Herbst, Winter).",
@@ -9977,7 +9977,7 @@ export const A1_Vocabulary = [
     family: "das Jahr",
   },
   {
-    id: 903,
+    id: 803,
     word: "der Frühling",
     translation: "spring",
     definition: "Die Jahreszeit nach dem Winter, in der Blumen blühen.",
@@ -9989,7 +9989,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 904,
+    id: 804,
     word: "der Sommer",
     translation: "summer",
     definition: "Die wärmste Jahreszeit des Jahres.",
@@ -10002,7 +10002,7 @@ export const A1_Vocabulary = [
     family: "der Sommer",
   },
   {
-    id: 905,
+    id: 805,
     word: "der Herbst",
     translation: "autumn / fall",
     definition: "Die Jahreszeit nach dem Sommer mit fallenden Blättern.",
@@ -10014,7 +10014,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 906,
+    id: 806,
     word: "der Winter",
     translation: "winter",
     definition: "Die kälteste Jahreszeit des Jahres mit Schnee.",
@@ -10026,7 +10026,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 908,
+    id: 807,
     word: "Januar",
     translation: "January",
     definition: "Der erste Monat des Jahres.",
@@ -10038,7 +10038,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 909,
+    id: 808,
     word: "Februar",
     translation: "February",
     definition: "Der zweite Monat des Jahres.",
@@ -10050,7 +10050,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 910,
+    id: 809,
     word: "März",
     translation: "March",
     definition: "Der dritte Monat des Jahres, Beginn des Frühlings.",
@@ -10062,7 +10062,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 911,
+    id: 810,
     word: "April",
     translation: "April",
     definition: "Der vierte Monat des Jahres.",
@@ -10074,7 +10074,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 912,
+    id: 811,
     word: "Mai",
     translation: "May",
     definition: "Der fünfte Monat des Jahres.",
@@ -10086,7 +10086,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 913,
+    id: 812,
     word: "Juni",
     translation: "June",
     definition: "Der sechste Monat des Jahres, Sommerbeginn.",
@@ -10098,7 +10098,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 914,
+    id: 813,
     word: "Juli",
     translation: "July",
     definition: "Der siebte Monat des Jahres.",
@@ -10110,7 +10110,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 915,
+    id: 814,
     word: "August",
     translation: "August",
     definition: "Der achte Monat des Jahres.",
@@ -10122,7 +10122,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 916,
+    id: 815,
     word: "September",
     translation: "September",
     definition: "Der neunte Monat des Jahres, Herbstanfang.",
@@ -10134,7 +10134,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 917,
+    id: 816,
     word: "Oktober",
     translation: "October",
     definition: "Der zehnte Monat des Jahres.",
@@ -10147,7 +10147,7 @@ export const A1_Vocabulary = [
     family: "Oktober",
   },
   {
-    id: 918,
+    id: 817,
     word: "November",
     translation: "November",
     definition: "Der elfte Monat des Jahres.",
@@ -10159,7 +10159,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 919,
+    id: 818,
     word: "Dezember",
     translation: "December",
     definition: "Der zwölfte und letzte Monat des Jahres.",
@@ -10171,7 +10171,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 920,
+    id: 819,
     word: "der Schlitten, -",
     translation: "sled / sledge",
     definition: "Ein Gefährt zum Fahren auf Schnee.",
@@ -10183,7 +10183,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 921,
+    id: 820,
     word: "Italien",
     translation: "Italy",
     definition: "Ein Land in Südeuropa.",
@@ -10196,7 +10196,7 @@ export const A1_Vocabulary = [
     family: "Italien",
   },
   {
-    id: 922,
+    id: 821,
     word: "wandern",
     translation: "to hike",
     definition: "Ausgedehnte Wanderungen in der Natur machen.",
@@ -10208,7 +10208,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 923,
+    id: 822,
     word: "England",
     translation: "England",
     definition: "Ein Teil von Großbritannien.",
@@ -10221,7 +10221,7 @@ export const A1_Vocabulary = [
     family: "England",
   },
   {
-    id: 924,
+    id: 823,
     word: "schwimmen",
     translation: "to swim",
     definition: "Sich im Wasser durch Schwimmbewegungen fortbewegen.",
@@ -10234,7 +10234,7 @@ export const A1_Vocabulary = [
     family: "schwimmen",
   },
   {
-    id: 925,
+    id: 824,
     word: "die Ordinalzahl, -en",
     translation: "ordinal number",
     definition: "Zahlen, die eine Reihenfolge angeben (z.B. erster, zweiter).",
@@ -10246,7 +10246,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 926,
+    id: 825,
     word: "der Engländer, - / die Engländerin, -nen",
     translation: "Englishman / Englishwoman",
     definition: "Eine Person aus England.",
@@ -10259,7 +10259,7 @@ export const A1_Vocabulary = [
     family: "England",
   },
   {
-    id: 927,
+    id: 826,
     word: "ab",
     translation: "from / starting from",
     definition: "Ab einem bestimmten Zeitpunkt oder Ort.",
@@ -10271,7 +10271,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 928,
+    id: 827,
     word: "schmecken",
     translation: "to taste",
     definition: "Einen bestimmten Geschmack haben.",
@@ -10283,7 +10283,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 929,
+    id: 828,
     word: "danken",
     translation: "to thank",
     definition: "Dankbarkeit ausdrücken.",
@@ -10296,7 +10296,7 @@ export const A1_Vocabulary = [
     family: "danken",
   },
   {
-    id: 930,
+    id: 829,
     word: "gefallen",
     translation: "to please / to like",
     definition: "Positiv auf jemanden wirken.",
@@ -10308,7 +10308,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 931,
+    id: 830,
     word: "europäisch",
     translation: "European",
     definition: "Zu Europa gehörend.",
@@ -10321,7 +10321,7 @@ export const A1_Vocabulary = [
     family: "Europa",
   },
   {
-    id: 932,
+    id: 831,
     word: "italienisch",
     translation: "Italian",
     definition: "Aus Italien oder zu Italien gehörend.",
@@ -10334,7 +10334,7 @@ export const A1_Vocabulary = [
     family: "Italien",
   },
   {
-    id: 934,
+    id: 832,
     word: "die Playlist, -s",
     translation: "playlist",
     definition: "Eine Sammlung von Musikstücken.",
@@ -10346,7 +10346,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 935,
+    id: 833,
     word: "geben",
     translation: "to give",
     definition: "Jemanden etwas in die Hand übergeben.",
@@ -10359,7 +10359,7 @@ export const A1_Vocabulary = [
     family: "geben",
   },
   {
-    id: 936,
+    id: 834,
     word: "schenken",
     translation: "to give as a gift",
     definition: "Jemandem ein Geschenk machen.",
@@ -10371,7 +10371,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 937,
+    id: 835,
     word: "englisch",
     translation: "English",
     definition: "Aus England oder zu England gehörend.",
@@ -10384,7 +10384,7 @@ export const A1_Vocabulary = [
     family: "England",
   },
   {
-    id: 938,
+    id: 836,
     word: "die Praline, -n",
     translation: "praline / chocolate truffle",
     definition: "Eine kleine, feine Schokoladenspezialität.",
@@ -10396,7 +10396,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 939,
+    id: 837,
     word: "die Hauptschule, -n",
     translation: "secondary modern school",
     definition: "Eine Schulform in Deutschland nach der Grundschule.",
@@ -10409,7 +10409,7 @@ export const A1_Vocabulary = [
     family: "die Schule",
   },
   {
-    id: 940,
+    id: 838,
     word: "das Gymnasium, Gymnasien",
     translation: "grammar school",
     definition: "Eine Schule, die zum Abitur führt.",
@@ -10421,7 +10421,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 942,
+    id: 839,
     word: "die Sprachenschule, -n",
     translation: "language school",
     definition: "Eine Schule, in der man Sprachen lernt.",
@@ -10434,7 +10434,7 @@ export const A1_Vocabulary = [
     family: "die Schule",
   },
   {
-    id: 943,
+    id: 840,
     word: "die Süßigkeit, -en",
     translation: "sweets / candy",
     definition: "Zuckerhaltige Lebensmittel wie Schokolade oder Bonbons.",
@@ -10447,7 +10447,7 @@ export const A1_Vocabulary = [
     family: "süß",
   },
   {
-    id: 944,
+    id: 841,
     word: "der Brauch, Bräuche",
     translation: "custom / tradition",
     definition: "Eine gewohnheitsmäßige Tradition in einer Kultur.",
@@ -10460,7 +10460,7 @@ export const A1_Vocabulary = [
     family: "brauchen",
   },
   {
-    id: 945,
+    id: 842,
     word: "früh",
     translation: "early",
     definition: "Zu Beginn des Tages oder der Zeit.",
@@ -10472,7 +10472,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 946,
+    id: 843,
     word: "pünktlich",
     translation: "punctual / on time",
     definition: "Zur vereinbarten Zeit, nicht zu spät.",
@@ -10484,7 +10484,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 947,
+    id: 844,
     word: "das Goethe-Institut, -e",
     translation: "Goethe Institute",
     definition:
@@ -10497,7 +10497,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 948,
+    id: 845,
     word: "elf",
     translation: "eleven (11)",
     definition: "Die Zahl 11.",
@@ -10509,7 +10509,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 949,
+    id: 846,
     word: "um Mitternacht",
     translation: "at midnight",
     definition: "Genau um zwölf Uhr nachts.",
@@ -10521,7 +10521,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 950,
+    id: 847,
     word: "die Hexe, -n",
     translation: "witch",
     definition: "Eine Sagengestalt mit magischen Kräften.",
@@ -10533,7 +10533,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 951,
+    id: 848,
     word: "bei (+ D.)",
     translation: "at / with / near",
     definition: "Eine Präposition für Orte oder Zugehörigkeit.",
@@ -10545,7 +10545,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 953,
+    id: 849,
     word: "der Sekt (Sg.)",
     translation: "sparkling wine / champagne",
     definition: "Ein schäumender Schaumwein für Feiern.",
@@ -10557,7 +10557,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 954,
+    id: 850,
     word: "zwölf",
     translation: "twelve (12)",
     definition: "Die Zahl 12.",
@@ -10569,7 +10569,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 955,
+    id: 851,
     word: "wünschen",
     translation: "to wish",
     definition: "Einem anderen etwas Gutes wünschen.",
@@ -10581,7 +10581,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 956,
+    id: 852,
     word: "das Ende (Sg.)",
     translation: "end",
     definition: "Der Schluss oder Abschluss von etwas.",
@@ -10593,7 +10593,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 957,
+    id: 853,
     word: "zu Ende sein",
     translation: "to be over / to come to an end",
     definition: "Vorbei sein, beendet sein.",
@@ -10605,7 +10605,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 958,
+    id: 854,
     word: "dreizehn",
     translation: "thirteen (13)",
     definition: "Die Zahl 13.",
@@ -10617,7 +10617,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 959,
+    id: 855,
     word: "hunderteins",
     translation: "one hundred and one (101)",
     definition: "Die Zahl 101.",
@@ -10629,7 +10629,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 961,
+    id: 856,
     word: "die Fahrkarte, -n",
     translation: "ticket",
     definition: "Ein Fahrschein für öffentliche Verkehrsmittel.",
@@ -10642,7 +10642,7 @@ export const A1_Vocabulary = [
     family: "fahren",
   },
   {
-    id: 962,
+    id: 857,
     word: "der Zug, Züge",
     translation: "train",
     definition: "Ein Schienenfahrzeug für den Personen- und Güterverkehr.",
@@ -10654,7 +10654,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 963,
+    id: 858,
     word: "das Schiff, -e",
     translation: "ship / boat",
     definition: "Ein großes Wasserfahrzeug.",
@@ -10666,7 +10666,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 964,
+    id: 859,
     word: "besser",
     translation: "better",
     definition: "Im Vergleich von höherer Qualität.",
@@ -10678,7 +10678,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 965,
+    id: 860,
     word: "zweihundert",
     translation: "two hundred (200)",
     definition: "Die Zahl 200.",
@@ -10690,7 +10690,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 966,
+    id: 861,
     word: "in Ordnung",
     translation: "all right / okay",
     definition: "Alles ist gut oder genehmigt.",
@@ -10702,7 +10702,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 967,
+    id: 862,
     word: "bis",
     translation: "until / by / to",
     definition: "Eine zeitliche oder räumliche Begrenzung.",
@@ -10714,7 +10714,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 968,
+    id: 863,
     word: "zweitausendeins",
     translation: "two thousand and one (2001)",
     definition: "Die Zahl 2001.",
@@ -10726,7 +10726,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 969,
+    id: 864,
     word: "die Eins, -en",
     translation: "the grade 1 / the number one",
     definition: "Die beste Schulnote in Deutschland.",
@@ -10738,7 +10738,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 970,
+    id: 865,
     word: "das Mal, -e",
     translation: "time (occasion)",
     definition: "Eine Gelegenheit, bei der etwas passiert.",
@@ -10750,7 +10750,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 971,
+    id: 866,
     word: "das Flugzeug, -e",
     translation: "airplane",
     definition: "Ein Fluggerät für den Luftverkehr.",
@@ -10763,7 +10763,7 @@ export const A1_Vocabulary = [
     family: "fliegen",
   },
   {
-    id: 972,
+    id: 867,
     word: "das Fernsehen (Sg.)",
     translation: "television",
     definition: "Das Medium, in dem man Sendungen und Filme sieht.",
@@ -10776,7 +10776,7 @@ export const A1_Vocabulary = [
     family: "sehen",
   },
   {
-    id: 974,
+    id: 868,
     word: "die öffentlichen Verkehrsmittel (Pl.)",
     translation: "public transport",
     definition: "Busse und Bahnen für die Allgemeinheit.",
@@ -10788,7 +10788,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 975,
+    id: 869,
     word: "abfahren",
     translation: "to depart",
     definition: "Mit einem Fahrzeug losfahren.",
@@ -10801,7 +10801,7 @@ export const A1_Vocabulary = [
     family: "fahren",
   },
   {
-    id: 976,
+    id: 870,
     word: "zu Fuß",
     translation: "on foot",
     definition: "Gehend, ohne Fahrzeug.",
@@ -10813,7 +10813,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 977,
+    id: 871,
     word: "von",
     translation: "from / of",
     definition: "Eine Präposition für Herkunft oder Ausgangspunkt.",
@@ -10825,7 +10825,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 978,
+    id: 872,
     word: "zu",
     translation: "to / at",
     definition: "Eine Präposition für Richtung oder Ziel.",
@@ -10837,7 +10837,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 979,
+    id: 873,
     word: "am Bahnhof",
     translation: "at the train station",
     definition: "Am Standort des Bahnhofs.",
@@ -10849,7 +10849,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 980,
+    id: 874,
     word: "ankommen",
     translation: "to arrive",
     definition: "An einem Zielort eintreffen.",
@@ -10862,7 +10862,7 @@ export const A1_Vocabulary = [
     family: "kommen",
   },
   {
-    id: 981,
+    id: 875,
     word: "der Bahnsteig, -e",
     translation: "platform",
     definition: "Der erhöhte Gang am Gleis zum Einsteigen in Züge.",
@@ -10874,7 +10874,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 982,
+    id: 876,
     word: "das Gleis, -e",
     translation: "track / platform",
     definition: "Die Schienenstrecke im Bahnhof.",
@@ -10886,7 +10886,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 983,
+    id: 877,
     word: "der Fahrplan, -pläne",
     translation: "timetable / schedule",
     definition: "Die Übersicht der Abfahrts- und Ankunftszeiten.",
@@ -10899,7 +10899,7 @@ export const A1_Vocabulary = [
     family: "fahren",
   },
   {
-    id: 984,
+    id: 878,
     word: "der Automat, -en",
     translation: "vending machine / ticket machine",
     definition: "Ein technisches Gerät zum Verkauf von Fahrkarten oder Waren.",
@@ -10911,7 +10911,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 985,
+    id: 879,
     word: "die Gültigkeit (Sg.)",
     translation: "validity",
     definition: "Die Zeitdauer, in der etwas gültig ist.",
@@ -10923,7 +10923,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 986,
+    id: 880,
     word: "die Klasse, -n (2. Klasse)",
     translation: "class (2nd class)",
     definition: "Die Kategorie im Zug (z.B. Erste oder Zweite Klasse).",
@@ -10935,7 +10935,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 989,
+    id: 881,
     word: "die Hinfahrt, -en",
     translation: "outward journey / trip there",
     definition: "Die Fahrt zum Reiseziel hin.",
@@ -10948,7 +10948,7 @@ export const A1_Vocabulary = [
     family: "fahren",
   },
   {
-    id: 994,
+    id: 882,
     word: "geradeaus",
     translation: "straight ahead",
     definition: "Ohne abzubiegen gerade weiter.",
@@ -10960,7 +10960,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 995,
+    id: 883,
     word: "links",
     translation: "left",
     definition: "Auf der linken Seite.",
@@ -10972,7 +10972,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 996,
+    id: 884,
     word: "rechts",
     translation: "right",
     definition: "Auf der rechten Seite.",
@@ -10984,7 +10984,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 997,
+    id: 885,
     word: "warten",
     translation: "to wait",
     definition: "Auf jemanden oder etwas Zeit verstreichen lassen.",
@@ -10996,7 +10996,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 998,
+    id: 886,
     word: "durch",
     translation: "through",
     definition: "Eine Präposition für die Bewegung durch einen Raum hindurch.",
@@ -11008,7 +11008,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 999,
+    id: 887,
     word: "die Orientierung, -en",
     translation: "orientation",
     definition: "Sich zurechtfinden in einer Umgebung.",
@@ -11020,7 +11020,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1000,
+    id: 888,
     word: "stopp",
     translation: "stop",
     definition: "Ein Befehl oder Signal zum Anhalten.",
@@ -11032,7 +11032,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1001,
+    id: 889,
     word: "aufmachen",
     translation: "to open",
     definition: "Etwas öffnen.",
@@ -11045,7 +11045,7 @@ export const A1_Vocabulary = [
     family: "machen",
   },
   {
-    id: 1002,
+    id: 890,
     word: "die Apotheke, -n",
     translation: "pharmacy",
     definition: "Ein Geschäft für Medikamente.",
@@ -11057,7 +11057,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1003,
+    id: 891,
     word: "der Dom, -e",
     translation: "cathedral",
     definition: "Eine große Hauptkirche.",
@@ -11069,7 +11069,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1004,
+    id: 892,
     word: "die Haltestelle, -n",
     translation: "stop / bus stop",
     definition: "Ein Ort, an dem Busse oder Bahnen halten.",
@@ -11082,7 +11082,7 @@ export const A1_Vocabulary = [
     family: "halten",
   },
   {
-    id: 1005,
+    id: 893,
     word: "der Fluss, Flüsse",
     translation: "river",
     definition: "Ein natürlicher fließender Wasserlauf.",
@@ -11094,7 +11094,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1006,
+    id: 894,
     word: "die Wegbeschreibung, -en",
     translation: "directions",
     definition: "Eine Erklärung, wie man zu einem Ort kommt.",
@@ -11107,7 +11107,7 @@ export const A1_Vocabulary = [
     family: "schreiben",
   },
   {
-    id: 1007,
+    id: 895,
     word: "einsteigen",
     translation: "to board / to get in",
     definition: "In ein Fahrzeug einsteigen.",
@@ -11119,7 +11119,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1008,
+    id: 896,
     word: "aussteigen",
     translation: "to get off / to step out",
     definition: "Aus einem Fahrzeug aussteigen.",
@@ -11131,7 +11131,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1012,
+    id: 897,
     word: "das Stadtzentrum, -zentren",
     translation: "city center",
     definition: "Das Zentrum einer Stadt.",
@@ -11144,7 +11144,7 @@ export const A1_Vocabulary = [
     family: "die Stadt",
   },
   {
-    id: 1016,
+    id: 898,
     word: "der Esel, -",
     translation: "donkey",
     definition: "Ein vierbeiniges Huftier, ähnlich einem kleinen Pferd.",
@@ -11156,7 +11156,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1017,
+    id: 899,
     word: "der Hahn, Hähne",
     translation: "rooster",
     definition: "Das männliche Haushuhn.",
@@ -11168,7 +11168,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1018,
+    id: 900,
     word: "die Himmelsrichtung, -en",
     translation: "cardinal direction",
     definition: "Richtung im Raum wie Norden, Süden, Osten, Westen.",
@@ -11180,7 +11180,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1019,
+    id: 901,
     word: "der Norden",
     translation: "north",
     definition: "Die Himmelsrichtung nach oben auf der Karte.",
@@ -11192,7 +11192,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1020,
+    id: 902,
     word: "der Osten",
     translation: "east",
     definition: "Die Himmelsrichtung, in der die Sonne aufgeht.",
@@ -11204,7 +11204,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1021,
+    id: 903,
     word: "der Süden",
     translation: "south",
     definition: "Die Himmelsrichtung nach unten auf der Karte.",
@@ -11216,7 +11216,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1022,
+    id: 904,
     word: "der Westen",
     translation: "west",
     definition: "Die Himmelsrichtung, in der die Sonne untergeht.",
@@ -11228,7 +11228,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1027,
+    id: 905,
     word: "der Arzt, Ärzte / die Ärztin, -nen",
     translation: "doctor / physician",
     definition:
@@ -11242,7 +11242,7 @@ export const A1_Vocabulary = [
     family: "der Arzt",
   },
   {
-    id: 1029,
+    id: 906,
     word: "der Arzttermin, -e",
     translation: "doctor's appointment",
     definition: "Ein vereinbarter Termin beim Arzt.",
@@ -11255,7 +11255,7 @@ export const A1_Vocabulary = [
     family: "der Arzt",
   },
   {
-    id: 1030,
+    id: 907,
     word: "Dr. (- Doktor)",
     translation: "Dr. / Doctor",
     definition: "Ein akademischer Grad oder Anrede für Ärzte.",
@@ -11267,7 +11267,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1032,
+    id: 908,
     word: "die Praxiszeiten (Pl.)",
     translation: "office hours",
     definition: "Die Öffnungszeiten einer Arztpraxis.",
@@ -11279,7 +11279,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1033,
+    id: 909,
     word: "der Körperteil, -e",
     translation: "body part",
     definition: "Ein einzelner Teil des menschlichen Körpers.",
@@ -11292,7 +11292,7 @@ export const A1_Vocabulary = [
     family: "der Teil",
   },
   {
-    id: 1034,
+    id: 910,
     word: "der Kopf, Köpfe",
     translation: "head",
     definition: "Der obere Teil des menschlichen Körpers.",
@@ -11304,7 +11304,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1035,
+    id: 911,
     word: "das Auge, -n",
     translation: "eye",
     definition: "Das Sehorgan.",
@@ -11316,7 +11316,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1037,
+    id: 912,
     word: "das Haar, -e",
     translation: "hair",
     definition: "Die Fäden auf dem Kopf.",
@@ -11328,7 +11328,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1038,
+    id: 913,
     word: "der Hals, Hälse",
     translation: "neck / throat",
     definition: "Der Teil des Körpers, der den Kopf mit dem Rumpf verbindet.",
@@ -11340,7 +11340,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1039,
+    id: 914,
     word: "der Arm, -e",
     translation: "arm",
     definition: "Die obere Gliedmaße des Menschen.",
@@ -11352,7 +11352,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1042,
+    id: 915,
     word: "der Fuß, Füße",
     translation: "foot",
     definition: "Das untere Ende des Beins zum Stehen.",
@@ -11364,7 +11364,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1043,
+    id: 916,
     word: "der Bauch, Bäuche",
     translation: "stomach / belly",
     definition: "Die vordere Rumpfseite unter der Brust.",
@@ -11377,7 +11377,7 @@ export const A1_Vocabulary = [
     family: "der Bauch",
   },
   {
-    id: 1044,
+    id: 917,
     word: "wehtun",
     translation: "to hurt / to ache",
     definition: "Schmerzen verursachen.",
@@ -11389,7 +11389,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1045,
+    id: 918,
     word: "der / die Nächste, -n",
     translation: "the next one",
     definition: "Die nächste Person in einer Reihe.",
@@ -11401,7 +11401,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1046,
+    id: 919,
     word: "der Arztbesuch, -e",
     translation: "doctor's visit",
     definition: "Der Gang zum Arzt zur Untersuchung.",
@@ -11414,7 +11414,7 @@ export const A1_Vocabulary = [
     family: "besuchen",
   },
   {
-    id: 1047,
+    id: 920,
     word: "der Schmerz, -en",
     translation: "pain",
     definition: "Ein unangenehmes körperliches Empfinden.",
@@ -11426,7 +11426,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1048,
+    id: 921,
     word: "krankreiben",
     translation: "to write someone off sick",
     definition: "Eine Krankschreibung vom Arzt ausstellen lassen.",
@@ -11438,7 +11438,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1049,
+    id: 922,
     word: "wiederkommen",
     translation: "to come back / to return",
     definition: "An einen Ort zurückkehren.",
@@ -11451,7 +11451,7 @@ export const A1_Vocabulary = [
     family: "kommen",
   },
   {
-    id: 1051,
+    id: 923,
     word: "die Entschuldigung, -en",
     translation: "excuse / apology",
     definition: "Eine Bitte um Entschuldigung für einen Fehler.",
@@ -11464,7 +11464,7 @@ export const A1_Vocabulary = [
     family: "entschuldigen",
   },
   {
-    id: 1052,
+    id: 924,
     word: "die Servietten, -n",
     translation: "napkin",
     definition: "Ein Tuch zum Mundabwischen beim Essen.",
@@ -11476,7 +11476,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1054,
+    id: 925,
     word: "vegan",
     translation: "vegan",
     definition: "Ohne tierische Produkte hergestellt.",
@@ -11488,7 +11488,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1055,
+    id: 926,
     word: "die Apotheke, -n",
     translation: "pharmacy",
     definition: "Ein Geschäft zum Kauf von Medikamenten.",
@@ -11500,7 +11500,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1056,
+    id: 927,
     word: "der Hustensaft, -säfte",
     translation: "cough syrup",
     definition: "Flüssiges Medikament gegen Husten.",
@@ -11513,7 +11513,7 @@ export const A1_Vocabulary = [
     family: "der Saft",
   },
   {
-    id: 1058,
+    id: 928,
     word: "das Nasenspray, -s",
     translation: "nasal spray",
     definition: "Ein Spray für die freie Nase bei Schnupfen.",
@@ -11525,7 +11525,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1059,
+    id: 929,
     word: "lieber",
     translation: "rather / preferably",
     definition: "Bevorzugt, lieber als etwas anderes.",
@@ -11538,7 +11538,7 @@ export const A1_Vocabulary = [
     family: "lieben",
   },
   {
-    id: 1062,
+    id: 930,
     word: "das Krafttraining, -s",
     translation: "strength training / weight training",
     definition: "Training zum Aufbau von Muskelkraft.",
@@ -11550,7 +11550,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1063,
+    id: 931,
     word: "das Rückentraining, -s",
     translation: "back training",
     definition: "Übungen speziell für die Rückenmuskulatur.",
@@ -11562,7 +11562,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1065,
+    id: 932,
     word: "der Einzelkurs, -e",
     translation: "individual course / private class",
     definition: "Ein Kurs für nur eine Person.",
@@ -11575,7 +11575,7 @@ export const A1_Vocabulary = [
     family: "der Kurs",
   },
   {
-    id: 1066,
+    id: 933,
     word: "der Gruppenkurs, -e",
     translation: "group course",
     definition: "Ein Kurs für mehrere Teilnehmer zusammen.",
@@ -11588,7 +11588,7 @@ export const A1_Vocabulary = [
     family: "der Kurs",
   },
   {
-    id: 1068,
+    id: 934,
     word: "die Lust (Sg.)",
     translation: "desire / inclination / urge",
     definition: "Das Verlangen oder die Freude an etwas.",
@@ -11601,7 +11601,7 @@ export const A1_Vocabulary = [
     family: "die Lust",
   },
   {
-    id: 1073,
+    id: 935,
     word: "der Physiotherapeut, -en / die Physiotherapeutin, -nen",
     translation: "physiotherapist",
     definition: "Ein Therapeut für körperliche Bewegungs- und Schmerztherapie.",
@@ -11613,7 +11613,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1074,
+    id: 936,
     word: "der Fitnesstrainer, - / die Fitnesstrainerin, -nen",
     translation: "fitness trainer",
     definition: "Ein Trainer für Fitnessübungen.",
@@ -11626,7 +11626,7 @@ export const A1_Vocabulary = [
     family: "der Trainer",
   },
   {
-    id: 1075,
+    id: 937,
     word: "der Fußballtrainer, - / die Fußballtrainerin, -nen",
     translation: "football coach / soccer coach",
     definition: "Ein Trainer für eine Fußballmannschaft.",
@@ -11639,7 +11639,7 @@ export const A1_Vocabulary = [
     family: "der Trainer",
   },
   {
-    id: 1076,
+    id: 938,
     word: "der Fußballverein, -e",
     translation: "football club / soccer club",
     definition: "Ein Verein für den Fußballsport.",
@@ -11652,7 +11652,7 @@ export const A1_Vocabulary = [
     family: "der Ball",
   },
   {
-    id: 1077,
+    id: 939,
     word: "unregelmäßig",
     translation: "irregular",
     definition: "Nicht regelmäßig oder in ungleichen Abständen.",
@@ -11664,7 +11664,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1078,
+    id: 940,
     word: "deshalb",
     translation: "therefore / that's why",
     definition: "Aus diesem Grund.",
@@ -11676,7 +11676,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1079,
+    id: 941,
     word: "hoffentlich",
     translation: "hopefully",
     definition: "Den Wunsch oder die Hoffnung ausdrücken.",
@@ -11689,7 +11689,7 @@ export const A1_Vocabulary = [
     family: "hoffen",
   },
   {
-    id: 1081,
+    id: 942,
     word: "der Anruf, -e",
     translation: "phone call",
     definition: "Ein Anruf über das Telefon.",
@@ -11702,7 +11702,7 @@ export const A1_Vocabulary = [
     family: "anrufen",
   },
   {
-    id: 1083,
+    id: 943,
     word: "die To-Do-Liste, -n",
     translation: "to-do list",
     definition: "Eine Liste von Aufgaben, die man erledigen muss.",
@@ -11714,7 +11714,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1084,
+    id: 944,
     word: "denken",
     translation: "to think",
     definition: "Gedanken im Kopf haben.",
@@ -11726,7 +11726,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1085,
+    id: 945,
     word: "anschauen",
     translation: "to look at / to watch",
     definition: "Etwas betrachten.",
@@ -11738,7 +11738,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1087,
+    id: 946,
     word: "auswechseln",
     translation: "to exchange / to replace",
     definition: "Etwas durch etwas Neues ersetzen.",
@@ -11750,7 +11750,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1089,
+    id: 947,
     word: "programmieren",
     translation: "to program",
     definition: "Computerprogramme erstellen.",
@@ -11763,7 +11763,7 @@ export const A1_Vocabulary = [
     family: "programmieren",
   },
   {
-    id: 1090,
+    id: 948,
     word: "ohne",
     translation: "without",
     definition: "Das Fehlen von etwas.",
@@ -11775,7 +11775,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1091,
+    id: 949,
     word: "mit",
     translation: "with",
     definition: "In Begleitung oder unter Verwendung von etwas.",
@@ -11787,7 +11787,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1095,
+    id: 950,
     word: "die Elektronik (Sg.)",
     translation: "electronics",
     definition: "Die Technik elektronischer Geräte.",
@@ -11799,7 +11799,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1096,
+    id: 951,
     word: "warten",
     translation: "to wait",
     definition: "Auf jemanden oder etwas Zeit verbringen.",
@@ -11811,7 +11811,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1097,
+    id: 952,
     word: "arbeitslos",
     translation: "unemployed",
     definition: "Ohne Arbeit oder Beschäftigung sein.",
@@ -11825,7 +11825,7 @@ export const A1_Vocabulary = [
     family: "die Arbeit",
   },
   {
-    id: 1098,
+    id: 953,
     word: "normal",
     translation: "normal",
     definition: "Der Regel entsprechend, gewöhnlich.",
@@ -11837,7 +11837,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1099,
+    id: 954,
     word: "die Nachtschicht, -en",
     translation: "night shift",
     definition: "Die Arbeitszeit während der Nacht.",
@@ -11850,7 +11850,7 @@ export const A1_Vocabulary = [
     family: "die Nacht",
   },
   {
-    id: 1100,
+    id: 955,
     word: "die Kita, -s",
     translation: "daycare center / nursery school",
     definition: "Kindertagesstätte für die Betreuung von Kleinkindern.",
@@ -11862,7 +11862,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1102,
+    id: 956,
     word: "von (+ D.)",
     translation: "from / by",
     definition: "Angabe des Ausgangspunkts oder Urhebers.",
@@ -11874,7 +11874,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1103,
+    id: 957,
     word: "vor (+ D.)",
     translation: "before / ago / in front of",
     definition: "Zeitlich oder örtlich davor liegend.",
@@ -11886,7 +11886,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1104,
+    id: 958,
     word: "ab (+ D.)",
     translation: "from / starting from",
     definition: "Ab einem bestimmten Zeitpunkt gültig.",
@@ -11898,7 +11898,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1105,
+    id: 959,
     word: "bis zum",
     translation: "until / by",
     definition: "Endpunkt einer Zeit oder Strecke.",
@@ -11910,7 +11910,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1106,
+    id: 960,
     word: "die Gastronomie (Sg.)",
     translation: "gastronomy / catering industry",
     definition:
@@ -11923,7 +11923,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1107,
+    id: 961,
     word: "die Informatik (Sg.)",
     translation: "computer science / IT",
     definition: "Die Wissenschaft der automatischen Datenverarbeitung.",
@@ -11936,7 +11936,7 @@ export const A1_Vocabulary = [
     family: "die Informatik",
   },
   {
-    id: 1108,
+    id: 962,
     word: "das Stellenangebot, -e",
     translation: "job offer / job vacancy",
     definition: "Ein Angebot für einen freien Arbeitsplatz.",
@@ -11948,7 +11948,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1109,
+    id: 963,
     word: "der Arbeitsort, -e",
     translation: "place of work / work location",
     definition: "Der Ort, an dem man arbeitet.",
@@ -11961,7 +11961,7 @@ export const A1_Vocabulary = [
     family: "die Arbeit",
   },
   {
-    id: 1111,
+    id: 964,
     word: "die Bezahlung (Sg.)",
     translation: "payment / pay",
     definition: "Der Lohn für geleistete Arbeit.",
@@ -11974,7 +11974,7 @@ export const A1_Vocabulary = [
     family: "bezahlen",
   },
   {
-    id: 1119,
+    id: 965,
     word: "der Konferenzraum, -räume",
     translation: "conference room",
     definition: "Ein Raum für Konferenzen.",
@@ -11987,7 +11987,7 @@ export const A1_Vocabulary = [
     family: "die Konferenz",
   },
   {
-    id: 1120,
+    id: 966,
     word: "die Tagung, -en",
     translation: "convention / conference",
     definition: "Eine mehrtägige Fachtagung oder Konferenz.",
@@ -11999,7 +11999,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1121,
+    id: 967,
     word: "der Tagungsraum, -räume",
     translation: "meeting room / conference room",
     definition: "Ein Raum für Tagungen.",
@@ -12011,7 +12011,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1123,
+    id: 968,
     word: "diktieren",
     translation: "to dictate",
     definition: "Text laut vorsprechen zum Mitschreiben.",
@@ -12023,7 +12023,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1125,
+    id: 969,
     word: "die Arbeitswelt, -en",
     translation: "working world",
     definition: "Die Gesamtheit der Berufswelt.",
@@ -12036,7 +12036,7 @@ export const A1_Vocabulary = [
     family: "die Arbeit",
   },
   {
-    id: 1126,
+    id: 970,
     word: "das Radio, -s",
     translation: "radio",
     definition: "Ein Gerät zum Hören von Radioprogrammen.",
@@ -12049,7 +12049,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1127,
+    id: 971,
     word: "der Studienplatz, -plätze",
     translation: "university place / study place",
     definition: "Ein freier Platz zum Studieren an einer Hochschule.",
@@ -12062,7 +12062,7 @@ export const A1_Vocabulary = [
     family: "der Platz",
   },
   {
-    id: 1128,
+    id: 972,
     word: "die Hausfrau, -en / der Hausmann, -männer",
     translation: "housewife / househusband",
     definition: "Eine Person, die den Haushalt führt.",
@@ -12076,7 +12076,7 @@ export const A1_Vocabulary = [
     family: "das Haus",
   },
   {
-    id: 1129,
+    id: 973,
     word: "schwer",
     translation: "heavy / difficult",
     definition: "Mit hohem Gewicht oder schwer zu lösen.",
@@ -12088,7 +12088,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1130,
+    id: 974,
     word: "leicht",
     translation: "light / easy",
     definition: "Von geringem Gewicht oder einfach zu tun.",
@@ -12100,7 +12100,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1132,
+    id: 975,
     word: "die Fahrschule, -n",
     translation: "driving school",
     definition: "Eine Schule zum Erlernen des Autofahrens.",
@@ -12114,7 +12114,7 @@ export const A1_Vocabulary = [
     family: "die Schule",
   },
   {
-    id: 1133,
+    id: 976,
     word: "die Kinderkrippe, -n",
     translation: "daycare center / nursery",
     definition: "Eine Betreuungseinrichtung für Kleinkinder.",
@@ -12128,7 +12128,7 @@ export const A1_Vocabulary = [
     family: "das Kind",
   },
   {
-    id: 1136,
+    id: 977,
     word: "die Musikschule, -n",
     translation: "music school",
     definition: "Eine Schule zum Erlernen von Musik und Instrumenten.",
@@ -12141,7 +12141,7 @@ export const A1_Vocabulary = [
     family: "die Schule",
   },
   {
-    id: 1137,
+    id: 978,
     word: "programmieren",
     translation: "to program",
     definition: "Computerprogramme schreiben.",
@@ -12154,7 +12154,7 @@ export const A1_Vocabulary = [
     family: "programmieren",
   },
   {
-    id: 1138,
+    id: 979,
     word: "ein Instrument lernen",
     translation: "to learn an instrument",
     definition: "Das Spielen eines Musikinstruments erlernen.",
@@ -12167,7 +12167,7 @@ export const A1_Vocabulary = [
     family: "lernen",
   },
   {
-    id: 1140,
+    id: 980,
     word: "der / die Erwachsene, -n",
     translation: "adult",
     definition: "Eine ausgewachsene Person.",
@@ -12179,7 +12179,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1141,
+    id: 981,
     word: "der Teenager, -",
     translation: "teenager",
     definition: "Ein Jugendlicher im Teenageralter.",
@@ -12191,7 +12191,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1142,
+    id: 982,
     word: "gerade",
     translation: "just / currently / straight",
     definition: "Im Moment oder genau jetzt passierend.",
@@ -12203,7 +12203,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1145,
+    id: 983,
     word: "der Fahrlehrer, - / die Fahrlehrerin, -nen",
     translation: "driving instructor",
     definition: "Eine Person, die das Autofahren unterrichtet.",
@@ -12216,7 +12216,7 @@ export const A1_Vocabulary = [
     family: "fahren",
   },
   {
-    id: 1148,
+    id: 984,
     word: "stricken",
     translation: "to knit",
     definition: "Textilien aus Garn mit Nadeln herstellen.",
@@ -12228,7 +12228,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1150,
+    id: 985,
     word: "tapezieren",
     translation: "to wallpaper",
     definition: "Wände mit Tapeten bekleben.",
@@ -12240,7 +12240,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1151,
+    id: 986,
     word: "das Tischtennis (Sg.) / Tischtennis spielen",
     translation: "table tennis / to play table tennis",
     definition: "Ein Rückschlagspiel auf einem Tisch mit Netz.",
@@ -12252,7 +12252,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1152,
+    id: 987,
     word: "das Klavier, -e / Klavier spielen",
     translation: "piano / to play the piano",
     definition: "Ein großes Tasteninstrument.",
@@ -12264,7 +12264,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1153,
+    id: 988,
     word: "der Inline-Skate, -s / Inline-Skates fahren",
     translation: "inline skate / to inline skate",
     definition: "Schuhe mit Rollen zum schnellen Gleiten.",
@@ -12276,7 +12276,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1154,
+    id: 989,
     word: "gar nicht",
     translation: "not at all",
     definition: "Überhaupt nicht.",
@@ -12288,7 +12288,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1155,
+    id: 990,
     word: "der Brief, -e",
     translation: "letter",
     definition: "Eine schriftliche Nachricht im Umschlag.",
@@ -12300,7 +12300,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1156,
+    id: 991,
     word: "der Ausflug, Ausflüge",
     translation: "trip / excursion",
     definition: "Eine kurze Reise zur Erholung.",
@@ -12312,7 +12312,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1157,
+    id: 992,
     word: "losgehen",
     translation: "to start / to get going",
     definition: "Beginnen oder sich auf den Weg machen.",
@@ -12325,7 +12325,7 @@ export const A1_Vocabulary = [
     family: "gehen",
   },
   {
-    id: 1158,
+    id: 993,
     word: "mitgeben",
     translation: "to give along with",
     definition: "Jemandem etwas für unterwegs mitgeben.",
@@ -12338,7 +12338,7 @@ export const A1_Vocabulary = [
     family: "geben",
   },
   {
-    id: 1159,
+    id: 994,
     word: "der Wald, Wälder",
     translation: "forest / woods",
     definition: "Ein großes Gebiet mit vielen Bäumen.",
@@ -12350,7 +12350,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1160,
+    id: 995,
     word: "die Zahnschmerzen (Pl.)",
     translation: "toothache",
     definition: "Schmerzen an den Zähnen.",
@@ -12364,7 +12364,7 @@ export const A1_Vocabulary = [
     family: "der Zahn",
   },
   {
-    id: 1161,
+    id: 996,
     word: "der Chor, Chöre",
     translation: "choir",
     definition: "Eine Gruppe von Sängern.",
@@ -12376,7 +12376,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1162,
+    id: 997,
     word: "das Musikinstrument, -e",
     translation: "musical instrument",
     definition: "Ein Gerät zum Erzeugen von Musik.",
@@ -12389,7 +12389,7 @@ export const A1_Vocabulary = [
     family: "die Musik",
   },
   {
-    id: 1164,
+    id: 998,
     word: "die Geige, -n",
     translation: "violin",
     definition: "Ein Streichinstrument.",
@@ -12401,7 +12401,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1165,
+    id: 999,
     word: "das Keyboard, -s",
     translation: "keyboard",
     definition: "Ein elektronisches Tasteninstrument.",
@@ -12413,7 +12413,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1166,
+    id: 1000,
     word: "das Schlagzeug, -e",
     translation: "drums",
     definition: "Ein Schlaginstrumenten-Set.",
@@ -12425,7 +12425,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1167,
+    id: 1001,
     word: "die Trommel, -n",
     translation: "drum",
     definition: "Ein Perkussionsinstrument.",
@@ -12437,7 +12437,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1170,
+    id: 1002,
     word: "doch",
     translation: " doch / however / yes (contradiction)",
     definition: "Wort zur Bekräftigung oder Verneinung von Verneinungen.",
@@ -12449,7 +12449,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1171,
+    id: 1003,
     word: "der Satzakzent, -e",
     translation: "sentence accent",
     definition: "Die Betonung im Satz.",
@@ -12462,7 +12462,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1172,
+    id: 1004,
     word: "der Fehler, -",
     translation: "mistake / error",
     definition: "Eine falsche Handlung oder Angabe.",
@@ -12474,7 +12474,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1173,
+    id: 1005,
     word: "zum Teil",
     translation: "partially / in part",
     definition: "Nicht vollständig, teilweise.",
@@ -12486,7 +12486,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1175,
+    id: 1006,
     word: "die Lösung, -en",
     translation: "solution",
     definition: "Die Antwort auf ein Problem oder Rätsel.",
@@ -12498,7 +12498,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1177,
+    id: 1007,
     word: "ausprobieren",
     translation: "to try out",
     definition: "Etwas testen, um zu sehen, wie es funktioniert.",
@@ -12510,7 +12510,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1178,
+    id: 1008,
     word: "das Bilderbuch, -bücher",
     translation: "picture book",
     definition: "Ein Buch mit vielen Bildern für Kinder.",
@@ -12523,7 +12523,7 @@ export const A1_Vocabulary = [
     family: "das Buch",
   },
   {
-    id: 1179,
+    id: 1009,
     word: "die Lern-App, -s",
     translation: "learning app",
     definition: "Eine App zum Lernen auf dem Smartphone.",
@@ -12536,7 +12536,7 @@ export const A1_Vocabulary = [
     family: "lernen",
   },
   {
-    id: 1180,
+    id: 1010,
     word: "der Podcast, -s",
     translation: "podcast",
     definition: "Eine Audiosendung im Internet.",
@@ -12549,7 +12549,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1183,
+    id: 1011,
     word: "der Untertitel, -",
     translation: "subtitle",
     definition: "Text am unteren Bildschirmrand bei Filmen.",
@@ -12561,7 +12561,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1185,
+    id: 1012,
     word: "wirklich",
     translation: "really / actual",
     definition: "Tatsächlich, wahrhaftig.",
@@ -12573,7 +12573,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1187,
+    id: 1013,
     word: "auswendig lernen",
     translation: "to memorize / to learn by heart",
     definition: "Etwas im Gedächtnis behalten durch Lernen.",
@@ -12586,7 +12586,7 @@ export const A1_Vocabulary = [
     family: "lernen",
   },
   {
-    id: 1188,
+    id: 1014,
     word: "der Lerntipp, -s",
     translation: "learning tip",
     definition: "Ein Rat zum besseren Lernen.",
@@ -12599,7 +12599,7 @@ export const A1_Vocabulary = [
     family: "lernen",
   },
   {
-    id: 1189,
+    id: 1015,
     word: "weitere",
     translation: "further / additional",
     definition: "Noch mehr oder zusätzliche Dinge.",
@@ -12611,7 +12611,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1190,
+    id: 1016,
     word: "weitergeben",
     translation: "to pass on",
     definition: "Informationen oder Gegenstände an andere weiterreichen.",
@@ -12624,7 +12624,7 @@ export const A1_Vocabulary = [
     family: "geben",
   },
   {
-    id: 1191,
+    id: 1017,
     word: "die Computerfirma, -firmen",
     translation: "computer company",
     definition: "Eine Firma für Computertechnik.",
@@ -12637,7 +12637,7 @@ export const A1_Vocabulary = [
     family: "der Computer",
   },
   {
-    id: 1192,
+    id: 1018,
     word: "der Erzieher, - / die Erzieherin, -nen",
     translation: "educator / kindergarten teacher",
     definition: "Eine Fachkraft für die Erziehung von Kindern.",
@@ -12650,7 +12650,7 @@ export const A1_Vocabulary = [
     family: "der Erzieher",
   },
   {
-    id: 1193,
+    id: 1019,
     word: "der Programmierer, - / die Programmiererin, -nen",
     translation: "programmer",
     definition: "Eine Person, die Software programmiert.",
@@ -12663,7 +12663,7 @@ export const A1_Vocabulary = [
     family: "programmieren",
   },
   {
-    id: 1194,
+    id: 1020,
     word: "der Kassierer, - / die Kassiererin, -nen",
     translation: "cashier",
     definition: "Eine Person an der Kasse im Geschäft.",
@@ -12675,7 +12675,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1195,
+    id: 1021,
     word: "Japan",
     translation: "Japan",
     definition: "Ein Inselstaat in Ostasien.",
@@ -12688,7 +12688,7 @@ export const A1_Vocabulary = [
     family: "Japan",
   },
   {
-    id: 1196,
+    id: 1022,
     word: "Japanisch",
     translation: "Japanese (language)",
     definition: "Die Landessprache von Japan.",
@@ -12701,7 +12701,7 @@ export const A1_Vocabulary = [
     family: "Japan",
   },
   {
-    id: 1197,
+    id: 1023,
     word: "der Markt, Märkte",
     translation: "market",
     definition: "Ein Ort für den Handel von Waren im Freien oder in Hallen.",
@@ -12714,7 +12714,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1198,
+    id: 1024,
     word: "der Stand, Stände",
     translation: "stand / booth",
     definition: "Ein Verkaufsstand auf dem Markt.",
@@ -12726,7 +12726,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1199,
+    id: 1025,
     word: "das Karussell, -s",
     translation: "carousel / merry-go-round",
     definition: "Ein Fahrgeschäft auf Jahrmärkten.",
@@ -12738,7 +12738,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1202,
+    id: 1026,
     word: "der Glühwein, -e",
     translation: "mulled wine",
     definition: "Ein gewürztes, warmes alkoholisches Getränk im Winter.",
@@ -12750,7 +12750,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1203,
+    id: 1027,
     word: "das Lebkuchenherz, -en",
     translation: "gingerbread heart",
     definition: "Ein herzförmiges Lebkuchengebäck mit Zuckerguss.",
@@ -12763,7 +12763,7 @@ export const A1_Vocabulary = [
     family: "das Herz",
   },
   {
-    id: 1204,
+    id: 1028,
     word: "die Zuckerwatte, -n",
     translation: "cotton candy",
     definition: "Süßware aus geschmolzenem Zucker in Fäden.",
@@ -12775,7 +12775,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1206,
+    id: 1029,
     word: "der Weihnachtsmann, -männer",
     translation: "Santa Claus",
     definition: "Eine Sagengestalt zu Weihnachten mit Geschenken.",
@@ -12788,7 +12788,7 @@ export const A1_Vocabulary = [
     family: "Weihnachten",
   },
   {
-    id: 1207,
+    id: 1030,
     word: "aufbauen",
     translation: "to build up / to set up",
     definition: "Etwas errichten oder montieren.",
@@ -12800,7 +12800,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1209,
+    id: 1031,
     word: "angucken",
     translation: "to look at",
     definition: "Betrachten.",
@@ -12812,7 +12812,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1210,
+    id: 1032,
     word: "herrlich",
     translation: "magnificent / wonderful",
     definition: "Wunderschön, sehr angenehm.",
@@ -12824,7 +12824,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1211,
+    id: 1033,
     word: "die Bratwurst, -würste",
     translation: "roasted sausage / bratwurst",
     definition: "Eine gewürzte Wurst zum Braten.",
@@ -12837,7 +12837,7 @@ export const A1_Vocabulary = [
     family: "die Wurst",
   },
   {
-    id: 1213,
+    id: 1034,
     word: "der Kartoffelpuffer, -",
     translation: "potato pancake",
     definition: "Ein Fladen aus geriebenen Kartoffeln in der Pfanne gebraten.",
@@ -12850,7 +12850,7 @@ export const A1_Vocabulary = [
     family: "die Kartoffel",
   },
   {
-    id: 1214,
+    id: 1035,
     word: "die Mandel, -n",
     translation: "almond",
     definition: "Ein essbarer Nusskern.",
@@ -12862,7 +12862,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1215,
+    id: 1036,
     word: "die Pommes frites (Pl.)",
     translation: "French fries",
     definition: "In Öl frittierte Kartoffelstäbchen.",
@@ -12874,7 +12874,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1216,
+    id: 1037,
     word: "das Wachs (Sg.)",
     translation: "wax",
     definition: "Ein formbares Material für Kerzen.",
@@ -12886,7 +12886,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1217,
+    id: 1038,
     word: "das Bauchweh (Sg.)",
     translation: "stomach ache",
     definition: "Schmerzen im Bauchbereich.",
@@ -12899,7 +12899,7 @@ export const A1_Vocabulary = [
     family: "der Bauch",
   },
   {
-    id: 1219,
+    id: 1039,
     word: "altmodisch",
     translation: "old-fashioned",
     definition: "Nicht mehr modern.",
@@ -12911,7 +12911,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1221,
+    id: 1040,
     word: "der Nussknacker, -",
     translation: "nutcracker",
     definition: "Ein Gerät oder Holzfigur zum Knacken von Nüssen.",
@@ -12923,7 +12923,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1223,
+    id: 1041,
     word: "die Weihnachtskugel, -n",
     translation: "Christmas bauble",
     definition: "Christbaumschmuck in Kugelform.",
@@ -12937,7 +12937,7 @@ export const A1_Vocabulary = [
     family: "Weihnachten",
   },
   {
-    id: 1224,
+    id: 1042,
     word: "links",
     translation: "left",
     definition: "Auf der linken Seite.",
@@ -12949,7 +12949,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1225,
+    id: 1043,
     word: "rechts",
     translation: "right",
     definition: "Auf der rechten Seite.",
@@ -12961,7 +12961,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1226,
+    id: 1044,
     word: "der Ring, -e",
     translation: "ring",
     definition: "Ein Schmuckstück für den Finger.",
@@ -12974,7 +12974,7 @@ export const A1_Vocabulary = [
     family: "der Ring",
   },
   {
-    id: 1227,
+    id: 1045,
     word: "der Handschuh, -e",
     translation: "glove",
     definition: "Kleidung für die Hände im Winter.",
@@ -12986,7 +12986,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1229,
+    id: 1046,
     word: "Ostern",
     translation: "Easter",
     definition: "Ein christliches Frühlingsfest.",
@@ -12998,7 +12998,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1230,
+    id: 1047,
     word: "Weihnachten",
     translation: "Christmas",
     definition: "Das Fest der Geburt Christi im Dezember.",
@@ -13011,7 +13011,7 @@ export const A1_Vocabulary = [
     family: "Weihnachten",
   },
   {
-    id: 1231,
+    id: 1048,
     word: "der Valentinstag, -e",
     translation: "Valentine's Day",
     definition: "Der Tag der Liebenden am 14. Februar.",
@@ -13023,7 +13023,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1232,
+    id: 1049,
     word: "die Konzertkarte, -n",
     translation: "concert ticket",
     definition: "Eine Eintrittskarte für ein Konzert.",
@@ -13036,7 +13036,7 @@ export const A1_Vocabulary = [
     family: "die Karte",
   },
   {
-    id: 1233,
+    id: 1050,
     word: "warm",
     translation: "warm",
     definition: "Eine angenehme Temperatur habend.",
@@ -13048,7 +13048,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1234,
+    id: 1051,
     word: "der Lebkuchen, -",
     translation: "gingerbread",
     definition: "Ein würziges Gebäck für die Weihnachtszeit.",
@@ -13060,7 +13060,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1235,
+    id: 1052,
     word: "der Karnevalsumzug, -umzüge",
     translation: "carnival parade",
     definition: "Ein Umzug mit kostümierten Menschen im Karneval.",
@@ -13074,7 +13074,7 @@ export const A1_Vocabulary = [
     family: "der Karneval",
   },
   {
-    id: 1238,
+    id: 1053,
     word: "gesucht",
     translation: "sought-after / wanted",
     definition: "Auf der Suche nach jemandem oder etwas.",
@@ -13086,7 +13086,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1239,
+    id: 1054,
     word: "das Volksfest, -e",
     translation: "public festival / folk festival",
     definition: "Ein großes Fest für die Öffentlichkeit.",
@@ -13098,7 +13098,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1240,
+    id: 1055,
     word: "das Oktoberfest, -e",
     translation: "Oktoberfest",
     definition: "Das berühmte Volksfest in München.",
@@ -13111,7 +13111,7 @@ export const A1_Vocabulary = [
     family: "Oktober",
   },
   {
-    id: 1241,
+    id: 1056,
     word: "der Osterhase, -n",
     translation: "Easter bunny",
     definition: "Eine Sagengestalt zu Ostern, die Eier bringt.",
@@ -13124,7 +13124,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1242,
+    id: 1057,
     word: "die Prinzessin, -nen",
     translation: "princess",
     definition: "Die Tochter eines Königs.",
@@ -13137,7 +13137,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1243,
+    id: 1058,
     word: "das Riesenrad, -räder",
     translation: "Ferris wheel",
     definition: "Ein großes, sich drehendes Rad auf Jahrmärkten.",
@@ -13149,7 +13149,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1244,
+    id: 1059,
     word: "der Weihnachtsbaum, -bäume",
     translation: "Christmas tree",
     definition: "Ein geschmückter Tannenbaum zu Weihnachten.",
@@ -13162,7 +13162,7 @@ export const A1_Vocabulary = [
     family: "Weihnachten",
   },
   {
-    id: 1245,
+    id: 1060,
     word: "der Weihnachtstag, -e",
     translation: "Christmas day",
     definition: "Ein Feiertag an Weihnachten.",
@@ -13175,7 +13175,7 @@ export const A1_Vocabulary = [
     family: "Weihnachten",
   },
   {
-    id: 1246,
+    id: 1061,
     word: "die Kurzbewerbung, -en",
     translation: "short application",
     definition: "Eine kurze Form der Bewerbung.",
@@ -13187,7 +13187,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1248,
+    id: 1062,
     word: "per E-Mail",
     translation: "by email",
     definition: "Durch elektronische Post.",
@@ -13199,7 +13199,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1249,
+    id: 1063,
     word: "die Rückfrage, -n",
     translation: "query / follow-up question",
     definition: "Eine nachträgliche Frage zur Klärung.",
@@ -13212,7 +13212,7 @@ export const A1_Vocabulary = [
     family: "fragen",
   },
   {
-    id: 1250,
+    id: 1064,
     word: "die Servicekraft, -kräfte",
     translation: "service staff / waiter / waitress",
     definition: "Personal im Servicebereich in Gastronomie.",
@@ -13224,7 +13224,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1251,
+    id: 1065,
     word: "der Stundenlohn, -löhne",
     translation: "hourly wage",
     definition: "Der Lohn für eine Stunde Arbeit.",
@@ -13237,7 +13237,7 @@ export const A1_Vocabulary = [
     family: "die Stunde",
   },
   {
-    id: 1252,
+    id: 1066,
     word: "die Verkaufshilfe, -n",
     translation: "sales assistant / retail aid",
     definition: "Eine Hilfskraft im Verkauf.",
@@ -13250,7 +13250,7 @@ export const A1_Vocabulary = [
     family: "kaufen",
   },
   {
-    id: 1253,
+    id: 1067,
     word: "der Zeitraum, -räume",
     translation: "period of time",
     definition: "Eine bestimmte Zeitspanne.",
@@ -13263,7 +13263,7 @@ export const A1_Vocabulary = [
     family: "die Zeit",
   },
   {
-    id: 1254,
+    id: 1068,
     word: "pro Stunde",
     translation: "per hour",
     definition: "Berechnet für jede Stunde.",
@@ -13275,7 +13275,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1256,
+    id: 1069,
     word: "der Quatsch (Sg.)",
     translation: "nonsense",
     definition: "Unsinniges Gerede oder Tun.",
@@ -13287,7 +13287,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1257,
+    id: 1070,
     word: "der Wahnsinn (Sg.)",
     translation: "madness / craziness / awesome",
     definition: "Große Begeisterung oder geistige Verwirrung.",
@@ -13299,7 +13299,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1259,
+    id: 1071,
     word: "zerknüllen",
     translation: "to crumple",
     definition: "Etwas durch Drücken unordentlich knautschen.",
@@ -13311,7 +13311,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1261,
+    id: 1072,
     word: "der Ausbildungsplatz, -plätze",
     translation: "apprenticeship position / training place",
     definition: "Ein freier Platz für eine Ausbildung.",
@@ -13325,7 +13325,7 @@ export const A1_Vocabulary = [
     family: "der Platz",
   },
   {
-    id: 1263,
+    id: 1073,
     word: "der Vorsatz, -sätze",
     translation: "resolution / intention",
     definition: "Ein fester Entschluss für die Zukunft.",
@@ -13337,7 +13337,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1266,
+    id: 1074,
     word: "der Baum, Bäume",
     translation: "tree",
     definition: "Eine große holzartige Pflanze mit Stamm und Krone.",
@@ -13349,7 +13349,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1267,
+    id: 1075,
     word: "die Maske, -n",
     translation: "mask",
     definition: "Eine Gesichtsverkleidung zum Schutz oder Karneval.",
@@ -13361,7 +13361,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1269,
+    id: 1076,
     word: "der Heiligabend, -e",
     translation: "Christmas Eve",
     definition: "Der Abend vor dem ersten Weihnachtstag (24. Dezember).",
@@ -13374,7 +13374,7 @@ export const A1_Vocabulary = [
     family: "der Abend",
   },
   {
-    id: 1270,
+    id: 1077,
     word: "im Erdgeschoss",
     translation: "on the ground floor",
     definition: "Das unterste Stockwerk eines Hauses auf Straßenebene.",
@@ -13386,7 +13386,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1271,
+    id: 1078,
     word: "bezahlen",
     translation: "to pay",
     definition: "Geld für etwas geben.",
@@ -13399,7 +13399,7 @@ export const A1_Vocabulary = [
     family: "bezahlen",
   },
   {
-    id: 1272,
+    id: 1079,
     word: "wollen",
     translation: "to want",
     definition: "Einen Wunsch oder eine Absicht haben.",
@@ -13411,7 +13411,7 @@ export const A1_Vocabulary = [
     level: "A1",
   },
   {
-    id: 1273,
+    id: 1080,
     word: "das Stück, -e",
     translation: "piece",
     definition: "Ein einzelner Teil eines Ganzen.",
