@@ -4577,7 +4577,7 @@ export const A1_Vocabulary = [
   },
   {
     id: 341,
-    word: "der E-Mail, -s",
+    word: "die E-Mail, -s",
     translation: "email",
     definition: "Eine elektronische Nachricht.",
     example: "Ich schreibe eine wichtige E-Mail.",
