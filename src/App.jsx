@@ -13,7 +13,7 @@ import AddWordScreen from "./components/screens/AddWordScreen";
 import DetailScreen from "./components/screens/DetailScreen";
 import { fetchWordDetails } from "./utils/aiWordHelper";
 import CollectionsScreen from "./components/screens/CollectionsScreen";
-import { WORD_TYPES, getWordType, guessWordType } from "./utils/wordTypes";
+import { WORD_TYPES, getWordType } from "./utils/wordTypes";
 
 const DEFAULT_THEMES = [
   "im Restaurant",
@@ -375,7 +375,7 @@ export default function App() {
           "English translation of study example.",
         thema: finalThema,
         level: formLevel,
-        type: formType || guessWordType(formWord),
+        type: formType,
         priority: formPriority,
         family: formFamily.trim() || undefined,
       };
@@ -409,7 +409,7 @@ export default function App() {
         "English translation of study example.",
       thema: finalThema,
       level: formLevel,
-      type: formType || guessWordType(formWord),
+      type: formType,
       priority: formPriority,
       favorite: false,
       family: formFamily.trim() || undefined,

@@ -13,7 +13,7 @@ export default function WordCard({ item, setSelectedWordId, navigateTo }) {
     >
       <div className="flex-1 min-w-0 pr-3">
         <div className="flex items-center gap-3 min-w-0">
-          <h4 className="font-serif text-base text-[#2c302e] group-hover:text-[#435249] transition-colors truncate max-w-[45%] shrink-0">
+          <h4 className="font-serif text-base text-[#2c302e] group-hover:text-[#435249] transition-colors truncate max-w-[75%] shrink-0">
             {item.word}
           </h4>
           <p className="font-sans text-xs text-[#637368] mt-0.5 truncate flex-1 min-w-0">

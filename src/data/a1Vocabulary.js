@@ -12,6 +12,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
     family: "willkommen",
   },
   {
@@ -25,6 +26,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
     family: "der Tag",
   },
   {
@@ -38,6 +40,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
     family: "der Morgen",
   },
   {
@@ -51,6 +54,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
     family: "der Abend",
   },
   {
@@ -65,6 +69,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 6,
@@ -77,6 +82,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 7,
@@ -90,6 +96,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 8,
@@ -102,6 +109,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 9,
@@ -114,6 +122,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Kurs",
   },
   {
@@ -127,6 +136,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Anfang",
   },
   {
@@ -140,6 +150,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "willkommen",
   },
   {
@@ -153,6 +164,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Mail",
   },
   {
@@ -166,6 +178,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 14,
@@ -178,6 +191,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 15,
@@ -191,6 +205,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Name",
   },
   {
@@ -205,6 +220,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Familie",
   },
   {
@@ -219,6 +235,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "entschuldigen",
   },
   {
@@ -232,6 +249,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "gehen",
   },
   {
@@ -245,6 +263,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 20,
@@ -257,6 +276,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "hoffen",
   },
   {
@@ -270,6 +290,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 22,
@@ -283,6 +304,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Land",
   },
   {
@@ -296,6 +318,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "Deutsch",
   },
   {
@@ -309,6 +332,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "Spanien",
   },
   {
@@ -322,6 +346,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "Polen",
   },
   {
@@ -335,6 +360,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 27,
@@ -347,6 +373,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 28,
@@ -359,6 +386,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "Syrien",
   },
   {
@@ -372,6 +400,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 30,
@@ -385,6 +414,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 31,
@@ -397,6 +427,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Stadt",
   },
   {
@@ -410,6 +441,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 33,
@@ -422,6 +454,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "kommen",
   },
   {
@@ -435,6 +468,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "wohnen",
   },
   {
@@ -448,6 +482,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 36,
@@ -460,6 +495,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Musik",
   },
   {
@@ -473,6 +509,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 38,
@@ -486,6 +523,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 39,
@@ -498,6 +536,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 40,
@@ -510,6 +549,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Name",
   },
   {
@@ -523,6 +563,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Familie",
   },
   {
@@ -536,6 +577,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Adresse",
   },
   {
@@ -550,6 +592,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 44,
@@ -562,6 +605,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Nummer",
   },
   {
@@ -575,6 +619,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 46,
@@ -587,6 +632,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Spaß",
   },
   {
@@ -601,6 +647,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Nummer",
   },
   {
@@ -614,6 +661,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Nummer",
   },
   {
@@ -628,6 +676,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "schreiben",
   },
   {
@@ -642,6 +691,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 51,
@@ -654,6 +704,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 52,
@@ -666,6 +717,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 53,
@@ -678,6 +730,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 54,
@@ -690,6 +743,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 55,
@@ -702,6 +756,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 56,
@@ -714,6 +769,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 57,
@@ -726,6 +782,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 58,
@@ -738,6 +795,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 59,
@@ -750,6 +808,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 60,
@@ -762,6 +821,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 61,
@@ -774,6 +834,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 62,
@@ -786,6 +847,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 63,
@@ -798,6 +860,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 64,
@@ -810,6 +873,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 65,
@@ -822,6 +886,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 66,
@@ -834,6 +899,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    type: "word",
     family: "das Land",
   },
   {
@@ -847,6 +913,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 68,
@@ -859,6 +926,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 69,
@@ -871,6 +939,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "lesen",
   },
   {
@@ -884,6 +953,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "sprechen",
   },
   {
@@ -897,6 +967,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    type: "word",
     family: "sprechen",
   },
   {
@@ -910,6 +981,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 73,
@@ -922,6 +994,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "markieren",
   },
   {
@@ -935,6 +1008,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "kennen",
   },
   {
@@ -948,6 +1022,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 76,
@@ -960,6 +1035,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "stellen",
   },
   {
@@ -973,6 +1049,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 78,
@@ -986,6 +1063,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Ball",
   },
   {
@@ -999,6 +1077,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "fragen",
   },
   {
@@ -1012,6 +1091,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "antworten",
   },
   {
@@ -1025,6 +1105,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 82,
@@ -1037,6 +1118,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Foto",
   },
   {
@@ -1050,6 +1132,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Rad",
   },
   {
@@ -1063,6 +1146,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 85,
@@ -1075,6 +1159,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "antworten",
   },
   {
@@ -1088,6 +1173,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 87,
@@ -1100,6 +1186,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Nummer",
   },
   {
@@ -1114,6 +1201,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Adresse",
   },
   {
@@ -1127,6 +1215,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 90,
@@ -1139,6 +1228,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 91,
@@ -1151,6 +1241,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 92,
@@ -1164,6 +1255,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: true,
     level: "A1",
+    type: "word",
   },
   {
     id: 93,
@@ -1176,6 +1268,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 94,
@@ -1188,6 +1281,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "danken",
   },
   {
@@ -1201,6 +1295,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 96,
@@ -1213,6 +1308,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "machen",
   },
   {
@@ -1226,6 +1322,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 98,
@@ -1238,6 +1335,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 99,
@@ -1250,6 +1348,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 100,
@@ -1262,6 +1361,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 101,
@@ -1274,6 +1374,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 102,
@@ -1286,6 +1387,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 103,
@@ -1298,6 +1400,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 104,
@@ -1310,6 +1413,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 105,
@@ -1322,6 +1426,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 106,
@@ -1334,6 +1439,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 107,
@@ -1346,6 +1452,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 108,
@@ -1358,6 +1465,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 109,
@@ -1370,6 +1478,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 110,
@@ -1382,6 +1491,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 111,
@@ -1394,6 +1504,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 112,
@@ -1406,6 +1517,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 113,
@@ -1418,6 +1530,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 114,
@@ -1430,6 +1543,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 115,
@@ -1442,6 +1556,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 116,
@@ -1454,6 +1569,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 117,
@@ -1466,6 +1582,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 118,
@@ -1478,6 +1595,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 119,
@@ -1490,6 +1608,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 120,
@@ -1502,6 +1621,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "lernen",
   },
   {
@@ -1515,6 +1635,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 122,
@@ -1527,6 +1648,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Kurs",
   },
   {
@@ -1540,6 +1662,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 124,
@@ -1552,6 +1675,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 125,
@@ -1565,6 +1689,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "sprechen",
   },
   {
@@ -1578,6 +1703,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "Spanien",
   },
   {
@@ -1591,6 +1717,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "Italien",
   },
   {
@@ -1604,6 +1731,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "England",
   },
   {
@@ -1617,6 +1745,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "Deutsch",
   },
   {
@@ -1630,6 +1759,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 131,
@@ -1642,6 +1772,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 132,
@@ -1654,6 +1785,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 133,
@@ -1666,6 +1798,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "Polen",
   },
   {
@@ -1679,6 +1812,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 135,
@@ -1691,6 +1825,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 136,
@@ -1703,6 +1838,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 137,
@@ -1715,6 +1851,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 138,
@@ -1727,6 +1864,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 139,
@@ -1739,6 +1877,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 140,
@@ -1751,6 +1890,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 141,
@@ -1764,6 +1904,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Beruf",
   },
   {
@@ -1778,6 +1919,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Informatik",
   },
   {
@@ -1791,6 +1933,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Arbeit",
   },
   {
@@ -1804,6 +1947,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 145,
@@ -1816,6 +1960,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 146,
@@ -1828,6 +1973,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Lehrer",
   },
   {
@@ -1841,6 +1987,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Schauspieler",
   },
   {
@@ -1854,6 +2001,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 149,
@@ -1866,6 +2014,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Schule",
   },
   {
@@ -1879,6 +2028,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 151,
@@ -1891,6 +2041,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 152,
@@ -1903,6 +2054,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Beruf",
   },
   {
@@ -1916,6 +2068,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Kind",
   },
   {
@@ -1929,6 +2082,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 155,
@@ -1941,6 +2095,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 156,
@@ -1953,6 +2108,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    type: "word",
     family: "zusammen",
   },
   {
@@ -1967,6 +2123,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    type: "word",
     family: "lesen",
   },
   {
@@ -1980,6 +2137,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 159,
@@ -1992,6 +2150,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Chat",
   },
   {
@@ -2005,6 +2164,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 161,
@@ -2017,6 +2177,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 162,
@@ -2029,6 +2190,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 163,
@@ -2042,6 +2204,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: true,
     level: "A1",
+    type: "word",
   },
   {
     id: 164,
@@ -2054,6 +2217,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 165,
@@ -2066,6 +2230,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 166,
@@ -2078,6 +2243,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 167,
@@ -2091,6 +2257,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 168,
@@ -2103,6 +2270,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 169,
@@ -2115,6 +2283,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 170,
@@ -2128,6 +2297,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Buch",
   },
   {
@@ -2141,6 +2311,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: true,
     level: "A1",
+    type: "word",
   },
   {
     id: 172,
@@ -2153,6 +2324,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 173,
@@ -2165,6 +2337,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 174,
@@ -2177,6 +2350,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 175,
@@ -2189,6 +2363,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Tisch",
   },
   {
@@ -2202,6 +2377,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 177,
@@ -2214,6 +2390,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 178,
@@ -2226,6 +2403,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 179,
@@ -2238,6 +2416,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Architekt",
   },
   {
@@ -2251,6 +2430,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: true,
     level: "A1",
+    type: "word",
   },
   {
     id: 181,
@@ -2263,6 +2443,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Kaffee",
   },
   {
@@ -2276,6 +2457,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    type: "word",
   },
   {
     id: 183,
@@ -2288,6 +2470,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 184,
@@ -2300,6 +2483,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 185,
@@ -2312,6 +2496,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 186,
@@ -2324,6 +2509,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 187,
@@ -2336,6 +2522,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Geld",
   },
   {
@@ -2349,6 +2536,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "stellen",
   },
   {
@@ -2362,6 +2550,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 190,
@@ -2374,6 +2563,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "geben",
   },
   {
@@ -2387,6 +2577,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 192,
@@ -2399,6 +2590,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 193,
@@ -2411,6 +2603,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Haus",
   },
   {
@@ -2424,6 +2617,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    type: "phrase",
     family: "gehen",
   },
   {
@@ -2437,6 +2631,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 196,
@@ -2449,6 +2644,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: true,
     level: "A1",
+    type: "word",
   },
   {
     id: 197,
@@ -2461,6 +2657,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: true,
     level: "A1",
+    type: "word",
     family: "der Kurs",
   },
   {
@@ -2474,6 +2671,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 199,
@@ -2486,6 +2684,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 200,
@@ -2499,6 +2698,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 201,
@@ -2511,6 +2711,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 202,
@@ -2523,6 +2724,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: true,
     level: "A1",
+    type: "word",
     family: "waschen",
   },
   {
@@ -2536,6 +2738,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Computer",
   },
   {
@@ -2549,6 +2752,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 205,
@@ -2561,6 +2765,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Rad",
   },
   {
@@ -2574,6 +2779,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 207,
@@ -2586,6 +2792,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 208,
@@ -2598,6 +2805,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 209,
@@ -2610,6 +2818,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: true,
     level: "A1",
+    type: "word",
     family: "markieren",
   },
   {
@@ -2623,6 +2832,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
     family: "Deutsch",
   },
   {
@@ -2636,6 +2846,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 212,
@@ -2648,6 +2859,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "anrufen",
   },
   {
@@ -2661,6 +2873,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 214,
@@ -2673,6 +2886,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 215,
@@ -2685,6 +2899,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 216,
@@ -2697,6 +2912,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 217,
@@ -2709,6 +2925,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 218,
@@ -2721,6 +2938,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 219,
@@ -2733,6 +2951,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 220,
@@ -2745,6 +2964,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 221,
@@ -2757,6 +2977,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 222,
@@ -2769,6 +2990,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 223,
@@ -2781,6 +3003,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 224,
@@ -2793,6 +3016,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 225,
@@ -2805,6 +3029,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 226,
@@ -2817,6 +3042,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "sehen",
   },
   {
@@ -2830,6 +3056,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 228,
@@ -2842,6 +3069,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 229,
@@ -2854,6 +3082,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 230,
@@ -2866,6 +3095,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 231,
@@ -2878,6 +3108,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 232,
@@ -2890,6 +3121,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 233,
@@ -2902,6 +3134,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 234,
@@ -2914,6 +3147,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 235,
@@ -2926,6 +3160,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 236,
@@ -2938,6 +3173,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Freund",
   },
   {
@@ -2951,6 +3187,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 238,
@@ -2963,6 +3200,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 239,
@@ -2975,6 +3213,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 240,
@@ -2987,6 +3226,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Markt",
   },
   {
@@ -3000,6 +3240,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Platz",
   },
   {
@@ -3013,6 +3254,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 243,
@@ -3025,6 +3267,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 244,
@@ -3037,6 +3280,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: true,
     level: "A1",
+    type: "word",
     family: "der Gruß",
   },
   {
@@ -3050,6 +3294,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Arbeit",
   },
   {
@@ -3063,6 +3308,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 247,
@@ -3076,6 +3322,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "lieben",
   },
   {
@@ -3089,6 +3336,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 249,
@@ -3101,6 +3349,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 250,
@@ -3113,6 +3362,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    type: "word",
   },
   {
     id: 251,
@@ -3125,6 +3375,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "bringen",
   },
   {
@@ -3138,6 +3389,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 253,
@@ -3150,6 +3402,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 254,
@@ -3162,6 +3415,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 255,
@@ -3174,6 +3428,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 256,
@@ -3186,6 +3441,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 257,
@@ -3198,6 +3454,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 258,
@@ -3210,6 +3467,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 259,
@@ -3223,6 +3481,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 260,
@@ -3235,6 +3494,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Saft",
   },
   {
@@ -3248,6 +3508,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 262,
@@ -3261,6 +3522,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Wasser",
   },
   {
@@ -3274,6 +3536,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 264,
@@ -3286,6 +3549,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: true,
     level: "A1",
+    type: "word",
   },
   {
     id: 265,
@@ -3298,6 +3562,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 266,
@@ -3310,6 +3575,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 267,
@@ -3322,6 +3588,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    type: "word",
   },
   {
     id: 268,
@@ -3334,6 +3601,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Brot",
   },
   {
@@ -3347,6 +3615,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 270,
@@ -3359,6 +3628,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 271,
@@ -3371,6 +3641,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Kuchen",
   },
   {
@@ -3384,6 +3655,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 273,
@@ -3396,6 +3668,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Essen",
   },
   {
@@ -3409,6 +3682,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 275,
@@ -3421,6 +3695,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 276,
@@ -3433,6 +3708,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 277,
@@ -3445,6 +3721,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 278,
@@ -3457,6 +3734,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 279,
@@ -3469,6 +3747,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 280,
@@ -3481,6 +3760,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 281,
@@ -3494,6 +3774,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: true,
     level: "A1",
+    type: "word",
     family: "das Buch",
   },
   {
@@ -3507,6 +3788,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 283,
@@ -3519,6 +3801,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "kaufen",
   },
   {
@@ -3532,6 +3815,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "kaufen",
   },
   {
@@ -3545,6 +3829,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 286,
@@ -3557,6 +3842,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Saft",
   },
   {
@@ -3570,6 +3856,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 288,
@@ -3582,6 +3869,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Kuchen",
   },
   {
@@ -3595,6 +3883,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 290,
@@ -3607,6 +3896,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Brot",
   },
   {
@@ -3621,6 +3911,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Kuchen",
   },
   {
@@ -3634,6 +3925,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Pizza",
   },
   {
@@ -3647,6 +3939,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Brot",
   },
   {
@@ -3660,6 +3953,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Suppe",
   },
   {
@@ -3673,6 +3967,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 296,
@@ -3685,6 +3980,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 297,
@@ -3697,6 +3993,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "zusammen",
   },
   {
@@ -3710,6 +4007,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "entschuldigen",
   },
   {
@@ -3723,6 +4021,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Freund",
   },
   {
@@ -3736,6 +4035,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 301,
@@ -3748,6 +4048,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 302,
@@ -3760,6 +4061,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 303,
@@ -3772,6 +4074,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    type: "word",
   },
   {
     id: 304,
@@ -3784,6 +4087,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 305,
@@ -3796,6 +4100,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Morgen",
   },
   {
@@ -3809,6 +4114,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 307,
@@ -3821,6 +4127,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 308,
@@ -3833,6 +4140,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 309,
@@ -3845,6 +4153,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 310,
@@ -3857,6 +4166,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Essen",
   },
   {
@@ -3870,6 +4180,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 312,
@@ -3882,6 +4193,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Foto",
   },
   {
@@ -3895,6 +4207,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Kurs",
   },
   {
@@ -3908,6 +4221,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Freund",
   },
   {
@@ -3921,6 +4235,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "brauchen",
   },
   {
@@ -3934,6 +4249,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Brot",
   },
   {
@@ -3947,6 +4263,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 318,
@@ -3959,6 +4276,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Olive",
   },
   {
@@ -3972,6 +4290,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 320,
@@ -3984,6 +4303,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    type: "word",
     family: "die Wurst",
   },
   {
@@ -3997,6 +4317,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Geld",
   },
   {
@@ -4010,6 +4331,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Woche",
   },
   {
@@ -4024,6 +4346,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Woche",
   },
   {
@@ -4037,6 +4360,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 325,
@@ -4049,6 +4373,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 326,
@@ -4061,6 +4386,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 327,
@@ -4073,6 +4399,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 328,
@@ -4085,6 +4412,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 329,
@@ -4097,6 +4425,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 330,
@@ -4109,6 +4438,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 331,
@@ -4121,6 +4451,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "besuchen",
   },
   {
@@ -4134,6 +4465,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "frühstücken",
   },
   {
@@ -4147,6 +4479,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 334,
@@ -4159,6 +4492,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 335,
@@ -4171,6 +4505,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 336,
@@ -4183,6 +4518,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 337,
@@ -4195,6 +4531,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 338,
@@ -4207,6 +4544,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Meeting",
   },
   {
@@ -4220,6 +4558,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
     family: "der Sport",
   },
   {
@@ -4233,6 +4572,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Arbeit",
   },
   {
@@ -4246,6 +4586,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Mail",
   },
   {
@@ -4259,6 +4600,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Meeting",
   },
   {
@@ -4272,6 +4614,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "frühstücken",
   },
   {
@@ -4285,6 +4628,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 345,
@@ -4297,6 +4641,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Ball",
   },
   {
@@ -4310,6 +4655,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 347,
@@ -4322,6 +4668,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
     family: "der Tag",
   },
   {
@@ -4335,6 +4682,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Uhr",
   },
   {
@@ -4348,6 +4696,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Uhr",
   },
   {
@@ -4361,6 +4710,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 351,
@@ -4373,6 +4723,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Gespräch",
   },
   {
@@ -4386,6 +4737,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Meeting",
   },
   {
@@ -4399,6 +4751,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Konferenz",
   },
   {
@@ -4412,6 +4765,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: true,
     level: "A1",
+    type: "word",
   },
   {
     id: 355,
@@ -4424,6 +4778,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 356,
@@ -4436,6 +4791,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 357,
@@ -4448,6 +4804,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
     family: "die Uhr",
   },
   {
@@ -4461,6 +4818,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 359,
@@ -4473,6 +4831,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Tag",
   },
   {
@@ -4487,6 +4846,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Zeit",
   },
   {
@@ -4500,6 +4860,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Zeit",
   },
   {
@@ -4513,6 +4874,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Morgen",
   },
   {
@@ -4526,6 +4888,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 364,
@@ -4538,6 +4901,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Mittag",
   },
   {
@@ -4551,6 +4915,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 366,
@@ -4563,6 +4928,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Mittag",
   },
   {
@@ -4576,6 +4942,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 368,
@@ -4588,6 +4955,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Mittag",
   },
   {
@@ -4601,6 +4969,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "halten",
   },
   {
@@ -4614,6 +4983,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Abend",
   },
   {
@@ -4627,6 +4997,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Haus",
   },
   {
@@ -4640,6 +5011,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Nacht",
   },
   {
@@ -4653,6 +5025,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 374,
@@ -4665,6 +5038,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "fahren",
   },
   {
@@ -4678,6 +5052,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 376,
@@ -4690,6 +5065,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 377,
@@ -4702,6 +5078,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "waschen",
   },
   {
@@ -4715,6 +5092,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 379,
@@ -4727,6 +5105,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 380,
@@ -4739,6 +5118,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Pizza",
   },
   {
@@ -4752,6 +5132,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 382,
@@ -4764,6 +5145,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Stunde",
   },
   {
@@ -4777,6 +5159,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Stunde",
   },
   {
@@ -4790,6 +5173,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 385,
@@ -4802,6 +5186,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 386,
@@ -4814,6 +5199,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 387,
@@ -4826,6 +5212,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Sport",
   },
   {
@@ -4839,6 +5226,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 389,
@@ -4851,6 +5239,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 390,
@@ -4863,6 +5252,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "öffnen",
   },
   {
@@ -4876,6 +5266,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 392,
@@ -4888,6 +5279,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: true,
     level: "A1",
+    type: "word",
     family: "öffnen",
   },
   {
@@ -4901,6 +5293,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "schließen",
   },
   {
@@ -4914,6 +5307,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Aktivität",
   },
   {
@@ -4927,6 +5321,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: true,
     level: "A1",
+    type: "word",
   },
   {
     id: 396,
@@ -4940,6 +5335,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "einladen",
   },
   {
@@ -4953,6 +5349,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 398,
@@ -4965,6 +5362,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "kaufen",
   },
   {
@@ -4978,6 +5376,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "sehen",
   },
   {
@@ -4991,6 +5390,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "anrufen",
   },
   {
@@ -5004,6 +5404,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "wohnen",
   },
   {
@@ -5017,6 +5418,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 403,
@@ -5029,6 +5431,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 404,
@@ -5042,6 +5445,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 405,
@@ -5054,6 +5458,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 406,
@@ -5066,6 +5471,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 407,
@@ -5078,6 +5484,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Markt",
   },
   {
@@ -5091,6 +5498,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 409,
@@ -5103,6 +5511,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Wurst",
   },
   {
@@ -5116,6 +5525,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Wasser",
   },
   {
@@ -5129,6 +5539,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 412,
@@ -5141,6 +5552,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Olive",
   },
   {
@@ -5154,6 +5566,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 414,
@@ -5166,6 +5579,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Kartoffel",
   },
   {
@@ -5179,6 +5593,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 416,
@@ -5191,6 +5606,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 417,
@@ -5203,6 +5619,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 418,
@@ -5215,6 +5632,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 419,
@@ -5227,6 +5645,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 420,
@@ -5239,6 +5658,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: true,
     level: "A1",
+    type: "word",
   },
   {
     id: 421,
@@ -5251,6 +5671,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Salat",
   },
   {
@@ -5264,6 +5685,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 423,
@@ -5276,6 +5698,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 424,
@@ -5288,6 +5711,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 425,
@@ -5301,6 +5725,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 426,
@@ -5313,6 +5738,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Kilo",
   },
   {
@@ -5326,6 +5752,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 428,
@@ -5338,6 +5765,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    type: "word",
   },
   {
     id: 429,
@@ -5350,6 +5778,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 430,
@@ -5362,6 +5791,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 431,
@@ -5374,6 +5804,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 432,
@@ -5386,6 +5817,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 433,
@@ -5398,6 +5830,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 434,
@@ -5410,6 +5843,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 435,
@@ -5422,6 +5856,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "machen",
   },
   {
@@ -5435,6 +5870,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Mail",
   },
   {
@@ -5448,6 +5884,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Salat",
   },
   {
@@ -5461,6 +5898,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Salat",
   },
   {
@@ -5474,6 +5912,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "einladen",
   },
   {
@@ -5487,6 +5926,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Essen",
   },
   {
@@ -5500,6 +5940,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    type: "word",
     family: "der Tisch",
   },
   {
@@ -5513,6 +5954,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "bringen",
   },
   {
@@ -5526,6 +5968,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 444,
@@ -5538,6 +5981,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    type: "word",
   },
   {
     id: 445,
@@ -5550,6 +5994,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    type: "word",
   },
   {
     id: 446,
@@ -5562,6 +6007,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 447,
@@ -5574,6 +6020,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 448,
@@ -5586,6 +6033,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 449,
@@ -5598,6 +6046,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 450,
@@ -5610,6 +6059,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 451,
@@ -5622,6 +6072,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 452,
@@ -5634,6 +6085,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 453,
@@ -5646,6 +6098,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 454,
@@ -5658,6 +6111,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 455,
@@ -5670,6 +6124,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Brot",
   },
   {
@@ -5683,6 +6138,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    type: "word",
   },
   {
     id: 457,
@@ -5695,6 +6151,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    type: "word",
   },
   {
     id: 458,
@@ -5707,6 +6164,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 459,
@@ -5719,6 +6177,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 460,
@@ -5731,6 +6190,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    type: "word",
   },
   {
     id: 461,
@@ -5743,6 +6203,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 462,
@@ -5755,6 +6216,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "kommen",
   },
   {
@@ -5768,6 +6230,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "nehmen",
   },
   {
@@ -5781,6 +6244,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 465,
@@ -5793,6 +6257,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Eltern",
   },
   {
@@ -5806,6 +6271,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Vater",
   },
   {
@@ -5819,6 +6285,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Mutter",
   },
   {
@@ -5832,6 +6299,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 469,
@@ -5844,6 +6312,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 470,
@@ -5856,6 +6325,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 471,
@@ -5868,6 +6338,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 472,
@@ -5880,6 +6351,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Eltern",
   },
   {
@@ -5893,6 +6365,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Vater",
   },
   {
@@ -5906,6 +6379,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 475,
@@ -5918,6 +6392,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Mutter",
   },
   {
@@ -5931,6 +6406,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 477,
@@ -5943,6 +6419,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 478,
@@ -5955,6 +6432,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 479,
@@ -5967,6 +6445,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 480,
@@ -5979,6 +6458,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 481,
@@ -5991,6 +6471,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 482,
@@ -6003,6 +6484,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 483,
@@ -6015,6 +6497,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 484,
@@ -6027,6 +6510,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 485,
@@ -6039,6 +6523,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 486,
@@ -6051,6 +6536,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 487,
@@ -6063,6 +6549,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "fliegen",
   },
   {
@@ -6076,6 +6563,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 489,
@@ -6088,6 +6576,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: true,
     level: "A1",
+    type: "word",
   },
   {
     id: 490,
@@ -6100,6 +6589,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 491,
@@ -6112,6 +6602,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Partner",
   },
   {
@@ -6125,6 +6616,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Partner",
   },
   {
@@ -6138,6 +6630,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "süß",
   },
   {
@@ -6151,6 +6644,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Auge",
   },
   {
@@ -6164,6 +6658,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Auge",
   },
   {
@@ -6177,6 +6672,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "lieben",
   },
   {
@@ -6190,6 +6686,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 498,
@@ -6202,6 +6699,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 499,
@@ -6214,6 +6712,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 500,
@@ -6226,6 +6725,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 501,
@@ -6238,6 +6738,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 502,
@@ -6250,6 +6751,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 503,
@@ -6262,6 +6764,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 504,
@@ -6274,6 +6777,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Karte",
   },
   {
@@ -6287,6 +6791,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 506,
@@ -6299,6 +6804,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 507,
@@ -6311,6 +6817,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 508,
@@ -6323,6 +6830,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 509,
@@ -6335,6 +6843,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    type: "word",
   },
   {
     id: 510,
@@ -6347,6 +6856,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Jahr",
   },
   {
@@ -6360,6 +6870,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 512,
@@ -6372,6 +6883,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 513,
@@ -6384,6 +6896,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 514,
@@ -6396,6 +6909,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: true,
     level: "A1",
+    type: "word",
   },
   {
     id: 515,
@@ -6408,6 +6922,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 516,
@@ -6420,6 +6935,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 517,
@@ -6432,6 +6948,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 518,
@@ -6444,6 +6961,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    type: "word",
   },
   {
     id: 519,
@@ -6456,6 +6974,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 520,
@@ -6468,6 +6987,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 521,
@@ -6480,6 +7000,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 522,
@@ -6492,6 +7013,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 523,
@@ -6504,6 +7026,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 524,
@@ -6516,6 +7039,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: true,
     level: "A1",
+    type: "word",
     family: "der Erzieher",
   },
   {
@@ -6529,6 +7053,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 526,
@@ -6541,6 +7066,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Architekt",
   },
   {
@@ -6554,6 +7080,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 528,
@@ -6566,6 +7093,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 529,
@@ -6578,6 +7106,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 530,
@@ -6590,6 +7119,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "Italien",
   },
   {
@@ -6603,6 +7133,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "Deutsch",
   },
   {
@@ -6616,6 +7147,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "Polen",
   },
   {
@@ -6629,6 +7161,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "Syrien",
   },
   {
@@ -6643,6 +7176,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Eltern",
   },
   {
@@ -6656,6 +7190,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "sehen",
   },
   {
@@ -6669,6 +7204,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 537,
@@ -6681,6 +7217,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 538,
@@ -6693,6 +7230,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 539,
@@ -6705,6 +7243,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
     family: "gehen",
   },
   {
@@ -6718,6 +7257,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 541,
@@ -6730,6 +7270,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 542,
@@ -6742,6 +7283,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "machen",
   },
   {
@@ -6755,6 +7297,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 544,
@@ -6767,6 +7310,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 545,
@@ -6779,6 +7323,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "spielen",
   },
   {
@@ -6793,6 +7338,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Haus",
   },
   {
@@ -6806,6 +7352,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Arzt",
   },
   {
@@ -6819,6 +7366,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "kaufen",
   },
   {
@@ -6832,6 +7380,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 550,
@@ -6844,6 +7393,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 551,
@@ -6856,6 +7406,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Platz",
   },
   {
@@ -6869,6 +7420,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "spielen",
   },
   {
@@ -6882,6 +7434,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 554,
@@ -6894,6 +7447,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 555,
@@ -6906,6 +7460,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 556,
@@ -6918,6 +7473,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 557,
@@ -6930,6 +7486,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Suppe",
   },
   {
@@ -6943,6 +7500,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 559,
@@ -6955,6 +7513,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 560,
@@ -6967,6 +7526,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
     family: "der Spaß",
   },
   {
@@ -6980,6 +7540,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "phrase",
     family: "das Glück",
   },
   {
@@ -6993,6 +7554,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "süß",
   },
   {
@@ -7006,6 +7568,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 564,
@@ -7018,6 +7581,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 565,
@@ -7030,6 +7594,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 566,
@@ -7042,6 +7607,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 567,
@@ -7054,6 +7620,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Zimmer",
   },
   {
@@ -7067,6 +7634,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Zimmer",
   },
   {
@@ -7080,6 +7648,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 570,
@@ -7092,6 +7661,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 571,
@@ -7104,6 +7674,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 572,
@@ -7116,6 +7687,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 573,
@@ -7123,11 +7695,12 @@ export const A1_Vocabulary = [
     translation: "the topic",
     definition: "Der Inhalt eines Gesprächs.",
     example: "Heute heißt unser Thema „Essen und Trinken“.",
-    exampleTranslation: "Today our topic is \"food and drink\".",
+    exampleTranslation: 'Today our topic is "food and drink".',
     thema: "Schule und Lernen",
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 574,
@@ -7140,6 +7713,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Toilette",
   },
   {
@@ -7153,6 +7727,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Toilette",
   },
   {
@@ -7166,6 +7741,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Toilette",
   },
   {
@@ -7179,6 +7755,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 578,
@@ -7191,6 +7768,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Tisch",
   },
   {
@@ -7204,6 +7782,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 580,
@@ -7216,6 +7795,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 581,
@@ -7228,6 +7808,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 582,
@@ -7240,6 +7821,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 583,
@@ -7252,6 +7834,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "waschen",
   },
   {
@@ -7265,6 +7848,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 585,
@@ -7277,6 +7861,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 586,
@@ -7289,6 +7874,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Kaffee",
   },
   {
@@ -7302,6 +7888,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 588,
@@ -7314,6 +7901,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 589,
@@ -7326,6 +7914,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 590,
@@ -7338,6 +7927,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 591,
@@ -7350,6 +7940,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 592,
@@ -7362,6 +7953,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 593,
@@ -7374,6 +7966,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 594,
@@ -7386,6 +7979,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 595,
@@ -7398,6 +7992,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 596,
@@ -7410,6 +8005,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 597,
@@ -7422,6 +8018,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 598,
@@ -7434,6 +8031,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 599,
@@ -7446,6 +8044,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 600,
@@ -7458,6 +8057,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 601,
@@ -7470,6 +8070,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 602,
@@ -7482,6 +8083,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Meter",
   },
   {
@@ -7495,6 +8097,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 604,
@@ -7507,6 +8110,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Platz",
   },
   {
@@ -7520,6 +8124,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 606,
@@ -7532,6 +8137,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 607,
@@ -7544,6 +8150,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 608,
@@ -7556,6 +8163,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Lust",
   },
   {
@@ -7569,6 +8177,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 610,
@@ -7581,6 +8190,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Anfang",
   },
   {
@@ -7594,6 +8204,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 612,
@@ -7606,6 +8217,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 613,
@@ -7619,6 +8231,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "wohnen",
   },
   {
@@ -7632,6 +8245,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 615,
@@ -7644,6 +8258,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 616,
@@ -7657,6 +8272,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 617,
@@ -7669,6 +8285,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 618,
@@ -7681,6 +8298,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 619,
@@ -7693,6 +8311,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 620,
@@ -7705,6 +8324,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Glück",
   },
   {
@@ -7718,6 +8338,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 622,
@@ -7730,6 +8351,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Platz",
   },
   {
@@ -7743,6 +8365,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 624,
@@ -7755,6 +8378,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 625,
@@ -7767,6 +8391,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 626,
@@ -7779,6 +8404,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 627,
@@ -7791,6 +8417,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 628,
@@ -7803,6 +8430,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 629,
@@ -7815,6 +8443,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 630,
@@ -7827,6 +8456,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 631,
@@ -7839,6 +8469,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 632,
@@ -7851,6 +8482,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Kind",
   },
   {
@@ -7864,6 +8496,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 634,
@@ -7876,6 +8509,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 635,
@@ -7888,6 +8522,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 636,
@@ -7900,6 +8535,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 637,
@@ -7912,6 +8548,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Aktivität",
   },
   {
@@ -7925,6 +8562,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 639,
@@ -7937,6 +8575,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 640,
@@ -7949,6 +8588,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "spielen",
   },
   {
@@ -7962,6 +8602,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 642,
@@ -7974,6 +8615,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 643,
@@ -7986,6 +8628,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Chat",
   },
   {
@@ -7999,6 +8642,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 645,
@@ -8011,6 +8655,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 646,
@@ -8023,6 +8668,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Ball",
   },
   {
@@ -8036,6 +8682,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "kennen",
   },
   {
@@ -8049,6 +8696,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "kommen",
   },
   {
@@ -8062,6 +8710,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 650,
@@ -8074,6 +8723,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Zimmer",
   },
   {
@@ -8087,6 +8737,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 652,
@@ -8099,6 +8750,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Abend",
   },
   {
@@ -8112,6 +8764,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Zahn",
   },
   {
@@ -8125,6 +8778,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Zimmer",
   },
   {
@@ -8138,6 +8792,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "schwimmen",
   },
   {
@@ -8151,6 +8806,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 657,
@@ -8163,6 +8819,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "antworten",
   },
   {
@@ -8176,6 +8833,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 659,
@@ -8188,6 +8846,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 660,
@@ -8200,6 +8859,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Stadt",
   },
   {
@@ -8213,6 +8873,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 662,
@@ -8225,6 +8886,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Sommer",
   },
   {
@@ -8238,6 +8900,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Sport",
   },
   {
@@ -8251,6 +8914,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
     family: "fahren",
   },
   {
@@ -8264,6 +8928,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Stadt",
   },
   {
@@ -8277,6 +8942,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 667,
@@ -8289,6 +8955,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 668,
@@ -8301,6 +8968,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 669,
@@ -8313,6 +8981,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 670,
@@ -8325,6 +8994,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 671,
@@ -8337,6 +9007,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 672,
@@ -8349,6 +9020,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Rad",
   },
   {
@@ -8362,6 +9034,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Ball",
   },
   {
@@ -8375,6 +9048,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Karte",
   },
   {
@@ -8389,6 +9063,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Zeit",
   },
   {
@@ -8402,6 +9077,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 677,
@@ -8414,6 +9090,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
     family: "das Jahr",
   },
   {
@@ -8427,6 +9104,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
     family: "die Woche",
   },
   {
@@ -8440,6 +9118,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Teil",
   },
   {
@@ -8453,6 +9132,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 681,
@@ -8465,6 +9145,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "fahren",
   },
   {
@@ -8478,6 +9159,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Künstler",
   },
   {
@@ -8491,6 +9173,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 684,
@@ -8503,6 +9186,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 685,
@@ -8515,6 +9199,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "fliegen",
   },
   {
@@ -8528,6 +9213,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "fliegen",
   },
   {
@@ -8541,6 +9227,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "fliegen",
   },
   {
@@ -8554,6 +9241,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 689,
@@ -8566,6 +9254,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 690,
@@ -8578,6 +9267,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 691,
@@ -8590,6 +9280,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Künstler",
   },
   {
@@ -8603,6 +9294,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Lehrer",
   },
   {
@@ -8616,6 +9308,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Schauspieler",
   },
   {
@@ -8629,6 +9322,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 695,
@@ -8641,6 +9335,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Kurs",
   },
   {
@@ -8654,6 +9349,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 697,
@@ -8666,6 +9362,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Stunde",
   },
   {
@@ -8679,6 +9376,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Techniker",
   },
   {
@@ -8692,6 +9390,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Techniker",
   },
   {
@@ -8705,6 +9404,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Familie",
   },
   {
@@ -8718,6 +9418,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 702,
@@ -8730,6 +9431,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "schreiben",
   },
   {
@@ -8743,6 +9445,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 704,
@@ -8755,6 +9458,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Schule",
   },
   {
@@ -8768,6 +9472,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Kurs",
   },
   {
@@ -8781,6 +9486,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 707,
@@ -8793,6 +9499,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "Europa",
   },
   {
@@ -8806,6 +9513,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 709,
@@ -8818,6 +9526,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 710,
@@ -8830,6 +9539,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 711,
@@ -8842,6 +9552,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 712,
@@ -8854,6 +9565,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 713,
@@ -8866,6 +9578,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
     family: "der Gruß",
   },
   {
@@ -8879,6 +9592,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 715,
@@ -8891,6 +9605,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 716,
@@ -8903,6 +9618,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Karneval",
   },
   {
@@ -8917,6 +9633,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Karte",
   },
   {
@@ -8930,6 +9647,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 719,
@@ -8942,6 +9660,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 720,
@@ -8954,6 +9673,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Karte",
   },
   {
@@ -8967,6 +9687,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 722,
@@ -8979,6 +9700,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 723,
@@ -8992,6 +9714,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 724,
@@ -9004,6 +9727,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 725,
@@ -9016,6 +9740,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 726,
@@ -9028,6 +9753,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "fahren",
   },
   {
@@ -9041,6 +9767,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 728,
@@ -9053,6 +9780,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 729,
@@ -9065,6 +9793,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 730,
@@ -9077,6 +9806,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 731,
@@ -9089,6 +9819,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Gespräch",
   },
   {
@@ -9102,6 +9833,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 733,
@@ -9114,6 +9846,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 734,
@@ -9126,6 +9859,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "Europa",
   },
   {
@@ -9139,6 +9873,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 736,
@@ -9151,6 +9886,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 737,
@@ -9163,6 +9899,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 738,
@@ -9175,6 +9912,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 739,
@@ -9187,6 +9925,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 740,
@@ -9199,6 +9938,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 741,
@@ -9211,6 +9951,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 742,
@@ -9223,6 +9964,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 743,
@@ -9235,6 +9977,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 744,
@@ -9247,6 +9990,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "phrase",
     family: "schließen",
   },
   {
@@ -9261,6 +10005,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Arbeit",
   },
   {
@@ -9275,6 +10020,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 747,
@@ -9287,6 +10033,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 748,
@@ -9299,6 +10046,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 749,
@@ -9311,6 +10059,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 750,
@@ -9323,6 +10072,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 751,
@@ -9335,6 +10085,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 752,
@@ -9347,6 +10098,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 753,
@@ -9359,6 +10111,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "lieben",
   },
   {
@@ -9372,6 +10125,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "lieben",
   },
   {
@@ -9385,6 +10139,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Ring",
   },
   {
@@ -9398,6 +10153,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 757,
@@ -9410,6 +10166,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 758,
@@ -9422,6 +10179,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "phrase",
     family: "spielen",
   },
   {
@@ -9435,6 +10193,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 760,
@@ -9447,6 +10206,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 761,
@@ -9459,6 +10219,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Chat",
   },
   {
@@ -9472,6 +10233,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 763,
@@ -9484,6 +10246,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 764,
@@ -9496,6 +10259,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Herz",
   },
   {
@@ -9509,6 +10273,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 766,
@@ -9521,6 +10286,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 767,
@@ -9533,6 +10299,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 768,
@@ -9545,6 +10312,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 769,
@@ -9557,6 +10325,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Mail",
   },
   {
@@ -9570,6 +10339,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "nehmen",
   },
   {
@@ -9583,6 +10353,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 772,
@@ -9595,6 +10366,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 773,
@@ -9607,6 +10379,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 774,
@@ -9619,6 +10392,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 775,
@@ -9631,6 +10405,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 776,
@@ -9643,6 +10418,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Teil",
   },
   {
@@ -9656,6 +10432,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 778,
@@ -9668,6 +10445,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Ingenieur",
   },
   {
@@ -9681,6 +10459,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Ingenieur",
   },
   {
@@ -9694,6 +10473,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 781,
@@ -9706,6 +10486,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Jahr",
   },
   {
@@ -9719,6 +10500,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Sekretär",
   },
   {
@@ -9732,6 +10514,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Sekretär",
   },
   {
@@ -9745,6 +10528,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Land",
   },
   {
@@ -9758,6 +10542,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 786,
@@ -9770,6 +10555,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Meter",
   },
   {
@@ -9783,6 +10569,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Geburt",
   },
   {
@@ -9796,6 +10583,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Meter",
   },
   {
@@ -9809,6 +10597,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Geburt",
   },
   {
@@ -9822,6 +10611,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 791,
@@ -9834,6 +10624,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 792,
@@ -9846,6 +10637,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Glück",
   },
   {
@@ -9859,6 +10651,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Glück",
   },
   {
@@ -9872,6 +10665,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Geburtstag",
   },
   {
@@ -9885,6 +10679,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Karte",
   },
   {
@@ -9899,6 +10694,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Geburtstag",
   },
   {
@@ -9912,6 +10708,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Kuchen",
   },
   {
@@ -9925,6 +10722,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 799,
@@ -9937,6 +10735,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 800,
@@ -9949,6 +10748,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 801,
@@ -9961,6 +10761,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Kilo",
   },
   {
@@ -9974,6 +10775,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Jahr",
   },
   {
@@ -9987,6 +10789,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 804,
@@ -9999,6 +10802,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Sommer",
   },
   {
@@ -10012,6 +10816,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 806,
@@ -10024,6 +10829,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 807,
@@ -10036,6 +10842,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 808,
@@ -10048,6 +10855,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 809,
@@ -10060,6 +10868,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 810,
@@ -10072,6 +10881,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 811,
@@ -10084,6 +10894,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 812,
@@ -10096,6 +10907,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 813,
@@ -10108,6 +10920,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 814,
@@ -10120,6 +10933,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 815,
@@ -10132,6 +10946,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 816,
@@ -10144,6 +10959,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "Oktober",
   },
   {
@@ -10157,6 +10973,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 818,
@@ -10169,6 +10986,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 819,
@@ -10181,6 +10999,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 820,
@@ -10193,6 +11012,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "Italien",
   },
   {
@@ -10206,6 +11026,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 822,
@@ -10218,6 +11039,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "England",
   },
   {
@@ -10231,6 +11053,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "schwimmen",
   },
   {
@@ -10244,6 +11067,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 825,
@@ -10256,6 +11080,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "England",
   },
   {
@@ -10269,6 +11094,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 827,
@@ -10281,6 +11107,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 828,
@@ -10293,6 +11120,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "danken",
   },
   {
@@ -10306,6 +11134,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 830,
@@ -10318,6 +11147,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "Europa",
   },
   {
@@ -10331,6 +11161,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "Italien",
   },
   {
@@ -10344,6 +11175,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 833,
@@ -10356,6 +11188,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "geben",
   },
   {
@@ -10369,6 +11202,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 835,
@@ -10381,6 +11215,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "England",
   },
   {
@@ -10394,6 +11229,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 837,
@@ -10406,6 +11242,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Schule",
   },
   {
@@ -10419,6 +11256,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 839,
@@ -10431,6 +11269,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Schule",
   },
   {
@@ -10444,6 +11283,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "süß",
   },
   {
@@ -10457,6 +11297,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "brauchen",
   },
   {
@@ -10470,6 +11311,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 843,
@@ -10482,6 +11324,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 844,
@@ -10495,6 +11338,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 845,
@@ -10507,6 +11351,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 846,
@@ -10519,6 +11364,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 847,
@@ -10531,6 +11377,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 848,
@@ -10543,6 +11390,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 849,
@@ -10555,6 +11403,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 850,
@@ -10567,6 +11416,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 851,
@@ -10579,6 +11429,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 852,
@@ -10591,6 +11442,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 853,
@@ -10603,6 +11455,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 854,
@@ -10615,6 +11468,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 855,
@@ -10627,6 +11481,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 856,
@@ -10639,6 +11494,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "fahren",
   },
   {
@@ -10652,6 +11508,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 858,
@@ -10664,6 +11521,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 859,
@@ -10676,6 +11534,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 860,
@@ -10688,6 +11547,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 861,
@@ -10700,6 +11560,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 862,
@@ -10712,6 +11573,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 863,
@@ -10724,6 +11586,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 864,
@@ -10736,6 +11599,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 865,
@@ -10748,6 +11612,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 866,
@@ -10760,6 +11625,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "fliegen",
   },
   {
@@ -10773,6 +11639,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "sehen",
   },
   {
@@ -10786,6 +11653,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 869,
@@ -10798,6 +11666,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "fahren",
   },
   {
@@ -10811,6 +11680,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 871,
@@ -10823,6 +11693,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 872,
@@ -10835,6 +11706,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 873,
@@ -10847,6 +11719,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 874,
@@ -10859,6 +11732,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "kommen",
   },
   {
@@ -10872,6 +11746,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 876,
@@ -10884,6 +11759,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 877,
@@ -10896,6 +11772,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "fahren",
   },
   {
@@ -10909,6 +11786,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 879,
@@ -10921,6 +11799,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 880,
@@ -10933,6 +11812,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 881,
@@ -10945,6 +11825,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "fahren",
   },
   {
@@ -10958,6 +11839,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 883,
@@ -10970,6 +11852,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 884,
@@ -10982,6 +11865,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 885,
@@ -10994,6 +11878,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 886,
@@ -11006,6 +11891,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 887,
@@ -11018,6 +11904,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 888,
@@ -11030,6 +11917,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 889,
@@ -11042,6 +11930,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "machen",
   },
   {
@@ -11055,6 +11944,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 891,
@@ -11067,6 +11957,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 892,
@@ -11079,6 +11970,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "halten",
   },
   {
@@ -11092,6 +11984,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 894,
@@ -11104,6 +11997,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "schreiben",
   },
   {
@@ -11117,6 +12011,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 896,
@@ -11129,6 +12024,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 897,
@@ -11141,6 +12037,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Stadt",
   },
   {
@@ -11154,6 +12051,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 899,
@@ -11166,6 +12064,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 900,
@@ -11178,6 +12077,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 901,
@@ -11190,6 +12090,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 902,
@@ -11202,6 +12103,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 903,
@@ -11214,6 +12116,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 904,
@@ -11226,6 +12129,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 905,
@@ -11239,6 +12143,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Arzt",
   },
   {
@@ -11252,6 +12157,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Arzt",
   },
   {
@@ -11265,6 +12171,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 908,
@@ -11277,6 +12184,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 909,
@@ -11289,6 +12197,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Teil",
   },
   {
@@ -11302,6 +12211,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 911,
@@ -11314,6 +12224,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 912,
@@ -11326,6 +12237,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 913,
@@ -11338,6 +12250,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 914,
@@ -11350,6 +12263,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 915,
@@ -11362,6 +12276,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 916,
@@ -11374,6 +12289,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Bauch",
   },
   {
@@ -11387,6 +12303,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 918,
@@ -11399,6 +12316,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 919,
@@ -11411,6 +12329,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "besuchen",
   },
   {
@@ -11424,6 +12343,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 921,
@@ -11436,6 +12356,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 922,
@@ -11448,6 +12369,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "kommen",
   },
   {
@@ -11461,6 +12383,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "entschuldigen",
   },
   {
@@ -11474,6 +12397,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 925,
@@ -11486,6 +12410,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 926,
@@ -11498,6 +12423,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 927,
@@ -11510,6 +12436,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Saft",
   },
   {
@@ -11523,6 +12450,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 929,
@@ -11535,6 +12463,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "lieben",
   },
   {
@@ -11548,6 +12477,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 931,
@@ -11560,6 +12490,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 932,
@@ -11572,6 +12503,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Kurs",
   },
   {
@@ -11585,6 +12517,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Kurs",
   },
   {
@@ -11598,6 +12531,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Lust",
   },
   {
@@ -11611,6 +12545,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 936,
@@ -11623,6 +12558,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Trainer",
   },
   {
@@ -11636,6 +12572,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Trainer",
   },
   {
@@ -11649,6 +12586,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Ball",
   },
   {
@@ -11662,6 +12600,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 940,
@@ -11674,6 +12613,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 941,
@@ -11686,6 +12626,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "hoffen",
   },
   {
@@ -11699,6 +12640,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "anrufen",
   },
   {
@@ -11712,6 +12654,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 944,
@@ -11724,6 +12667,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 945,
@@ -11736,6 +12680,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 946,
@@ -11748,6 +12693,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 947,
@@ -11760,6 +12706,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "programmieren",
   },
   {
@@ -11773,6 +12720,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 949,
@@ -11785,6 +12733,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 950,
@@ -11797,6 +12746,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 951,
@@ -11809,6 +12759,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 952,
@@ -11822,6 +12773,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Arbeit",
   },
   {
@@ -11835,6 +12787,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 954,
@@ -11847,6 +12800,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Nacht",
   },
   {
@@ -11860,6 +12814,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 956,
@@ -11872,6 +12827,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 957,
@@ -11884,6 +12840,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 958,
@@ -11896,6 +12853,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 959,
@@ -11908,6 +12866,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 960,
@@ -11921,6 +12880,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 961,
@@ -11933,6 +12893,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Informatik",
   },
   {
@@ -11946,6 +12907,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 963,
@@ -11958,6 +12920,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Arbeit",
   },
   {
@@ -11971,6 +12934,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "bezahlen",
   },
   {
@@ -11984,6 +12948,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Konferenz",
   },
   {
@@ -11997,6 +12962,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 967,
@@ -12009,6 +12975,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 968,
@@ -12021,6 +12988,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 969,
@@ -12033,6 +13001,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Arbeit",
   },
   {
@@ -12047,6 +13016,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 971,
@@ -12059,6 +13029,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Platz",
   },
   {
@@ -12073,6 +13044,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Haus",
   },
   {
@@ -12086,6 +13058,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 974,
@@ -12098,6 +13071,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 975,
@@ -12111,6 +13085,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Schule",
   },
   {
@@ -12125,6 +13100,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Kind",
   },
   {
@@ -12138,6 +13114,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Schule",
   },
   {
@@ -12151,6 +13128,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "programmieren",
   },
   {
@@ -12164,6 +13142,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
     family: "lernen",
   },
   {
@@ -12177,6 +13156,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 981,
@@ -12189,6 +13169,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 982,
@@ -12201,6 +13182,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 983,
@@ -12213,6 +13195,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "fahren",
   },
   {
@@ -12226,6 +13209,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 985,
@@ -12238,6 +13222,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 986,
@@ -12250,6 +13235,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 987,
@@ -12262,6 +13248,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 988,
@@ -12274,6 +13261,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 989,
@@ -12286,6 +13274,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 990,
@@ -12298,6 +13287,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 991,
@@ -12310,6 +13300,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 992,
@@ -12322,6 +13313,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "gehen",
   },
   {
@@ -12335,6 +13327,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "geben",
   },
   {
@@ -12348,6 +13341,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 995,
@@ -12361,6 +13355,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Zahn",
   },
   {
@@ -12374,6 +13369,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 997,
@@ -12386,6 +13382,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Musik",
   },
   {
@@ -12399,6 +13396,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 999,
@@ -12411,6 +13409,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1000,
@@ -12423,6 +13422,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1001,
@@ -12435,6 +13435,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1002,
@@ -12447,6 +13448,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1003,
@@ -12460,6 +13462,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1004,
@@ -12472,6 +13475,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1005,
@@ -12484,6 +13488,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 1006,
@@ -12496,6 +13501,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1007,
@@ -12508,6 +13514,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1008,
@@ -12520,6 +13527,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Buch",
   },
   {
@@ -12533,6 +13541,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "lernen",
   },
   {
@@ -12547,6 +13556,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1011,
@@ -12559,6 +13569,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1012,
@@ -12571,6 +13582,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1013,
@@ -12583,6 +13595,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
     family: "lernen",
   },
   {
@@ -12596,6 +13609,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "lernen",
   },
   {
@@ -12609,6 +13623,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1016,
@@ -12621,6 +13636,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "geben",
   },
   {
@@ -12634,6 +13650,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Computer",
   },
   {
@@ -12647,6 +13664,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Erzieher",
   },
   {
@@ -12660,6 +13678,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "programmieren",
   },
   {
@@ -12673,6 +13692,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1021,
@@ -12685,6 +13705,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "Japan",
   },
   {
@@ -12698,6 +13719,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "Japan",
   },
   {
@@ -12712,6 +13734,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1024,
@@ -12724,6 +13747,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1025,
@@ -12736,6 +13760,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1026,
@@ -12748,6 +13773,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1027,
@@ -12760,6 +13786,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "das Herz",
   },
   {
@@ -12773,6 +13800,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1029,
@@ -12785,6 +13813,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "Weihnachten",
   },
   {
@@ -12798,6 +13827,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1031,
@@ -12810,6 +13840,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1032,
@@ -12822,6 +13853,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1033,
@@ -12834,6 +13866,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Wurst",
   },
   {
@@ -12847,6 +13880,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Kartoffel",
   },
   {
@@ -12860,6 +13894,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1036,
@@ -12872,6 +13907,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1037,
@@ -12884,6 +13920,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1038,
@@ -12896,6 +13933,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Bauch",
   },
   {
@@ -12909,6 +13947,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1040,
@@ -12921,6 +13960,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1041,
@@ -12934,6 +13974,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "Weihnachten",
   },
   {
@@ -12947,6 +13988,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1043,
@@ -12959,6 +14001,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1044,
@@ -12971,6 +14014,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Ring",
   },
   {
@@ -12984,6 +14028,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1046,
@@ -12996,6 +14041,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1047,
@@ -13008,6 +14054,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "Weihnachten",
   },
   {
@@ -13021,6 +14068,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1049,
@@ -13033,6 +14081,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Karte",
   },
   {
@@ -13046,6 +14095,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1051,
@@ -13058,6 +14108,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1052,
@@ -13071,6 +14122,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Karneval",
   },
   {
@@ -13084,6 +14136,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1054,
@@ -13096,6 +14149,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1055,
@@ -13108,6 +14162,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "Oktober",
   },
   {
@@ -13122,6 +14177,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1057,
@@ -13135,6 +14191,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1058,
@@ -13147,6 +14204,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1059,
@@ -13159,6 +14217,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "Weihnachten",
   },
   {
@@ -13172,6 +14231,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "Weihnachten",
   },
   {
@@ -13185,6 +14245,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1062,
@@ -13197,6 +14258,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 1063,
@@ -13209,6 +14271,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "fragen",
   },
   {
@@ -13222,6 +14285,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1065,
@@ -13234,6 +14298,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Stunde",
   },
   {
@@ -13247,6 +14312,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "kaufen",
   },
   {
@@ -13260,6 +14326,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "die Zeit",
   },
   {
@@ -13273,6 +14340,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 1069,
@@ -13285,6 +14353,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1070,
@@ -13297,6 +14366,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1071,
@@ -13309,6 +14379,7 @@ export const A1_Vocabulary = [
     priority: "Low",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1072,
@@ -13322,6 +14393,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Platz",
   },
   {
@@ -13335,6 +14407,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1074,
@@ -13347,6 +14420,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1075,
@@ -13359,6 +14433,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1076,
@@ -13371,6 +14446,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "der Abend",
   },
   {
@@ -13384,6 +14460,7 @@ export const A1_Vocabulary = [
     priority: "Medium",
     favorite: false,
     level: "A1",
+    type: "phrase",
   },
   {
     id: 1078,
@@ -13396,6 +14473,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
     family: "bezahlen",
   },
   {
@@ -13409,6 +14487,7 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
   },
   {
     id: 1080,
@@ -13421,5 +14500,2035 @@ export const A1_Vocabulary = [
     priority: "High",
     favorite: false,
     level: "A1",
+    type: "word",
+  },
+  {
+    id: 1081,
+    word: "Oh nein!",
+    translation: "Oh no!",
+    definition: "Ausruf bei schlechten Nachrichten.",
+    example: "Oh nein! Ich habe meinen Schlüssel vergessen.",
+    exampleTranslation: "Oh no! I forgot my key.",
+    thema: "Gefühle",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1082,
+    word: "Wie schön!",
+    translation: "How lovely!",
+    definition: "Ausruf, wenn man etwas schön findet.",
+    example: "Du hast dein Zimmer neu gestrichen. Wie schön!",
+    exampleTranslation: "You painted your room. How lovely!",
+    thema: "Gefühle",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1083,
+    word: "Wie geht's?",
+    translation: "How's it going?",
+    definition: "Freundliche Frage nach dem Befinden.",
+    example: "Hallo Tom, wie geht's?",
+    exampleTranslation: "Hi Tom, how are you?",
+    thema: "Begrüßung",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1084,
+    word: "Alles klar",
+    translation: "All good / Got it / Understood",
+    definition:
+      "Man bestätigt, dass alles in Ordnung ist oder verstanden wurde.",
+    example: "Alles klar, bis morgen!",
+    exampleTranslation: "All good, see you tomorrow!",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1085,
+    word: "Wie war dein Tag?",
+    translation: "How was your day?",
+    definition: "Frage nach dem Tag einer Person.",
+    example: "Wie war dein Tag? Hattest du viel Arbeit?",
+    exampleTranslation: "How was your day? Did you have a lot of work?",
+    thema: "Kommunikation",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1086,
+    word: "Schön, dich zu sehen",
+    translation: "Nice to see you",
+    definition: "Höfliche Begrüßung.",
+    example: "Schön, dich zu sehen!",
+    exampleTranslation: "Nice to see you!",
+    thema: "Begrüßung",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1087,
+    word: "Viel Spaß!",
+    translation: "Have fun! / Enjoy!",
+    definition: "Man wünscht jemandem Freude.",
+    example: "Ihr geht ins Kino? Viel Spaß!",
+    exampleTranslation: "You're going to the cinema? Have fun!",
+    thema: "Begrüßung",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1088,
+    word: "Hast du Geschwister?",
+    translation: "Do you have brothers or sisters?",
+    definition: "Frage nach der Familie.",
+    example: "Hast du Geschwister?",
+    exampleTranslation: "Do you have brothers or sisters?",
+    thema: "Kommunikation",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1089,
+    word: "Freut mich!",
+    translation: "Nice to meet you!",
+    definition: "Höfliche Reaktion bei der ersten Begegnung.",
+    example: "Ich bin Lena. – Freut mich!",
+    exampleTranslation: "I'm Lena. – Nice to meet you!",
+    thema: "Begrüßung",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1090,
+    word: "Hast du Haustiere?",
+    translation: "Do you have any pets?",
+    definition: "Frage nach Tieren.",
+    example: "Hast du Haustiere?",
+    exampleTranslation: "Do you have any pets?",
+    thema: "Kommunikation",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1091,
+    word: "Bis bald!",
+    translation: "See you soon!",
+    definition: "Verabschiedung.",
+    example: "Bis bald!",
+    exampleTranslation: "See you soon!",
+    thema: "Begrüßung",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1092,
+    word: "Klingt gut",
+    translation: "Sounds good",
+    definition: "Man stimmt zu.",
+    example: "Wir treffen uns um acht. – Klingt gut!",
+    exampleTranslation: "We'll meet at eight. – Sounds good!",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1093,
+    word: "Zum Beispiel",
+    translation: "For example",
+    definition: "Leitet ein Beispiel ein.",
+    example: "Ich mag Obst, zum Beispiel Äpfel.",
+    exampleTranslation: "I like fruit, for example apples.",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1094,
+    word: "Soll ich dir helfen?",
+    translation: "Do you want me to help?",
+    definition: "Angebot von Hilfe.",
+    example: "Soll ich dir helfen?",
+    exampleTranslation: "Do you want me to help?",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1095,
+    word: "Hallo, hier spricht...",
+    translation: "Hello, this is... speaking",
+    definition: "Meldung am Telefon.",
+    example: "Hallo, hier spricht Maria Schmidt.",
+    exampleTranslation: "Hello, this is Maria Schmidt speaking.",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1096,
+    word: "Um wie viel Uhr?",
+    translation: "At what time?",
+    definition: "Frage nach der Uhrzeit.",
+    example: "Um wie viel Uhr treffen wir uns?",
+    exampleTranslation: "At what time do we meet?",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1097,
+    word: "Wo treffen wir uns?",
+    translation: "Where shall we meet?",
+    definition: "Frage nach dem Treffpunkt.",
+    example: "Wo treffen wir uns?",
+    exampleTranslation: "Where shall we meet?",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1098,
+    word: "Halb sieben",
+    translation: "Half past six",
+    definition: "Uhrzeit.",
+    example: "Es ist halb sieben.",
+    exampleTranslation: "It's half past six.",
+    thema: "Kommunikation",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1099,
+    word: "Viertel vor acht",
+    translation: "Quarter to eight",
+    definition: "Uhrzeit.",
+    example: "Es ist Viertel vor acht.",
+    exampleTranslation: "It's quarter to eight.",
+    thema: "Kommunikation",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1100,
+    word: "Wann fängt es an?",
+    translation: "What time does it start?",
+    definition: "Frage nach dem Beginn.",
+    example: "Wann fängt es an?",
+    exampleTranslation: "What time does it start?",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1101,
+    word: "Wie fühlst du dich?",
+    translation: "How are you feeling?",
+    definition: "Frage nach dem Befinden.",
+    example: "Wie fühlst du dich?",
+    exampleTranslation: "How are you feeling?",
+    thema: "Gefühle",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1102,
+    word: "Ich bin müde",
+    translation: "I am tired",
+    definition: "Zustand.",
+    example: "Ich bin müde.",
+    exampleTranslation: "I'm tired.",
+    thema: "Gefühle",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1103,
+    word: "Ich bin glücklich",
+    translation: "I am happy",
+    definition: "Gefühl.",
+    example: "Ich bin glücklich.",
+    exampleTranslation: "I'm happy.",
+    thema: "Gefühle",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1104,
+    word: "Ich bin traurig",
+    translation: "I am sad",
+    definition: "Gefühl.",
+    example: "Ich bin traurig.",
+    exampleTranslation: "I'm sad.",
+    thema: "Gefühle",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1105,
+    word: "Das tut weh",
+    translation: "That hurts",
+    definition: "Schmerz.",
+    example: "Aua, das tut weh!",
+    exampleTranslation: "Ouch, that hurts!",
+    thema: "Gefühle",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1106,
+    word: "Es tut mir leid",
+    translation: "I am sorry",
+    definition: "Entschuldigung.",
+    example: "Es tut mir leid!",
+    exampleTranslation: "I'm sorry!",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1107,
+    word: "Danke dir!",
+    translation: "Thanks!",
+    definition: "Dank.",
+    example: "Danke dir!",
+    exampleTranslation: "Thanks!",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1108,
+    word: "Danke für deine Hilfe",
+    translation: "Thanks for your help",
+    definition: "Dank.",
+    example: "Danke für deine Hilfe!",
+    exampleTranslation: "Thanks for your help!",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1109,
+    word: "Gern geschehen",
+    translation: "You are welcome",
+    definition: "Antwort auf Dank.",
+    example: "Danke! – Gern geschehen.",
+    exampleTranslation: "Thanks! – You're welcome.",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1110,
+    word: "Sie ist sehr nett",
+    translation: "She is very nice",
+    definition: "Beschreibung.",
+    example: "Sie ist sehr nett.",
+    exampleTranslation: "She's very nice.",
+    thema: "Charakter",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1111,
+    word: "Sie ist meine beste Freundin",
+    translation: "She is my best friend",
+    definition: "Beziehung.",
+    example: "Sie ist meine beste Freundin.",
+    exampleTranslation: "She's my best friend.",
+    thema: "Gesellschaft",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1112,
+    word: "Er ist mein Nachbar",
+    translation: "He is my neighbour",
+    definition: "Beziehung.",
+    example: "Er ist mein Nachbar.",
+    exampleTranslation: "He's my neighbour.",
+    thema: "Gesellschaft",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1113,
+    word: "Ich mag ihn",
+    translation: "I like him",
+    definition: "Sympathie.",
+    example: "Ich mag ihn.",
+    exampleTranslation: "I like him.",
+    thema: "Gesellschaft",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1114,
+    word: "Es schneit",
+    translation: "It is snowing",
+    definition: "Wetter.",
+    example: "Es schneit.",
+    exampleTranslation: "It's snowing.",
+    thema: "Natur",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1115,
+    word: "Es ist windig",
+    translation: "It is windy",
+    definition: "Wetter.",
+    example: "Es ist windig.",
+    exampleTranslation: "It's windy.",
+    thema: "Natur",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1116,
+    word: "Es ist wolkig",
+    translation: "It is cloudy",
+    definition: "Wetter.",
+    example: "Es ist wolkig.",
+    exampleTranslation: "It's cloudy.",
+    thema: "Natur",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1117,
+    word: "Der Himmel ist grau",
+    translation: "The sky is grey",
+    definition: "Wetter.",
+    example: "Der Himmel ist grau.",
+    exampleTranslation: "The sky is grey.",
+    thema: "Natur",
+    priority: "Low",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1118,
+    word: "Die Sonne scheint",
+    translation: "The sun is shining",
+    definition: "Wetter.",
+    example: "Die Sonne scheint.",
+    exampleTranslation: "The sun is shining.",
+    thema: "Natur",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1119,
+    word: "Mir ist kalt",
+    translation: "I am cold",
+    definition: "Körpergefühl.",
+    example: "Mir ist kalt.",
+    exampleTranslation: "I'm cold.",
+    thema: "Gesundheit",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1120,
+    word: "Mir ist warm",
+    translation: "I am warm",
+    definition: "Körpergefühl.",
+    example: "Mir ist warm.",
+    exampleTranslation: "I'm warm.",
+    thema: "Gesundheit",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1121,
+    word: "Mir ist heiß",
+    translation: "I am hot",
+    definition: "Körpergefühl.",
+    example: "Mir ist heiß.",
+    exampleTranslation: "I'm hot.",
+    thema: "Gesundheit",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1122,
+    word: "Der Frühling ist da",
+    translation: "Spring is here",
+    definition: "Jahreszeit.",
+    example: "Der Frühling ist da.",
+    exampleTranslation: "Spring is here.",
+    thema: "Natur",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1123,
+    word: "Der Herbst ist da",
+    translation: "Autumn is here",
+    definition: "Jahreszeit.",
+    example: "Der Herbst ist da.",
+    exampleTranslation: "Autumn is here.",
+    thema: "Natur",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1124,
+    word: "Wollen wir uns treffen?",
+    translation: "Shall we meet up?",
+    definition: "Vorschlag.",
+    example: "Wollen wir uns treffen?",
+    exampleTranslation: "Shall we meet up?",
+    thema: "Freizeit",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1125,
+    word: "Kommst du mit?",
+    translation: "Do you want to come along?",
+    definition: "Einladung.",
+    example: "Kommst du mit?",
+    exampleTranslation: "Are you coming along?",
+    thema: "Freizeit",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1126,
+    word: "Guten Tag.",
+    translation: "Hello.",
+    definition: "Begrüßung.",
+    example: "Guten Tag! Wie kann ich helfen?",
+    exampleTranslation: "Hello! How can I help?",
+    thema: "Begrüßung",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1127,
+    word: "Sprechen Sie Englisch?",
+    translation: "Do you speak English?",
+    definition: "Frage.",
+    example: "Sprechen Sie Englisch?",
+    exampleTranslation: "Do you speak English?",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1128,
+    word: "Ich spreche kein Deutsch.",
+    translation: "I don't speak German.",
+    definition: "Sprachproblem.",
+    example: "Ich spreche kein Deutsch.",
+    exampleTranslation: "I don't speak German.",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1129,
+    word: "Vielen Dank.",
+    translation: "Thank you very much.",
+    definition: "Dank.",
+    example: "Vielen Dank.",
+    exampleTranslation: "Thank you very much.",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1130,
+    word: "In Ordnung.",
+    translation: "OK.",
+    definition: "Zustimmung.",
+    example: "In Ordnung. Wir treffen uns um acht.",
+    exampleTranslation: "OK. We'll meet at eight.",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1131,
+    word: "Sehr gut.",
+    translation: "Very good.",
+    definition: "Lob.",
+    example: "Sehr gut, danke.",
+    exampleTranslation: "Very good, thank you.",
+    thema: "Kommunikation",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1132,
+    word: "Sie sind sehr freundlich.",
+    translation: "You are very kind.",
+    definition: "Kompliment.",
+    example: "Sie sind sehr freundlich.",
+    exampleTranslation: "You are very kind.",
+    thema: "Kommunikation",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1133,
+    word: "Auf Wiedersehen.",
+    translation: "Goodbye.",
+    definition: "Abschied.",
+    example: "Auf Wiedersehen!",
+    exampleTranslation: "Goodbye!",
+    thema: "Begrüßung",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1134,
+    word: "Guten Morgen.",
+    translation: "Good morning.",
+    definition: "Begrüßung.",
+    example: "Guten Morgen!",
+    exampleTranslation: "Good morning!",
+    thema: "Begrüßung",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1135,
+    word: "Guten Abend.",
+    translation: "Good evening.",
+    definition: "Begrüßung.",
+    example: "Guten Abend!",
+    exampleTranslation: "Good evening!",
+    thema: "Begrüßung",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1136,
+    word: "Gute Nacht.",
+    translation: "Good night.",
+    definition: "Wunsch vor dem Schlafen.",
+    example: "Gute Nacht!",
+    exampleTranslation: "Good night!",
+    thema: "Begrüßung",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1137,
+    word: "Wie heißen Sie?",
+    translation: "What's your name?",
+    definition: "Frage nach dem Namen.",
+    example: "Wie heißen Sie?",
+    exampleTranslation: "What's your name?",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1138,
+    word: "Wie geht es Ihnen?",
+    translation: "How are you?",
+    definition: "Höfliche Frage nach dem Befinden.",
+    example: "Wie geht es Ihnen?",
+    exampleTranslation: "How are you?",
+    thema: "Begrüßung",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1139,
+    word: "Sehr gut, danke.",
+    translation: "Very well, thank you.",
+    definition: "Antwort.",
+    example: "Sehr gut, danke.",
+    exampleTranslation: "Very well, thank you.",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1140,
+    word: "Gut, danke.",
+    translation: "Fine, thanks.",
+    definition: "Antwort.",
+    example: "Gut, danke.",
+    exampleTranslation: "Fine, thanks.",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "word",
+  },
+  {
+    id: 1141,
+    word: "Und Ihnen?",
+    translation: "And you?",
+    definition: "Rückfrage.",
+    example: "Und Ihnen?",
+    exampleTranslation: "And you?",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1142,
+    word: "Woher kommen Sie?",
+    translation: "Where are you from?",
+    definition: "Frage nach der Herkunft.",
+    example: "Woher kommen Sie?",
+    exampleTranslation: "Where are you from?",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1143,
+    word: "Bis später!",
+    translation: "See you later!",
+    definition: "Abschied.",
+    example: "Bis später!",
+    exampleTranslation: "See you later!",
+    thema: "Begrüßung",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1144,
+    word: "Bis morgen!",
+    translation: "See you tomorrow!",
+    definition: "Abschied.",
+    example: "Bis morgen!",
+    exampleTranslation: "See you tomorrow!",
+    thema: "Begrüßung",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1145,
+    word: "Viel Glück!",
+    translation: "Good luck!",
+    definition: "Wunsch.",
+    example: "Viel Glück!",
+    exampleTranslation: "Good luck!",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1146,
+    word: "Bitte sprechen Sie Englisch.",
+    translation: "Please speak English.",
+    definition: "Bitte.",
+    example: "Bitte sprechen Sie Englisch.",
+    exampleTranslation: "Please speak English.",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1147,
+    word: "Bitte sprechen Sie langsam.",
+    translation: "Speak slowly, please.",
+    definition: "Bitte.",
+    example: "Bitte sprechen Sie langsam.",
+    exampleTranslation: "Speak slowly, please.",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1148,
+    word: "Ich verstehe.",
+    translation: "I understand.",
+    definition: "Verstehen.",
+    example: "Ich verstehe.",
+    exampleTranslation: "I understand.",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1149,
+    word: "Ich verstehe nicht.",
+    translation: "I don't understand.",
+    definition: "Verstehen.",
+    example: "Ich verstehe nicht.",
+    exampleTranslation: "I don't understand.",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1150,
+    word: "Verstehen Sie?",
+    translation: "Do you understand?",
+    definition: "Frage.",
+    example: "Verstehen Sie?",
+    exampleTranslation: "Do you understand?",
+    thema: "Kommunikation",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1151,
+    word: "Ich spreche nur wenig Deutsch.",
+    translation: "I speak a little German.",
+    definition: "Sprachniveau.",
+    example: "Ich spreche nur wenig Deutsch.",
+    exampleTranslation: "I speak only a little German.",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1152,
+    word: "Was bedeutet das?",
+    translation: "What does that mean?",
+    definition: "Frage.",
+    example: "Was bedeutet das?",
+    exampleTranslation: "What does that mean?",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1153,
+    word: "Es gibt...",
+    translation: "There is... / There are...",
+    definition: "Existenz.",
+    example: "Es gibt hier ein Café.",
+    exampleTranslation: "There is a café here.",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1154,
+    word: "Können Sie mir helfen?",
+    translation: "Can you help me?",
+    definition: "Bitte.",
+    example: "Können Sie mir helfen?",
+    exampleTranslation: "Can you help me?",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1155,
+    word: "Ich hätte gern...",
+    translation: "I'd like...",
+    definition: "Höfliche Bitte.",
+    example: "Ich hätte gern einen Kaffee.",
+    exampleTranslation: "I'd like a coffee.",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1156,
+    word: "Wir hätten gern...",
+    translation: "We'd like...",
+    definition: "Höfliche Bitte.",
+    example: "Wir hätten gern einen Tisch.",
+    exampleTranslation: "We'd like a table.",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1157,
+    word: "Ist es kostenlos?",
+    translation: "Is it free?",
+    definition: "Frage.",
+    example: "Ist es kostenlos?",
+    exampleTranslation: "Is it free?",
+    thema: "Kommunikation",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1158,
+    word: "Wo sind die Toiletten?",
+    translation: "Where are the toilets?",
+    definition: "Frage nach dem Weg.",
+    example: "Wo sind die Toiletten?",
+    exampleTranslation: "Where are the toilets?",
+    thema: "Reisen & Verkehr",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1159,
+    word: "Wo ist...?",
+    translation: "Where is the...?",
+    definition: "Frage nach dem Weg.",
+    example: "Wo ist der Bahnhof?",
+    exampleTranslation: "Where is the station?",
+    thema: "Reisen & Verkehr",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1160,
+    word: "Zu viel.",
+    translation: "Too much.",
+    definition: "Menge.",
+    example: "Das ist zu viel.",
+    exampleTranslation: "That's too much.",
+    thema: "Kommunikation",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1161,
+    word: "Wie spät ist es?",
+    translation: "What time is it?",
+    definition: "Frage.",
+    example: "Wie spät ist es?",
+    exampleTranslation: "What time is it?",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1162,
+    word: "Ist es täglich geöffnet?",
+    translation: "Is this open daily?",
+    definition: "Frage.",
+    example: "Ist es täglich geöffnet?",
+    exampleTranslation: "Is this open daily?",
+    thema: "Kommunikation",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1163,
+    word: "Wie lange dauert es?",
+    translation: "How long does it take?",
+    definition: "Frage.",
+    example: "Wie lange dauert es?",
+    exampleTranslation: "How long does it take?",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1164,
+    word: "Wie weit ist es?",
+    translation: "How far?",
+    definition: "Frage.",
+    example: "Wie weit ist es?",
+    exampleTranslation: "How far is it?",
+    thema: "Reisen & Verkehr",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1165,
+    word: "Warum nicht?",
+    translation: "Why not?",
+    definition: "Frage.",
+    example: "Warum nicht?",
+    exampleTranslation: "Why not?",
+    thema: "Kommunikation",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1166,
+    word: "Kann ich...?",
+    translation: "Can I...?",
+    definition: "Frage.",
+    example: "Kann ich hier sitzen?",
+    exampleTranslation: "Can I sit here?",
+    thema: "Kommunikation",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1167,
+    word: "Können wir...?",
+    translation: "Can we...?",
+    definition: "Frage.",
+    example: "Können wir hier bezahlen?",
+    exampleTranslation: "Can we pay here?",
+    thema: "Kommunikation",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1168,
+    word: "Wie bitte?",
+    translation: "What? (didn't hear)",
+    definition: "Rückfrage.",
+    example: "Wie bitte?",
+    exampleTranslation: "Pardon?",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1169,
+    word: "Akzeptieren Sie Kreditkarten?",
+    translation: "Do you accept credit cards?",
+    definition: "Frage beim Bezahlen.",
+    example: "Akzeptieren Sie Kreditkarten?",
+    exampleTranslation: "Do you accept credit cards?",
+    thema: "Finanzen",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1170,
+    word: "Herzlichen Glückwunsch zum Geburtstag!",
+    translation: "Happy birthday!",
+    definition: "Glückwunsch.",
+    example: "Herzlichen Glückwunsch zum Geburtstag!",
+    exampleTranslation: "Happy birthday!",
+    thema: "Begrüßung",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1171,
+    word: "Wohin fahren Sie?",
+    translation: "Where are you going?",
+    definition: "Frage.",
+    example: "Wohin fahren Sie?",
+    exampleTranslation: "Where are you going?",
+    thema: "Reisen & Verkehr",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1172,
+    word: "Wann kommt er an?",
+    translation: "When will it arrive?",
+    definition: "Frage.",
+    example: "Wann kommt er an?",
+    exampleTranslation: "When does it arrive?",
+    thema: "Reisen & Verkehr",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1173,
+    word: "Zu dieser Adresse.",
+    translation: "To this address.",
+    definition: "Taxifahrt.",
+    example: "Zu dieser Adresse, bitte.",
+    exampleTranslation: "To this address, please.",
+    thema: "Reisen & Verkehr",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1174,
+    word: "Es tut mir sehr leid.",
+    translation: "I am very sorry.",
+    definition: "Entschuldigung.",
+    example: "Es tut mir sehr leid.",
+    exampleTranslation: "I am very sorry.",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1175,
+    word: "Wie viel kostet das?",
+    translation: "How much?",
+    definition: "Frage.",
+    example: "Wie viel kostet das?",
+    exampleTranslation: "How much is that?",
+    thema: "Finanzen",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1176,
+    word: "Ich nehme es.",
+    translation: "I'll take it.",
+    definition: "Entscheidung.",
+    example: "Ich nehme es.",
+    exampleTranslation: "I'll take it.",
+    thema: "Finanzen",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1177,
+    word: "Wie viel ist es?",
+    translation: "How much is it?",
+    definition: "Frage nach dem Preis.",
+    example: "Wie viel ist es?",
+    exampleTranslation: "How much is it?",
+    thema: "Finanzen",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1178,
+    word: "Ich möchte ein...",
+    translation: "I'd like a...",
+    definition: "Wunsch.",
+    example: "Ich möchte ein Eis.",
+    exampleTranslation: "I'd like an ice cream.",
+    thema: "Essen und Trinken",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1179,
+    word: "Kann ich jetzt bezahlen?",
+    translation: "Can I pay now?",
+    definition: "Frage.",
+    example: "Kann ich jetzt bezahlen?",
+    exampleTranslation: "Can I pay now?",
+    thema: "Finanzen",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1180,
+    word: "Die Rechnung, bitte.",
+    translation: "The bill, please.",
+    definition: "Bitte im Restaurant.",
+    example: "Die Rechnung, bitte.",
+    exampleTranslation: "The bill, please.",
+    thema: "Essen und Trinken",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "word",
+  },
+  {
+    id: 1181,
+    word: "Wir hätten gern einen Tisch für zwei.",
+    translation: "We'd like a table for two.",
+    definition: "Wunsch im Restaurant.",
+    example: "Wir hätten gern einen Tisch für zwei.",
+    exampleTranslation: "We'd like a table for two.",
+    thema: "Essen und Trinken",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1182,
+    word: "Ist dieser Tisch frei?",
+    translation: "Is this table free?",
+    definition: "Frage im Restaurant.",
+    example: "Ist dieser Tisch frei?",
+    exampleTranslation: "Is this table free?",
+    thema: "Essen und Trinken",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1183,
+    word: "Darf ich hier sitzen?",
+    translation: "May I sit here?",
+    definition: "Frage.",
+    example: "Darf ich hier sitzen?",
+    exampleTranslation: "May I sit here?",
+    thema: "Essen und Trinken",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1184,
+    word: "Dürfen wir hier sitzen?",
+    translation: "May we sit here?",
+    definition: "Frage.",
+    example: "Dürfen wir hier sitzen?",
+    exampleTranslation: "May we sit here?",
+    thema: "Essen und Trinken",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1185,
+    word: "Was ist das für ein Gericht?",
+    translation: "What is...?",
+    definition: "Frage.",
+    example: "Was ist das für ein Gericht?",
+    exampleTranslation: "What kind of dish is that?",
+    thema: "Essen und Trinken",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1186,
+    word: "Was ist das?",
+    translation: "What is that? (pointing)",
+    definition: "Frage.",
+    example: "Was ist das?",
+    exampleTranslation: "What is that?",
+    thema: "Essen und Trinken",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1187,
+    word: "Bitte, noch eins.",
+    translation: "One more, please.",
+    definition: "Bitte.",
+    example: "Bitte, noch eins.",
+    exampleTranslation: "One more, please.",
+    thema: "Essen und Trinken",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1188,
+    word: "Ich bin satt.",
+    translation: "I'm full.",
+    definition: "Aussage.",
+    example: "Ich bin satt.",
+    exampleTranslation: "I'm full.",
+    thema: "Essen und Trinken",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1189,
+    word: "Ich hätte gern ein...",
+    translation: "I'd like a...",
+    definition: "Wunsch.",
+    example: "Ich hätte gern ein Bier.",
+    exampleTranslation: "I'd like a beer.",
+    thema: "Essen und Trinken",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1190,
+    word: "Wir hätten gern ein...",
+    translation: "We'd like a...",
+    definition: "Wunsch.",
+    example: "Wir hätten gern ein Wasser.",
+    exampleTranslation: "We'd like a water.",
+    thema: "Essen und Trinken",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1191,
+    word: "Kein Alkohol.",
+    translation: "No alcohol.",
+    definition: "Wunsch.",
+    example: "Kein Alkohol, bitte.",
+    exampleTranslation: "No alcohol, please.",
+    thema: "Essen und Trinken",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1192,
+    word: "Auf Ihre Gesundheit!",
+    translation: "To your health!",
+    definition: "Trinkspruch.",
+    example: "Auf Ihre Gesundheit!",
+    exampleTranslation: "To your health!",
+    thema: "Freizeit",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1193,
+    word: "Es gefällt mir.",
+    translation: "I like it.",
+    definition: "Gefallen ausdrücken.",
+    example: "Das Bild gefällt mir.",
+    exampleTranslation: "I like the picture.",
+    thema: "Meinung äußern",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1194,
+    word: "Wo ist die Post?",
+    translation: "Where is the post office?",
+    definition: "Frage.",
+    example: "Wo ist die Post?",
+    exampleTranslation: "Where is the post office?",
+    thema: "Reisen & Verkehr",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1195,
+    word: "Sprechen Sie bitte langsam.",
+    translation: "Speak slowly, please.",
+    definition: "Bitte.",
+    example: "Sprechen Sie bitte langsam.",
+    exampleTranslation: "Please speak slowly.",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1196,
+    word: "Rufen Sie einen Arzt!",
+    translation: "Call a doctor.",
+    definition: "Notruf.",
+    example: "Rufen Sie einen Arzt!",
+    exampleTranslation: "Call a doctor!",
+    thema: "Sicherheit",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1197,
+    word: "Rufen Sie die Polizei!",
+    translation: "Call the police!",
+    definition: "Notruf.",
+    example: "Rufen Sie die Polizei!",
+    exampleTranslation: "Call the police!",
+    thema: "Sicherheit",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1198,
+    word: "Wie lang dauert es?",
+    translation: "How long will it take?",
+    definition: "Frage.",
+    example: "Wie lange dauert es?",
+    exampleTranslation: "How long will it take?",
+    thema: "Alltag",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1199,
+    word: "Ich bin krank.",
+    translation: "I am sick.",
+    definition: "Krankheit.",
+    example: "Ich bin krank.",
+    exampleTranslation: "I'm ill.",
+    thema: "Gesundheit",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1200,
+    word: "Hier tut es weh.",
+    translation: "It hurts here.",
+    definition: "Schmerz.",
+    example: "Hier tut es weh.",
+    exampleTranslation: "It hurts here.",
+    thema: "Gesundheit",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1201,
+    word: "Autsch! Das tut weh!",
+    translation: "Ouch! That hurts!",
+    definition: "Schmerz.",
+    example: "Autsch! Das tut weh!",
+    exampleTranslation: "Ouch! That hurts!",
+    thema: "Gesundheit",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1202,
+    word: "Ich bin aus...",
+    translation: "I'm from...",
+    definition: "Herkunft.",
+    example: "Ich bin aus Deutschland.",
+    exampleTranslation: "I'm from Germany.",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1203,
+    word: "Wohin gehen Sie?",
+    translation: "Where are you going?",
+    definition: "Frage.",
+    example: "Wohin gehen Sie?",
+    exampleTranslation: "Where are you going?",
+    thema: "Reisen & Verkehr",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1204,
+    word: "Wie heißt du?",
+    translation: "What's your name?",
+    definition: "Frage.",
+    example: "Wie heißt du?",
+    exampleTranslation: "What's your name?",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1205,
+    word: "Wie alt bist du?",
+    translation: "How old are you?",
+    definition: "Frage.",
+    example: "Wie alt bist du?",
+    exampleTranslation: "How old are you?",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1206,
+    word: "Wie alt bin ich?",
+    translation: "How old am I?",
+    definition: "Frage.",
+    example: "Wie alt bin ich?",
+    exampleTranslation: "How old am I?",
+    thema: "Kommunikation",
+    priority: "Low",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1207,
+    word: "Bitte schön.",
+    translation: "You're welcome.",
+    definition: "Antwort auf Dank.",
+    example: "Danke! – Bitte schön.",
+    exampleTranslation: "Thanks! – You're welcome.",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1208,
+    word: "Ich liebe dich.",
+    translation: "I love you.",
+    definition: "Zuneigung.",
+    example: "Ich liebe dich.",
+    exampleTranslation: "I love you.",
+    thema: "Gefühle",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1209,
+    word: "Haben Sie ein Zimmer frei?",
+    translation: "Do you have a room?",
+    definition: "Frage im Hotel.",
+    example: "Haben Sie ein Zimmer frei?",
+    exampleTranslation: "Do you have a room available?",
+    thema: "Reisen & Verkehr",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1210,
+    word: "Was kostet das?",
+    translation: "How much is it?",
+    definition: "Frage.",
+    example: "Was kostet das?",
+    exampleTranslation: "How much does that cost?",
+    thema: "Finanzen",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1211,
+    word: "Frohe Weihnachten!",
+    translation: "Merry Christmas!",
+    definition: "Festtagswunsch.",
+    example: "Frohe Weihnachten!",
+    exampleTranslation: "Merry Christmas!",
+    thema: "Begrüßung",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1212,
+    word: "Ein frohes neues Jahr!",
+    translation: "Happy New Year!",
+    definition: "Festtagswunsch.",
+    example: "Ein frohes neues Jahr!",
+    exampleTranslation: "Happy New Year!",
+    thema: "Begrüßung",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1213,
+    word: "Ist es weit?",
+    translation: "Is it far?",
+    definition: "Frage.",
+    example: "Ist es weit?",
+    exampleTranslation: "Is it far?",
+    thema: "Reisen & Verkehr",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1214,
+    word: "Sprechen Sie bitte langsamer.",
+    translation: "Please speak more slowly.",
+    definition: "Höfliche Bitte.",
+    example: "Sprechen Sie bitte langsamer.",
+    exampleTranslation: "Please speak more slowly.",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1215,
+    word: "Ich weiß nicht",
+    translation: "I don't know.",
+    definition: "Unwissen.",
+    example: "Ich weiß nicht, wo er ist.",
+    exampleTranslation: "I don't know where he is.",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1216,
+    word: "Wo ist der Bahnhof?",
+    translation: "Where is the station?",
+    definition: "Frage nach dem Weg.",
+    example: "Wo ist der Bahnhof?",
+    exampleTranslation: "Where is the station?",
+    thema: "Reisen & Verkehr",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1217,
+    word: "Wie komme ich zum Bahnhof?",
+    translation: "How do I get to the station?",
+    definition: "Frage nach dem Weg.",
+    example: "Wie komme ich zum Bahnhof?",
+    exampleTranslation: "How do I get to the station?",
+    thema: "Reisen & Verkehr",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1218,
+    word: "Wo ist die Toilette?",
+    translation: "Where is the toilet?",
+    definition: "Frage nach dem Weg.",
+    example: "Wo ist die Toilette?",
+    exampleTranslation: "Where is the toilet?",
+    thema: "Reisen & Verkehr",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1219,
+    word: "Ich habe eine Reservierung.",
+    translation: "I have a reservation.",
+    definition: "Aussage im Hotel.",
+    example: "Ich habe eine Reservierung.",
+    exampleTranslation: "I have a reservation.",
+    thema: "Reisen & Verkehr",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1220,
+    word: "Ein Ticket bitte.",
+    translation: "One ticket, please.",
+    definition: "Kauf einer Fahrkarte.",
+    example: "Ein Ticket bitte.",
+    exampleTranslation: "One ticket, please.",
+    thema: "Reisen & Verkehr",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1221,
+    word: "Kann ich mit Karte zahlen?",
+    translation: "Can I pay by card?",
+    definition: "Frage beim Bezahlen.",
+    example: "Kann ich mit Karte zahlen?",
+    exampleTranslation: "Can I pay by card?",
+    thema: "Finanzen",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1222,
+    word: "Wo kann ich essen?",
+    translation: "Where can I eat?",
+    definition: "Frage.",
+    example: "Wo kann ich essen?",
+    exampleTranslation: "Where can I eat?",
+    thema: "Essen und Trinken",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1223,
+    word: "Die Speisekarte, bitte.",
+    translation: "The menu, please.",
+    definition: "Bitte im Restaurant.",
+    example: "Die Speisekarte, bitte.",
+    exampleTranslation: "The menu, please.",
+    thema: "Essen und Trinken",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "word",
+  },
+  {
+    id: 1224,
+    word: "Ohne Zwiebeln, bitte.",
+    translation: "Without onions, please.",
+    definition: "Wunsch im Restaurant.",
+    example: "Ohne Zwiebeln, bitte.",
+    exampleTranslation: "Without onions, please.",
+    thema: "Essen und Trinken",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1225,
+    word: "Es war sehr lecker.",
+    translation: "It was very tasty.",
+    definition: "Kompliment.",
+    example: "Es war sehr lecker.",
+    exampleTranslation: "It was very tasty.",
+    thema: "Essen und Trinken",
+    priority: "Medium",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1226,
+    word: "Noch ein Wasser, bitte.",
+    translation: "Another water, please.",
+    definition: "Bestellung.",
+    example: "Noch ein Wasser, bitte.",
+    exampleTranslation: "Another water, please.",
+    thema: "Essen und Trinken",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1227,
+    word: "Und dir?",
+    translation: "And you?",
+    definition: "Rückfrage.",
+    example: "Wie geht es dir? – Gut, und dir?",
+    exampleTranslation: "How are you? – Fine, and you?",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1228,
+    word: "Schön, Sie kennenzulernen.",
+    translation: "Nice to meet you.",
+    definition: "Höfliche Begrüßung.",
+    example: "Schön, Sie kennenzulernen.",
+    exampleTranslation: "Nice to meet you.",
+    thema: "Begrüßung",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1229,
+    word: "Wie alt sind Sie?",
+    translation: "How old are you?",
+    definition: "Frage nach dem Alter.",
+    example: "Wie alt sind Sie?",
+    exampleTranslation: "How old are you?",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1230,
+    word: "Alles gut?",
+    translation: "Everything OK?",
+    definition: "Frage.",
+    example: "Alles gut?",
+    exampleTranslation: "Everything OK?",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1231,
+    word: "Moment bitte.",
+    translation: "One moment, please.",
+    definition: "Bitte um Geduld.",
+    example: "Moment bitte.",
+    exampleTranslation: "One moment, please.",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1232,
+    word: "Ich bin unterwegs.",
+    translation: "I'm on my way.",
+    definition: "Aussage.",
+    example: "Ich bin unterwegs.",
+    exampleTranslation: "I'm on my way.",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1233,
+    word: "Bin gleich da.",
+    translation: "I'll be there in a minute.",
+    definition: "Aussage.",
+    example: "Bin gleich da.",
+    exampleTranslation: "I'll be there in a minute.",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1234,
+    word: "Ich habe Hunger.",
+    translation: "I'm hungry.",
+    definition: "Körpergefühl.",
+    example: "Ich habe Hunger.",
+    exampleTranslation: "I'm hungry.",
+    thema: "Gesundheit",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1235,
+    word: "Ich habe Durst.",
+    translation: "I'm thirsty.",
+    definition: "Körpergefühl.",
+    example: "Ich habe Durst.",
+    exampleTranslation: "I'm thirsty.",
+    thema: "Gesundheit",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
+  },
+  {
+    id: 1236,
+    word: "Das macht nichts.",
+    translation: "That doesn't matter.",
+    definition: "Antwort.",
+    example: "Das macht nichts.",
+    exampleTranslation: "That doesn't matter.",
+    thema: "Kommunikation",
+    priority: "High",
+    favorite: false,
+    level: "A1",
+    type: "phrase",
   },
 ];
