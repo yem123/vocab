@@ -541,6 +541,7 @@ export default function App() {
               navigateTo={navigateTo}
               idToFile={ID_TO_FILE}
               cleanupSyncedFavorites={cleanupSyncedFavorites}
+              toggleFavorite={toggleFavorite}
             />
           )}
 

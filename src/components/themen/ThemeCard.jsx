@@ -36,12 +36,7 @@ export default function ThemeCard({ theme, openTheme }) {
         </span>
       </div>
 
-      <div className="mt-4 pt-3 border-t border-[#f7f5f0] flex items-center justify-between font-sans text-xs">
-        <span className="text-[#435249] font-medium flex items-center gap-1 group-hover:underline">
-          Studiere Wortschatz <ChevronRight className="w-3.5 h-3.5" />
-        </span>
-        <span className="text-[#8a928e]">{levelSummary || "Kein Niveau"}</span>
-      </div>
+      
     </div>
   );
 }

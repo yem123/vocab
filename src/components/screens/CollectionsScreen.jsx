@@ -10,6 +10,7 @@ export default function CollectionsScreen({
   favoriteVocabulary,
   setSelectedWordId,
   navigateTo,
+  toggleFavorite,
   idToFile,
   cleanupSyncedFavorites,
 }) {
@@ -140,6 +141,7 @@ export default function CollectionsScreen({
               item={item}
               setSelectedWordId={setSelectedWordId}
               navigateTo={navigateTo}
+              toggleFavorite={toggleFavorite}
             />
           ))
         )}
