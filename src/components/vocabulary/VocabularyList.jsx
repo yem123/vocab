@@ -7,6 +7,7 @@ export default function VocabularyList({
   filteredVocabulary,
   setSelectedWordId,
   navigateTo,
+  toggleFavorite,
 }) {
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
@@ -41,6 +42,7 @@ export default function VocabularyList({
               item={item}
               setSelectedWordId={setSelectedWordId}
               navigateTo={navigateTo}
+              toggleFavorite={toggleFavorite}
             />
           ))}
 
@@ -51,9 +53,7 @@ export default function VocabularyList({
             {hasMore && (
               <button
                 type="button"
-                onClick={() =>
-                  setVisibleCount((prev) => prev + PAGE_SIZE)
-                }
+                onClick={() => setVisibleCount((prev) => prev + PAGE_SIZE)}
                 className="bg-[#f4f3ef] hover:bg-[#eae7e2] text-[#2c302e] px-5 py-2 rounded-full text-xs font-bold transition-colors"
               >
                 Load 100 more

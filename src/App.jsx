@@ -520,6 +520,7 @@ export default function App() {
               setSelectedLevelFilter={setSelectedLevelFilter}
               selectedTypeFilter={selectedTypeFilter}
               setSelectedTypeFilter={setSelectedTypeFilter}
+              toggleFavorite={toggleFavorite}
             />
           )}
 

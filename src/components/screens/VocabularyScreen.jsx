@@ -20,6 +20,7 @@ export default function VocabularyScreen({
   setSelectedLevelFilter,
   selectedTypeFilter,
   setSelectedTypeFilter,
+  toggleFavorite,
 }) {
   return (
     <div className="flex-1 flex flex-col px-6 py-5 space-y-5">
@@ -60,6 +61,7 @@ export default function VocabularyScreen({
         filteredVocabulary={filteredVocabulary}
         setSelectedWordId={setSelectedWordId}
         navigateTo={navigateTo}
+        toggleFavorite={toggleFavorite}
       />
     </div>
   );
