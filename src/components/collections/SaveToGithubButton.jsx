@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { UploadCloud, Check } from "lucide-react";
+import { UploadCloud, Check, Trash2 } from "lucide-react";
 import { saveFavoritesToGithub } from "../../utils/saveFavoritesToGithub";
 
 export default function SaveToGithubButton({
-  favoriteVocabulary,
   buildGithubSyncPayload,
+  clearSyncedLocalChanges,
 }) {
   const [showPrompt, setShowPrompt] = useState(false);
   const [password, setPassword] = useState("");
@@ -35,20 +35,46 @@ export default function SaveToGithubButton({
     }
   };
 
+  const handleClear = () => {
+    if (
+      !confirm(
+        "Remove local changes that already match the deployed version? Only do this after your last save has finished redeploying.",
+      )
+    )
+      return;
+    const removed = clearSyncedLocalChanges();
+    setStatus("idle");
+    setMessage(
+      removed > 0
+        ? `Cleared ${removed} synced local change${removed === 1 ? "" : "s"}.`
+        : "Nothing to clear, no synced duplicates found.",
+    );
+  };
+
   return (
     <div className="space-y-2">
       {!showPrompt ? (
-        <button
-          type="button"
-          onClick={() => {
-            setShowPrompt(true);
-            setStatus("idle");
-            setMessage("");
-          }}
-          className="w-full flex items-center justify-center gap-1.5 bg-[#2c302e] hover:bg-black text-white py-2.5 rounded-xl font-sans text-xs font-semibold transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
-        >
-          <UploadCloud className="w-3.5 h-3.5" /> Save
-        </button>
+        <div className="flex gap-2">
+          <button
+            type="button"
+            onClick={() => {
+              setShowPrompt(true);
+              setStatus("idle");
+              setMessage("");
+            }}
+            className="flex-1 flex items-center justify-center gap-1.5 bg-[#2c302e] hover:bg-black text-white py-2.5 rounded-xl font-sans text-xs font-semibold transition-colors"
+          >
+            <UploadCloud className="w-3.5 h-3.5" /> Save
+          </button>
+          <button
+            type="button"
+            onClick={handleClear}
+            title="Remove local overrides already reflected in the deployed data"
+            className="flex items-center justify-center gap-1.5 bg-[#f4f3ef] hover:bg-[#eae7e2] text-[#637368] px-3.5 py-2.5 rounded-xl font-sans text-xs font-semibold transition-colors"
+          >
+            <Trash2 className="w-3.5 h-3.5" /> Clear synced
+          </button>
+        </div>
       ) : (
         <div className="bg-[#f4f3ef] border border-[#e8e5e0] rounded-xl p-3 space-y-2">
           <p className="font-sans text-[11px] text-[#637368]">

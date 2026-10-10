@@ -25,6 +25,7 @@ export default function VocabularyScreen({
   setVisibleVocabCount,
   vocabScrollY,
   buildGithubSyncPayload,
+  clearSyncedLocalChanges,
 }) {
   return (
     <div className="flex-1 flex flex-col px-6 py-5 space-y-5">
@@ -39,7 +40,10 @@ export default function VocabularyScreen({
       />
 
       {/* Saves favorites, edits, deletions, and new words back to GitHub */}
-      <SaveToGithubButton buildGithubSyncPayload={buildGithubSyncPayload} />
+      <SaveToGithubButton
+        buildGithubSyncPayload={buildGithubSyncPayload}
+        clearSyncedLocalChanges={clearSyncedLocalChanges}
+      />
 
       {/* Search bar & Filter Pills */}
       <SearchAndFilters

@@ -162,20 +162,25 @@ export default function App() {
     selectedTypeFilter,
   ]);
 
-  useEffect(() => {
-    setUserVocabulary((prev) => {
-      const cleaned = prev.filter((entry) => {
-        if (entry.deleted) {
-          return ALL_VOCABULARY.some((w) => w.id === entry.id);
-        }
-        const builtIn = ALL_VOCABULARY.find((w) => w.id === entry.id);
-        if (!builtIn) return true;
-        return JSON.stringify(entry) !== JSON.stringify(builtIn);
+    const clearSyncedLocalChanges = () => {
+      let removedCount = 0;
+      setUserVocabulary((prev) => {
+        const cleaned = prev.filter((entry) => {
+          const isRedundant = (() => {
+            if (entry.deleted) {
+              return ALL_VOCABULARY.some((w) => w.id === entry.id);
+            }
+            const builtIn = ALL_VOCABULARY.find((w) => w.id === entry.id);
+            if (!builtIn) return false;
+            return JSON.stringify(entry) === JSON.stringify(builtIn);
+          })();
+          if (isRedundant) removedCount++;
+          return !isRedundant;
+        });
+        return cleaned;
       });
-      return cleaned.length === prev.length ? prev : cleaned;
-    });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+      return removedCount;
+    };
 
   const resetForm = () => {
     setFormThema("Alltag");
@@ -593,6 +598,7 @@ export default function App() {
               setVisibleVocabCount={setVisibleVocabCount}
               vocabScrollY={vocabScrollY}
               buildGithubSyncPayload={buildGithubSyncPayload}
+              clearSyncedLocalChanges={clearSyncedLocalChanges}
             />
           )}
 
@@ -612,6 +618,7 @@ export default function App() {
               setSelectedWordId={setSelectedWordId}
               navigateTo={navigateTo}
               toggleFavorite={toggleFavorite}
+              clearSyncedLocalChanges={clearSyncedLocalChanges}
             />
           )}
 
