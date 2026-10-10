@@ -1,7 +1,6 @@
 import React from "react";
 import SanctuaryBanner from "../vocabulary/SanctuaryBanner";
 import SearchAndFilters from "../vocabulary/SearchAndFilters";
-import WordOfTheMorning from "../vocabulary/WordOfTheMorning";
 import VocabularyList from "../vocabulary/VocabularyList";
 import BackupControls from "../vocabulary/BackupControls";
 
@@ -46,15 +45,6 @@ export default function VocabularyScreen({
         selectedTypeFilter={selectedTypeFilter}
         setSelectedTypeFilter={setSelectedTypeFilter}
       />
-
-      {/* Word of the Morning banner */}
-      {vocabulary.length > 0 && (
-        <WordOfTheMorning
-          vocabulary={vocabulary}
-          setSelectedWordId={setSelectedWordId}
-          navigateTo={navigateTo}
-        />
-      )}
 
       {/* Vocabulary Scrollable List */}
       <VocabularyList
