@@ -2,8 +2,6 @@ const GITHUB_API = "https://api.github.com";
 const BRANCH = "main";
 
 // Splits an array literal's contents into top-level {...} object substrings.
-// Naive brace-depth scan; assumes no unescaped `{`/`}` inside string values,
-// which holds for this project's generated word-object files.
 function splitObjects(source) {
   const objects = [];
   let depth = 0;
@@ -24,8 +22,6 @@ function splitObjects(source) {
   return objects;
 }
 
-// Sets favorite: true/false inside one object's text, inserting the field
-// if it isn't already there.
 function setFavoriteInObject(objText, value) {
   if (/\bfavorite\s*:\s*(true|false)/.test(objText)) {
     return objText.replace(
@@ -33,28 +29,89 @@ function setFavoriteInObject(objText, value) {
       `favorite: ${value}`,
     );
   }
-  // No favorite field yet: insert right after the opening brace
   return objText.replace(/\{/, `{\n    favorite: ${value},`);
 }
 
-// Rewrites every word object's favorite flag in a file's full source text
-function applyFavorites(fileText, favoritedIds) {
+// Field order used when rewriting a fully edited word object
+const FIELD_ORDER = [
+  "id",
+  "word",
+  "translation",
+  "definition",
+  "definitionTranslation",
+  "example",
+  "exampleTranslation",
+  "thema",
+  "level",
+  "type",
+  "family",
+  "priority",
+  "favorite",
+];
+
+function serializeValue(v) {
+  return JSON.stringify(v);
+}
+
+function serializeWordObject(word) {
+  const lines = [];
+  FIELD_ORDER.forEach((key) => {
+    if (word[key] === undefined) return;
+    lines.push(`    ${key}: ${serializeValue(word[key])},`);
+  });
+  // Include any extra fields not in the known list, so nothing is silently dropped
+  Object.keys(word).forEach((key) => {
+    if (!FIELD_ORDER.includes(key) && word[key] !== undefined) {
+      lines.push(`    ${key}: ${serializeValue(word[key])},`);
+    }
+  });
+  return `{\n${lines.join("\n")}\n  }`;
+}
+
+function applyChanges(
+  fileText,
+  { favoritedIds, editsById, deletedIds, additions },
+) {
   const objects = splitObjects(fileText);
   let result = "";
   let cursor = 0;
 
   objects.forEach((obj) => {
     const idMatch = obj.text.match(/\bid\s*:\s*(\d+)/);
+    const id = idMatch ? Number(idMatch[1]) : null;
+
+    if (id !== null && deletedIds.has(id)) {
+      result += fileText.slice(cursor, obj.start);
+      cursor = obj.end;
+      let skip = cursor;
+      while (skip < fileText.length && /\s/.test(fileText[skip])) skip++;
+      if (fileText[skip] === ",") cursor = skip + 1;
+      return;
+    }
+
     result += fileText.slice(cursor, obj.start);
-    if (idMatch) {
-      const id = Number(idMatch[1]);
+    if (id !== null && editsById.has(id)) {
+      result += serializeWordObject(editsById.get(id));
+    } else if (id !== null) {
       result += setFavoriteInObject(obj.text, favoritedIds.has(id));
     } else {
-      result += obj.text; // leave untouched if no id found
+      result += obj.text;
     }
     cursor = obj.end;
   });
   result += fileText.slice(cursor);
+
+  if (additions && additions.length > 0) {
+    const newEntries = additions
+      .map((w) => "  " + serializeWordObject(w) + ",")
+      .join("\n");
+    // Insert before the closing `];` of the array
+    result = result.replace(/\]\s*;?\s*$/, (match) => {
+      const closer = match.trim().endsWith(";") ? "];" : "]";
+      return `${newEntries}\n${closer}`;
+    });
+  }
+
   return result;
 }
 
@@ -69,24 +126,26 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: "Method not allowed" });
   }
 
-  const { password, filesFavorites } = req.body || {};
+  const { password, filesChanges } = req.body || {};
 
   if (!process.env.SAVE_PASSWORD || password !== process.env.SAVE_PASSWORD) {
     return res.status(401).json({ error: "Incorrect password" });
   }
-  if (!filesFavorites || typeof filesFavorites !== "object") {
-    return res.status(400).json({ error: "No favorites data provided" });
+  if (!filesChanges || typeof filesChanges !== "object") {
+    return res.status(400).json({ error: "No changes provided" });
   }
 
   const owner = process.env.GITHUB_OWNER;
   const repo = process.env.GITHUB_REPO;
   const headers = githubHeaders(process.env.GITHUB_TOKEN);
-
   const results = {};
 
   try {
-    for (const [filePath, ids] of Object.entries(filesFavorites)) {
-      const favoritedIds = new Set(ids);
+    for (const [filePath, changes] of Object.entries(filesChanges)) {
+      const favoritedIds = new Set(changes.favoritedIds || []);
+      const deletedIds = new Set(changes.deletedIds || []);
+      const editsById = new Map((changes.edits || []).map((w) => [w.id, w]));
+      const additions = changes.additions || [];
 
       const getRes = await fetch(
         `${GITHUB_API}/repos/${owner}/${repo}/contents/${filePath}?ref=${BRANCH}`,
@@ -107,7 +166,12 @@ export default async function handler(req, res) {
         "utf-8",
       );
 
-      const updatedText = applyFavorites(currentText, favoritedIds);
+      const updatedText = applyChanges(currentText, {
+        favoritedIds,
+        editsById,
+        deletedIds,
+        additions,
+      });
 
       if (updatedText === currentText) {
         results[filePath] = { unchanged: true };
@@ -120,7 +184,7 @@ export default async function handler(req, res) {
           method: "PUT",
           headers: { ...headers, "Content-Type": "application/json" },
           body: JSON.stringify({
-            message: `Update favorites in ${filePath}`,
+            message: `Sync vocabulary changes in ${filePath}`,
             content: Buffer.from(updatedText, "utf-8").toString("base64"),
             branch: BRANCH,
             sha: fileData.sha,

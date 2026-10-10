@@ -11,8 +11,7 @@ export default function CollectionsScreen({
   setSelectedWordId,
   navigateTo,
   toggleFavorite,
-  idToFile,
-  cleanupSyncedFavorites,
+  buildGithubSyncPayload,
 }) {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedThemeFilter, setSelectedThemeFilter] = useState("All Words");
@@ -82,11 +81,10 @@ export default function CollectionsScreen({
         </p>
       </div>
 
-      {/* Saves current favorites back to the built-in A1–B2 files on GitHub */}
+      {/* Saves favorites, edits, deletions, and new words back to GitHub */}
       <SaveToGithubButton
         favoriteVocabulary={favoriteVocabulary}
-        idToFile={idToFile}
-        cleanupSyncedFavorites={cleanupSyncedFavorites}
+        buildGithubSyncPayload={buildGithubSyncPayload}
       />
 
       {/* Same search + level/type filters as the Vocabulary screen,

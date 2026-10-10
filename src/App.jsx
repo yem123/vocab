@@ -14,6 +14,7 @@ import DetailScreen from "./components/screens/DetailScreen";
 import { fetchWordDetails } from "./utils/aiWordHelper";
 import CollectionsScreen from "./components/screens/CollectionsScreen";
 import { WORD_TYPES, getWordType } from "./utils/wordTypes";
+import { UserAdded_Vocabulary } from "./data/userAddedVocabulary";
 
 const DEFAULT_THEMES = [
   "im Restaurant",
@@ -33,6 +34,7 @@ const SOURCE_FILES = [
   { path: "src/data/a2Vocabulary.js", words: A2_Vocabulary },
   { path: "src/data/b1Vocabulary.js", words: B1_Vocabulary },
   { path: "src/data/b2Vocabulary.js", words: B2_Vocabulary },
+  { path: "src/data/userAddedVocabulary.js", words: UserAdded_Vocabulary },
 ];
 
 const ALL_VOCABULARY = SOURCE_FILES.flatMap((f) => f.words).flat();
@@ -145,6 +147,24 @@ export default function App() {
       console.error("Failed to save themes", e);
     }
   }, [themes]);
+
+  // One-time cleanup on load: once the deployed built-in data already
+  // matches a local override exactly (edit, favorite, or deletion already
+  // landed in the last deploy), drop it from the user layer.
+  useEffect(() => {
+    setUserVocabulary((prev) => {
+      const cleaned = prev.filter((entry) => {
+        if (entry.deleted) {
+          return ALL_VOCABULARY.some((w) => w.id === entry.id);
+        }
+        const builtIn = ALL_VOCABULARY.find((w) => w.id === entry.id);
+        if (!builtIn) return true;
+        return JSON.stringify(entry) !== JSON.stringify(builtIn);
+      });
+      return cleaned.length === prev.length ? prev : cleaned;
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const resetForm = () => {
     setFormThema("Alltag");
@@ -428,6 +448,55 @@ export default function App() {
     setFormFamily("");
   };
 
+  const buildGithubSyncPayload = () => {
+    const filesChanges = {};
+    const ensureFile = (path) => {
+      if (!filesChanges[path]) {
+        filesChanges[path] = {
+          favoritedIds: [],
+          edits: [],
+          deletedIds: [],
+          additions: [],
+        };
+      }
+      return filesChanges[path];
+    };
+
+    const NEW_WORDS_PATH = "src/data/userAddedVocabulary.js";
+
+    vocabulary.forEach((w) => {
+      const path = ID_TO_FILE.get(w.id);
+      if (path && w.favorite) ensureFile(path).favoritedIds.push(w.id);
+    });
+
+    userVocabulary.forEach((entry) => {
+      const existingPath = ID_TO_FILE.get(entry.id);
+
+      if (existingPath) {
+        const bucket = ensureFile(existingPath);
+        if (entry.deleted) {
+          bucket.deletedIds.push(entry.id);
+          return;
+        }
+        const builtIn = ALL_VOCABULARY.find((w) => w.id === entry.id);
+        const isPureFavoriteToggle =
+          builtIn &&
+          JSON.stringify({ ...entry, favorite: undefined }) ===
+            JSON.stringify({ ...builtIn, favorite: undefined });
+        if (!isPureFavoriteToggle) bucket.edits.push(entry);
+        return;
+      }
+
+      // No file knows this id yet: a brand-new word the user added.
+      // (A deleted tombstone for a never-saved new word needs no sync.)
+      if (!entry.deleted) {
+        ensureFile(NEW_WORDS_PATH).additions.push(entry);
+      }
+    });
+
+    return filesChanges;
+  };
+
   const toggleFavorite = (id, e) => {
     if (e) e.stopPropagation();
     const current = vocabulary.find((w) => w.id === id);
@@ -468,27 +537,6 @@ export default function App() {
     const remaining = themes.filter((t) => t !== name);
     setThemes(remaining);
     if (formThema === name) setFormThema(remaining[0] || "");
-  };
-
-  const cleanupSyncedFavorites = (savedIds) => {
-    setUserVocabulary((prev) =>
-      prev.filter((entry) => {
-        if (entry.deleted) return true; // never touch deletion tombstones
-        if (!savedIds.has(entry.id)) return true; // not part of this save
-
-        const builtIn = BASE_VOCABULARY.find((w) => w.id === entry.id);
-        if (!builtIn) return true; // not a built-in word, keep as-is
-
-        // Compare entry to builtIn ignoring the favorite field; if everything
-        // else matches, this override is now redundant and can be dropped.
-        const { favorite: entryFav, ...entryRest } = entry;
-        const { favorite: builtInFav, ...builtInRest } = builtIn;
-        const isPureFavoriteDuplicate =
-          JSON.stringify(entryRest) === JSON.stringify(builtInRest);
-
-        return !isPureFavoriteDuplicate;
-      }),
-    );
   };
 
   return (
@@ -534,16 +582,13 @@ export default function App() {
           {/* ================================================= */}
           {/* SCREEN: COLLECTIONS (FAVORITES)                   */}
           {/* ================================================= */}
-          {currentScreen === "collections" && (
-            <CollectionsScreen
-              favoriteVocabulary={favoriteVocabulary}
-              setSelectedWordId={setSelectedWordId}
-              navigateTo={navigateTo}
-              idToFile={ID_TO_FILE}
-              cleanupSyncedFavorites={cleanupSyncedFavorites}
-              toggleFavorite={toggleFavorite}
-            />
-          )}
+          <CollectionsScreen
+            favoriteVocabulary={favoriteVocabulary}
+            setSelectedWordId={setSelectedWordId}
+            navigateTo={navigateTo}
+            buildGithubSyncPayload={buildGithubSyncPayload}
+            toggleFavorite={toggleFavorite}
+          />
 
           {/* ================================================= */}
           {/* SCREEN 3: ADD WORD SCREEN                         */}

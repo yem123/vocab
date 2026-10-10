@@ -4,8 +4,7 @@ import { saveFavoritesToGithub } from "../../utils/saveFavoritesToGithub";
 
 export default function SaveToGithubButton({
   favoriteVocabulary,
-  idToFile,
-  cleanupSyncedFavorites,
+  buildGithubSyncPayload,
 }) {
   const [showPrompt, setShowPrompt] = useState(false);
   const [password, setPassword] = useState("");
@@ -16,21 +15,18 @@ export default function SaveToGithubButton({
     setStatus("saving");
     setMessage("");
     try {
-      const filesFavorites = {};
-      favoriteVocabulary.forEach((w) => {
-        const path = idToFile.get(w.id);
-        if (!path) return;
-        if (!filesFavorites[path]) filesFavorites[path] = [];
-        filesFavorites[path].push(w.id);
-      });
+      const filesChanges = buildGithubSyncPayload();
 
-      await saveFavoritesToGithub(password, filesFavorites);
+      if (Object.keys(filesChanges).length === 0) {
+        setStatus("idle");
+        setMessage("Nothing to save.");
+        return;
+      }
 
-      const savedIds = new Set(Object.values(filesFavorites).flat());
-      if (cleanupSyncedFavorites) cleanupSyncedFavorites(savedIds);
+      await saveFavoritesToGithub(password, filesChanges);
 
       setStatus("success");
-      setMessage("Favorites saved to server.");
+      setMessage("Changes saved to server.");
       setPassword("");
       setShowPrompt(false);
     } catch (err) {
@@ -49,7 +45,6 @@ export default function SaveToGithubButton({
             setStatus("idle");
             setMessage("");
           }}
-          disabled={favoriteVocabulary.length === 0}
           className="w-full flex items-center justify-center gap-1.5 bg-[#2c302e] hover:bg-black text-white py-2.5 rounded-xl font-sans text-xs font-semibold transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
         >
           <UploadCloud className="w-3.5 h-3.5" /> Save
@@ -57,8 +52,8 @@ export default function SaveToGithubButton({
       ) : (
         <div className="bg-[#f4f3ef] border border-[#e8e5e0] rounded-xl p-3 space-y-2">
           <p className="font-sans text-[11px] text-[#637368]">
-            Enter the password to save {favoriteVocabulary.length} favorites
-            to server.
+            Enter the password to save your favorites, edits, deletions, and new
+            words to the server.
           </p>
           <input
             type="password"
