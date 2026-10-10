@@ -582,13 +582,15 @@ export default function App() {
           {/* ================================================= */}
           {/* SCREEN: COLLECTIONS (FAVORITES)                   */}
           {/* ================================================= */}
-          <CollectionsScreen
-            favoriteVocabulary={favoriteVocabulary}
-            setSelectedWordId={setSelectedWordId}
-            navigateTo={navigateTo}
-            buildGithubSyncPayload={buildGithubSyncPayload}
-            toggleFavorite={toggleFavorite}
-          />
+          {currentScreen === "collections" && (
+            <CollectionsScreen
+              favoriteVocabulary={favoriteVocabulary}
+              setSelectedWordId={setSelectedWordId}
+              navigateTo={navigateTo}
+              buildGithubSyncPayload={buildGithubSyncPayload}
+              toggleFavorite={toggleFavorite}
+            />
+          )}
 
           {/* ================================================= */}
           {/* SCREEN 3: ADD WORD SCREEN                         */}
