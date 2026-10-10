@@ -3,6 +3,7 @@ import SanctuaryBanner from "../vocabulary/SanctuaryBanner";
 import SearchAndFilters from "../vocabulary/SearchAndFilters";
 import VocabularyList from "../vocabulary/VocabularyList";
 import BackupControls from "../vocabulary/BackupControls";
+import SaveToGithubButton from "../collections/SaveToGithubButton";
 
 export default function VocabularyScreen({
   vocabulary,
@@ -20,6 +21,10 @@ export default function VocabularyScreen({
   selectedTypeFilter,
   setSelectedTypeFilter,
   toggleFavorite,
+  visibleVocabCount,
+  setVisibleVocabCount,
+  vocabScrollY,
+  buildGithubSyncPayload,
 }) {
   return (
     <div className="flex-1 flex flex-col px-6 py-5 space-y-5">
@@ -32,6 +37,9 @@ export default function VocabularyScreen({
         themes={themes}
         onImport={handleImportBackup}
       />
+
+      {/* Saves favorites, edits, deletions, and new words back to GitHub */}
+      <SaveToGithubButton buildGithubSyncPayload={buildGithubSyncPayload} />
 
       {/* Search bar & Filter Pills */}
       <SearchAndFilters
@@ -52,6 +60,9 @@ export default function VocabularyScreen({
         setSelectedWordId={setSelectedWordId}
         navigateTo={navigateTo}
         toggleFavorite={toggleFavorite}
+        visibleCount={visibleVocabCount}
+        setVisibleCount={setVisibleVocabCount}
+        vocabScrollY={vocabScrollY}
       />
     </div>
   );

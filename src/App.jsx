@@ -15,6 +15,7 @@ import { fetchWordDetails } from "./utils/aiWordHelper";
 import CollectionsScreen from "./components/screens/CollectionsScreen";
 import { WORD_TYPES, getWordType } from "./utils/wordTypes";
 import { UserAdded_Vocabulary } from "./data/userAddedVocabulary";
+import MyWordsScreen from "./components/screens/MyWordsScreen";
 
 const DEFAULT_THEMES = [
   "im Restaurant",
@@ -125,6 +126,10 @@ export default function App() {
   const [formExample, setFormExample] = useState("");
   const [formPriority, setFormPriority] = useState("High");
 
+  const PAGE_SIZE = 100;
+  const [visibleVocabCount, setVisibleVocabCount] = useState(PAGE_SIZE);
+  const [vocabScrollY, setVocabScrollY] = useState(0);
+
   const [formExampleTranslation, setFormExampleTranslation] = useState("");
   const [isGenerating, setIsGenerating] = useState(false);
   const [aiError, setAiError] = useState("");
@@ -148,9 +153,15 @@ export default function App() {
     }
   }, [themes]);
 
-  // One-time cleanup on load: once the deployed built-in data already
-  // matches a local override exactly (edit, favorite, or deletion already
-  // landed in the last deploy), drop it from the user layer.
+  useEffect(() => {
+    setVisibleVocabCount(PAGE_SIZE);
+  }, [
+    searchQuery,
+    selectedThemeFilter,
+    selectedLevelFilter,
+    selectedTypeFilter,
+  ]);
+
   useEffect(() => {
     setUserVocabulary((prev) => {
       const cleaned = prev.filter((entry) => {
@@ -231,13 +242,18 @@ export default function App() {
 
   // Screen transition handler
   const navigateTo = (screen, anim = "push") => {
+    if (currentScreen === "vocabulary" && screen !== "vocabulary") {
+      setVocabScrollY(window.scrollY);
+    }
     if (screen !== "add" && editingWordId !== null) {
       setEditingWordId(null);
       resetForm();
     }
     if (
       screen === "detail" &&
-      (currentScreen === "vocabulary" || currentScreen === "collections")
+      (currentScreen === "vocabulary" ||
+        currentScreen === "collections" ||
+        currentScreen === "myWords")
     ) {
       setDetailOrigin(currentScreen);
     }
@@ -288,6 +304,10 @@ export default function App() {
 
   const favoriteVocabulary = useMemo(() => {
     return vocabulary.filter((w) => w.favorite);
+  }, [vocabulary]);
+
+  const myWords = useMemo(() => {
+    return vocabulary.filter((w) => w.id > BASE_MAX_ID);
   }, [vocabulary]);
 
   const handleAIFill = async (overwrite = false) => {
@@ -569,6 +589,10 @@ export default function App() {
               selectedTypeFilter={selectedTypeFilter}
               setSelectedTypeFilter={setSelectedTypeFilter}
               toggleFavorite={toggleFavorite}
+              visibleVocabCount={visibleVocabCount}
+              setVisibleVocabCount={setVisibleVocabCount}
+              vocabScrollY={vocabScrollY}
+              buildGithubSyncPayload={buildGithubSyncPayload}
             />
           )}
 
@@ -587,7 +611,18 @@ export default function App() {
               favoriteVocabulary={favoriteVocabulary}
               setSelectedWordId={setSelectedWordId}
               navigateTo={navigateTo}
-              buildGithubSyncPayload={buildGithubSyncPayload}
+              toggleFavorite={toggleFavorite}
+            />
+          )}
+
+          {/* ================================================= */}
+          {/* SCREEN: MY WORDS (USER-ADDED)                     */}
+          {/* ================================================= */}
+          {currentScreen === "myWords" && (
+            <MyWordsScreen
+              myWords={myWords}
+              setSelectedWordId={setSelectedWordId}
+              navigateTo={navigateTo}
               toggleFavorite={toggleFavorite}
             />
           )}

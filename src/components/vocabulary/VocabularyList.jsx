@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import WordCard from "./WordCard";
 
 const PAGE_SIZE = 100;
@@ -8,14 +8,21 @@ export default function VocabularyList({
   setSelectedWordId,
   navigateTo,
   toggleFavorite,
+  visibleCount,
+  setVisibleCount,
+  vocabScrollY,
 }) {
-  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const hasRestoredScroll = useRef(false);
 
-  // Reset back to the first page whenever the filtered result set changes
-  // (new search, theme, level, or type filter)
   useEffect(() => {
-    setVisibleCount(PAGE_SIZE);
-  }, [filteredVocabulary]);
+    if (hasRestoredScroll.current) return;
+    hasRestoredScroll.current = true;
+    if (vocabScrollY > 0) {
+      requestAnimationFrame(() => {
+        window.scrollTo(0, vocabScrollY);
+      });
+    }
+  }, [vocabScrollY]);
 
   const visibleWords = filteredVocabulary.slice(0, visibleCount);
   const hasMore = visibleCount < filteredVocabulary.length;

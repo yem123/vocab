@@ -8,10 +8,14 @@ export default function DetailTopNav({
   toggleFavorite,
   detailOrigin,
 }) {
-  const backTarget =
-    detailOrigin === "collections" ? "collections" : "vocabulary";
-  const backLabel =
-    detailOrigin === "collections" ? "Collections" : "Vocabulary";
+  const ORIGIN_LABELS = {
+    collections: "Collections",
+    myWords: "My Words",
+    vocabulary: "Vocabulary",
+  };
+
+  const backTarget = ORIGIN_LABELS[detailOrigin] ? detailOrigin : "vocabulary";
+  const backLabel = ORIGIN_LABELS[detailOrigin] || "Vocabulary";
 
   return (
     <div className="flex items-center justify-between">

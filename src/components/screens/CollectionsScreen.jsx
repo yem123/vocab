@@ -4,14 +4,13 @@ import WordCard from "../vocabulary/WordCard";
 import SearchAndFilters from "../vocabulary/SearchAndFilters";
 import { getWordType } from "../../utils/wordTypes";
 import ExpandableThemeFilter from "../collections/ExpandableThemeFilter";
-import SaveToGithubButton from "../collections/SaveToGithubButton";
 
 export default function CollectionsScreen({
   favoriteVocabulary,
   setSelectedWordId,
   navigateTo,
   toggleFavorite,
-  buildGithubSyncPayload,
+  
 }) {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedThemeFilter, setSelectedThemeFilter] = useState("All Words");
@@ -80,12 +79,6 @@ export default function CollectionsScreen({
           Deine mit einem Stern markierten Wörter an einem Ort.
         </p>
       </div>
-
-      {/* Saves favorites, edits, deletions, and new words back to GitHub */}
-      <SaveToGithubButton
-        favoriteVocabulary={favoriteVocabulary}
-        buildGithubSyncPayload={buildGithubSyncPayload}
-      />
 
       {/* Same search + level/type filters as the Vocabulary screen,
           but scoped to favoriteVocabulary instead of the full list */}
