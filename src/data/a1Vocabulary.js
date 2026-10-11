@@ -173,9 +173,6 @@ export const A1_Vocabulary = [
     level: "A1",
     type: "word",
     family: "die Mail",
-    synonyms: {
-      A1: ["die E-Mail"],
-    },
   },
   {
     id: 14,

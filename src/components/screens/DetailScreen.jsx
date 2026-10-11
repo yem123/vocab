@@ -6,6 +6,7 @@ import DefinitionCard from "../detail/DefinitionCard";
 import ExampleCard from "../detail/ExampleCard";
 import WordNavigationFooter from "../detail/WordNavigationFooter";
 import FamilyCard from "../detail/FamilyCard";
+import SynonymsCard from "../detail/SynonymsCard";
 
 export default function DetailScreen({
   activeWord,
@@ -20,7 +21,6 @@ export default function DetailScreen({
 }) {
   return (
     <div className="flex-1 flex flex-col px-6 py-5 space-y-6">
-      {/* Top Navigation Row */}
       <DetailTopNav
         activeWord={activeWord}
         vocabulary={vocabulary}
@@ -28,24 +28,19 @@ export default function DetailScreen({
         toggleFavorite={toggleFavorite}
         detailOrigin={detailOrigin}
       />
-      {/* Theme Badge */}
       <ThemeBadgeRow
         activeWord={activeWord}
         deleteWord={deleteWord}
         editWord={editWord}
       />
-      {/* Main Word Header with Audio */}
       <WordHeader activeWord={activeWord} />
-      {/* Deutsche Definition Card */}
       <DefinitionCard activeWord={activeWord} />
-      {/* Deutscher Beispielsatz Card */}
-      <ExampleCard activeWord={activeWord} />{" "}
-      {/* Word family: related entries (e.g. entscheiden, die Entscheidung, ...) */}
+      <ExampleCard activeWord={activeWord} /> {/* Synonyms, grouped by level */}
+      <SynonymsCard synonyms={activeWord.synonyms} />
       <FamilyCard
         familyMembers={getFamilyMembers(activeWord)}
         onSelectWord={(id) => setSelectedWordId(id)}
       />
-      {/* Word Navigation Footer */}
       <WordNavigationFooter
         activeWord={activeWord}
         vocabulary={vocabulary}
