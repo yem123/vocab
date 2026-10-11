@@ -13,6 +13,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "das Büro",
+    synonyms: {
+      A2: ["das Arbeitszimmer"],
+    },
   },
   {
     id: 1301,
@@ -27,6 +30,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "das Kind",
+    synonyms: {
+      A1: ["die Kita"],
+      B1: ["die Kindertagesstätte"],
+    },
   },
   {
     id: 1302,
@@ -40,6 +47,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["erlaubt sein"],
+    },
   },
   {
     id: 1303,
@@ -54,6 +64,11 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "sprechen",
+    synonyms: {
+      A2: ["reden über"],
+      B1: ["sich unterhalten über"],
+      B2: ["erörtern"],
+    },
   },
   {
     id: 1304,
@@ -80,6 +95,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["strikt"],
+      B2: ["rigoros"],
+    },
   },
   {
     id: 1306,
@@ -94,6 +113,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Arbeit",
+    synonyms: {
+      B1: ["kooperieren"],
+      B2: ["zusammenwirken"],
+    },
   },
   {
     id: 1307,
@@ -107,6 +130,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["sich aufregen"],
+      B2: ["sich empören"],
+    },
   },
   {
     id: 1308,
@@ -121,6 +148,11 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "sehen",
+    synonyms: {
+      A1: ["anschauen"],
+      A2: ["angucken"],
+      B2: ["betrachten"],
+    },
   },
   {
     id: 1309,
@@ -134,6 +166,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["Langeweile haben"],
+    },
   },
   {
     id: 1310,
@@ -149,6 +184,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "führen",
+    synonyms: {
+      B2: ["die Fahrerlaubnis"],
+    },
   },
   {
     id: 1311,
@@ -162,6 +200,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["schnell machen"],
+      C1: ["sich sputen"],
+    },
   },
   {
     id: 1312,
@@ -175,6 +217,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Lastwagen", "der Laster"],
+    },
   },
   {
     id: 1313,
@@ -188,6 +233,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["reden"],
+      B1: ["plaudern"],
+    },
   },
   {
     id: 1314,
@@ -202,6 +251,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "bilden",
+    synonyms: {
+      B1: ["die Lehre", "die Berufsausbildung"],
+    },
   },
   {
     id: 1315,
@@ -215,6 +267,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["die Hochschulreife"],
+    },
   },
   {
     id: 1316,
@@ -230,20 +285,6 @@ export const A2_Vocabulary = [
     type: "word",
   },
   {
-    id: 1317,
-    word: "der Erzieher, -",
-    translation: "the educator / kindergarten teacher (male)",
-    definition: "Eine Fachkraft für die Erziehung von Kindern.",
-    example: "Er arbeitet als Erzieher im Kindergarten.",
-    exampleTranslation: "He works as an educator in the kindergarten.",
-    thema: "Arbeit",
-    priority: "Medium",
-    favorite: false,
-    level: "A2",
-    type: "word",
-    family: "erziehen",
-  },
-  {
     id: 1318,
     word: "umziehen",
     translation: "to move (house)",
@@ -256,21 +297,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "ziehen",
-  },
-  {
-    id: 1319,
-    word: "die Erzieherin, -nen",
-    translation: "the educator / kindergarten teacher (female)",
-    definition: "Eine weibliche Fachkraft für die Erziehung von Kindern.",
-    example: "Die Erzieherin spielt mit den Kindern im Garten.",
-    exampleTranslation:
-      "The female educator plays with the children in the garden.",
-    thema: "Arbeit",
-    priority: "Medium",
-    favorite: false,
-    level: "A2",
-    type: "word",
-    family: "erziehen",
+    synonyms: {
+      B2: ["übersiedeln"],
+    },
   },
   {
     id: 1320,
@@ -285,6 +314,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "phrase",
     family: "frei",
+    synonyms: {
+      B1: ["Urlaub haben"],
+    },
   },
   {
     id: 1321,
@@ -298,6 +330,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["die Gruppenstärke"],
+    },
   },
   {
     id: 1322,
@@ -312,6 +347,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Stress",
+    synonyms: {
+      B1: ["anstrengend", "hektisch"],
+      B2: ["belastend"],
+    },
   },
   {
     id: 1323,
@@ -325,6 +364,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["die Lehrerin", "der Lehrer"],
+      B2: ["der Pädagoge"],
+    },
   },
   {
     id: 1324,
@@ -338,6 +381,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["davor"],
+      B1: ["zuvor"],
+      B2: ["vorab"],
+    },
   },
   {
     id: 1325,
@@ -352,6 +400,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Ferien",
+    synonyms: {
+      B1: ["die Urlaubszeit"],
+    },
   },
   {
     id: 1326,
@@ -366,6 +417,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Kaffee",
+    synonyms: {
+      B1: ["das Kaffeehaus"],
+    },
   },
   {
     id: 1327,
@@ -380,6 +434,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Ferien",
+    synonyms: {
+      A1: ["die Ferien"],
+    },
   },
   {
     id: 1328,
@@ -393,6 +450,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["da"],
+      B1: ["denn"],
+    },
   },
   {
     id: 1329,
@@ -407,6 +468,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Schule",
+    synonyms: {
+      B1: ["das Unterrichtsende"],
+    },
   },
   {
     id: 1330,
@@ -420,6 +484,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["Viele Grüße"],
+      B1: ["Beste Grüße", "Herzliche Grüße"],
+    },
   },
   {
     id: 1331,
@@ -433,6 +501,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Imbiss", "der Snack"],
+    },
   },
   {
     id: 1332,
@@ -460,6 +531,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "sprechen",
+    synonyms: {
+      B1: ["die Vereinbarung"],
+      B2: ["die Übereinkunft"],
+    },
   },
   {
     id: 1334,
@@ -473,6 +548,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["das Auto"],
+      B1: ["der Pkw"],
+      B2: ["das Fahrzeug"],
+    },
   },
   {
     id: 1335,
@@ -486,6 +566,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["das Kommunikationsmittel"],
+    },
   },
   {
     id: 1336,
@@ -499,6 +582,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["das Unternehmen"],
+      B1: ["der Betrieb"],
+    },
   },
   {
     id: 1337,
@@ -512,6 +599,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Apparat"],
+    },
   },
   {
     id: 1338,
@@ -526,19 +616,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Chef",
-  },
-  {
-    id: 1339,
-    word: "das WLAN (Sg.)",
-    translation: "the wireless LAN / Wi-Fi",
-    definition: "Ein drahtloses lokales Netzwerk.",
-    example: "Gibt es hier kostenloses WLAN?",
-    exampleTranslation: "Is there free Wi-Fi here?",
-    thema: "Technik",
-    priority: "High",
-    favorite: false,
-    level: "A2",
-    type: "word",
+    synonyms: {
+      B1: ["der Vorgesetzte", "der Leiter"],
+    },
   },
   {
     id: 1340,
@@ -553,6 +633,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Chef",
+    synonyms: {
+      B1: ["die Vorgesetzte", "die Leiterin"],
+    },
   },
   {
     id: 1341,
@@ -580,6 +663,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "das Team",
+    synonyms: {
+      A2: ["die Gruppe"],
+      B1: ["die Mannschaft"],
+    },
   },
   {
     id: 1343,
@@ -594,6 +681,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "das Wort",
+    synonyms: {
+      B1: ["das Kennwort"],
+    },
   },
   {
     id: 1344,
@@ -608,6 +698,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "das Team",
+    synonyms: {
+      B1: ["der Gruppenleiter"],
+    },
   },
   {
     id: 1345,
@@ -635,6 +728,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "das Team",
+    synonyms: {
+      B1: ["die Gruppenleiterin"],
+    },
   },
   {
     id: 1347,
@@ -648,6 +744,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Stereoanlage"],
+    },
   },
   {
     id: 1348,
@@ -662,6 +761,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Arbeit",
+    synonyms: {
+      B1: ["die Berufskleidung"],
+    },
   },
   {
     id: 1349,
@@ -701,20 +803,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
-  },
-  {
-    id: 1352,
-    word: "das Personalbüro, -s",
-    translation: "the human resources office",
-    definition: "Das Büro für Personalangelegenheiten in einer Firma.",
-    example: "Die Unterlagen schicken Sie bitte an das Personalbüro.",
-    exampleTranslation: "Please send the documents to the HR office.",
-    thema: "Arbeit",
-    priority: "Low",
-    favorite: false,
-    level: "A2",
-    type: "word",
-    family: "das Büro",
+    synonyms: {
+      B1: ["der Lautsprecher"],
+    },
   },
   {
     id: 1353,
@@ -729,6 +820,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "sehen",
+    synonyms: {
+      B1: ["das Fernsehgerät"],
+    },
   },
   {
     id: 1354,
@@ -743,6 +837,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "schließen",
+    synonyms: {
+      A1: ["zumachen"],
+      B2: ["verschließen"],
+    },
   },
   {
     id: 1355,
@@ -757,6 +855,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "das Buch",
+    synonyms: {
+      B2: ["das Lesegerät"],
+    },
   },
   {
     id: 1356,
@@ -797,6 +898,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["unhöflich"],
+      B1: ["abweisend"],
+      B2: ["schroff"],
+    },
   },
   {
     id: 1359,
@@ -810,6 +916,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["das Magazin"],
+    },
   },
   {
     id: 1360,
@@ -823,6 +932,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Vordruck"],
+    },
   },
   {
     id: 1361,
@@ -836,6 +948,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["das Handy"],
+      A2: ["das Smartphone"],
+    },
   },
   {
     id: 1362,
@@ -849,6 +965,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["eintragen"],
+    },
   },
   {
     id: 1363,
@@ -878,6 +997,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Verkehr",
+    synonyms: {
+      B1: ["der Straßenverkehr"],
+    },
   },
   {
     id: 1365,
@@ -905,6 +1027,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "kommen",
+    synonyms: {
+      A2: ["wiederkommen"],
+      B1: ["zurückkehren"],
+    },
   },
   {
     id: 1367,
@@ -918,6 +1044,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Kurznachricht"],
+      B1: ["die Textnachricht"],
+    },
   },
   {
     id: 1368,
@@ -928,20 +1058,6 @@ export const A2_Vocabulary = [
     exampleTranslation: "We are eating at the pizzeria tonight.",
     thema: "Essen und Trinken",
     priority: "Medium",
-    favorite: false,
-    level: "A2",
-    type: "word",
-  },
-  {
-    id: 1369,
-    word: "der Podcast, -s",
-    translation: "the podcast",
-    definition: "Eine Serie von Audiosendungen im Internet.",
-    example: "Ich höre morgens auf dem Weg zur Arbeit gerne Podcasts.",
-    exampleTranslation:
-      "I like listening to podcasts in the morning on my way to work.",
-    thema: "Medien",
-    priority: "High",
     favorite: false,
     level: "A2",
     type: "word",
@@ -958,6 +1074,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["vorüber"],
+      B1: ["zu Ende"],
+    },
   },
   {
     id: 1371,
@@ -972,6 +1092,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["teilen"],
+      B1: ["veröffentlichen"],
+    },
   },
   {
     id: 1372,
@@ -986,6 +1110,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Einstand",
+    synonyms: {
+      B1: ["die Begrüßungsfeier"],
+    },
   },
   {
     id: 1373,
@@ -1014,6 +1141,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Einstand",
+    synonyms: {
+      B1: ["die Begrüßungsfeier", "die Willkommensfeier"],
+    },
   },
   {
     id: 1375,
@@ -1027,6 +1157,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["nachforschen"],
+    },
   },
   {
     id: 1376,
@@ -1041,6 +1174,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "fahren",
+    synonyms: {
+      B2: ["der Chauffeur"],
+    },
   },
   {
     id: 1377,
@@ -1068,6 +1204,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "fahren",
+    synonyms: {
+      B2: ["die Chauffeurin"],
+    },
   },
   {
     id: 1379,
@@ -1082,6 +1221,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "stellen",
+    synonyms: {
+      B1: ["sammeln"],
+      B2: ["zusammentragen"],
+    },
   },
   {
     id: 1380,
@@ -1108,6 +1251,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Bildschirm"],
+    },
   },
   {
     id: 1382,
@@ -1121,6 +1267,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Snack"],
+    },
   },
   {
     id: 1383,
@@ -1135,6 +1284,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Kriminalroman"],
+      B2: ["der Thriller"],
+    },
   },
   {
     id: 1384,
@@ -1174,6 +1327,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Drink"],
+    },
   },
   {
     id: 1387,
@@ -1188,6 +1344,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "nerven",
+    synonyms: {
+      A2: ["anstrengend"],
+      B1: ["lästig", "störend"],
+    },
   },
   {
     id: 1388,
@@ -1201,6 +1361,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["klar"],
+      B1: ["selbstverständlich"],
+      C1: ["selbstredend"],
+    },
   },
   {
     id: 1389,
@@ -1214,6 +1379,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["praktisch"],
+      B1: ["hilfreich"],
+      C1: ["dienlich"],
+    },
   },
   {
     id: 1390,
@@ -1228,6 +1398,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Kaffee",
+    synonyms: {
+      A2: ["die Pause"],
+    },
   },
   {
     id: 1391,
@@ -1255,6 +1428,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Umgebung"],
+      B2: ["das Viertel"],
+    },
   },
   {
     id: 1393,
@@ -1281,6 +1458,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Club"],
+      B2: ["die Vereinigung"],
+    },
   },
   {
     id: 1395,
@@ -1307,6 +1488,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["das Mobiliar", "die Einrichtung"],
+    },
   },
   {
     id: 1397,
@@ -1320,6 +1504,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["herunterladen <> hochladen"],
+    },
   },
   {
     id: 1398,
@@ -1333,6 +1520,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Sache"],
+      B1: ["der Gegenstand"],
+    },
   },
   {
     id: 1399,
@@ -1346,6 +1537,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Ein-/Aus-Schalter"],
+    },
   },
   {
     id: 1400,
@@ -1373,20 +1567,11 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "prüfen",
-  },
-  {
-    id: 1402,
-    word: "der Schreibtisch, -e",
-    translation: "the desk",
-    definition: "Ein Tisch zum Arbeiten oder Lernen.",
-    example: "Mein Laptop steht auf dem Schreibtisch.",
-    exampleTranslation: "My laptop is on the desk.",
-    thema: "Wohnen",
-    priority: "High",
-    favorite: false,
-    level: "A2",
-    type: "word",
-    family: "schreiben",
+    synonyms: {
+      A2: ["kontrollieren", "testen"],
+      B1: ["überprüfen"],
+      B2: ["untersuchen"],
+    },
   },
   {
     id: 1403,
@@ -1400,6 +1585,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Hauptsitz"],
+      B2: ["die Hauptverwaltung"],
+    },
   },
   {
     id: 1404,
@@ -1414,6 +1603,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "stehen",
+    synonyms: {
+      B1: ["die Stehleuchte"],
+    },
   },
   {
     id: 1405,
@@ -1427,6 +1619,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["vermutlich"],
+      B1: ["voraussichtlich"],
+      B2: ["höchstwahrscheinlich"],
+    },
   },
   {
     id: 1406,
@@ -1440,6 +1637,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Gardine"],
+    },
   },
   {
     id: 1407,
@@ -1466,6 +1666,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Geschirrspüler"],
+    },
   },
   {
     id: 1409,
@@ -1535,6 +1738,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "das Werk",
+    synonyms: {
+      A2: ["die Werkstatt"],
+      B2: ["das Atelier"],
+    },
   },
   {
     id: 1414,
@@ -1575,6 +1782,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "bauen",
+    synonyms: {
+      A2: ["aufbauen"],
+      B1: ["errichten"],
+    },
   },
   {
     id: 1417,
@@ -1602,6 +1813,11 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "stellen",
+    synonyms: {
+      A2: ["der Job"],
+      B1: ["die Anstellung"],
+      B2: ["die Position", "der Posten"],
+    },
   },
   {
     id: 1419,
@@ -1618,20 +1834,6 @@ export const A2_Vocabulary = [
     family: "schließen",
   },
   {
-    id: 1420,
-    word: "das Treffen, -",
-    translation: "the meeting / get-together",
-    definition: "Eine Zusammenkunft von Personen.",
-    example: "Unser Treffen findet morgen statt.",
-    exampleTranslation: "Our meeting takes place tomorrow.",
-    thema: "Freizeit",
-    priority: "Medium",
-    favorite: false,
-    level: "A2",
-    type: "word",
-    family: "treffen",
-  },
-  {
     id: 1421,
     word: "einstecken",
     translation: "to plug in / insert",
@@ -1643,6 +1845,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["anschließen"],
+    },
   },
   {
     id: 1422,
@@ -1699,6 +1904,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["das Gerät"],
+      B1: ["der Apparat"],
+    },
   },
   {
     id: 1426,
@@ -1713,6 +1922,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "schneiden",
+    synonyms: {
+      A2: ["abschneiden"],
+      B1: ["zerschneiden"],
+    },
   },
   {
     id: 1427,
@@ -1726,6 +1939,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["sichern"],
+      B2: ["abspeichern"],
+    },
   },
   {
     id: 1428,
@@ -1753,6 +1970,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["das Programm"],
+      B1: ["die Anwendung"],
+    },
   },
   {
     id: 1430,
@@ -1780,6 +2001,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["vorschlagen"],
+      B1: ["raten"],
+      B2: ["nahelegen"],
+    },
   },
   {
     id: 1432,
@@ -1794,6 +2020,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["die Schau"],
+    },
   },
   {
     id: 1433,
@@ -1807,19 +2036,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
-  },
-  {
-    id: 1434,
-    word: "chillen",
-    translation: "to chill / relax",
-    definition: "Sich entspannen und ausruhen.",
-    example: "Am Wochenende möchte ich einfach nur chillen.",
-    exampleTranslation: "On the weekend I just want to chill.",
-    thema: "Freizeit",
-    priority: "Medium",
-    favorite: false,
-    level: "A2",
-    type: "word",
+    synonyms: {
+      A2: ["passieren"],
+    },
   },
   {
     id: 1435,
@@ -1833,6 +2052,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["das Mädchen"],
+    },
   },
   {
     id: 1436,
@@ -1846,6 +2068,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Trödelmarkt"],
+    },
   },
   {
     id: 1437,
@@ -1860,6 +2085,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "reisen",
+    synonyms: {
+      B1: ["die Urlaubszeit", "die Saison"],
+    },
   },
   {
     id: 1438,
@@ -1874,6 +2102,11 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "spannen",
+    synonyms: {
+      A2: ["interessant"],
+      B1: ["aufregend"],
+      B2: ["fesselnd", "packend"],
+    },
   },
   {
     id: 1439,
@@ -1887,6 +2120,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["reservieren"],
+      B1: ["vorbestellen"],
+    },
   },
   {
     id: 1440,
@@ -1900,6 +2137,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Verbindung"],
+    },
   },
   {
     id: 1441,
@@ -1913,6 +2153,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Vogelgesang"],
+      B2: ["der Vogelruf"],
+    },
   },
   {
     id: 1442,
@@ -1926,6 +2170,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Gott sei Dank"],
+      B1: ["glücklicherweise"],
+    },
   },
   {
     id: 1443,
@@ -1939,6 +2187,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["der Sperling"],
+    },
   },
   {
     id: 1444,
@@ -1953,6 +2204,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "stellen",
+    synonyms: {
+      A2: ["der Teilzeitjob"],
+      B1: ["die Teilzeitarbeit"],
+    },
   },
   {
     id: 1445,
@@ -1981,6 +2236,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "phrase",
     family: "der Sport",
+    synonyms: {
+      A1: ["Sport machen"],
+      B2: ["sich sportlich betätigen"],
+    },
   },
   {
     id: 1447,
@@ -2007,6 +2266,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["funktionieren"],
+      B1: ["gelingen"],
+      C1: ["glücken"],
+    },
   },
   {
     id: 1449,
@@ -2034,6 +2298,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Firmenausflug"],
+    },
   },
   {
     id: 1451,
@@ -2048,6 +2315,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Tutor",
+    synonyms: {
+      B2: ["der Mentor"],
+    },
   },
   {
     id: 1452,
@@ -2062,6 +2332,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "phrase",
     family: "verlieben",
+    synonyms: {
+      B1: ["verknallt sein"],
+    },
   },
   {
     id: 1453,
@@ -2076,6 +2349,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Tutor",
+    synonyms: {
+      B2: ["die Mentorin"],
+    },
   },
   {
     id: 1454,
@@ -2089,6 +2365,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["wirklich"],
+      B1: ["tatsächlich"],
+      B2: ["authentisch"],
+    },
   },
   {
     id: 1455,
@@ -2103,6 +2384,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "das Wort",
+    synonyms: {
+      A2: ["die Vokabel-App"],
+    },
   },
   {
     id: 1456,
@@ -2116,6 +2400,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Terminkalender"],
+    },
   },
   {
     id: 1457,
@@ -2129,21 +2416,6 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
-  },
-  {
-    id: 1458,
-    word: "der Elternabend, -e",
-    translation: "the parent-teacher evening",
-    definition: "Eine Versammlung von Eltern in einer Schule oder Kita.",
-    example: "Morgen Abend ist Elternabend in der Schule.",
-    exampleTranslation:
-      "Tomorrow evening is the parent-teacher evening at school.",
-    thema: "Arbeit",
-    priority: "Low",
-    favorite: false,
-    level: "A2",
-    type: "word",
-    family: "die Eltern",
   },
   {
     id: 1459,
@@ -2212,6 +2484,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["sagen"],
+      B1: ["mitteilen", "ausdrücken"],
+    },
   },
   {
     id: 1464,
@@ -2239,6 +2515,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "das Handwerk",
+    synonyms: {
+      B2: ["das Gewerbe"],
+    },
   },
   {
     id: 1466,
@@ -2253,6 +2532,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "privat",
+    synonyms: {
+      A2: ["persönlich"],
+      B2: ["nichtöffentlich"],
+    },
   },
   {
     id: 1467,
@@ -2280,6 +2563,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["der Kinderbetreuer"],
+    },
   },
   {
     id: 1469,
@@ -2294,20 +2580,6 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "das Handwerk",
-  },
-  {
-    id: 1470,
-    word: "der Nachttisch, -e",
-    translation: "the bedside table",
-    definition: "Ein kleiner Tisch neben dem Bett.",
-    example: "Meine Lampe steht auf dem Nachttisch.",
-    exampleTranslation: "My lamp is on the bedside table.",
-    thema: "Wohnen",
-    priority: "Medium",
-    favorite: false,
-    level: "A2",
-    type: "word",
-    family: "der Tisch",
   },
   {
     id: 1471,
@@ -2336,6 +2608,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "das Werk",
+    synonyms: {
+      B1: ["die Reparaturwerkstatt"],
+    },
   },
   {
     id: 1473,
@@ -2363,6 +2638,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["das Vorhaben"],
+    },
   },
   {
     id: 1475,
@@ -2391,6 +2669,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Senior",
+    synonyms: {
+      A2: ["der Rentner"],
+      B2: ["der Pensionär"],
+    },
   },
   {
     id: 1477,
@@ -2419,6 +2701,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Senior",
+    synonyms: {
+      A2: ["die Rentnerin"],
+      B2: ["die Pensionärin"],
+    },
   },
   {
     id: 1479,
@@ -2433,6 +2719,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Tisch",
+    synonyms: {
+      B1: ["der Schreiner"],
+    },
   },
   {
     id: 1480,
@@ -2446,6 +2735,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["fachmännisch", "fachkundig"],
+    },
   },
   {
     id: 1481,
@@ -2460,6 +2752,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Tisch",
+    synonyms: {
+      B1: ["die Schreinerin"],
+    },
   },
   {
     id: 1482,
@@ -2473,6 +2768,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["ausmachen", "verabreden"],
+      B1: ["absprechen"],
+    },
   },
   {
     id: 1483,
@@ -2487,19 +2786,6 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "elektrisch",
-  },
-  {
-    id: 1484,
-    word: "der Chor, Chöre",
-    translation: "the choir",
-    definition: "Eine Gruppe von Sängern, die gemeinsam musizieren.",
-    example: "Sie singt in einem Chor.",
-    exampleTranslation: "She sings in a choir.",
-    thema: "Freizeit",
-    priority: "Low",
-    favorite: false,
-    level: "A2",
-    type: "word",
   },
   {
     id: 1485,
@@ -2528,6 +2814,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Reservierung"],
+    },
   },
   {
     id: 1487,
@@ -2542,6 +2831,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "installieren",
+    synonyms: {
+      B1: ["der Klempner"],
+    },
   },
   {
     id: 1488,
@@ -2555,6 +2847,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Rabatt"],
+      B1: ["die Vergünstigung"],
+      B2: ["der Nachlass"],
+    },
   },
   {
     id: 1489,
@@ -2569,6 +2866,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "installieren",
+    synonyms: {
+      B1: ["die Klempnerin"],
+    },
   },
   {
     id: 1490,
@@ -2665,6 +2965,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "phrase",
     family: "fahren",
+    synonyms: {
+      B1: ["Ski laufen"],
+    },
   },
   {
     id: 1497,
@@ -2678,20 +2981,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
-  },
-  {
-    id: 1498,
-    word: "Tischtennis",
-    translation: "table tennis / ping-pong",
-    definition: "Ein schnelles Rückschlagspiel auf einem Tisch mit Platte.",
-    example: "Wir spielen in der Pause Tischtennis.",
-    exampleTranslation: "We play table tennis during the break.",
-    thema: "Freizeit",
-    priority: "Medium",
-    favorite: false,
-    level: "A2",
-    type: "word",
-    family: "das Tennis",
+    synonyms: {
+      A2: ["abstellen"],
+      B1: ["zudrehen", "abschalten"],
+    },
   },
   {
     id: 1499,
@@ -2705,6 +2998,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["das Wasserrohr"],
+    },
   },
   {
     id: 1500,
@@ -2732,6 +3028,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "legen",
+    synonyms: {
+      A2: ["legen"],
+      B1: ["installieren"],
+    },
   },
   {
     id: 1502,
@@ -2742,32 +3042,6 @@ export const A2_Vocabulary = [
     exampleTranslation: "She does yoga every morning.",
     thema: "Freizeit",
     priority: "High",
-    favorite: false,
-    level: "A2",
-    type: "word",
-  },
-  {
-    id: 1503,
-    word: "tapezieren",
-    translation: "to wallpaper",
-    definition: "Wände mit Tapeten versehen.",
-    example: "Wir wollen am Wochenende das Schlafzimmer tapezieren.",
-    exampleTranslation: "We want to wallpaper the bedroom on the weekend.",
-    thema: "Wohnen",
-    priority: "Medium",
-    favorite: false,
-    level: "A2",
-    type: "word",
-  },
-  {
-    id: 1504,
-    word: "Schach",
-    translation: "chess",
-    definition: "Ein strategisches Brettspiel für zwei Spieler.",
-    example: "Er spielt gerne Schach mit seinem Opa.",
-    exampleTranslation: "He likes playing chess with his grandpa.",
-    thema: "Freizeit",
-    priority: "Low",
     favorite: false,
     level: "A2",
     type: "word",
@@ -2784,6 +3058,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["einfärben"],
+      B2: ["tönen"],
+    },
   },
   {
     id: 1506,
@@ -2797,6 +3075,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Beitrag", "die Mitgliedsgebühr"],
+    },
   },
   {
     id: 1507,
@@ -2826,20 +3107,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Verkehr",
-  },
-  {
-    id: 1509,
-    word: "der Traumberuf, -e",
-    translation: "the dream job",
-    definition: "Der Beruf, den man sich am meisten wünscht.",
-    example: "Journalist zu sein ist mein absoluter Traumberuf.",
-    exampleTranslation: "Being a journalist is my absolute dream job.",
-    thema: "Arbeit",
-    priority: "High",
-    favorite: false,
-    level: "A2",
-    type: "word",
-    family: "der Beruf",
+    synonyms: {
+      B1: ["das Transportmittel"],
+      B2: ["das Beförderungsmittel"],
+    },
   },
   {
     id: 1510,
@@ -2855,6 +3126,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Bahn",
+    synonyms: {
+      A2: ["die Tram"],
+    },
   },
   {
     id: 1511,
@@ -2870,6 +3144,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Astronaut",
+    synonyms: {
+      B2: ["der Raumfahrer"],
+    },
   },
   {
     id: 1512,
@@ -2884,6 +3161,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Bahn",
+    synonyms: {
+      A1: ["der Zug"],
+      B1: ["die Eisenbahn"],
+    },
   },
   {
     id: 1513,
@@ -2898,6 +3179,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Astronaut",
+    synonyms: {
+      B2: ["die Raumfahrerin"],
+    },
   },
   {
     id: 1514,
@@ -2912,6 +3196,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Verzögerung"],
+    },
   },
   {
     id: 1515,
@@ -2939,6 +3226,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Eingang"],
+      B1: ["der Zugang"],
+    },
   },
   {
     id: 1517,
@@ -2967,6 +3258,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["rollstuhlgerecht"],
+      B2: ["behindertengerecht"],
+    },
   },
   {
     id: 1519,
@@ -2981,6 +3276,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Mechanik",
+    synonyms: {
+      B1: ["der Monteur"],
+    },
   },
   {
     id: 1520,
@@ -3008,6 +3306,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Mechanik",
+    synonyms: {
+      B1: ["die Monteurin"],
+    },
   },
   {
     id: 1522,
@@ -3021,6 +3322,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["das Lastenrad"],
+    },
   },
   {
     id: 1523,
@@ -3034,6 +3338,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["aufgeben", "abbestellen"],
+    },
   },
   {
     id: 1524,
@@ -3061,6 +3368,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["das Fußballfeld"],
+    },
   },
   {
     id: 1526,
@@ -3088,6 +3398,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Dienst"],
+    },
   },
   {
     id: 1528,
@@ -3114,6 +3427,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Lohn"],
+      B1: ["der Verdienst"],
+      B2: ["die Vergütung"],
+    },
   },
   {
     id: 1530,
@@ -3142,6 +3460,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Stress"],
+      B1: ["die Eile"],
+      B2: ["die Hektik"],
+    },
   },
   {
     id: 1532,
@@ -3173,19 +3496,6 @@ export const A2_Vocabulary = [
     family: "privat",
   },
   {
-    id: 1534,
-    word: "der Parkplatz, Parkplätze",
-    translation: "the parking space / parking lot",
-    definition: "Eine Fläche zum Abstellen von Kraftfahrzeugen.",
-    example: "Ich muss einen Parkplatz suchen.",
-    exampleTranslation: "I have to look for a parking space.",
-    thema: "Reisen & Verkehr",
-    priority: "High",
-    favorite: false,
-    level: "A2",
-    type: "word",
-  },
-  {
     id: 1535,
     word: "die Privatkundin, -nen",
     translation: "the private customer (female)",
@@ -3212,6 +3522,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A1: ["manchmal"],
+      B1: ["gelegentlich", "hin und wieder"],
+      B2: ["bisweilen", "mitunter"],
+    },
   },
   {
     id: 1537,
@@ -3225,6 +3540,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["vielseitig"],
+      B2: ["facettenreich"],
+    },
   },
   {
     id: 1538,
@@ -3238,6 +3557,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["normalerweise"],
+      B1: ["in der Regel"],
+      B2: ["überwiegend"],
+    },
   },
   {
     id: 1539,
@@ -3251,6 +3575,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["drei Jahre alt"],
+    },
   },
   {
     id: 1540,
@@ -3264,6 +3591,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["fragen"],
+      B2: ["sich erkundigen"],
+      C1: ["nachhaken"],
+    },
   },
   {
     id: 1541,
@@ -3290,6 +3622,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["feucht"],
+      B1: ["durchnässt"],
+      B2: ["klitschnass"],
+    },
   },
   {
     id: 1543,
@@ -3304,6 +3641,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Beruf",
+    synonyms: {
+      B2: ["die Karriereberatung"],
+    },
   },
   {
     id: 1544,
@@ -3332,6 +3672,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["die Eignungsprüfung"],
+    },
   },
   {
     id: 1546,
@@ -3361,6 +3704,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Berufsberater"],
+    },
   },
   {
     id: 1548,
@@ -3442,6 +3788,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["gleich"],
+      B2: ["identisch"],
+    },
   },
   {
     id: 1554,
@@ -3455,6 +3805,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["falls"],
+      B1: ["sobald"],
+      B2: ["sofern"],
+    },
   },
   {
     id: 1555,
@@ -3469,6 +3824,11 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "treffen",
+    synonyms: {
+      A2: ["stimmen"],
+      B1: ["gelten"],
+      B2: ["sich bewahrheiten"],
+    },
   },
   {
     id: 1556,
@@ -3482,6 +3842,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["schlau"],
+      B1: ["intelligent"],
+      B2: ["gescheit"],
+    },
   },
   {
     id: 1557,
@@ -3495,6 +3860,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Kraft"],
+      B1: ["die Fähigkeit"],
+    },
   },
   {
     id: 1558,
@@ -3508,6 +3877,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["nützlich"],
+      B2: ["zweckmäßig"],
+    },
   },
   {
     id: 1559,
@@ -3523,6 +3896,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "das Team",
+    synonyms: {
+      B1: ["kollegial"],
+      B2: ["kooperativ"],
+    },
   },
   {
     id: 1560,
@@ -3536,6 +3913,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["So ein Pech!"],
+      B1: ["Verflixt!"],
+      B2: ["Verdammt!"],
+    },
   },
   {
     id: 1561,
@@ -3550,6 +3932,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Motivation",
+    synonyms: {
+      B1: ["engagiert"],
+      B2: ["eifrig"],
+    },
   },
   {
     id: 1562,
@@ -3564,6 +3950,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["denken", "glauben"],
+      B1: ["der Meinung sein"],
+    },
   },
   {
     id: 1563,
@@ -3577,19 +3967,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
-  },
-  {
-    id: 1564,
-    word: "zu Fuß",
-    translation: "on foot",
-    definition: "Sich gehend fortbewegen.",
-    example: "Zur Arbeit gehe ich meistens zu Fuß.",
-    exampleTranslation: "I usually walk to work on foot.",
-    thema: "Reisen & Verkehr",
-    priority: "High",
-    favorite: false,
-    level: "A2",
-    type: "phrase",
+    synonyms: {
+      B2: ["gelassen", "nachsichtig"],
+    },
   },
   {
     id: 1565,
@@ -3605,6 +3985,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Konditor",
+    synonyms: {
+      B2: ["der Patissier"],
+    },
   },
   {
     id: 1566,
@@ -3632,6 +4015,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Konditor",
+    synonyms: {
+      B2: ["die Patissière"],
+    },
   },
   {
     id: 1568,
@@ -3659,6 +4045,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Fantasie"],
+      B2: ["der Ideenreichtum"],
+    },
   },
   {
     id: 1570,
@@ -3672,6 +4062,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["gemütlich"],
+      B1: ["komfortabel"],
+      B2: ["behaglich"],
+    },
   },
   {
     id: 1571,
@@ -3685,6 +4080,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Unabhängigkeit"],
+      B2: ["die Eigenständigkeit"],
+    },
   },
   {
     id: 1572,
@@ -3698,6 +4097,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["riskant"],
+      B2: ["bedrohlich"],
+    },
   },
   {
     id: 1573,
@@ -3713,6 +4116,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Motivation",
+    synonyms: {
+      B1: ["der Antrieb"],
+      B2: ["der Ansporn"],
+    },
   },
   {
     id: 1574,
@@ -3727,6 +4134,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "kommen",
+    synonyms: {
+      A2: ["ankommen"],
+      B2: ["gelangen"],
+    },
   },
   {
     id: 1575,
@@ -3741,6 +4152,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "das Team",
+    synonyms: {
+      B2: ["die Kooperationsfähigkeit"],
+    },
   },
   {
     id: 1576,
@@ -3755,6 +4169,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["umweltfreundlich"],
+      B2: ["klimaschonend", "umweltschonend"],
+    },
   },
   {
     id: 1577,
@@ -3769,6 +4187,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "bewerben",
+    synonyms: {
+      B1: ["der Kandidat"],
+    },
   },
   {
     id: 1578,
@@ -3784,6 +4205,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "das Auto",
+    synonyms: {
+      B1: ["das Elektroauto"],
+    },
   },
   {
     id: 1579,
@@ -3799,6 +4223,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "bewerben",
+    synonyms: {
+      B1: ["die Kandidatin"],
+    },
   },
   {
     id: 1580,
@@ -3828,6 +4255,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "restaurieren",
+    synonyms: {
+      A2: ["renovieren"],
+      B2: ["wiederherstellen"],
+    },
   },
   {
     id: 1582,
@@ -3842,6 +4273,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "sammeln",
+    synonyms: {
+      A2: ["sammeln"],
+      B1: ["aufsammeln"],
+    },
   },
   {
     id: 1583,
@@ -3856,6 +4291,11 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "bilden",
+    synonyms: {
+      A2: ["unterrichten"],
+      B1: ["schulen"],
+      B2: ["qualifizieren"],
+    },
   },
   {
     id: 1584,
@@ -3869,6 +4309,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["fest", "schwer"],
+    },
   },
   {
     id: 1585,
@@ -3882,6 +4325,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["toll", "super"],
+      B1: ["fantastisch", "wunderbar"],
+      B2: ["hervorragend", "grandios"],
+    },
   },
   {
     id: 1586,
@@ -3895,6 +4343,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["verschieden"],
+      B1: ["unterschiedlich"],
+      B2: ["abweichend"],
+    },
   },
   {
     id: 1587,
@@ -3909,6 +4362,11 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Stadt",
+    synonyms: {
+      A2: ["das Zentrum"],
+      B1: ["die Stadtmitte"],
+      B2: ["die City"],
+    },
   },
   {
     id: 1588,
@@ -3937,6 +4395,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Tisch",
+    synonyms: {
+      B1: ["die Schreinerei"],
+    },
   },
   {
     id: 1590,
@@ -3950,6 +4411,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Ansicht", "die Auffassung"],
+      B2: ["die Überzeugung"],
+    },
   },
   {
     id: 1591,
@@ -3978,6 +4443,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["das Handicap"],
+      B2: ["die Beeinträchtigung", "die Einschränkung"],
+    },
   },
   {
     id: 1593,
@@ -4005,20 +4474,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
-  },
-  {
-    id: 1595,
-    word: "die Werkstatt, Werkstätten",
-    translation: "the workshop",
-    definition: "Ein Arbeitsraum für handwerkliche Reparaturen.",
-    example: "Das Auto steht für die Reparatur in der Werkstatt.",
-    exampleTranslation: "The car is in the workshop for repair.",
-    thema: "Arbeit",
-    priority: "High",
-    favorite: false,
-    level: "A2",
-    type: "word",
-    family: "das Werk",
+    synonyms: {
+      A2: ["der Gehweg"],
+      B1: ["der Gehsteig"],
+    },
   },
   {
     id: 1596,
@@ -4046,6 +4505,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["renovieren"],
+      B1: ["ersetzen"],
+      B2: ["modernisieren", "sanieren"],
+    },
   },
   {
     id: 1598,
@@ -4119,6 +4583,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["unmittelbar"],
+      B2: ["geradewegs"],
+    },
   },
   {
     id: 1603,
@@ -4134,20 +4602,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "das Amt",
-  },
-  {
-    id: 1604,
-    word: "der Kinderwagen, -",
-    translation: "the pram / baby carriage",
-    definition: "Ein Transportwagen für Babys und Kleinkinder.",
-    example: "Im Bus gibt es extra Platz für den Kinderwagen.",
-    exampleTranslation: "There is extra space for the pram on the bus.",
-    thema: "Familie",
-    priority: "Medium",
-    favorite: false,
-    level: "A2",
-    type: "word",
-    family: "das Kind",
+    synonyms: {
+      B1: ["das Meldeamt", "das Bürgeramt"],
+    },
   },
   {
     id: 1605,
@@ -4178,6 +4635,11 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "sehen",
+    synonyms: {
+      A1: ["besuchen"],
+      A2: ["anschauen"],
+      B2: ["erkunden"],
+    },
   },
   {
     id: 1607,
@@ -4207,6 +4669,11 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "spannen",
+    synonyms: {
+      A2: ["sich erholen", "sich ausruhen"],
+      B1: ["relaxen"],
+      B2: ["abschalten"],
+    },
   },
   {
     id: 1609,
@@ -4237,6 +4704,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "sehen",
+    synonyms: {
+      B1: ["die Attraktion"],
+    },
   },
   {
     id: 1611,
@@ -4251,6 +4721,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["der Aufenthaltstitel", "die Aufenthaltsgenehmigung"],
+    },
   },
   {
     id: 1612,
@@ -4277,6 +4750,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      B1: ["beantragen"],
+    },
   },
   {
     id: 1614,
@@ -4318,6 +4794,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Ausflug"],
+      B1: ["die Rundfahrt"],
+    },
   },
   {
     id: 1617,
@@ -4345,6 +4825,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["besprechen"],
+      B2: ["debattieren", "erörtern"],
+    },
   },
   {
     id: 1619,
@@ -4386,6 +4870,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Todesfall"],
+    },
   },
   {
     id: 1622,
@@ -4399,6 +4886,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["sprechen"],
+      B1: ["sich unterhalten"],
+    },
   },
   {
     id: 1623,
@@ -4413,20 +4904,11 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Schule",
-  },
-  {
-    id: 1624,
-    word: "die Stadtführung, -en",
-    translation: "the city tour / guided tour",
-    definition: "Ein geführter Rundgang durch eine Stadt mit Erklärungen.",
-    example: "Um zehn Uhr beginnt unsere Stadtführung.",
-    exampleTranslation: "Our city tour starts at ten o'clock.",
-    thema: "Reisen & Verkehr",
-    priority: "Medium",
-    favorite: false,
-    level: "A2",
-    type: "word",
-    family: "die Stadt",
+    synonyms: {
+      A2: ["das Training"],
+      B1: ["die Fortbildung"],
+      B2: ["die Weiterbildung"],
+    },
   },
   {
     id: 1625,
@@ -4454,6 +4936,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Freizeitpark"],
+      B2: ["der Themenpark"],
+    },
   },
   {
     id: 1627,
@@ -4483,6 +4969,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "schlagen",
+    synonyms: {
+      A2: ["die Idee"],
+      B2: ["die Anregung"],
+    },
   },
   {
     id: 1629,
@@ -4497,6 +4987,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "finden",
+    synonyms: {
+      B1: ["das Fundstück"],
+    },
   },
   {
     id: 1630,
@@ -4511,6 +5004,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "schlagen",
+    synonyms: {
+      B1: ["die Alternative"],
+    },
   },
   {
     id: 1631,
@@ -4540,6 +5036,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "sprechen",
+    synonyms: {
+      B1: ["der Einwand"],
+      B2: ["der Protest"],
+    },
   },
   {
     id: 1633,
@@ -4567,6 +5067,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Wolke",
+    synonyms: {
+      B1: ["wolkig"],
+      B2: ["bedeckt"],
+    },
   },
   {
     id: 1635,
@@ -4580,6 +5084,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["das Schild"],
+    },
   },
   {
     id: 1636,
@@ -4608,6 +5115,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "warten",
+    synonyms: {
+      A2: ["der Warteraum"],
+      B1: ["das Wartezimmer"],
+    },
   },
   {
     id: 1638,
@@ -4622,6 +5133,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Wind",
+    synonyms: {
+      B2: ["böig"],
+    },
   },
   {
     id: 1639,
@@ -4677,6 +5191,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["dunstig"],
+    },
   },
   {
     id: 1643,
@@ -4691,6 +5208,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Sache",
+    synonyms: {
+      A2: ["der Mitarbeiter"],
+      B1: ["der Angestellte"],
+    },
   },
   {
     id: 1644,
@@ -4704,6 +5225,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["ausgetrocknet"],
+    },
   },
   {
     id: 1645,
@@ -4718,6 +5242,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Sache",
+    synonyms: {
+      A2: ["die Mitarbeiterin"],
+      B1: ["die Angestellte"],
+    },
   },
   {
     id: 1646,
@@ -4732,6 +5260,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Sonne",
+    synonyms: {
+      B1: ["heiter"],
+      B2: ["wolkenlos"],
+    },
   },
   {
     id: 1647,
@@ -4745,6 +5277,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["zum Schluss"],
+      B1: ["am Ende", "schließlich"],
+    },
   },
   {
     id: 1648,
@@ -4786,6 +5322,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "nerven",
+    synonyms: {
+      A2: ["stören", "ärgern"],
+      B2: ["belästigen"],
+    },
   },
   {
     id: 1651,
@@ -4814,6 +5354,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Regen",
+    synonyms: {
+      A2: ["der Schirm"],
+    },
   },
   {
     id: 1653,
@@ -4841,6 +5384,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Höhepunkt"],
+      C1: ["der Glanzpunkt"],
+    },
   },
   {
     id: 1655,
@@ -4855,6 +5402,11 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "das Bußgeld",
+    synonyms: {
+      A2: ["die Strafe"],
+      B1: ["die Geldstrafe"],
+      B2: ["die Geldbuße"],
+    },
   },
   {
     id: 1656,
@@ -4883,6 +5435,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "das Bußgeld",
+    synonyms: {
+      B1: ["der Strafzettel"],
+      B2: ["der Strafbescheid"],
+    },
   },
   {
     id: 1658,
@@ -4896,6 +5452,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["die Mayo"],
+      B2: ["die Majonäse"],
+    },
   },
   {
     id: 1659,
@@ -4910,6 +5470,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Radarfalle"],
+      B2: ["das Radargerät"],
+    },
   },
   {
     id: 1660,
@@ -4924,6 +5488,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "danken",
+    synonyms: {
+      A2: ["der Dank"],
+    },
   },
   {
     id: 1661,
@@ -4951,6 +5518,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["schlendern"],
+      C1: ["flanieren"],
+    },
   },
   {
     id: 1663,
@@ -4965,6 +5536,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "sprechen",
+    synonyms: {
+      B2: ["der Widerspruch", "der Protest"],
+    },
   },
   {
     id: 1664,
@@ -4978,6 +5552,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["ein paar", "mehrere"],
+      B1: ["manche"],
+    },
   },
   {
     id: 1665,
@@ -4992,6 +5570,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "phrase",
     family: "legen",
+    synonyms: {
+      B2: ["Widerspruch einlegen", "Protest einlegen"],
+    },
   },
   {
     id: 1666,
@@ -5006,6 +5587,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "gehen",
+    synonyms: {
+      A2: ["weitermachen", "weiterlaufen"],
+      B1: ["fortfahren"],
+    },
   },
   {
     id: 1667,
@@ -5019,6 +5604,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["auf jeden Fall"],
+      B2: ["immerhin"],
+    },
   },
   {
     id: 1668,
@@ -5034,6 +5623,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Bahn",
+    synonyms: {
+      B1: ["der Sessellift"],
+    },
   },
   {
     id: 1669,
@@ -5062,6 +5654,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["schreien"],
+      B2: ["grölen"],
+    },
   },
   {
     id: 1671,
@@ -5090,6 +5686,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["mithaben"],
+      B1: ["bei sich haben"],
+    },
   },
   {
     id: 1673,
@@ -5104,6 +5704,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "finden",
+    synonyms: {
+      B1: ["die Belohnung"],
+    },
   },
   {
     id: 1674,
@@ -5117,6 +5720,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["das Gotteshaus"],
+    },
   },
   {
     id: 1675,
@@ -5131,6 +5737,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "besitzen",
+    synonyms: {
+      B1: ["der Eigentümer", "der Inhaber"],
+    },
   },
   {
     id: 1676,
@@ -5145,6 +5754,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "leiten",
+    synonyms: {
+      B1: ["der Reiseführer"],
+      B2: ["der Guide"],
+    },
   },
   {
     id: 1677,
@@ -5160,6 +5773,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "besitzen",
+    synonyms: {
+      B1: ["die Eigentümerin", "die Inhaberin"],
+    },
   },
   {
     id: 1678,
@@ -5174,6 +5790,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "leiten",
+    synonyms: {
+      B1: ["die Reiseführerin"],
+    },
   },
   {
     id: 1679,
@@ -5187,6 +5806,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["nirgendwo"],
+    },
   },
   {
     id: 1680,
@@ -5228,6 +5850,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Schulleiter", "der Rektor"],
+    },
   },
   {
     id: 1683,
@@ -5241,6 +5866,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die EC-Karte"],
+      B1: ["die Girokarte"],
+    },
   },
   {
     id: 1684,
@@ -5254,6 +5883,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Schulleiterin", "die Direktorin"],
+    },
   },
   {
     id: 1685,
@@ -5296,6 +5928,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Behörde",
+    synonyms: {
+      B2: ["der Amtsbrief", "das Amtsschreiben"],
+    },
   },
   {
     id: 1688,
@@ -5325,6 +5960,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Behörde",
+    synonyms: {
+      B2: ["das Amtsdeutsch"],
+    },
   },
   {
     id: 1690,
@@ -5353,6 +5991,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "phrase",
     family: "üben",
+    synonyms: {
+      A2: ["arbeiten"],
+      B2: ["einer Tätigkeit nachgehen"],
+    },
   },
   {
     id: 1692,
@@ -5381,6 +6023,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Arbeit",
+    synonyms: {
+      B1: ["erledigen"],
+      B2: ["verarbeiten"],
+    },
   },
   {
     id: 1694,
@@ -5408,6 +6054,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Leistungen erhalten"],
+      B2: ["Leistungen in Anspruch nehmen"],
+    },
   },
   {
     id: 1696,
@@ -5436,6 +6086,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Unterlage",
+    synonyms: {
+      A2: ["das Dokument"],
+      B2: ["das Schriftstück"],
+    },
   },
   {
     id: 1698,
@@ -5464,6 +6118,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "phrase",
     family: "die Unterlage",
+    synonyms: {
+      A2: ["Unterlagen abgeben"],
+      B1: ["Dokumente einreichen"],
+    },
   },
   {
     id: 1700,
@@ -5506,6 +6164,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Bestätigung"],
+      B1: ["der Nachweis"],
+    },
   },
   {
     id: 1703,
@@ -5519,6 +6181,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Eisdiele"],
+    },
   },
   {
     id: 1704,
@@ -5532,6 +6197,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A1: ["hier sein"],
+      B1: ["anwesend sein"],
+    },
   },
   {
     id: 1705,
@@ -5546,6 +6215,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Verkehr",
+    synonyms: {
+      B1: ["die Polizeikontrolle"],
+    },
   },
   {
     id: 1706,
@@ -5559,6 +6231,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["abholen"],
+      B1: ["besorgen"],
+    },
   },
   {
     id: 1707,
@@ -5573,6 +6249,11 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "schließen",
+    synonyms: {
+      A2: ["zuschließen"],
+      B1: ["zusperren", "beenden"],
+      B2: ["fertigstellen"],
+    },
   },
   {
     id: 1708,
@@ -5586,6 +6267,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["tätig"],
+      B2: ["engagiert", "rege"],
+    },
   },
   {
     id: 1709,
@@ -5599,6 +6284,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["modern"],
+      B1: ["momentan"],
+      B2: ["gegenwärtig"],
+    },
   },
   {
     id: 1710,
@@ -5640,6 +6330,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "anbieten",
+    synonyms: {
+      A2: ["bieten"],
+      B2: ["offerieren"],
+    },
   },
   {
     id: 1713,
@@ -5654,6 +6348,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "anbieten",
+    synonyms: {
+      B2: ["die Offerte"],
+    },
   },
   {
     id: 1714,
@@ -5667,6 +6364,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["verändern"],
+      B1: ["abändern", "wechseln"],
+    },
   },
   {
     id: 1715,
@@ -5681,6 +6382,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "kommen",
+    synonyms: {
+      B2: ["das Eintreffen"],
+    },
   },
   {
     id: 1716,
@@ -5695,6 +6399,11 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "machen",
+    synonyms: {
+      A1: ["einschalten"],
+      A2: ["anstellen"],
+      B1: ["anschalten"],
+    },
   },
   {
     id: 1717,
@@ -5709,6 +6418,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "melden",
+    synonyms: {
+      B1: ["sich registrieren"],
+      B2: ["sich einschreiben"],
+    },
   },
   {
     id: 1718,
@@ -5723,6 +6436,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "melden",
+    synonyms: {
+      B1: ["die Registrierung"],
+      B2: ["die Einschreibung"],
+    },
   },
   {
     id: 1719,
@@ -5736,6 +6453,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["schreien"],
+      B1: ["herbeirufen"],
+    },
   },
   {
     id: 1720,
@@ -5750,6 +6471,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "schließen",
+    synonyms: {
+      B1: ["die Verbindung"],
+    },
   },
   {
     id: 1721,
@@ -5763,6 +6487,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["antworten"],
+    },
   },
   {
     id: 1722,
@@ -5789,6 +6516,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["das Gerät"],
+      B2: ["die Vorrichtung"],
+    },
   },
   {
     id: 1724,
@@ -5802,6 +6533,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["mittellos", "bedürftig"],
+    },
   },
   {
     id: 1725,
@@ -5815,6 +6549,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["bestimmt"],
+      B1: ["unbedingt"],
+      B2: ["definitiv"],
+    },
   },
   {
     id: 1726,
@@ -5829,6 +6568,11 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "hören",
+    synonyms: {
+      A2: ["stoppen"],
+      B1: ["beenden"],
+      B2: ["einstellen"],
+    },
   },
   {
     id: 1727,
@@ -5842,6 +6586,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["spannend"],
+      B2: ["fesselnd", "packend"],
+    },
   },
   {
     id: 1728,
@@ -5855,6 +6603,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["der Fahrstuhl"],
+      A2: ["der Lift"],
+    },
   },
   {
     id: 1729,
@@ -5882,6 +6634,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["aufwenden"],
+    },
   },
   {
     id: 1731,
@@ -5896,6 +6651,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "gehen",
+    synonyms: {
+      A2: ["feiern gehen"],
+    },
   },
   {
     id: 1732,
@@ -5909,6 +6667,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Information"],
+      B2: ["der Bescheid"],
+    },
   },
   {
     id: 1733,
@@ -5923,6 +6685,11 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "machen",
+    synonyms: {
+      A1: ["ausschalten"],
+      A2: ["abstellen"],
+      B1: ["abschalten"],
+    },
   },
   {
     id: 1734,
@@ -5937,6 +6704,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "packen",
+    synonyms: {
+      B1: ["ausräumen"],
+      B2: ["auswickeln"],
+    },
   },
   {
     id: 1735,
@@ -5950,6 +6721,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["sich erholen", "sich entspannen"],
+      B2: ["rasten"],
+    },
   },
   {
     id: 1736,
@@ -5963,6 +6738,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["bis auf", "abgesehen von"],
+      B2: ["ausgenommen"],
+    },
   },
   {
     id: 1737,
@@ -5976,6 +6755,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["zusätzlich"],
+      B1: ["darüber hinaus"],
+      B2: ["ferner", "überdies"],
+    },
   },
   {
     id: 1738,
@@ -6003,6 +6787,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "sprechen",
+    synonyms: {
+      A2: ["sagen"],
+      B2: ["artikulieren"],
+    },
   },
   {
     id: 1740,
@@ -6017,6 +6805,11 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "tragen",
+    synonyms: {
+      A2: ["verteilen"],
+      B1: ["zustellen"],
+      B2: ["ausliefern"],
+    },
   },
   {
     id: 1741,
@@ -6030,6 +6823,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Personalausweis"],
+    },
   },
   {
     id: 1742,
@@ -6043,6 +6839,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["selbsttätig"],
+    },
   },
   {
     id: 1743,
@@ -6112,6 +6911,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["schwimmen", "ein Bad nehmen"],
+    },
   },
   {
     id: 1748,
@@ -6138,6 +6940,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["das Geldinstitut", "das Kreditinstitut"],
+    },
   },
   {
     id: 1750,
@@ -6151,6 +6956,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Bank"],
+    },
   },
   {
     id: 1751,
@@ -6164,6 +6972,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["mit Bargeld"],
+    },
   },
   {
     id: 1752,
@@ -6193,6 +7004,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "danken",
+    synonyms: {
+      A1: ["danken"],
+      A2: ["Danke sagen"],
+    },
   },
   {
     id: 1754,
@@ -6207,6 +7022,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "das Ende",
+    synonyms: {
+      A2: ["aufhören", "abschließen"],
+      B1: ["fertigstellen"],
+    },
   },
   {
     id: 1755,
@@ -6220,6 +7039,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["anfangen"],
+      A2: ["starten"],
+      B1: ["loslegen"],
+    },
   },
   {
     id: 1756,
@@ -6233,6 +7057,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["erklären"],
+      B1: ["erläutern"],
+      B2: ["rechtfertigen"],
+    },
   },
   {
     id: 1757,
@@ -6260,6 +7089,11 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "kennen",
+    synonyms: {
+      A2: ["berühmt"],
+      B1: ["populär"],
+      B2: ["namhaft"],
+    },
   },
   {
     id: 1759,
@@ -6287,6 +7121,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["populär"],
+      B2: ["gefragt"],
+    },
   },
   {
     id: 1761,
@@ -6300,6 +7138,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["verwenden", "nutzen"],
+      B1: ["gebrauchen"],
+      B2: ["anwenden"],
+    },
   },
   {
     id: 1762,
@@ -6314,6 +7157,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "schlagen",
+    synonyms: {
+      A2: ["helfen"],
+      B1: ["Rat geben"],
+    },
   },
   {
     id: 1763,
@@ -6327,6 +7174,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["erzählen"],
+      B1: ["mitteilen"],
+      B2: ["schildern"],
+    },
   },
   {
     id: 1764,
@@ -6340,6 +7192,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["bekannt"],
+      B2: ["namhaft"],
+      C1: ["renommiert"],
+    },
   },
   {
     id: 1765,
@@ -6354,6 +7211,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "schreiben",
+    synonyms: {
+      B1: ["darstellen"],
+      B2: ["schildern"],
+    },
   },
   {
     id: 1766,
@@ -6367,6 +7228,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["reklamieren", "meckern"],
+      B2: ["sich beklagen"],
+    },
   },
   {
     id: 1767,
@@ -6380,6 +7245,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["bejahen"],
+      B2: ["bekräftigen"],
+    },
   },
   {
     id: 1768,
@@ -6394,6 +7263,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "stehen",
+    synonyms: {
+      A2: ["schaffen"],
+      B2: ["sich zusammensetzen aus"],
+    },
   },
   {
     id: 1769,
@@ -6408,6 +7281,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "stellen",
+    synonyms: {
+      B1: ["ordern"],
+    },
   },
   {
     id: 1770,
@@ -6421,6 +7297,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Gast"],
+    },
   },
   {
     id: 1771,
@@ -6475,6 +7354,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["das Foto"],
+      B2: ["das Gemälde", "die Abbildung"],
+    },
   },
   {
     id: 1775,
@@ -6502,6 +7385,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "bitten",
+    synonyms: {
+      A2: ["der Wunsch"],
+      B2: ["das Ersuchen"],
+    },
   },
   {
     id: 1777,
@@ -6516,6 +7403,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "bitten",
+    synonyms: {
+      A1: ["fragen"],
+      B2: ["ersuchen"],
+    },
   },
   {
     id: 1778,
@@ -6555,6 +7446,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["wütend"],
+      B1: ["sauer", "gemein"],
+      B2: ["zornig", "bösartig"],
+    },
   },
   {
     id: 1781,
@@ -6568,6 +7464,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["anbraten"],
+    },
   },
   {
     id: 1782,
@@ -6646,6 +7545,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["farbig"],
+      B1: ["farbenfroh"],
+      B2: ["kunterbunt"],
+    },
   },
   {
     id: 1788,
@@ -6672,6 +7576,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Kantine"],
+      B1: ["die Mensa"],
+    },
   },
   {
     id: 1790,
@@ -6685,6 +7593,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Verein"],
+      B1: ["der Klub"],
+    },
   },
   {
     id: 1791,
@@ -6698,6 +7610,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Salbe"],
+    },
   },
   {
     id: 1792,
@@ -6711,6 +7626,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["teilnehmen", "mitmachen"],
+      B1: ["anwesend sein"],
+    },
   },
   {
     id: 1793,
@@ -6724,6 +7643,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["früher"],
+      B1: ["einst"],
+      C1: ["seinerzeit"],
+    },
   },
   {
     id: 1794,
@@ -6737,6 +7661,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["die Frau"],
+    },
   },
   {
     id: 1795,
@@ -6750,6 +7677,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["nebenan"],
+    },
   },
   {
     id: 1796,
@@ -6764,6 +7694,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "danken",
+    synonyms: {
+      A1: ["dankeschön"],
+      A2: ["vielen Dank"],
+    },
   },
   {
     id: 1797,
@@ -6790,6 +7724,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Termin"],
+      B2: ["die Zeitangabe"],
+    },
   },
   {
     id: 1799,
@@ -6803,6 +7741,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["brauchen"],
+      B1: ["andauern"],
+      C1: ["währen"],
+    },
   },
   {
     id: 1800,
@@ -6816,6 +7759,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["weil"],
+      B1: ["da"],
+    },
   },
   {
     id: 1801,
@@ -6829,6 +7776,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["klar"],
+      B1: ["eindeutig"],
+      B2: ["unmissverständlich"],
+    },
   },
   {
     id: 1802,
@@ -6856,6 +7808,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Ortschaft"],
+    },
   },
   {
     id: 1804,
@@ -6869,6 +7824,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["im Freien"],
+      B2: ["außen"],
+    },
   },
   {
     id: 1805,
@@ -6882,6 +7841,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["eilig"],
+      B1: ["dringlich"],
+      B2: ["unaufschiebbar"],
+    },
   },
   {
     id: 1806,
@@ -6895,6 +7859,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["innen"],
+      B1: ["im Haus"],
+    },
   },
   {
     id: 1807,
@@ -6908,6 +7876,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["dort"],
+      B1: ["auf der anderen Seite"],
+    },
   },
   {
     id: 1808,
@@ -6921,6 +7893,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["pressen"],
+      B2: ["betätigen"],
+    },
   },
   {
     id: 1809,
@@ -6935,6 +7911,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "drucken",
+    synonyms: {
+      A2: ["ausdrucken"],
+    },
   },
   {
     id: 1810,
@@ -6962,6 +7941,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["finster"],
+      B2: ["düster"],
+    },
   },
   {
     id: 1812,
@@ -6975,6 +7958,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["schlank", "schmal"],
+      B1: ["mager"],
+    },
   },
   {
     id: 1813,
@@ -7014,6 +8001,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["unwichtig"],
+      B1: ["gleichgültig"],
+      B2: ["einerlei"],
+    },
   },
   {
     id: 1816,
@@ -7027,6 +8019,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["der Mann"],
+      B2: ["der Gatte"],
+    },
   },
   {
     id: 1817,
@@ -7040,6 +8036,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["die Frau"],
+      B2: ["die Gattin"],
+    },
   },
   {
     id: 1818,
@@ -7053,6 +8053,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["tatsächlich", "im Grunde"],
+      B2: ["genau genommen"],
+    },
   },
   {
     id: 1819,
@@ -7066,6 +8070,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["dringend"],
+      B1: ["hastig"],
+      B2: ["überstürzt"],
+    },
   },
   {
     id: 1820,
@@ -7080,6 +8089,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "gehen",
+    synonyms: {
+      B1: ["der Zugang"],
+      B2: ["die Pforte"],
+    },
   },
   {
     id: 1821,
@@ -7094,6 +8107,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "kaufen",
+    synonyms: {
+      B1: ["das Shoppingcenter"],
+      B2: ["die Mall"],
+    },
   },
   {
     id: 1822,
@@ -7108,6 +8125,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "kaufen",
+    synonyms: {
+      B2: ["das Warenhaus"],
+    },
   },
   {
     id: 1823,
@@ -7122,6 +8142,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "kaufen",
+    synonyms: {
+      A2: ["anbieten"],
+      C1: ["veräußern"],
+    },
   },
   {
     id: 1824,
@@ -7164,6 +8188,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "packen",
+    synonyms: {
+      A2: ["verpacken"],
+      B1: ["einwickeln"],
+    },
   },
   {
     id: 1827,
@@ -7178,6 +8206,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "tragen",
+    synonyms: {
+      A2: ["sich anmelden"],
+      B2: ["sich einschreiben"],
+    },
   },
   {
     id: 1828,
@@ -7191,6 +8223,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Zutritt"],
+      B2: ["der Einlass"],
+    },
   },
   {
     id: 1829,
@@ -7219,6 +8255,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "ziehen",
+    synonyms: {
+      B1: ["beziehen"],
+    },
   },
   {
     id: 1831,
@@ -7232,6 +8271,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["der Adressat"],
+    },
   },
   {
     id: 1832,
@@ -7246,6 +8288,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "das Ende",
+    synonyms: {
+      A2: ["aufhören"],
+      B1: ["zu Ende gehen"],
+    },
   },
   {
     id: 1833,
@@ -7259,6 +8305,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["schmal"],
+      B1: ["knapp"],
+      B2: ["beengt"],
+    },
   },
   {
     id: 1834,
@@ -7272,6 +8323,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["das Parterre"],
+    },
   },
   {
     id: 1835,
@@ -7285,6 +8339,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Praxis"],
+      B2: ["die Routine"],
+    },
   },
   {
     id: 1836,
@@ -7298,6 +8356,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["denken an"],
+      B2: ["sich entsinnen"],
+    },
   },
   {
     id: 1837,
@@ -7311,6 +8373,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Schnupfen haben"],
+    },
   },
   {
     id: 1838,
@@ -7325,6 +8390,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "erlauben",
+    synonyms: {
+      B1: ["gestatten", "genehmigen"],
+    },
   },
   {
     id: 1839,
@@ -7339,6 +8407,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "phrase",
     family: "erlauben",
+    synonyms: {
+      A2: ["dürfen"],
+      B1: ["gestattet sein"],
+    },
   },
   {
     id: 1840,
@@ -7352,6 +8424,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["ankommen"],
+      B2: ["gelangen"],
+    },
   },
   {
     id: 1841,
@@ -7365,6 +8441,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["zuerst"],
+      B1: ["zunächst"],
+    },
   },
   {
     id: 1842,
@@ -7392,6 +8472,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "fahren",
+    synonyms: {
+      A2: ["die Abreise"],
+      B1: ["der Aufbruch"],
+    },
   },
   {
     id: 1844,
@@ -7405,6 +8489,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["hinfallen"],
+      B1: ["stürzen"],
+    },
   },
   {
     id: 1845,
@@ -7418,6 +8506,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Anhänger"],
+    },
   },
   {
     id: 1846,
@@ -7431,6 +8522,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["toll", "super"],
+      B1: ["großartig", "wunderbar"],
+      B2: ["phänomenal"],
+    },
   },
   {
     id: 1847,
@@ -7457,6 +8553,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["beinahe"],
+      B1: ["nahezu"],
+      B2: ["annähernd"],
+    },
   },
   {
     id: 1849,
@@ -7470,6 +8571,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["träge"],
+      B2: ["bequem"],
+    },
   },
   {
     id: 1850,
@@ -7483,6 +8588,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["nicht da sein"],
+      B1: ["abwesend sein"],
+    },
   },
   {
     id: 1851,
@@ -7497,6 +8606,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "feiern",
+    synonyms: {
+      A2: ["das Fest", "die Party"],
+      B2: ["die Festlichkeit"],
+    },
   },
   {
     id: 1852,
@@ -7511,6 +8624,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "feiern",
+    synonyms: {
+      A2: ["Party machen"],
+      C1: ["begehen"],
+    },
   },
   {
     id: 1853,
@@ -7525,6 +8642,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "feiern",
+    synonyms: {
+      B1: ["der Festtag"],
+    },
   },
   {
     id: 1854,
@@ -7539,6 +8659,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "das Fest",
+    synonyms: {
+      A2: ["die Feier", "die Party"],
+    },
   },
   {
     id: 1855,
@@ -7553,6 +8676,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "das Fest",
+    synonyms: {
+      B1: ["das Musikfest"],
+    },
   },
   {
     id: 1856,
@@ -7566,6 +8692,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["fettig", "fetthaltig"],
+      B2: ["fettreich"],
+    },
   },
   {
     id: 1857,
@@ -7592,6 +8722,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["gesund sein"],
+      B1: ["in Form sein"],
+    },
   },
   {
     id: 1859,
@@ -7605,6 +8739,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["eifrig", "tüchtig"],
+      B2: ["arbeitsam", "strebsam"],
+    },
   },
   {
     id: 1860,
@@ -7618,6 +8756,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Flugreise"],
+    },
   },
   {
     id: 1861,
@@ -7631,6 +8772,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["Fotos machen"],
+      B1: ["knipsen"],
+    },
   },
   {
     id: 1862,
@@ -7645,6 +8790,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "frei",
+    synonyms: {
+      B2: ["aus freien Stücken"],
+    },
   },
   {
     id: 1863,
@@ -7659,6 +8807,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "frei",
+    synonyms: {
+      A2: ["die freie Zeit"],
+    },
   },
   {
     id: 1864,
@@ -7672,6 +8823,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["unbekannt"],
+      B1: ["ausländisch", "ungewohnt"],
+    },
   },
   {
     id: 1865,
@@ -7698,6 +8853,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["damals"],
+      B1: ["einst"],
+      B2: ["ehemals"],
+    },
   },
   {
     id: 1867,
@@ -7711,6 +8871,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["empfinden"],
+    },
   },
   {
     id: 1868,
@@ -7725,6 +8888,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "führen",
+    synonyms: {
+      A2: ["die Besichtigung"],
+      B2: ["die Rundführung"],
+    },
   },
   {
     id: 1869,
@@ -7738,6 +8905,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["schrecklich", "schlimm"],
+      B2: ["entsetzlich", "grauenhaft"],
+    },
   },
   {
     id: 1870,
@@ -7764,6 +8935,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["vollständig", "komplett", "gesamt"],
+      B2: ["völlig"],
+    },
   },
   {
     id: 1872,
@@ -7790,6 +8965,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Besucher"],
+    },
   },
   {
     id: 1874,
@@ -7844,6 +9022,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Gegensatz"],
+    },
   },
   {
     id: 1878,
@@ -7857,6 +9038,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["auf der anderen Seite"],
+      C1: ["vis-à-vis"],
+    },
   },
   {
     id: 1879,
@@ -7870,6 +9055,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["das Portemonnaie", "der Geldbeutel"],
+      B1: ["die Brieftasche"],
+    },
   },
   {
     id: 1880,
@@ -7883,6 +9072,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["exakt"],
+      B1: ["präzise", "korrekt"],
+      B2: ["akkurat"],
+    },
   },
   {
     id: 1881,
@@ -7896,6 +9090,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["das Essen"],
+      B2: ["die Speise"],
+    },
   },
   {
     id: 1882,
@@ -7909,6 +9107,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      C2: ["das Antlitz"],
+    },
   },
   {
     id: 1883,
@@ -7923,6 +9124,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Gesundheit",
+    synonyms: {
+      A2: ["fit"],
+      B2: ["kerngesund"],
+    },
   },
   {
     id: 1884,
@@ -7963,6 +9168,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["Glückwünsche aussprechen"],
+      B2: ["beglückwünschen"],
+    },
   },
   {
     id: 1887,
@@ -8002,6 +9211,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["das Maß"],
+      B2: ["das Ausmaß"],
+    },
   },
   {
     id: 1890,
@@ -8015,6 +9228,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["das Team"],
+      B2: ["die Gemeinschaft"],
+    },
   },
   {
     id: 1891,
@@ -8028,6 +9245,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      B1: ["gelten"],
+      B2: ["in Kraft sein"],
+    },
   },
   {
     id: 1892,
@@ -8041,6 +9262,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["billig", "preiswert"],
+      B1: ["preisgünstig"],
+      B2: ["erschwinglich", "kostengünstig"],
+    },
   },
   {
     id: 1893,
@@ -8054,6 +9280,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["das Huhn"],
+      B2: ["das Brathähnchen"],
+    },
   },
   {
     id: 1894,
@@ -8067,6 +9297,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Saal"],
+    },
   },
   {
     id: 1895,
@@ -8080,6 +9313,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Burger"],
+    },
   },
   {
     id: 1896,
@@ -8121,6 +9357,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["aufhängen"],
+      B2: ["baumeln"],
+    },
   },
   {
     id: 1899,
@@ -8134,6 +9374,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["unschön", "unattraktiv"],
+      B2: ["scheußlich", "abstoßend"],
+    },
   },
   {
     id: 1900,
@@ -8162,6 +9406,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Stadt",
+    synonyms: {
+      A2: ["die Stadtkarte"],
+    },
   },
   {
     id: 1902,
@@ -8203,6 +9450,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["das Heimatland"],
+    },
   },
   {
     id: 1905,
@@ -8242,6 +9492,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Unterstützung"],
+      B2: ["der Beistand"],
+    },
   },
   {
     id: 1908,
@@ -8255,6 +9509,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["leuchtend"],
+      B2: ["licht", "strahlend"],
+    },
   },
   {
     id: 1909,
@@ -8334,6 +9592,11 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "stellen",
+    synonyms: {
+      A2: ["machen"],
+      B1: ["produzieren", "anfertigen"],
+      B2: ["fertigen"],
+    },
   },
   {
     id: 1915,
@@ -8348,6 +9611,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "laden",
+    synonyms: {
+      A2: ["downloaden"],
+      B1: ["runterladen"],
+    },
   },
   {
     id: 1916,
@@ -8361,6 +9628,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      C1: ["das Firmament"],
+    },
   },
   {
     id: 1917,
@@ -8413,6 +9683,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["groß"],
+    },
   },
   {
     id: 1921,
@@ -8465,6 +9738,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["sich erkundigen", "recherchieren"],
+    },
   },
   {
     id: 1925,
@@ -8478,6 +9754,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["das Musikinstrument"],
+    },
   },
   {
     id: 1926,
@@ -8491,6 +9770,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["klug", "schlau"],
+      B2: ["gescheit"],
+    },
   },
   {
     id: 1927,
@@ -8505,6 +9788,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "interessieren",
+    synonyms: {
+      B2: ["die Neigung"],
+    },
   },
   {
     id: 1928,
@@ -8519,6 +9805,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "interessieren",
+    synonyms: {
+      A2: ["Interesse haben"],
+    },
   },
   {
     id: 1929,
@@ -8532,6 +9821,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["weltweit"],
+      B2: ["grenzüberschreitend"],
+    },
   },
   {
     id: 1930,
@@ -8545,6 +9838,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["das Gespräch"],
+      B2: ["die Befragung"],
+    },
   },
   {
     id: 1931,
@@ -8558,6 +9855,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["irgendwer"],
+      B1: ["irgendjemand"],
+    },
   },
   {
     id: 1932,
@@ -8571,6 +9872,12 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["die Arbeit"],
+      A2: ["die Stelle"],
+      B1: ["die Beschäftigung"],
+      B2: ["die Tätigkeit"],
+    },
   },
   {
     id: 1933,
@@ -8610,6 +9917,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["das Untergeschoss"],
+    },
   },
   {
     id: 1936,
@@ -8636,6 +9946,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Klamotten"],
+      B1: ["die Bekleidung"],
+      B2: ["die Garderobe"],
+    },
   },
   {
     id: 1938,
@@ -8662,6 +9977,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Mitarbeiter"],
+      B1: ["der Arbeitskollege"],
+    },
   },
   {
     id: 1940,
@@ -8675,6 +9994,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Mitarbeiterin"],
+      B1: ["die Arbeitskollegin"],
+    },
   },
   {
     id: 1941,
@@ -8688,6 +10011,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["seltsam", "witzig"],
+      B1: ["merkwürdig", "sonderbar"],
+      B2: ["eigenartig"],
+    },
   },
   {
     id: 1942,
@@ -8701,6 +10029,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["das Bankkonto"],
+    },
   },
   {
     id: 1943,
@@ -8714,6 +10045,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["prüfen"],
+      B1: ["überprüfen"],
+      B2: ["inspizieren"],
+    },
   },
   {
     id: 1944,
@@ -8740,6 +10076,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["der Leib"],
+    },
   },
   {
     id: 1946,
@@ -8753,6 +10092,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Körperpflege"],
+      B2: ["die Schönheitspflege"],
+    },
   },
   {
     id: 1947,
@@ -8766,6 +10109,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["gratis", "umsonst"],
+      B1: ["kostenfrei"],
+      B2: ["unentgeltlich"],
+    },
   },
   {
     id: 1948,
@@ -8779,6 +10127,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Krankenversicherung"],
+    },
   },
   {
     id: 1949,
@@ -8792,6 +10143,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Erkrankung"],
+      B2: ["das Leiden"],
+    },
   },
   {
     id: 1950,
@@ -8805,6 +10160,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["das Darlehen"],
+    },
   },
   {
     id: 1951,
@@ -8818,6 +10176,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Straßenkreuzung"],
+    },
   },
   {
     id: 1952,
@@ -8831,6 +10192,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["bekommen", "erhalten"],
+    },
   },
   {
     id: 1953,
@@ -8844,6 +10208,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["kalt"],
+      B1: ["frisch"],
+    },
   },
   {
     id: 1954,
@@ -8870,6 +10238,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["sorgen für"],
+      B2: ["sich annehmen"],
+    },
   },
   {
     id: 1956,
@@ -8883,6 +10255,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Käufer"],
+      B2: ["der Klient"],
+    },
   },
   {
     id: 1957,
@@ -8896,6 +10272,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Käuferin"],
+      B2: ["die Klientin"],
+    },
   },
   {
     id: 1958,
@@ -8909,6 +10289,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["das Geschäft"],
+    },
   },
   {
     id: 1959,
@@ -8922,6 +10305,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Gegend"],
+      B2: ["die Umgebung"],
+    },
   },
   {
     id: 1960,
@@ -8935,6 +10322,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["lärmend"],
+      B2: ["geräuschvoll"],
+    },
   },
   {
     id: 1961,
@@ -8963,6 +10354,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "leben",
+    synonyms: {
+      B1: ["die Nahrungsmittel"],
+    },
   },
   {
     id: 1963,
@@ -8990,6 +10384,11 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "legen",
+    synonyms: {
+      A2: ["hinlegen"],
+      B1: ["ablegen"],
+      B2: ["platzieren"],
+    },
   },
   {
     id: 1965,
@@ -9003,6 +10402,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["ausleihen"],
+      B1: ["borgen"],
+      B2: ["verleihen"],
+    },
   },
   {
     id: 1966,
@@ -9016,6 +10420,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["still"],
+      B2: ["gedämpft", "lautlos"],
+    },
   },
   {
     id: 1967,
@@ -9029,6 +10437,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Beleuchtung", "die Helligkeit"],
+      B2: ["der Schein"],
+    },
   },
   {
     id: 1968,
@@ -9042,6 +10454,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Song"],
+    },
   },
   {
     id: 1969,
@@ -9055,6 +10470,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["bringen"],
+      B1: ["zustellen"],
+      B2: ["beliefern"],
+    },
   },
   {
     id: 1970,
@@ -9068,6 +10488,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["sich befinden"],
+    },
   },
   {
     id: 1971,
@@ -9094,6 +10517,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["das Restaurant"],
+      B2: ["die Gaststätte", "das Gasthaus"],
+    },
   },
   {
     id: 1973,
@@ -9108,6 +10535,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "lügen",
+    synonyms: {
+      B2: ["die Unwahrheit"],
+    },
   },
   {
     id: 1974,
@@ -9122,6 +10552,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "lügen",
+    synonyms: {
+      B1: ["schwindeln"],
+      B2: ["flunkern"],
+    },
   },
   {
     id: 1975,
@@ -9148,6 +10582,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["einmal"],
+      B1: ["eben"],
+    },
   },
   {
     id: 1977,
@@ -9161,6 +10599,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["bemalen"],
+    },
   },
   {
     id: 1978,
@@ -9174,6 +10615,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["maskulin"],
+    },
   },
   {
     id: 1979,
@@ -9187,6 +10631,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["das Team"],
+      B2: ["die Truppe"],
+    },
   },
   {
     id: 1980,
@@ -9200,6 +10648,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Medizin"],
+      B1: ["das Arzneimittel"],
+      B2: ["das Präparat"],
+    },
   },
   {
     id: 1981,
@@ -9213,6 +10666,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die See"],
+      B1: ["der Ozean"],
+    },
   },
   {
     id: 1982,
@@ -9226,6 +10683,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Anzahl"],
+      C1: ["das Quantum"],
+    },
   },
   {
     id: 1983,
@@ -9239,6 +10700,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Person"],
+      C1: ["das Individuum"],
+    },
   },
   {
     id: 1984,
@@ -9252,6 +10717,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["bemerken"],
+      B1: ["feststellen"],
+      B2: ["wahrnehmen", "registrieren"],
+    },
   },
   {
     id: 1985,
@@ -9265,6 +10735,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Ausstellung"],
+    },
   },
   {
     id: 1986,
@@ -9292,6 +10765,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "mieten",
+    synonyms: {
+      B2: ["der Mietzins"],
+    },
   },
   {
     id: 1988,
@@ -9306,6 +10782,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "mieten",
+    synonyms: {
+      B1: ["anmieten"],
+    },
   },
   {
     id: 1989,
@@ -9334,6 +10813,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "mieten",
+    synonyms: {
+      B1: ["der Hausbesitzer"],
+      B2: ["der Hauseigentümer"],
+    },
   },
   {
     id: 1991,
@@ -9348,6 +10831,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "mieten",
+    synonyms: {
+      B1: ["die Hausbesitzerin"],
+      B2: ["die Hauseigentümerin"],
+    },
   },
   {
     id: 1992,
@@ -9362,6 +10849,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Arbeit",
+    synonyms: {
+      A2: ["der Kollege"],
+      B1: ["der Angestellte"],
+    },
   },
   {
     id: 1993,
@@ -9375,6 +10866,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["das Zentrum"],
+      B2: ["der Mittelpunkt"],
+    },
   },
   {
     id: 1994,
@@ -9388,6 +10883,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["das Hilfsmittel", "das Heilmittel"],
+    },
   },
   {
     id: 1995,
@@ -9401,6 +10899,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["wollen"],
+      B1: ["wünschen"],
+    },
   },
   {
     id: 1996,
@@ -9414,6 +10916,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Trend"],
+    },
   },
   {
     id: 1997,
@@ -9427,6 +10932,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["neu", "aktuell"],
+      B1: ["modisch"],
+      B2: ["zeitgemäß", "fortschrittlich"],
+    },
   },
   {
     id: 1998,
@@ -9440,6 +10950,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Augenblick"],
+      B1: ["der Zeitpunkt"],
+    },
   },
   {
     id: 1999,
@@ -9453,6 +10967,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Roller"],
+    },
   },
   {
     id: 2000,
@@ -9466,6 +10983,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Abfall"],
+      C1: ["der Unrat"],
+    },
   },
   {
     id: 2001,
@@ -9533,6 +11054,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Kappe"],
+    },
   },
   {
     id: 2006,
@@ -9559,6 +11083,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["folgende"],
+      B1: ["kommende"],
+    },
   },
   {
     id: 2008,
@@ -9572,6 +11100,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Umgebung"],
+      B2: ["die Nachbarschaft"],
+    },
   },
   {
     id: 2009,
@@ -9611,6 +11143,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["daneben"],
+    },
   },
   {
     id: 2012,
@@ -9624,6 +11159,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["benennen", "bezeichnen"],
+      B2: ["betiteln"],
+    },
   },
   {
     id: 2013,
@@ -9637,6 +11176,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["unruhig", "aufgeregt"],
+      B1: ["angespannt"],
+      B2: ["zappelig"],
+    },
   },
   {
     id: 2014,
@@ -9651,6 +11195,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "notieren",
+    synonyms: {
+      A2: ["aufschreiben"],
+      B1: ["festhalten", "vermerken"],
+    },
   },
   {
     id: 2015,
@@ -9665,6 +11213,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "notieren",
+    synonyms: {
+      B1: ["die Anmerkung"],
+      B2: ["der Vermerk", "die Aufzeichnung"],
+    },
   },
   {
     id: 2016,
@@ -9678,6 +11230,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["nötig"],
+      B1: ["erforderlich"],
+      B2: ["unerlässlich"],
+    },
   },
   {
     id: 2017,
@@ -9717,6 +11274,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["aufmachen"],
+    },
   },
   {
     id: 2020,
@@ -9756,6 +11316,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Apfelsine"],
+    },
   },
   {
     id: 2023,
@@ -9769,6 +11332,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["planen"],
+      B1: ["veranstalten"],
+      B2: ["arrangieren", "koordinieren"],
+    },
   },
   {
     id: 2024,
@@ -9782,6 +11350,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Platz"],
+      B1: ["die Stelle"],
+    },
   },
   {
     id: 2025,
@@ -9808,6 +11380,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["einige"],
+      B1: ["mehrere"],
+      B2: ["etliche"],
+    },
   },
   {
     id: 2027,
@@ -9822,6 +11399,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "packen",
+    synonyms: {
+      A2: ["einpacken"],
+      B1: ["verpacken"],
+    },
   },
   {
     id: 2028,
@@ -9848,6 +11429,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Unterlagen"],
+      B1: ["die Dokumente"],
+    },
   },
   {
     id: 2030,
@@ -9874,6 +11459,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["abstellen"],
+    },
   },
   {
     id: 2032,
@@ -9887,6 +11475,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["das Fest", "die Feier"],
+      B1: ["die Fete"],
+    },
   },
   {
     id: 2033,
@@ -9900,6 +11492,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Reisepass"],
+    },
   },
   {
     id: 2034,
@@ -9913,6 +11508,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["geeignet sein"],
+      B2: ["harmonieren"],
+    },
   },
   {
     id: 2035,
@@ -9926,6 +11525,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["der Mensch"],
+    },
   },
   {
     id: 2036,
@@ -9939,6 +11541,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["das Poster"],
+      B2: ["der Aushang"],
+    },
   },
   {
     id: 2037,
@@ -9953,6 +11559,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "planen",
+    synonyms: {
+      B1: ["das Vorhaben"],
+      B2: ["die Absicht"],
+    },
   },
   {
     id: 2038,
@@ -9967,6 +11577,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "planen",
+    synonyms: {
+      A2: ["vorhaben"],
+      B1: ["vorbereiten"],
+    },
   },
   {
     id: 2039,
@@ -9980,6 +11594,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["auf einmal"],
+      B1: ["unerwartet"],
+      B2: ["schlagartig"],
+    },
   },
   {
     id: 2040,
@@ -9989,19 +11608,6 @@ export const A2_Vocabulary = [
     example: "Rufen Sie die Polizei!",
     exampleTranslation: "Call the police!",
     thema: "Verwaltung",
-    priority: "High",
-    favorite: false,
-    level: "A2",
-    type: "word",
-  },
-  {
-    id: 2041,
-    word: "die Pommes frites (Pl.)",
-    translation: "the fries",
-    definition: "Frittierte Kartoffelstücke.",
-    example: "Die Kinder essen Wurst mit Pommes frites.",
-    exampleTranslation: "The children eat sausage with fries.",
-    thema: "Essen und Trinken",
     priority: "High",
     favorite: false,
     level: "A2",
@@ -10032,6 +11638,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die PLZ"],
+    },
   },
   {
     id: 2044,
@@ -10045,6 +11654,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Arztpraxis"],
+    },
   },
   {
     id: 2045,
@@ -10059,6 +11671,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Preis",
+    synonyms: {
+      A2: ["die Kosten"],
+      B2: ["der Betrag"],
+    },
   },
   {
     id: 2046,
@@ -10073,6 +11689,11 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Preis",
+    synonyms: {
+      A2: ["günstig", "billig"],
+      B1: ["preisgünstig"],
+      B2: ["kostengünstig"],
+    },
   },
   {
     id: 2047,
@@ -10086,6 +11707,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["je"],
+    },
   },
   {
     id: 2048,
@@ -10099,6 +11723,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["versuchen", "testen"],
+      B1: ["ausprobieren"],
+      B2: ["kosten"],
+    },
   },
   {
     id: 2049,
@@ -10112,6 +11741,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Ware"],
+      B2: ["das Erzeugnis"],
+    },
   },
   {
     id: 2050,
@@ -10126,6 +11759,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Plan"],
+      B1: ["der Ablauf"],
+    },
   },
   {
     id: 2051,
@@ -10139,6 +11776,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Broschüre"],
+      B1: ["der Flyer", "das Faltblatt"],
+    },
   },
   {
     id: 2052,
@@ -10153,6 +11794,11 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "prüfen",
+    synonyms: {
+      A2: ["der Test"],
+      B1: ["die Klausur"],
+      B2: ["das Examen"],
+    },
   },
   {
     id: 2053,
@@ -10194,6 +11840,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["saubermachen"],
+      B1: ["reinigen", "säubern"],
+    },
   },
   {
     id: 2056,
@@ -10207,6 +11857,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["die Güte", "die Beschaffenheit"],
+    },
   },
   {
     id: 2057,
@@ -10233,6 +11886,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["das Zimmer"],
+      B1: ["der Platz"],
+    },
   },
   {
     id: 2059,
@@ -10247,20 +11904,11 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "rechnen",
-  },
-  {
-    id: 2060,
-    word: "die Rechnung, -en",
-    translation: "the bill",
-    definition: "Die Liste, was man bezahlen muss.",
-    example: "Bitte, die Rechnung!",
-    exampleTranslation: "The bill, please!",
-    thema: "Finanzen",
-    priority: "High",
-    favorite: false,
-    level: "A2",
-    type: "word",
-    family: "rechnen",
+    synonyms: {
+      A2: ["ausrechnen"],
+      B1: ["berechnen"],
+      B2: ["kalkulieren"],
+    },
   },
   {
     id: 2061,
@@ -10274,6 +11922,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["wohlhabend"],
+      B2: ["vermögend"],
+      C1: ["begütert"],
+    },
   },
   {
     id: 2062,
@@ -10300,6 +11953,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Wäscherei"],
+    },
   },
   {
     id: 2064,
@@ -10327,6 +11983,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "reisen",
+    synonyms: {
+      A2: ["verreisen"],
+      B1: ["unterwegs sein"],
+    },
   },
   {
     id: 2066,
@@ -10341,6 +12001,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "reisen",
+    synonyms: {
+      A2: ["reisen", "wegfahren"],
+    },
   },
   {
     id: 2067,
@@ -10369,6 +12032,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "reisen",
+    synonyms: {
+      B2: ["das Reisehandbuch", "der Guide"],
+    },
   },
   {
     id: 2069,
@@ -10382,6 +12048,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["herrichten"],
+      B2: ["sanieren", "modernisieren"],
+    },
   },
   {
     id: 2070,
@@ -10395,6 +12065,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Senior"],
+      B2: ["der Pensionär"],
+      C1: ["der Ruheständler"],
+    },
   },
   {
     id: 2071,
@@ -10408,6 +12083,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Seniorin"],
+      B2: ["die Pensionärin"],
+      C1: ["die Ruheständlerin"],
+    },
   },
   {
     id: 2072,
@@ -10421,6 +12101,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["die Instandsetzung", "die Ausbesserung"],
+    },
   },
   {
     id: 2073,
@@ -10434,6 +12117,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["buchen"],
+      B1: ["vormerken", "vorbestellen"],
+    },
   },
   {
     id: 2074,
@@ -10447,6 +12134,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Überrest"],
+      B2: ["der Rückstand"],
+    },
   },
   {
     id: 2075,
@@ -10460,6 +12151,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Anleitung"],
+      B2: ["die Verschreibung"],
+    },
   },
   {
     id: 2076,
@@ -10473,6 +12168,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Empfang"],
+    },
   },
   {
     id: 2077,
@@ -10486,6 +12184,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["schnuppern"],
+      B2: ["wittern"],
+    },
   },
   {
     id: 2078,
@@ -10499,6 +12201,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["das Rindfleisch"],
+    },
   },
   {
     id: 2079,
@@ -10525,6 +12230,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["gefühlvoll"],
+      B2: ["verträumt"],
+    },
   },
   {
     id: 2081,
@@ -10564,6 +12273,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Stille"],
+      B1: ["die Erholung", "die Entspannung"],
+      B2: ["die Gelassenheit"],
+    },
   },
   {
     id: 2084,
@@ -10591,6 +12305,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "gehen",
+    synonyms: {
+      A2: ["der Spaziergang"],
+      B1: ["die Besichtigung"],
+    },
   },
   {
     id: 2086,
@@ -10618,6 +12336,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "sammeln",
+    synonyms: {
+      A2: ["einsammeln"],
+      B2: ["zusammentragen"],
+    },
   },
   {
     id: 2088,
@@ -10644,6 +12366,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["rein", "ordentlich"],
+      B2: ["gepflegt", "reinlich"],
+    },
   },
   {
     id: 2090,
@@ -10657,6 +12383,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["wütend"],
+      B1: ["verärgert", "säuerlich"],
+    },
   },
   {
     id: 2091,
@@ -10670,6 +12400,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["ungesund"],
+      B2: ["nachteilig", "gesundheitsschädlich"],
+    },
   },
   {
     id: 2092,
@@ -10683,6 +12417,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["erreichen"],
+      B1: ["hinbekommen"],
+      B2: ["bewältigen"],
+    },
   },
   {
     id: 2093,
@@ -10709,6 +12448,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["spitz"],
+      B1: ["pikant", "würzig"],
+    },
   },
   {
     id: 2095,
@@ -10722,6 +12465,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["aussehen"],
+      B1: ["wirken"],
+    },
   },
   {
     id: 2096,
@@ -10748,6 +12495,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["senden", "verschicken"],
+      B1: ["zusenden"],
+      B2: ["übersenden"],
+    },
   },
   {
     id: 2098,
@@ -10761,6 +12513,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["das Zeichen"],
+      B1: ["das Hinweisschild"],
+    },
   },
   {
     id: 2099,
@@ -10774,6 +12530,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["meckern", "ausschimpfen"],
+      B2: ["schelten", "sich beschweren"],
+    },
   },
   {
     id: 2100,
@@ -10787,6 +12547,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Regenschirm"],
+    },
   },
   {
     id: 2101,
@@ -10814,6 +12577,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["schrecklich", "furchtbar"],
+      B1: ["übel", "ernst"],
+      B2: ["gravierend"],
+    },
   },
   {
     id: 2103,
@@ -10842,6 +12610,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "schließen",
+    synonyms: {
+      A2: ["das Ende"],
+      B1: ["der Abschluss"],
+    },
   },
   {
     id: 2105,
@@ -10855,6 +12627,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["dreckig"],
+      B1: ["verschmutzt", "unsauber"],
+      B2: ["verdreckt"],
+    },
   },
   {
     id: 2106,
@@ -10881,6 +12658,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["furchtbar", "schlimm"],
+      B1: ["fürchterlich"],
+      B2: ["entsetzlich", "grauenhaft"],
+    },
   },
   {
     id: 2108,
@@ -10895,6 +12677,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "schreiben",
+    synonyms: {
+      B1: ["in Schriftform"],
+      B2: ["schwarz auf weiß"],
+    },
   },
   {
     id: 2109,
@@ -10922,6 +12708,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Schule",
+    synonyms: {
+      B1: ["der Lernende"],
+    },
   },
   {
     id: 2111,
@@ -10936,6 +12725,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Schule",
+    synonyms: {
+      B1: ["die Lernende"],
+    },
   },
   {
     id: 2112,
@@ -10949,6 +12741,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["kraftlos"],
+      B2: ["schwächlich", "gebrechlich"],
+    },
   },
   {
     id: 2113,
@@ -10962,6 +12758,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["ein Kind erwarten"],
+      C1: ["guter Hoffnung"],
+    },
   },
   {
     id: 2114,
@@ -10988,6 +12788,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["das Meer"],
+      B1: ["der Ozean"],
+    },
   },
   {
     id: 2116,
@@ -11027,6 +12831,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["selber"],
+      B1: ["persönlich"],
+    },
   },
   {
     id: 2119,
@@ -11040,6 +12848,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["das Paket"],
+      B1: ["die Lieferung"],
+    },
   },
   {
     id: 2120,
@@ -11053,6 +12865,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Kundendienst"],
+      B2: ["die Dienstleistung"],
+    },
   },
   {
     id: 2121,
@@ -11066,6 +12882,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["sich hinsetzen"],
+      B1: ["Platz nehmen"],
+    },
   },
   {
     id: 2122,
@@ -11092,6 +12912,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Lage"],
+      B2: ["die Sachlage"],
+    },
   },
   {
     id: 2124,
@@ -11131,6 +12955,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Couch"],
+    },
   },
   {
     id: 2127,
@@ -11144,6 +12971,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["selbst"],
+    },
   },
   {
     id: 2128,
@@ -11157,6 +12987,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["verpflichtet sein"],
+    },
   },
   {
     id: 2129,
@@ -11170,6 +13003,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["ansonsten", "andernfalls"],
+      B2: ["anderenfalls"],
+    },
   },
   {
     id: 2130,
@@ -11183,6 +13020,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["zurücklegen"],
+      B2: ["ansparen", "einsparen"],
+    },
   },
   {
     id: 2131,
@@ -11197,19 +13038,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "gehen",
-  },
-  {
-    id: 2132,
-    word: "die Speisekarte, -n",
-    translation: "the menu",
-    definition: "Die Liste der Gerichte im Restaurant.",
-    example: "Bringen Sie uns bitte die Speisekarte.",
-    exampleTranslation: "Please bring us the menu.",
-    thema: "Essen und Trinken",
-    priority: "High",
-    favorite: false,
-    level: "A2",
-    type: "word",
+    synonyms: {
+      B1: ["der Bummel"],
+      B2: ["der Rundgang"],
+    },
   },
   {
     id: 2133,
@@ -11224,6 +13056,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Sport",
+    synonyms: {
+      A2: ["fit"],
+      B2: ["athletisch", "durchtrainiert"],
+    },
   },
   {
     id: 2134,
@@ -11238,6 +13074,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Sport",
+    synonyms: {
+      B1: ["die Sportanlage"],
+    },
   },
   {
     id: 2135,
@@ -11252,6 +13091,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "sprechen",
+    synonyms: {
+      B1: ["die Sprechzeit"],
+    },
   },
   {
     id: 2136,
@@ -11265,6 +13107,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Prominente"],
+      B2: ["die Berühmtheit"],
+    },
   },
   {
     id: 2137,
@@ -11278,6 +13124,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["kräftig"],
+      B1: ["mächtig"],
+      B2: ["kraftvoll", "robust"],
+    },
   },
   {
     id: 2138,
@@ -11291,6 +13142,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["veranstaltet werden"],
+      B2: ["abgehalten werden"],
+    },
   },
   {
     id: 2139,
@@ -11305,6 +13160,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "stehen",
+    synonyms: {
+      B1: ["sich befinden"],
+    },
   },
   {
     id: 2140,
@@ -11319,6 +13177,11 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "stellen",
+    synonyms: {
+      A2: ["hinstellen"],
+      B1: ["aufstellen"],
+      B2: ["platzieren"],
+    },
   },
   {
     id: 2141,
@@ -11332,6 +13195,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["umkommen"],
+      B2: ["versterben"],
+      C1: ["verscheiden"],
+    },
   },
   {
     id: 2142,
@@ -11358,6 +13226,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["der Kugelschreiber"],
+      A2: ["der Kuli"],
+    },
   },
   {
     id: 2144,
@@ -11371,6 +13243,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["die Studienförderung"],
+    },
   },
   {
     id: 2145,
@@ -11384,6 +13259,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["das Stockwerk", "die Etage"],
+      B1: ["das Geschoss"],
+    },
   },
   {
     id: 2146,
@@ -11397,6 +13276,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Etage", "der Stock"],
+      B1: ["das Geschoss"],
+    },
   },
   {
     id: 2147,
@@ -11410,6 +13293,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["unterbrechen"],
+      B1: ["behindern"],
+      B2: ["belästigen"],
+    },
   },
   {
     id: 2148,
@@ -11423,6 +13311,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["sich zanken"],
+      B2: ["sich auseinandersetzen"],
+    },
   },
   {
     id: 2149,
@@ -11437,6 +13329,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Stress",
+    synonyms: {
+      B1: ["der Druck", "die Anspannung"],
+      B2: ["die Belastung"],
+    },
   },
   {
     id: 2150,
@@ -11451,6 +13347,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "studieren",
+    synonyms: {
+      B1: ["der Studierende"],
+    },
   },
   {
     id: 2151,
@@ -11465,6 +13364,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "studieren",
+    synonyms: {
+      A1: ["lernen"],
+      B1: ["ein Studium machen"],
+    },
   },
   {
     id: 2152,
@@ -11479,6 +13382,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "studieren",
+    synonyms: {
+      B2: ["die Hochschulausbildung"],
+    },
   },
   {
     id: 2153,
@@ -11492,6 +13398,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Sitz"],
+    },
   },
   {
     id: 2154,
@@ -11505,6 +13414,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["toll", "klasse", "prima"],
+      B1: ["großartig", "wunderbar"],
+      B2: ["hervorragend"],
+    },
   },
   {
     id: 2155,
@@ -11518,6 +13432,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Tablet-PC"],
+    },
   },
   {
     id: 2156,
@@ -11531,6 +13448,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Pille"],
+      B1: ["das Medikament"],
+    },
   },
   {
     id: 2157,
@@ -11544,6 +13465,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["das Whiteboard"],
+      B1: ["die Schultafel"],
+    },
   },
   {
     id: 2158,
@@ -11557,6 +13482,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["wechseln"],
+      B1: ["austauschen"],
+      B2: ["eintauschen"],
+    },
   },
   {
     id: 2159,
@@ -11570,6 +13500,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["aufteilen"],
+      B1: ["verteilen"],
+    },
   },
   {
     id: 2160,
@@ -11584,6 +13518,11 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "nehmen",
+    synonyms: {
+      A2: ["mitmachen", "dabei sein"],
+      B1: ["sich beteiligen"],
+      B2: ["mitwirken"],
+    },
   },
   {
     id: 2161,
@@ -11624,6 +13563,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Termin",
+    synonyms: {
+      A2: ["die Verabredung"],
+    },
   },
   {
     id: 2164,
@@ -11637,6 +13579,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Fahrkarte", "die Eintrittskarte"],
+      B1: ["der Fahrschein"],
+    },
   },
   {
     id: 2165,
@@ -11663,6 +13609,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Rat"],
+      B1: ["der Hinweis", "der Ratschlag"],
+    },
   },
   {
     id: 2167,
@@ -11676,6 +13626,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Überschrift", "die Bezeichnung"],
+    },
   },
   {
     id: 2168,
@@ -11702,6 +13655,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Kochtopf"],
+    },
   },
   {
     id: 2170,
@@ -11715,6 +13671,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Kuchen"],
+    },
   },
   {
     id: 2171,
@@ -11728,6 +13687,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["gestorben"],
+      B2: ["verstorben", "leblos"],
+    },
   },
   {
     id: 2172,
@@ -11741,6 +13704,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["ganz", "komplett"],
+      B1: ["völlig", "absolut"],
+    },
   },
   {
     id: 2173,
@@ -11754,6 +13721,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Urlauber"],
+      B1: ["der Reisende"],
+    },
   },
   {
     id: 2174,
@@ -11768,6 +13739,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "trainieren",
+    synonyms: {
+      A2: ["üben", "Sport treiben"],
+    },
   },
   {
     id: 2175,
@@ -11782,6 +13756,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "trainieren",
+    synonyms: {
+      A2: ["die Übung"],
+      B1: ["die Trainingseinheit"],
+    },
   },
   {
     id: 2176,
@@ -11796,6 +13774,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Traum",
+    synonyms: {
+      A2: ["der Wunsch"],
+      B2: ["die Vision"],
+    },
   },
   {
     id: 2177,
@@ -11810,6 +13792,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Traum",
+    synonyms: {
+      B1: ["fantasieren"],
+    },
   },
   {
     id: 2178,
@@ -11836,6 +13821,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["tschüss"],
+      A2: ["ciao"],
+      B1: ["servus"],
+    },
   },
   {
     id: 2180,
@@ -11849,6 +13839,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["machen"],
+      B1: ["unternehmen"],
+      B2: ["ausführen"],
+    },
   },
   {
     id: 2181,
@@ -11862,6 +13857,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["üblich"],
+      B2: ["charakteristisch", "bezeichnend"],
+    },
   },
   {
     id: 2182,
@@ -11888,6 +13887,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Nacht verbringen"],
+      C1: ["nächtigen"],
+    },
   },
   {
     id: 2184,
@@ -11902,6 +13905,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "übersetzen",
+    synonyms: {
+      B2: ["übertragen"],
+    },
   },
   {
     id: 2185,
@@ -11916,6 +13922,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "übersetzen",
+    synonyms: {
+      B2: ["die Übertragung"],
+    },
   },
   {
     id: 2186,
@@ -11930,6 +13939,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "ziehen",
+    synonyms: {
+      B2: ["die Übersiedlung"],
+    },
   },
   {
     id: 2187,
@@ -11943,6 +13955,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["bestimmt", "auf jeden Fall"],
+      B2: ["zwingend", "definitiv"],
+    },
   },
   {
     id: 2188,
@@ -11956,6 +13972,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["das Unglück"],
+    },
   },
   {
     id: 2189,
@@ -11969,6 +13988,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Uni"],
+      B1: ["die Hochschule"],
+    },
   },
   {
     id: 2190,
@@ -12008,6 +14031,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["das Quartier"],
+      B2: ["die Bleibe"],
+    },
   },
   {
     id: 2193,
@@ -12022,6 +14049,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "nehmen",
+    synonyms: {
+      A2: ["machen"],
+      B2: ["in Angriff nehmen"],
+    },
   },
   {
     id: 2194,
@@ -12035,6 +14066,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["die Differenz", "die Abweichung"],
+    },
   },
   {
     id: 2195,
@@ -12049,6 +14083,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "schreiben",
+    synonyms: {
+      B1: ["unterzeichnen"],
+    },
   },
   {
     id: 2196,
@@ -12063,6 +14100,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "schreiben",
+    synonyms: {
+      B2: ["die Signatur"],
+    },
   },
   {
     id: 2197,
@@ -12076,6 +14116,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["prüfen", "kontrollieren"],
+      B1: ["überprüfen"],
+      B2: ["analysieren"],
+    },
   },
   {
     id: 2198,
@@ -12089,6 +14134,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["die Ferien"],
+      B2: ["die Auszeit"],
+    },
   },
   {
     id: 2199,
@@ -12102,6 +14151,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["eine Verabredung haben", "einen Termin haben"],
+    },
   },
   {
     id: 2200,
@@ -12115,6 +14167,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["das Event"],
+      B1: ["das Ereignis"],
+    },
   },
   {
     id: 2201,
@@ -12129,6 +14185,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "erlauben",
+    synonyms: {
+      B1: ["nicht erlauben"],
+      B2: ["untersagen"],
+    },
   },
   {
     id: 2202,
@@ -12142,6 +14202,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["gegenüberstellen", "abgleichen"],
+    },
   },
   {
     id: 2203,
@@ -12155,6 +14218,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["einbüßen"],
+    },
   },
   {
     id: 2204,
@@ -12168,6 +14234,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["sich wehtun"],
+    },
   },
   {
     id: 2205,
@@ -12195,6 +14264,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["versäumen"],
+      B2: ["verfehlen"],
+    },
   },
   {
     id: 2207,
@@ -12208,6 +14281,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["verlegen"],
+      B1: ["aufschieben"],
+      B2: ["vertagen"],
+    },
   },
   {
     id: 2208,
@@ -12221,6 +14299,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["anders"],
+      B1: ["unterschiedlich"],
+      B2: ["abweichend"],
+    },
   },
   {
     id: 2209,
@@ -12234,6 +14317,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["probieren"],
+      B1: ["sich bemühen"],
+    },
   },
   {
     id: 2210,
@@ -12247,6 +14334,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Vereinbarung"],
+      B2: ["das Abkommen", "die Abmachung"],
+    },
   },
   {
     id: 2211,
@@ -12299,6 +14390,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["an der Spitze"],
+    },
   },
   {
     id: 2215,
@@ -12312,6 +14406,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["achtsam", "behutsam"],
+      B2: ["umsichtig", "sorgsam"],
+    },
   },
   {
     id: 2216,
@@ -12325,6 +14423,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["nach vorn"],
+      B2: ["voran"],
+    },
   },
   {
     id: 2217,
@@ -12338,6 +14440,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["munter"],
+      B2: ["hellwach"],
+    },
   },
   {
     id: 2218,
@@ -12351,6 +14457,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["aussuchen"],
+      B1: ["auswählen"],
+    },
   },
   {
     id: 2219,
@@ -12377,6 +14487,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Website", "die Homepage"],
+      B1: ["die Internetseite"],
+    },
   },
   {
     id: 2221,
@@ -12390,6 +14504,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["tauschen", "ändern"],
+      B1: ["austauschen"],
+    },
   },
   {
     id: 2222,
@@ -12403,6 +14521,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["fort"],
+      B1: ["verschwunden"],
+    },
   },
   {
     id: 2223,
@@ -12416,6 +14538,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Strecke"],
+      B1: ["der Pfad", "die Route"],
+    },
   },
   {
     id: 2224,
@@ -12429,6 +14555,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["aufgrund"],
+      B2: ["infolge"],
+    },
   },
   {
     id: 2225,
@@ -12442,6 +14572,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["feminin"],
+    },
   },
   {
     id: 2226,
@@ -12455,6 +14588,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["zart"],
+      B2: ["flauschig"],
+    },
   },
   {
     id: 2227,
@@ -12481,6 +14618,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["heulen"],
+      B2: ["schluchzen"],
+    },
   },
   {
     id: 2229,
@@ -12494,6 +14635,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Erde"],
+    },
   },
   {
     id: 2230,
@@ -12507,6 +14651,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["zumindest", "mindestens"],
+      B2: ["immerhin"],
+    },
   },
   {
     id: 2231,
@@ -12520,6 +14668,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Wettkampf"],
+      B2: ["die Konkurrenz"],
+    },
   },
   {
     id: 2232,
@@ -12534,6 +14686,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "hören",
+    synonyms: {
+      A2: ["Tschüss"],
+      B1: ["Auf Wiederhören"],
+    },
   },
   {
     id: 2233,
@@ -12547,6 +14703,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Spaß"],
+      B1: ["der Scherz"],
+    },
   },
   {
     id: 2234,
@@ -12560,6 +14720,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["lustig", "komisch"],
+      B2: ["amüsant", "humorvoll"],
+    },
   },
   {
     id: 2235,
@@ -12573,6 +14737,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Kurs"],
+      B1: ["das Seminar"],
+    },
   },
   {
     id: 2236,
@@ -12586,6 +14754,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Traum"],
+      C1: ["das Verlangen"],
+    },
   },
   {
     id: 2237,
@@ -12599,6 +14771,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Nummer"],
+      B1: ["die Ziffer"],
+    },
   },
   {
     id: 2238,
@@ -12612,6 +14788,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["bezahlen"],
+      B2: ["begleichen"],
+      C1: ["entrichten"],
+    },
   },
   {
     id: 2239,
@@ -12625,6 +14806,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["malen"],
+      B1: ["skizzieren"],
+    },
   },
   {
     id: 2240,
@@ -12651,6 +14836,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Mitte", "die Innenstadt"],
+      B2: ["der Mittelpunkt"],
+    },
   },
   {
     id: 2242,
@@ -12664,6 +14853,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Notizzettel"],
+    },
   },
   {
     id: 2243,
@@ -12677,6 +14869,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["das Zertifikat", "die Bescheinigung"],
+    },
   },
   {
     id: 2244,
@@ -12691,6 +14886,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "ziehen",
+    synonyms: {
+      B1: ["anlegen"],
+      B2: ["überstreifen"],
+    },
   },
   {
     id: 2245,
@@ -12705,6 +14904,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "ziehen",
+    synonyms: {
+      B1: ["ablegen", "wegziehen"],
+    },
   },
   {
     id: 2246,
@@ -12718,6 +14920,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["das Vorhaben"],
+      B2: ["die Zielsetzung"],
+    },
   },
   {
     id: 2247,
@@ -12757,6 +14963,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Tierpark"],
+    },
   },
   {
     id: 2250,
@@ -12784,6 +14993,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "hören",
+    synonyms: {
+      A1: ["hören"],
+      B1: ["lauschen"],
+    },
   },
   {
     id: 2252,
@@ -12797,6 +15010,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["retour"],
+    },
   },
   {
     id: 2253,
@@ -12823,6 +15039,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Ansage"],
+      B1: ["die Mitteilung"],
+      B2: ["die Bekanntmachung"],
+    },
   },
   {
     id: 2255,
@@ -12850,6 +15071,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Arzt",
+    synonyms: {
+      A1: ["der Arzt"],
+    },
   },
   {
     id: 2257,
@@ -12864,6 +15088,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "der Arzt",
+    synonyms: {
+      A1: ["die Ärztin"],
+    },
   },
   {
     id: 2258,
@@ -12878,6 +15105,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "bilden",
+    synonyms: {
+      A2: ["der Azubi"],
+      B1: ["der Lehrling"],
+    },
   },
   {
     id: 2259,
@@ -12892,6 +15123,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "bilden",
+    synonyms: {
+      A2: ["die Azubi"],
+    },
   },
   {
     id: 2260,
@@ -12905,6 +15139,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Schriftsteller", "der Verfasser"],
+      B2: ["der Urheber"],
+    },
   },
   {
     id: 2261,
@@ -12918,6 +15156,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Schriftstellerin", "die Verfasserin"],
+      B2: ["die Urheberin"],
+    },
   },
   {
     id: 2262,
@@ -12931,6 +15173,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Reporter"],
+      B2: ["der Redakteur", "der Berichterstatter"],
+    },
   },
   {
     id: 2263,
@@ -12944,6 +15190,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Reporterin"],
+      B2: ["die Redakteurin", "die Berichterstatterin"],
+    },
   },
   {
     id: 2264,
@@ -12957,6 +15207,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Bedienung"],
+      B1: ["der Ober"],
+    },
   },
   {
     id: 2265,
@@ -12970,6 +15224,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Bedienung"],
+      B2: ["die Servicekraft"],
+    },
   },
   {
     id: 2266,
@@ -12983,6 +15241,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Pfleger"],
+    },
   },
   {
     id: 2267,
@@ -12996,6 +15257,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Pflegerin"],
+      B2: ["die Pflegekraft"],
+    },
   },
   {
     id: 2268,
@@ -13009,6 +15274,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["das Fotomodell"],
+      C1: ["das Mannequin"],
+    },
   },
   {
     id: 2269,
@@ -13022,6 +15291,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Polizeibeamte"],
+    },
   },
   {
     id: 2270,
@@ -13035,6 +15307,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Polizeibeamtin"],
+    },
   },
   {
     id: 2271,
@@ -13048,6 +15323,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Kusin"],
+      B2: ["der Vetter"],
+    },
   },
   {
     id: 2272,
@@ -13061,6 +15340,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Kusine"],
+      C1: ["die Base"],
+    },
   },
   {
     id: 2273,
@@ -13074,6 +15357,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Enkelsohn"],
+    },
   },
   {
     id: 2274,
@@ -13087,6 +15373,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["die Enkeltochter"],
+    },
   },
   {
     id: 2275,
@@ -13126,6 +15415,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Angehörige"],
+    },
   },
   {
     id: 2278,
@@ -13139,6 +15431,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["unverheiratet"],
+      B1: ["alleinstehend"],
+    },
   },
   {
     id: 2279,
@@ -13152,6 +15448,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      C1: ["vermählt"],
+    },
   },
   {
     id: 2280,
@@ -13178,6 +15477,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["getrennt lebend"],
+    },
   },
   {
     id: 2282,
@@ -13191,6 +15493,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["violett"],
+    },
   },
   {
     id: 2283,
@@ -13217,6 +15522,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["pink"],
+    },
   },
   {
     id: 2285,
@@ -13257,6 +15565,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Klasse",
+    synonyms: {
+      B1: ["die Klassenreise", "der Schulausflug"],
+    },
   },
   {
     id: 2288,
@@ -13270,6 +15581,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["das Büro"],
+    },
   },
   {
     id: 2289,
@@ -13283,6 +15597,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Unterrichtsplan"],
+    },
   },
   {
     id: 2290,
@@ -13348,6 +15665,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Jahreswechsel", "die Silvesternacht"],
+    },
   },
   {
     id: 2295,
@@ -13361,6 +15681,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Neujahrstag"],
+    },
   },
   {
     id: 2296,
@@ -13374,6 +15697,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["jeden Tag"],
+      B2: ["tagtäglich"],
+    },
   },
   {
     id: 2297,
@@ -13388,6 +15715,9 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Arbeit",
+    synonyms: {
+      B1: ["der Werktag"],
+    },
   },
   {
     id: 2298,
@@ -13401,6 +15731,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Arbeitstag"],
+    },
   },
   {
     id: 2299,
@@ -13479,6 +15812,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["die Mutter"],
+      A2: ["Mami", "Mutti"],
+    },
   },
   {
     id: 2305,
@@ -13492,6 +15829,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["der Vater"],
+      A2: ["Papi", "Vati"],
+    },
   },
   {
     id: 2306,
@@ -13505,6 +15846,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["fort sein", "nicht da sein"],
+      B1: ["verschwunden sein"],
+    },
   },
   {
     id: 2307,
@@ -13518,19 +15863,10 @@ export const A2_Vocabulary = [
     favorite: true,
     level: "A2",
     type: "word",
-  },
-  {
-    id: 2308,
-    word: "getrennt",
-    translation: "separately",
-    definition: "Nicht zusammen, einzeln.",
-    example: "Wir bezahlen getrennt.",
-    exampleTranslation: "We are paying separately.",
-    thema: "Eigenschaften",
-    priority: "High",
-    favorite: true,
-    level: "A2",
-    type: "word",
+    synonyms: {
+      B1: ["entfernen"],
+      B2: ["entziehen"],
+    },
   },
   {
     id: 2309,
@@ -13544,6 +15880,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["am Morgen"],
+      A2: ["früh"],
+    },
   },
   {
     id: 2310,
@@ -13557,6 +15897,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["am Vormittag"],
+    },
   },
   {
     id: 2311,
@@ -13570,6 +15913,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["am Mittag"],
+    },
   },
   {
     id: 2312,
@@ -13583,6 +15929,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["am Nachmittag"],
+    },
   },
   {
     id: 2313,
@@ -13596,6 +15945,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["am Abend"],
+    },
   },
   {
     id: 2314,
@@ -13609,6 +15961,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["in der Nacht"],
+    },
   },
   {
     id: 2315,
@@ -13622,6 +15977,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["der Großvater"],
+      A2: ["der Opi"],
+    },
   },
   {
     id: 2316,
@@ -13635,6 +15994,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["die Großmutter"],
+      A2: ["die Omi"],
+    },
   },
   {
     id: 2317,
@@ -13648,6 +16011,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["Laufen"],
+    },
   },
   {
     id: 2318,
@@ -13662,6 +16028,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "fahren",
+    synonyms: {
+      A2: ["zurückkehren"],
+      B1: ["heimfahren"],
+    },
   },
   {
     id: 2319,
@@ -13676,6 +16046,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["dahin"],
+    },
   },
   {
     id: 2320,
@@ -13690,6 +16063,10 @@ export const A2_Vocabulary = [
     level: "A2",
     type: "word",
     family: "die Arbeit",
+    synonyms: {
+      B1: ["der Arbeitsschluss"],
+      B2: ["der Dienstschluss"],
+    },
   },
   {
     id: 2321,
@@ -13703,6 +16080,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["neugierig"],
+      B1: ["aufgeschlossen"],
+    },
   },
   {
     id: 2322,
@@ -13716,6 +16097,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A1: ["eingeschaltet sein"],
+      B1: ["angeschaltet sein"],
+    },
   },
   {
     id: 2323,
@@ -13729,6 +16114,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["der Großteil"],
+    },
   },
   {
     id: 2324,
@@ -13742,6 +16130,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["schwer"],
+      B1: ["kompliziert", "anspruchsvoll"],
+      B2: ["mühsam", "knifflig"],
+    },
   },
   {
     id: 2325,
@@ -13755,6 +16148,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["der Frühling"],
+    },
   },
   {
     id: 2326,
@@ -13768,6 +16164,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["zuerst"],
+      B1: ["zunächst"],
+    },
   },
   {
     id: 2327,
@@ -13781,6 +16181,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["danach"],
+      B1: ["an zweiter Stelle"],
+    },
   },
   {
     id: 2328,
@@ -13794,6 +16198,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["an dritter Stelle"],
+    },
   },
   {
     id: 2329,
@@ -13807,6 +16214,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["gehen"],
+      A2: ["fortgehen"],
+      B1: ["verlassen"],
+    },
   },
   {
     id: 2330,
@@ -13833,6 +16245,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["jeden Montag"],
+    },
   },
   {
     id: 2332,
@@ -13846,6 +16261,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["jeden Dienstag"],
+    },
   },
   {
     id: 2333,
@@ -13859,6 +16277,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["jeden Mittwoch"],
+    },
   },
   {
     id: 2334,
@@ -13872,6 +16293,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["jeden Donnerstag"],
+    },
   },
   {
     id: 2335,
@@ -13885,6 +16309,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["jeden Freitag"],
+    },
   },
   {
     id: 2336,
@@ -13898,6 +16325,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["jeden Samstag"],
+    },
   },
   {
     id: 2337,
@@ -13911,6 +16341,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["jeden Sonntag"],
+    },
   },
   {
     id: 2338,
@@ -13924,6 +16357,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["abfahren", "verreisen"],
+      B1: ["losfahren"],
+    },
   },
   {
     id: 2339,
@@ -13937,6 +16374,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["der Partner"],
+      B1: ["der Lebenspartner"],
+      B2: ["der Gatte"],
+    },
   },
   {
     id: 2340,
@@ -13950,6 +16392,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["toll", "super"],
+      B1: ["prima", "großartig"],
+    },
   },
   {
     id: 2341,
@@ -13964,6 +16410,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["niemals"],
+      B1: ["keinesfalls"],
+      B2: ["keineswegs"],
+    },
   },
   {
     id: 2342,
@@ -13977,6 +16428,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["die Information"],
+      B1: ["die Mitteilung", "die Auskunft"],
+    },
   },
   {
     id: 2343,
@@ -13990,6 +16445,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["gleichzeitig"],
+      B1: ["währenddessen"],
+    },
   },
   {
     id: 2344,
@@ -14029,6 +16488,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["okay"],
+      A2: ["in Ordnung"],
+      B1: ["abgemacht"],
+    },
   },
   {
     id: 2347,
@@ -14042,6 +16506,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["separat"],
+      B2: ["vereinzelt"],
+    },
   },
   {
     id: 2348,
@@ -14055,6 +16523,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["umziehen"],
+      B2: ["zerren"],
+    },
   },
   {
     id: 2349,
@@ -14094,6 +16566,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B2: ["eidgenössisch"],
+    },
   },
   {
     id: 2352,
@@ -14120,6 +16595,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["zwei Mal"],
+    },
   },
   {
     id: 2354,
@@ -14133,6 +16611,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["drei Mal"],
+    },
   },
   {
     id: 2355,
@@ -14146,6 +16627,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      B1: ["der Schnellzug"],
+      B2: ["der Hochgeschwindigkeitszug"],
+    },
   },
   {
     id: 2356,
@@ -14159,6 +16644,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["der Computer"],
+      B1: ["der Rechner"],
+    },
   },
   {
     id: 2357,
@@ -14172,6 +16661,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A1: ["die Toilette"],
+      A2: ["das Klo"],
+    },
   },
   {
     id: 2358,
@@ -14185,6 +16678,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Aha", "Ich verstehe"],
+      B1: ["Verstehe"],
+    },
   },
   {
     id: 2359,
@@ -14198,6 +16695,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Natürlich", "Klar"],
+      B1: ["Selbstverständlich", "Aber sicher"],
+    },
   },
   {
     id: 2360,
@@ -14211,6 +16712,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das klingt super!", "Das hört sich toll an!"],
+      B1: ["Das klingt fantastisch!"],
+    },
   },
   {
     id: 2361,
@@ -14224,6 +16729,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das fand ich sehr gut", "Das war sehr schön"],
+      B2: ["Das hat mich begeistert"],
+    },
   },
   {
     id: 2362,
@@ -14237,6 +16746,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das ist ja klar"],
+      B1: ["Das überrascht nicht"],
+      B2: ["Das ist nicht verwunderlich"],
+    },
   },
   {
     id: 2363,
@@ -14250,6 +16764,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das überrascht mich nicht"],
+      B2: ["Das habe ich erwartet"],
+    },
   },
   {
     id: 2364,
@@ -14263,6 +16781,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das ist schön", "Schön, das zu hören"],
+      B1: ["Das ist erfreulich"],
+    },
   },
   {
     id: 2365,
@@ -14276,6 +16798,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Gott sei Dank!"],
+      B1: ["Glücklicherweise!"],
+    },
   },
   {
     id: 2366,
@@ -14289,6 +16815,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Zum Glück"],
+      B1: ["Glücklicherweise"],
+    },
   },
   {
     id: 2367,
@@ -14302,6 +16832,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["So ein Pech", "Wie schade"],
+      B1: ["Das ist ärgerlich"],
+    },
   },
   {
     id: 2368,
@@ -14315,6 +16849,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Gar nicht schlecht!", "Ganz gut!"],
+      B1: ["Respekt!"],
+    },
   },
   {
     id: 2369,
@@ -14328,6 +16866,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Alles Gute!"],
+      B1: ["Gratuliere!", "Ich gratuliere!"],
+    },
   },
   {
     id: 2370,
@@ -14341,6 +16883,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Werde bald wieder gesund!"],
+      B2: ["Gute Genesung!"],
+    },
   },
   {
     id: 2371,
@@ -14354,6 +16900,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Viel Glück!", "Alles Gute!"],
+      B1: ["Toi, toi, toi!"],
+    },
   },
   {
     id: 2372,
@@ -14367,6 +16917,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wirklich?", "Echt?"],
+      B1: ["Ehrlich?", "Tatsächlich?"],
+    },
   },
   {
     id: 2373,
@@ -14380,6 +16934,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das tut mir echt leid"],
+      B2: ["Ich bedaure das für dich"],
+    },
   },
   {
     id: 2374,
@@ -14393,6 +16951,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Mensch!"],
+      B1: ["Meine Güte!"],
+      B2: ["Du liebe Zeit!"],
+    },
   },
   {
     id: 2375,
@@ -14406,6 +16969,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["So lala", "Na ja"],
+      B1: ["Mittelmäßig", "Nicht besonders"],
+    },
   },
   {
     id: 2376,
@@ -14419,6 +16986,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was gibt's Neues?"],
+      B1: ["Was treibst du so?"],
+    },
   },
   {
     id: 2377,
@@ -14432,6 +17003,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wir haben uns lange nicht gesehen"],
+      B1: ["Wir haben uns ewig nicht gesehen"],
+    },
   },
   {
     id: 2378,
@@ -14445,6 +17020,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Liebe Grüße an..."],
+      B1: ["Schöne Grüße an..."],
+    },
   },
   {
     id: 2379,
@@ -14458,6 +17037,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was sind deine Hobbys?"],
+      B1: ["Wie verbringst du deine Freizeit?"],
+    },
   },
   {
     id: 2380,
@@ -14471,6 +17054,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich habe Interesse an..."],
+      B1: ["Mich interessiert..."],
+    },
   },
   {
     id: 2381,
@@ -14484,6 +17071,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A1: ["Was gibt es Neues?"],
+      A2: ["Was ist neu?"],
+      B2: ["Gibt es Neuigkeiten?"],
+    },
   },
   {
     id: 2382,
@@ -14497,6 +17089,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Und sonst?"],
+      B1: ["Sonst alles klar?"],
+    },
   },
   {
     id: 2383,
@@ -14510,6 +17106,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A1: ["Geht es dir gut?"],
+      A2: ["Alles klar bei dir?"],
+      B1: ["Alles in Ordnung bei dir?"],
+    },
   },
   {
     id: 2384,
@@ -14523,6 +17124,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A1: ["Wie geht's?"],
+      A2: ["Wie geht es dir?"],
+      B1: ["Wie steht's?"],
+    },
   },
   {
     id: 2385,
@@ -14536,6 +17142,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Hattest du ein schönes Wochenende?"],
+      B1: ["Wie hast du das Wochenende verbracht?"],
+    },
   },
   {
     id: 2386,
@@ -14549,6 +17159,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was machst du am Wochenende?"],
+      B1: ["Was hast du am Wochenende geplant?"],
+    },
   },
   {
     id: 2387,
@@ -14562,6 +17176,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wie lange wohnst du schon hier?"],
+      B1: ["Lebst du schon lange hier?"],
+    },
   },
   {
     id: 2388,
@@ -14575,6 +17193,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Woher kommst du eigentlich?"],
+      B2: ["Wo stammst du ursprünglich her?"],
+    },
   },
   {
     id: 2389,
@@ -14588,6 +17210,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Findest du es hier schön?", "Magst du es hier?"],
+      B1: ["Fühlst du dich hier wohl?"],
+    },
   },
   {
     id: 2390,
@@ -14601,6 +17227,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Bist du Student oder arbeitest du?"],
+      B1: ["Bist du berufstätig oder studierst du?"],
+    },
   },
   {
     id: 2391,
@@ -14614,6 +17244,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was arbeitest du?", "Was ist dein Beruf?"],
+      B1: ["Welchen Beruf hast du?"],
+    },
   },
   {
     id: 2392,
@@ -14627,6 +17261,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Seit wann kennt ihr euch?"],
+    },
   },
   {
     id: 2393,
@@ -14640,6 +17277,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Bis bald!", "Man sieht sich!"],
+      B1: ["Bis demnächst!"],
+    },
   },
   {
     id: 2394,
@@ -14653,6 +17294,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Schreib mir mal!", "Ruf mich mal an!"],
+      B1: ["Lass von dir hören!"],
+    },
   },
   {
     id: 2395,
@@ -14666,6 +17311,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A1: ["Freut mich"],
+      A2: ["Freut mich, dich kennenzulernen"],
+      B2: ["Sehr erfreut"],
+    },
   },
   {
     id: 2396,
@@ -14679,6 +17329,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wie geht's deiner Familie?"],
+      B1: ["Was macht deine Familie?"],
+    },
   },
   {
     id: 2397,
@@ -14692,6 +17346,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich möchte mich vorstellen"],
+      B2: ["Gestatten, mein Name ist..."],
+    },
   },
   {
     id: 2398,
@@ -14705,6 +17363,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Haben wir uns schon mal gesehen?"],
+      B2: ["Sind wir uns nicht schon mal begegnet?"],
+    },
   },
   {
     id: 2399,
@@ -14718,6 +17380,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Bist du neu hier?", "Ist es dein erstes Mal hier?"],
+    },
   },
   {
     id: 2400,
@@ -14731,6 +17396,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Setz dich bitte", "Nimm Platz"],
+      B1: ["Mach es dir bequem"],
+    },
   },
   {
     id: 2401,
@@ -14744,6 +17413,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Nimm dir ruhig!"],
+      B1: ["Greif zu!"],
+    },
   },
   {
     id: 2402,
@@ -14757,6 +17430,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Pass auf dich auf!", "Alles Gute!"],
+      B1: ["Bleib gesund!"],
+    },
   },
   {
     id: 2403,
@@ -14770,6 +17447,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Liebe Grüße an die Familie!"],
+      B1: ["Bestell der Familie viele Grüße von mir!"],
+    },
   },
   {
     id: 2404,
@@ -14783,6 +17464,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Warst du verreist?", "Warst du weg?"],
+      B1: ["Hattest du Urlaub?"],
+    },
   },
   {
     id: 2405,
@@ -14796,6 +17481,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Kein Problem", "Nicht schlimm", "Schon gut"],
+      B1: ["Das spielt keine Rolle"],
+    },
   },
   {
     id: 2406,
@@ -14809,19 +17498,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
-  },
-  {
-    id: 2407,
-    word: "Auf jeden Fall",
-    translation: "Definitely / In any case",
-    definition: "Man betont etwas fest.",
-    example: "Kommst du morgen? – Auf jeden Fall!",
-    exampleTranslation: "Are you coming tomorrow? – Definitely!",
-    thema: "Kommunikation",
-    priority: "High",
-    favorite: false,
-    level: "A2",
-    type: "phrase",
+    synonyms: {
+      A2: ["Ich weiß es nicht", "Ich habe keine Idee"],
+      B1: ["Keinen Schimmer"],
+      B2: ["Ich habe keinen blassen Schimmer"],
+    },
   },
   {
     id: 2408,
@@ -14835,6 +17516,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das stimmt nicht", "Das ist falsch"],
+      B2: ["Das trifft nicht zu"],
+    },
   },
   {
     id: 2409,
@@ -14848,6 +17533,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich weiß es noch nicht"],
+      B1: ["Das steht noch nicht fest"],
+      B2: ["Das ist noch unklar"],
+    },
   },
   {
     id: 2410,
@@ -14861,6 +17551,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wir werden sehen", "Schauen wir mal"],
+      B2: ["Das wird sich zeigen"],
+    },
   },
   {
     id: 2411,
@@ -14874,6 +17568,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Mach dir keine Sorgen", "Keine Angst"],
+      B1: ["Kein Grund zur Sorge"],
+    },
   },
   {
     id: 2412,
@@ -14887,6 +17585,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Kein Problem", "Macht nichts"],
+      B1: ["Nicht der Rede wert"],
+    },
   },
   {
     id: 2413,
@@ -14900,6 +17602,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich mache es sofort", "Das mache ich sofort"],
+      B1: ["Ich erledige das gleich"],
+    },
   },
   {
     id: 2414,
@@ -14913,6 +17619,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das machen wir so", "Einverstanden"],
+      B1: ["Abgemacht"],
+    },
   },
   {
     id: 2415,
@@ -14926,6 +17636,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich verstehe dich", "Ich weiß, was du meinst"],
+      B1: ["Ich kann nachvollziehen, was du meinst"],
+    },
   },
   {
     id: 2416,
@@ -14939,6 +17653,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A1: ["Okay"],
+      A2: ["In Ordnung", "Passt"],
+      B1: ["Einverstanden"],
+    },
   },
   {
     id: 2417,
@@ -14952,6 +17671,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das mache ich", "Wird gemacht"],
+      B1: ["Erledige ich", "Ich kümmere mich darum"],
+    },
   },
   {
     id: 2418,
@@ -14965,6 +17688,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich notiere es mir"],
+      B1: ["Ich mache mir eine Notiz"],
+    },
   },
   {
     id: 2419,
@@ -14978,6 +17705,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich überlege noch"],
+      B1: ["Ich überlege es mir"],
+    },
   },
   {
     id: 2420,
@@ -14991,6 +17722,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich meine...", "Ich denke...", "Ich glaube..."],
+      B1: ["Meiner Meinung nach...", "Ich bin der Meinung, dass..."],
+      B2: ["Ich bin der Ansicht, dass..."],
+    },
   },
   {
     id: 2421,
@@ -15004,6 +17740,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich denke schon", "Ich denke ja"],
+      B1: ["Ich vermute es"],
+      B2: ["Ich nehme es an"],
+    },
   },
   {
     id: 2422,
@@ -15017,6 +17758,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Kann sein", "Vielleicht"],
+      B1: ["Möglicherweise", "Das ist möglich"],
+      B2: ["Durchaus möglich"],
+    },
   },
   {
     id: 2423,
@@ -15030,6 +17776,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das hängt davon ab"],
+      B1: ["Je nachdem"],
+      B2: ["Das ist situationsabhängig"],
+    },
   },
   {
     id: 2424,
@@ -15043,6 +17794,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Und so fort"],
+      B1: ["et cetera"],
+    },
   },
   {
     id: 2425,
@@ -15056,6 +17811,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wie ich schon gesagt habe"],
+      B1: ["Wie bereits erwähnt"],
+    },
   },
   {
     id: 2426,
@@ -15069,6 +17828,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["So etwas", "Sowas"],
+      B2: ["Dergleichen"],
+    },
   },
   {
     id: 2427,
@@ -15082,6 +17845,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich denke", "Ich finde"],
+      B1: ["Ich bin der Meinung"],
+    },
   },
   {
     id: 2428,
@@ -15095,6 +17862,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ungefähr"],
+      B1: ["Im Großen und Ganzen", "Ziemlich"],
+      B2: ["Mehr oder minder"],
+    },
   },
   {
     id: 2429,
@@ -15108,6 +17880,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Stimmt's?", "Oder?"],
+      B1: ["Nicht?", "Ist das nicht so?"],
+    },
   },
   {
     id: 2430,
@@ -15121,6 +17897,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Na gut", "Okay"],
+      B1: ["Nun gut", "Also schön"],
+    },
   },
   {
     id: 2431,
@@ -15134,6 +17914,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Einen Moment", "Warte mal"],
+      B1: ["Augenblick mal"],
+    },
   },
   {
     id: 2432,
@@ -15147,6 +17931,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Du,...", "Hör mal,..."],
+      B1: ["Sag einmal,..."],
+    },
   },
   {
     id: 2433,
@@ -15160,6 +17948,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Sag mal,...", "Pass auf,..."],
+      B1: ["Schau mal,..."],
+    },
   },
   {
     id: 2434,
@@ -15173,6 +17965,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Besonders"],
+      B1: ["Insbesondere", "Hauptsächlich"],
+      B2: ["Allen voran"],
+    },
   },
   {
     id: 2435,
@@ -15186,6 +17983,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das ist eine gute Idee!", "Gute Idee!"],
+      B1: ["Das halte ich für eine gute Idee!"],
+    },
   },
   {
     id: 2436,
@@ -15199,6 +18000,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Du hast recht", "Das stimmt"],
+      B1: ["Das sehe ich auch so"],
+      B2: ["Da liegst du richtig"],
+    },
   },
   {
     id: 2437,
@@ -15212,6 +18018,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Sie haben recht", "Das stimmt"],
+      B1: ["Das sehe ich auch so"],
+      B2: ["Da liegen Sie richtig"],
+    },
   },
   {
     id: 2438,
@@ -15225,6 +18036,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich bin nicht dafür", "Das finde ich nicht gut"],
+      B1: ["Ich bin nicht einverstanden"],
+      B2: ["Ich lehne das ab"],
+    },
   },
   {
     id: 2439,
@@ -15238,19 +18054,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
-  },
-  {
-    id: 2440,
-    word: "Auf keinen Fall",
-    translation: "No way / Absolutely not",
-    definition: "Starke Ablehnung.",
-    example: "Auf keinen Fall!",
-    exampleTranslation: "No way!",
-    thema: "Meinung äußern",
-    priority: "High",
-    favorite: false,
-    level: "A2",
-    type: "phrase",
+    synonyms: {
+      A2: ["Das finde ich gut"],
+      B1: ["Ich bin einverstanden"],
+      B2: ["Ich befürworte das"],
+    },
   },
   {
     id: 2441,
@@ -15264,6 +18072,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das denke ich nicht", "Das stimmt nicht"],
+      B1: ["Das bezweifle ich"],
+      B2: ["Das halte ich für unwahrscheinlich"],
+    },
   },
   {
     id: 2442,
@@ -15277,6 +18090,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich bin deiner Meinung", "Das sehe ich auch so"],
+      B1: ["Ich bin einverstanden"],
+      B2: ["Da bin ich ganz bei dir"],
+    },
   },
   {
     id: 2443,
@@ -15290,6 +18108,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Können Sie mir bitte helfen?", "Könnten Sie mir bitte helfen?"],
+      B1: ["Würden Sie mir bitte weiterhelfen?"],
+      B2: ["Wären Sie so freundlich, mir zu helfen?"],
+    },
   },
   {
     id: 2444,
@@ -15303,6 +18126,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Brauchen Sie Hilfe?", "Kann ich etwas für Sie tun?"],
+      B1: ["Benötigen Sie Hilfe?", "Womit kann ich Ihnen helfen?"],
+    },
   },
   {
     id: 2445,
@@ -15316,6 +18143,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Hilfst du mir kurz?", "Kannst du mir mal helfen?"],
+      B1: ["Könntest du mir kurz helfen?"],
+    },
   },
   {
     id: 2446,
@@ -15329,6 +18160,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Hast du kurz Zeit?", "Hast du einen Moment Zeit?"],
+      B1: ["Hättest du einen Augenblick Zeit?"],
+    },
   },
   {
     id: 2447,
@@ -15342,6 +18177,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Haben Sie einen Moment Zeit?", "Haben Sie kurz Zeit?"],
+      B1: ["Hätten Sie einen Augenblick Zeit für mich?"],
+    },
   },
   {
     id: 2448,
@@ -15355,6 +18194,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich habe eine Frage", "Darf ich etwas fragen?"],
+      B1: ["Ich möchte etwas fragen"],
+    },
   },
   {
     id: 2449,
@@ -15368,6 +18211,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich habe ein Problem", "Es gibt ein Problem"],
+      B1: ["Da gibt es ein Problem"],
+      B2: ["Ich habe da eine Schwierigkeit"],
+    },
   },
   {
     id: 2450,
@@ -15381,6 +18229,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wie geht das?", "Wie macht man das?"],
+      B1: ["Wie wird das bedient?"],
+    },
   },
   {
     id: 2451,
@@ -15394,6 +18246,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Erklärst du mir das?", "Kannst du mir das zeigen?"],
+      B1: ["Könntest du mir das erläutern?"],
+    },
   },
   {
     id: 2452,
@@ -15407,6 +18263,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A1: ["Wo ist...?"],
+      A2: ["Wo gibt es...?"],
+      B1: ["Wo kann ich ... finden?"],
+    },
   },
   {
     id: 2453,
@@ -15420,6 +18281,13 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: [
+        "Zeig mir, wie das funktioniert",
+        "Kannst du mir zeigen, wie das geht?",
+      ],
+      B1: ["Erklär mir mal, wie das geht"],
+    },
   },
   {
     id: 2454,
@@ -15433,6 +18301,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Hast du einen Vorschlag?", "Hast du einen Tipp?"],
+      B1: ["Fällt dir etwas ein?"],
+    },
   },
   {
     id: 2455,
@@ -15446,6 +18318,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was rätst du mir?"],
+      B1: ["Was würdest du tun?", "Was würdest du an meiner Stelle tun?"],
+    },
   },
   {
     id: 2456,
@@ -15459,6 +18335,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Können Sie mir das bitte zeigen?", "Zeigen Sie mir das bitte"],
+      B1: ["Würden Sie mir das bitte zeigen?"],
+    },
   },
   {
     id: 2457,
@@ -15472,6 +18352,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Kann ich dich was fragen?", "Darf ich dich etwas fragen?"],
+      B1: ["Hast du kurz Zeit für eine Frage?"],
+    },
   },
   {
     id: 2458,
@@ -15485,6 +18369,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wo muss ich mich anmelden?", "Wo ist die Anmeldung?"],
+      B1: ["Wohin muss ich mich wenden?"],
+    },
   },
   {
     id: 2459,
@@ -15498,6 +18386,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was mache ich jetzt?", "Was muss ich jetzt tun?"],
+      B1: ["Wie soll ich jetzt vorgehen?"],
+    },
   },
   {
     id: 2460,
@@ -15511,6 +18403,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich mache das"],
+      B1: ["Überlass das mir", "Ich übernehme das"],
+    },
   },
   {
     id: 2461,
@@ -15524,6 +18420,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich helfe dir dabei"],
+      B1: ["Ich erledige das für dich", "Ich übernehme das für dich"],
+    },
   },
   {
     id: 2462,
@@ -15537,6 +18437,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das klappt schon", "Ich komme klar"],
+      B1: ["Ich bekomme das hin", "Ich komme schon zurecht"],
+    },
   },
   {
     id: 2463,
@@ -15550,6 +18454,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Nein danke, es geht schon", "Nein danke, ich schaffe das"],
+      B1: ["Nein danke, ich komme zurecht"],
+    },
   },
   {
     id: 2464,
@@ -15563,6 +18471,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Kann ich Ihnen helfen?"],
+      B1: ["Wie kann ich Ihnen helfen?"],
+      B2: ["Womit kann ich dienen?"],
+    },
   },
   {
     id: 2465,
@@ -15576,6 +18489,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was ist Ihre Telefonnummer?", "Welche Telefonnummer haben Sie?"],
+      B1: ["Wie lautet Ihre Telefonnummer?"],
+    },
   },
   {
     id: 2466,
@@ -15589,6 +18506,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich rufe später wieder an", "Ich melde mich später"],
+      B1: ["Ich versuche es später noch einmal"],
+    },
   },
   {
     id: 2467,
@@ -15602,6 +18523,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Rufen Sie mich bitte zurück", "Können Sie mich bitte zurückrufen?"],
+      B1: ["Würden Sie mich zurückrufen?"],
+    },
   },
   {
     id: 2468,
@@ -15615,6 +18540,12 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: [
+        "Ich habe Sie nicht verstanden",
+        "Das habe ich leider nicht verstanden",
+      ],
+    },
   },
   {
     id: 2469,
@@ -15628,6 +18559,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Die Leitung ist schlecht"],
+      B1: ["Der Empfang ist schlecht"],
+      B2: ["Die Verbindung ist gestört"],
+    },
   },
   {
     id: 2470,
@@ -15641,6 +18577,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich kann Sie kaum hören", "Ich höre Sie fast nicht"],
+      B1: ["Sie sind kaum zu hören"],
+    },
   },
   {
     id: 2471,
@@ -15654,6 +18594,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Sprechen Sie bitte lauter", "Können Sie bitte lauter sprechen?"],
+      B1: ["Könnten Sie etwas lauter sprechen?"],
+    },
   },
   {
     id: 2472,
@@ -15667,6 +18611,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Warten Sie bitte"],
+      B1: ["Bitte bleiben Sie in der Leitung", "Einen Moment bitte"],
+    },
   },
   {
     id: 2473,
@@ -15680,6 +18628,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Viele Grüße", "Herzliche Grüße"],
+      B1: ["Beste Grüße", "Alles Liebe"],
+    },
   },
   {
     id: 2474,
@@ -15693,6 +18645,13 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: [
+        "Ich habe deine Nachricht erhalten",
+        "Deine Nachricht ist angekommen",
+      ],
+      B1: ["Deine Nachricht ist bei mir eingegangen"],
+    },
   },
   {
     id: 2475,
@@ -15706,6 +18665,13 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: [
+        "Schick mir einfach eine Nachricht",
+        "Schreib mir einfach eine Nachricht",
+      ],
+      B1: ["Melde dich einfach bei mir"],
+    },
   },
   {
     id: 2476,
@@ -15719,6 +18685,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich konnte dich nicht erreichen"],
+      B1: ["Du warst nicht erreichbar", "Ich habe dich nicht erwischt"],
+    },
   },
   {
     id: 2477,
@@ -15732,6 +18702,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich kann jetzt nicht reden", "Ich habe gerade keine Zeit"],
+      B1: ["Es passt gerade nicht"],
+    },
   },
   {
     id: 2478,
@@ -15745,6 +18719,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich habe hier kein Netz", "Hier habe ich kein Netz"],
+      B1: ["Der Empfang ist hier schlecht"],
+    },
   },
   {
     id: 2479,
@@ -15758,6 +18736,13 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: [
+        "Entschuldigung, falsche Nummer",
+        "Entschuldigung, ich habe mich verwählt",
+      ],
+      B1: ["Verzeihung, ich habe mich verwählt"],
+    },
   },
   {
     id: 2480,
@@ -15771,6 +18756,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Hören Sie mich?", "Können Sie mich verstehen?"],
+      B1: ["Hören Sie mich gut?"],
+    },
   },
   {
     id: 2481,
@@ -15784,6 +18773,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich rufe Sie sofort zurück", "Ich melde mich gleich"],
+      B1: ["Ich rufe Sie in Kürze zurück"],
+    },
   },
   {
     id: 2482,
@@ -15797,6 +18790,13 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich habe eine neue Nummer", "Meine Handynummer ist neu"],
+      B1: [
+        "Ich habe eine neue Mobilnummer",
+        "Meine Handynummer hat sich geändert",
+      ],
+    },
   },
   {
     id: 2483,
@@ -15810,6 +18810,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Los geht's", "Beginnen wir"],
+      B1: ["Legen wir los", "Starten wir"],
+    },
   },
   {
     id: 2484,
@@ -15823,6 +18827,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Lass uns beginnen", "Fangen wir an"],
+      B1: ["Lass uns loslegen", "Lass uns starten"],
+    },
   },
   {
     id: 2485,
@@ -15836,6 +18844,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich arbeite heute im Büro"],
+    },
   },
   {
     id: 2486,
@@ -15849,6 +18860,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich muss leider gehen", "Ich muss weg"],
+      B1: ["Ich muss mich leider verabschieden", "Ich muss leider aufbrechen"],
+    },
   },
   {
     id: 2487,
@@ -15862,6 +18877,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Hast du am Vormittag Zeit?", "Geht es am Vormittag?"],
+      B1: ["Würde es dir am Vormittag passen?"],
+    },
   },
   {
     id: 2488,
@@ -15875,6 +18894,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Kannst du mich hören?", "Verstehst du mich?"],
+      B1: ["Hörst du mich gut?"],
+    },
   },
   {
     id: 2489,
@@ -15888,6 +18911,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich habe nächste Woche Urlaub", "Nächste Woche bin ich weg"],
+      B1: ["Nächste Woche bin ich nicht da", "Ich nehme nächste Woche Urlaub"],
+    },
   },
   {
     id: 2490,
@@ -15901,6 +18928,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich arbeite heute nicht", "Ich habe heute keinen Dienst"],
+      B1: ["Heute habe ich Urlaub", "Ich habe heute dienstfrei"],
+    },
   },
   {
     id: 2491,
@@ -15914,6 +18945,13 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: [
+        "Sollen wir uns morgen Nachmittag treffen?",
+        "Wollen wir uns morgen Nachmittag treffen?",
+      ],
+      B1: ["Wollen wir uns morgen Nachmittag verabreden?"],
+    },
   },
   {
     id: 2492,
@@ -15927,6 +18965,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wann hast du Zeit?", "Wann geht es bei dir?"],
+      B1: ["Wann wäre es dir recht?", "Wann würde es dir passen?"],
+    },
   },
   {
     id: 2493,
@@ -15940,6 +18982,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wann haben Sie Zeit?"],
+      B1: ["Wann wäre es Ihnen recht?", "Wann würde es Ihnen passen?"],
+    },
   },
   {
     id: 2494,
@@ -15953,6 +18999,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich brauche einen Termin", "Ich möchte einen Termin machen"],
+      B1: ["Ich möchte einen Termin ausmachen"],
+    },
   },
   {
     id: 2495,
@@ -15966,6 +19016,12 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: [
+        "Haben Sie am Montag noch einen Termin frei?",
+        "Gibt es am Montag noch einen Termin?",
+      ],
+    },
   },
   {
     id: 2496,
@@ -15979,6 +19035,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ist es auch früher möglich?", "Haben Sie etwas früher?"],
+      B1: ["Wäre auch ein früherer Termin möglich?"],
+    },
   },
   {
     id: 2497,
@@ -15992,6 +19052,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ist es auch später möglich?", "Haben Sie etwas später?"],
+      B1: ["Wäre auch ein späterer Termin möglich?"],
+    },
   },
   {
     id: 2498,
@@ -16005,6 +19069,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wann passt es dir?", "Wann bist du frei?"],
+      B1: ["Wann hättest du Zeit?"],
+    },
   },
   {
     id: 2499,
@@ -16018,6 +19086,13 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["An dem Tag habe ich schon einen Termin"],
+      B1: [
+        "An dem Tag bin ich schon verplant",
+        "An dem Tag bin ich leider nicht frei",
+      ],
+    },
   },
   {
     id: 2500,
@@ -16031,6 +19106,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das geht leider nicht", "An dem Tag kann ich leider nicht"],
+      B1: ["Das passt mir leider nicht"],
+    },
   },
   {
     id: 2501,
@@ -16044,6 +19123,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Geht Dienstag um drei?", "Hast du Dienstag um drei Zeit?"],
+      B1: ["Wäre Dienstag um drei möglich?"],
+    },
   },
   {
     id: 2502,
@@ -16057,6 +19140,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Treffen wir uns um acht?", "Wie wäre es um acht?"],
+    },
   },
   {
     id: 2503,
@@ -16070,6 +19156,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Um wie viel Uhr genau?", "Zu welcher Zeit genau?"],
+      B1: ["Zu welchem Zeitpunkt genau?"],
+    },
   },
   {
     id: 2504,
@@ -16083,6 +19173,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich komme pünktlich", "Ich werde pünktlich sein"],
+      B1: ["Ich bin rechtzeitig da"],
+    },
   },
   {
     id: 2505,
@@ -16096,6 +19190,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich komme sofort", "Ich bin gleich bei dir"],
+      B1: ["Ich bin in Kürze da"],
+    },
   },
   {
     id: 2506,
@@ -16109,6 +19207,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich gehe jetzt los", "Ich fahre jetzt los"],
+      B1: ["Ich breche jetzt auf"],
+    },
   },
   {
     id: 2507,
@@ -16122,6 +19224,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wir sind zu früh dran"],
+      B1: ["Wir sind früher als geplant da"],
+    },
   },
   {
     id: 2508,
@@ -16135,6 +19241,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Es eilt nicht", "Wir müssen uns nicht beeilen"],
+      B1: ["Wir haben noch etwas Zeit"],
+    },
   },
   {
     id: 2509,
@@ -16148,6 +19258,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das geht schnell", "Das ist gleich fertig"],
+      B1: ["Das dauert nur kurz"],
+    },
   },
   {
     id: 2510,
@@ -16161,6 +19275,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich habe nur zehn Minuten Zeit"],
+      B1: ["Mir bleiben nur zehn Minuten"],
+    },
   },
   {
     id: 2511,
@@ -16174,6 +19292,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wann kommst du zurück?", "Wann kommst du wieder?"],
+      B1: ["Wann bist du wieder da?"],
+    },
   },
   {
     id: 2512,
@@ -16187,6 +19309,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wie lange bist du im Büro?"],
+      B1: ["Bis wann arbeitest du im Büro?"],
+    },
   },
   {
     id: 2513,
@@ -16200,6 +19326,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Dann bis Freitag", "Bis Freitag"],
+    },
   },
   {
     id: 2514,
@@ -16213,6 +19342,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wie lange bleibst du noch?", "Bis wann bleibst du?"],
+    },
   },
   {
     id: 2515,
@@ -16226,6 +19358,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Gleich nach acht", "Ein bisschen nach acht"],
+    },
   },
   {
     id: 2516,
@@ -16239,6 +19374,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Genau um acht", "Pünktlich um acht"],
+    },
   },
   {
     id: 2517,
@@ -16252,6 +19390,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Geht auch Samstag?", "Wäre Samstag auch möglich?"],
+      B1: ["Würde auch Samstag passen?"],
+    },
   },
   {
     id: 2518,
@@ -16265,6 +19407,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich möchte einen Termin", "Ich brauche einen Termin"],
+      B1: ["Ich würde gern einen Termin vereinbaren"],
+    },
   },
   {
     id: 2519,
@@ -16278,6 +19424,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Geht es um drei?", "Haben Sie um drei Zeit?"],
+      B1: ["Wäre drei Uhr für Sie möglich?"],
+    },
   },
   {
     id: 2520,
@@ -16291,6 +19441,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich bin schon gespannt!", "Ich freue mich schon!"],
+      B2: ["Ich sehe dem mit Freude entgegen"],
+    },
   },
   {
     id: 2521,
@@ -16304,6 +19458,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Du wirkst gestresst"],
+      B1: ["Du machst einen gestressten Eindruck"],
+    },
   },
   {
     id: 2522,
@@ -16317,6 +19475,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich habe viel Stress"],
+      B1: ["Ich bin angespannt", "Ich bin überfordert"],
+    },
   },
   {
     id: 2523,
@@ -16330,6 +19492,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich möchte eine Pause machen", "Ich muss mich ausruhen"],
+      B1: ["Ich brauche eine Auszeit"],
+    },
   },
   {
     id: 2524,
@@ -16343,6 +19509,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Mir geht es sehr gut", "Ich fühle mich richtig gut"],
+      B1: ["Es geht mir bestens"],
+    },
   },
   {
     id: 2525,
@@ -16356,6 +19526,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich bin glücklich", "Ich bin froh"],
+    },
   },
   {
     id: 2526,
@@ -16369,6 +19542,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich bin traurig", "Ich bin nicht zufrieden"],
+    },
   },
   {
     id: 2527,
@@ -16382,6 +19558,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich bin sauer"],
+      B1: ["Ich bin verärgert"],
+      B2: ["Ich bin zornig"],
+    },
   },
   {
     id: 2528,
@@ -16395,6 +19576,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich fürchte mich"],
+      B2: ["Ich habe Furcht"],
+    },
   },
   {
     id: 2529,
@@ -16408,6 +19593,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich bin aufgeregt", "Ich bin unruhig"],
+      B1: ["Ich bin angespannt"],
+    },
   },
   {
     id: 2530,
@@ -16421,6 +19610,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das überrascht mich"],
+      B1: ["Ich bin erstaunt"],
+      B2: ["Ich bin verblüfft"],
+    },
   },
   {
     id: 2531,
@@ -16434,6 +19628,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Du fehlst mir"],
+      B1: ["Ich sehne mich nach dir"],
+    },
   },
   {
     id: 2532,
@@ -16447,6 +19645,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich bin allein", "Ich fühle mich allein"],
+      B2: ["Ich fühle mich isoliert"],
+    },
   },
   {
     id: 2533,
@@ -16460,6 +19662,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ist alles gut?", "Alles okay?", "Alles klar?"],
+      B1: ["Ist bei dir alles in Ordnung?"],
+    },
   },
   {
     id: 2534,
@@ -16473,6 +19679,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was ist passiert?", "Was hast du?"],
+      B1: ["Was ist geschehen?"],
+    },
   },
   {
     id: 2535,
@@ -16486,6 +19696,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich langweile mich", "Ich habe nichts zu tun"],
+    },
   },
   {
     id: 2536,
@@ -16499,6 +19712,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Es gefällt mir hier", "Ich bin gern hier"],
+      B1: ["Ich fühle mich hier gut aufgehoben"],
+    },
   },
   {
     id: 2537,
@@ -16512,6 +19729,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Tut mir leid", "Entschuldigung"],
+      B1: ["Verzeih mir"],
+    },
   },
   {
     id: 2538,
@@ -16525,6 +19746,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Entschuldigung"],
+      B1: ["Verzeihung", "Verzeihen Sie bitte"],
+    },
   },
   {
     id: 2539,
@@ -16538,6 +19763,13 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: [
+        "Tut mir leid, dass ich zu spät bin",
+        "Entschuldigung, ich bin zu spät",
+      ],
+      B1: ["Verzeihung für die Verspätung"],
+    },
   },
   {
     id: 2540,
@@ -16551,6 +19783,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Danke für alles"],
+      B1: ["Herzlichen Dank für alles"],
+    },
   },
   {
     id: 2541,
@@ -16564,6 +19800,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A1: ["Danke"],
+      A2: ["Vielen Dank"],
+      B1: ["Besten Dank"],
+    },
   },
   {
     id: 2542,
@@ -16577,6 +19818,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Vielen Dank für die Einladung"],
+      B1: ["Ich danke dir für die Einladung"],
+    },
   },
   {
     id: 2543,
@@ -16590,6 +19835,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das ist lieb von dir", "Das ist sehr freundlich von dir"],
+      B1: ["Das ist sehr aufmerksam von dir"],
+    },
   },
   {
     id: 2544,
@@ -16603,6 +19852,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das ist sehr freundlich von Ihnen"],
+      B1: ["Das ist sehr aufmerksam von Ihnen"],
+      B2: ["Das ist sehr liebenswürdig von Ihnen"],
+    },
   },
   {
     id: 2545,
@@ -16616,6 +19870,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A1: ["Gerne"],
+      A2: ["Gern geschehen"],
+      B1: ["Mit Vergnügen"],
+    },
   },
   {
     id: 2546,
@@ -16629,6 +19888,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Gern geschehen", "Kein Problem"],
+      B1: ["Nichts zu danken", "Nicht der Rede wert"],
+    },
   },
   {
     id: 2547,
@@ -16642,6 +19905,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wie schaut er aus?"],
+      B1: ["Wie würdest du ihn beschreiben?"],
+    },
   },
   {
     id: 2548,
@@ -16655,6 +19922,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Er ist lang und dünn"],
+      B1: ["Er ist hochgewachsen und schlank"],
+    },
   },
   {
     id: 2549,
@@ -16668,6 +19939,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ihre Haare sind lang und dunkel"],
+      B1: ["Sie hat langes dunkles Haar"],
+    },
   },
   {
     id: 2550,
@@ -16681,6 +19956,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Er trägt einen Bart"],
+      B1: ["Er ist bärtig"],
+    },
   },
   {
     id: 2551,
@@ -16694,6 +19973,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Sie hat eine Brille auf"],
+      B1: ["Sie ist Brillenträgerin"],
+    },
   },
   {
     id: 2552,
@@ -16707,6 +19990,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Er sieht toll aus"],
+      B1: ["Er ist attraktiv"],
+    },
   },
   {
     id: 2553,
@@ -16720,6 +20007,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Sie wirkt müde"],
+      B1: ["Sie macht einen müden Eindruck"],
+    },
   },
   {
     id: 2554,
@@ -16733,6 +20024,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Du siehst heute toll aus", "Du siehst heute schön aus"],
+      B1: ["Du wirkst heute sehr gut"],
+    },
   },
   {
     id: 2555,
@@ -16746,6 +20041,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Sie ist ungefähr vierzig"],
+      B1: ["Sie ist um die vierzig"],
+    },
   },
   {
     id: 2556,
@@ -16759,6 +20058,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wie ist er denn?", "Was für ein Mensch ist er?"],
+      B1: ["Wie ist er als Mensch?"],
+    },
   },
   {
     id: 2557,
@@ -16772,6 +20075,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Er ist ruhig"],
+      B1: ["Er ist eher zurückhaltend"],
+    },
   },
   {
     id: 2558,
@@ -16785,6 +20092,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Sie ist sehr lustig", "Sie ist echt witzig"],
+      B2: ["Sie ist sehr humorvoll"],
+    },
   },
   {
     id: 2559,
@@ -16798,6 +20109,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wir kennen uns seit Langem"],
+      B1: ["Wir kennen uns schon ewig"],
+    },
   },
   {
     id: 2560,
@@ -16811,6 +20126,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Er ist schon lange mein Freund"],
+      B1: ["Er ist ein langjähriger Freund von mir"],
+    },
   },
   {
     id: 2561,
@@ -16824,6 +20143,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wir mögen uns"],
+      B1: ["Wir kommen gut miteinander aus"],
+      B2: ["Wir harmonieren gut"],
+    },
   },
   {
     id: 2562,
@@ -16837,6 +20161,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wir arbeiten nur zusammen"],
+      B2: ["Wir sind lediglich Kollegen"],
+    },
   },
   {
     id: 2563,
@@ -16850,6 +20178,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      B1: ["Sie ist meine Vorgesetzte"],
+    },
   },
   {
     id: 2564,
@@ -16863,6 +20194,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Es gibt Frost"],
+      B1: ["Es herrscht Frost"],
+    },
   },
   {
     id: 2565,
@@ -16889,6 +20224,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Es gibt ein Gewitter"],
+      B1: ["Es gewittert"],
+    },
   },
   {
     id: 2567,
@@ -16902,6 +20241,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Es gibt Nebel"],
+      B1: ["Es herrscht Nebel"],
+    },
   },
   {
     id: 2568,
@@ -16915,6 +20258,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Es gibt einen Sturm"],
+      B1: ["Es herrscht Sturm"],
+    },
   },
   {
     id: 2569,
@@ -16928,6 +20275,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Es ist bewölkt", "Der Himmel ist grau"],
+      B1: ["Es ist wolkig"],
+      B2: ["Der Himmel ist wolkenverhangen"],
+    },
   },
   {
     id: 2570,
@@ -16941,6 +20293,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was für ein schöner Tag!", "Was für ein toller Tag!"],
+      B1: ["Was für ein wunderbarer Tag!"],
+    },
   },
   {
     id: 2571,
@@ -16954,6 +20310,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Endlich scheint die Sonne!"],
+      B1: ["Endlich zeigt sich die Sonne!"],
+    },
   },
   {
     id: 2572,
@@ -16967,6 +20327,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["So ein Wetter!"],
+    },
   },
   {
     id: 2573,
@@ -16980,6 +20343,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Morgen regnet es"],
+      B1: ["Für morgen ist Regen angesagt", "Morgen soll es Regen geben"],
+    },
   },
   {
     id: 2574,
@@ -16993,6 +20360,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Es regnet bald"],
+      B1: ["Es zieht Regen auf"],
+    },
   },
   {
     id: 2575,
@@ -17006,6 +20377,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Die Sonne scheint wieder"],
+      B1: ["Die Sonne zeigt sich"],
+    },
   },
   {
     id: 2576,
@@ -17019,6 +20394,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Es wird wärmer"],
+      B1: ["Die Temperaturen steigen"],
+    },
   },
   {
     id: 2577,
@@ -17032,6 +20411,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Der Winter kommt"],
+      B1: ["Der Winter beginnt"],
+    },
   },
   {
     id: 2578,
@@ -17045,6 +20428,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Es wird früher dunkel"],
+      B1: ["Die Tage nehmen ab"],
+    },
   },
   {
     id: 2579,
@@ -17058,6 +20445,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Es wird später dunkel"],
+      B1: ["Die Tage nehmen wieder zu"],
+    },
   },
   {
     id: 2580,
@@ -17071,6 +20462,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Es ist früh dunkel"],
+      B1: ["Die Dunkelheit setzt früh ein"],
+    },
   },
   {
     id: 2581,
@@ -17084,6 +20479,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Zieh dir was Warmes an"],
+      B1: ["Kleide dich warm"],
+    },
   },
   {
     id: 2582,
@@ -17097,6 +20496,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Nimm einen Regenschirm mit"],
+      B1: ["Vergiss den Schirm nicht"],
+    },
   },
   {
     id: 2583,
@@ -17110,6 +20513,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Nimm deine Jacke mit"],
+      B1: ["Denk an deine Jacke"],
+    },
   },
   {
     id: 2584,
@@ -17123,6 +20530,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Zieh dich warm an"],
+      B1: ["Zieh dir etwas Warmes an"],
+    },
   },
   {
     id: 2585,
@@ -17136,6 +20547,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Die Blätter fallen herunter"],
+      B1: ["Die Blätter fallen ab"],
+      B2: ["Das Laub fällt"],
+    },
   },
   {
     id: 2586,
@@ -17149,6 +20565,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      B1: ["Die Blumen stehen in Blüte"],
+    },
   },
   {
     id: 2587,
@@ -17162,6 +20581,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Die Vögel singen"],
+    },
   },
   {
     id: 2588,
@@ -17175,6 +20597,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Möchtest du einen Kaffee?", "Trinken wir einen Kaffee?"],
+      B1: ["Hast du Lust, einen Kaffee zu trinken?"],
+    },
   },
   {
     id: 2589,
@@ -17188,6 +20614,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ja, gern!"],
+      B1: ["Mit Vergnügen!"],
+    },
   },
   {
     id: 2590,
@@ -17201,6 +20631,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich schaffe es leider nicht"],
+      B2: ["Ich bin leider verhindert"],
+    },
   },
   {
     id: 2591,
@@ -17214,6 +20648,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Kann ich etwas mitbringen?", "Brauchst du etwas?"],
+      B1: ["Möchtest du, dass ich etwas mitbringe?"],
+    },
   },
   {
     id: 2592,
@@ -17227,6 +20665,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was hältst du von...?", "Was ist mit...?"],
+      B1: ["Hättest du Lust auf...?"],
+    },
   },
   {
     id: 2593,
@@ -17240,6 +20682,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Hast du heute Abend Zeit?", "Kommst du heute Abend?"],
+    },
   },
   {
     id: 2594,
@@ -17253,6 +20698,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was hast du am Wochenende vor?", "Was machst du am Wochenende?"],
+      B1: ["Was möchtest du am Wochenende unternehmen?"],
+    },
   },
   {
     id: 2595,
@@ -17266,6 +20715,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Hast du am Freitag Zeit?", "Bist du am Freitag frei?"],
+      B1: ["Hast du am Freitag schon etwas geplant?"],
+    },
   },
   {
     id: 2596,
@@ -17279,6 +20732,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Kommst du mit?", "Willst du mitkommen?"],
+      B1: ["Hast du Lust mitzukommen?"],
+    },
   },
   {
     id: 2597,
@@ -17292,6 +20749,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Geht es am Samstag?", "Hast du am Samstag Zeit?"],
+      B1: ["Wäre dir der Samstag recht?"],
+    },
   },
   {
     id: 2598,
@@ -17305,6 +20766,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Treffen wir uns um sieben?", "Sollen wir uns um sieben treffen?"],
+      B1: ["Wie wäre es um sieben Uhr?"],
+    },
   },
   {
     id: 2599,
@@ -17318,6 +20783,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Geht der Termin für dich?"],
+      B1: ["Ist dir der Termin recht?"],
+    },
   },
   {
     id: 2600,
@@ -17331,6 +20800,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Am Vormittag oder am Nachmittag?"],
+      B1: ["Lieber am Vormittag oder am Nachmittag?"],
+    },
   },
   {
     id: 2601,
@@ -17344,6 +20817,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich bin den ganzen Tag frei"],
+      B1: ["Ich bin ganztägig verfügbar"],
+    },
   },
   {
     id: 2602,
@@ -17357,6 +20834,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Gehen wir ins Kino", "Wollen wir ins Kino gehen?"],
+      B1: ["Wir könnten ins Kino gehen"],
+    },
   },
   {
     id: 2603,
@@ -17370,6 +20851,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Gehen wir spazieren?", "Wollen wir spazieren gehen?"],
+      B1: ["Wollen wir einen Spaziergang machen?"],
+    },
   },
   {
     id: 2604,
@@ -17383,6 +20868,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Gehen wir essen?", "Wollen wir essen gehen?"],
+    },
   },
   {
     id: 2605,
@@ -17396,6 +20884,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Kochen wir zusammen?", "Sollen wir gemeinsam kochen?"],
+      B1: ["Hast du Lust, zusammen zu kochen?"],
+    },
   },
   {
     id: 2606,
@@ -17409,6 +20901,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Gehen wir etwas trinken?", "Sollen wir etwas trinken gehen?"],
+      B1: ["Hast du Lust, etwas trinken zu gehen?"],
+    },
   },
   {
     id: 2607,
@@ -17422,6 +20918,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich mache mit", "Ich komme mit"],
+    },
   },
   {
     id: 2608,
@@ -17435,6 +20934,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das klingt toll!", "Das klingt gut!"],
+      B1: ["Das hört sich großartig an!"],
+    },
   },
   {
     id: 2609,
@@ -17448,6 +20951,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ja, tolle Idee!", "Ja, gute Idee!"],
+      B1: ["Ja, großartige Idee!"],
+    },
   },
   {
     id: 2610,
@@ -17461,6 +20968,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich freue mich darauf!"],
+      B1: ["Ich bin schon gespannt!"],
+      B2: ["Ich bin voller Vorfreude!"],
+    },
   },
   {
     id: 2611,
@@ -17474,6 +20986,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das geht leider nicht", "Ich schaffe das leider nicht"],
+      B1: ["Das ist mir leider nicht möglich"],
+    },
   },
   {
     id: 2612,
@@ -17487,6 +21003,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Diesmal kann ich nicht", "Diesmal klappt es nicht"],
+      B1: ["Diesmal geht es leider nicht"],
+    },
   },
   {
     id: 2613,
@@ -17500,6 +21020,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Vielleicht nächstes Mal", "Vielleicht später"],
+      B1: ["Vielleicht bei einer anderen Gelegenheit"],
+    },
   },
   {
     id: 2614,
@@ -17513,6 +21037,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich habe schon einen Termin", "Ich habe schon Pläne"],
+      B1: ["Ich bin schon verplant"],
+    },
   },
   {
     id: 2615,
@@ -17526,6 +21054,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Geht ein anderer Tag?", "Hast du an einem anderen Tag Zeit?"],
+      B1: ["Wäre ein anderer Tag möglich?"],
+    },
   },
   {
     id: 2616,
@@ -17539,6 +21071,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das geht nicht", "Das klappt nicht"],
+      B1: ["Das läuft nicht"],
+    },
   },
   {
     id: 2617,
@@ -17552,6 +21088,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das geht nicht mehr", "Das ist kaputt"],
+      B1: ["Das läuft nicht mehr"],
+    },
   },
   {
     id: 2618,
@@ -17565,6 +21105,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das Gerät funktioniert nicht", "Das Gerät geht nicht mehr"],
+      B1: ["Das Gerät ist defekt"],
+    },
   },
   {
     id: 2619,
@@ -17578,6 +21122,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Es funktioniert nicht mehr", "Es lässt sich nicht einschalten"],
+      B1: ["Es lässt sich nicht mehr einschalten"],
+    },
   },
   {
     id: 2620,
@@ -17591,6 +21139,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Mein Handy wird nicht geladen"],
+      B1: ["Mein Handy lässt sich nicht aufladen"],
+    },
   },
   {
     id: 2621,
@@ -17604,6 +21156,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Es gibt kein WLAN", "Das WLAN geht nicht"],
+      B1: ["Das WLAN ist ausgefallen"],
+    },
   },
   {
     id: 2622,
@@ -17617,6 +21173,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Seien Sie bitte leise", "Bitte etwas leiser"],
+      B1: ["Würden Sie bitte etwas leiser sein?"],
+    },
   },
   {
     id: 2623,
@@ -17630,6 +21190,13 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: [
+        "Machen Sie bitte die Musik leiser",
+        "Können Sie die Musik bitte leiser machen?",
+      ],
+      B1: ["Würden Sie die Musik bitte leiser stellen?"],
+    },
   },
   {
     id: 2624,
@@ -17643,6 +21210,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Es ist hier sehr laut", "Hier ist es zu laut"],
+      B1: ["Es ist hier unerträglich laut"],
+    },
   },
   {
     id: 2625,
@@ -17656,6 +21227,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich muss dir etwas sagen", "Ich habe dir etwas zu erzählen"],
+      B1: ["Ich muss dir etwas mitteilen"],
+    },
   },
   {
     id: 2626,
@@ -17682,12 +21257,16 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Danach...", "Dann..."],
+      B1: ["Anschließend..."],
+    },
   },
   {
     id: 2628,
     word: "Grüß Gott.",
-    translation: "Good day. (Aus.)",
-    definition: "Regionale Begrüßung in Süddeutschland und Österreich.",
+    translation: "Good day.",
+    definition: "Regionale Begrüßung in Süddeutschland und Österreich. (Aus.)",
     example: "Grüß Gott, Frau Huber!",
     exampleTranslation: "Good day, Mrs Huber!",
     thema: "Begrüßung",
@@ -17695,6 +21274,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A1: ["Guten Tag."],
+      B1: ["Servus."],
+    },
   },
   {
     id: 2629,
@@ -17708,6 +21291,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A1: ["Freut mich."],
+      B1: ["Angenehm."],
+    },
   },
   {
     id: 2630,
@@ -17721,6 +21308,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A1: ["Guten Appetit."],
+      B1: ["Mahlzeit."],
+    },
   },
   {
     id: 2631,
@@ -17734,6 +21325,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Los geht's.", "Los."],
+      B1: ["Legen wir los."],
+    },
   },
   {
     id: 2632,
@@ -17747,6 +21342,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Schöne Reise!", "Gute Fahrt!"],
+      B1: ["Komm gut an!"],
+    },
   },
   {
     id: 2633,
@@ -17760,6 +21359,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Sie sprechen sehr gut Englisch."],
+      B1: ["Sie beherrschen Englisch sehr gut."],
+    },
   },
   {
     id: 2634,
@@ -17773,6 +21376,12 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: [
+        "Kann hier jemand Englisch?",
+        "Gibt es hier jemanden, der Englisch spricht?",
+      ],
+    },
   },
   {
     id: 2635,
@@ -17786,6 +21395,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was heißt das auf Deutsch?", "Wie sagt man das auf Deutsch?"],
+    },
   },
   {
     id: 2636,
@@ -17799,6 +21411,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was gibt es?", "Was ist los?"],
+      B1: ["Was liegt an?"],
+    },
   },
   {
     id: 2637,
@@ -17812,6 +21428,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was ist passiert?", "Was gibt's?"],
+      B1: ["Was ist denn geschehen?"],
+    },
   },
   {
     id: 2638,
@@ -17825,6 +21445,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Geht das?", "Kann man das machen?"],
+      B1: ["Wäre das machbar?"],
+    },
   },
   {
     id: 2639,
@@ -17838,6 +21462,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wann ist geschlossen?"],
+      B1: ["An welchem Tag ist Ruhetag?"],
+    },
   },
   {
     id: 2640,
@@ -17851,6 +21479,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Muss das sein?", "Ist das wichtig?"],
+      B1: ["Ist das erforderlich?"],
+    },
   },
   {
     id: 2641,
@@ -17864,6 +21496,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Komme gleich wieder"],
+      B1: ["Bin in Kürze zurück"],
+    },
   },
   {
     id: 2642,
@@ -17877,6 +21513,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Bitte hier warten"],
+      B1: ["Bitte hier einreihen"],
+    },
   },
   {
     id: 2643,
@@ -17890,6 +21530,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Bitte warten"],
+    },
   },
   {
     id: 2644,
@@ -17903,6 +21546,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Nicht stören"],
+      B1: ["Bitte nicht unterbrechen"],
+    },
   },
   {
     id: 2645,
@@ -17916,6 +21563,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Geschlossen wegen Urlaub"],
+      B1: ["Betriebsferien"],
+    },
   },
   {
     id: 2646,
@@ -17929,6 +21580,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Bon drucken?"],
+      B1: ["Beleg ausdrucken?"],
+    },
   },
   {
     id: 2647,
@@ -17942,6 +21597,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das ist falsch.", "Das ist nicht richtig."],
+      B1: ["Das trifft nicht zu."],
+    },
   },
   {
     id: 2648,
@@ -17955,6 +21614,13 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: [
+        "Haben die Geschäfte morgen auf?",
+        "Sind die Läden morgen geöffnet?",
+      ],
+      B1: ["Haben die Geschäfte morgen geöffnet?"],
+    },
   },
   {
     id: 2649,
@@ -17968,6 +21634,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wann fährt er ab?", "Wann fährt er?"],
+      B1: ["Zu welcher Uhrzeit fährt er ab?"],
+    },
   },
   {
     id: 2650,
@@ -17981,6 +21651,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Kann ich im Zug ein Ticket kaufen?", "Gibt es Fahrkarten an Bord?"],
+      B1: ["Ist ein Ticketkauf an Bord möglich?"],
+    },
   },
   {
     id: 2651,
@@ -17994,6 +21668,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Haben Sie Wechselgeld?"],
+      B1: ["Können Sie wechseln?"],
+    },
   },
   {
     id: 2652,
@@ -18007,6 +21685,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ist das die Schlange für...?", "Stelle ich mich hier für ... an?"],
+      B1: ["Steht man hier für ... an?"],
+    },
   },
   {
     id: 2653,
@@ -18020,6 +21702,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Haben Sie einen...?"],
+      B1: ["Ist ein ... vorhanden?"],
+    },
   },
   {
     id: 2654,
@@ -18033,6 +21719,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Muss ich umsteigen?"],
+      B1: ["Ist ein Umstieg nötig?"],
+    },
   },
   {
     id: 2655,
@@ -18046,6 +21736,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Auf welchem Gleis fährt er?", "Von welchem Bahnsteig fährt er ab?"],
+      B1: ["Welches Gleis ist es?"],
+    },
   },
   {
     id: 2656,
@@ -18059,6 +21753,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ist hier noch frei?", "Ist dieser Platz frei?"],
+      B1: ["Ist der Platz noch unbesetzt?"],
+    },
   },
   {
     id: 2657,
@@ -18072,6 +21770,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Diese Plätze gehören uns.", "Wir haben diese Plätze reserviert."],
+      B1: ["Diese Plätze sind für uns reserviert."],
+    },
   },
   {
     id: 2658,
@@ -18085,6 +21787,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Können Sie meinen Platz freihalten?"],
+      B1: ["Würden Sie meinen Platz freihalten?"],
+    },
   },
   {
     id: 2659,
@@ -18098,6 +21804,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Können Sie unsere Plätze freihalten?"],
+      B1: ["Würden Sie unsere Plätze freihalten?"],
+    },
   },
   {
     id: 2660,
@@ -18111,6 +21821,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich steige hier aus.", "Hier muss ich raus."],
+    },
   },
   {
     id: 2661,
@@ -18124,6 +21837,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wie geht die Tür auf?", "Wie mache ich die Tür auf?"],
+      B1: ["Wie lässt sich die Tür öffnen?"],
+    },
   },
   {
     id: 2662,
@@ -18137,6 +21854,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wann kommt der nächste?", "Wann geht der nächste?"],
+    },
   },
   {
     id: 2663,
@@ -18150,6 +21870,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wo fährt er ab?"],
+      B1: ["Woher fährt er ab?"],
+    },
   },
   {
     id: 2664,
@@ -18163,6 +21887,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Sind Sie noch frei?"],
+      B1: ["Sind Sie verfügbar?"],
+    },
   },
   {
     id: 2665,
@@ -18176,6 +21904,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A1: ["Was kostet es...?"],
+      A2: ["Wie teuer ist es...?"],
+    },
   },
   {
     id: 2666,
@@ -18202,6 +21934,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Bitte halten Sie hier.", "Bitte anhalten."],
+      B1: ["Hier bitte stoppen."],
+    },
   },
   {
     id: 2668,
@@ -18215,6 +21951,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das passt so."],
+      B1: ["Der Rest ist für Sie."],
+    },
   },
   {
     id: 2669,
@@ -18228,6 +21968,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich bin in Eile.", "Ich muss mich beeilen."],
+      B1: ["Ich stehe unter Zeitdruck."],
+    },
   },
   {
     id: 2670,
@@ -18241,6 +21985,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wir sind in Eile.", "Wir müssen uns beeilen."],
+      B1: ["Wir stehen unter Zeitdruck."],
+    },
   },
   {
     id: 2671,
@@ -18254,6 +22002,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Fahren Sie bitte langsamer.", "Langsamer, bitte."],
+      B1: ["Reduzieren Sie bitte das Tempo."],
+    },
   },
   {
     id: 2672,
@@ -18267,6 +22019,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Können Sie bitte warten?"],
+      B1: ["Würden Sie bitte warten?"],
+    },
   },
   {
     id: 2673,
@@ -18280,6 +22036,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Von hier sehe ich es."],
+      B1: ["Von hier aus ist es zu sehen."],
+    },
   },
   {
     id: 2674,
@@ -18293,6 +22053,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Hier ist es okay.", "Hier passt es."],
+      B1: ["Hier ist es in Ordnung."],
+    },
   },
   {
     id: 2675,
@@ -18306,6 +22070,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Hier an der Ecke."],
+    },
   },
   {
     id: 2676,
@@ -18319,6 +22086,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Bei der nächsten Ecke."],
+    },
   },
   {
     id: 2677,
@@ -18332,6 +22102,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wo gibt es einen Parkplatz?", "Wo ist ein Parkplatz?"],
+      B1: ["Wo finde ich einen Parkplatz?"],
+    },
   },
   {
     id: 2678,
@@ -18345,6 +22119,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wo gibt es eine Tankstelle in der Nähe?"],
+      B1: ["Wo finde ich die nächste Tankstelle?"],
+    },
   },
   {
     id: 2679,
@@ -18358,6 +22136,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Kann man hier in der Nähe parken?", "Gibt es hier Parkplätze?"],
+      B1: ["Sind in der Nähe Parkplätze vorhanden?"],
+    },
   },
   {
     id: 2680,
@@ -18371,6 +22153,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Kann ich hier parken?", "Ist Parken hier erlaubt?"],
+      B1: ["Ist das Parken hier gestattet?"],
+    },
   },
   {
     id: 2681,
@@ -18384,6 +22170,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ist es ungefährlich?"],
+    },
   },
   {
     id: 2682,
@@ -18397,6 +22186,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wie lange kann ich hier parken?"],
+      B1: ["Wie lange ist das Parken hier erlaubt?"],
+    },
   },
   {
     id: 2683,
@@ -18410,6 +22203,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wo muss man zahlen?", "Wo kann ich bezahlen?"],
+      B1: ["Wo wird gezahlt?"],
+    },
   },
   {
     id: 2684,
@@ -18423,6 +22220,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das funktioniert nicht.", "Das klappt nicht."],
+      B1: ["Das ist nicht möglich."],
+    },
   },
   {
     id: 2685,
@@ -18436,6 +22237,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was ist los?", "Was ist passiert?"],
+      B1: ["Wo liegt das Problem?"],
+    },
   },
   {
     id: 2686,
@@ -18449,6 +22254,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wo finde ich diese Adresse?"],
+      B1: ["Wo befindet sich diese Adresse?"],
+    },
   },
   {
     id: 2687,
@@ -18462,6 +22271,13 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: [
+        "Verzeihung, können Sie mir helfen?",
+        "Entschuldigung, könnten Sie mir helfen?",
+      ],
+      B1: ["Entschuldigen Sie, würden Sie mir helfen?"],
+    },
   },
   {
     id: 2688,
@@ -18475,6 +22291,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wo befinde ich mich?"],
+    },
   },
   {
     id: 2689,
@@ -18488,6 +22307,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Können Sie mir den Weg erklären?", "Wie komme ich dorthin?"],
+      B1: ["Würden Sie mir den Weg zeigen?"],
+    },
   },
   {
     id: 2690,
@@ -18501,6 +22324,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich möchte ein Zimmer buchen.", "Ich brauche ein Zimmer."],
+      B1: ["Ich würde gern ein Zimmer reservieren."],
+    },
   },
   {
     id: 2691,
@@ -18514,6 +22341,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Haben Sie etwas Billigeres?", "Gibt es etwas Preiswerteres?"],
+      B1: ["Haben Sie etwas Preisgünstigeres?"],
+    },
   },
   {
     id: 2692,
@@ -18527,6 +22358,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was kostet das?", "Wie viel kostet es?"],
+      B1: ["Wie hoch ist der Preis?"],
+    },
   },
   {
     id: 2693,
@@ -18540,6 +22375,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A1: ["Was kostet...?"],
+      A2: ["Wie teuer ist...?"],
+    },
   },
   {
     id: 2694,
@@ -18553,6 +22392,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Gehört das Frühstück dazu?", "Ist Frühstück dabei?"],
+      B1: ["Ist das Frühstück im Preis enthalten?"],
+    },
   },
   {
     id: 2695,
@@ -18566,6 +22409,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich übernachte..."],
+    },
   },
   {
     id: 2696,
@@ -18579,6 +22425,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wir übernachten..."],
+    },
   },
   {
     id: 2697,
@@ -18592,6 +22441,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Die Buchung ist für..."],
+    },
   },
   {
     id: 2698,
@@ -18605,6 +22457,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Haben Sie die Buchung gefunden?"],
+      B1: ["Ist die Reservierung bei Ihnen eingegangen?"],
+    },
   },
   {
     id: 2699,
@@ -18618,6 +22474,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Bis später.", "Bis bald."],
+      B1: ["Bis demnächst."],
+    },
   },
   {
     id: 2700,
@@ -18631,6 +22491,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Kann ich ... sehen?"],
+      B1: ["Dürfte ich ... sehen?"],
+    },
   },
   {
     id: 2701,
@@ -18644,6 +22508,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Gibt es etwas...?"],
+      B1: ["Hätten Sie etwas...?"],
+    },
   },
   {
     id: 2702,
@@ -18657,6 +22525,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Bitte folgen Sie mir.", "Kommen Sie bitte mit."],
+      B1: ["Begleiten Sie mich bitte."],
+    },
   },
   {
     id: 2703,
@@ -18670,6 +22542,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich schlafe nicht ein."],
+      B1: ["Ich finde keinen Schlaf."],
+    },
   },
   {
     id: 2704,
@@ -18683,6 +22559,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Gibt es hier WLAN?", "Gibt es WLAN...?"],
+      B1: ["Ist WLAN vorhanden?"],
+    },
   },
   {
     id: 2705,
@@ -18696,6 +22576,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was ist das Passwort?"],
+      B1: ["Wie ist das Kennwort?"],
+    },
   },
   {
     id: 2706,
@@ -18709,6 +22593,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wie ist der Netzwerkname?"],
+      B1: ["Wie lautet der Netzwerkname?"],
+    },
   },
   {
     id: 2707,
@@ -18722,6 +22610,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ist hier in der Nähe ein...?", "Gibt es hier ein...?"],
+      B1: ["Befindet sich in der Nähe ein...?"],
+    },
   },
   {
     id: 2708,
@@ -18735,6 +22627,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Bitte wecken Sie mich um sieben."],
+      B1: ["Ich möchte um sieben Uhr geweckt werden."],
+    },
   },
   {
     id: 2709,
@@ -18748,6 +22644,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wann muss ich auschecken?", "Bis wann muss ich raus?"],
+      B1: ["Wann ist die Abreisezeit?"],
+    },
   },
   {
     id: 2710,
@@ -18761,6 +22661,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Kann ich später abreisen?", "Geht Auschecken auch später?"],
+      B1: ["Ist ein späterer Check-out möglich?"],
+    },
   },
   {
     id: 2711,
@@ -18774,6 +22678,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das ist für Sie."],
+    },
   },
   {
     id: 2712,
@@ -18787,6 +22694,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Dürfen Kinder kommen?", "Darf man Kinder mitbringen?"],
+      B1: ["Sind Kinder erlaubt?"],
+    },
   },
   {
     id: 2713,
@@ -18800,6 +22711,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wie viele Betten hat ein Zimmer?"],
+      B1: ["Wie viele Betten stehen in jedem Zimmer?"],
+    },
   },
   {
     id: 2714,
@@ -18813,6 +22728,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wie lange muss man warten?"],
+    },
   },
   {
     id: 2715,
@@ -18826,6 +22744,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Muss man buchen?", "Braucht man eine Reservierung?"],
+      B1: ["Ist eine Reservierung erforderlich?"],
+    },
   },
   {
     id: 2716,
@@ -18839,6 +22761,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was empfehlen Sie?"],
+      B1: ["Was raten Sie mir?"],
+    },
   },
   {
     id: 2717,
@@ -18852,6 +22778,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was essen Sie am liebsten?"],
+      B1: ["Welches Gericht mögen Sie am liebsten?"],
+    },
   },
   {
     id: 2718,
@@ -18865,6 +22795,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      B1: ["Was würden Sie empfehlen?"],
+    },
   },
   {
     id: 2719,
@@ -18878,6 +22811,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ist das viel?"],
+      B1: ["Ist das sättigend?"],
+    },
   },
   {
     id: 2720,
@@ -18891,6 +22828,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das sieht lecker aus!"],
+      B1: ["Das sieht sehr appetitlich aus!"],
+    },
   },
   {
     id: 2721,
@@ -18904,6 +22845,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Könnten Sie das bitte warm machen?"],
+      B1: ["Würden Sie das bitte erwärmen?"],
+    },
   },
   {
     id: 2722,
@@ -18917,6 +22862,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Sehr lecker!"],
+      B1: ["Köstlich!"],
+      B2: ["Ausgezeichnet!"],
+    },
   },
   {
     id: 2723,
@@ -18930,6 +22880,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich mag deutsches Essen sehr."],
+      B1: ["Ich schätze die deutsche Küche sehr."],
+    },
   },
   {
     id: 2724,
@@ -18943,6 +22897,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Können Sie mir das erklären?"],
+      B1: ["Könnten Sie das erläutern?"],
+    },
   },
   {
     id: 2725,
@@ -18956,6 +22914,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["Rückgeld, bitte."],
+    },
   },
   {
     id: 2726,
@@ -18969,6 +22930,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das gehört Ihnen.", "Bitte schön."],
+      B1: ["Das ist für Sie bestimmt."],
+    },
   },
   {
     id: 2727,
@@ -18982,6 +22947,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Dauert das Essen noch lange?"],
+      B1: ["Wird das Essen bald serviert?"],
+    },
   },
   {
     id: 2728,
@@ -18995,6 +22964,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich vertrage ... nicht"],
+      B1: ["Ich reagiere allergisch auf..."],
+    },
   },
   {
     id: 2729,
@@ -19008,6 +22981,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was gibt es ohne Fleisch?"],
+      B1: ["Welche Gerichte sind vegetarisch?"],
+    },
   },
   {
     id: 2730,
@@ -19021,6 +22998,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich esse ... nicht"],
+      B1: ["Ich verzichte auf..."],
+    },
   },
   {
     id: 2731,
@@ -19034,6 +23015,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Bitte ohne..."],
+      B1: ["Bitte lassen Sie ... weg"],
+    },
   },
   {
     id: 2732,
@@ -19047,6 +23032,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Noch Servietten, bitte."],
+      B1: ["Bitte noch ein paar Servietten."],
+    },
   },
   {
     id: 2733,
@@ -19060,6 +23049,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was ist heute frisch?"],
+      B1: ["Was ist frisch zubereitet?"],
+    },
   },
   {
     id: 2734,
@@ -19073,6 +23066,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Darf ich es probieren?", "Darf ich mal kosten?"],
+      B1: ["Darf ich davon kosten?"],
+    },
   },
   {
     id: 2735,
@@ -19086,6 +23083,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was ist in dem Salat drin?"],
+      B1: ["Woraus besteht dieser Salat?"],
+    },
   },
   {
     id: 2736,
@@ -19099,6 +23100,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ist das fertig gekocht?"],
+    },
   },
   {
     id: 2737,
@@ -19112,6 +23116,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Kann man das Wasser trinken?"],
+      B1: ["Ist das Wasser trinkbar?"],
+    },
   },
   {
     id: 2738,
@@ -19125,6 +23133,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was schlagen Sie vor?"],
+      B1: ["Was raten Sie mir?"],
+    },
   },
   {
     id: 2739,
@@ -19138,6 +23150,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Lass uns etwas trinken gehen."],
+      B1: ["Auf, trinken wir etwas!"],
+    },
   },
   {
     id: 2740,
@@ -19151,6 +23167,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was möchtest du?"],
+      B1: ["Was darf es sein?"],
+    },
   },
   {
     id: 2741,
@@ -19164,6 +23184,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was ist typisch hier?", "Was ist das Besondere hier?"],
+      B1: ["Was ist die Spezialität des Hauses?"],
+    },
   },
   {
     id: 2742,
@@ -19177,6 +23201,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Noch einmal, bitte!", "Bitte noch eins!"],
+      B1: ["Noch eine Runde, bitte!"],
+    },
   },
   {
     id: 2743,
@@ -19190,6 +23218,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Zum Mitnehmen", "Bitte zum Mitnehmen."],
+      B1: ["To go, bitte."],
+    },
   },
   {
     id: 2744,
@@ -19203,6 +23235,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Muss das gekocht werden?"],
+      B1: ["Muss man das garen?"],
+    },
   },
   {
     id: 2745,
@@ -19216,6 +23252,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Kann ich die Mikrowelle benutzen?"],
+      B1: ["Darf ich die Mikrowelle nutzen?"],
+    },
   },
   {
     id: 2746,
@@ -19229,6 +23269,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wo kann man ein Picknick machen?"],
+      B1: ["Wo gibt es einen schönen Picknickplatz?"],
+    },
   },
   {
     id: 2747,
@@ -19242,6 +23286,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ist Picknicken hier erlaubt?"],
+      B1: ["Ist Picknicken hier gestattet?"],
+    },
   },
   {
     id: 2748,
@@ -19255,6 +23303,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Darf ich wieder reingehen?"],
+      B1: ["Ist ein Wiedereintritt möglich?"],
+    },
   },
   {
     id: 2749,
@@ -19268,6 +23320,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Von wem ist das?"],
+      B1: ["Von wem stammt das?"],
+    },
   },
   {
     id: 2750,
@@ -19281,6 +23337,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Seit wann gibt es das?"],
+      B1: ["Aus welcher Zeit stammt das?"],
+    },
   },
   {
     id: 2751,
@@ -19294,6 +23354,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wo ist hier eine Toilette?"],
+      B1: ["Sind in der Nähe Toiletten vorhanden?"],
+    },
   },
   {
     id: 2752,
@@ -19307,6 +23371,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Kann man hier sicher schwimmen?"],
+      B1: ["Ist Schwimmen hier ungefährlich?"],
+    },
   },
   {
     id: 2753,
@@ -19320,6 +23388,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wie finde ich dahin?", "Wie geht es dorthin?"],
+      B1: ["Wie gelange ich dorthin?"],
+    },
   },
   {
     id: 2754,
@@ -19333,6 +23405,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was gibt es heute Abend?"],
+      B1: ["Was findet heute Abend statt?"],
+    },
   },
   {
     id: 2755,
@@ -19346,6 +23422,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wie finden wir dahin?"],
+      B1: ["Wie gelangen wir dorthin?"],
+    },
   },
   {
     id: 2756,
@@ -19359,6 +23439,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A1: ["Ist es kostenlos?"],
+      A2: ["Ist es umsonst?"],
+    },
   },
   {
     id: 2757,
@@ -19372,6 +23456,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ist noch etwas frei?", "Sind noch Plätze frei?"],
+      B1: ["Sind noch Plätze verfügbar?"],
+    },
   },
   {
     id: 2758,
@@ -19385,6 +23473,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wann ist es zu Ende?", "Wann hört es auf?"],
+      B1: ["Wann ist Schluss?"],
+    },
   },
   {
     id: 2759,
@@ -19398,6 +23490,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Läuft der Film auf Englisch?"],
+      B1: ["Wird der Film auf Englisch gezeigt?"],
+    },
   },
   {
     id: 2760,
@@ -19411,6 +23507,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich fand es gut.", "Ich mochte es."],
+      B1: ["Es hat mir zugesagt."],
+    },
   },
   {
     id: 2761,
@@ -19424,6 +23524,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich schaue nur."],
+      B1: ["Ich schaue mich nur um."],
+    },
   },
   {
     id: 2762,
@@ -19437,6 +23541,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wir schauen nur."],
+    },
   },
   {
     id: 2763,
@@ -19450,6 +23557,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Kann ich noch mehr sehen?", "Haben Sie noch mehr?"],
+      B1: ["Würden Sie mir mehr zeigen?"],
+    },
   },
   {
     id: 2764,
@@ -19463,10 +23574,14 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich denke darüber nach."],
+      B1: ["Ich werde es mir überlegen."],
+    },
   },
   {
     id: 2765,
-    word: "Um wie viel Uhr schliessen Sie?",
+    word: "Um wie viel Uhr schließen Sie?",
     translation: "What time do you close?",
     definition: "Frage.",
     example: "Um wie viel Uhr schließen Sie?",
@@ -19476,6 +23591,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wann machen Sie zu?", "Wann schließen Sie?"],
+      B1: ["Bis wann haben Sie geöffnet?"],
+    },
   },
   {
     id: 2766,
@@ -19489,6 +23608,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wann machen Sie morgen auf?"],
+      B1: ["Ab wann haben Sie morgen geöffnet?"],
+    },
   },
   {
     id: 2767,
@@ -19502,6 +23625,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Kann ich es anprobieren?"],
+      B1: ["Dürfte ich es anprobieren?"],
+    },
   },
   {
     id: 2768,
@@ -19515,6 +23642,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wo ist die Kasse?"],
+      B1: ["Wo kann ich bezahlen?"],
+    },
   },
   {
     id: 2769,
@@ -19528,6 +23659,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich brauche..."],
+      B1: ["Ich bin auf der Suche nach..."],
+    },
   },
   {
     id: 2770,
@@ -19541,6 +23676,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Gibt es einen...?"],
+      B1: ["Führen Sie einen...?"],
+    },
   },
   {
     id: 2771,
@@ -19567,6 +23706,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich hätte gern..."],
+      B1: ["Ich würde gern..."],
+    },
   },
   {
     id: 2773,
@@ -19580,6 +23723,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich möchte Briefmarken."],
+      B1: ["Ich benötige Briefmarken."],
+    },
   },
   {
     id: 2774,
@@ -19593,6 +23740,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Schöne Briefmarken, bitte."],
+    },
   },
   {
     id: 2775,
@@ -19606,6 +23756,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Gibt es Klebeband?", "Haben Sie Tesafilm?"],
+      B1: ["Haben Sie Klebestreifen?"],
+    },
   },
   {
     id: 2776,
@@ -19619,6 +23773,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wie ist die Telefonnummer?"],
+      B1: ["Wie lautet die Telefonnummer?"],
+    },
   },
   {
     id: 2777,
@@ -19632,6 +23790,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Kann ich Ihr Telefon benutzen?"],
+      B1: ["Dürfte ich Ihr Telefon nutzen?"],
+    },
   },
   {
     id: 2778,
@@ -19645,6 +23807,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wo finde ich ein Telefon?"],
+      B1: ["Wo steht das nächste Telefon?"],
+    },
   },
   {
     id: 2779,
@@ -19658,6 +23824,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Es geht nicht.", "Es klappt nicht."],
+      B1: ["Es läuft nicht."],
+    },
   },
   {
     id: 2780,
@@ -19671,6 +23841,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wie lautet Ihre E-Mail-Adresse?"],
+      B1: ["Wie ist Ihre Mailadresse?"],
+    },
   },
   {
     id: 2781,
@@ -19684,6 +23858,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Bitte helfen Sie mir.", "Können Sie mir bitte helfen?"],
+    },
   },
   {
     id: 2782,
@@ -19697,6 +23874,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wo gibt es Internet?"],
+      B1: ["Wo habe ich Internetzugang?"],
+    },
   },
   {
     id: 2783,
@@ -19710,6 +23891,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Es eilt.", "Es ist eilig."],
+      B1: ["Es ist dringlich."],
+    },
   },
   {
     id: 2784,
@@ -19723,6 +23908,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Vielen Dank für Ihre Hilfe."],
+      B1: ["Ich danke Ihnen für Ihre Hilfe."],
+    },
   },
   {
     id: 2785,
@@ -19736,6 +23925,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["Haltet den Dieb!"],
+      B1: ["Hilfe, ein Dieb!"],
+    },
   },
   {
     id: 2786,
@@ -19749,6 +23942,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Holen Sie die Feuerwehr."],
+      B1: ["Alarmieren Sie die Feuerwehr."],
+    },
   },
   {
     id: 2787,
@@ -19762,6 +23959,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Lassen Sie das!", "Stopp!"],
+      B1: ["Unterlassen Sie das!"],
+    },
   },
   {
     id: 2788,
@@ -19775,6 +23976,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Lass das!", "Stopp!"],
+      B1: ["Lass es sein!"],
+    },
   },
   {
     id: 2789,
@@ -19788,6 +23993,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Lassen Sie mich allein."],
+      B1: ["Belästigen Sie mich nicht."],
+    },
   },
   {
     id: 2790,
@@ -19801,6 +24010,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      B1: ["Verschwinden Sie."],
+    },
   },
   {
     id: 2791,
@@ -19814,6 +24026,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich möchte allein sein."],
+      B1: ["Ich brauche meine Ruhe."],
+    },
   },
   {
     id: 2792,
@@ -19827,6 +24043,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Es sieht schön aus."],
+      B1: ["Es macht einen guten Eindruck."],
+    },
   },
   {
     id: 2793,
@@ -19840,6 +24060,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das funktioniert nicht mehr."],
+      B1: ["Das ist defekt."],
+    },
   },
   {
     id: 2794,
@@ -19853,6 +24077,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Kann ich das ausleihen?"],
+      B1: ["Darf ich mir das borgen?"],
+    },
   },
   {
     id: 2795,
@@ -19866,6 +24094,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wann ist es so weit?"],
+      B1: ["Wann ist es erledigt?"],
+    },
   },
   {
     id: 2796,
@@ -19879,6 +24111,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das ist nicht meins."],
+      B1: ["Das ist nicht mein Eigentum."],
+    },
   },
   {
     id: 2797,
@@ -19892,6 +24128,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wo kann ich bezahlen?"],
+      B1: ["Wo wird bezahlt?"],
+    },
   },
   {
     id: 2798,
@@ -19905,6 +24145,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wo finde ich das Waschmittel?"],
+    },
   },
   {
     id: 2799,
@@ -19918,6 +24161,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wie schalte ich das ein?"],
+      B1: ["Wie setze ich das in Gang?"],
+    },
   },
   {
     id: 2800,
@@ -19931,6 +24178,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Gehört das Ihnen?"],
+      B1: ["Sind das Ihre Gegenstände?"],
+    },
   },
   {
     id: 2801,
@@ -19944,6 +24195,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das riecht schlecht."],
+      B1: ["Das riecht furchtbar."],
+    },
   },
   {
     id: 2802,
@@ -19957,6 +24212,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich muss zum Arzt."],
+      B1: ["Ich benötige einen Arzt."],
+    },
   },
   {
     id: 2803,
@@ -19970,6 +24229,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wir müssen zum Arzt."],
+      B1: ["Wir benötigen einen Arzt."],
+    },
   },
   {
     id: 2804,
@@ -19983,6 +24246,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Holen Sie bitte einen Arzt."],
+      B1: ["Bitte verständigen Sie einen Arzt."],
+    },
   },
   {
     id: 2805,
@@ -19996,6 +24263,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "word",
+    synonyms: {
+      A2: ["Beleg, bitte."],
+      B1: ["Ich hätte gern eine Quittung."],
+    },
   },
   {
     id: 2806,
@@ -20009,6 +24280,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was soll ich machen?"],
+      B1: ["Was kann ich unternehmen?"],
+    },
   },
   {
     id: 2807,
@@ -20022,6 +24297,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ist es ernst?"],
+    },
   },
   {
     id: 2808,
@@ -20035,6 +24313,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich sehe nicht gut."],
+      B1: ["Meine Sehkraft ist schlecht."],
+    },
   },
   {
     id: 2809,
@@ -20048,6 +24330,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich höre nicht gut."],
+      B1: ["Mein Gehör ist schlecht."],
+    },
   },
   {
     id: 2810,
@@ -20061,6 +24347,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich muss daheim anrufen."],
+      B1: ["Ich muss nach Hause telefonieren."],
+    },
   },
   {
     id: 2811,
@@ -20074,6 +24364,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Hübsches Baby!"],
+    },
   },
   {
     id: 2812,
@@ -20087,6 +24380,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Hübsches Kind!"],
+    },
   },
   {
     id: 2813,
@@ -20100,6 +24396,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Hübsche Kinder!"],
+    },
   },
   {
     id: 2814,
@@ -20126,6 +24425,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Gehst du gern zur Schule?", "Gefällt dir die Schule?"],
+      B1: ["Findest du die Schule gut?"],
+    },
   },
   {
     id: 2816,
@@ -20139,6 +24442,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was ist dein Studienfach?"],
+      B1: ["Welches Fach studierst du?"],
+    },
   },
   {
     id: 2817,
@@ -20152,6 +24459,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was arbeiten Sie?", "Was ist Ihr Beruf?"],
+      B1: ["Welchen Beruf haben Sie?"],
+    },
   },
   {
     id: 2818,
@@ -20165,6 +24476,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Regnet es morgen?"],
+      B1: ["Gibt es morgen Regen?"],
+    },
   },
   {
     id: 2819,
@@ -20178,6 +24493,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wie ist das Wetter morgen?"],
+      B1: ["Wie sieht das Wetter morgen aus?"],
+    },
   },
   {
     id: 2820,
@@ -20191,6 +24510,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["So wie heute?"],
+    },
   },
   {
     id: 2821,
@@ -20204,6 +24526,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das mag ich.", "Das finde ich gut."],
+      B1: ["Das sagt mir zu."],
+    },
   },
   {
     id: 2822,
@@ -20217,6 +24543,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Das mögen wir.", "Das finden wir gut."],
+      B1: ["Das sagt uns zu."],
+    },
   },
   {
     id: 2823,
@@ -20230,6 +24560,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Super gemacht!", "Toll gemacht!"],
+      B1: ["Bravo!", "Hervorragend gemacht!"],
+    },
   },
   {
     id: 2824,
@@ -20243,6 +24577,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Schade.", "Wie schlimm."],
+      B1: ["Das ist bedauerlich."],
+    },
   },
   {
     id: 2825,
@@ -20256,6 +24594,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Hoffentlich."],
+      B1: ["Das hoffe ich."],
+    },
   },
   {
     id: 2826,
@@ -20269,6 +24611,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Hoffentlich nicht."],
+      B1: ["Das hoffe ich nicht."],
+    },
   },
   {
     id: 2827,
@@ -20282,6 +24628,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Noch einen schönen Tag!", "Einen schönen Tag!"],
+      B1: ["Genießen Sie den Tag!"],
+    },
   },
   {
     id: 2828,
@@ -20295,6 +24645,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Sind Sie Raucher?"],
+    },
   },
   {
     id: 2829,
@@ -20308,6 +24661,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Darf ich mich hierher setzen?"],
+      B1: ["Haben Sie etwas dagegen, wenn ich hier sitze?"],
+    },
   },
   {
     id: 2830,
@@ -20321,6 +24678,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Möchten Sie etwas trinken?"],
+      B1: ["Darf ich Ihnen etwas zu trinken anbieten?"],
+    },
   },
   {
     id: 2831,
@@ -20334,6 +24695,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wo kann man tanzen?"],
+      B1: ["Wo gibt es eine Tanzmöglichkeit?"],
+    },
   },
   {
     id: 2832,
@@ -20347,6 +24712,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wollen Sie tanzen?", "Tanzen wir?"],
+      B1: ["Darf ich um den Tanz bitten?"],
+    },
   },
   {
     id: 2833,
@@ -20360,6 +24729,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Sehen wir uns wieder?", "Treffen wir uns wieder?"],
+      B1: ["Würden Sie sich mit mir wieder treffen?"],
+    },
   },
   {
     id: 2834,
@@ -20373,6 +24746,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Mein Gott!"],
+      B1: ["Meine Güte!", "Um Himmels willen!"],
+    },
   },
   {
     id: 2835,
@@ -20386,6 +24763,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Viel Glück!"],
+      B1: ["Alles Liebe!"],
+    },
   },
   {
     id: 2836,
@@ -20399,6 +24780,11 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A1: ["Prost!"],
+      B1: ["Prosit!"],
+      B2: ["Auf Ihr Wohl!"],
+    },
   },
   {
     id: 2837,
@@ -20412,6 +24798,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Gefällt es Ihnen?"],
+      B1: ["Haben Sie Freude daran?"],
+    },
   },
   {
     id: 2838,
@@ -20425,6 +24815,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Kann ich dahin gehen?", "Ist es zu Fuß erreichbar?"],
+      B1: ["Ist es fußläufig erreichbar?"],
+    },
   },
   {
     id: 2839,
@@ -20438,6 +24832,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Muss man umsteigen?", "Fährt er direkt?"],
+      B1: ["Ist ein Umstieg nötig?"],
+    },
   },
   {
     id: 2840,
@@ -20451,6 +24849,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wohin genau?"],
+    },
   },
   {
     id: 2841,
@@ -20464,6 +24865,13 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: [
+        "Welche Haltestelle kommt als nächste?",
+        "Wo halten wir als Nächstes?",
+      ],
+      B1: ["Wie heißt die nächste Haltestelle?"],
+    },
   },
   {
     id: 2842,
@@ -20477,6 +24885,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Auf welchem Gleis fährt er?"],
+      B1: ["Welcher Bahnsteig ist es?"],
+    },
   },
   {
     id: 2843,
@@ -20490,6 +24902,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wann fährt er?", "Um wie viel Uhr fährt er ab?"],
+      B1: ["Zu welcher Uhrzeit fährt er ab?"],
+    },
   },
   {
     id: 2844,
@@ -20503,6 +24919,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wo gibt es hier ein Taxi?"],
+      B1: ["Wo finde ich hier ein Taxi?"],
+    },
   },
   {
     id: 2845,
@@ -20516,6 +24936,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Haben Sie einen Fahrplan?"],
+      B1: ["Ist ein Fahrplan vorhanden?"],
+    },
   },
   {
     id: 2846,
@@ -20529,6 +24953,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Bis um wie viel Uhr?"],
+      B1: ["Bis zu welchem Zeitpunkt?"],
+    },
   },
   {
     id: 2847,
@@ -20542,6 +24970,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Darf ich hier parken?", "Ist Parken hier erlaubt?"],
+      B1: ["Ist Parken hier gestattet?"],
+    },
   },
   {
     id: 2848,
@@ -20555,6 +24987,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wie lange?"],
+      B1: ["Für welche Dauer?"],
+    },
   },
   {
     id: 2849,
@@ -20568,6 +25004,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Akzeptieren Sie diese Kreditkarte?"],
+      B1: ["Kann ich mit dieser Kreditkarte zahlen?"],
+    },
   },
   {
     id: 2850,
@@ -20581,6 +25021,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ist das Frühstück inklusive?", "Ist Frühstück dabei?"],
+      B1: ["Ist das Frühstück im Preis enthalten?"],
+    },
   },
   {
     id: 2851,
@@ -20594,6 +25038,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wie viele Nächte?"],
+      B1: ["Für wie viele Übernachtungen?"],
+    },
   },
   {
     id: 2852,
@@ -20607,6 +25055,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Um wie viel Uhr kommen Sie an?"],
+      B1: ["Wann treffen Sie ein?"],
+    },
   },
   {
     id: 2853,
@@ -20620,6 +25072,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wo gibt es einen Parkplatz?", "Wo kann ich parken?"],
+      B1: ["Wo kann ich mein Auto abstellen?"],
+    },
   },
   {
     id: 2854,
@@ -20633,6 +25089,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Haben Sie ein Restaurant?"],
+      B1: ["Ist ein Restaurant vorhanden?"],
+    },
   },
   {
     id: 2855,
@@ -20646,6 +25106,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Gibt es ein Geschäft?"],
+      B1: ["Ist ein Geschäft vorhanden?"],
+    },
   },
   {
     id: 2856,
@@ -20659,6 +25123,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wo gibt es einen Supermarkt?"],
+      B1: ["Wo finde ich den nächsten Supermarkt?"],
+    },
   },
   {
     id: 2857,
@@ -20672,6 +25140,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Gibt es noch etwas anderes?"],
+      B1: ["Haben Sie noch eine Alternative?"],
+    },
   },
   {
     id: 2858,
@@ -20685,6 +25157,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wo ist die nächste Post?"],
+      B1: ["Wo finde ich das nächste Postamt?"],
+    },
   },
   {
     id: 2859,
@@ -20698,6 +25174,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wann ist geöffnet?", "Wann macht es auf?"],
+      B1: ["Wann öffnet es?"],
+    },
   },
   {
     id: 2860,
@@ -20711,6 +25191,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Gibt es hier einen Briefkasten?"],
+      B1: ["Wo finde ich einen Briefkasten?"],
+    },
   },
   {
     id: 2861,
@@ -20724,6 +25208,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wo kann ich Briefmarken kaufen?"],
+      B1: ["Wo gibt es Briefmarken?"],
+    },
   },
   {
     id: 2862,
@@ -20737,6 +25225,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Haben Sie einen Fernseher?"],
+      B1: ["Ist ein Fernseher vorhanden?"],
+    },
   },
   {
     id: 2863,
@@ -20750,6 +25242,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wann laufen die Nachrichten?"],
+      B1: ["Wann werden die Nachrichten gesendet?"],
+    },
   },
   {
     id: 2864,
@@ -20763,6 +25259,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Welche Größe haben Ihre Schuhe?"],
+      B1: ["Was für eine Schuhgröße tragen Sie?"],
+    },
   },
   {
     id: 2865,
@@ -20776,6 +25276,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wie lange dauert die Wanderung?"],
+      B1: ["Wie weit ist die Wanderung?"],
+    },
   },
   {
     id: 2866,
@@ -20789,6 +25293,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Geht der Weg steil bergauf?"],
+      B1: ["Hat der Weg eine starke Steigung?"],
+    },
   },
   {
     id: 2867,
@@ -20802,6 +25310,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wie ist Ihre Handynummer?"],
+      B1: ["Wie ist Ihre Mobilnummer?"],
+    },
   },
   {
     id: 2868,
@@ -20815,6 +25327,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Haben Sie eine E-Mail-Adresse?"],
+      B1: ["Besitzen Sie eine E-Mail-Adresse?"],
+    },
   },
   {
     id: 2869,
@@ -20828,6 +25344,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wie schreibt man das?"],
+      B1: ["Wie wird das geschrieben?"],
+    },
   },
   {
     id: 2870,
@@ -20841,6 +25361,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Darf ich eine E-Mail senden?"],
+      B1: ["Kann ich eine Mail verschicken?"],
+    },
   },
   {
     id: 2871,
@@ -20854,6 +25378,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Haben Sie meine Mail erhalten?"],
+      B1: ["Ist meine E-Mail bei Ihnen angekommen?"],
+    },
   },
   {
     id: 2872,
@@ -20867,6 +25395,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wo gibt es ein Internetcafé?"],
+      B1: ["Gibt es hier ein Internetcafé?"],
+    },
   },
   {
     id: 2873,
@@ -20880,6 +25412,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wann öffnet die Bank?"],
+      B1: ["Ab wann ist die Bank geöffnet?"],
+    },
   },
   {
     id: 2874,
@@ -20893,6 +25429,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wann schließt die Bank?"],
+      B1: ["Bis wann ist die Bank geöffnet?"],
+    },
   },
   {
     id: 2875,
@@ -20906,6 +25446,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Akzeptieren Sie Kreditkarten?"],
+      B1: ["Kann ich mit Kreditkarte zahlen?"],
+    },
   },
   {
     id: 2876,
@@ -20919,6 +25463,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wo zahle ich das?"],
+      B1: ["Wo wird das bezahlt?"],
+    },
   },
   {
     id: 2877,
@@ -20932,6 +25480,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Muss ich sofort zahlen?"],
+    },
   },
   {
     id: 2878,
@@ -20945,6 +25496,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wie viel kostet es?"],
+      B1: ["Wie teuer wird es?"],
+    },
   },
   {
     id: 2879,
@@ -20958,6 +25513,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was kostet es?"],
+      B1: ["Welche Kosten entstehen?"],
+    },
   },
   {
     id: 2880,
@@ -20971,6 +25530,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wie viele Treppenstufen gibt es?"],
+    },
   },
   {
     id: 2881,
@@ -20984,6 +25546,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Gibt es einen Aufzug?", "Gibt es einen Lift?"],
+      B1: ["Ist ein Aufzug vorhanden?"],
+    },
   },
   {
     id: 2882,
@@ -20997,6 +25563,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wo ist der Lift?", "Wo finde ich den Aufzug?"],
+    },
   },
   {
     id: 2883,
@@ -21010,6 +25579,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Was empfehlen Sie?"],
+      B1: ["Was raten Sie mir?"],
+    },
   },
   {
     id: 2884,
@@ -21023,6 +25596,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Macht nichts.", "Schon gut."],
+      B1: ["Nicht schlimm."],
+    },
   },
   {
     id: 2885,
@@ -21036,6 +25613,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Sagen Sie das bitte noch einmal."],
+      B1: ["Würden Sie das bitte wiederholen?"],
+    },
   },
   {
     id: 2886,
@@ -21049,6 +25630,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich will zu diesem Hotel."],
+      B1: ["Ich bin auf der Suche nach diesem Hotel."],
+    },
   },
   {
     id: 2887,
@@ -21062,6 +25647,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Einen Moment, bitte."],
+      B1: ["Augenblick, bitte."],
+    },
   },
   {
     id: 2888,
@@ -21075,6 +25664,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich rufe später wieder an."],
+      B1: ["Ich melde mich später."],
+    },
   },
   {
     id: 2889,
@@ -21088,6 +25681,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Schick mir eine Nachricht."],
+      B1: ["Melde dich schriftlich."],
+    },
   },
   {
     id: 2890,
@@ -21101,6 +25698,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich komme zu spät."],
+      B1: ["Ich bin im Verzug."],
+    },
   },
   {
     id: 2891,
@@ -21114,6 +25715,10 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Kein Netz."],
+      B1: ["Keine Verbindung."],
+    },
   },
   {
     id: 2892,
@@ -21127,5 +25732,9 @@ export const A2_Vocabulary = [
     favorite: false,
     level: "A2",
     type: "phrase",
+    synonyms: {
+      A2: ["Wer spricht da?"],
+      B1: ["Wer ist am Apparat?"],
+    },
   },
 ];

@@ -11,6 +11,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Bild"],
+      B2: ["die Illustration", "die Grafik"],
+    },
   },
   {
     id: 3001,
@@ -37,6 +41,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Mietshaus"],
+    },
   },
   {
     id: 3003,
@@ -64,6 +71,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Bote",
+    synonyms: {
+      A2: ["der Postbote"],
+      B2: ["der Zusteller"],
+      C1: ["der Kurier"],
+    },
   },
   {
     id: 3005,
@@ -78,6 +90,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "voll",
+    synonyms: {
+      B1: ["die Vollzeitstelle", "die Vollzeitarbeit"],
+    },
   },
   {
     id: 3006,
@@ -92,6 +107,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Bote",
+    synonyms: {
+      A2: ["die Postbotin"],
+      B2: ["die Zustellerin"],
+      C1: ["die Kurierin"],
+    },
   },
   {
     id: 3007,
@@ -105,6 +125,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["senden", "verschicken"],
+      B2: ["absenden"],
+    },
   },
   {
     id: 3008,
@@ -133,6 +157,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "phrase",
     family: "machen",
+    synonyms: {
+      A2: ["putzen"],
+      B1: ["reinigen", "säubern"],
+    },
   },
   {
     id: 3010,
@@ -146,6 +174,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Wiese"],
+    },
   },
   {
     id: 3011,
@@ -159,6 +190,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A1: ["der Kindergarten"],
+      B1: ["die Kinderkrippe"],
+    },
   },
   {
     id: 3012,
@@ -185,6 +220,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Betreuungsplatz"],
+    },
   },
   {
     id: 3014,
@@ -199,6 +237,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Kasten",
+    synonyms: {
+      B1: ["die Sandkiste"],
+    },
   },
   {
     id: 3015,
@@ -212,6 +253,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B2: ["linguistisch"],
+    },
   },
   {
     id: 3016,
@@ -225,6 +269,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Fensterscheibe"],
+      B2: ["die Glasscheibe"],
+    },
   },
   {
     id: 3017,
@@ -254,6 +302,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "machen",
+    synonyms: {
+      A2: ["zerbrechen"],
+      B1: ["beschädigen", "zerstören"],
+    },
   },
   {
     id: 3019,
@@ -282,6 +334,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Laut"],
+      B2: ["der Klang"],
+    },
   },
   {
     id: 3021,
@@ -295,6 +351,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["klären"],
+      B2: ["festlegen", "ordnen"],
+    },
   },
   {
     id: 3022,
@@ -308,6 +368,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Ausblick", "die Sicht"],
+      B2: ["die Perspektive"],
+    },
   },
   {
     id: 3023,
@@ -323,6 +387,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Recht",
+    synonyms: {
+      B2: ["juristisch", "gesetzlich"],
+    },
   },
   {
     id: 3024,
@@ -337,6 +404,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Bewohner",
+    synonyms: {
+      B1: ["der Einwohner"],
+      B2: ["der Anwohner"],
+    },
   },
   {
     id: 3025,
@@ -351,6 +422,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Steuer",
+    synonyms: {
+      B2: ["die Abgabe"],
+    },
   },
   {
     id: 3026,
@@ -365,6 +439,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Bewohner",
+    synonyms: {
+      B1: ["die Einwohnerin"],
+      B2: ["die Anwohnerin"],
+    },
   },
   {
     id: 3027,
@@ -392,6 +470,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Paar"],
+      B1: ["die Eheleute"],
+    },
   },
   {
     id: 3029,
@@ -418,6 +500,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A1: ["stellen"],
+      A2: ["abstellen"],
+      B2: ["platzieren"],
+    },
   },
   {
     id: 3031,
@@ -444,6 +531,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["sehr groß"],
+      B1: ["enorm"],
+      B2: ["gewaltig", "gigantisch"],
+    },
   },
   {
     id: 3033,
@@ -458,6 +550,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "enttäuschen",
+    synonyms: {
+      B1: ["der Frust"],
+      B2: ["die Ernüchterung"],
+    },
   },
   {
     id: 3034,
@@ -471,6 +567,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["immer"],
+      B1: ["dauernd", "andauernd"],
+      B2: ["permanent"],
+    },
   },
   {
     id: 3035,
@@ -485,6 +586,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "scheiden",
+    synonyms: {
+      A2: ["sich trennen"],
+      B2: ["die Ehe auflösen"],
+    },
   },
   {
     id: 3036,
@@ -498,6 +603,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Gefühl"],
+      B2: ["die Regung"],
+    },
   },
   {
     id: 3037,
@@ -526,6 +635,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Ärger",
+    synonyms: {
+      A2: ["lästig", "nervig"],
+      B1: ["unangenehm"],
+    },
   },
   {
     id: 3039,
@@ -539,6 +652,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B2: ["ökologisch"],
+    },
   },
   {
     id: 3040,
@@ -552,6 +668,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["rechnen mit", "hoffen auf"],
+      B2: ["entgegensehen"],
+    },
   },
   {
     id: 3041,
@@ -565,6 +685,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Stieffamilie"],
+    },
   },
   {
     id: 3042,
@@ -578,6 +701,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Geldschein"],
+      B2: ["die Bescheinigung"],
+    },
   },
   {
     id: 3043,
@@ -591,6 +718,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A1: ["die Frau", "die Ehefrau"],
+      B2: ["die Gattin"],
+    },
   },
   {
     id: 3044,
@@ -604,6 +735,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["anderswo", "an einem anderen Ort"],
+      C1: ["andernorts"],
+    },
   },
   {
     id: 3045,
@@ -619,6 +754,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "ziehen",
+    synonyms: {
+      B2: ["die Distanzbeziehung"],
+    },
   },
   {
     id: 3046,
@@ -633,6 +771,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "leben",
+    synonyms: {
+      A2: ["zusammenwohnen"],
+    },
   },
   {
     id: 3047,
@@ -646,6 +787,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["weit weg"],
+      B1: ["fern"],
+      B2: ["abgelegen"],
+    },
   },
   {
     id: 3048,
@@ -659,6 +805,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Abfahrt"],
+      B1: ["die Zufahrt"],
+    },
   },
   {
     id: 3049,
@@ -673,6 +823,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "ziehen",
+    synonyms: {
+      B1: ["die Partnerschaft", "die Romanze"],
+    },
   },
   {
     id: 3050,
@@ -686,19 +839,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 3051,
-    word: "die Emotion, -en",
-    translation: "emotion, feeling",
-    definition: "Ein starkes Gefühl.",
-    example: "Musik weckt tiefe Emotionen.",
-    exampleTranslation: "Music awakens deep emotions.",
-    thema: "Gefühle",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      A2: ["sperren"],
+      B1: ["versperren"],
+      B2: ["lahmlegen"],
+    },
   },
   {
     id: 3052,
@@ -713,6 +858,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "behindern",
+    synonyms: {
+      A2: ["stören"],
+      B1: ["hindern"],
+      B2: ["beeinträchtigen"],
+    },
   },
   {
     id: 3053,
@@ -726,6 +876,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["besorgt"],
+      B1: ["furchtsam"],
+      B2: ["verängstigt"],
+    },
   },
   {
     id: 3054,
@@ -740,6 +895,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "handeln",
+    synonyms: {
+      B1: ["umgehen mit"],
+      B2: ["therapieren"],
+    },
   },
   {
     id: 3055,
@@ -753,6 +912,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["froh", "lustig"],
+      B1: ["heiter", "munter"],
+      B2: ["ausgelassen"],
+    },
   },
   {
     id: 3056,
@@ -766,6 +930,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["kränken"],
+      B2: ["verletzen"],
+      C1: ["schmähen"],
+    },
   },
   {
     id: 3057,
@@ -779,6 +948,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["zielstrebig"],
+      B2: ["entschieden", "resolut"],
+    },
   },
   {
     id: 3058,
@@ -792,6 +965,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Kuchen"],
+      B1: ["die Backwaren"],
+    },
   },
   {
     id: 3059,
@@ -805,6 +982,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["konzentriert"],
+      B1: ["achtsam"],
+      B2: ["wachsam"],
+    },
   },
   {
     id: 3060,
@@ -832,6 +1014,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "ernst",
+    synonyms: {
+      B1: ["ernsthaft"],
+      B2: ["seriös"],
+    },
   },
   {
     id: 3062,
@@ -845,6 +1031,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Medikament"],
+      B1: ["das Arzneimittel"],
+    },
   },
   {
     id: 3063,
@@ -858,6 +1048,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B2: ["wirklichkeitsnah", "praxisnah"],
+    },
   },
   {
     id: 3064,
@@ -871,6 +1064,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Eingangstür"],
+    },
   },
   {
     id: 3065,
@@ -884,6 +1080,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Fassung", "die Variante"],
+      B2: ["die Ausführung"],
+    },
   },
   {
     id: 3066,
@@ -897,6 +1097,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Mülleimer"],
+      B1: ["die Abfalltonne"],
+    },
   },
   {
     id: 3067,
@@ -910,6 +1114,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Kartoffelchips"],
+    },
   },
   {
     id: 3068,
@@ -923,6 +1130,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["nach draußen stellen"],
+      B1: ["hinausstellen"],
+    },
   },
   {
     id: 3069,
@@ -936,6 +1147,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Partnerschaft"],
+      C1: ["der Ehebund"],
+    },
   },
   {
     id: 3070,
@@ -963,6 +1178,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Durchschnitt",
+    synonyms: {
+      A2: ["normal"],
+      B1: ["im Schnitt"],
+      B2: ["mittelmäßig"],
+    },
   },
   {
     id: 3072,
@@ -977,6 +1197,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Schrift",
+    synonyms: {
+      A2: ["die Regel"],
+      B1: ["die Bestimmung"],
+      B2: ["die Verordnung"],
+    },
   },
   {
     id: 3073,
@@ -991,6 +1216,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Durchschnitt",
+    synonyms: {
+      B1: ["der Mittelwert"],
+      B2: ["das Mittel"],
+    },
   },
   {
     id: 3074,
@@ -1004,6 +1233,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["total"],
+      B1: ["völlig", "komplett"],
+      B2: ["uneingeschränkt"],
+    },
   },
   {
     id: 3075,
@@ -1031,6 +1265,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "ereignen",
+    synonyms: {
+      B1: ["der Vorfall", "das Geschehen"],
+      B2: ["das Geschehnis"],
+    },
   },
   {
     id: 3077,
@@ -1044,6 +1282,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B2: ["selbstsüchtig", "eigennützig"],
+    },
   },
   {
     id: 3078,
@@ -1057,6 +1298,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["passen"],
+      B1: ["sich eignen"],
+    },
   },
   {
     id: 3079,
@@ -1071,6 +1316,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Hochzeit"],
+      B2: ["die Vermählung"],
+    },
   },
   {
     id: 3080,
@@ -1084,6 +1333,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["zurücklassen"],
+      B2: ["vermachen"],
+    },
   },
   {
     id: 3081,
@@ -1097,6 +1350,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B2: ["die Auflösung"],
+    },
   },
   {
     id: 3082,
@@ -1110,6 +1366,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Ziel"],
+      B1: ["der Sinn"],
+      B2: ["die Absicht"],
+    },
   },
   {
     id: 3083,
@@ -1123,6 +1384,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A1: ["der Mann", "der Ehemann"],
+      B1: ["der Ehepartner"],
+      C1: ["der Gemahl"],
+    },
   },
   {
     id: 3084,
@@ -1136,6 +1402,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Lagerraum", "die Abstellkammer"],
+    },
   },
   {
     id: 3085,
@@ -1149,6 +1418,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A1: ["die Frau", "die Ehefrau"],
+      B1: ["die Ehepartnerin"],
+      C1: ["die Gemahlin"],
+    },
   },
   {
     id: 3086,
@@ -1176,6 +1450,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Verwandte", "das Familienmitglied"],
+    },
   },
   {
     id: 3088,
@@ -1202,6 +1479,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["täuschen"],
+      B2: ["hintergehen", "übervorteilen"],
+    },
   },
   {
     id: 3090,
@@ -1215,6 +1496,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A1: ["offen sein"],
+    },
   },
   {
     id: 3091,
@@ -1228,6 +1512,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["sich in den Arm nehmen"],
+    },
   },
   {
     id: 3092,
@@ -1242,6 +1529,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "ausschließen",
+    synonyms: {
+      A2: ["nur"],
+      B1: ["allein"],
+      B2: ["lediglich", "einzig"],
+    },
   },
   {
     id: 3093,
@@ -1256,6 +1548,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Ehrenamt",
+    synonyms: {
+      B1: ["die freiwillige Tätigkeit"],
+    },
   },
   {
     id: 3094,
@@ -1271,6 +1566,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "dienen",
+    synonyms: {
+      A2: ["helfen"],
+      B2: ["nützen"],
+    },
   },
   {
     id: 3095,
@@ -1285,6 +1584,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Ehrenamt",
+    synonyms: {
+      A2: ["freiwillig"],
+      B2: ["unentgeltlich"],
+    },
   },
   {
     id: 3096,
@@ -1314,6 +1617,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Helfer",
+    synonyms: {
+      A2: ["der Assistent"],
+      B2: ["der Gehilfe"],
+    },
   },
   {
     id: 3098,
@@ -1341,6 +1648,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Helfer",
+    synonyms: {
+      A2: ["die Assistentin"],
+      B2: ["die Gehilfin"],
+    },
   },
   {
     id: 3100,
@@ -1367,6 +1678,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["austeilen"],
+      B1: ["ausgeben", "aufteilen"],
+    },
   },
   {
     id: 3102,
@@ -1380,6 +1695,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["zugänglich"],
+      B2: ["verfügbar"],
+    },
   },
   {
     id: 3103,
@@ -1393,6 +1712,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Einsatz"],
+      B2: ["die Hingabe"],
+    },
   },
   {
     id: 3104,
@@ -1406,6 +1729,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["Hunger haben"],
+      B2: ["ausgehungert"],
+    },
   },
   {
     id: 3105,
@@ -1419,6 +1746,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["sich einsetzen"],
+    },
   },
   {
     id: 3106,
@@ -1432,6 +1762,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Angst"],
+      B2: ["die Befürchtung", "die Besorgnis"],
+    },
   },
   {
     id: 3107,
@@ -1445,6 +1779,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["mitmachen", "teilnehmen"],
+      B2: ["mitwirken"],
+    },
   },
   {
     id: 3108,
@@ -1458,6 +1796,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["abtrocknen"],
+    },
   },
   {
     id: 3109,
@@ -1471,6 +1812,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["mitgehen"],
+      C1: ["geleiten"],
+    },
   },
   {
     id: 3110,
@@ -1484,6 +1829,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Einsicht"],
+      B2: ["das Begreifen"],
+    },
   },
   {
     id: 3111,
@@ -1498,6 +1847,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "sozial",
+    synonyms: {
+      B2: ["die Hilfseinrichtung"],
+    },
   },
   {
     id: 3112,
@@ -1540,6 +1892,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Gemeinschaft",
+    synonyms: {
+      B2: ["die Mietergemeinschaft"],
+    },
   },
   {
     id: 3115,
@@ -1554,6 +1909,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Angebot",
+    synonyms: {
+      B2: ["das Unterstützungsangebot"],
+    },
   },
   {
     id: 3116,
@@ -1567,6 +1925,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B2: ["die Rücksichtnahme"],
+    },
   },
   {
     id: 3117,
@@ -1598,20 +1959,6 @@ export const B1_Vocabulary = [
     type: "word",
   },
   {
-    id: 3119,
-    word: "die Behinderung, -en",
-    translation: "disability, hindrance",
-    definition: "Eine körperliche oder geistige Einschränkung.",
-    example: "Barrierefreiheit hilft Menschen mit einer Behinderung.",
-    exampleTranslation: "Accessibility helps people with a disability.",
-    thema: "Gesellschaft",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
-    family: "behindern",
-  },
-  {
     id: 3120,
     word: "die Mittagsruhe",
     translation: "midday rest, lunchtime quiet hours",
@@ -1623,6 +1970,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Mittagspause"],
+    },
   },
   {
     id: 3121,
@@ -1636,6 +1986,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Gemeinschaft"],
+      B2: ["die Allgemeinheit"],
+    },
   },
   {
     id: 3122,
@@ -1663,6 +2017,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Jahrestag"],
+    },
   },
   {
     id: 3124,
@@ -1691,6 +2048,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Gefahr",
+    synonyms: {
+      A2: ["das Risiko"],
+      B2: ["die Bedrohung"],
+    },
   },
   {
     id: 3126,
@@ -1704,6 +2065,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["meiden", "umgehen"],
+      B2: ["unterlassen"],
+    },
   },
   {
     id: 3127,
@@ -1718,6 +2083,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Gefahr",
+    synonyms: {
+      B1: ["die Todesgefahr"],
+    },
   },
   {
     id: 3128,
@@ -1732,6 +2100,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "sichern",
+    synonyms: {
+      B1: ["der Schutz"],
+      B2: ["die Geborgenheit"],
+    },
   },
   {
     id: 3129,
@@ -1745,6 +2117,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["in Todesgefahr sein"],
+    },
   },
   {
     id: 3130,
@@ -1759,6 +2134,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Flucht",
+    synonyms: {
+      A2: ["der Notausgang"],
+      B2: ["der Rettungsweg"],
+    },
   },
   {
     id: 3131,
@@ -1772,20 +2151,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 3132,
-    word: "das Recht haben",
-    translation: "to be right",
-    definition: "Mit seiner Meinung oder Behauptung richtig liegen.",
-    example: "Du hast recht, das war keine gute Idee.",
-    exampleTranslation: "You are right, that was not a good idea.",
-    thema: "Kommunikation",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "phrase",
-    family: "das Recht",
+    synonyms: {
+      B1: ["die Aktion"],
+      B2: ["die Mission"],
+    },
   },
   {
     id: 3133,
@@ -1801,6 +2170,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "retten",
+    synonyms: {
+      B2: ["bergen"],
+    },
   },
   {
     id: 3134,
@@ -1814,6 +2186,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["wochentags"],
+      B1: ["an Werktagen"],
+    },
   },
   {
     id: 3135,
@@ -1828,6 +2204,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["zum einen ... zum anderen"],
+    },
   },
   {
     id: 3136,
@@ -1842,6 +2221,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Abfall",
+    synonyms: {
+      A2: ["der Müll"],
+    },
   },
   {
     id: 3137,
@@ -1856,6 +2238,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Mitgefühl"],
+      B2: ["das Einfühlungsvermögen"],
+    },
   },
   {
     id: 3138,
@@ -1870,6 +2256,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "sorgen",
+    synonyms: {
+      A2: ["wegwerfen"],
+      B1: ["beseitigen"],
+    },
   },
   {
     id: 3139,
@@ -1884,6 +2274,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B2: ["die Duldsamkeit", "die Aufgeschlossenheit"],
+    },
   },
   {
     id: 3140,
@@ -1910,6 +2303,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["unfassbar"],
+      B2: ["unvorstellbar", "erstaunlich"],
+    },
   },
   {
     id: 3142,
@@ -1924,6 +2321,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Altglascontainer"],
+    },
   },
   {
     id: 3143,
@@ -1963,6 +2363,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["helfen"],
+      B2: ["beistehen"],
+    },
   },
   {
     id: 3146,
@@ -1990,6 +2394,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["klarkommen"],
+      B1: ["auskommen"],
+      B2: ["bewältigen"],
+    },
   },
   {
     id: 3148,
@@ -2004,6 +2413,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Stoff",
+    synonyms: {
+      A2: ["das Plastik"],
+    },
   },
   {
     id: 3149,
@@ -2018,6 +2430,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "erhalten",
+    synonyms: {
+      A2: ["bekommen"],
+    },
   },
   {
     id: 3150,
@@ -2032,6 +2447,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Sack",
+    synonyms: {
+      B1: ["der Müllbeutel", "der Abfallsack"],
+    },
   },
   {
     id: 3151,
@@ -2045,6 +2463,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["verwirklichen"],
+      B2: ["einlösen"],
+    },
   },
   {
     id: 3152,
@@ -2059,6 +2481,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Tüte",
+    synonyms: {
+      B1: ["der Müllbeutel"],
+    },
   },
   {
     id: 3153,
@@ -2072,6 +2497,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Gebiet"],
+      B2: ["der Sektor"],
+    },
   },
   {
     id: 3154,
@@ -2099,6 +2528,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["verwenden"],
+      B1: ["einfügen"],
+      B2: ["anwenden"],
+    },
   },
   {
     id: 3156,
@@ -2127,6 +2561,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "intensiv",
+    synonyms: {
+      A2: ["stark"],
+      B2: ["gründlich", "nachdrücklich"],
+    },
   },
   {
     id: 3158,
@@ -2156,6 +2594,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Jugend",
+    synonyms: {
+      B1: ["der Jugendtreff"],
+    },
   },
   {
     id: 3160,
@@ -2169,6 +2610,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Beitrag"],
+    },
   },
   {
     id: 3161,
@@ -2183,6 +2627,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "leiten",
+    synonyms: {
+      A2: ["der Lehrer", "der Trainer"],
+      B1: ["der Dozent"],
+    },
   },
   {
     id: 3162,
@@ -2196,6 +2644,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["modern"],
+      B1: ["modisch"],
+      B2: ["angesagt"],
+    },
   },
   {
     id: 3163,
@@ -2210,6 +2663,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "leiten",
+    synonyms: {
+      A2: ["die Lehrerin", "die Trainerin"],
+      B1: ["die Dozentin"],
+    },
   },
   {
     id: 3164,
@@ -2238,6 +2695,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "erleben",
+    synonyms: {
+      A2: ["erleben"],
+      B2: ["mitverfolgen"],
+    },
   },
   {
     id: 3166,
@@ -2251,6 +2712,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["wenigstens", "mindestens"],
+      B2: ["immerhin"],
+    },
   },
   {
     id: 3167,
@@ -2264,6 +2729,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["geschichtlich"],
+    },
   },
   {
     id: 3168,
@@ -2277,20 +2745,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 3169,
-    word: "das Ereignis, -se",
-    translation: "event, occurrence",
-    definition: "Ein wichtiges oder besonderes Geschehnis.",
-    example: "Das historische Ereignis wurde groß gefeiert.",
-    exampleTranslation: "The historical event was celebrated grandly.",
-    thema: "Gesellschaft",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
-    family: "ereignen",
+    synonyms: {
+      A2: ["das Viertel"],
+      B1: ["der Bezirk"],
+    },
   },
   {
     id: 3170,
@@ -2332,6 +2790,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Seitenstraße"],
+    },
   },
   {
     id: 3173,
@@ -2346,6 +2807,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Unfall", "das Pech"],
+      B2: ["das Missgeschick"],
+    },
   },
   {
     id: 3174,
@@ -2359,6 +2824,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Vorstadt"],
+    },
   },
   {
     id: 3175,
@@ -2373,6 +2841,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "trotz",
+    synonyms: {
+      B2: ["ungeachtet"],
+    },
   },
   {
     id: 3176,
@@ -2387,6 +2858,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Wirt",
+    synonyms: {
+      A2: ["die Gaststätte"],
+      B2: ["die Ökonomie"],
+    },
   },
   {
     id: 3177,
@@ -2400,6 +2875,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Aufforderung"],
+      B2: ["der Appell"],
+    },
   },
   {
     id: 3178,
@@ -2430,6 +2909,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "leiten",
+    synonyms: {
+      B1: ["die Führung"],
+      B2: ["das Management"],
+    },
   },
   {
     id: 3180,
@@ -2443,6 +2926,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Hochhaus"],
+      B2: ["der Wolkenkratzer"],
+    },
   },
   {
     id: 3181,
@@ -2456,6 +2943,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Grund"],
+      B2: ["die Begründung"],
+    },
   },
   {
     id: 3182,
@@ -2469,6 +2960,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B2: ["die Silhouette"],
+    },
   },
   {
     id: 3183,
@@ -2482,6 +2976,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B2: ["zaudern", "schwanken"],
+    },
   },
   {
     id: 3184,
@@ -2496,6 +2993,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Station",
+    synonyms: {
+      B1: ["der U-Bahnhof"],
+    },
   },
   {
     id: 3185,
@@ -2510,6 +3010,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Zeug",
+    synonyms: {
+      A2: ["das Gerät"],
+    },
   },
   {
     id: 3186,
@@ -2536,6 +3039,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["pumpen"],
+      B1: ["aufblasen"],
+    },
   },
   {
     id: 3188,
@@ -2562,6 +3069,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["streichen"],
+      B1: ["anstreichen"],
+    },
   },
   {
     id: 3190,
@@ -2576,6 +3087,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "erholen",
+    synonyms: {
+      A2: ["die Ruhe"],
+      B1: ["die Entspannung"],
+      B2: ["die Regeneration"],
+    },
   },
   {
     id: 3191,
@@ -2591,6 +3107,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Kreis",
+    synonyms: {
+      B2: ["der Bekanntenkreis"],
+    },
   },
   {
     id: 3192,
@@ -2605,6 +3124,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "entfernen",
+    synonyms: {
+      A2: ["die Strecke"],
+      B1: ["der Abstand"],
+      B2: ["die Distanz"],
+    },
   },
   {
     id: 3193,
@@ -2618,6 +3142,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["zusammenstehen"],
+    },
   },
   {
     id: 3194,
@@ -2631,6 +3158,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Paket"],
+    },
   },
   {
     id: 3195,
@@ -2645,6 +3175,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "klingeln",
+    synonyms: {
+      B1: ["die Türklingel"],
+    },
   },
   {
     id: 3196,
@@ -2659,6 +3192,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "phrase",
     family: "stehen",
+    synonyms: {
+      B1: ["anstehen", "sich anstellen"],
+    },
   },
   {
     id: 3197,
@@ -2686,6 +3222,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Empfang",
+    synonyms: {
+      A2: ["die Rezeption"],
+      B2: ["die Annahme"],
+    },
   },
   {
     id: 3199,
@@ -2712,6 +3252,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B2: ["den Erhalt bestätigen"],
+    },
   },
   {
     id: 3201,
@@ -2738,6 +3281,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Quittung"],
+      B1: ["der Nachweis"],
+    },
   },
   {
     id: 3203,
@@ -2748,19 +3295,6 @@ export const B1_Vocabulary = [
     exampleTranslation: "He pedaled hard.",
     thema: "Reisen & Verkehr",
     priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
-  },
-  {
-    id: 3204,
-    word: "die Quittung, -en",
-    translation: "receipt",
-    definition: "Eine schriftliche Bestätigung über erhaltenes Geld.",
-    example: "Kann ich bitte eine Quittung bekommen?",
-    exampleTranslation: "Can I please get a receipt?",
-    thema: "Finanzen",
-    priority: "High",
     favorite: false,
     level: "B1",
     type: "word",
@@ -2791,6 +3325,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["fordern"],
+      B2: ["beanspruchen"],
+    },
   },
   {
     id: 3207,
@@ -2819,6 +3357,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Angebot",
+    synonyms: {
+      A2: ["das Angebot"],
+      B1: ["die Aktion", "das Schnäppchen"],
+    },
   },
   {
     id: 3209,
@@ -2885,6 +3427,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Hilfe"],
+      B2: ["der Beistand"],
+    },
   },
   {
     id: 3214,
@@ -2911,6 +3457,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["helfen"],
+      B1: ["fördern"],
+      B2: ["beistehen"],
+    },
   },
   {
     id: 3216,
@@ -2938,6 +3489,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Werk",
+    synonyms: {
+      B1: ["das Kunstwerk"],
+    },
   },
   {
     id: 3218,
@@ -2965,6 +3519,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["lokal"],
+      B2: ["regional"],
+    },
   },
   {
     id: 3220,
@@ -2978,6 +3536,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A1: ["der Computer"],
+      A2: ["der PC"],
+    },
   },
   {
     id: 3221,
@@ -3020,6 +3582,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "rennen",
+    synonyms: {
+      A2: ["laufen"],
+      B1: ["sprinten"],
+      B2: ["eilen"],
+    },
   },
   {
     id: 3224,
@@ -3047,6 +3614,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "rennen",
+    synonyms: {
+      B1: ["der Wettlauf"],
+    },
   },
   {
     id: 3226,
@@ -3074,6 +3644,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["urban"],
+      B2: ["kommunal"],
+    },
   },
   {
     id: 3228,
@@ -3087,6 +3661,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Packung", "die Box"],
+      B1: ["der Karton"],
+    },
   },
   {
     id: 3229,
@@ -3116,6 +3694,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "schlagen",
+    synonyms: {
+      A2: ["der Umschlag"],
+      B1: ["das Kuvert"],
+    },
   },
   {
     id: 3231,
@@ -3130,6 +3712,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Flohmarkt"],
+    },
   },
   {
     id: 3232,
@@ -3144,6 +3729,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "ordnen",
+    synonyms: {
+      B1: ["die Mappe"],
+    },
   },
   {
     id: 3233,
@@ -3159,6 +3747,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Stand",
+    synonyms: {
+      B1: ["der Imbissstand", "die Imbissbude"],
+    },
   },
   {
     id: 3234,
@@ -3172,6 +3763,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Tablette"],
+    },
   },
   {
     id: 3235,
@@ -3213,6 +3807,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Krach"],
+      B2: ["der Radau"],
+    },
   },
   {
     id: 3238,
@@ -3226,19 +3824,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 3239,
-    word: "das Chaos",
-    translation: "chaos, mess",
-    definition: "Ein völlig unordentlicher Zustand.",
-    example: "Nach dem Umzug herrscht in der Wohnung ein echtes Chaos.",
-    exampleTranslation: "After the move there is real chaos in the apartment.",
-    thema: "Alltag",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      B1: ["das Zündholz"],
+    },
   },
   {
     id: 3240,
@@ -3252,6 +3840,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Andenken"],
+      B2: ["das Mitbringsel"],
+    },
   },
   {
     id: 3241,
@@ -3265,6 +3857,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["herauskommen"],
+      B1: ["hinausgehen"],
+    },
   },
   {
     id: 3242,
@@ -3278,6 +3874,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Strickpullover"],
+    },
   },
   {
     id: 3243,
@@ -3291,6 +3890,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A1: ["das Haus"],
+      B2: ["das Bauwerk"],
+    },
   },
   {
     id: 3244,
@@ -3301,20 +3904,6 @@ export const B1_Vocabulary = [
     exampleTranslation: "This scarf is made of pure wool.",
     thema: "Alltag",
     priority: "Low",
-    favorite: false,
-    level: "B1",
-    type: "word",
-  },
-  {
-    id: 3245,
-    word: "das Hochhaus, -häuser",
-    translation: "high-rise building",
-    definition: "Ein sehr hohes Gebäude.",
-    example: "In der Innenstadt stehen viele hohe Hochhäuser.",
-    exampleTranslation:
-      "There are many tall high-rise buildings in the city center.",
-    thema: "Wohnen",
-    priority: "Medium",
     favorite: false,
     level: "B1",
     type: "word",
@@ -3332,6 +3921,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Lieferdienst"],
+    },
   },
   {
     id: 3247,
@@ -3387,19 +3979,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Beratung",
-  },
-  {
-    id: 3251,
-    word: "das Mehrfamilienhaus, -häuser",
-    translation: "apartment building",
-    definition: "Ein Haus für mehrere Parteien.",
-    example: "Wir wohnen in einem Mehrfamilienhaus mit sechs Parteien.",
-    exampleTranslation: "We live in an apartment building with six parties.",
-    thema: "Wohnen",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      B1: ["die Auskunft"],
+    },
   },
   {
     id: 3252,
@@ -3414,6 +3996,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Metzger",
+    synonyms: {
+      B1: ["die Fleischerei"],
+      B2: ["die Schlachterei"],
+    },
   },
   {
     id: 3253,
@@ -3424,19 +4010,6 @@ export const B1_Vocabulary = [
     exampleTranslation: "Their dream is their own single-family house.",
     thema: "Wohnen",
     priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
-  },
-  {
-    id: 3254,
-    word: "der Händler, -",
-    translation: "dealer, merchant, trader",
-    definition: "Jemand, der mit Waren handelt.",
-    example: "Der Händler verkauft gebrauchte Autos.",
-    exampleTranslation: "The dealer sells used cars.",
-    thema: "Finanzen",
-    priority: "Medium",
     favorite: false,
     level: "B1",
     type: "word",
@@ -3467,6 +4040,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "eben",
+    synonyms: {
+      A1: ["auch"],
+      B1: ["ebenso"],
+      B2: ["gleichfalls"],
+    },
   },
   {
     id: 3257,
@@ -3494,6 +4072,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["heute"],
+      B1: ["derzeit"],
+      B2: ["gegenwärtig"],
+    },
   },
   {
     id: 3259,
@@ -3507,6 +4090,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Situation"],
+      B1: ["die Position"],
+    },
   },
   {
     id: 3260,
@@ -3521,6 +4108,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "kommen",
+    synonyms: {
+      A2: ["das Gehalt"],
+      B1: ["der Verdienst"],
+      B2: ["die Einkünfte"],
+    },
   },
   {
     id: 3261,
@@ -3561,6 +4153,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B2: ["die Metropole"],
+    },
   },
   {
     id: 3264,
@@ -3575,19 +4170,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Einkauf",
-  },
-  {
-    id: 3265,
-    word: "die Innenstadt, -städte",
-    translation: "city center, downtown",
-    definition: "Das Zentrum einer Stadt.",
-    example: "Am Samstag ist es in der Innenstadt sehr voll.",
-    exampleTranslation: "On Saturday it is very crowded in the city center.",
-    thema: "Reisen & Verkehr",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      A2: ["der Einkaufszettel"],
+    },
   },
   {
     id: 3266,
@@ -3601,6 +4186,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Tiefkühlware"],
+    },
   },
   {
     id: 3267,
@@ -3615,6 +4203,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Rand",
+    synonyms: {
+      B1: ["der Vorort"],
+      B2: ["die Peripherie"],
+    },
   },
   {
     id: 3268,
@@ -3629,19 +4221,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Halt",
-  },
-  {
-    id: 3269,
-    word: "der Vorort, -e",
-    translation: "suburb",
-    definition: "Wohngebiet am Rande einer Stadt.",
-    example: "Viele Pendler wohnen in einem Vorort.",
-    exampleTranslation: "Many commuters live in a suburb.",
-    thema: "Wohnen",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      B1: ["lagerfähig"],
+      B2: ["beständig", "dauerhaft"],
+    },
   },
   {
     id: 3270,
@@ -3683,6 +4266,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Event",
+    synonyms: {
+      A2: ["vielleicht"],
+      B1: ["möglicherweise"],
+      B2: ["womöglich"],
+    },
   },
   {
     id: 3273,
@@ -3697,6 +4285,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "vorstellen",
+    synonyms: {
+      B2: ["sich etwas ausmalen"],
+    },
   },
   {
     id: 3274,
@@ -3711,6 +4302,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "merken",
+    synonyms: {
+      B2: ["sich etwas einprägen"],
+    },
   },
   {
     id: 3275,
@@ -3727,19 +4321,6 @@ export const B1_Vocabulary = [
     family: "leisten",
   },
   {
-    id: 3276,
-    word: "zymachen",
-    translation: "to close, shut",
-    definition: "Zuschließen oder zumachen.",
-    example: "Das Geschäft macht gleich zu.",
-    exampleTranslation: "The shop is closing right now.",
-    thema: "Alltag",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
-  },
-  {
     id: 3277,
     word: "der Kauf, Käufe",
     translation: "purchase",
@@ -3752,6 +4333,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Kauf",
+    synonyms: {
+      A2: ["der Einkauf"],
+      B2: ["der Erwerb"],
+    },
   },
   {
     id: 3278,
@@ -3766,6 +4351,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Saison",
+    synonyms: {
+      B2: ["jahreszeitlich"],
+    },
   },
   {
     id: 3279,
@@ -3779,6 +4367,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["unbekannt", "namenlos"],
+    },
   },
   {
     id: 3280,
@@ -3805,6 +4396,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["familienfreundlich"],
+      B2: ["kindgerecht"],
+    },
   },
   {
     id: 3282,
@@ -3819,6 +4414,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Bauer",
+    synonyms: {
+      B1: ["der Landwirt"],
+    },
   },
   {
     id: 3283,
@@ -3832,6 +4430,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["lebhaft"],
+      B2: ["dynamisch", "pulsierend"],
+    },
   },
   {
     id: 3284,
@@ -3845,6 +4447,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Landwirtin"],
+    },
   },
   {
     id: 3285,
@@ -3858,19 +4463,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 3286,
-    word: "biologisch",
-    translation: "biological, organic",
-    definition: "Natürlich und ohne künstliche Chemie produziert.",
-    example: "Ich kaufe gerne biologische Lebensmittel.",
-    exampleTranslation: "I like buying organic food.",
-    thema: "Essen und Trinken",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      A2: ["stressig"],
+      B1: ["unruhig", "eilig"],
+      B2: ["hastig"],
+    },
   },
   {
     id: 3287,
@@ -3898,6 +4495,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Auftrag"],
+      B2: ["die Order"],
+    },
   },
   {
     id: 3289,
@@ -3926,6 +4527,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "wohl",
+    synonyms: {
+      A2: ["wahrscheinlich"],
+      B1: ["vermutlich"],
+    },
   },
   {
     id: 3291,
@@ -3939,6 +4544,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Wohnung im Eigentum"],
+    },
   },
   {
     id: 3292,
@@ -3952,6 +4560,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["stattdessen"],
+      B2: ["vielmehr"],
+    },
   },
   {
     id: 3293,
@@ -3978,6 +4590,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["sich über etwas beschweren"],
+      B2: ["etwas beanstanden"],
+    },
   },
   {
     id: 3295,
@@ -4004,6 +4620,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Beschwerde"],
+      B2: ["die Beanstandung"],
+    },
   },
   {
     id: 3297,
@@ -4017,6 +4637,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Nettomiete", "die Grundmiete"],
+    },
   },
   {
     id: 3298,
@@ -4030,6 +4653,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Produkt"],
+      B1: ["der Artikel"],
+    },
   },
   {
     id: 3299,
@@ -4043,6 +4670,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Bruttomiete", "die Gesamtmiete"],
+    },
   },
   {
     id: 3300,
@@ -4057,6 +4687,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "umtauschen",
+    synonyms: {
+      B1: ["austauschen"],
+      B2: ["eintauschen"],
+    },
   },
   {
     id: 3301,
@@ -4071,6 +4705,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Kosten",
+    synonyms: {
+      B1: ["die Zusatzkosten"],
+      B2: ["die Betriebskosten"],
+    },
   },
   {
     id: 3302,
@@ -4098,6 +4736,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Kauf",
+    synonyms: {
+      A2: ["der Preis"],
+      B2: ["der Verkaufspreis"],
+    },
   },
   {
     id: 3304,
@@ -4111,6 +4753,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["zurücksenden"],
+      B2: ["retournieren"],
+    },
   },
   {
     id: 3305,
@@ -4138,6 +4784,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Ermäßigung"],
+      B2: ["der Nachlass"],
+    },
   },
   {
     id: 3307,
@@ -4164,6 +4814,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Sendung", "die Zustellung"],
+    },
   },
   {
     id: 3309,
@@ -4204,6 +4857,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Merkmal"],
+      B2: ["die Eigenheit", "das Charakteristikum"],
+    },
   },
   {
     id: 3312,
@@ -4217,6 +4874,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Label"],
+      B2: ["das Fabrikat"],
+    },
   },
   {
     id: 3313,
@@ -4244,6 +4905,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Modell",
+    synonyms: {
+      B1: ["das Muster"],
+      B2: ["die Vorlage"],
+    },
   },
   {
     id: 3315,
@@ -4258,6 +4923,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["günstig"],
+      B2: ["erschwinglich"],
+    },
   },
   {
     id: 3316,
@@ -4271,6 +4940,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Alternative"],
+    },
   },
   {
     id: 3317,
@@ -4284,6 +4956,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["in der Nähe"],
+      B2: ["nahegelegen"],
+    },
   },
   {
     id: 3318,
@@ -4297,6 +4973,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["gratis", "kostenlos"],
+      B1: ["vergeblich"],
+      B2: ["unentgeltlich", "zwecklos"],
+    },
   },
   {
     id: 3319,
@@ -4310,6 +4991,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["gedämmt"],
+      B2: ["abgeschieden"],
+    },
   },
   {
     id: 3320,
@@ -4323,6 +5008,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["benutzen", "verwenden"],
+      B1: ["gebrauchen"],
+    },
   },
   {
     id: 3321,
@@ -4336,6 +5025,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["nicht möglich"],
+      B2: ["undenkbar", "ausgeschlossen"],
+    },
   },
   {
     id: 3322,
@@ -4350,6 +5043,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "leiten",
+    synonyms: {
+      A2: ["die Anleitung"],
+      B1: ["die Gebrauchsanweisung"],
+    },
   },
   {
     id: 3323,
@@ -4363,6 +5060,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["hierher"],
+    },
   },
   {
     id: 3324,
@@ -4376,6 +5076,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["sofort"],
+      B2: ["augenblicklich"],
+      C1: ["unverzüglich"],
+    },
   },
   {
     id: 3325,
@@ -4403,6 +5108,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Kundendienst"],
+    },
   },
   {
     id: 3327,
@@ -4416,6 +5124,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["reden"],
+      B1: ["sich unterhalten"],
+      B2: ["quatschen"],
+    },
   },
   {
     id: 3328,
@@ -4430,6 +5143,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Zahlungserinnerung"],
+    },
   },
   {
     id: 3329,
@@ -4443,6 +5159,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Fahrradweg"],
+    },
   },
   {
     id: 3330,
@@ -4456,6 +5175,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Summe"],
+      B2: ["der Geldbetrag"],
+    },
   },
   {
     id: 3331,
@@ -4470,6 +5193,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "wandern",
+    synonyms: {
+      B1: ["der Wanderpfad"],
+    },
   },
   {
     id: 3332,
@@ -4484,6 +5210,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "fest",
+    synonyms: {
+      A2: ["bemerken"],
+      B1: ["erkennen"],
+      B2: ["ermitteln"],
+    },
   },
   {
     id: 3333,
@@ -4510,6 +5241,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["richtig"],
+      B1: ["fehlerfrei"],
+      B2: ["einwandfrei"],
+    },
   },
   {
     id: 3335,
@@ -4523,6 +5259,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Bewerber"],
+      B2: ["der Anwärter"],
+    },
   },
   {
     id: 3336,
@@ -4536,6 +5276,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["bis jetzt"],
+      B1: ["bislang"],
+      C1: ["bis dato"],
+    },
   },
   {
     id: 3337,
@@ -4550,6 +5295,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Netz",
+    synonyms: {
+      A1: ["das Internet"],
+      B2: ["das Netzwerk"],
+    },
   },
   {
     id: 3338,
@@ -4564,6 +5313,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "senden",
+    synonyms: {
+      A2: ["schicken", "verschicken"],
+      B2: ["übersenden"],
+    },
   },
   {
     id: 3339,
@@ -4577,6 +5330,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["Kontakte knüpfen"],
+      B2: ["netzwerken"],
+    },
   },
   {
     id: 3340,
@@ -4590,6 +5347,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["kaputtmachen"],
+      B1: ["zerstören"],
+    },
   },
   {
     id: 3341,
@@ -4642,6 +5403,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Ablaufdatum", "das Haltbarkeitsdatum"],
+    },
   },
   {
     id: 3345,
@@ -4657,6 +5421,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "handeln",
+    synonyms: {
+      B2: ["manuell"],
+    },
   },
   {
     id: 3346,
@@ -4670,6 +5437,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Quittung", "der Beleg"],
+    },
   },
   {
     id: 3347,
@@ -4683,19 +5453,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 3348,
-    word: "das Wechselgeld",
-    translation: "change (money)",
-    definition: "Das Geld, das man beim Bezahlen zurückbekommt.",
-    example: "Hier ist Ihr Wechselgeld, vielen Dank.",
-    exampleTranslation: "Here is your change, thank you very much.",
-    thema: "Finanzen",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      A1: ["der Schrank"],
+    },
   },
   {
     id: 3349,
@@ -4736,6 +5496,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Portal"],
+    },
   },
   {
     id: 3352,
@@ -4764,6 +5527,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "wachsen",
+    synonyms: {
+      A2: ["groß werden"],
+      B2: ["heranwachsen"],
+    },
   },
   {
     id: 3354,
@@ -4777,6 +5544,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Firma"],
+      B1: ["der Betrieb"],
+    },
   },
   {
     id: 3355,
@@ -4790,6 +5561,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Website", "die Webseite", "die Homepage"],
+    },
   },
   {
     id: 3356,
@@ -4805,6 +5579,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "dienen",
+    synonyms: {
+      B1: ["der Lieferservice"],
+    },
   },
   {
     id: 3357,
@@ -4818,6 +5595,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Anfrage"],
+      B2: ["das Ersuchen"],
+    },
   },
   {
     id: 3358,
@@ -4832,6 +5613,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "erfordern",
+    synonyms: {
+      A2: ["nötig"],
+      B1: ["notwendig"],
+      B2: ["unerlässlich"],
+    },
   },
   {
     id: 3359,
@@ -4860,6 +5646,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Landwirt",
+    synonyms: {
+      A2: ["der Bauer"],
+    },
   },
   {
     id: 3361,
@@ -4887,6 +5676,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Landwirt",
+    synonyms: {
+      A2: ["die Bäuerin"],
+    },
   },
   {
     id: 3363,
@@ -4901,6 +5693,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "kommen",
+    synonyms: {
+      B1: ["das Begrüßungsgeschenk"],
+    },
   },
   {
     id: 3364,
@@ -4914,6 +5709,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B2: ["das Molkereiprodukt"],
+    },
   },
   {
     id: 3365,
@@ -4940,6 +5738,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Herstellung"],
+      B2: ["die Fertigung"],
+    },
   },
   {
     id: 3367,
@@ -4969,6 +5771,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Saison",
+    synonyms: {
+      A2: ["die Jahreszeit"],
+    },
   },
   {
     id: 3369,
@@ -4982,6 +5787,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["informieren", "Bescheid sagen"],
+      B2: ["unterrichten"],
+    },
   },
   {
     id: 3370,
@@ -5008,6 +5817,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["sagen"],
+      B1: ["informieren"],
+      B2: ["unterrichten"],
+    },
   },
   {
     id: 3372,
@@ -5021,6 +5835,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["ernten"],
+      B2: ["abpflücken"],
+    },
   },
   {
     id: 3373,
@@ -5047,19 +5865,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 3375,
-    word: "der Musikkurs, -e",
-    translation: "music course",
-    definition: "Ein Kurs zum Erlernen von Musik oder Instrumenten.",
-    example: "Unser Sohn besucht einen Musikkurs für Gitarre.",
-    exampleTranslation: "Our son attends a music course for guitar.",
-    thema: "Schule",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      B1: ["unterhalten"],
+      B2: ["belustigen"],
+    },
   },
   {
     id: 3376,
@@ -5073,6 +5882,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Tipp", "der Rat"],
+      B1: ["der Vorschlag"],
+    },
   },
   {
     id: 3377,
@@ -5114,6 +5927,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["üben"],
+      B2: ["einstudieren"],
+    },
   },
   {
     id: 3380,
@@ -5128,6 +5945,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Steuer",
+    synonyms: {
+      B2: ["die Umsatzsteuer"],
+    },
   },
   {
     id: 3381,
@@ -5141,6 +5961,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["schicken"],
+      B1: ["zusenden"],
+    },
   },
   {
     id: 3382,
@@ -5155,6 +5979,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "gesamt",
+    synonyms: {
+      A2: ["ganz"],
+      B1: ["komplett"],
+      B2: ["sämtlich"],
+    },
   },
   {
     id: 3383,
@@ -5168,6 +5997,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["Tschüss sagen"],
+      B1: ["Abschied nehmen"],
+    },
   },
   {
     id: 3384,
@@ -5181,6 +6014,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Konto"],
+    },
   },
   {
     id: 3385,
@@ -5194,6 +6030,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Aufwand"],
+      B2: ["die Anstrengung"],
+    },
   },
   {
     id: 3386,
@@ -5208,6 +6048,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "phrase",
     family: "eröffnen",
+    synonyms: {
+      B1: ["ein Konto einrichten"],
+    },
   },
   {
     id: 3387,
@@ -5222,6 +6065,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Transport",
+    synonyms: {
+      B1: ["der Versand"],
+      B2: ["die Beförderung"],
+    },
   },
   {
     id: 3388,
@@ -5249,6 +6096,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Umzugshelfer"],
+    },
   },
   {
     id: 3390,
@@ -5263,6 +6113,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Schaden",
+    synonyms: {
+      B1: ["die Beschädigung"],
+    },
   },
   {
     id: 3391,
@@ -5276,6 +6129,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["stark"],
+      B2: ["kraftvoll", "robust"],
+    },
   },
   {
     id: 3392,
@@ -5304,6 +6161,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "wert",
+    synonyms: {
+      B1: ["kostbar"],
+      B2: ["hochwertig"],
+    },
   },
   {
     id: 3394,
@@ -5330,6 +6191,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Treppenstufe"],
+      B1: ["die Ebene"],
+    },
   },
   {
     id: 3396,
@@ -5343,6 +6208,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Konto"],
+    },
   },
   {
     id: 3397,
@@ -5359,19 +6227,6 @@ export const B1_Vocabulary = [
     family: "das Wunder",
   },
   {
-    id: 3398,
-    word: "die Bankkarte, -n",
-    translation: "bank card, debit card",
-    definition: "Eine Karte zum Bezahlen und Geldabheben.",
-    example: "Ich habe meine Bankkarte im Geschäft vergessen.",
-    exampleTranslation: "I forgot my bank card at the shop.",
-    thema: "Finanzen",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
-  },
-  {
     id: 3399,
     word: "erleichtert",
     translation: "relieved",
@@ -5384,6 +6239,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "erleichtern",
+    synonyms: {
+      A2: ["froh"],
+      B1: ["beruhigt"],
+    },
   },
   {
     id: 3400,
@@ -5397,6 +6256,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die EC-Karte"],
+      B1: ["die Girokarte"],
+    },
   },
   {
     id: 3401,
@@ -5410,6 +6273,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Flagge"],
+    },
   },
   {
     id: 3402,
@@ -5423,6 +6289,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Zahlung"],
+      B2: ["die Transaktion"],
+    },
   },
   {
     id: 3403,
@@ -5437,6 +6307,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "fest",
+    synonyms: {
+      A2: ["behalten"],
+      B1: ["aufschreiben", "notieren"],
+      B2: ["dokumentieren"],
+    },
   },
   {
     id: 3404,
@@ -5450,6 +6325,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Betrag"],
+      B2: ["der Geldbetrag"],
+    },
   },
   {
     id: 3405,
@@ -5464,6 +6343,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Integration",
+    synonyms: {
+      B1: ["der Deutschkurs"],
+    },
   },
   {
     id: 3406,
@@ -5493,6 +6375,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Recht",
+    synonyms: {
+      B2: ["das Bleiberecht"],
+    },
   },
   {
     id: 3408,
@@ -5507,6 +6392,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "heben",
+    synonyms: {
+      A2: ["Geld holen"],
+      B1: ["Geld abheben"],
+    },
   },
   {
     id: 3409,
@@ -5521,6 +6410,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Wahl",
+    synonyms: {
+      A2: ["die Auswahl"],
+      B1: ["die Entscheidung"],
+    },
   },
   {
     id: 3410,
@@ -5534,6 +6427,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Bankautomat"],
+    },
   },
   {
     id: 3411,
@@ -5560,6 +6456,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Geld bar"],
+      B1: ["die Barschaft"],
+    },
   },
   {
     id: 3413,
@@ -5587,6 +6487,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Bankauszug"],
+    },
   },
   {
     id: 3415,
@@ -5614,6 +6517,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Zweigstelle"],
+      B2: ["die Niederlassung"],
+    },
   },
   {
     id: 3417,
@@ -5641,6 +6548,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B2: ["das Finanzwesen"],
+    },
   },
   {
     id: 3419,
@@ -5655,6 +6565,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "einbürgern",
+    synonyms: {
+      B2: ["die Naturalisierung"],
+    },
   },
   {
     id: 3420,
@@ -5669,6 +6582,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Kosten",
+    synonyms: {
+      A2: ["gratis", "umsonst"],
+      B1: ["unentgeltlich"],
+    },
   },
   {
     id: 3421,
@@ -5683,6 +6600,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Flucht",
+    synonyms: {
+      B2: ["die Fluchtbewegung"],
+    },
   },
   {
     id: 3422,
@@ -5697,6 +6617,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "betreuen",
+    synonyms: {
+      A2: ["die Pflege"],
+      B1: ["die Aufsicht"],
+      B2: ["die Fürsorge"],
+    },
   },
   {
     id: 3423,
@@ -5710,6 +6635,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["zurückgehen"],
+      B1: ["schaffen"],
+      B2: ["bewältigen"],
+    },
   },
   {
     id: 3424,
@@ -5724,6 +6654,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Blick",
+    synonyms: {
+      B1: ["die Übersicht"],
+    },
   },
   {
     id: 3425,
@@ -5738,6 +6671,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Recht",
+    synonyms: {
+      B1: ["das Menschenrecht"],
+      B2: ["das Grundrecht"],
+    },
   },
   {
     id: 3426,
@@ -5751,6 +6688,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["fachkundig"],
+      B2: ["sachkundig", "versiert"],
+    },
   },
   {
     id: 3427,
@@ -5765,6 +6706,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Schutz",
+    synonyms: {
+      B1: ["die Sicherheit"],
+      B2: ["die Obhut"],
+    },
   },
   {
     id: 3428,
@@ -5778,6 +6723,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Verschwinden"],
+      B1: ["der Schaden"],
+    },
   },
   {
     id: 3429,
@@ -5792,6 +6741,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Freiheit",
+    synonyms: {
+      B1: ["die Bewegungsfreiheit"],
+      B2: ["die Mobilität"],
+    },
   },
   {
     id: 3430,
@@ -5806,6 +6759,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "sperren",
+    synonyms: {
+      A2: ["blockieren"],
+      B1: ["abschalten"],
+    },
   },
   {
     id: 3431,
@@ -5821,6 +6778,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Recht",
+    synonyms: {
+      B2: ["das Stimmrecht"],
+    },
   },
   {
     id: 3432,
@@ -5850,6 +6810,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Bürger",
+    synonyms: {
+      B1: ["der Bürger"],
+    },
   },
   {
     id: 3434,
@@ -5863,6 +6826,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["ständig"],
+      B1: ["durchgehend"],
+      B2: ["ununterbrochen"],
+    },
   },
   {
     id: 3435,
@@ -5877,6 +6845,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "einbürgern",
+    synonyms: {
+      B2: ["naturalisieren"],
+    },
   },
   {
     id: 3436,
@@ -5890,6 +6861,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Information"],
+      B1: ["die Auskunft"],
+      B2: ["die Mitteilung"],
+    },
   },
   {
     id: 3437,
@@ -5904,6 +6880,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Nachricht"],
+      B2: ["die Mitteilung"],
+    },
   },
   {
     id: 3438,
@@ -5917,6 +6897,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Kontonummer"],
+    },
   },
   {
     id: 3439,
@@ -5943,20 +6926,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 3441,
-    word: "die Aufenthaltserlaubnis",
-    translation: "residence permit",
-    definition: "Die offizielle Erlaubnis, in einem Land zu wohnen.",
-    example: "Seine Aufenthaltserlaubnis wurde um zwei Jahre verlängert.",
-    exampleTranslation: "His residence permit was extended by two years.",
-    thema: "Verwaltung",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
-    family: "aufhalten",
+    synonyms: {
+      A2: ["das eigene Land"],
+      B1: ["die Heimat"],
+    },
   },
   {
     id: 3442,
@@ -5971,6 +6944,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Dieb",
+    synonyms: {
+      B1: ["der Raub"],
+      B2: ["die Entwendung"],
+    },
   },
   {
     id: 3443,
@@ -5985,6 +6962,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Freiheit",
+    synonyms: {
+      B2: ["die Religionsfreiheit"],
+    },
   },
   {
     id: 3444,
@@ -5998,6 +6978,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["außerdem"],
+      B1: ["ergänzend", "extra"],
+      B2: ["obendrein"],
+    },
   },
   {
     id: 3445,
@@ -6012,6 +6997,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Freiheit",
+    synonyms: {
+      B2: ["die Redefreiheit"],
+    },
   },
   {
     id: 3446,
@@ -6025,6 +7013,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Moment"],
+      B1: ["der Augenblick"],
+    },
   },
   {
     id: 3447,
@@ -6039,6 +7031,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["erkennen"],
+      B2: ["feststellen"],
+    },
   },
   {
     id: 3448,
@@ -6053,6 +7049,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "sichern",
+    synonyms: {
+      B1: ["die Privathaftpflicht"],
+    },
   },
   {
     id: 3449,
@@ -6067,6 +7066,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "schieben",
+    synonyms: {
+      B2: ["die Ausweisung"],
+    },
   },
   {
     id: 3450,
@@ -6094,6 +7096,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B2: ["staatlich"],
+    },
   },
   {
     id: 3452,
@@ -6121,6 +7126,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Behörde"],
+      B1: ["die Dienststelle"],
+    },
   },
   {
     id: 3454,
@@ -6135,6 +7144,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Makler",
+    synonyms: {
+      B2: ["der Vermittler"],
+    },
   },
   {
     id: 3455,
@@ -6149,6 +7161,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["sich bewerben"],
+    },
   },
   {
     id: 3456,
@@ -6163,6 +7178,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Makler",
+    synonyms: {
+      B2: ["die Vermittlerin"],
+    },
   },
   {
     id: 3457,
@@ -6176,6 +7194,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Vorlage"],
+      B1: ["das Urbild"],
+    },
   },
   {
     id: 3458,
@@ -6203,6 +7225,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["interessant"],
+      B2: ["lesenswert"],
+    },
   },
   {
     id: 3460,
@@ -6216,6 +7242,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["auslösen"],
+      B1: ["hervorrufen", "bewirken"],
+    },
   },
   {
     id: 3461,
@@ -6230,6 +7260,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "einbürgern",
+    synonyms: {
+      B2: ["der Antrag auf Einbürgerung"],
+    },
   },
   {
     id: 3462,
@@ -6258,6 +7291,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "voll",
+    synonyms: {
+      A2: ["ganz"],
+      B1: ["komplett", "total"],
+    },
   },
   {
     id: 3464,
@@ -6271,6 +7308,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["zurückgeben"],
+      B1: ["zurückzahlen"],
+      B2: ["rückvergüten"],
+    },
   },
   {
     id: 3465,
@@ -6284,6 +7326,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B2: ["die Grundlage"],
+    },
   },
   {
     id: 3466,
@@ -6297,6 +7342,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["inklusive sein", "enthalten sein"],
+      B1: ["dazugehören"],
+    },
   },
   {
     id: 3467,
@@ -6310,6 +7359,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Passbild"],
+      B2: ["das Lichtbild"],
+    },
   },
   {
     id: 3468,
@@ -6323,6 +7376,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Gebühr"],
+      B2: ["der Satz"],
+    },
   },
   {
     id: 3469,
@@ -6337,6 +7394,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "ausreichen",
+    synonyms: {
+      A2: ["genügen"],
+      B1: ["langen"],
+      B2: ["hinreichen"],
+    },
   },
   {
     id: 3470,
@@ -6350,6 +7412,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B2: ["mitgeschützt"],
+    },
   },
   {
     id: 3471,
@@ -6364,6 +7429,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Urkunde",
+    synonyms: {
+      B1: ["das Dokument"],
+      B2: ["das Zertifikat"],
+    },
   },
   {
     id: 3472,
@@ -6377,6 +7446,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Recht"],
+      B2: ["die Forderung"],
+    },
   },
   {
     id: 3473,
@@ -6391,6 +7464,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Urkunde",
+    synonyms: {
+      B2: ["der Geburtsnachweis"],
+    },
   },
   {
     id: 3474,
@@ -6404,21 +7480,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 3475,
-    word: "die Heiratsurkunde, -n",
-    translation: "marriage certificate",
-    definition: "Die offizielle Urkunde über die Eheschließung.",
-    example: "Wir haben die Heiratsurkunde beim Standesamt abgeholt.",
-    exampleTranslation:
-      "We picked up the marriage certificate at the registry office.",
-    thema: "Verwaltung",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
-    family: "die Urkunde",
+    synonyms: {
+      A2: ["hinfallen"],
+      B1: ["umfallen"],
+    },
   },
   {
     id: 3476,
@@ -6432,6 +7497,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["alle"],
+      B2: ["sämtliche"],
+    },
   },
   {
     id: 3477,
@@ -6445,6 +7514,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["wegfallen"],
+      B2: ["ausfallen"],
+    },
   },
   {
     id: 3478,
@@ -6458,6 +7531,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["unabsichtlich"],
+      B1: ["zufällig"],
+      B2: ["irrtümlich"],
+    },
   },
   {
     id: 3479,
@@ -6472,6 +7550,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Nachweis",
+    synonyms: {
+      A2: ["der Beweis"],
+      B1: ["die Bescheinigung"],
+    },
   },
   {
     id: 3480,
@@ -6485,6 +7567,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["extra"],
+      B1: ["gewollt", "bewusst"],
+      B2: ["vorsätzlich"],
+    },
   },
   {
     id: 3481,
@@ -6499,6 +7586,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "kommen",
+    synonyms: {
+      B2: ["der Gehaltsnachweis"],
+    },
   },
   {
     id: 3482,
@@ -6513,6 +7603,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "stehen",
+    synonyms: {
+      A2: ["werden"],
+      B1: ["geschehen"],
+      B2: ["sich bilden"],
+    },
   },
   {
     id: 3483,
@@ -6526,6 +7621,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Lehrvertrag"],
+    },
   },
   {
     id: 3484,
@@ -6539,6 +7637,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Punkt"],
+      B1: ["die Verunreinigung"],
+    },
   },
   {
     id: 3485,
@@ -6552,6 +7654,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Lohnzettel"],
+      B2: ["die Verdienstbescheinigung"],
+    },
   },
   {
     id: 3486,
@@ -6565,6 +7671,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["einziehen"],
+    },
   },
   {
     id: 3487,
@@ -6607,6 +7716,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "einbürgern",
+    synonyms: {
+      B2: ["die Prüfung zur Einbürgerung"],
+    },
   },
   {
     id: 3490,
@@ -6620,6 +7732,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["aber"],
+      B1: ["wenngleich", "obgleich"],
+      B2: ["wenn auch"],
+    },
   },
   {
     id: 3491,
@@ -6634,6 +7751,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "vorlegen",
+    synonyms: {
+      A2: ["zeigen"],
+      B1: ["präsentieren"],
+      B2: ["unterbreiten"],
+    },
   },
   {
     id: 3492,
@@ -6647,6 +7769,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["pünktlich"],
+      B1: ["frühzeitig"],
+      B2: ["fristgerecht"],
+    },
   },
   {
     id: 3493,
@@ -6674,6 +7801,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Kreditaufschlag"],
+    },
   },
   {
     id: 3495,
@@ -6687,19 +7817,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 3496,
-    word: "verlangen",
-    translation: "to demand, require",
-    definition: "Drastisch fordern oder wollen.",
-    example: "Der Vermieter verlangt eine höhere Miete.",
-    exampleTranslation: "The landlord demands a higher rent.",
-    thema: "Alltag",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      B2: ["die Volksherrschaft"],
+    },
   },
   {
     id: 3497,
@@ -6713,6 +7833,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["aussuchen"],
+      B1: ["wählen"],
+      B2: ["selektieren"],
+    },
   },
   {
     id: 3498,
@@ -6727,6 +7852,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "treten",
+    synonyms: {
+      B1: ["der Repräsentant"],
+      B2: ["der Beauftragte"],
+    },
   },
   {
     id: 3499,
@@ -6756,6 +7885,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "treten",
+    synonyms: {
+      B1: ["die Repräsentantin"],
+      B2: ["die Beauftragte"],
+    },
   },
   {
     id: 3501,
@@ -6785,6 +7918,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "sichern",
+    synonyms: {
+      B1: ["die Vermittlerin"],
+    },
   },
   {
     id: 3503,
@@ -6798,6 +7934,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B2: ["muslimisch"],
+    },
   },
   {
     id: 3504,
@@ -6811,6 +7950,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["aufbewahren"],
+      B1: ["aufheben"],
+    },
   },
   {
     id: 3505,
@@ -6824,6 +7967,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B2: ["der Kopfschutz"],
+    },
   },
   {
     id: 3506,
@@ -6837,6 +7983,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Angst"],
+      B2: ["die Hysterie"],
+    },
   },
   {
     id: 3507,
@@ -6851,6 +8001,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Tuch",
+    synonyms: {
+      B2: ["das Tuch"],
+    },
   },
   {
     id: 3508,
@@ -6865,6 +8018,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Gebühr",
+    synonyms: {
+      B1: ["die Bankgebühr"],
+    },
   },
   {
     id: 3509,
@@ -6878,6 +8034,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B2: ["gläubig"],
+    },
   },
   {
     id: 3510,
@@ -6892,6 +8051,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "voraus",
+    synonyms: {
+      B1: ["wahrscheinlich"],
+      B2: ["mutmaßlich"],
+    },
   },
   {
     id: 3511,
@@ -6906,6 +8069,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "erkennen",
+    synonyms: {
+      A2: ["bemerken"],
+      B1: ["wiedererkennen"],
+      B2: ["wahrnehmen"],
+    },
   },
   {
     id: 3512,
@@ -6919,6 +8087,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["eng"],
+      B1: ["kaum"],
+      B2: ["spärlich"],
+    },
   },
   {
     id: 3513,
@@ -6932,6 +8105,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Passfoto"],
+    },
   },
   {
     id: 3514,
@@ -6946,6 +8122,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "lohnen",
+    synonyms: {
+      B1: ["sich rentieren"],
+      B2: ["sich auszahlen"],
+    },
   },
   {
     id: 3515,
@@ -6959,6 +8139,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["leuchten"],
+      B1: ["glänzen"],
+      B2: ["funkeln"],
+    },
   },
   {
     id: 3516,
@@ -6987,6 +8172,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["riechen"],
+    },
   },
   {
     id: 3518,
@@ -7000,6 +8188,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B2: ["überempfindlich"],
+    },
   },
   {
     id: 3519,
@@ -7015,6 +8206,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "treten",
+    synonyms: {
+      B1: ["der Ersatz"],
+      B2: ["die Stellvertretung"],
+    },
   },
   {
     id: 3520,
@@ -7029,6 +8224,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Haut",
+    synonyms: {
+      B1: ["die Salbe"],
+      B2: ["die Pflegecreme"],
+    },
   },
   {
     id: 3521,
@@ -7042,6 +8241,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Wegweiser"],
+    },
   },
   {
     id: 3522,
@@ -7055,6 +8257,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["selbstständig"],
+      B2: ["selbständig"],
+    },
   },
   {
     id: 3523,
@@ -7070,6 +8276,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "gründen",
+    synonyms: {
+      A2: ["der Grund"],
+      B1: ["die Erklärung"],
+      B2: ["die Rechtfertigung"],
+    },
   },
   {
     id: 3524,
@@ -7083,6 +8294,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["geldlich"],
+      B2: ["monetär"],
+    },
   },
   {
     id: 3525,
@@ -7096,6 +8311,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["hinuntertragen"],
+      B1: ["herunterbringen"],
+    },
   },
   {
     id: 3526,
@@ -7110,6 +8329,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "sichern",
+    synonyms: {
+      A2: ["Vorsorge treffen"],
+      B1: ["vorsorgen"],
+      B2: ["sich versichern"],
+    },
   },
   {
     id: 3527,
@@ -7123,6 +8347,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Zunahme"],
+      B1: ["die Steigerung"],
+      B2: ["der Zuwachs"],
+    },
   },
   {
     id: 3528,
@@ -7137,6 +8366,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "sichern",
+    synonyms: {
+      B1: ["fürs Alter vorsorgen"],
+    },
   },
   {
     id: 3529,
@@ -7151,6 +8383,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Bürger",
+    synonyms: {
+      B2: ["der Zuwanderer"],
+    },
   },
   {
     id: 3530,
@@ -7165,6 +8400,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Umwelt",
+    synonyms: {
+      B1: ["ökologisch"],
+      B2: ["nachhaltig"],
+    },
   },
   {
     id: 3531,
@@ -7178,6 +8417,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Preis"],
+      B1: ["der Ertrag"],
+      B2: ["der Profit"],
+    },
   },
   {
     id: 3532,
@@ -7192,6 +8436,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Mittel",
+    synonyms: {
+      B1: ["das Waschpulver"],
+    },
   },
   {
     id: 3533,
@@ -7207,19 +8454,6 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Minister",
-  },
-  {
-    id: 3534,
-    word: "der Bereich, -e",
-    translation: "area, field, sector",
-    definition: "Ein bestimmtes Gebiet oder Segment.",
-    example: "Er arbeitet im Bereich der IT.",
-    exampleTranslation: "He works in the field of IT.",
-    thema: "Arbeit",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
   },
   {
     id: 3535,
@@ -7249,6 +8483,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Beratung",
+    synonyms: {
+      B1: ["die Anlaufstelle", "die Beratung"],
+    },
   },
   {
     id: 3537,
@@ -7277,6 +8514,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Berater"],
+      B2: ["der Leitfaden"],
+    },
   },
   {
     id: 3539,
@@ -7292,6 +8533,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Kenntnisse",
+    synonyms: {
+      B1: ["die Sprachkenntnisse"],
+    },
   },
   {
     id: 3540,
@@ -7305,6 +8549,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["wichtig", "erheblich"],
+      B2: ["maßgeblich"],
+    },
   },
   {
     id: 3541,
@@ -7320,6 +8568,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Nachweis",
+    synonyms: {
+      A2: ["beweisen"],
+      B1: ["belegen"],
+    },
   },
   {
     id: 3542,
@@ -7334,6 +8586,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "scheiden",
+    synonyms: {
+      B1: ["der Beschluss"],
+      B2: ["der Entschluss"],
+    },
   },
   {
     id: 3543,
@@ -7348,6 +8604,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "beitragen",
+    synonyms: {
+      B1: ["mithelfen"],
+      B2: ["beisteuern"],
+    },
   },
   {
     id: 3544,
@@ -7374,19 +8634,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 3546,
-    word: "sich engagieren",
-    translation: "to get involved, commit oneself",
-    definition: "Sich aktiv für etwas einsetzen.",
-    example: "Sie engagiert sich für den Umweltschutz.",
-    exampleTranslation: "She is committed to environmental protection.",
-    thema: "Gesellschaft",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      A2: ["zweifach"],
+    },
   },
   {
     id: 3547,
@@ -7401,6 +8651,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Staat",
+    synonyms: {
+      B1: ["die Nationalität"],
+    },
   },
   {
     id: 3548,
@@ -7415,6 +8668,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Recht",
+    synonyms: {
+      B2: ["die Berechtigung"],
+    },
   },
   {
     id: 3549,
@@ -7442,6 +8698,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Politik",
+    synonyms: {
+      B2: ["das politische Geschehen"],
+    },
   },
   {
     id: 3551,
@@ -7456,6 +8715,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Stand",
+    synonyms: {
+      B1: ["die Meinung"],
+      B2: ["die Haltung"],
+    },
   },
   {
     id: 3552,
@@ -7470,6 +8733,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Kampagne"],
+      B2: ["die Unternehmung"],
+    },
   },
   {
     id: 3553,
@@ -7498,6 +8765,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Institut",
+    synonyms: {
+      B1: ["die Einrichtung"],
+      B2: ["die Organisation"],
+    },
   },
   {
     id: 3555,
@@ -7511,6 +8782,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["kaufen", "bekommen"],
+      B1: ["sich aneignen"],
+      B2: ["erlangen"],
+    },
   },
   {
     id: 3556,
@@ -7526,6 +8802,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "wachsen",
+    synonyms: {
+      B1: ["die Weiterbildung"],
+    },
   },
   {
     id: 3557,
@@ -7553,6 +8832,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "fordern",
+    synonyms: {
+      A2: ["verlangen"],
+      B1: ["erwarten"],
+    },
   },
   {
     id: 3559,
@@ -7580,6 +8863,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "treten",
+    synonyms: {
+      B1: ["vertretungsweise übernehmen"],
+      B2: ["repräsentieren"],
+    },
   },
   {
     id: 3561,
@@ -7593,6 +8880,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Wort"],
+    },
   },
   {
     id: 3562,
@@ -7636,6 +8926,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Heft"],
+      B1: ["der Prospekt", "der Flyer"],
+    },
   },
   {
     id: 3565,
@@ -7649,6 +8943,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Lebensstandard"],
+    },
   },
   {
     id: 3566,
@@ -7663,6 +8960,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "fassen",
+    synonyms: {
+      A2: ["kurz sagen"],
+      B1: ["resümieren"],
+      B2: ["zusammenstellen"],
+    },
   },
   {
     id: 3567,
@@ -7691,6 +8993,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Pension",
+    synonyms: {
+      A2: ["die Unterkunft"],
+      B1: ["die Herberge"],
+    },
   },
   {
     id: 3569,
@@ -7705,6 +9011,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B2: ["der Amtsschimmel"],
+    },
   },
   {
     id: 3570,
@@ -7718,6 +9027,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Fremdenverkehr"],
+    },
   },
   {
     id: 3571,
@@ -7731,6 +9043,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["sehr gut", "toll"],
+      B1: ["ausgezeichnet"],
+      B2: ["vorzüglich"],
+    },
   },
   {
     id: 3572,
@@ -7744,6 +9061,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Netzanschluss"],
+    },
   },
   {
     id: 3573,
@@ -7772,6 +9092,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Lauf",
+    synonyms: {
+      B2: ["das Speichermedium"],
+    },
   },
   {
     id: 3575,
@@ -7785,6 +9108,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["angriffslustig"],
+      B2: ["kämpferisch"],
+    },
   },
   {
     id: 3576,
@@ -7798,6 +9125,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["bezahlen", "bezuschussen"],
+      B2: ["bestreiten"],
+    },
   },
   {
     id: 3577,
@@ -7811,6 +9142,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["nervös"],
+      B1: ["unruhig"],
+    },
   },
   {
     id: 3578,
@@ -7825,6 +9160,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Gewohnheit",
+    synonyms: {
+      B1: ["die Essensgewohnheit"],
+    },
   },
   {
     id: 3579,
@@ -7839,6 +9177,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "vergangen",
+    synonyms: {
+      A2: ["vorbei"],
+      B1: ["früher"],
+      B2: ["verflossen"],
+    },
   },
   {
     id: 3580,
@@ -7865,6 +9208,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["letztes Jahr"],
+    },
   },
   {
     id: 3582,
@@ -7878,6 +9224,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Familienmahl"],
+    },
   },
   {
     id: 3583,
@@ -7892,6 +9241,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "lohnen",
+    synonyms: {
+      B1: ["belobigen"],
+      B2: ["vergüten"],
+    },
   },
   {
     id: 3584,
@@ -7906,6 +9259,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Dose",
+    synonyms: {
+      B1: ["die Vorratsdose"],
+      B2: ["die Aufbewahrungsbox"],
+    },
   },
   {
     id: 3585,
@@ -7920,19 +9277,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 3586,
-    word: "zum Mitnehmen",
-    translation: "to take away, to go",
-    definition: "Für den Verzehr an einem anderen Ort.",
-    example: "Mittags hole ich mir etwas zum Mitnehmen.",
-    exampleTranslation: "At lunchtime I get something to take away.",
-    thema: "Essen und Trinken",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "phrase",
+    synonyms: {
+      A2: ["fallen"],
+    },
   },
   {
     id: 3587,
@@ -7946,6 +9293,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["verstohlen"],
+      B2: ["insgeheim", "verdeckt"],
+    },
   },
   {
     id: 3588,
@@ -7960,6 +9311,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Kantine"],
+    },
   },
   {
     id: 3589,
@@ -7973,6 +9327,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["aufnehmen"],
+    },
   },
   {
     id: 3590,
@@ -7986,6 +9343,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Süßigkeiten"],
+    },
   },
   {
     id: 3591,
@@ -7999,6 +9359,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Kripo"],
+    },
   },
   {
     id: 3592,
@@ -8013,6 +9376,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "fertig",
+    synonyms: {
+      B1: ["das Fertigessen"],
+    },
   },
   {
     id: 3593,
@@ -8027,6 +9393,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "brechen",
+    synonyms: {
+      B1: ["der Krimineller"],
+    },
   },
   {
     id: 3594,
@@ -8040,6 +9409,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Imbiss"],
+      B1: ["die Zwischenmahlzeit"],
+    },
   },
   {
     id: 3595,
@@ -8054,6 +9427,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "fassen",
+    synonyms: {
+      A2: ["nehmen"],
+      B1: ["festnehmen", "ergreifen"],
+    },
   },
   {
     id: 3596,
@@ -8068,6 +9445,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Tradition",
+    synonyms: {
+      B1: ["herkömmlich"],
+      B2: ["althergebracht"],
+    },
   },
   {
     id: 3597,
@@ -8082,6 +9463,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Arbeitnehmerverband"],
+    },
   },
   {
     id: 3598,
@@ -8096,6 +9480,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Trend",
+    synonyms: {
+      A2: ["modern"],
+      B1: ["angesagt", "modisch"],
+    },
   },
   {
     id: 3599,
@@ -8109,6 +9497,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["entscheiden"],
+      B1: ["sich entschließen"],
+    },
   },
   {
     id: 3600,
@@ -8123,6 +9515,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["gesund – krank"],
+    },
   },
   {
     id: 3601,
@@ -8136,6 +9531,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Fahrkarte"],
+      B1: ["das Bahnticket"],
+    },
   },
   {
     id: 3602,
@@ -8149,6 +9548,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["fleischlos"],
+    },
   },
   {
     id: 3603,
@@ -8162,6 +9564,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der günstige Preis"],
+      B2: ["der Aktionspreis"],
+    },
   },
   {
     id: 3604,
@@ -8175,6 +9581,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["manchmal"],
+      B1: ["ab und zu", "zwischendrin"],
+    },
   },
   {
     id: 3605,
@@ -8189,6 +9599,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "kommen",
+    synonyms: {
+      A2: ["später kommen"],
+    },
   },
   {
     id: 3606,
@@ -8203,6 +9616,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Braten",
+    synonyms: {
+      B1: ["das Fleischgericht"],
+    },
   },
   {
     id: 3607,
@@ -8213,19 +9629,6 @@ export const B1_Vocabulary = [
     exampleTranslation:
       " ഞങ്ങൾ inquired at the hotel whether rooms are still available.",
     thema: "Kommunikation",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
-  },
-  {
-    id: 3608,
-    word: "die Süßigkeit, -en",
-    translation: "sweet, candy",
-    definition: "Süße Lebensmittel wie Schokolade oder Bonbons.",
-    example: "Zu viel Süßigkeit ist nicht gut für die Zähne.",
-    exampleTranslation: "Too much candy is not good for the teeth.",
-    thema: "Essen und Trinken",
     priority: "Medium",
     favorite: false,
     level: "B1",
@@ -8243,6 +9646,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Jugendherberge"],
+    },
   },
   {
     id: 3610,
@@ -8257,6 +9663,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "brennen",
+    synonyms: {
+      A2: ["brennen"],
+      B1: ["anbrennen"],
+      B2: ["verglühen"],
+    },
   },
   {
     id: 3611,
@@ -8270,6 +9681,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Ruhe"],
+      B1: ["der Schlummer"],
+    },
   },
   {
     id: 3612,
@@ -8283,6 +9698,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["nur"],
+      B1: ["lediglich"],
+      B2: ["ausschließlich"],
+    },
   },
   {
     id: 3613,
@@ -8296,6 +9716,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["haben"],
+      B1: ["verfügen über"],
+    },
   },
   {
     id: 3614,
@@ -8309,6 +9733,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A1: ["die Pizza"],
+    },
   },
   {
     id: 3615,
@@ -8323,6 +9750,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Linie",
+    synonyms: {
+      B1: ["die Tramlinie"],
+    },
   },
   {
     id: 3616,
@@ -8336,6 +9766,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["ungekocht"],
+    },
   },
   {
     id: 3617,
@@ -8350,6 +9783,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Rundfahrt",
+    synonyms: {
+      B1: ["die Stadtführung"],
+    },
   },
   {
     id: 3618,
@@ -8364,6 +9800,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Gift",
+    synonyms: {
+      B1: ["gefährlich"],
+      B2: ["toxisch"],
+    },
   },
   {
     id: 3619,
@@ -8378,20 +9818,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 3620,
-    word: "wertvoll",
-    translation: "valuable",
-    definition: "Von großem Wert oder Nutzen.",
-    example: "Gesundheit ist das wertvollste Gut im Leben.",
-    exampleTranslation: "Health is the most valuable asset in life.",
-    thema: "Alltag",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
-    family: "wert",
+    synonyms: {
+      B1: ["das Monument"],
+      B2: ["das Mahnmal"],
+    },
   },
   {
     id: 3621,
@@ -8422,6 +9852,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Land",
+    synonyms: {
+      B1: ["das Heimatland"],
+    },
   },
   {
     id: 3623,
@@ -8437,6 +9870,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Netz",
+    synonyms: {
+      B1: ["das Festnetz"],
+    },
   },
   {
     id: 3624,
@@ -8452,6 +9888,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Regal",
+    synonyms: {
+      A2: ["das Regal"],
+    },
   },
   {
     id: 3625,
@@ -8465,6 +9904,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Ermittlungsarbeit"],
+    },
   },
   {
     id: 3626,
@@ -8492,6 +9934,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "sorgen",
+    synonyms: {
+      B1: ["verantworten", "sich kümmern um"],
+    },
   },
   {
     id: 3628,
@@ -8505,6 +9950,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["eiweißreich"],
+    },
   },
   {
     id: 3629,
@@ -8518,6 +9966,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B2: ["das Knöllchen"],
+    },
   },
   {
     id: 3630,
@@ -8531,6 +9982,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die zehn Jahre"],
+    },
   },
   {
     id: 3631,
@@ -8545,6 +9999,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Alarm",
+    synonyms: {
+      B1: ["der Notruf"],
+      B2: ["die Warnung"],
+    },
   },
   {
     id: 3632,
@@ -8572,20 +10030,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Alarm",
-  },
-  {
-    id: 3634,
-    word: "sorgen für",
-    translation: "to provide for, ensure",
-    definition: "Die Verantwortung für etwas übernehmen oder bewirken.",
-    example: "Die Mutter hat für das Essen gesorgt.",
-    exampleTranslation: "The mother provided the food.",
-    thema: "Alltag",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
-    family: "sorgen",
+    synonyms: {
+      B2: ["benachrichtigen"],
+    },
   },
   {
     id: 3635,
@@ -8599,6 +10046,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Zweifel"],
+      B2: ["die Vermutung"],
+    },
   },
   {
     id: 3636,
@@ -8612,6 +10063,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Essen"],
+    },
   },
   {
     id: 3637,
@@ -8626,6 +10080,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["merkwürdig", "seltsam"],
+      B2: ["fragwürdig"],
+    },
   },
   {
     id: 3638,
@@ -8639,6 +10097,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["erwerbstätig", "im Beruf"],
+    },
   },
   {
     id: 3639,
@@ -8653,6 +10114,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Augenzeuge"],
+      B2: ["der Beobachter"],
+    },
   },
   {
     id: 3640,
@@ -8667,6 +10132,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Modell",
+    synonyms: {
+      B1: ["die Lebensform"],
+      B2: ["das Lebenskonzept"],
+    },
   },
   {
     id: 3641,
@@ -8680,6 +10149,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Geschädigte"],
+    },
   },
   {
     id: 3642,
@@ -8706,6 +10178,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Verbrecher", "der Verursacher"],
+    },
   },
   {
     id: 3644,
@@ -8733,6 +10208,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["verbrecherisch"],
+      B2: ["strafbar"],
+    },
   },
   {
     id: 3646,
@@ -8746,6 +10225,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["erwachsen"],
+      B1: ["fertig"],
+    },
   },
   {
     id: 3647,
@@ -8759,19 +10242,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 3648,
-    word: "hektisch",
-    translation: "frantic, hectic",
-    definition: "Sehr eilig und unruhig.",
-    example: "Im Büro ging es heute sehr hektisch zu.",
-    exampleTranslation: "Things were very hectic in the office today.",
-    thema: "Alltag",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      A2: ["anhalten"],
+      B1: ["aufhören"],
+    },
   },
   {
     id: 3649,
@@ -8786,6 +10260,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "führen",
+    synonyms: {
+      B2: ["verschleppen"],
+    },
   },
   {
     id: 3650,
@@ -8799,6 +10276,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["haltbar machen"],
+    },
   },
   {
     id: 3651,
@@ -8813,6 +10293,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "brechen",
+    synonyms: {
+      B1: ["der Dieb"],
+    },
   },
   {
     id: 3652,
@@ -8826,6 +10309,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Obst"],
+    },
   },
   {
     id: 3653,
@@ -8840,6 +10326,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "brechen",
+    synonyms: {
+      B2: ["eindringen"],
+    },
   },
   {
     id: 3654,
@@ -8868,6 +10357,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "schlagen",
+    synonyms: {
+      B2: ["zertrümmern"],
+    },
   },
   {
     id: 3656,
@@ -8881,6 +10373,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["konservieren"],
+    },
   },
   {
     id: 3657,
@@ -8894,6 +10389,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["abhauen"],
+      B1: ["weglaufen"],
+      B2: ["flüchten"],
+    },
   },
   {
     id: 3658,
@@ -8907,6 +10407,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["gesalzen"],
+    },
   },
   {
     id: 3659,
@@ -8921,6 +10424,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "fest",
+    synonyms: {
+      B1: ["verhaften"],
+    },
   },
   {
     id: 3660,
@@ -8947,6 +10453,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["festnehmen"],
+    },
   },
   {
     id: 3662,
@@ -8960,6 +10469,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Getränk"],
+    },
   },
   {
     id: 3663,
@@ -8973,6 +10485,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Richterspruch"],
+      B2: ["das Gerichtsurteil"],
+    },
   },
   {
     id: 3664,
@@ -8987,6 +10503,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Speise",
+    synonyms: {
+      B1: ["der Appetitanreger"],
+    },
   },
   {
     id: 3665,
@@ -9001,6 +10520,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Zeichen",
+    synonyms: {
+      B1: ["das Nummernschild"],
+    },
   },
   {
     id: 3666,
@@ -9028,6 +10550,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Dieb",
+    synonyms: {
+      B2: ["der Langfinger"],
+    },
   },
   {
     id: 3668,
@@ -9041,6 +10566,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Gout"],
+      B1: ["die Geschmacksnote"],
+    },
   },
   {
     id: 3669,
@@ -9054,6 +10583,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["klauen"],
+      B1: ["mitnehmen"],
+      B2: ["entwenden"],
+    },
   },
   {
     id: 3670,
@@ -9067,6 +10601,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Stadtviertel"],
+    },
   },
   {
     id: 3671,
@@ -9080,6 +10617,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Streit"],
+      B2: ["die Auseinandersetzung"],
+    },
   },
   {
     id: 3672,
@@ -9106,6 +10647,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Fährte"],
+      B2: ["der Hinweis"],
+    },
   },
   {
     id: 3674,
@@ -9115,19 +10660,6 @@ export const B1_Vocabulary = [
     example: "Ich gebe dir die Hälfte meines Apfels.",
     exampleTranslation: "I'll give you half of my apple.",
     thema: "Grammatik",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
-  },
-  {
-    id: 3675,
-    word: "beleidigen",
-    translation: "to insult, offend",
-    definition: "Jemanden kränkende Worte sagen.",
-    example: "Man darf andere Menschen nicht beleidigen.",
-    exampleTranslation: "One must not insult other people.",
-    thema: "Kommunikation",
     priority: "High",
     favorite: false,
     level: "B1",
@@ -9160,6 +10692,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Aufzug"],
+      B1: ["der Fahrstuhl"],
+    },
   },
   {
     id: 3678,
@@ -9173,6 +10709,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["darum"],
+      B1: ["daher", "deshalb"],
+      B2: ["infolgedessen"],
+    },
   },
   {
     id: 3679,
@@ -9186,11 +10727,14 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["aus ... Sicht"],
+    },
   },
   {
     id: 3680,
     word: "trotzdem",
-    translation: "neveretheless, nonetheless, despite that",
+    translation: "nevertheless, nonetheless, despite that",
     definition: "Dennoch, trotz des Grundes.",
     example: "Es ist kalt, trotzdem gehen wir nach draußen.",
     exampleTranslation: "It's cold, nevertheless we are going outside.",
@@ -9200,6 +10744,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "trotz",
+    synonyms: {
+      A2: ["aber"],
+      B1: ["dennoch"],
+      B2: ["nichtsdestotrotz"],
+    },
   },
   {
     id: 3681,
@@ -9215,6 +10764,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "gehen",
+    synonyms: {
+      B1: ["der Haupteingang"],
+    },
   },
   {
     id: 3682,
@@ -9229,6 +10781,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "ernähren",
+    synonyms: {
+      A2: ["essen"],
+      B1: ["sich verpflegen"],
+    },
   },
   {
     id: 3683,
@@ -9242,6 +10798,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["hausgemacht"],
+      B1: ["eigenhändig gemacht"],
+    },
   },
   {
     id: 3684,
@@ -9255,6 +10815,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["ausgewogene Ernährung"],
+    },
   },
   {
     id: 3685,
@@ -9283,6 +10846,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "ernähren",
+    synonyms: {
+      B1: ["der Diätberater"],
+    },
   },
   {
     id: 3687,
@@ -9311,6 +10877,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "ernähren",
+    synonyms: {
+      B1: ["die Diätberaterin"],
+    },
   },
   {
     id: 3689,
@@ -9326,6 +10895,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Zeichen",
+    synonyms: {
+      B1: ["das Symbol"],
+      B2: ["das Wahrzeichen"],
+    },
   },
   {
     id: 3690,
@@ -9340,6 +10913,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Speise",
+    synonyms: {
+      B1: ["der Essensplan"],
+    },
   },
   {
     id: 3691,
@@ -9353,6 +10929,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B2: ["die Baukunst"],
+    },
   },
   {
     id: 3692,
@@ -9367,6 +10946,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "fertig",
+    synonyms: {
+      B1: ["das Fertigprodukt"],
+    },
   },
   {
     id: 3693,
@@ -9393,6 +10975,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["besser machen"],
+      B1: ["korrigieren"],
+    },
   },
   {
     id: 3695,
@@ -9421,6 +11007,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "erhalten",
+    synonyms: {
+      B1: ["das Benehmen"],
+      B2: ["das Betragen"],
+    },
   },
   {
     id: 3697,
@@ -9434,6 +11024,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Fährschiff"],
+    },
   },
   {
     id: 3698,
@@ -9463,6 +11056,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "mitten",
+    synonyms: {
+      B2: ["die Nahrungsmittelbranche"],
+    },
   },
   {
     id: 3700,
@@ -9476,6 +11072,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["kochen"],
+      B1: ["vorbereiten"],
+    },
   },
   {
     id: 3701,
@@ -9489,6 +11089,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Mandelmasse"],
+    },
   },
   {
     id: 3702,
@@ -9503,6 +11106,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Öl"],
+      B2: ["der Fettanteil"],
+    },
   },
   {
     id: 3703,
@@ -9518,6 +11125,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "gehen",
+    synonyms: {
+      B1: ["die Abenddämmerung"],
+    },
   },
   {
     id: 3704,
@@ -9531,6 +11141,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["dicker werden"],
+      B2: ["wachsen"],
+    },
   },
   {
     id: 3705,
@@ -9560,6 +11174,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Schwere"],
+    },
   },
   {
     id: 3707,
@@ -9573,6 +11190,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["mitkommen"],
+    },
   },
   {
     id: 3708,
@@ -9587,20 +11207,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 3709,
-    word: "historisch",
-    translation: "historical",
-    definition: "Die Geschichte betreffend.",
-    example: "Das historische Rathaus ist das Zentrum der Altstadt.",
-    exampleTranslation:
-      "The historical town hall is the center of the old town.",
-    thema: "Kultur",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      B1: ["die Rede"],
+      B2: ["der Referat"],
+    },
   },
   {
     id: 3710,
@@ -9615,6 +11225,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "teilnehmen",
+    synonyms: {
+      B1: ["der Besucher"],
+      B2: ["der Mitwirkende"],
+    },
   },
   {
     id: 3711,
@@ -9628,6 +11242,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Uraufführung"],
+      B2: ["die Erstaufführung"],
+    },
   },
   {
     id: 3712,
@@ -9641,6 +11259,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Getränk"],
+    },
   },
   {
     id: 3713,
@@ -9655,6 +11276,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "gewöhnen",
+    synonyms: {
+      B1: ["die Anpassung"],
+    },
   },
   {
     id: 3714,
@@ -9668,6 +11292,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Stichwort"],
+    },
   },
   {
     id: 3715,
@@ -9682,6 +11309,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["auslosen"],
+    },
   },
   {
     id: 3716,
@@ -9695,10 +11325,13 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["neugierig sein auf"],
+    },
   },
   {
     id: 3717,
-    word: "begbachten",
+    word: "beobachten",
     translation: "to observe",
     definition: "Genau anschauen oder verfolgen.",
     example: "Wir haben die Vögel im Garten beobachtet.",
@@ -9708,6 +11341,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["beobachten"],
+    },
   },
   {
     id: 3718,
@@ -9721,10 +11357,14 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Organisation"],
+      B2: ["die Vorbereitung"],
+    },
   },
   {
     id: 3719,
-    word: "etwas dabeikaben",
+    word: "etwas dabeihaben",
     translation: "to have something with oneself",
     definition: "Etwas bei sich führen.",
     example: "Hast du deinen Ausweis dabeigehabt?",
@@ -9734,6 +11374,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["mithaben"],
+    },
   },
   {
     id: 3720,
@@ -9747,6 +11390,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["vermehren"],
+      B2: ["intensivieren"],
+    },
   },
   {
     id: 3721,
@@ -9761,19 +11408,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Bedingung",
-  },
-  {
-    id: 3722,
-    word: "unglaublich",
-    translation: "incredible, unbelievable",
-    definition: "Kaum zu glauben, sehr groß.",
-    example: "Das Essen hat einen unglaublich guten Geschmack.",
-    exampleTranslation: "The food has an incredibly good taste.",
-    thema: "Gefühle",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      B2: ["die AGB"],
+    },
   },
   {
     id: 3723,
@@ -9787,6 +11424,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Schalter"],
+    },
   },
   {
     id: 3724,
@@ -9801,6 +11441,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Schrift",
+    synonyms: {
+      B1: ["die Handschrift"],
+      B2: ["die Schriftart"],
+    },
   },
   {
     id: 3725,
@@ -9814,6 +11458,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["zeitlich geordnet"],
+    },
   },
   {
     id: 3726,
@@ -9828,6 +11475,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "fließen",
+    synonyms: {
+      B2: ["flüssig"],
+    },
   },
   {
     id: 3727,
@@ -9842,6 +11492,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Dokument",
+    synonyms: {
+      B1: ["festhalten"],
+      B2: ["belegen"],
+    },
   },
   {
     id: 3728,
@@ -9855,6 +11509,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["selbstbewusst"],
+    },
   },
   {
     id: 3729,
@@ -9870,19 +11527,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Qualifikation",
-  },
-  {
-    id: 3730,
-    word: "aufmerksam",
-    translation: "attentive, mindful",
-    definition: "Genau hinsehen oder zuhören.",
-    example: "Im Unterricht muss man sehr aufmerksam sein.",
-    exampleTranslation: "You have to be very attentive in class.",
-    thema: "Schule",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      B1: ["die Zusatzausbildung"],
+    },
   },
   {
     id: 3731,
@@ -9896,20 +11543,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 3732,
-    word: "erleichtert",
-    translation: "relieved",
-    definition: "Froh, dass eine Sorge vorbei ist.",
-    example: "Nach der Prüfung war er sehr erleichtert.",
-    exampleTranslation: "After the exam he was very relieved.",
-    thema: "Gefühle",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
-    family: "erleichtern",
+    synonyms: {
+      B2: ["die Benachteiligung"],
+    },
   },
   {
     id: 3733,
@@ -9923,6 +11559,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["nennen"],
+      B1: ["sagen"],
+      B2: ["vermerken"],
+    },
   },
   {
     id: 3734,
@@ -9936,6 +11577,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Tapferkeit"],
+      B2: ["die Courage"],
+    },
   },
   {
     id: 3735,
@@ -9949,6 +11594,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Verpflichtung"],
+      B2: ["die Obliegenheit"],
+    },
   },
   {
     id: 3736,
@@ -9962,6 +11611,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Gartenwirtschaft"],
+    },
   },
   {
     id: 3737,
@@ -9976,6 +11628,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "führen",
+    synonyms: {
+      A2: ["bringen"],
+      B1: ["beginnen"],
+      B2: ["implementieren"],
+    },
   },
   {
     id: 3738,
@@ -9990,6 +11647,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Kenntnisse",
+    synonyms: {
+      B1: ["die Sprachfähigkeit"],
+    },
   },
   {
     id: 3739,
@@ -10004,6 +11664,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "dienen",
+    synonyms: {
+      B1: ["der Außenbetrieb"],
+    },
   },
   {
     id: 3740,
@@ -10017,6 +11680,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["können"],
+      B2: ["meistern"],
+    },
   },
   {
     id: 3741,
@@ -10032,6 +11699,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "betreuen",
+    synonyms: {
+      B1: ["der Kundenservice"],
+    },
   },
   {
     id: 3742,
@@ -10046,6 +11716,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "flüssig",
+    synonyms: {
+      A2: ["fließend"],
+    },
   },
   {
     id: 3743,
@@ -10060,6 +11733,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "ziehen",
+    synonyms: {
+      A2: ["die Verbindung"],
+      B2: ["das Verhältnis"],
+    },
   },
   {
     id: 3744,
@@ -10073,10 +11750,14 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["müde"],
+      B2: ["überdrüssig"],
+    },
   },
   {
     id: 3745,
-    word: "ghesam",
+    word: "einsam",
     translation: "lonely",
     definition: "Einsam sein.",
     example: "Manchmal fühlt er sich in der großen Stadt etwas ghesam.",
@@ -10086,6 +11767,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["allein"],
+      B1: ["einsam"],
+    },
   },
 
   {
@@ -10101,6 +11786,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "treffen",
+    synonyms: {
+      A2: ["sich verabreden mit"],
+    },
   },
   {
     id: 3747,
@@ -10115,6 +11803,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Heim",
+    synonyms: {
+      B1: ["die Sehnsucht nach Zuhause"],
+    },
   },
   {
     id: 3748,
@@ -10129,19 +11820,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "aufregen",
-  },
-  {
-    id: 3749,
-    word: "die Filiale, -n",
-    translation: "branch, subsidiary",
-    definition: "Eine Zweigstelle eines Geschäfts.",
-    example: "Unsere Bank hat in jeder Stadt eine Filiale.",
-    exampleTranslation: "Our bank has a branch in every city.",
-    thema: "Wirtschaft",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      A2: ["sich ärgern über"],
+      B1: ["sich beschweren"],
+    },
   },
   {
     id: 3750,
@@ -10155,6 +11837,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Offenheit"],
+    },
   },
   {
     id: 3751,
@@ -10182,20 +11867,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "gewöhnen",
-  },
-  {
-    id: 3753,
-    word: "der Stand, -e",
-    translation: "status, stand",
-    definition: "Der aktuelle Zustand von etwas.",
-    example: "Wie ist der Stand der Dinge?",
-    exampleTranslation: "What is the state of affairs?",
-    thema: "Alltag",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
-    family: "der Stand",
+    synonyms: {
+      A2: ["sich anpassen an"],
+    },
   },
 
   {
@@ -10210,6 +11884,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Tadel"],
+      B2: ["die Beanstandung"],
+    },
   },
   {
     id: 3755,
@@ -10223,6 +11901,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Nachricht"],
+      B1: ["die Information"],
+    },
   },
   {
     id: 3756,
@@ -10236,6 +11918,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["ideal"],
+      B1: ["bestens"],
+      B2: ["vorbildlich"],
+    },
   },
   {
     id: 3757,
@@ -10263,6 +11950,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["von diesem"],
+    },
   },
   {
     id: 3759,
@@ -10277,6 +11967,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["da lassen"],
+      B1: ["verlassen"],
+    },
   },
   {
     id: 3760,
@@ -10304,6 +11998,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Genehmigung"],
+      B2: ["die Erlaubnis"],
+    },
   },
   {
     id: 3762,
@@ -10330,6 +12028,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Besitz"],
+      B2: ["die Fähigkeit"],
+    },
   },
   {
     id: 3764,
@@ -10343,6 +12045,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Dauerkarte"],
+    },
   },
   {
     id: 3765,
@@ -10356,6 +12061,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Nächste"],
+      B2: ["der Nebenmensch"],
+    },
   },
   {
     id: 3766,
@@ -10369,6 +12078,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Zoo"],
+    },
   },
   {
     id: 3767,
@@ -10383,6 +12095,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Export",
+    synonyms: {
+      B1: ["die Ausfuhr"],
+    },
   },
   {
     id: 3768,
@@ -10396,6 +12111,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Job"],
+      B1: ["die Stelle"],
+      B2: ["die Anstellung"],
+    },
   },
   {
     id: 3769,
@@ -10411,6 +12131,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "pflegen",
+    synonyms: {
+      B1: ["der Seniorenpfleger"],
+    },
   },
   {
     id: 3770,
@@ -10424,6 +12147,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["da"],
+      B1: ["vorhanden"],
+    },
   },
   {
     id: 3771,
@@ -10438,6 +12165,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Kinderdoktor"],
+    },
   },
   {
     id: 3772,
@@ -10451,6 +12181,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["schlecht"],
+      B1: ["peinlich"],
+      B2: ["unbehaglich"],
+    },
   },
   {
     id: 3773,
@@ -10465,6 +12200,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Zusatzqualifikation"],
+    },
   },
   {
     id: 3774,
@@ -10478,6 +12216,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Software"],
+    },
   },
   {
     id: 3775,
@@ -10492,6 +12233,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Dokument",
+    synonyms: {
+      B1: ["das Schriftstück"],
+      B2: ["die Urkunde"],
+    },
   },
   {
     id: 3776,
@@ -10505,6 +12250,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["vorgehend"],
+      B2: ["locker"],
+    },
   },
   {
     id: 3777,
@@ -10519,6 +12268,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Schlagwort"],
+    },
   },
   {
     id: 3778,
@@ -10533,6 +12285,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Mitschüler",
+    synonyms: {
+      A2: ["der Klassenkamerad"],
+      B1: ["der Kommilitone"],
+    },
   },
   {
     id: 3779,
@@ -10560,6 +12316,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Mitschüler",
+    synonyms: {
+      A2: ["die Klassenkameradin"],
+      B1: ["die Kommilitonin"],
+    },
   },
   {
     id: 3781,
@@ -10573,6 +12333,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Fürsorge"],
+      B2: ["die Betreuung"],
+    },
   },
   {
     id: 3782,
@@ -10588,6 +12352,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "entlassen",
+    synonyms: {
+      A2: ["kündigen"],
+      B1: ["feuern"],
+      B2: ["freistellen"],
+    },
   },
   {
     id: 3783,
@@ -10614,6 +12383,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["warm sein"],
+      B1: ["transpirieren"],
+    },
   },
   {
     id: 3785,
@@ -10654,6 +12427,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Obstgeschäft"],
+    },
   },
   {
     id: 3788,
@@ -10682,6 +12458,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Helfer",
+    synonyms: {
+      B1: ["der Praxisassistent"],
+    },
   },
   {
     id: 3790,
@@ -10695,6 +12474,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B2: ["der Herrgott"],
+    },
   },
   {
     id: 3791,
@@ -10708,6 +12490,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["automatisch"],
+      B2: ["maschinell"],
+    },
   },
   {
     id: 3792,
@@ -10721,6 +12507,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["hoppla"],
+    },
   },
   {
     id: 3793,
@@ -10734,6 +12523,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Kasse"],
+    },
   },
   {
     id: 3794,
@@ -10762,6 +12554,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Patient",
+    synonyms: {
+      B1: ["der Kranke"],
+    },
   },
   {
     id: 3796,
@@ -10775,6 +12570,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["unklar"],
+      B2: ["ablehnend"],
+    },
   },
   {
     id: 3797,
@@ -10788,6 +12587,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Automat"],
+    },
   },
   {
     id: 3798,
@@ -10801,6 +12603,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["seltsam"],
+      B2: ["außergewöhnlich"],
+    },
   },
   {
     id: 3799,
@@ -10815,6 +12621,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Industrie",
+    synonyms: {
+      B1: ["die Wirtschaft"],
+      B2: ["die Branche"],
+    },
   },
   {
     id: 3800,
@@ -10828,6 +12638,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["passen zu"],
+      B1: ["geeignet sein für"],
+    },
   },
   {
     id: 3801,
@@ -10855,6 +12669,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["maximal"],
+      B1: ["allerhöchstens"],
+      B2: ["bestenfalls"],
+    },
   },
   {
     id: 3803,
@@ -10868,6 +12687,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Verkaufserlös", "der Erlös"],
+      B2: ["der Ertrag"],
+    },
   },
   {
     id: 3804,
@@ -10881,6 +12704,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["fast nicht"],
+      B1: ["nahezu nicht"],
+      B2: ["schwerlich"],
+    },
   },
   {
     id: 3805,
@@ -10895,6 +12723,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Billigmarkt"],
+    },
   },
   {
     id: 3806,
@@ -10908,6 +12739,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Wunsch nach Kindern"],
+    },
   },
   {
     id: 3807,
@@ -10921,6 +12755,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Mechanisierung"],
+    },
   },
   {
     id: 3808,
@@ -10934,6 +12771,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["scheinbar"],
+      B1: ["anscheinend"],
+      B2: ["augenscheinlich"],
+    },
   },
   {
     id: 3809,
@@ -10948,6 +12790,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Scanner",
+    synonyms: {
+      B1: ["die Kasse mit Scanner"],
+    },
   },
   {
     id: 3810,
@@ -10962,6 +12807,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "öffentlich",
+    synonyms: {
+      B1: ["die Allgemeinheit"],
+      B2: ["die Gesellschaft"],
+    },
   },
   {
     id: 3811,
@@ -10976,6 +12825,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Einkauf",
+    synonyms: {
+      A2: ["der Wagen"],
+      B1: ["der Einkaufskarren"],
+    },
   },
   {
     id: 3812,
@@ -10991,20 +12844,6 @@ export const B1_Vocabulary = [
     type: "word",
   },
   {
-    id: 3813,
-    word: "der Scanner, -",
-    translation: "scanner",
-    definition: "Ein Gerät zum Einlesen von Daten oder Barcodes.",
-    example: "Der Verkäufer nutzt einen Scanner an der Kasse.",
-    exampleTranslation: "The clerk uses a scanner at the register.",
-    thema: "Technik",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
-    family: "der Scanner",
-  },
-  {
     id: 3814,
     word: "abhängen von",
     translation: "to depend on",
@@ -11017,6 +12856,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "abhängen",
+    synonyms: {
+      A2: ["angewiesen sein auf"],
+      B1: ["bedingt sein durch"],
+    },
   },
   {
     id: 3815,
@@ -11030,6 +12873,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Allgemeinmediziner"],
+      B2: ["der Allgemeinarzt"],
+    },
   },
   {
     id: 3816,
@@ -11043,6 +12890,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["treffen"],
+      B1: ["sehen"],
+      B2: ["antreffen"],
+    },
   },
   {
     id: 3817,
@@ -11056,6 +12908,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Krankenbesuch"],
+    },
   },
   {
     id: 3818,
@@ -11069,6 +12924,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["kaufen"],
+      B1: ["beschaffen"],
+      B2: ["auftreiben"],
+    },
   },
   {
     id: 3819,
@@ -11083,6 +12943,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Patient",
+    synonyms: {
+      B1: ["die Sprechstunde"],
+      B2: ["das Arztgespräch"],
+    },
   },
 
   {
@@ -11097,6 +12961,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Hund"],
+      B1: ["der Welpe"],
+    },
   },
   {
     id: 3821,
@@ -11110,19 +12978,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 3822,
-    word: "isoliert",
-    translation: "isolated",
-    definition: "Getrennt von anderen, einsam.",
-    example: "Er fühlte sich in der neuen Stadt anfangs isoliert.",
-    exampleTranslation: "He felt isolated in the new city at first.",
-    thema: "Gefühle",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      B1: ["das Blutdruckgerät"],
+    },
   },
   {
     id: 3823,
@@ -11137,6 +12995,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Einkauf",
+    synonyms: {
+      B1: ["der Korb"],
+    },
   },
   {
     id: 3824,
@@ -11150,6 +13011,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["endlich"],
+      B1: ["letztendlich"],
+      B2: ["letzten Endes"],
+    },
   },
   {
     id: 3825,
@@ -11164,6 +13030,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Thermometer"],
+    },
   },
   {
     id: 3826,
@@ -11178,6 +13047,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "aufhalten",
+    synonyms: {
+      A2: ["der Besuch"],
+      B1: ["die Anwesenheit"],
+    },
   },
   {
     id: 3827,
@@ -11192,6 +13065,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Regal",
+    synonyms: {
+      B1: ["das gekühlte Regal"],
+    },
   },
   {
     id: 3828,
@@ -11206,6 +13082,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Aufnahme",
+    synonyms: {
+      B1: ["die Erste Hilfe"],
+      B2: ["die Rettungsstelle"],
+    },
   },
   {
     id: 3829,
@@ -11220,6 +13100,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Flaschenautomat"],
+    },
   },
   {
     id: 3830,
@@ -11235,6 +13118,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Kranke",
+    synonyms: {
+      B1: ["der Rettungswagen"],
+      B2: ["der Rettungsdienst"],
+    },
   },
   {
     id: 3831,
@@ -11248,6 +13135,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Impfung"],
+      B1: ["die Injektion"],
+    },
   },
   {
     id: 3832,
@@ -11261,6 +13152,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Verwundung"],
+      B2: ["die Blessur"],
+    },
   },
   {
     id: 3833,
@@ -11275,6 +13170,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Waage",
+    synonyms: {
+      B1: ["das Messgerät"],
+    },
   },
 
   {
@@ -11290,6 +13188,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Wunde",
+    synonyms: {
+      B1: ["die Verletzung"],
+      B2: ["die Läsion"],
+    },
   },
   {
     id: 3835,
@@ -11303,6 +13205,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Hubwagen"],
+    },
   },
   {
     id: 3836,
@@ -11331,6 +13236,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Bote",
+    synonyms: {
+      B1: ["der Kurier"],
+      B2: ["der Überbringer"],
+    },
   },
   {
     id: 3838,
@@ -11345,6 +13254,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Blut",
+    synonyms: {
+      B1: ["Blut verlieren"],
+    },
   },
   {
     id: 3839,
@@ -11360,6 +13272,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Linie",
+    synonyms: {
+      B2: ["der ÖPNV"],
+    },
   },
   {
     id: 3840,
@@ -11373,19 +13288,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 3841,
-    word: "färben",
-    translation: "to dye, color",
-    definition: "Die Farbe von etwas verändern.",
-    example: "Sie lässt sich beim Friseur die Haare färben.",
-    exampleTranslation: "She is having her hair dyed at the hairdresser.",
-    thema: "Alltag",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      B1: ["die Bandage"],
+    },
   },
   {
     id: 3842,
@@ -11412,6 +13317,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Haare machen"],
+      B2: ["kämmen"],
+    },
   },
   {
     id: 3844,
@@ -11425,6 +13334,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Wundverband"],
+    },
   },
   {
     id: 3845,
@@ -11439,6 +13351,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "pflegen",
+    synonyms: {
+      B1: ["die Haarbehandlung"],
+    },
   },
   {
     id: 3846,
@@ -11452,6 +13367,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["befestigen"],
+      B1: ["haften"],
+    },
   },
   {
     id: 3847,
@@ -11466,6 +13385,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Finger",
+    synonyms: {
+      A2: ["der Nagel"],
+    },
   },
 
   {
@@ -11480,6 +13402,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Creme"],
+      B2: ["die Wundsalbe"],
+    },
   },
   {
     id: 3849,
@@ -11494,19 +13420,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Aufnahme",
-  },
-  {
-    id: 3850,
-    word: "die Spritze, -n",
-    translation: "injection, syringe",
-    definition: "Ein medizinisches Instrument für Medikamente unter die Haut.",
-    example: "Viele Menschen haben Angst vor einer Spritze.",
-    exampleTranslation: "Many people are afraid of an injection.",
-    thema: "Gesundheit",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      B1: ["die Essensaufnahme"],
+    },
   },
   {
     id: 3851,
@@ -11520,6 +13436,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Ordnerschrank"],
+    },
   },
   {
     id: 3852,
@@ -11534,6 +13453,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Mittel",
+    synonyms: {
+      B1: ["die Schmerztablette"],
+    },
   },
   {
     id: 3853,
@@ -11561,6 +13483,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Skelett"],
+    },
   },
   {
     id: 3855,
@@ -11574,6 +13499,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Kreuzung"],
+      B1: ["die Abfahrt"],
+    },
   },
 
   {
@@ -11589,6 +13518,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "brechen",
+    synonyms: {
+      A2: ["kaputtmachen"],
+      B1: ["zerbrechen"],
+    },
   },
   {
     id: 3857,
@@ -11604,6 +13537,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Spiegel",
+    synonyms: {
+      B1: ["der Außenspiegel"],
+    },
   },
 
   {
@@ -11618,6 +13554,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["sich einen Knochen verletzen"],
+    },
   },
   {
     id: 3859,
@@ -11631,6 +13570,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Zeichen"],
+      B1: ["der Hinweis"],
+    },
   },
 
   {
@@ -11646,6 +13589,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "operieren",
+    synonyms: {
+      B1: ["der Eingriff"],
+      B2: ["die chirurgische Behandlung"],
+    },
   },
   {
     id: 3861,
@@ -11659,6 +13606,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["sich hindurchzwängen"],
+    },
   },
 
   {
@@ -11673,6 +13623,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["müde"],
+      B1: ["geschwächt"],
+      B2: ["entkräftet"],
+    },
   },
   {
     id: 3863,
@@ -11687,6 +13642,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Notblinkanlage"],
+    },
   },
 
   {
@@ -11701,6 +13659,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Schock"],
+      B2: ["die Erschütterung"],
+    },
   },
   {
     id: 3865,
@@ -11715,6 +13677,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Fahrzeug",
+    synonyms: {
+      B1: ["die Fahrzeuglichter"],
+    },
   },
   {
     id: 3866,
@@ -11728,6 +13693,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["verordnen"],
+    },
   },
   {
     id: 3867,
@@ -11757,6 +13725,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "erkälten",
+    synonyms: {
+      A2: ["krank"],
+      B1: ["verschnupft"],
+    },
   },
   {
     id: 3869,
@@ -11785,6 +13757,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Brustkorb"],
+    },
   },
   {
     id: 3871,
@@ -11799,6 +13774,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "melden",
+    synonyms: {
+      B1: ["der Unfallbericht"],
+    },
   },
   {
     id: 3872,
@@ -11826,6 +13804,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["bewusstlos sein"],
+    },
   },
 
   {
@@ -11840,6 +13821,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Organ"],
+    },
   },
   {
     id: 3875,
@@ -11856,6 +13840,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Abschluss",
+    synonyms: {
+      B1: ["der Mittelschulabschluss"],
+    },
   },
   {
     id: 3876,
@@ -11882,6 +13869,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["überall"],
+      B1: ["durcheinander"],
+    },
   },
 
   {
@@ -11896,6 +13887,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Körpermuskel"],
+    },
   },
   {
     id: 3879,
@@ -11910,6 +13904,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Lastwagenfahrer"],
+      B2: ["der Trucker"],
+    },
   },
 
   {
@@ -11937,6 +13935,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Entgelt"],
+      B2: ["die Vergütung"],
+    },
   },
 
   {
@@ -11965,6 +13967,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Rettungssanitäter"],
+    },
   },
   {
     id: 3884,
@@ -11980,6 +13985,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Fall",
+    synonyms: {
+      A2: ["die Gefahr"],
+      B1: ["der Ernstfall"],
+    },
   },
   {
     id: 3885,
@@ -11995,6 +14004,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "grüßen",
+    synonyms: {
+      A2: ["willkommen heißen"],
+    },
   },
   {
     id: 3886,
@@ -12009,6 +14021,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Notruf",
+    synonyms: {
+      B1: ["der Hilferuf"],
+    },
   },
   {
     id: 3887,
@@ -12022,6 +14037,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["Land am Bosporus"],
+    },
   },
   {
     id: 3888,
@@ -12050,6 +14068,10 @@ export const B1_Vocabulary = [
     favorite: true,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["ausfüllen"],
+      B1: ["vervollständigen"],
+    },
   },
   {
     id: 3890,
@@ -12063,6 +14085,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["abladen"],
+      B2: ["entladen"],
+    },
   },
   {
     id: 3891,
@@ -12076,6 +14102,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Gespräch"],
+    },
   },
   {
     id: 3892,
@@ -12090,6 +14119,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "heben",
+    synonyms: {
+      A2: ["hochheben"],
+      B1: ["anheben"],
+      B2: ["stemmen"],
+    },
   },
   {
     id: 3893,
@@ -12103,6 +14137,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Prüfung"],
+      B1: ["die Überprüfung"],
+    },
   },
   {
     id: 3894,
@@ -12117,6 +14155,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "ansprechen",
+    synonyms: {
+      B1: ["bei Bewusstsein"],
+    },
   },
   {
     id: 3895,
@@ -12144,6 +14185,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["ohnmächtig"],
+      B2: ["besinnungslos"],
+    },
   },
   {
     id: 3897,
@@ -12170,6 +14215,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["weiß"],
+      B1: ["farblos", "bleich"],
+    },
   },
   {
     id: 3899,
@@ -12196,6 +14245,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Fußgelenk"],
+    },
   },
   {
     id: 3901,
@@ -12210,6 +14262,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Arbeiter",
+    synonyms: {
+      A2: ["die Kollegin"],
+    },
   },
   {
     id: 3902,
@@ -12224,6 +14279,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "röntgen",
+    synonyms: {
+      B1: ["durchleuchten"],
+    },
   },
   {
     id: 3903,
@@ -12238,6 +14296,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Praktikant",
+    synonyms: {
+      B1: ["die Trainee"],
+    },
   },
   {
     id: 3904,
@@ -12252,6 +14313,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "röntgen",
+    synonyms: {
+      B1: ["die Aufnahme"],
+    },
   },
   {
     id: 3905,
@@ -12266,6 +14330,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "stimmen",
+    synonyms: {
+      A2: ["richtig sein"],
+    },
   },
   {
     id: 3906,
@@ -12280,6 +14347,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "operieren",
+    synonyms: {
+      B1: ["einen Eingriff durchführen"],
+    },
   },
   {
     id: 3907,
@@ -12293,6 +14363,10 @@ export const B1_Vocabulary = [
     favorite: true,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["vermengen"],
+      B1: ["vermischen"],
+    },
   },
   {
     id: 3908,
@@ -12307,6 +14381,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Betäubung"],
+    },
   },
   {
     id: 3909,
@@ -12321,6 +14398,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "ordnen",
+    synonyms: {
+      B1: ["zuweisen"],
+      B2: ["zusammenführen"],
+    },
   },
   {
     id: 3910,
@@ -12334,6 +14415,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Entzündung"],
+      B2: ["die Ansteckung"],
+    },
   },
   {
     id: 3911,
@@ -12348,6 +14433,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Tuch",
+    synonyms: {
+      A2: ["das Tuch"],
+      B1: ["das Papiertuch"],
+    },
   },
   {
     id: 3912,
@@ -12374,6 +14463,9 @@ export const B1_Vocabulary = [
     favorite: true,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Kugelschreiber"],
+    },
   },
   {
     id: 3914,
@@ -12388,6 +14480,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["nach oben"],
+    },
   },
   {
     id: 3915,
@@ -12402,6 +14497,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "wenden",
+    synonyms: {
+      A2: ["benutzen"],
+      B1: ["gebrauchen"],
+      B2: ["anwenden"],
+    },
   },
   {
     id: 3916,
@@ -12416,6 +14516,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Vorhersage"],
+    },
   },
   {
     id: 3917,
@@ -12429,19 +14532,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 3918,
-    word: "der Abfall, Abfälle",
-    translation: "waste, rubbish",
-    definition: "Sachen, die man wegwirft.",
-    example: "Wir trennen unseren Abfall sorgfältig.",
-    exampleTranslation: "We carefully separate our waste.",
-    thema: "Natur",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      B1: ["das Bild"],
+      B2: ["die Skizze"],
+    },
   },
   {
     id: 3919,
@@ -12456,6 +14550,9 @@ export const B1_Vocabulary = [
     favorite: true,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Monitor"],
+    },
   },
   {
     id: 3920,
@@ -12469,6 +14566,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["abtrennen"],
+      B1: ["teilen"],
+      B2: ["scheiden"],
+    },
   },
   {
     id: 3921,
@@ -12482,6 +14584,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["laufen"],
+      B1: ["klappen"],
+    },
   },
   {
     id: 3922,
@@ -12495,6 +14601,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["erwärmen"],
+    },
   },
   {
     id: 3923,
@@ -12508,6 +14617,10 @@ export const B1_Vocabulary = [
     favorite: true,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Behauptung"],
+      B2: ["die Erklärung"],
+    },
   },
   {
     id: 3924,
@@ -12522,6 +14635,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Stoff",
+    synonyms: {
+      B1: ["der Stoffbeutel"],
+    },
   },
   {
     id: 3925,
@@ -12536,20 +14652,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "fertig",
-  },
-  {
-    id: 3926,
-    word: "die öffentlichen Verkehrsmittel",
-    translation: "public transport",
-    definition: "Busse und Bahnen für alle Bürger.",
-    example: "Ich nutze oft die öffentlichen Verkehrsmittel.",
-    exampleTranslation: "I often use public transport.",
-    thema: "Reisen & Verkehr",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
-    family: "das Mittel",
+    synonyms: {
+      A2: ["vorbei"],
+      B1: ["abgeschlossen", "bereit"],
+    },
   },
   {
     id: 3927,
@@ -12564,19 +14670,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "fordern",
-  },
-  {
-    id: 3928,
-    word: "die Frucht, Früchte",
-    translation: "fruit",
-    definition: "Der essbare Teil einer Pflanze.",
-    example: "Frische Früchte schmecken sehr gut.",
-    exampleTranslation: "Fresh fruits taste very good.",
-    thema: "Natur",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      B1: ["der Aufruf"],
+    },
   },
   {
     id: 3929,
@@ -12590,6 +14686,9 @@ export const B1_Vocabulary = [
     favorite: true,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Seehafen"],
+    },
   },
   {
     id: 3930,
@@ -12603,6 +14702,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Pfandglasflasche"],
+    },
   },
   {
     id: 3931,
@@ -12616,6 +14718,9 @@ export const B1_Vocabulary = [
     favorite: true,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Hochhaus"],
+    },
   },
   {
     id: 3932,
@@ -12629,6 +14734,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Verschluss"],
+    },
   },
   {
     id: 3933,
@@ -12643,19 +14751,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Speise",
-  },
-  {
-    id: 3934,
-    word: "vermeiden",
-    translation: "to avoid",
-    definition: "Dafür sorgen, dass etwas nicht passiert.",
-    example: "Wir sollten Plastikmüll vermeiden.",
-    exampleTranslation: "We should avoid plastic waste.",
-    thema: "Alltag",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      A2: ["das Gericht"],
+      B1: ["das Essen"],
+    },
   },
   {
     id: 3935,
@@ -12669,20 +14768,10 @@ export const B1_Vocabulary = [
     favorite: true,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 3936,
-    word: "saisonal",
-    translation: "seasonal",
-    definition: "Zur jeweiligen Jahreszeit passend.",
-    example: "Ich kaufe gerne saisonales Gemüse.",
-    exampleTranslation: "I like buying seasonal vegetables.",
-    thema: "Essen und Trinken",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
-    family: "die Saison",
+    synonyms: {
+      A2: ["gut", "köstlich"],
+      B1: ["schmackhaft"],
+    },
   },
   {
     id: 3937,
@@ -12697,6 +14786,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Liste",
+    synonyms: {
+      A2: ["die Übersicht"],
+    },
   },
   {
     id: 3938,
@@ -12711,6 +14803,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Region",
+    synonyms: {
+      B1: ["örtlich"],
+      B2: ["lokal"],
+    },
   },
   {
     id: 3939,
@@ -12724,6 +14820,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Arbeitstag"],
+    },
   },
   {
     id: 3940,
@@ -12737,6 +14836,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Wiederverwertung"],
+    },
   },
   {
     id: 3941,
@@ -12750,6 +14852,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Tanzen"],
+    },
   },
   {
     id: 3942,
@@ -12763,6 +14868,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["mit Strom"],
+    },
   },
   {
     id: 3943,
@@ -12776,6 +14884,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Kalender"],
+      B1: ["der Planer"],
+    },
   },
   {
     id: 3944,
@@ -12790,6 +14902,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "verbrauchen",
+    synonyms: {
+      A2: ["benutzen"],
+      B1: ["aufbrauchen"],
+    },
   },
   {
     id: 3945,
@@ -12803,6 +14919,9 @@ export const B1_Vocabulary = [
     favorite: true,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das tägliche Leben"],
+    },
   },
   {
     id: 3946,
@@ -12816,6 +14935,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Elektrizität"],
+      B2: ["der Elektroverbrauch"],
+    },
   },
   {
     id: 3947,
@@ -12829,6 +14952,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["amtlich"],
+      B2: ["formell"],
+    },
   },
   {
     id: 3948,
@@ -12843,6 +14970,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "verpacken",
+    synonyms: {
+      B1: ["die Kunststoffverpackung"],
+    },
   },
   {
     id: 3949,
@@ -12856,6 +14986,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Essen im Freien"],
+    },
   },
   {
     id: 3950,
@@ -12870,6 +15003,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Handlung"],
+      B2: ["der Schritt"],
+    },
   },
   {
     id: 3951,
@@ -12884,6 +15021,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "verabreden",
+    synonyms: {
+      A2: ["der Termin"],
+      B1: ["das Treffen"],
+    },
   },
   {
     id: 3952,
@@ -12898,6 +15039,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "anschaffen",
+    synonyms: {
+      A2: ["kaufen"],
+      B1: ["erwerben"],
+    },
   },
   {
     id: 3953,
@@ -12911,6 +15056,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Mohrrübe", "die Möhre"],
+    },
   },
   {
     id: 3954,
@@ -12925,6 +15073,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Energie",
+    synonyms: {
+      B1: ["die Effizienzklasse"],
+    },
   },
   {
     id: 3955,
@@ -12938,6 +15089,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Küchenzwiebel"],
+    },
   },
   {
     id: 3956,
@@ -12951,6 +15105,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Bereitschaftsmodus"],
+    },
   },
   {
     id: 3957,
@@ -12964,6 +15121,9 @@ export const B1_Vocabulary = [
     favorite: true,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Champignon"],
+    },
   },
   {
     id: 3958,
@@ -12978,6 +15138,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "stecken",
+    synonyms: {
+      B1: ["der Netzstecker"],
+    },
   },
   {
     id: 3959,
@@ -12992,6 +15155,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Kasten",
+    synonyms: {
+      B1: ["die Kiste"],
+    },
   },
   {
     id: 3960,
@@ -13006,6 +15172,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "stecken",
+    synonyms: {
+      B1: ["der Stromanschluss"],
+    },
   },
   {
     id: 3961,
@@ -13020,6 +15189,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Dose",
+    synonyms: {
+      B1: ["die Konservendose", "die Büchse"],
+    },
   },
   {
     id: 3962,
@@ -13033,6 +15205,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Ökoprogramm"],
+    },
   },
   {
     id: 3963,
@@ -13046,6 +15221,9 @@ export const B1_Vocabulary = [
     favorite: true,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Wurst"],
+    },
   },
   {
     id: 3964,
@@ -13059,6 +15237,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Vorwaschen"],
+    },
   },
   {
     id: 3965,
@@ -13074,20 +15255,6 @@ export const B1_Vocabulary = [
     type: "word",
   },
   {
-    id: 3966,
-    word: "das Waschmittel, -",
-    translation: "detergent",
-    definition: "Mittel zum Waschen von Textilien.",
-    example: "Wir kaufen umweltfreundliches Waschmittel.",
-    exampleTranslation: "We buy eco-friendly detergent.",
-    thema: "Alltag",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
-    family: "das Mittel",
-  },
-  {
     id: 3967,
     word: "der Arbeitsplatz, -plätze",
     translation: "workplace",
@@ -13099,6 +15266,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Arbeitsort"],
+      B1: ["die Stelle"],
+    },
   },
   {
     id: 3968,
@@ -13112,6 +15283,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["Luft hereinlassen"],
+      B1: ["belüften"],
+    },
   },
   {
     id: 3969,
@@ -13125,6 +15300,9 @@ export const B1_Vocabulary = [
     favorite: true,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["ein Bussi geben"],
+    },
   },
   {
     id: 3970,
@@ -13139,6 +15317,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Morgen"],
+    },
   },
   {
     id: 3971,
@@ -13152,6 +15333,9 @@ export const B1_Vocabulary = [
     favorite: true,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Bussi"],
+    },
   },
   {
     id: 3972,
@@ -13165,6 +15349,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["eben"],
+      B1: ["vorher"],
+    },
   },
   {
     id: 3973,
@@ -13178,6 +15366,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["schöpferisch"],
+      B2: ["ideenreich"],
+    },
   },
   {
     id: 3974,
@@ -13192,6 +15384,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "entspannen",
+    synonyms: {
+      A2: ["ausruhen"],
+      B1: ["abschalten"],
+      B2: ["entspannen"],
+    },
   },
   {
     id: 3975,
@@ -13206,6 +15403,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Stand",
+    synonyms: {
+      B1: ["der Beziehungsstatus"],
+    },
   },
   {
     id: 3976,
@@ -13220,6 +15420,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Sinn",
+    synonyms: {
+      A2: ["nützlich"],
+      B1: ["zweckmäßig"],
+      B2: ["vernünftig"],
+    },
   },
   {
     id: 3977,
@@ -13233,6 +15438,10 @@ export const B1_Vocabulary = [
     favorite: true,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["verknallt"],
+      B2: ["vernarrt"],
+    },
   },
   {
     id: 3978,
@@ -13247,6 +15456,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "stimmen",
+    synonyms: {
+      A2: ["einverstanden sein"],
+      B1: ["einwilligen"],
+    },
   },
   {
     id: 3979,
@@ -13261,6 +15474,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "anstrengen",
+    synonyms: {
+      A2: ["müde machend"],
+      B1: ["ermüdend"],
+      B2: ["kräftezehrend"],
+    },
   },
   {
     id: 3980,
@@ -13274,6 +15492,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["entgegnen"],
+      B2: ["widersetzen"],
+    },
   },
   {
     id: 3981,
@@ -13287,19 +15509,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 3982,
-    word: "zum Teil",
-    translation: "partially, in part",
-    definition: "Nicht vollständig, teilweise.",
-    example: "Die Aufgaben waren zum Teil sehr schwer.",
-    exampleTranslation: "The tasks were partly very difficult.",
-    thema: "Alltag",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "phrase",
+    synonyms: {
+      B1: ["der Gang"],
+    },
   },
   {
     id: 3983,
@@ -13314,6 +15526,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Regal",
+    synonyms: {
+      B1: ["das Bücherregal"],
+    },
   },
   {
     id: 3984,
@@ -13328,6 +15543,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Bauer",
+    synonyms: {
+      B1: ["der Landwirtschaftsbetrieb"],
+    },
   },
   {
     id: 3985,
@@ -13341,6 +15559,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Lehnstuhl"],
+      B2: ["der Polstersessel"],
+    },
   },
   {
     id: 3986,
@@ -13354,6 +15576,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Dünger"],
+    },
   },
   {
     id: 3987,
@@ -13367,6 +15592,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Kleiderablage"],
+    },
   },
   {
     id: 3988,
@@ -13380,6 +15608,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Weide"],
+    },
   },
   {
     id: 3989,
@@ -13407,6 +15638,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Rasen"],
+    },
   },
   {
     id: 3991,
@@ -13420,6 +15654,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Gegenteil"],
+    },
   },
   {
     id: 3992,
@@ -13433,6 +15670,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Fußboden"],
+      B1: ["die Erde"],
+    },
   },
   {
     id: 3993,
@@ -13446,6 +15687,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Platz"],
+      B2: ["die Ebene"],
+    },
   },
   {
     id: 3994,
@@ -13472,6 +15717,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Stockwerk"],
+      B1: ["das Geschoss"],
+    },
   },
   {
     id: 3996,
@@ -13485,6 +15734,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Nagetier"],
+    },
   },
   {
     id: 3997,
@@ -13499,6 +15751,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Terrasse",
+    synonyms: {
+      B1: ["der Balkon"],
+      B2: ["die Veranda"],
+    },
   },
   {
     id: 3998,
@@ -13525,6 +15781,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Wohngemeinschaft"],
+    },
   },
   {
     id: 4000,
@@ -13538,6 +15797,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["umweltfreundlich"],
+      B2: ["biologisch"],
+    },
   },
   {
     id: 4001,
@@ -13552,6 +15815,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Gemeinschaft",
+    synonyms: {
+      B1: ["die WG"],
+    },
   },
   {
     id: 4002,
@@ -13566,6 +15832,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Landwirt",
+    synonyms: {
+      B1: ["die Agrarwirtschaft"],
+      B2: ["der Ackerbau"],
+    },
   },
   {
     id: 4003,
@@ -13579,6 +15849,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["ungefähr"],
+      B1: ["etwa"],
+    },
   },
   {
     id: 4004,
@@ -13593,6 +15867,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Gift",
+    synonyms: {
+      B1: ["der Giftstoff"],
+    },
   },
   {
     id: 4005,
@@ -13606,19 +15883,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 4006,
-    word: "die Saison, -s",
-    translation: "season",
-    definition: "Zeitraum für bestimmte Aktivitäten oder Ernten.",
-    example: "Jetzt beginnt die Erdbeersaison.",
-    exampleTranslation: "Now the strawberry season begins.",
-    thema: "Natur",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      A2: ["ideal", "toll"],
+      B1: ["vollkommen"],
+      B2: ["makellos"],
+    },
   },
   {
     id: 4007,
@@ -13632,6 +15901,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["aufpassen"],
+      B1: ["berücksichtigen"],
+      B2: ["befolgen"],
+    },
   },
   {
     id: 4008,
@@ -13645,20 +15919,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 4009,
-    word: "der Mieter, -",
-    translation: "tenant (male)",
-    definition: "Eine Person, die eine Wohnung gemietet hat.",
-    example: "Der Mieter bezahlt pünktlich die Miete.",
-    exampleTranslation: "The tenant pays the rent on time.",
-    thema: "Wohnen",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
-    family: "der Mieter",
+    synonyms: {
+      B1: ["einsammeln"],
+      B2: ["lesen"],
+    },
   },
   {
     id: 4010,
@@ -13672,6 +15936,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["pflanzen"],
+      B2: ["kultivieren"],
+    },
   },
   {
     id: 4011,
@@ -13686,6 +15954,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "verboten",
+    synonyms: {
+      A2: ["untersagt"],
+      B1: ["nicht erlaubt"],
+      B2: ["unzulässig"],
+    },
   },
   {
     id: 4012,
@@ -13699,6 +15972,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Gewürzpflanzen"],
+    },
   },
   {
     id: 4013,
@@ -13712,6 +15988,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Innenhof"],
+    },
   },
   {
     id: 4014,
@@ -13725,6 +16004,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["wässern"],
+      B1: ["sprengen"],
+    },
   },
   {
     id: 4015,
@@ -13739,6 +16022,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "schauen",
+    synonyms: {
+      A2: ["sehen"],
+      B1: ["blicken"],
+    },
   },
   {
     id: 4016,
@@ -13752,6 +16039,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["futtern"],
+      B2: ["verzehren"],
+    },
   },
   {
     id: 4017,
@@ -13765,6 +16056,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["kaum"],
+      B1: ["nicht oft"],
+    },
   },
   {
     id: 4018,
@@ -13778,6 +16073,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Zugmaschine"],
+    },
   },
   {
     id: 4019,
@@ -13791,6 +16089,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Werk"],
+      B2: ["der Produktionsbetrieb"],
+    },
   },
   {
     id: 4020,
@@ -13804,6 +16106,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Ertrag"],
+    },
   },
   {
     id: 4021,
@@ -13818,6 +16123,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "treffen",
+    synonyms: {
+      B1: ["der Treff"],
+    },
   },
   {
     id: 4022,
@@ -13831,6 +16139,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Ehrenamtliche"],
+    },
   },
   {
     id: 4023,
@@ -13844,6 +16155,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Bar"],
+      B2: ["die Schänke"],
+    },
   },
   {
     id: 4024,
@@ -13857,6 +16172,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["genau"],
+      B1: ["sorgfältig"],
+      B2: ["eingehend"],
+    },
   },
   {
     id: 4025,
@@ -13870,6 +16190,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["direkt"],
+      B2: ["in Echtzeit"],
+    },
   },
   {
     id: 4026,
@@ -13883,6 +16207,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["weggeben"],
+      B1: ["überlassen"],
+    },
   },
   {
     id: 4027,
@@ -13897,6 +16225,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "verabreden",
+    synonyms: {
+      A2: ["einen Termin vereinbaren"],
+      B1: ["sich treffen"],
+    },
   },
   {
     id: 4028,
@@ -13911,6 +16243,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Export",
+    synonyms: {
+      B1: ["ausführen"],
+    },
   },
   {
     id: 4029,
@@ -13925,6 +16260,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "voll",
+    synonyms: {
+      A2: ["gefüllt"],
+      B1: ["besetzt"],
+    },
   },
   {
     id: 4030,
@@ -13939,33 +16278,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Klima",
-  },
-  {
-    id: 4031,
-    word: "der Passagier, -e",
-    translation: "passenger",
-    definition: "Ein Reisender in einem Fahrzeug.",
-    example: "Alle Passagiere steigen in den Zug.",
-    exampleTranslation: "All passengers are boarding the train.",
-    thema: "Reisen & Verkehr",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
-  },
-  {
-    id: 4032,
-    word: "klimafreundlich",
-    translation: "climate-friendly",
-    definition: "Das Klima nicht belastend.",
-    example: "Fahrradfahren ist sehr klimafreundlich.",
-    exampleTranslation: "Cycling is very climate-friendly.",
-    thema: "Natur",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
-    family: "das Klima",
+    synonyms: {
+      B1: ["die Witterung"],
+    },
   },
   {
     id: 4033,
@@ -13980,6 +16295,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "klicken",
+    synonyms: {
+      A2: ["drücken"],
+    },
   },
   {
     id: 4034,
@@ -13994,6 +16312,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Klima",
+    synonyms: {
+      B1: ["die Klimakatastrophe"],
+    },
   },
   {
     id: 4035,
@@ -14008,6 +16329,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Kosten",
+    synonyms: {
+      B1: ["die Ausgaben"],
+    },
   },
   {
     id: 4036,
@@ -14022,6 +16346,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Klima",
+    synonyms: {
+      B1: ["die Erderwärmung"],
+      B2: ["die Klimaveränderung"],
+    },
   },
   {
     id: 4037,
@@ -14036,6 +16364,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Gebühr",
+    synonyms: {
+      A2: ["die Kosten"],
+      B1: ["der Preis"],
+    },
   },
   {
     id: 4038,
@@ -14049,6 +16381,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Photovoltaikanlage"],
+    },
   },
   {
     id: 4039,
@@ -14063,6 +16398,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Hochschule",
+    synonyms: {
+      B1: ["die VHS"],
+    },
   },
   {
     id: 4040,
@@ -14076,6 +16414,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Fachmann"],
+      B2: ["der Spezialist"],
+    },
   },
   {
     id: 4041,
@@ -14089,6 +16431,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["fremd"],
+    },
   },
   {
     id: 4042,
@@ -14102,6 +16447,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Fachfrau"],
+      B2: ["die Spezialistin"],
+    },
   },
   {
     id: 4043,
@@ -14115,6 +16464,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["her"],
+    },
   },
   {
     id: 4044,
@@ -14128,6 +16480,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["übereinstimmen"],
+      B1: ["einer Meinung sein"],
+    },
   },
   {
     id: 4045,
@@ -14142,6 +16498,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Umwelt",
+    synonyms: {
+      B1: ["die Natur"],
+      B2: ["das Ökosystem"],
+    },
   },
   {
     id: 4046,
@@ -14156,6 +16516,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "merken",
+    synonyms: {
+      A2: ["bemerken"],
+      B1: ["feststellen"],
+    },
   },
   {
     id: 4047,
@@ -14169,6 +16533,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Mensa"],
+    },
   },
   {
     id: 4048,
@@ -14182,6 +16549,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Unwetter"],
+      B2: ["der Orkan"],
+    },
   },
   {
     id: 4049,
@@ -14196,6 +16567,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "bewegen",
+    synonyms: {
+      B1: ["der Sport"],
+    },
   },
   {
     id: 4050,
@@ -14210,6 +16584,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Feuer",
+    synonyms: {
+      A2: ["bestimmen"],
+      B1: ["vereinbaren"],
+      B2: ["fixieren"],
+    },
   },
   {
     id: 4051,
@@ -14224,6 +16603,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "fest",
+    synonyms: {
+      B1: ["das Hochwasser"],
+      B2: ["die Flut"],
+    },
   },
   {
     id: 4052,
@@ -14263,6 +16646,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Verstorbene"],
+    },
   },
   {
     id: 4055,
@@ -14277,6 +16663,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Regel",
+    synonyms: {
+      A2: ["oft"],
+      B1: ["fortlaufend"],
+    },
   },
   {
     id: 4056,
@@ -14290,6 +16680,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["äußerst"],
+      B2: ["übermäßig"],
+    },
   },
   {
     id: 4057,
@@ -14303,6 +16697,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Sexus"],
+    },
   },
   {
     id: 4058,
@@ -14316,6 +16713,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["Schmerzen haben"],
+      B2: ["erdulden"],
+    },
   },
   {
     id: 4059,
@@ -14329,6 +16730,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["berufsbezogen"],
+    },
   },
   {
     id: 4060,
@@ -14342,6 +16746,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Wärme"],
+      B2: ["die Glut"],
+    },
   },
   {
     id: 4061,
@@ -14355,6 +16763,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Wohnung"],
+    },
   },
   {
     id: 4062,
@@ -14368,20 +16779,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 4063,
-    word: "der Beamte, -n",
-    translation: "official / civil servant",
-    definition:
-      "Eine Person im öffentlichen Dienst als Angestellter des Staates.",
-    example: "Der Beamte arbeitet im Bürgeramt.",
-    exampleTranslation: "The civil servant works in the citizens' office.",
-    thema: "Arbeit",
-    priority: "Low",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      B1: ["das Unglück"],
+      B2: ["das Desaster"],
+    },
   },
   {
     id: 4064,
@@ -14395,6 +16796,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["schaden"],
+    },
   },
   {
     id: 4065,
@@ -14408,6 +16812,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Zollbehörde"],
+    },
   },
   {
     id: 4066,
@@ -14421,6 +16828,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["jetzt"],
+      B1: ["mittlerweile"],
+      B2: ["unterdessen"],
+    },
   },
   {
     id: 4067,
@@ -14435,6 +16847,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Staat",
+    synonyms: {
+      B1: ["das Land"],
+      B2: ["das Gemeinwesen"],
+    },
   },
   {
     id: 4068,
@@ -14448,6 +16864,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Möglichkeit"],
+      B2: ["die Option"],
+    },
   },
   {
     id: 4069,
@@ -14462,6 +16882,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Monat",
+    synonyms: {
+      A2: ["vier Wochen"],
+    },
   },
   {
     id: 4070,
@@ -14476,6 +16899,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Transport",
+    synonyms: {
+      B1: ["befördern"],
+      B2: ["verfrachten"],
+    },
   },
   {
     id: 4071,
@@ -14490,6 +16917,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "phrase",
     family: "sagen",
+    synonyms: {
+      A2: ["informieren"],
+      B1: ["benachrichtigen"],
+    },
   },
   {
     id: 4072,
@@ -14503,6 +16934,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["nützlich"],
+      B1: ["praktisch"],
+    },
   },
   {
     id: 4073,
@@ -14516,6 +16951,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Gestalt"],
+    },
   },
   {
     id: 4074,
@@ -14529,6 +16967,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Erzeugung"],
+      B2: ["die Fertigung"],
+    },
   },
   {
     id: 4075,
@@ -14555,6 +16997,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Quelle"],
+      B2: ["der Rohstoff"],
+    },
   },
   {
     id: 4077,
@@ -14568,6 +17014,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["unterwegs sein"],
+      B1: ["auf Achse"],
+    },
   },
   {
     id: 4078,
@@ -14581,6 +17031,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["genügen"],
+      B1: ["langen"],
+      B2: ["hinreichen"],
+    },
   },
   {
     id: 4079,
@@ -14594,10 +17049,13 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Stadtbahn"],
+    },
   },
   {
     id: 4080,
-    word: "frigieren",
+    word: "frieren",
     translation: "to freeze",
     definition: "Zu Eis gefrieren oder sehr kalt sein.",
     example: "Im Winter friert das Wasser im See.",
@@ -14607,6 +17065,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["einfrieren"],
+      A2: ["kalt sein"],
+      B1: ["Kälte spüren"],
+    },
   },
   {
     id: 4081,
@@ -14621,6 +17084,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "verbinden",
+    synonyms: {
+      A2: ["der Anschluss"],
+    },
   },
   {
     id: 4082,
@@ -14647,6 +17113,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Buchung"],
+    },
   },
   {
     id: 4084,
@@ -14660,6 +17129,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Wald"],
+    },
   },
   {
     id: 4085,
@@ -14674,6 +17146,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Halt",
+    synonyms: {
+      A2: ["der Stopp"],
+      B1: ["die Haltestelle"],
+    },
   },
   {
     id: 4086,
@@ -14688,6 +17164,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Energie",
+    synonyms: {
+      B1: ["die Solarenergie"],
+    },
   },
   {
     id: 4087,
@@ -14701,6 +17180,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Heimfahrt"],
+    },
   },
   {
     id: 4088,
@@ -14714,6 +17196,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Hitze"],
+    },
   },
   {
     id: 4089,
@@ -14727,6 +17212,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Zentralbahnhof"],
+    },
   },
   {
     id: 4090,
@@ -14740,6 +17228,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Boden"],
+      B2: ["der Planet"],
+    },
   },
   {
     id: 4091,
@@ -14753,6 +17245,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Weg"],
+    },
   },
   {
     id: 4092,
@@ -14767,6 +17262,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Wissenschaft",
+    synonyms: {
+      B2: ["die Forschung"],
+    },
   },
   {
     id: 4093,
@@ -14780,6 +17278,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Bewohner"],
+      B2: ["der Anwohner"],
+    },
   },
   {
     id: 4094,
@@ -14794,6 +17296,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Fahrzeug",
+    synonyms: {
+      A2: ["das Auto"],
+    },
   },
   {
     id: 4095,
@@ -14807,6 +17312,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["kunstvoll"],
+      B2: ["geistig"],
+    },
   },
   {
     id: 4096,
@@ -14833,6 +17342,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Schiff"],
+    },
   },
   {
     id: 4098,
@@ -14846,6 +17358,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Dieselkraftstoff"],
+    },
   },
   {
     id: 4099,
@@ -14859,6 +17374,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Erzählung"],
+    },
   },
   {
     id: 4100,
@@ -14873,6 +17391,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "tanken",
+    synonyms: {
+      B1: ["volltanken"],
+    },
   },
   {
     id: 4101,
@@ -14887,10 +17408,13 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Reizhusten"],
+    },
   },
   {
     id: 4102,
-    word: "umweltchädlich",
+    word: "umweltschädlich",
     translation: "environmentally harmful",
     definition: "Schädlich für die Umwelt.",
     example: "Alte Autos sind oft umweltschädlich.",
@@ -14901,6 +17425,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Umwelt",
+    synonyms: {
+      B1: ["schädlich für die Umwelt"],
+    },
   },
   {
     id: 4103,
@@ -14914,6 +17441,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Erkältung"],
+    },
   },
   {
     id: 4104,
@@ -14927,6 +17457,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Auspuffgase"],
+    },
   },
   {
     id: 4105,
@@ -14941,6 +17474,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "erkälten",
+    synonyms: {
+      A2: ["der Schnupfen"],
+    },
   },
   {
     id: 4106,
@@ -14954,6 +17490,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["Experten"],
+      B2: ["Spezialisten"],
+    },
   },
   {
     id: 4107,
@@ -14968,6 +17508,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "sichern",
+    synonyms: {
+      B1: ["die Krankenkarte"],
+      B2: ["die Gesundheitskarte"],
+    },
   },
   {
     id: 4108,
@@ -14982,6 +17526,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Geschwindigkeit",
+    synonyms: {
+      B1: ["das Tempolimit"],
+    },
   },
   {
     id: 4109,
@@ -14995,6 +17542,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Riechkolben"],
+    },
   },
   {
     id: 4110,
@@ -15008,6 +17558,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das CO2"],
+    },
   },
   {
     id: 4111,
@@ -15034,6 +17587,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["sparen"],
+    },
   },
   {
     id: 4113,
@@ -15047,6 +17603,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Arznei in Tropfenform"],
+    },
   },
   {
     id: 4114,
@@ -15060,6 +17619,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["aufgeben"],
+      B1: ["ohne etwas auskommen"],
+    },
   },
   {
     id: 4115,
@@ -15073,6 +17636,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Zahlungskarte"],
+    },
   },
   {
     id: 4116,
@@ -15086,6 +17652,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["abwenden"],
+      B2: ["vorbeugen"],
+    },
   },
   {
     id: 4117,
@@ -15100,6 +17670,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Fitness",
+    synonyms: {
+      B1: ["die Kondition"],
+    },
   },
   {
     id: 4118,
@@ -15114,6 +17687,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "brennen",
+    synonyms: {
+      B1: ["glühen"],
+    },
   },
   {
     id: 4119,
@@ -15127,6 +17703,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Coach"],
+    },
   },
   {
     id: 4120,
@@ -15141,6 +17720,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Schaden",
+    synonyms: {
+      B1: ["schädigen"],
+      B2: ["beeinträchtigen"],
+    },
   },
   {
     id: 4121,
@@ -15155,6 +17738,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "ernähren",
+    synonyms: {
+      B1: ["das Essen"],
+    },
   },
   {
     id: 4122,
@@ -15168,6 +17754,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["inzwischen"],
+      B1: ["derweil"],
+    },
   },
   {
     id: 4123,
@@ -15181,6 +17771,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["überall"],
+      B1: ["im Allgemeinen"],
+    },
   },
   {
     id: 4124,
@@ -15194,6 +17788,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Untersuchung"],
+    },
   },
   {
     id: 4125,
@@ -15208,6 +17805,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "übrig",
+    synonyms: {
+      A2: ["nebenbei"],
+    },
   },
   {
     id: 4126,
@@ -15221,6 +17821,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["bewachen"],
+      B1: ["bewahren"],
+      B2: ["schonen"],
+    },
   },
   {
     id: 4127,
@@ -15235,6 +17840,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "schlagen",
+    synonyms: {
+      A2: ["empfehlen"],
+      B1: ["anregen"],
+      B2: ["anbieten"],
+    },
   },
   {
     id: 4128,
@@ -15249,6 +17859,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Konsum",
+    synonyms: {
+      B1: ["der Verbrauch"],
+    },
   },
   {
     id: 4129,
@@ -15262,6 +17875,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["sehr"],
+      B1: ["ganz"],
+      B2: ["recht"],
+    },
   },
   {
     id: 4130,
@@ -15276,19 +17894,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "zweifeln",
-  },
-  {
-    id: 4131,
-    word: "vor allem",
-    translation: "above all / especially",
-    definition: "Insbesondere oder vor allen anderen Dingern.",
-    example: "Ich mag Sommer, vor allem den August.",
-    exampleTranslation: "I like summer, above all August.",
-    thema: "Grammatik",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "phrase",
+    synonyms: {
+      B1: ["die Unsicherheit"],
+    },
   },
   {
     id: 4132,
@@ -15302,6 +17910,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["festlegen"],
+      B1: ["entscheiden"],
+    },
   },
   {
     id: 4133,
@@ -15315,6 +17927,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Achtsamkeit"],
+      B2: ["die Behutsamkeit"],
+    },
   },
   {
     id: 4134,
@@ -15329,6 +17945,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Sinn",
+    synonyms: {
+      B1: ["zwecklos"],
+      B2: ["vergeblich"],
+    },
   },
   {
     id: 4135,
@@ -15343,6 +17963,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "checken",
+    synonyms: {
+      A2: ["prüfen"],
+      B1: ["kontrollieren"],
+    },
   },
   {
     id: 4136,
@@ -15357,6 +17981,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "zweifeln",
+    synonyms: {
+      B1: ["anzweifeln"],
+    },
   },
   {
     id: 4137,
@@ -15371,6 +17998,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "lösen",
+    synonyms: {
+      A2: ["klären"],
+      B1: ["entwirren"],
+      B2: ["beheben"],
+    },
   },
   {
     id: 4138,
@@ -15384,6 +18016,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["beschließen"],
+      B1: ["sich festlegen"],
+    },
   },
   {
     id: 4139,
@@ -15410,6 +18046,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Fleisch vom Rind"],
+    },
   },
   {
     id: 4141,
@@ -15423,6 +18062,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["ungefähr"],
+      B1: ["circa"],
+    },
   },
   {
     id: 4142,
@@ -15436,6 +18079,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Backofen"],
+    },
   },
   {
     id: 4143,
@@ -15449,6 +18095,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Antwort"],
+      B2: ["die Rückmeldung"],
+    },
   },
   {
     id: 4144,
@@ -15462,6 +18112,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Bahn"],
+    },
   },
   {
     id: 4145,
@@ -15475,6 +18128,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["verantwortlich"],
+      B1: ["betraut"],
+    },
   },
   {
     id: 4146,
@@ -15489,6 +18146,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Portal",
+    synonyms: {
+      B1: ["die Webseite"],
+    },
   },
   {
     id: 4147,
@@ -15503,6 +18163,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Hilfskraft"],
+      B2: ["die Zeitarbeiter"],
+    },
   },
   {
     id: 4148,
@@ -15517,6 +18181,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Portal",
+    synonyms: {
+      B1: ["die Stellenbörse"],
+    },
   },
   {
     id: 4149,
@@ -15530,6 +18197,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["und"],
+      B1: ["zuzüglich"],
+    },
   },
   {
     id: 4150,
@@ -15557,20 +18228,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "bieten",
-  },
-  {
-    id: 4152,
-    word: "sprechen über",
-    translation: "to talk about",
-    definition: "Ein Gespräch über ein bestimmtes Thema führen.",
-    example: "Wir müssen über deine Zukunft sprechen.",
-    exampleTranslation: "We need to talk about your future.",
-    thema: "Kommunikation",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
-    family: "sprechen",
+    synonyms: {
+      A2: ["anbieten"],
+      B1: ["präsentieren"],
+    },
   },
   {
     id: 4153,
@@ -15585,6 +18246,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "wickeln",
+    synonyms: {
+      A2: ["ausarbeiten"],
+      B1: ["entfalten"],
+      B2: ["entfalten"],
+    },
   },
   {
     id: 4154,
@@ -15598,6 +18264,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Audionachricht"],
+    },
   },
   {
     id: 4155,
@@ -15611,6 +18280,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["gerecht"],
+      B2: ["rechtmäßig"],
+    },
   },
   {
     id: 4156,
@@ -15624,6 +18297,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["nebenher arbeiten"],
+    },
   },
   {
     id: 4157,
@@ -15637,6 +18313,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["beweglich"],
+      B1: ["wandlungsfähig"],
+      B2: ["anpassungsfähig"],
+    },
   },
   {
     id: 4158,
@@ -15650,6 +18331,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Ideennetz"],
+    },
   },
   {
     id: 4159,
@@ -15663,6 +18347,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["einschließlich"],
+      B1: ["mit"],
+    },
   },
   {
     id: 4160,
@@ -15676,6 +18364,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Wort"],
+      B2: ["der Terminus"],
+    },
   },
   {
     id: 4161,
@@ -15689,6 +18381,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Tagung"],
+      B2: ["das Symposium"],
+    },
   },
   {
     id: 4162,
@@ -15703,6 +18399,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "handeln",
+    synonyms: {
+      A2: ["machen"],
+      B1: ["vorgehen"],
+      B2: ["wirtschaften"],
+    },
   },
   {
     id: 4163,
@@ -15729,6 +18430,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Weiterbildung"],
+      B2: ["die Schulung"],
+    },
   },
   {
     id: 4165,
@@ -15742,6 +18447,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["jetzt"],
+      B1: ["derzeit"],
+      B2: ["aktuell"],
+    },
   },
   {
     id: 4166,
@@ -15755,6 +18465,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Entlassung"],
+    },
   },
   {
     id: 4167,
@@ -15769,6 +18482,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "sprechen",
+    synonyms: {
+      A2: ["reden über"],
+      B1: ["erörtern"],
+      B2: ["thematisieren"],
+    },
   },
   {
     id: 4168,
@@ -15783,6 +18501,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Forschungszentrum"],
+    },
   },
   {
     id: 4169,
@@ -15796,6 +18517,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Sprache"],
+    },
   },
   {
     id: 4170,
@@ -15809,6 +18533,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Magazin"],
+      B2: ["das Depot"],
+    },
   },
   {
     id: 4171,
@@ -15822,6 +18550,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["benutzen"],
+      B1: ["handhaben"],
+    },
   },
   {
     id: 4172,
@@ -15835,6 +18567,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Buchverlag"],
+    },
   },
   {
     id: 4173,
@@ -15848,6 +18583,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["meistens"],
+      B1: ["gewöhnlich"],
+      B2: ["üblicherweise"],
+    },
   },
   {
     id: 4174,
@@ -15862,6 +18602,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "lohnen",
+    synonyms: {
+      A2: ["das Gehalt"],
+      B1: ["der Verdienst"],
+    },
   },
   {
     id: 4175,
@@ -15875,6 +18619,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["circa"],
+      B1: ["etwa"],
+      B2: ["annähernd"],
+    },
   },
   {
     id: 4176,
@@ -15888,6 +18637,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Auszubildende"],
+    },
   },
   {
     id: 4177,
@@ -15901,6 +18653,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Tätigkeit"],
+    },
   },
   {
     id: 4178,
@@ -15915,6 +18670,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Meister",
+    synonyms: {
+      B1: ["der Handwerksmeister"],
+    },
   },
   {
     id: 4179,
@@ -15928,6 +18686,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["Make-up auftragen"],
+    },
   },
   {
     id: 4180,
@@ -15941,6 +18702,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Schichtdienst"],
+    },
   },
   {
     id: 4181,
@@ -15954,6 +18718,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["nadeln"],
+    },
   },
   {
     id: 4182,
@@ -15968,6 +18735,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Halbtagsstelle"],
+    },
   },
   {
     id: 4183,
@@ -15981,6 +18751,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Blasinstrument"],
+    },
   },
   {
     id: 4184,
@@ -15994,6 +18767,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Mehrarbeit"],
+    },
   },
   {
     id: 4185,
@@ -16007,6 +18783,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["schlecht"],
+      B1: ["ablehnend"],
+    },
   },
   {
     id: 4186,
@@ -16022,6 +18802,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "weiterbilden",
+    synonyms: {
+      B1: ["sich fortbilden"],
+    },
   },
   {
     id: 4187,
@@ -16035,6 +18818,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["gut"],
+      B1: ["bejahend"],
+    },
   },
   {
     id: 4188,
@@ -16050,6 +18837,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "erfahren",
+    synonyms: {
+      B1: ["die Arbeitserfahrung"],
+    },
   },
   {
     id: 4189,
@@ -16063,6 +18853,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Fremde"],
+    },
   },
   {
     id: 4190,
@@ -16076,6 +18869,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Rechtsanwalt"],
+      B2: ["der Jurist"],
+    },
   },
   {
     id: 4191,
@@ -16103,6 +18900,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Rechtsanwältin"],
+      B2: ["die Juristin"],
+    },
   },
   {
     id: 4193,
@@ -16116,6 +18917,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Training"],
+      B2: ["die Aufgabe"],
+    },
   },
   {
     id: 4194,
@@ -16130,6 +18935,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Professor",
+    synonyms: {
+      B1: ["der Hochschullehrer"],
+    },
   },
   {
     id: 4195,
@@ -16143,6 +18951,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Clip"],
+    },
   },
   {
     id: 4196,
@@ -16157,6 +18968,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Professor",
+    synonyms: {
+      B1: ["die Hochschullehrerin"],
+    },
   },
   {
     id: 4197,
@@ -16170,6 +18984,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["notieren"],
+    },
   },
   {
     id: 4198,
@@ -16184,6 +19001,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Richter",
+    synonyms: {
+      B1: ["der Vorsitzende"],
+    },
   },
   {
     id: 4199,
@@ -16198,6 +19018,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Zeug",
+    synonyms: {
+      A2: ["das Ding"],
+      B1: ["der Gegenstand"],
+    },
   },
   {
     id: 4200,
@@ -16212,6 +19036,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Richter",
+    synonyms: {
+      B1: ["die Vorsitzende"],
+    },
   },
   {
     id: 4201,
@@ -16225,6 +19052,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Bienenhonig"],
+    },
   },
   {
     id: 4202,
@@ -16240,6 +19070,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "sozial",
+    synonyms: {
+      B1: ["der Sozialpädagoge"],
+      B2: ["der Fürsorger"],
+    },
   },
   {
     id: 4203,
@@ -16253,6 +19087,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Dekoration"],
+      B1: ["der Zierrat"],
+    },
   },
   {
     id: 4204,
@@ -16267,6 +19105,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "sozial",
+    synonyms: {
+      B1: ["die Sozialpädagogin"],
+      B2: ["die Fürsorgerin"],
+    },
   },
   {
     id: 4205,
@@ -16280,6 +19122,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["nehmen"],
+      B1: ["verdienen"],
+      B2: ["vereinnahmen"],
+    },
   },
   {
     id: 4206,
@@ -16294,6 +19141,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Kinderbetreuerin"],
+      B2: ["die Tagespflegerin"],
+    },
   },
   {
     id: 4207,
@@ -16307,6 +19158,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Würze"],
+    },
   },
   {
     id: 4208,
@@ -16320,6 +19174,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Kinderbetreuer"],
+      B2: ["der Tagespfleger"],
+    },
   },
   {
     id: 4209,
@@ -16333,6 +19191,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["voll"],
+      B1: ["gesättigt"],
+    },
   },
   {
     id: 4210,
@@ -16347,6 +19209,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "übersetzen",
+    synonyms: {
+      B1: ["der Dolmetscher"],
+    },
   },
   {
     id: 4211,
@@ -16360,6 +19225,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Licht"],
+    },
   },
   {
     id: 4212,
@@ -16374,6 +19242,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "übersetzen",
+    synonyms: {
+      B1: ["die Dolmetscherin"],
+    },
   },
   {
     id: 4213,
@@ -16387,6 +19258,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Himmelskörper"],
+    },
   },
   {
     id: 4214,
@@ -16400,6 +19274,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Arbeitsamt"],
+    },
   },
   {
     id: 4215,
@@ -16413,6 +19290,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Verkleidung"],
+      B2: ["die Maskierung"],
+    },
   },
   {
     id: 4216,
@@ -16427,6 +19308,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "wirken",
+    synonyms: {
+      B1: ["die Realität"],
+      B2: ["die Tatsache"],
+    },
   },
   {
     id: 4217,
@@ -16440,6 +19325,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Fastnacht", "der Karneval"],
+    },
   },
   {
     id: 4218,
@@ -16453,6 +19341,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Heimarbeit"],
+      B2: ["das mobile Arbeiten"],
+    },
   },
   {
     id: 4219,
@@ -16466,6 +19358,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["mit"],
+      B1: ["durch"],
+    },
   },
   {
     id: 4220,
@@ -16479,6 +19375,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Pause"],
+    },
   },
   {
     id: 4221,
@@ -16492,6 +19391,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Bemerkung"],
+      B2: ["die Anmerkung"],
+    },
   },
   {
     id: 4222,
@@ -16518,6 +19421,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["sicher"],
+      B1: ["gewiss"],
+      B2: ["zweifellos"],
+    },
   },
   {
     id: 4224,
@@ -16531,6 +19439,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Gruppenarbeit"],
+      B2: ["die Zusammenarbeit"],
+    },
   },
   {
     id: 4225,
@@ -16544,6 +19456,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["dünner werden"],
+      B1: ["Gewicht verlieren"],
+      B2: ["schlanker werden"],
+    },
   },
   {
     id: 4226,
@@ -16558,6 +19475,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Verantwortung",
+    synonyms: {
+      B1: ["die Pflicht"],
+      B2: ["die Zuständigkeit"],
+    },
   },
   {
     id: 4227,
@@ -16571,6 +19492,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Atelier"],
+    },
   },
   {
     id: 4228,
@@ -16585,6 +19509,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "weiterbilden",
+    synonyms: {
+      B1: ["die Fortbildung"],
+      B2: ["die Schulung"],
+    },
   },
   {
     id: 4229,
@@ -16598,6 +19526,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Zigarre"],
+      B2: ["das Tabakprodukt"],
+    },
   },
   {
     id: 4230,
@@ -16611,6 +19543,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Laufbahn"],
+      B2: ["der Werdegang"],
+    },
   },
   {
     id: 4231,
@@ -16625,6 +19561,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Blick",
+    synonyms: {
+      A2: ["die Aussicht"],
+      B1: ["der Ausblick"],
+    },
   },
   {
     id: 4232,
@@ -16639,6 +19579,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "phrase",
     family: "machen",
+    synonyms: {
+      B1: ["aufsteigen"],
+    },
   },
   {
     id: 4233,
@@ -16653,6 +19596,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "beitragen",
+    synonyms: {
+      B1: ["der Artikel"],
+      B2: ["der Eintrag"],
+    },
   },
   {
     id: 4234,
@@ -16666,6 +19613,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Tau"],
+      B2: ["die Leine"],
+    },
   },
   {
     id: 4235,
@@ -16679,6 +19630,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["antworten"],
+      B1: ["entgegnen"],
+      B2: ["erwidern"],
+    },
   },
   {
     id: 4236,
@@ -16693,6 +19649,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Terrasse",
+    synonyms: {
+      B1: ["der Dachgarten"],
+    },
   },
   {
     id: 4237,
@@ -16707,6 +19666,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Ausdruck",
+    synonyms: {
+      B1: ["die Formulierung"],
+      B2: ["die Wendung"],
+    },
   },
   {
     id: 4238,
@@ -16720,6 +19683,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["arbeiten als"],
+      B2: ["wirken als"],
+    },
   },
   {
     id: 4239,
@@ -16734,20 +19701,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Grund",
-  },
-  {
-    id: 4240,
-    word: "das Stellenangebot, -e",
-    translation: "job offer, job vacancy",
-    definition: "Ein Angebot einer Firma für einen freien Arbeitsplatz.",
-    example: "In der Zeitung habe ich ein tolles Stellenangebot gefunden.",
-    exampleTranslation: "I found a great job offer in the newspaper.",
-    thema: "Arbeit",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
-    family: "das Angebot",
+    synonyms: {
+      A2: ["die Ursache"],
+      B1: ["das Motiv"],
+    },
   },
   {
     id: 4241,
@@ -16762,6 +19719,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Hausmeister",
+    synonyms: {
+      B1: ["der Verwalter"],
+      B2: ["der Gebäudewart"],
+    },
   },
   {
     id: 4242,
@@ -16789,6 +19750,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Hausmeister",
+    synonyms: {
+      B1: ["die Verwalterin"],
+      B2: ["die Gebäudewartin"],
+    },
   },
   {
     id: 4244,
@@ -16802,6 +19767,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Wunschjob"],
+    },
   },
   {
     id: 4245,
@@ -16816,6 +19784,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "leiten",
+    synonyms: {
+      A2: ["führen"],
+      B1: ["anführen"],
+      B2: ["vorstehen"],
+    },
   },
   {
     id: 4246,
@@ -16829,6 +19802,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Fortsetzung der Reise"],
+    },
   },
   {
     id: 4247,
@@ -16843,6 +19819,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Freude",
+    synonyms: {
+      A2: ["der Spaß"],
+      B1: ["die Begeisterung"],
+    },
   },
   {
     id: 4248,
@@ -16857,6 +19837,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "wickeln",
+    synonyms: {
+      A2: ["die Veränderung"],
+      B1: ["der Fortschritt"],
+    },
   },
   {
     id: 4249,
@@ -16870,6 +19854,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["nett"],
+      B1: ["zuvorkommend"],
+      B2: ["zurückhaltend"],
+    },
   },
   {
     id: 4250,
@@ -16884,6 +19873,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Event",
+    synonyms: {
+      B1: ["die Veranstaltung"],
+    },
   },
   {
     id: 4251,
@@ -16897,6 +19889,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["sich anhören"],
+    },
   },
   {
     id: 4252,
@@ -16910,6 +19905,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["langjährig"],
+    },
   },
   {
     id: 4253,
@@ -16923,6 +19921,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Bestellung"],
+      B2: ["die Aufgabe"],
+    },
   },
   {
     id: 4254,
@@ -16937,6 +19939,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Kenntnisse",
+    synonyms: {
+      B1: ["das Wissen"],
+      B2: ["die Fachkenntnisse"],
+    },
   },
   {
     id: 4255,
@@ -16950,6 +19956,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["unangenehm"],
+      B1: ["beschämend"],
+    },
   },
   {
     id: 4256,
@@ -16964,6 +19974,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Kenntnisse",
+    synonyms: {
+      B1: ["die Sprachkenntnisse in Englisch"],
+    },
   },
   {
     id: 4257,
@@ -16977,20 +19990,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 4258,
-    word: "erforderlich",
-    translation: "required, necessary",
-    definition: "Nötig, sodass man es braucht.",
-    example: "Für den Kurs sind Vorkenntnisse erforderlich.",
-    exampleTranslation: "Prior knowledge is required for the course.",
-    thema: "Arbeit",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
-    family: "erfordern",
+    synonyms: {
+      A2: ["am Ende"],
+    },
   },
   {
     id: 4259,
@@ -17005,6 +20007,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "einrichten",
+    synonyms: {
+      B1: ["die Möblierung"],
+    },
   },
   {
     id: 4260,
@@ -17018,6 +20023,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Vermarktung"],
+      B2: ["das Absatzwesen"],
+    },
   },
   {
     id: 4261,
@@ -17031,6 +20040,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Sofa"],
+    },
   },
   {
     id: 4262,
@@ -17044,6 +20056,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["zeitlich begrenzt"],
+      B2: ["terminiert"],
+    },
   },
   {
     id: 4263,
@@ -17058,6 +20074,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Polster"],
+    },
   },
   {
     id: 4264,
@@ -17071,6 +20090,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Verpflegung"],
+      B2: ["der Partyservice"],
+    },
   },
   {
     id: 4265,
@@ -17084,6 +20107,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Auslegeware"],
+    },
   },
   {
     id: 4266,
@@ -17097,6 +20123,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Willigkeit"],
+      B2: ["die Zuwendung"],
+    },
   },
   {
     id: 4267,
@@ -17111,6 +20141,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "sprechen",
+    synonyms: {
+      B1: ["das Meeting"],
+      B2: ["die Sitzung"],
+    },
   },
   {
     id: 4268,
@@ -17125,6 +20159,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "schreiben",
+    synonyms: {
+      B1: ["das Bewerbungsschreiben"],
+    },
   },
   {
     id: 4269,
@@ -17138,6 +20175,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Aufgabe"],
+      B2: ["die Beschäftigung"],
+    },
   },
   {
     id: 4270,
@@ -17152,6 +20193,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "führen",
+    synonyms: {
+      B1: ["die Leitung"],
+      B2: ["die Direktion"],
+    },
   },
   {
     id: 4271,
@@ -17166,6 +20211,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "gründen",
+    synonyms: {
+      B1: ["aufbauen"],
+      B2: ["ins Leben rufen"],
+    },
   },
   {
     id: 4272,
@@ -17180,6 +20229,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "fordern",
+    synonyms: {
+      B1: ["die Aufgabe"],
+      B2: ["die Bewährungsprobe"],
+    },
   },
   {
     id: 4273,
@@ -17194,6 +20247,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Erfolg",
+    synonyms: {
+      B1: ["das Gelingen"],
+    },
   },
   {
     id: 4274,
@@ -17208,6 +20264,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Qualifikation",
+    synonyms: {
+      B1: ["die Eignung"],
+      B2: ["die Befähigung"],
+    },
   },
   {
     id: 4275,
@@ -17222,20 +20282,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "fest",
-  },
-  {
-    id: 4276,
-    word: "die Kundenbetreuung",
-    translation: "customer support",
-    definition: "Der Service und die Betreuung von Kunden.",
-    example: "Sie arbeitet im Bereich Kundenservice und Kundenbetreuung.",
-    exampleTranslation: "She works in customer service and customer support.",
-    thema: "Arbeit",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
-    family: "betreuen",
+    synonyms: {
+      A2: ["stabil"],
+      B1: ["stark"],
+      B2: ["beständig"],
+    },
   },
   {
     id: 4277,
@@ -17250,6 +20301,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "voll",
+    synonyms: {
+      B1: ["die Ganztagsstelle"],
+    },
   },
   {
     id: 4278,
@@ -17264,6 +20318,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Kenntnisse",
+    synonyms: {
+      B1: ["die PC-Kenntnisse"],
+    },
   },
   {
     id: 4279,
@@ -17277,6 +20334,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["zuständig"],
+      B2: ["haftbar"],
+    },
   },
   {
     id: 4280,
@@ -17290,6 +20351,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Beilage"],
+      B2: ["der Zusatz"],
+    },
   },
   {
     id: 4281,
@@ -17304,6 +20369,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "eröffnen",
+    synonyms: {
+      B1: ["die Einweihung"],
+      B2: ["die Premiere"],
+    },
   },
   {
     id: 4282,
@@ -17317,6 +20386,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["und"],
+      B1: ["außerdem"],
+      B2: ["desgleichen"],
+    },
   },
   {
     id: 4283,
@@ -17331,6 +20405,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Fotograf",
+    synonyms: {
+      B1: ["das Fotografieren"],
+    },
   },
   {
     id: 4284,
@@ -17344,6 +20421,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Bescheinigung"],
+      B2: ["der Nachweis"],
+    },
   },
   {
     id: 4285,
@@ -17357,6 +20438,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Reihe"],
+    },
   },
   {
     id: 4286,
@@ -17370,6 +20454,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["beilegen", "anhängen"],
+    },
   },
   {
     id: 4287,
@@ -17384,6 +20471,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Bürger",
+    synonyms: {
+      B1: ["der Einwohner"],
+    },
   },
   {
     id: 4288,
@@ -17397,6 +20487,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["passen zu"],
+      B1: ["taugen für"],
+    },
   },
   {
     id: 4289,
@@ -17411,6 +20505,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Bürger",
+    synonyms: {
+      B1: ["die Einwohnerin"],
+    },
   },
   {
     id: 4290,
@@ -17424,6 +20521,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["wissen über"],
+      B1: ["Bescheid wissen"],
+    },
   },
   {
     id: 4291,
@@ -17438,6 +20539,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Rede",
+    synonyms: {
+      B1: ["der Vortrag"],
+      B2: ["die Ansprache"],
+    },
   },
   {
     id: 4292,
@@ -17453,6 +20558,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Projektmanager",
+    synonyms: {
+      B2: ["der Projektleiter"],
+    },
   },
   {
     id: 4293,
@@ -17466,6 +20574,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Zusatzunterricht"],
+    },
   },
   {
     id: 4294,
@@ -17480,6 +20591,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Projektmanager",
+    synonyms: {
+      B2: ["die Projektleiterin"],
+    },
   },
   {
     id: 4295,
@@ -17493,6 +20607,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Erlebnis"],
+      B2: ["das Wagnis"],
+    },
   },
   {
     id: 4296,
@@ -17507,6 +20625,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Assistent",
+    synonyms: {
+      B1: ["der Mitarbeiter"],
+      B2: ["der Gehilfe"],
+    },
   },
   {
     id: 4297,
@@ -17520,20 +20642,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 4298,
-    word: "die Assistentin, -nen",
-    translation: "female assistant",
-    definition: "Eine weibliche Hilfskraft.",
-    example: "Die Assistentin beantwortet die Anrufe.",
-    exampleTranslation: "The female assistant answers the calls.",
-    thema: "Arbeit",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
-    family: "der Assistent",
+    synonyms: {
+      B1: ["die Turnübung"],
+    },
   },
   {
     id: 4299,
@@ -17547,6 +20658,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Elektrorad"],
+    },
   },
   {
     id: 4300,
@@ -17560,6 +20674,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Sekretärin"],
+      B2: ["die Verwaltungsangestellte"],
+    },
   },
   {
     id: 4301,
@@ -17586,6 +20704,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Sekretär"],
+      B2: ["der Verwaltungsangestellte"],
+    },
   },
   {
     id: 4303,
@@ -17599,6 +20721,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Verkehrsstau"],
+      B1: ["die Verkehrsstockung"],
+    },
   },
   {
     id: 4304,
@@ -17612,6 +20738,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["zusammen"],
+      B1: ["gemeinsam"],
+    },
   },
   {
     id: 4305,
@@ -17626,6 +20756,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "öffentlich",
+    synonyms: {
+      B1: ["allgemein zugänglich"],
+      B2: ["amtlich"],
+    },
   },
   {
     id: 4306,
@@ -17639,6 +20773,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Nachteil ↔ der Vorteil"],
+    },
   },
   {
     id: 4307,
@@ -17653,6 +20790,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "mobil",
+    synonyms: {
+      A2: ["beweglich"],
+      B1: ["unterwegs"],
+    },
   },
   {
     id: 4308,
@@ -17666,6 +20807,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Verlässlichkeit"],
+    },
   },
   {
     id: 4309,
@@ -17682,6 +20826,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Klima",
+    synonyms: {
+      B1: ["die Kühlanlage"],
+    },
   },
   {
     id: 4310,
@@ -17696,6 +20843,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Druck",
+    synonyms: {
+      B1: ["die Wirkung"],
+      B2: ["die Ausstrahlung"],
+    },
   },
   {
     id: 4311,
@@ -17709,6 +20860,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["perfekt"],
+      B1: ["optimal"],
+    },
   },
   {
     id: 4312,
@@ -17735,6 +20890,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Weg"],
+      B1: ["die Entfernung"],
+    },
   },
   {
     id: 4314,
@@ -17749,6 +20908,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Gesichtsausdruck"],
+    },
   },
   {
     id: 4315,
@@ -17762,6 +20924,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Frost"],
+      B1: ["die Kühle"],
+    },
   },
   {
     id: 4316,
@@ -17775,6 +20941,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Handbewegungen"],
+    },
   },
   {
     id: 4317,
@@ -17788,6 +20957,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Wärme"],
+    },
   },
   {
     id: 4318,
@@ -17802,6 +20974,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "vorbereiten",
+    synonyms: {
+      B1: ["die Planung"],
+      B2: ["die Vorkehrung"],
+    },
   },
   {
     id: 4319,
@@ -17815,6 +20991,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["laut lesen"],
+    },
   },
   {
     id: 4320,
@@ -17829,6 +21008,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "ehrlich",
+    synonyms: {
+      B1: ["die Aufrichtigkeit"],
+      B2: ["die Redlichkeit"],
+    },
   },
   {
     id: 4321,
@@ -17842,6 +21025,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["gleich"],
+      B1: ["vergleichbar"],
+      B2: ["verwandt"],
+    },
   },
   {
     id: 4322,
@@ -17855,6 +21043,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["kommend"],
+      B2: ["künftig"],
+    },
   },
   {
     id: 4323,
@@ -17868,6 +21060,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["skeptisch"],
+      B2: ["prüfend"],
+    },
   },
   {
     id: 4324,
@@ -17881,6 +21077,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Kompetenz"],
+      B2: ["das Vermögen"],
+    },
   },
   {
     id: 4325,
@@ -17894,6 +21094,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Möglichkeit"],
+      B2: ["die Gelegenheit"],
+    },
   },
   {
     id: 4326,
@@ -17908,6 +21112,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "vorstellen",
+    synonyms: {
+      B1: ["das Bewerbungsgespräch"],
+      B2: ["die Präsentation"],
+    },
   },
   {
     id: 4327,
@@ -17922,6 +21130,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Schritt",
+    synonyms: {
+      A2: ["die Verbesserung"],
+      B1: ["die Entwicklung"],
+    },
   },
   {
     id: 4328,
@@ -17936,6 +21148,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "gehen",
+    synonyms: {
+      B1: ["betreffen"],
+    },
   },
   {
     id: 4329,
@@ -17951,6 +21166,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Fußgänger",
+    synonyms: {
+      B1: ["der Passant"],
+    },
   },
   {
     id: 4330,
@@ -17964,6 +21182,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["feststellen"],
+      B1: ["ermitteln"],
+      B2: ["ergründen"],
+    },
   },
   {
     id: 4331,
@@ -17978,6 +21201,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Fußgänger",
+    synonyms: {
+      B1: ["die Passantin"],
+    },
   },
   {
     id: 4332,
@@ -17991,6 +21217,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["derartig"],
+    },
   },
   {
     id: 4333,
@@ -18005,6 +21234,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "mobil",
+    synonyms: {
+      B1: ["die Beweglichkeit"],
+    },
   },
   {
     id: 4334,
@@ -18020,6 +21252,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "treten",
+    synonyms: {
+      A2: ["vorkommen"],
+      B1: ["erscheinen"],
+      B2: ["in Erscheinung treten"],
+    },
   },
   {
     id: 4335,
@@ -18034,6 +21271,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Schrift",
+    synonyms: {
+      B1: ["der Titel"],
+    },
   },
   {
     id: 4336,
@@ -18047,6 +21287,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["fragen"],
+      B1: ["nachfragen"],
+      B2: ["Auskunft einholen"],
+    },
   },
   {
     id: 4337,
@@ -18060,6 +21305,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Spielzeug"],
+      B1: ["die Gliederpuppe"],
+    },
   },
   {
     id: 4338,
@@ -18074,6 +21323,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "wirken",
+    synonyms: {
+      A2: ["scheinen"],
+      B1: ["erscheinen"],
+    },
   },
   {
     id: 4339,
@@ -18089,6 +21342,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "erleben",
+    synonyms: {
+      A2: ["mitmachen"],
+      B1: ["durchleben"],
+    },
   },
   {
     id: 4340,
@@ -18102,6 +21359,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["gültig sein"],
+      B2: ["Geltung haben"],
+    },
   },
   {
     id: 4341,
@@ -18115,6 +21376,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Schloss"],
+      B2: ["die Festung"],
+    },
   },
   {
     id: 4342,
@@ -18129,6 +21394,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "erfordern",
+    synonyms: {
+      A2: ["verlangen"],
+      B1: ["benötigen"],
+      B2: ["voraussetzen"],
+    },
   },
   {
     id: 4343,
@@ -18143,6 +21413,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "schauen",
+    synonyms: {
+      A2: ["sehen"],
+      B1: ["beobachten"],
+    },
   },
   {
     id: 4344,
@@ -18157,6 +21431,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Sportler",
+    synonyms: {
+      B1: ["der Athlet"],
+    },
   },
   {
     id: 4345,
@@ -18171,6 +21448,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "stimmen",
+    synonyms: {
+      B1: ["die Einwilligung"],
+      B2: ["die Billigung"],
+    },
   },
   {
     id: 4346,
@@ -18185,6 +21466,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Sportler",
+    synonyms: {
+      B1: ["die Athletin"],
+    },
   },
   {
     id: 4347,
@@ -18198,6 +21482,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Dunst"],
+      B2: ["der Dunstschleier"],
+    },
   },
   {
     id: 4348,
@@ -18212,6 +21500,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "bewegen",
+    synonyms: {
+      A2: ["Sport treiben"],
+      B1: ["sich fit halten"],
+    },
   },
   {
     id: 4349,
@@ -18225,6 +21517,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["rutschig"],
+      B1: ["eben"],
+    },
   },
   {
     id: 4350,
@@ -18239,6 +21535,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "anstrengen",
+    synonyms: {
+      B1: ["sich bemühen"],
+    },
   },
   {
     id: 4351,
@@ -18266,6 +21565,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Fitnessprogramm"],
+    },
   },
   {
     id: 4353,
@@ -18294,6 +21596,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "phrase",
     family: "machen",
+    synonyms: {
+      B1: ["trainieren"],
+    },
   },
   {
     id: 4355,
@@ -18308,19 +21613,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Region",
-  },
-  {
-    id: 4356,
-    word: "der Muskel, -n",
-    translation: "muscle",
-    definition: "Das Gewebe für körperliche Bewegung.",
-    example: "Nach dem Training spüre ich meine Muskeln.",
-    exampleTranslation: "After training I feel my muscles.",
-    thema: "Gesundheit",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      B1: ["das Gebiet"],
+      B2: ["die Gegend"],
+    },
   },
   {
     id: 4357,
@@ -18335,6 +21631,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Imbissbude"],
+    },
   },
   {
     id: 4358,
@@ -18348,6 +21647,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Kraft aufbauen"],
+    },
   },
   {
     id: 4359,
@@ -18362,20 +21664,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Wunder",
-  },
-  {
-    id: 4360,
-    word: "das Krafttraining, -s",
-    translation: "strength training",
-    definition: "Training mit Gewichten für mehr Kraft.",
-    example: "Krafttraining ist gut für den Rücken.",
-    exampleTranslation: "Strength training is good for the back.",
-    thema: "Freizeit",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
-    family: "die Kraft",
+    synonyms: {
+      A2: ["herrlich"],
+      B1: ["traumhaft"],
+      B2: ["prachtvoll"],
+    },
   },
   {
     id: 4361,
@@ -18390,6 +21683,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Einrichtung"],
+      B2: ["der Verband"],
+    },
   },
   {
     id: 4362,
@@ -18404,6 +21701,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "wetten",
+    synonyms: {
+      B1: ["die Konkurrenz"],
+      B2: ["der Wettbewerb"],
+    },
   },
   {
     id: 4363,
@@ -18417,6 +21718,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Nachricht"],
+      B1: ["die Reportage"],
+    },
   },
   {
     id: 4364,
@@ -18431,6 +21736,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "phrase",
     family: "teilnehmen",
+    synonyms: {
+      B1: ["mitmachen bei einem Wettkampf"],
+    },
   },
   {
     id: 4365,
@@ -18444,6 +21752,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Bereich"],
+      B2: ["die Sparte"],
+    },
   },
   {
     id: 4366,
@@ -18458,6 +21770,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Meister",
+    synonyms: {
+      B1: ["der Wettbewerb"],
+    },
   },
   {
     id: 4367,
@@ -18472,6 +21787,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "stimmen",
+    synonyms: {
+      B1: ["die Atmosphäre"],
+      B2: ["das Klima"],
+    },
   },
   {
     id: 4368,
@@ -18486,6 +21805,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Erfolg"],
+    },
   },
   {
     id: 4369,
@@ -18501,6 +21823,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "mitten",
+    synonyms: {
+      A2: ["in der Mitte"],
+    },
   },
   {
     id: 4370,
@@ -18514,6 +21839,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Erster sein"],
+    },
   },
   {
     id: 4371,
@@ -18527,6 +21855,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["zu essen geben"],
+      B1: ["ernähren"],
+    },
   },
   {
     id: 4372,
@@ -18540,6 +21872,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Goal"],
+    },
   },
   {
     id: 4373,
@@ -18554,6 +21889,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Raubkatzenkönig"],
+    },
   },
   {
     id: 4374,
@@ -18568,6 +21906,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "schießen",
+    synonyms: {
+      A2: ["werfen"],
+      B1: ["schleudern"],
+    },
   },
   {
     id: 4375,
@@ -18581,6 +21923,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["zusammenzucken"],
+      B2: ["aufschrecken"],
+    },
   },
   {
     id: 4376,
@@ -18595,6 +21941,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "phrase",
     family: "schießen",
+    synonyms: {
+      B1: ["treffen"],
+    },
   },
   {
     id: 4377,
@@ -18608,6 +21957,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["rufen"],
+      B1: ["brüllen"],
+      B2: ["kreischen"],
+    },
   },
   {
     id: 4378,
@@ -18621,6 +21975,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Lieblingsteam"],
+    },
   },
   {
     id: 4379,
@@ -18634,6 +21991,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Rahm"],
+    },
   },
   {
     id: 4380,
@@ -18647,6 +22007,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["tapfer"],
+      B1: ["furchtlos"],
+      B2: ["unerschrocken"],
+    },
   },
   {
     id: 4381,
@@ -18661,6 +22026,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "betreuen",
+    synonyms: {
+      A2: ["versorgen"],
+      B1: ["pflegen"],
+      B2: ["umsorgen"],
+    },
   },
   {
     id: 4382,
@@ -18675,6 +22045,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "wohl",
+    synonyms: {
+      A2: ["sich gut fühlen"],
+      B1: ["sich geborgen fühlen"],
+    },
   },
   {
     id: 4383,
@@ -18688,6 +22062,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["persönlich"],
+      B2: ["eigen"],
+    },
   },
   {
     id: 4384,
@@ -18701,6 +22079,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Disziplin"],
+    },
   },
   {
     id: 4385,
@@ -18714,6 +22095,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["privat"],
+      B1: ["eigen"],
+    },
   },
   {
     id: 4386,
@@ -18727,6 +22112,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["Puckspiel"],
+    },
   },
   {
     id: 4387,
@@ -18741,6 +22129,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Werk",
+    synonyms: {
+      B1: ["das Netz"],
+      B2: ["das Beziehungsgeflecht"],
+    },
   },
   {
     id: 4388,
@@ -18754,6 +22146,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["Strandvolleyball"],
+    },
   },
   {
     id: 4389,
@@ -18767,6 +22162,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Keyboard"],
+    },
   },
   {
     id: 4390,
@@ -18780,6 +22178,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["Bergsteigen"],
+    },
   },
   {
     id: 4391,
@@ -18793,6 +22194,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Bildschirm"],
+    },
   },
   {
     id: 4392,
@@ -18806,6 +22210,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["Schnorcheln"],
+    },
   },
   {
     id: 4393,
@@ -18820,19 +22227,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "fest",
-  },
-  {
-    id: 4394,
-    word: "Yoga",
-    translation: "yoga",
-    definition: "Indische Übungen für Körper und Geist.",
-    example: "Yoga hilft mir, mich nach der Arbeit zu entspannen.",
-    exampleTranslation: "Yoga helps me relax after work.",
-    thema: "Gesundheit",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      B1: ["das Laufwerk"],
+      B2: ["der Speicher"],
+    },
   },
   {
     id: 4395,
@@ -18847,6 +22245,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "sprechen",
+    synonyms: {
+      B1: ["die Box"],
+    },
   },
   {
     id: 4396,
@@ -18861,6 +22262,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "überzeugen",
+    synonyms: {
+      B1: ["überreden"],
+      B2: ["bekehren"],
+    },
   },
   {
     id: 4397,
@@ -18874,6 +22279,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Funkregler"],
+    },
   },
   {
     id: 4398,
@@ -18888,6 +22296,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["umstimmen"],
+      B2: ["überzeugen"],
+    },
   },
   {
     id: 4399,
@@ -18901,6 +22313,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["dadurch"],
+      B1: ["um zu"],
+    },
   },
   {
     id: 4400,
@@ -18914,6 +22330,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Verfahren"],
+      B2: ["die Methode"],
+    },
   },
   {
     id: 4401,
@@ -18927,6 +22347,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Batterie"],
+    },
   },
   {
     id: 4402,
@@ -18941,6 +22364,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Fitness",
+    synonyms: {
+      B1: ["das Trainingsprogramm"],
+    },
   },
   {
     id: 4403,
@@ -18955,6 +22381,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "digital",
+    synonyms: {
+      B1: ["elektronisch"],
+    },
   },
   {
     id: 4404,
@@ -18968,6 +22397,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Konditionstraining"],
+    },
   },
   {
     id: 4405,
@@ -18981,6 +22413,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["aber"],
+      B1: ["jedoch"],
+      B2: ["freilich"],
+    },
   },
   {
     id: 4406,
@@ -18995,6 +22432,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Lauf",
+    synonyms: {
+      B1: ["das Joggen"],
+    },
   },
   {
     id: 4407,
@@ -19008,6 +22448,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["entfernen"],
+      B1: ["streichen"],
+      B2: ["tilgen"],
+    },
   },
   {
     id: 4408,
@@ -19021,6 +22466,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Sporthalle"],
+    },
   },
   {
     id: 4409,
@@ -19035,6 +22483,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "schalten",
+    synonyms: {
+      A2: ["anmachen"],
+      B1: ["anstellen"],
+      B2: ["aktivieren"],
+    },
   },
   {
     id: 4410,
@@ -19049,6 +22502,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Nachbarschaft"],
+      B2: ["das Umfeld"],
+    },
   },
   {
     id: 4411,
@@ -19063,6 +22520,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Garantie",
+    synonyms: {
+      B1: ["die Gewähr"],
+    },
   },
   {
     id: 4412,
@@ -19076,6 +22536,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Möblierung"],
+      B2: ["die Ausrüstung"],
+    },
   },
   {
     id: 4413,
@@ -19089,6 +22553,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["anstatt"],
+      B1: ["anstelle von"],
+    },
   },
   {
     id: 4414,
@@ -19102,6 +22570,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Entspannungsbereich"],
+    },
   },
   {
     id: 4415,
@@ -19115,6 +22586,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Fachmann"],
+      B2: ["der Experte"],
+    },
   },
   {
     id: 4416,
@@ -19142,6 +22617,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Leitung"],
+    },
   },
   {
     id: 4418,
@@ -19155,6 +22633,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Probewoche"],
+    },
   },
   {
     id: 4419,
@@ -19168,6 +22649,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["laden"],
+    },
   },
   {
     id: 4420,
@@ -19183,6 +22667,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Mitglied",
+    synonyms: {
+      B1: ["die Zugehörigkeit"],
+    },
   },
   {
     id: 4421,
@@ -19196,20 +22683,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 4422,
-    word: "der Mitgliedsbeitrag, -beiträge",
-    translation: "membership fee",
-    definition: "Der regelmäßige Beitrag für eine Mitgliedschaft.",
-    example: "Der Mitgliedsbeitrag wird jährlich abgebucht.",
-    exampleTranslation: "The membership fee is debited annually.",
-    thema: "Finanzen",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
-    family: "beitragen",
+    synonyms: {
+      A2: ["finden"],
+      B1: ["herausfinden"],
+      B2: ["aufspüren"],
+    },
   },
   {
     id: 4423,
@@ -19223,6 +22701,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["umsonst", "kostenlos"],
+      B1: ["unentgeltlich"],
+    },
   },
   {
     id: 4424,
@@ -19237,6 +22719,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Monat",
+    synonyms: {
+      A2: ["jeden Monat"],
+    },
   },
   {
     id: 4425,
@@ -19250,6 +22735,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["einsetzen"],
+      B2: ["anbauen"],
+    },
   },
   {
     id: 4426,
@@ -19277,6 +22766,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Maler",
+    synonyms: {
+      B1: ["der Künstler"],
+    },
   },
   {
     id: 4428,
@@ -19291,6 +22783,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "voraus",
+    synonyms: {
+      B1: ["die Bedingung"],
+      B2: ["die Anforderung"],
+    },
   },
   {
     id: 4429,
@@ -19306,6 +22802,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Maler",
+    synonyms: {
+      B1: ["die Künstlerin"],
+    },
   },
   {
     id: 4430,
@@ -19320,6 +22819,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "steigen",
+    synonyms: {
+      A2: ["der Anfänger"],
+    },
   },
   {
     id: 4431,
@@ -19333,6 +22835,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Liste"],
+      B2: ["das Verzeichnis"],
+    },
   },
   {
     id: 4432,
@@ -19347,6 +22853,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "steigen",
+    synonyms: {
+      A2: ["die Anfängerin"],
+    },
   },
   {
     id: 4433,
@@ -19360,6 +22869,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Dachstuhl"],
+    },
   },
   {
     id: 4434,
@@ -19374,6 +22886,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Anfänger",
+    synonyms: {
+      B1: ["der Neuling"],
+    },
   },
   {
     id: 4435,
@@ -19387,6 +22902,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Einrichtung"],
+    },
   },
   {
     id: 4436,
@@ -19402,6 +22920,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Anfänger",
+    synonyms: {
+      B1: ["die Neueinsteigerin"],
+    },
   },
   {
     id: 4437,
@@ -19416,21 +22937,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 4438,
-    word: "der Senior, -en",
-    translation: "senior citizen, elderly person (male)",
-    definition: "Ein älterer Mann.",
-    example: "Im Verein gibt es auch spezielle Sportgruppen für Senioren.",
-    exampleTranslation:
-      "There are also special sports groups for seniors in the club.",
-    thema: "Gesellschaft",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
-    family: "der Senior",
+    synonyms: {
+      B1: ["einbauen"],
+      B2: ["einrichten"],
+    },
   },
   {
     id: 4439,
@@ -19444,21 +22954,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 4440,
-    word: "die Seniorin, -nen",
-    translation: "female senior citizen",
-    definition: "Eine ältere Frau.",
-    example: "Die Seniorin nimmt regelmäßig am Gymnastikkurs teil.",
-    exampleTranslation:
-      "The female senior regularly participates in the gymnastics class.",
-    thema: "Gesellschaft",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
-    family: "der Senior",
+    synonyms: {
+      A2: ["vor kurzem"],
+      B1: ["kürzlich"],
+    },
   },
   {
     id: 4441,
@@ -19472,6 +22971,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Pluspunkt"],
+      B1: ["der Gewinn"],
+    },
   },
   {
     id: 4442,
@@ -19486,6 +22989,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["erhöhen"],
+      B1: ["verstärken"],
+      B2: ["ausbauen"],
+    },
   },
   {
     id: 4443,
@@ -19500,6 +23008,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Minuspunkt"],
+      B2: ["die Kehrseite"],
+    },
   },
   {
     id: 4444,
@@ -19513,6 +23025,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["gemeinsam"],
+      B1: ["vermischt"],
+    },
   },
   {
     id: 4445,
@@ -19526,6 +23042,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["zusammen"],
+      B1: ["alles in allem"],
+      B2: ["summa summarum"],
+    },
   },
   {
     id: 4446,
@@ -19539,6 +23060,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Ausdehnung"],
+    },
   },
   {
     id: 4447,
@@ -19553,6 +23077,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "schlagen",
+    synonyms: {
+      A2: ["der Rat"],
+      B1: ["der Tipp"],
+    },
   },
   {
     id: 4448,
@@ -19566,6 +23094,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Durchgang"],
+      B2: ["die Runde"],
+    },
   },
   {
     id: 4449,
@@ -19579,6 +23111,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["richtig"],
+      B1: ["angemessen"],
+      B2: ["rechtmäßig"],
+    },
   },
   {
     id: 4450,
@@ -19592,6 +23129,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Plattenaufleger"],
+    },
   },
   {
     id: 4451,
@@ -19605,6 +23145,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["untersuchen"],
+      B2: ["auswerten"],
+    },
   },
   {
     id: 4452,
@@ -19618,6 +23162,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["Musik spielen"],
+    },
   },
   {
     id: 4453,
@@ -19631,6 +23178,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["sauber"],
+      B1: ["gepflegt"],
+      B2: ["gründlich"],
+    },
   },
   {
     id: 4454,
@@ -19644,6 +23196,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Mitmachen"],
+    },
   },
   {
     id: 4455,
@@ -19657,6 +23212,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["unabhängig"],
+      B2: ["eigenständig"],
+    },
   },
   {
     id: 4456,
@@ -19670,6 +23229,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Altersgrenze"],
+    },
   },
   {
     id: 4457,
@@ -19683,6 +23245,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["fachlich"],
+      B2: ["technologisch"],
+    },
   },
   {
     id: 4458,
@@ -19697,6 +23263,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Lauf",
+    synonyms: {
+      B1: ["der Wohltätigkeitslauf"],
+    },
   },
   {
     id: 4459,
@@ -19711,6 +23280,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Hörer",
+    synonyms: {
+      B1: ["der Zuhörer"],
+    },
   },
   {
     id: 4460,
@@ -19725,6 +23297,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "veranstalten",
+    synonyms: {
+      A2: ["organisieren"],
+      B1: ["durchführen"],
+    },
   },
   {
     id: 4461,
@@ -19740,6 +23316,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Hörer",
+    synonyms: {
+      B1: ["die Zuhörerin"],
+    },
   },
   {
     id: 4462,
@@ -19754,6 +23333,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "veranstalten",
+    synonyms: {
+      B1: ["der Organisator"],
+    },
   },
   {
     id: 4463,
@@ -19767,6 +23349,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["jetzt"],
+      B1: ["inzwischen"],
+    },
   },
   {
     id: 4464,
@@ -19781,6 +23367,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Läufer",
+    synonyms: {
+      B1: ["der Sprinter"],
+    },
   },
   {
     id: 4465,
@@ -19795,6 +23384,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "führen",
+    synonyms: {
+      A2: ["leiten"],
+      B1: ["betreiben"],
+      B2: ["steuern"],
+    },
   },
   {
     id: 4466,
@@ -19809,6 +23403,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Läufer",
+    synonyms: {
+      B1: ["die Sprinterin"],
+    },
   },
   {
     id: 4467,
@@ -19823,6 +23420,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Altersgruppe"],
+      B2: ["die Epoche"],
+    },
   },
   {
     id: 4468,
@@ -19836,6 +23437,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["mit teilnehmen"],
+    },
   },
   {
     id: 4469,
@@ -19849,6 +23453,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Amt"],
+      B2: ["die Verwaltung"],
+    },
   },
   {
     id: 4470,
@@ -19863,6 +23471,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Lauf",
+    synonyms: {
+      B1: ["der Wettlauf"],
+    },
   },
   {
     id: 4471,
@@ -19876,6 +23487,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Fundstelle"],
+    },
   },
   {
     id: 4472,
@@ -19890,6 +23504,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Spende",
+    synonyms: {
+      B1: ["der Beitrag"],
+      B2: ["die Zuwendung"],
+    },
   },
   {
     id: 4473,
@@ -19903,6 +23521,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Vertretung"],
+    },
   },
   {
     id: 4474,
@@ -19916,6 +23537,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Geber"],
+    },
   },
   {
     id: 4475,
@@ -19929,6 +23553,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Gesuch"],
+    },
   },
   {
     id: 4476,
@@ -19943,6 +23570,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Spende",
+    synonyms: {
+      B1: ["die Geberin"],
+    },
   },
   {
     id: 4477,
@@ -19956,6 +23586,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["ein Gesuch stellen"],
+    },
   },
   {
     id: 4478,
@@ -19969,6 +23602,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["starten"],
+    },
   },
   {
     id: 4479,
@@ -19982,6 +23618,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Geldbörse"],
+      B2: ["das Portemonnaie"],
+    },
   },
   {
     id: 4480,
@@ -19996,6 +23636,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Laufschuh"],
+    },
   },
   {
     id: 4481,
@@ -20009,6 +23652,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Abdruck"],
+    },
   },
   {
     id: 4482,
@@ -20022,6 +23668,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["ehe"],
+    },
   },
   {
     id: 4483,
@@ -20035,6 +23684,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["alkoholisiert"],
+      B2: ["berauscht"],
+    },
   },
   {
     id: 4484,
@@ -20049,6 +23702,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["zuvor"],
+    },
   },
   {
     id: 4485,
@@ -20063,6 +23719,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Protest",
+    synonyms: {
+      B1: ["Einspruch erheben"],
+      B2: ["aufbegehren"],
+    },
   },
   {
     id: 4486,
@@ -20077,6 +23737,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Erfolg",
+    synonyms: {
+      B1: ["glücklich"],
+      B2: ["gelungen"],
+    },
   },
   {
     id: 4487,
@@ -20090,6 +23754,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Deadline"],
+      B2: ["der Termin"],
+    },
   },
   {
     id: 4488,
@@ -20104,6 +23772,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "siegen",
+    synonyms: {
+      B1: ["der Gewinner"],
+    },
   },
   {
     id: 4489,
@@ -20117,6 +23788,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["falls"],
+    },
   },
   {
     id: 4490,
@@ -20131,6 +23805,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "siegen",
+    synonyms: {
+      B1: ["die Gewinnerin"],
+    },
   },
   {
     id: 4491,
@@ -20144,6 +23821,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["weggehen"],
+      B1: ["verlorengehen"],
+    },
   },
   {
     id: 4492,
@@ -20158,6 +23839,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "ergeben",
+    synonyms: {
+      B1: ["zur Folge haben"],
+      B2: ["erbringen"],
+    },
   },
   {
     id: 4493,
@@ -20172,6 +23857,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "schreiben",
+    synonyms: {
+      B1: ["die Schilderung"],
+    },
   },
   {
     id: 4494,
@@ -20185,6 +23873,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["freigebig"],
+      B1: ["spendabel"],
+    },
   },
   {
     id: 4495,
@@ -20198,6 +23890,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Thema"],
+      B1: ["der Gehalt"],
+    },
   },
   {
     id: 4496,
@@ -20212,6 +23908,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Jugend",
+    synonyms: {
+      B1: ["die Nachwuchsmannschaft"],
+    },
   },
   {
     id: 4497,
@@ -20226,6 +23925,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "beschäftigen",
+    synonyms: {
+      B1: ["die Tätigkeit"],
+    },
   },
   {
     id: 4498,
@@ -20239,6 +23941,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Bestleistung"],
+    },
   },
   {
     id: 4499,
@@ -20252,19 +23957,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 4500,
-    word: "der Betrag, Beträge",
-    translation: "amount, sum",
-    definition: "Ein bestimmter Geldbetrag.",
-    example: "Der Betrag wurde erfolgreich überwiesen.",
-    exampleTranslation: "The amount was successfully transferred.",
-    thema: "Finanzen",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      A2: ["brauchen"],
+      B1: ["verlangen"],
+    },
   },
   {
     id: 4501,
@@ -20279,6 +23975,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "leisten",
+    synonyms: {
+      B1: ["die Arbeit"],
+      B2: ["die Dienstleistung"],
+    },
   },
   {
     id: 4502,
@@ -20292,6 +23992,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Durchsage"],
+    },
   },
   {
     id: 4503,
@@ -20306,6 +24009,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "ergeben",
+    synonyms: {
+      B1: ["der Ausgang"],
+      B2: ["das Resultat"],
+    },
   },
   {
     id: 4504,
@@ -20320,6 +24027,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Event",
+    synonyms: {
+      B1: ["die Sportveranstaltung"],
+    },
   },
   {
     id: 4505,
@@ -20334,6 +24044,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "klären",
+    synonyms: {
+      A2: ["erklären"],
+      B1: ["abstimmen"],
+    },
   },
   {
     id: 4506,
@@ -20348,6 +24062,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Turnier",
+    synonyms: {
+      B1: ["der Wettkampf"],
+    },
   },
   {
     id: 4507,
@@ -20361,6 +24078,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Wiederholen"],
+    },
   },
   {
     id: 4508,
@@ -20375,6 +24095,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Turnier",
+    synonyms: {
+      B1: ["das Wettspiel"],
+    },
   },
   {
     id: 4509,
@@ -20388,6 +24111,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Ordner"],
+    },
   },
   {
     id: 4510,
@@ -20401,6 +24127,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Langstreckenlauf"],
+    },
   },
   {
     id: 4511,
@@ -20415,6 +24144,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Rolle",
+    synonyms: {
+      B1: ["die Funktion"],
+    },
   },
   {
     id: 4512,
@@ -20428,6 +24160,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Tagesticket"],
+    },
   },
   {
     id: 4513,
@@ -20442,6 +24177,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Station",
+    synonyms: {
+      B1: ["die Haltestelle"],
+    },
   },
   {
     id: 4514,
@@ -20455,6 +24193,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Büro des Vereins"],
+    },
   },
   {
     id: 4515,
@@ -20469,6 +24210,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Erlaubnis",
+    synonyms: {
+      B1: ["die Genehmigung"],
+    },
   },
   {
     id: 4516,
@@ -20483,6 +24227,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Linie",
+    synonyms: {
+      B1: ["die Busroute"],
+    },
   },
   {
     id: 4517,
@@ -20496,6 +24243,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Anwohnerin"],
+    },
   },
   {
     id: 4518,
@@ -20509,6 +24259,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["etwas"],
+      B1: ["ein bisschen"],
+    },
   },
   {
     id: 4519,
@@ -20522,6 +24276,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Hochschülerin"],
+    },
   },
   {
     id: 4520,
@@ -20536,6 +24293,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Rede",
+    synonyms: {
+      B1: ["die Entschuldigung"],
+      B2: ["der Vorwand"],
+    },
   },
   {
     id: 4521,
@@ -20549,6 +24310,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Urlauberin"],
+    },
   },
   {
     id: 4522,
@@ -20563,6 +24327,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "sorgen",
+    synonyms: {
+      A2: ["holen"],
+      B1: ["beschaffen"],
+    },
   },
   {
     id: 4523,
@@ -20576,6 +24344,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["links gehen"],
+      B1: ["einbiegen"],
+    },
   },
   {
     id: 4524,
@@ -20589,6 +24361,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["haben"],
+      B1: ["verfügen über"],
+      B2: ["innehaben"],
+    },
   },
   {
     id: 4525,
@@ -20603,20 +24380,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Abfall",
-  },
-  {
-    id: 4526,
-    word: "das Wunder, -",
-    translation: "miracle, wonder",
-    definition: "Ein überraschendes, unerklärliches Ereignis.",
-    example: "Kein Wunder, dass du müde bist!",
-    exampleTranslation: "No wonder you are tired!",
-    thema: "Gefühle",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
-    family: "das Wunder",
+    synonyms: {
+      B1: ["der Mülleimer"],
+    },
   },
   {
     id: 4527,
@@ -20630,6 +24396,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["Auspuffgase"],
+    },
   },
   {
     id: 4528,
@@ -20643,6 +24412,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["warum"],
+      B1: ["wieso"],
+    },
   },
   {
     id: 4529,
@@ -20657,6 +24430,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "abhängen",
+    synonyms: {
+      A2: ["angewiesen sein auf"],
+    },
   },
   {
     id: 4530,
@@ -20670,6 +24446,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["senden"],
+      B2: ["übermitteln"],
+    },
   },
   {
     id: 4531,
@@ -20684,6 +24464,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "abhängen",
+    synonyms: {
+      B1: ["angewiesen auf"],
+      B2: ["bedingt von"],
+    },
   },
   {
     id: 4532,
@@ -20698,6 +24482,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "phrase",
     family: "kommen",
+    synonyms: {
+      B1: ["schwanger sein"],
+    },
   },
   {
     id: 4533,
@@ -20711,6 +24498,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Schutzfrist"],
+    },
   },
   {
     id: 4534,
@@ -20725,6 +24515,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Schutz",
+    synonyms: {
+      B1: ["die Elternzeit"],
+      B2: ["der Mutterschaftsurlaub"],
+    },
   },
   {
     id: 4535,
@@ -20752,6 +24546,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Betreuungsgeld"],
+    },
   },
   {
     id: 4537,
@@ -20766,6 +24563,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "machen",
+    synonyms: {
+      A2: ["vereinbaren"],
+      B1: ["ausmachen"],
+    },
   },
   {
     id: 4538,
@@ -20779,6 +24580,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Kinderkriegen"],
+    },
   },
   {
     id: 4539,
@@ -20792,6 +24596,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["beziehen"],
+    },
   },
   {
     id: 4540,
@@ -20806,6 +24613,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Freude",
+    synonyms: {
+      B1: ["die Erwartung"],
+    },
   },
   {
     id: 4541,
@@ -20820,6 +24630,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Mitgliedschaft"],
+    },
   },
   {
     id: 4542,
@@ -20833,6 +24646,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Entbindung"],
+    },
   },
   {
     id: 4543,
@@ -20847,6 +24663,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "sagen",
+    synonyms: {
+      A2: ["ausfallen lassen"],
+      B1: ["streichen"],
+    },
   },
   {
     id: 4544,
@@ -20861,6 +24681,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "vorbereiten",
+    synonyms: {
+      A2: ["sich vorbereiten"],
+      B1: ["planen"],
+    },
   },
   {
     id: 4545,
@@ -20875,6 +24699,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Abschluss",
+    synonyms: {
+      B1: ["das Zeugnis"],
+      B2: ["der Abschlussbericht"],
+    },
   },
   {
     id: 4546,
@@ -20889,6 +24717,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Spielzeug"],
+    },
   },
   {
     id: 4547,
@@ -20902,6 +24733,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Teil"],
+    },
   },
   {
     id: 4548,
@@ -20915,6 +24749,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Babywindel"],
+    },
   },
   {
     id: 4549,
@@ -20929,6 +24766,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "senden",
+    synonyms: {
+      B1: ["der Absender"],
+    },
   },
   {
     id: 4550,
@@ -20942,6 +24782,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["ohne Schwierigkeiten"],
+      B1: ["reibungslos"],
+    },
   },
   {
     id: 4551,
@@ -20955,6 +24799,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Vorsatz"],
+      B2: ["die Absicht"],
+    },
   },
   {
     id: 4552,
@@ -20968,6 +24816,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["überlegen"],
+      B1: ["erwägen"],
+    },
   },
   {
     id: 4553,
@@ -20982,6 +24834,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "stimmen",
+    synonyms: {
+      A2: ["wählen"],
+      B1: ["absprechen"],
+    },
   },
   {
     id: 4554,
@@ -20995,6 +24851,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["annehmen"],
+      B1: ["hinnehmen"],
+    },
   },
   {
     id: 4555,
@@ -21008,6 +24868,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Hausmeister"],
+    },
   },
   {
     id: 4556,
@@ -21023,6 +24886,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "leiten",
+    synonyms: {
+      B1: ["die Gruppenleitung"],
+    },
   },
   {
     id: 4557,
@@ -21036,6 +24902,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["nach unten"],
+    },
   },
   {
     id: 4558,
@@ -21049,6 +24918,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["zuversichtlich"],
+      B2: ["hoffnungsvoll"],
+    },
   },
   {
     id: 4559,
@@ -21062,6 +24935,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["nicht da"],
+      B1: ["fehlend"],
+    },
   },
   {
     id: 4560,
@@ -21076,6 +24953,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Zusage"],
+      B2: ["der Beleg"],
+    },
   },
   {
     id: 4561,
@@ -21089,6 +24970,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["aufpassen"],
+      B1: ["beachten"],
+    },
   },
   {
     id: 4562,
@@ -21103,6 +24988,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "phrase",
     family: "kommen",
+    synonyms: {
+      B1: ["geboren werden"],
+    },
   },
   {
     id: 4563,
@@ -21116,6 +25004,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["normal"],
+      B1: ["gewöhnlich"],
+      B2: ["alltagstauglich"],
+    },
   },
   {
     id: 4564,
@@ -21129,6 +25022,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["wenn"],
+      B1: ["solange"],
+      B2: ["indes"],
+    },
   },
   {
     id: 4565,
@@ -21142,6 +25040,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das ABC"],
+    },
   },
   {
     id: 4566,
@@ -21155,6 +25056,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["fast"],
+      B1: ["nahezu"],
+      B2: ["annähernd"],
+    },
   },
   {
     id: 4567,
@@ -21168,6 +25074,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["gleichsam wie"],
+    },
   },
   {
     id: 4568,
@@ -21181,6 +25090,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["fehlen"],
+    },
   },
   {
     id: 4569,
@@ -21195,6 +25107,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Heim",
+    synonyms: {
+      B1: ["das Seniorenheim"],
+      B2: ["das Pflegeheim"],
+    },
   },
   {
     id: 4570,
@@ -21209,6 +25125,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "zweifeln",
+    synonyms: {
+      A2: ["unsicher sein"],
+      B1: ["anzweifeln"],
+    },
   },
   {
     id: 4571,
@@ -21222,20 +25142,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 4572,
-    word: "traditionell",
-    translation: "traditional",
-    definition: "Der Tradition folgend.",
-    example: "Das ist ein traditionelles Gericht aus Bayern.",
-    exampleTranslation: "That is a traditional dish from Bavaria.",
-    thema: "Kultur",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "word",
-    family: "die Tradition",
+    synonyms: {
+      B1: ["anders"],
+      B2: ["ersatzweise"],
+    },
   },
   {
     id: 4573,
@@ -21250,6 +25160,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "bieten",
+    synonyms: {
+      B1: ["der Lieferant"],
+      B2: ["der Betreiber"],
+    },
   },
   {
     id: 4574,
@@ -21263,6 +25177,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["geben"],
+      B1: ["vorhanden sein"],
+    },
   },
   {
     id: 4575,
@@ -21277,6 +25195,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["aber"],
+      B1: ["dagegen"],
+    },
   },
   {
     id: 4576,
@@ -21290,6 +25212,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["verteilen"],
+    },
   },
   {
     id: 4577,
@@ -21303,6 +25228,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Veränderung"],
+      B1: ["der Wechsel"],
+    },
   },
   {
     id: 4578,
@@ -21317,6 +25246,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["andersherum"],
+    },
   },
   {
     id: 4579,
@@ -21331,6 +25263,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "erkennen",
+    synonyms: {
+      B1: ["würdigen"],
+      B2: ["honorieren"],
+    },
   },
   {
     id: 4580,
@@ -21344,6 +25280,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Umgebung"],
+    },
   },
   {
     id: 4581,
@@ -21357,6 +25296,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["zuerst"],
+      B1: ["zu Beginn"],
+      B2: ["anfänglich"],
+    },
   },
   {
     id: 4582,
@@ -21371,6 +25315,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Rolle",
+    synonyms: {
+      B1: ["die Rolle der Mutter"],
+    },
   },
   {
     id: 4583,
@@ -21384,6 +25331,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["schön"],
+    },
   },
   {
     id: 4584,
@@ -21399,6 +25349,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "phrase",
     family: "die Verantwortung",
+    synonyms: {
+      B1: ["verantwortlich sein"],
+    },
   },
   {
     id: 4585,
@@ -21412,6 +25365,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["tragen"],
+    },
   },
   {
     id: 4586,
@@ -21425,6 +25381,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["klar"],
+      B1: ["nachvollziehbar"],
+    },
   },
   {
     id: 4587,
@@ -21438,6 +25398,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["mitteilen"],
+      B1: ["bekannt geben"],
+      B2: ["avisieren"],
+    },
   },
   {
     id: 4588,
@@ -21451,6 +25416,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["gleichgestellt"],
+      B2: ["egalitär"],
+    },
   },
   {
     id: 4589,
@@ -21465,6 +25434,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "leiten",
+    synonyms: {
+      B1: ["die Anweisung"],
+      B2: ["die Gebrauchsanleitung"],
+    },
   },
   {
     id: 4590,
@@ -21479,6 +25452,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "wickeln",
+    synonyms: {
+      B1: ["neu anziehen"],
+    },
   },
   {
     id: 4591,
@@ -21492,6 +25468,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["akzeptieren"],
+      B1: ["vermuten"],
+    },
   },
   {
     id: 4592,
@@ -21505,6 +25485,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["online gehen"],
+    },
   },
   {
     id: 4593,
@@ -21518,6 +25501,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Begrüßung"],
+    },
   },
   {
     id: 4594,
@@ -21531,6 +25517,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["neu"],
+      B1: ["fremd"],
+      B2: ["ungewöhnlich"],
+    },
   },
   {
     id: 4595,
@@ -21545,6 +25536,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "anschaffen",
+    synonyms: {
+      A2: ["kaufen"],
+      B1: ["beschaffen"],
+    },
   },
   {
     id: 4596,
@@ -21559,6 +25554,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Rolle",
+    synonyms: {
+      B1: ["die Rolle der Frau"],
+    },
   },
   {
     id: 4597,
@@ -21572,6 +25570,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["verbinden"],
+      B1: ["anschalten"],
+    },
   },
   {
     id: 4598,
@@ -21586,6 +25588,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Rolle",
+    synonyms: {
+      B1: ["die Rolle des Mannes"],
+    },
   },
   {
     id: 4599,
@@ -21599,6 +25604,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["den Gurt anlegen"],
+      B1: ["sich festschnallen"],
+    },
   },
   {
     id: 4600,
@@ -21613,6 +25622,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "ansprechen",
+    synonyms: {
+      A2: ["reden mit"],
+      B1: ["anreden"],
+      B2: ["kontaktieren"],
+    },
   },
   {
     id: 4601,
@@ -21626,6 +25640,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["einstellen"],
+      B1: ["beschäftigen"],
+      B2: ["engagieren"],
+    },
   },
   {
     id: 4602,
@@ -21640,6 +25659,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "wenden",
+    synonyms: {
+      A2: ["benutzen", "verwenden"],
+      B1: ["einsetzen"],
+      B2: ["gebrauchen"],
+    },
   },
   {
     id: 4603,
@@ -21653,6 +25677,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["melden"],
+      B2: ["Anzeige erstatten"],
+    },
   },
   {
     id: 4604,
@@ -21667,6 +25695,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Arbeiter",
+    synonyms: {
+      A2: ["der Mitarbeiter", "der Angestellte"],
+      B2: ["der Beschäftigte"],
+    },
   },
   {
     id: 4605,
@@ -21681,6 +25713,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Erlaubnis",
+    synonyms: {
+      B1: ["die Beschäftigungserlaubnis"],
+    },
   },
   {
     id: 4606,
@@ -21694,6 +25729,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Erwerbslosigkeit"],
+      B2: ["die Joblosigkeit"],
+    },
   },
   {
     id: 4607,
@@ -21708,6 +25747,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Ärger",
+    synonyms: {
+      A2: ["der Streit"],
+      B1: ["die Verärgerung", "der Verdruss"],
+      B2: ["der Zorn"],
+    },
   },
   {
     id: 4608,
@@ -21721,6 +25765,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Weise"],
+      B1: ["die Sorte"],
+    },
   },
   {
     id: 4609,
@@ -21734,6 +25782,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Zufluchtsrecht"],
+      B2: ["die Zuflucht"],
+    },
   },
   {
     id: 4610,
@@ -21747,6 +25799,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Luft"],
+    },
   },
   {
     id: 4611,
@@ -21760,6 +25815,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["bemerkt werden"],
+      B1: ["hervorstechen"],
+      B2: ["ins Auge fallen"],
+    },
   },
   {
     id: 4612,
@@ -21774,6 +25834,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "fordern",
+    synonyms: {
+      A2: ["bitten"],
+      B1: ["fordern"],
+      B2: ["ersuchen"],
+    },
   },
   {
     id: 4613,
@@ -21788,6 +25853,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "führen",
+    synonyms: {
+      B1: ["vorführen"],
+      B2: ["darbieten"],
+    },
   },
   {
     id: 4614,
@@ -21802,6 +25871,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "geben",
+    synonyms: {
+      A2: ["aufhören"],
+      B1: ["verzichten"],
+      B2: ["kapitulieren"],
+    },
   },
   {
     id: 4615,
@@ -21815,6 +25889,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["warten lassen"],
+      B1: ["behindern"],
+      B2: ["zurückhalten"],
+    },
   },
   {
     id: 4616,
@@ -21829,6 +25908,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "heben",
+    synonyms: {
+      A2: ["aufbewahren", "aufnehmen"],
+      B1: ["aufsammeln"],
+      B2: ["verwahren"],
+    },
   },
   {
     id: 4617,
@@ -21843,6 +25927,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "lösen",
+    synonyms: {
+      B1: ["aufheben"],
+      B2: ["abschaffen"],
+    },
   },
   {
     id: 4618,
@@ -21856,6 +25944,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["filmen"],
+      B1: ["mitschneiden", "festhalten"],
+      B2: ["aufzeichnen"],
+    },
   },
   {
     id: 4619,
@@ -21870,6 +25963,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Aufnahme",
+    synonyms: {
+      B1: ["die Aufzeichnung"],
+      B2: ["die Zulassung"],
+    },
   },
   {
     id: 4620,
@@ -21884,6 +25981,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "aufregen",
+    synonyms: {
+      A2: ["sich ärgern"],
+      B1: ["sich erregen"],
+      B2: ["sich empören"],
+    },
   },
   {
     id: 4621,
@@ -21897,6 +25999,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Vorstellung"],
+      B2: ["die Darbietung"],
+    },
   },
   {
     id: 4622,
@@ -21910,6 +26016,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["wach werden"],
+      B1: ["erwachen"],
+    },
   },
   {
     id: 4623,
@@ -21924,6 +26034,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Blick",
+    synonyms: {
+      A2: ["der Moment"],
+      B2: ["der Augenblick"],
+    },
   },
   {
     id: 4624,
@@ -21937,6 +26051,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["qualifiziert"],
+      B2: ["geschult"],
+    },
   },
   {
     id: 4625,
@@ -21951,6 +26069,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Ausdruck",
+    synonyms: {
+      A2: ["drucken"],
+      B1: ["ausgeben"],
+    },
   },
   {
     id: 4626,
@@ -21964,6 +26086,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["getrennt"],
+      B1: ["voneinander"],
+      B2: ["entzweit"],
+    },
   },
   {
     id: 4627,
@@ -21977,6 +26104,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["nicht stattfinden"],
+      B1: ["abgesagt werden"],
+      B2: ["entfallen"],
+    },
   },
   {
     id: 4628,
@@ -21990,6 +26122,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Veröffentlichung"],
+      B2: ["die Auslage"],
+    },
   },
   {
     id: 4629,
@@ -22003,6 +26139,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["sehr gut"],
+      B1: ["hervorragend"],
+      B2: ["vorzüglich"],
+    },
   },
   {
     id: 4630,
@@ -22016,6 +26157,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Sonderfall"],
+      B2: ["der Spezialfall"],
+    },
   },
   {
     id: 4631,
@@ -22030,6 +26175,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "ausreichen",
+    synonyms: {
+      A2: ["genug"],
+      B1: ["genügend"],
+      B2: ["hinreichend"],
+    },
   },
   {
     id: 4632,
@@ -22043,6 +26193,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["mitteilen"],
+      B2: ["bestellen"],
+    },
   },
   {
     id: 4633,
@@ -22057,6 +26211,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "ausschließen",
+    synonyms: {
+      A2: ["ausnehmen"],
+      B1: ["ausklammern"],
+      B2: ["ausscheiden"],
+    },
   },
   {
     id: 4634,
@@ -22070,6 +26229,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["draußen"],
+      B1: ["außerhalb"],
+    },
   },
   {
     id: 4635,
@@ -22083,6 +26246,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["oberflächlich"],
+      B2: ["äußerlich sichtbar"],
+    },
   },
   {
     id: 4636,
@@ -22096,6 +26263,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Artikulation"],
+    },
   },
   {
     id: 4637,
@@ -22109,6 +26279,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["zeigen"],
+      B1: ["präsentieren"],
+      B2: ["ausfertigen"],
+    },
   },
   {
     id: 4638,
@@ -22123,6 +26298,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "suchen",
+    synonyms: {
+      A2: ["wählen"],
+      B1: ["auswählen"],
+    },
   },
   {
     id: 4639,
@@ -22137,6 +26316,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Wahl",
+    synonyms: {
+      A2: ["die Wahl"],
+      B1: ["das Angebot"],
+      B2: ["die Palette"],
+    },
   },
   {
     id: 4640,
@@ -22150,6 +26334,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Bad"],
+    },
   },
   {
     id: 4641,
@@ -22163,6 +26350,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Tanz"],
+    },
   },
   {
     id: 4642,
@@ -22176,6 +26366,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die BLZ"],
+    },
   },
   {
     id: 4643,
@@ -22189,6 +26382,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Gesichtsbewuchs"],
+    },
   },
   {
     id: 4644,
@@ -22202,6 +26398,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Gebäude"],
+      B2: ["das Bauwerk"],
+    },
   },
   {
     id: 4645,
@@ -22215,6 +26415,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Nachfrage"],
+      B2: ["das Bedürfnis"],
+    },
   },
   {
     id: 4646,
@@ -22228,6 +26432,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Sinn"],
+      B1: ["die Wichtigkeit"],
+      B2: ["die Relevanz"],
+    },
   },
   {
     id: 4647,
@@ -22242,6 +26451,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Bedingung",
+    synonyms: {
+      A2: ["die Voraussetzung"],
+      B1: ["die Auflage"],
+    },
   },
   {
     id: 4648,
@@ -22255,6 +26468,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["sein"],
+      B1: ["liegen"],
+    },
   },
   {
     id: 4649,
@@ -22268,6 +26485,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["erlöst"],
+      B2: ["ausgenommen"],
+    },
   },
   {
     id: 4650,
@@ -22281,6 +26502,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["ordentlich"],
+      B2: ["ausreichend"],
+    },
   },
   {
     id: 4651,
@@ -22294,6 +26519,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["froh"],
+      B1: ["begeisternd"],
+      B2: ["enthusiastisch"],
+    },
   },
   {
     id: 4652,
@@ -22307,6 +26537,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Anfang"],
+      B1: ["der Start"],
+    },
   },
   {
     id: 4653,
@@ -22320,6 +26554,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["beschränkt"],
+      B2: ["eingeschränkt"],
+    },
   },
   {
     id: 4654,
@@ -22333,6 +26571,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["sagen"],
+      B1: ["meinen"],
+      B2: ["vorgeben"],
+    },
   },
   {
     id: 4655,
@@ -22348,6 +26591,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "behindern",
+    synonyms: {
+      B1: ["eingeschränkt"],
+      B2: ["beeinträchtigt"],
+    },
   },
   {
     id: 4656,
@@ -22361,6 +26608,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["zubeißen"],
+    },
   },
   {
     id: 4657,
@@ -22375,6 +26625,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "merken",
+    synonyms: {
+      A2: ["sehen"],
+      B1: ["feststellen"],
+      B2: ["wahrnehmen"],
+    },
   },
   {
     id: 4658,
@@ -22388,19 +26643,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 4659,
-    word: "beobachten",
-    translation: "to watch, observe",
-    definition: "Etwas aufmerksam ansehen.",
-    example: "Wir beobachten die Vögel im Garten.",
-    exampleTranslation: "We watch the birds in the garden.",
-    thema: "Natur",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      B1: ["sich anstrengen"],
+      B2: ["sich befleißigen"],
+    },
   },
   {
     id: 4660,
@@ -22414,6 +26660,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["rechnen"],
+      B1: ["ausrechnen"],
+      B2: ["kalkulieren"],
+    },
   },
   {
     id: 4661,
@@ -22427,6 +26678,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["fertig"],
+      B1: ["vorbereitet"],
+      B2: ["willens"],
+    },
   },
   {
     id: 4662,
@@ -22440,6 +26696,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["schon"],
+      B1: ["längst"],
+      B2: ["bereitwillig"],
+    },
   },
   {
     id: 4663,
@@ -22453,6 +26714,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["sich entspannen"],
+      B1: ["besänftigen"],
+    },
   },
   {
     id: 4664,
@@ -22467,6 +26732,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "beschäftigen",
+    synonyms: {
+      A2: ["beschäftigt sein"],
+      B1: ["anstellen"],
+    },
   },
   {
     id: 4665,
@@ -22481,6 +26750,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "phrase",
     family: "geben",
+    synonyms: {
+      A2: ["informieren"],
+      B1: ["benachrichtigen"],
+    },
   },
   {
     id: 4666,
@@ -22494,6 +26767,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["begrenzen"],
+      B1: ["eingrenzen"],
+      B2: ["reduzieren"],
+    },
   },
   {
     id: 4667,
@@ -22507,6 +26785,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["einnehmen"],
+      B2: ["belegen"],
+    },
   },
   {
     id: 4668,
@@ -22520,6 +26802,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Genesung"],
+      B2: ["die Linderung"],
+    },
   },
   {
     id: 4669,
@@ -22533,6 +26819,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["strafen"],
+      B2: ["ahnden"],
+    },
   },
   {
     id: 4670,
@@ -22547,6 +26837,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "betreuen",
+    synonyms: {
+      B1: ["der Pfleger"],
+      B2: ["der Aufseher"],
+    },
   },
   {
     id: 4671,
@@ -22561,6 +26855,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Betrieb",
+    synonyms: {
+      A2: ["die Firma"],
+      B1: ["das Unternehmen"],
+    },
   },
   {
     id: 4672,
@@ -22575,6 +26873,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Betrieb",
+    synonyms: {
+      B1: ["die Arbeitnehmervertretung"],
+    },
   },
   {
     id: 4673,
@@ -22588,6 +26889,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Einwohner"],
+      B2: ["die Einwohnerschaft"],
+    },
   },
   {
     id: 4674,
@@ -22602,6 +26907,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "beweisen",
+    synonyms: {
+      A2: ["zeigen"],
+      B1: ["belegen"],
+      B2: ["nachweisen"],
+    },
   },
   {
     id: 4675,
@@ -22616,6 +26926,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "beweisen",
+    synonyms: {
+      A2: ["der Nachweis"],
+      B1: ["der Beleg"],
+    },
   },
   {
     id: 4676,
@@ -22629,6 +26943,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["ökologisch"],
+      B1: ["biologisch"],
+    },
   },
   {
     id: 4677,
@@ -22642,6 +26960,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["sehbehindert"],
+    },
   },
   {
     id: 4678,
@@ -22656,6 +26977,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "blitzen",
+    synonyms: {
+      B1: ["der Donnerschlag"],
+    },
   },
   {
     id: 4679,
@@ -22669,6 +26993,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["aufgehen"],
+      B1: ["aufblühen"],
+    },
   },
   {
     id: 4680,
@@ -22682,6 +27010,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Blatt"],
+    },
   },
   {
     id: 4681,
@@ -22695,6 +27026,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["groß"],
+      B1: ["ausgedehnt"],
+    },
   },
   {
     id: 4682,
@@ -22708,6 +27043,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Weite"],
+    },
   },
   {
     id: 4683,
@@ -22721,6 +27059,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["anhalten"],
+      B1: ["abbremsen"],
+    },
   },
   {
     id: 4684,
@@ -22735,6 +27077,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Kasten",
+    synonyms: {
+      B1: ["der Postkasten"],
+    },
   },
   {
     id: 4685,
@@ -22749,6 +27094,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "handeln",
+    synonyms: {
+      B1: ["der Buchladen"],
+    },
   },
   {
     id: 4686,
@@ -22762,6 +27110,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Dose"],
+    },
   },
   {
     id: 4687,
@@ -22775,6 +27126,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Büfett"],
+    },
   },
   {
     id: 4688,
@@ -22788,6 +27142,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Podium"],
+    },
   },
   {
     id: 4689,
@@ -22802,6 +27159,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Bürste",
+    synonyms: {
+      A2: ["der Pinsel"],
+      B1: ["die Haarbürste"],
+    },
   },
   {
     id: 4690,
@@ -22815,6 +27176,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["modern"],
+      B1: ["elegant"],
+      B2: ["schick"],
+    },
   },
   {
     id: 4691,
@@ -22828,6 +27194,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["deshalb"],
+      B1: ["deswegen", "darum"],
+      B2: ["demnach"],
+    },
   },
   {
     id: 4692,
@@ -22841,6 +27212,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["dorthin"],
+    },
   },
   {
     id: 4693,
@@ -22854,6 +27228,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["später"],
+      B1: ["hinterher", "anschließend"],
+    },
   },
   {
     id: 4694,
@@ -22867,6 +27245,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["froh"],
+      B1: ["erkenntlich"],
+    },
   },
   {
     id: 4695,
@@ -22881,6 +27263,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "darstellen",
+    synonyms: {
+      B1: ["zeigen"],
+      B2: ["abbilden"],
+    },
   },
   {
     id: 4696,
@@ -22895,6 +27281,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "darstellen",
+    synonyms: {
+      B1: ["die Schilderung"],
+      B2: ["die Wiedergabe"],
+    },
   },
   {
     id: 4697,
@@ -22908,6 +27298,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Angaben"],
+      B2: ["die Informationen"],
+    },
   },
   {
     id: 4698,
@@ -22922,6 +27316,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Dauer",
+    synonyms: {
+      B1: ["die Zeitspanne"],
+    },
   },
   {
     id: 4699,
@@ -22936,6 +27333,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Dauer",
+    synonyms: {
+      A2: ["immer"],
+      B1: ["ständig"],
+      B2: ["fortwährend"],
+    },
   },
   {
     id: 4700,
@@ -22949,6 +27351,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Zimmerdecke"],
+    },
   },
   {
     id: 4701,
@@ -22962,6 +27367,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["schmücken"],
+      B1: ["verzieren"],
+    },
   },
   {
     id: 4702,
@@ -22975,6 +27384,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Überlegung"],
+      B2: ["die Idee"],
+    },
   },
   {
     id: 4703,
@@ -22988,6 +27401,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Nachtisch"],
+    },
   },
   {
     id: 4704,
@@ -23001,6 +27417,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Einzelheit"],
+    },
   },
   {
     id: 4705,
@@ -23014,6 +27433,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Schonkost"],
+    },
   },
   {
     id: 4706,
@@ -23027,6 +27449,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Mundart"],
+    },
   },
   {
     id: 4707,
@@ -23040,6 +27465,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["undurchlässig"],
+      B2: ["kompakt"],
+    },
   },
   {
     id: 4708,
@@ -23054,6 +27483,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "dienen",
+    synonyms: {
+      B1: ["die Leistung"],
+      B2: ["die Dienstleistung"],
+    },
   },
   {
     id: 4709,
@@ -23068,6 +27501,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "dies",
+    synonyms: {
+      A2: ["das"],
+    },
   },
   {
     id: 4710,
@@ -23082,6 +27518,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "dies",
+    synonyms: {
+      A2: ["dieses Mal"],
+    },
   },
   {
     id: 4711,
@@ -23095,6 +27534,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Abschluss"],
+    },
   },
   {
     id: 4712,
@@ -23108,6 +27550,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Club"],
+      B2: ["die Disco"],
+    },
   },
   {
     id: 4713,
@@ -23121,6 +27567,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Gespräch"],
+      B2: ["die Debatte"],
+    },
   },
   {
     id: 4714,
@@ -23134,6 +27584,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Entfernung"],
+      B1: ["der Abstand"],
+    },
   },
   {
     id: 4715,
@@ -23148,6 +27602,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "donnern",
+    synonyms: {
+      B1: ["das Gewittergrollen"],
+    },
   },
   {
     id: 4716,
@@ -23161,6 +27618,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Schmutz"],
+      B2: ["der Unrat"],
+    },
   },
   {
     id: 4717,
@@ -23175,6 +27636,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "drehen",
+    synonyms: {
+      A2: ["wenden"],
+      B1: ["verfilmen", "wirbeln"],
+    },
   },
   {
     id: 4718,
@@ -23189,6 +27654,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "drin",
+    synonyms: {
+      A2: ["innen"],
+      B1: ["drinnen"],
+    },
   },
   {
     id: 4719,
@@ -23203,6 +27672,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Droge",
+    synonyms: {
+      B1: ["das Rauschmittel"],
+    },
   },
   {
     id: 4720,
@@ -23217,6 +27689,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Druck",
+    synonyms: {
+      B1: ["die Belastung"],
+      B2: ["der Zwang"],
+    },
   },
   {
     id: 4721,
@@ -23230,6 +27706,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["chaotisch"],
+      B2: ["verwechselt"],
+    },
   },
   {
     id: 4722,
@@ -23243,6 +27723,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["dürstend"],
+    },
   },
   {
     id: 4723,
@@ -23256,6 +27739,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["per du sein"],
+    },
   },
   {
     id: 4724,
@@ -23270,6 +27756,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "eben",
+    synonyms: {
+      A2: ["gerade"],
+      B1: ["soeben"],
+    },
   },
   {
     id: 4725,
@@ -23284,6 +27774,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "eben",
+    synonyms: {
+      A2: ["auch"],
+      B1: ["genauso"],
+    },
   },
   {
     id: 4726,
@@ -23297,6 +27791,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["kantig"],
+    },
   },
   {
     id: 4727,
@@ -23310,6 +27807,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["früher"],
+      B1: ["lieber"],
+    },
   },
   {
     id: 4728,
@@ -23324,6 +27825,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "ehrlich",
+    synonyms: {
+      A2: ["aufrichtig"],
+      B1: ["offen"],
+      B2: ["redlich"],
+    },
   },
   {
     id: 4729,
@@ -23337,6 +27843,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["passen"],
+      B1: ["taugen"],
+    },
   },
   {
     id: 4730,
@@ -23350,6 +27860,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["sich beeilen"],
+      B2: ["hasten"],
+    },
   },
   {
     id: 4731,
@@ -23363,6 +27877,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Hast"],
+      B2: ["die Eilfertigkeit"],
+    },
   },
   {
     id: 4732,
@@ -23376,6 +27894,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Straße mit einer Fahrtrichtung"],
+    },
   },
   {
     id: 4733,
@@ -23389,6 +27910,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Diebstahl"],
+    },
   },
   {
     id: 4734,
@@ -23402,6 +27926,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["klar"],
+      B1: ["unmissverständlich"],
+      B2: ["zweifelsfrei"],
+    },
   },
   {
     id: 4735,
@@ -23416,6 +27945,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["zum einen"],
+      B1: ["auf der einen Seite"],
+    },
   },
   {
     id: 4736,
@@ -23429,6 +27962,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Auffahrt"],
+    },
   },
   {
     id: 4737,
@@ -23443,6 +27979,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Einfall",
+    synonyms: {
+      B1: ["in den Sinn kommen"],
+    },
   },
   {
     id: 4738,
@@ -23457,6 +27996,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Einfall",
+    synonyms: {
+      B1: ["die Idee"],
+    },
   },
   {
     id: 4739,
@@ -23470,6 +28012,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Wirkung"],
+      B2: ["der Einfluss"],
+    },
   },
   {
     id: 4740,
@@ -23483,6 +28029,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["beeinträchtigen"],
+      B2: ["prägen"],
+    },
   },
   {
     id: 4741,
@@ -23496,6 +28046,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["einsetzen"],
+      B1: ["hineinsetzen"],
+    },
   },
   {
     id: 4742,
@@ -23510,6 +28064,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "führen",
+    synonyms: {
+      B1: ["die Einleitung"],
+      B2: ["die Hinführung"],
+    },
   },
   {
     id: 4743,
@@ -23523,6 +28081,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["gleich"],
+      B2: ["einhellig"],
+    },
   },
   {
     id: 4744,
@@ -23536,6 +28098,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["sich verständigen"],
+      B1: ["sich verständigen"],
+    },
   },
   {
     id: 4745,
@@ -23550,6 +28116,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Einkauf",
+    synonyms: {
+      A2: ["der Kauf"],
+      B1: ["die Besorgung"],
+    },
   },
   {
     id: 4746,
@@ -23563,6 +28133,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Einkünfte"],
+      B2: ["der Zufluss"],
+    },
   },
   {
     id: 4747,
@@ -23577,19 +28151,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "einrichten",
-  },
-  {
-    id: 4748,
-    word: "einsam",
-    translation: "lonely",
-    definition: "Allein und ohne Kontakt.",
-    example: "Nach dem Umzug fühlte sie sich einsam.",
-    exampleTranslation: "After the move she felt lonely.",
-    thema: "Gefühle",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      A2: ["ausstatten"],
+      B1: ["möblieren"],
+    },
   },
   {
     id: 4749,
@@ -23603,6 +28168,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["mit"],
+      B1: ["inklusive"],
+    },
   },
   {
     id: 4750,
@@ -23617,6 +28186,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "schreiben",
+    synonyms: {
+      B1: ["der eingeschriebene Brief"],
+    },
   },
   {
     id: 4751,
@@ -23630,6 +28202,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["anstellen"],
+      B1: ["regulieren"],
+      B2: ["justieren"],
+    },
   },
   {
     id: 4752,
@@ -23644,6 +28221,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "treten",
+    synonyms: {
+      A2: ["hineingehen"],
+      B1: ["beitreten"],
+    },
   },
   {
     id: 4753,
@@ -23658,6 +28239,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "einzahlen",
+    synonyms: {
+      A2: ["einlegen"],
+      B1: ["überweisen"],
+    },
   },
   {
     id: 4754,
@@ -23672,6 +28257,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "einzahlen",
+    synonyms: {
+      A2: ["die Überweisung"],
+    },
   },
   {
     id: 4755,
@@ -23685,6 +28273,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Detail"],
+    },
   },
   {
     id: 4756,
@@ -23698,6 +28289,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["allein"],
+      B1: ["alleinig"],
+      B2: ["ausschließlich"],
+    },
   },
   {
     id: 4757,
@@ -23711,6 +28307,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["fein"],
+      B2: ["edel"],
+    },
   },
   {
     id: 4758,
@@ -23724,6 +28324,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["digital"],
+    },
   },
   {
     id: 4759,
@@ -23738,6 +28341,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Empfang",
+    synonyms: {
+      A2: ["bekommen"],
+      B1: ["begrüßen", "aufnehmen"],
+    },
   },
   {
     id: 4760,
@@ -23751,6 +28358,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["abschließend"],
+      B2: ["unwiderruflich"],
+    },
   },
   {
     id: 4761,
@@ -23765,6 +28376,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Energie",
+    synonyms: {
+      B1: ["die Kraft"],
+      B2: ["die Leistung"],
+    },
   },
   {
     id: 4762,
@@ -23779,6 +28394,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "entfernen",
+    synonyms: {
+      A2: ["wegnehmen"],
+      B1: ["beseitigen"],
+      B2: ["tilgen"],
+    },
   },
   {
     id: 4763,
@@ -23793,6 +28413,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "kommen",
+    synonyms: {
+      B1: ["eingehen auf"],
+      B2: ["Zugeständnisse machen"],
+    },
   },
   {
     id: 4764,
@@ -23806,6 +28430,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["haben"],
+      B1: ["umfassen"],
+      B2: ["beinhalten"],
+    },
   },
   {
     id: 4765,
@@ -23820,6 +28449,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "entlang",
+    synonyms: {
+      B1: ["längs"],
+    },
   },
   {
     id: 4766,
@@ -23834,6 +28466,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "entlassen",
+    synonyms: {
+      B1: ["die Kündigung"],
+    },
   },
   {
     id: 4767,
@@ -23848,6 +28483,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "scheiden",
+    synonyms: {
+      A2: ["beschließen"],
+      B1: ["sich festlegen"],
+    },
   },
   {
     id: 4768,
@@ -23861,6 +28500,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["unsicher"],
+      B2: ["unentschlossen"],
+    },
   },
   {
     id: 4769,
@@ -23875,6 +28518,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "entspannen",
+    synonyms: {
+      B1: ["erholsam"],
+      B2: ["beruhigend"],
+    },
   },
   {
     id: 4770,
@@ -23889,6 +28536,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "enttäuschen",
+    synonyms: {
+      B1: ["betrüben"],
+      B2: ["frustrieren"],
+    },
   },
   {
     id: 4771,
@@ -23903,6 +28554,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "ereignen",
+    synonyms: {
+      A2: ["passieren"],
+      B1: ["geschehen"],
+      B2: ["zutragen"],
+    },
   },
   {
     id: 4772,
@@ -23917,6 +28573,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "erfahren",
+    synonyms: {
+      A2: ["hören"],
+      B1: ["mitbekommen"],
+      B2: ["in Erfahrung bringen"],
+    },
   },
   {
     id: 4773,
@@ -23931,6 +28592,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "erfinden",
+    synonyms: {
+      B1: ["ausdenken"],
+      B2: ["kreieren"],
+    },
   },
   {
     id: 4774,
@@ -23945,6 +28610,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "erfinden",
+    synonyms: {
+      B1: ["die Entdeckung"],
+      B2: ["die Kreation"],
+    },
   },
   {
     id: 4775,
@@ -23959,6 +28628,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "erhöhen",
+    synonyms: {
+      A2: ["steigern"],
+      B1: ["vergrößern"],
+      B2: ["anheben"],
+    },
   },
   {
     id: 4776,
@@ -23973,6 +28647,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "erhöhen",
+    synonyms: {
+      B1: ["die Steigerung"],
+      B2: ["die Anhebung"],
+    },
   },
   {
     id: 4777,
@@ -23987,6 +28665,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "erholen",
+    synonyms: {
+      A2: ["sich ausruhen"],
+      B1: ["sich entspannen"],
+      B2: ["genesen"],
+    },
   },
   {
     id: 4778,
@@ -24000,6 +28683,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Gedächtnis"],
+      B2: ["die Rückschau"],
+    },
   },
   {
     id: 4779,
@@ -24014,6 +28701,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "erkälten",
+    synonyms: {
+      B1: ["sich verkühlen"],
+    },
   },
   {
     id: 4780,
@@ -24028,6 +28718,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "klären",
+    synonyms: {
+      B1: ["die Erläuterung"],
+      B2: ["die Begründung"],
+    },
   },
   {
     id: 4781,
@@ -24042,6 +28736,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "erleben",
+    synonyms: {
+      B1: ["das Ereignis"],
+      B2: ["die Erfahrung"],
+    },
   },
   {
     id: 4782,
@@ -24055,6 +28753,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["machen"],
+      B1: ["abarbeiten"],
+      B2: ["bewältigen"],
+    },
   },
   {
     id: 4783,
@@ -24069,6 +28772,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "erleichtern",
+    synonyms: {
+      B1: ["einfacher machen"],
+      B2: ["lindern"],
+    },
   },
   {
     id: 4784,
@@ -24083,6 +28790,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "ernst",
+    synonyms: {
+      B1: ["wichtig"],
+      B2: ["ernst gemeint"],
+    },
   },
   {
     id: 4785,
@@ -24097,6 +28808,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "eröffnen",
+    synonyms: {
+      A2: ["beginnen"],
+      B1: ["starten"],
+    },
   },
   {
     id: 4786,
@@ -24110,6 +28825,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["tauschen"],
+      B1: ["austauschen"],
+    },
   },
   {
     id: 4787,
@@ -24123,6 +28842,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["machen"],
+      B1: ["anfertigen"],
+      B2: ["ausarbeiten"],
+    },
   },
   {
     id: 4788,
@@ -24137,6 +28861,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "wachsen",
+    synonyms: {
+      B1: ["volljährig"],
+    },
   },
   {
     id: 4789,
@@ -24150,6 +28877,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Geschichte"],
+      B2: ["die Schilderung"],
+    },
   },
   {
     id: 4790,
@@ -24164,6 +28895,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "ziehen",
+    synonyms: {
+      B1: ["aufziehen"],
+      B2: ["großziehen"],
+    },
   },
   {
     id: 4791,
@@ -24178,6 +28913,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "ziehen",
+    synonyms: {
+      B1: ["die Pädagogik"],
+    },
   },
   {
     id: 4792,
@@ -24191,6 +28929,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Säure"],
+    },
   },
   {
     id: 4793,
@@ -24204,6 +28945,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["immer"],
+      B2: ["immerwährend"],
+    },
   },
   {
     id: 4794,
@@ -24217,6 +28962,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["zusätzlich"],
+      B1: ["besonders"],
+    },
   },
   {
     id: 4795,
@@ -24230,6 +28979,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Spezialist", "die Spezialistin"],
+      B2: ["der Experte"],
+    },
   },
   {
     id: 4796,
@@ -24243,6 +28996,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Straße"],
+      B2: ["die Fahrspur"],
+    },
   },
   {
     id: 4797,
@@ -24256,6 +29013,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Ursache"],
+    },
   },
   {
     id: 4798,
@@ -24270,6 +29030,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Fall",
+    synonyms: {
+      B1: ["der Vorfall"],
+      B2: ["der Sachverhalt"],
+    },
   },
   {
     id: 4799,
@@ -24283,6 +29047,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["zu zahlen"],
+      B2: ["ausstehend"],
+    },
   },
   {
     id: 4800,
@@ -24296,6 +29064,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["wenn"],
+      B1: ["sofern"],
+    },
   },
   {
     id: 4801,
@@ -24309,6 +29081,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["schnappen"],
+      B1: ["erwischen"],
+    },
   },
   {
     id: 4802,
@@ -24322,6 +29098,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Vorstellungskraft"],
+      B2: ["die Einbildungskraft"],
+    },
   },
   {
     id: 4803,
@@ -24335,6 +29115,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["bunt"],
+    },
   },
   {
     id: 4804,
@@ -24348,6 +29131,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["nichts tun"],
+      B2: ["müßiggehen"],
+    },
   },
   {
     id: 4805,
@@ -24361,6 +29148,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Gelände"],
+      B2: ["das Areal"],
+    },
   },
   {
     id: 4806,
@@ -24375,6 +29166,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "fest",
+    synonyms: {
+      A2: ["bestimmen"],
+      B1: ["vereinbaren"],
+    },
   },
   {
     id: 4807,
@@ -24389,6 +29184,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "fest",
+    synonyms: {
+      B1: ["sicher sein"],
+    },
   },
   {
     id: 4808,
@@ -24402,6 +29200,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["nass"],
+      B2: ["klamm"],
+    },
   },
   {
     id: 4809,
@@ -24415,6 +29217,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["eben"],
+      B1: ["glatt"],
+    },
   },
   {
     id: 4810,
@@ -24429,6 +29235,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "fließen",
+    synonyms: {
+      B1: ["strömen"],
+    },
   },
   {
     id: 4811,
@@ -24443,6 +29252,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "flüssig",
+    synonyms: {
+      B1: ["das Fluid"],
+    },
   },
   {
     id: 4812,
@@ -24457,6 +29269,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "folgen",
+    synonyms: {
+      A2: ["nachgehen"],
+      B1: ["befolgen"],
+    },
   },
   {
     id: 4813,
@@ -24470,6 +29286,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Ergebnis"],
+      B2: ["die Konsequenz"],
+    },
   },
   {
     id: 4814,
@@ -24484,6 +29304,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "folgen",
+    synonyms: {
+      A2: ["nächste"],
+    },
   },
   {
     id: 4815,
@@ -24498,6 +29321,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "fordern",
+    synonyms: {
+      B1: ["der Anspruch"],
+      B2: ["die Anforderung"],
+    },
   },
   {
     id: 4816,
@@ -24512,6 +29339,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "fördern",
+    synonyms: {
+      A2: ["unterstützen"],
+      B1: ["helfen"],
+    },
   },
   {
     id: 4817,
@@ -24526,6 +29357,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "fördern",
+    synonyms: {
+      B1: ["die Unterstützung"],
+      B2: ["die Beihilfe"],
+    },
   },
   {
     id: 4818,
@@ -24539,6 +29374,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Gestalt"],
+      B1: ["das Aussehen"],
+    },
   },
   {
     id: 4819,
@@ -24553,6 +29392,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "fortsetzen",
+    synonyms: {
+      A2: ["weitermachen"],
+      B1: ["fortführen"],
+    },
   },
   {
     id: 4820,
@@ -24567,6 +29410,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "fortsetzen",
+    synonyms: {
+      B1: ["die Weiterführung"],
+    },
   },
   {
     id: 4821,
@@ -24580,6 +29426,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Diskussionsrunde"],
+    },
   },
   {
     id: 4822,
@@ -24594,6 +29443,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Fotograf",
+    synonyms: {
+      B1: ["der Lichtbildner"],
+    },
   },
   {
     id: 4823,
@@ -24607,6 +29459,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["unhöflich"],
+      B1: ["vorlaut"],
+      B2: ["dreist"],
+    },
   },
   {
     id: 4824,
@@ -24620,6 +29477,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["draußen"],
+      B1: ["an der frischen Luft"],
+    },
   },
   {
     id: 4825,
@@ -24634,6 +29495,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Freiheit",
+    synonyms: {
+      B1: ["die Unabhängigkeit"],
+    },
   },
   {
     id: 4826,
@@ -24647,6 +29511,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Verbundenheit"],
+    },
   },
   {
     id: 4827,
@@ -24660,19 +29527,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
-  },
-  {
-    id: 4828,
-    word: "frieren",
-    translation: "to freeze, be cold",
-    definition: "Kälte spüren.",
-    example: "Ich friere, kannst du die Heizung anmachen?",
-    exampleTranslation: "I'm cold, can you turn on the heating?",
-    thema: "Natur",
-    priority: "Medium",
-    favorite: false,
-    level: "B1",
-    type: "word",
+    synonyms: {
+      B1: ["die Ruhe"],
+    },
   },
   {
     id: 4829,
@@ -24686,6 +29543,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Haartracht"],
+    },
   },
   {
     id: 4830,
@@ -24699,6 +29559,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["Angst haben vor"],
+      B2: ["scheuen"],
+    },
   },
   {
     id: 4831,
@@ -24712,6 +29576,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Museum"],
+    },
   },
   {
     id: 4832,
@@ -24725,6 +29592,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Flur"],
+      B1: ["der Korridor"],
+    },
   },
   {
     id: 4833,
@@ -24738,6 +29609,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["überhaupt"],
+      B1: ["sogar"],
+    },
   },
   {
     id: 4834,
@@ -24752,6 +29627,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Garantie",
+    synonyms: {
+      A2: ["versprechen"],
+      B1: ["zusichern"],
+      B2: ["gewährleisten"],
+    },
   },
   {
     id: 4835,
@@ -24765,6 +29645,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Restaurant"],
+      B1: ["das Lokal"],
+      B2: ["das Gasthaus"],
+    },
   },
   {
     id: 4836,
@@ -24778,6 +29663,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Region"],
+      B1: ["das Areal"],
+    },
   },
   {
     id: 4837,
@@ -24791,6 +29680,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Berge"],
+    },
   },
   {
     id: 4838,
@@ -24804,6 +29696,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["zur Welt kommen"],
+    },
   },
   {
     id: 4839,
@@ -24818,6 +29713,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "gebrauchen",
+    synonyms: {
+      A2: ["benutzen", "verwenden"],
+      B1: ["einsetzen"],
+    },
   },
   {
     id: 4840,
@@ -24832,6 +29731,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "gebrauchen",
+    synonyms: {
+      B1: ["die Anleitung"],
+      B2: ["die Bedienungsanleitung"],
+    },
   },
   {
     id: 4841,
@@ -24845,6 +29748,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Vers"],
+      B2: ["die Dichtung"],
+    },
   },
   {
     id: 4842,
@@ -24858,6 +29765,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Ausdauer"],
+      B2: ["die Gelassenheit"],
+    },
   },
   {
     id: 4843,
@@ -24871,6 +29782,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["verehrt"],
+      B2: ["geschätzt"],
+    },
   },
   {
     id: 4844,
@@ -24884,6 +29799,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["passend"],
+      B1: ["tauglich"],
+    },
   },
   {
     id: 4845,
@@ -24897,6 +29816,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["etwas dulden", "etwas hinnehmen"],
+    },
   },
   {
     id: 4846,
@@ -24910,6 +29832,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Haftanstalt"],
+      B2: ["die Strafanstalt"],
+    },
   },
   {
     id: 4847,
@@ -24923,6 +29849,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Empfindung"],
+      B2: ["die Regung"],
+    },
   },
   {
     id: 4848,
@@ -24936,6 +29866,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Rivale"],
+      B2: ["der Kontrahent"],
+    },
   },
   {
     id: 4849,
@@ -24949,6 +29883,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Region"],
+      B1: ["das Gebiet"],
+    },
   },
   {
     id: 4850,
@@ -24963,6 +29901,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Stand",
+    synonyms: {
+      B1: ["das Ding"],
+      B2: ["das Objekt"],
+    },
   },
   {
     id: 4851,
@@ -24977,6 +29919,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "geheim",
+    synonyms: {
+      B1: ["das Mysterium"],
+    },
   },
   {
     id: 4852,
@@ -24991,6 +29936,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "geheim",
+    synonyms: {
+      B1: ["vertraulich"],
+      B2: ["verborgen"],
+    },
   },
   {
     id: 4853,
@@ -25004,6 +29953,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Möglichkeit"],
+      B2: ["die Chance"],
+    },
   },
   {
     id: 4854,
@@ -25017,6 +29970,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["klappen"],
+      B1: ["glücken"],
+    },
   },
   {
     id: 4855,
@@ -25030,6 +29987,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["zusammen"],
+      B1: ["geteilt"],
+    },
   },
   {
     id: 4856,
@@ -25044,6 +30005,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Gemeinschaft",
+    synonyms: {
+      B1: ["die Gruppe"],
+      B2: ["die Gesellschaft"],
+    },
   },
   {
     id: 4857,
@@ -25057,6 +30022,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["ebenso"],
+    },
   },
   {
     id: 4858,
@@ -25070,6 +30038,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["erlauben"],
+      B2: ["bewilligen"],
+    },
   },
   {
     id: 4859,
@@ -25083,6 +30055,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["auskosten"],
+      B2: ["auskosten"],
+    },
   },
   {
     id: 4860,
@@ -25096,6 +30072,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["reichen"],
+      B1: ["langen"],
+    },
   },
   {
     id: 4861,
@@ -25109,6 +30089,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["klein"],
+      B1: ["niedrig"],
+      B2: ["unerheblich"],
+    },
   },
   {
     id: 4862,
@@ -25122,6 +30107,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["gern"],
+      B1: ["mit Vergnügen"],
+    },
   },
   {
     id: 4863,
@@ -25135,6 +30124,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["passieren"],
+      B1: ["vorkommen"],
+    },
   },
   {
     id: 4864,
@@ -25149,6 +30142,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Geschwindigkeit",
+    synonyms: {
+      A2: ["das Tempo"],
+    },
   },
   {
     id: 4865,
@@ -25162,6 +30158,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Regel"],
+      B2: ["die Vorschrift"],
+    },
   },
   {
     id: 4866,
@@ -25175,6 +30175,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["neugierig"],
+      B2: ["erwartungsvoll"],
+    },
   },
   {
     id: 4867,
@@ -25188,6 +30192,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Kraft"],
+      B2: ["die Brutalität"],
+    },
   },
   {
     id: 4868,
@@ -25201,6 +30209,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Bewusstsein"],
+    },
   },
   {
     id: 4869,
@@ -25215,6 +30226,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "gewöhnen",
+    synonyms: {
+      A2: ["sich anpassen"],
+      B1: ["sich eingewöhnen"],
+    },
   },
   {
     id: 4870,
@@ -25229,6 +30244,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Gewohnheit",
+    synonyms: {
+      B1: ["der Brauch"],
+      B2: ["die Angewohnheit"],
+    },
   },
   {
     id: 4871,
@@ -25242,6 +30261,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["üblich"],
+      B1: ["vertraut"],
+    },
   },
   {
     id: 4872,
@@ -25256,6 +30279,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "gewöhnen",
+    synonyms: {
+      A2: ["normal"],
+      B1: ["üblich"],
+    },
   },
   {
     id: 4873,
@@ -25269,6 +30296,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["ebenfalls"],
+      B1: ["genauso"],
+    },
   },
   {
     id: 4874,
@@ -25282,6 +30313,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["zusammen"],
+      B1: ["zugleich"],
+      B2: ["simultan"],
+    },
   },
   {
     id: 4875,
@@ -25295,6 +30331,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Edelmetall"],
+    },
   },
   {
     id: 4876,
@@ -25321,6 +30360,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Diagramm"],
+    },
   },
   {
     id: 4878,
@@ -25334,6 +30376,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Glückwunsch"],
+    },
   },
   {
     id: 4879,
@@ -25347,6 +30392,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["nehmen"],
+      B1: ["fassen"],
+    },
   },
   {
     id: 4880,
@@ -25360,6 +30409,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Grenzlinie"],
+    },
   },
   {
     id: 4881,
@@ -25374,6 +30426,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Grund",
+    synonyms: {
+      B1: ["das Gelände"],
+      B2: ["das Areal"],
+    },
   },
   {
     id: 4882,
@@ -25388,6 +30444,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "grüßen",
+    synonyms: {
+      A2: ["willkommen heißen"],
+      B1: ["Hallo sagen"],
+    },
   },
   {
     id: 4883,
@@ -25401,6 +30461,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["schauen"],
+      B1: ["blicken"],
+    },
   },
   {
     id: 4884,
@@ -25414,6 +30478,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["wirksam"],
+      B2: ["rechtskräftig"],
+    },
   },
   {
     id: 4885,
@@ -25427,6 +30495,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Gehackte"],
+    },
   },
   {
     id: 4886,
@@ -25440,6 +30511,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["eisregnen"],
+    },
   },
   {
     id: 4887,
@@ -25454,6 +30528,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Pension",
+    synonyms: {
+      B1: ["Frühstück und Abendessen"],
+    },
   },
   {
     id: 4888,
@@ -25467,6 +30544,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["vormittags"],
+    },
   },
   {
     id: 4889,
@@ -25480,6 +30560,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Schwimmbad"],
+    },
   },
   {
     id: 4890,
@@ -25494,6 +30577,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "handeln",
+    synonyms: {
+      B1: ["der Verkauf"],
+      B2: ["das Geschäft"],
+    },
   },
   {
     id: 4891,
@@ -25507,6 +30594,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Verkäufer"],
+      B2: ["der Kaufmann"],
+    },
   },
   {
     id: 4892,
@@ -25520,6 +30611,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["verabscheuen"],
+      B2: ["verachten"],
+    },
   },
   {
     id: 4893,
@@ -25533,6 +30628,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["oft"],
+      B1: ["regelmäßig"],
+    },
   },
   {
     id: 4894,
@@ -25547,6 +30646,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Haut",
+    synonyms: {
+      B1: ["die Körperhülle"],
+    },
   },
   {
     id: 4895,
@@ -25560,6 +30662,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Recke"],
+    },
   },
   {
     id: 4896,
@@ -25573,6 +30678,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Ursprung"],
+    },
   },
   {
     id: 4897,
@@ -25586,6 +30694,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Produzent"],
+      B2: ["der Fabrikant"],
+    },
   },
   {
     id: 4898,
@@ -25599,6 +30711,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["ausschalten"],
+    },
   },
   {
     id: 4899,
@@ -25612,6 +30727,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["aktuell"],
+      B1: ["gegenwärtig"],
+    },
   },
   {
     id: 4900,
@@ -25626,6 +30745,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "hinweisen",
+    synonyms: {
+      A2: ["sagen"],
+      B1: ["aufmerksam machen"],
+    },
   },
   {
     id: 4901,
@@ -25640,6 +30763,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "hinweisen",
+    synonyms: {
+      B1: ["der Tipp"],
+      B2: ["der Wink"],
+    },
   },
   {
     id: 4902,
@@ -25653,6 +30780,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Größe"],
+      B2: ["die Anhöhe"],
+    },
   },
   {
     id: 4903,
@@ -25666,6 +30797,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["senden"],
+    },
   },
   {
     id: 4904,
@@ -25679,6 +30813,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Zuversicht"],
+    },
   },
   {
     id: 4905,
@@ -25692,6 +30829,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Hörer"],
+    },
   },
   {
     id: 4906,
@@ -25705,6 +30845,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Berg"],
+    },
   },
   {
     id: 4907,
@@ -25718,6 +30861,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Witz"],
+    },
   },
   {
     id: 4908,
@@ -25731,6 +30877,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["klingeln"],
+    },
   },
   {
     id: 4909,
@@ -25744,6 +30893,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Kopfbedeckung"],
+    },
   },
   {
     id: 4910,
@@ -25757,6 +30909,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Häuschen"],
+    },
   },
   {
     id: 4911,
@@ -25770,6 +30925,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["verboten"],
+      B2: ["gesetzwidrig"],
+    },
   },
   {
     id: 4912,
@@ -25783,6 +30942,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Einfuhr"],
+    },
   },
   {
     id: 4913,
@@ -25796,6 +30958,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["dadurch"],
+    },
   },
   {
     id: 4914,
@@ -25809,6 +30974,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["drinnen"],
+    },
   },
   {
     id: 4915,
@@ -25822,6 +30990,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["in"],
+    },
   },
   {
     id: 4916,
@@ -25835,6 +31006,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Anzeige"],
+    },
   },
   {
     id: 4917,
@@ -25849,6 +31023,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Institut",
+    synonyms: {
+      B1: ["die Einrichtung"],
+    },
   },
   {
     id: 4918,
@@ -25862,6 +31039,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["eingliedern"],
+    },
   },
   {
     id: 4919,
@@ -25876,6 +31056,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Integration",
+    synonyms: {
+      B1: ["die Eingliederung"],
+    },
   },
   {
     id: 4920,
@@ -25889,6 +31072,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Klugheit"],
+    },
   },
   {
     id: 4921,
@@ -25903,6 +31089,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "intensiv",
+    synonyms: {
+      B1: ["der Schnellkurs"],
+    },
   },
   {
     id: 4922,
@@ -25916,6 +31105,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["kulturübergreifend"],
+    },
   },
   {
     id: 4923,
@@ -25929,6 +31121,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["jeder"],
+    },
   },
   {
     id: 4924,
@@ -25955,6 +31150,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["falsch liegen"],
+      B1: ["sich täuschen"],
+    },
   },
   {
     id: 4926,
@@ -25968,6 +31167,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["jemals"],
+    },
   },
   {
     id: 4927,
@@ -25982,6 +31184,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Jugend",
+    synonyms: {
+      B1: ["die Jugendzeit"],
+    },
   },
   {
     id: 4928,
@@ -25995,6 +31200,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Umkleide"],
+    },
   },
   {
     id: 4929,
@@ -26008,6 +31216,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["streiten"],
+      B2: ["ringen"],
+    },
   },
   {
     id: 4930,
@@ -26021,6 +31233,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Graben"],
+    },
   },
   {
     id: 4931,
@@ -26034,6 +31249,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Krug"],
+    },
   },
   {
     id: 4932,
@@ -26047,6 +31265,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Abschnitt"],
+    },
   },
   {
     id: 4933,
@@ -26061,6 +31282,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "gehen",
+    synonyms: {
+      A2: ["defekt gehen"],
+      B1: ["zerbrechen"],
+    },
   },
   {
     id: 4934,
@@ -26075,6 +31300,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Chip",
+    synonyms: {
+      B1: ["die Karte"],
+    },
   },
   {
     id: 4935,
@@ -26088,6 +31316,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Band"],
+    },
   },
   {
     id: 4936,
@@ -26101,6 +31332,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Kunde"],
+    },
   },
   {
     id: 4937,
@@ -26114,6 +31348,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Kinderzeit"],
+    },
   },
   {
     id: 4938,
@@ -26127,6 +31364,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Karton"],
+    },
   },
   {
     id: 4939,
@@ -26140,6 +31380,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["sich beschweren"],
+    },
   },
   {
     id: 4940,
@@ -26154,6 +31397,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "klicken",
+    synonyms: {
+      B1: ["drücken"],
+    },
   },
   {
     id: 4941,
@@ -26168,6 +31414,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "klingeln",
+    synonyms: {
+      B1: ["läuten"],
+    },
   },
   {
     id: 4942,
@@ -26181,6 +31430,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Krankenhaus"],
+    },
   },
   {
     id: 4943,
@@ -26194,6 +31446,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["pochen"],
+    },
   },
   {
     id: 4944,
@@ -26207,6 +31462,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Teigknödel"],
+    },
   },
   {
     id: 4945,
@@ -26220,6 +31478,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Verständigung"],
+    },
   },
   {
     id: 4946,
@@ -26233,6 +31494,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["ganz"],
+      B1: ["vollständig"],
+    },
   },
   {
     id: 4947,
@@ -26246,6 +31511,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["schwierig"],
+      B2: ["komplex"],
+    },
   },
   {
     id: 4948,
@@ -26259,6 +31528,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Einigung"],
+    },
   },
   {
     id: 4949,
@@ -26272,6 +31544,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Streit"],
+    },
   },
   {
     id: 4950,
@@ -26285,6 +31560,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Herrscher"],
+    },
   },
   {
     id: 4951,
@@ -26298,6 +31576,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Wettbewerb"],
+    },
   },
   {
     id: 4952,
@@ -26312,6 +31593,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Konsum",
+    synonyms: {
+      B1: ["verbrauchen"],
+    },
   },
   {
     id: 4953,
@@ -26325,6 +31609,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["aufpassen"],
+    },
   },
   {
     id: 4954,
@@ -26339,6 +31626,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Kopie",
+    synonyms: {
+      A2: ["vervielfältigen"],
+    },
   },
   {
     id: 4955,
@@ -26353,6 +31643,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Kopie",
+    synonyms: {
+      B1: ["die Abschrift"],
+    },
   },
   {
     id: 4956,
@@ -26367,6 +31660,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Kopie",
+    synonyms: {
+      B1: ["das Kopiergerät"],
+    },
   },
   {
     id: 4957,
@@ -26380,6 +31676,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["leiblich"],
+    },
   },
   {
     id: 4958,
@@ -26393,6 +31692,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Flur"],
+    },
   },
   {
     id: 4959,
@@ -26406,6 +31708,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["verbessern"],
+    },
   },
   {
     id: 4960,
@@ -26420,6 +31725,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Kraft",
+    synonyms: {
+      B1: ["die Energie"],
+      B2: ["die Stärke"],
+    },
   },
   {
     id: 4961,
@@ -26434,6 +31743,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Zeug",
+    synonyms: {
+      B1: ["das Fahrzeug"],
+    },
   },
   {
     id: 4962,
@@ -26448,6 +31760,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Werk",
+    synonyms: {
+      B1: ["das Kernkraftwerk"],
+    },
   },
   {
     id: 4963,
@@ -26462,6 +31777,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Kranke",
+    synonyms: {
+      B1: ["der Patient"],
+    },
   },
   {
     id: 4964,
@@ -26476,6 +31794,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Kreis",
+    synonyms: {
+      B1: ["der Ring"],
+    },
   },
   {
     id: 4965,
@@ -26489,6 +31810,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Konflikt"],
+    },
   },
   {
     id: 4966,
@@ -26502,6 +31826,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Notlage"],
+    },
   },
   {
     id: 4967,
@@ -26515,6 +31842,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["tadeln"],
+    },
   },
   {
     id: 4968,
@@ -26528,6 +31858,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["unnatürlich"],
+      B2: ["synthetisch"],
+    },
   },
   {
     id: 4969,
@@ -26541,6 +31875,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Kehre"],
+    },
   },
   {
     id: 4970,
@@ -26554,6 +31891,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["vor kurzem"],
+      B1: ["neulich"],
+    },
   },
   {
     id: 4971,
@@ -26567,6 +31908,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Ufer"],
+    },
   },
   {
     id: 4972,
@@ -26580,6 +31924,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["strahlen"],
+    },
   },
   {
     id: 4973,
@@ -26594,6 +31941,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "landen",
+    synonyms: {
+      B1: ["aufsetzen"],
+    },
   },
   {
     id: 4974,
@@ -26608,6 +31958,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "landen",
+    synonyms: {
+      B1: ["das Aufsetzen"],
+    },
   },
   {
     id: 4975,
@@ -26621,6 +31974,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Öde"],
+    },
   },
   {
     id: 4976,
@@ -26634,6 +31990,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Lkw"],
+    },
   },
   {
     id: 4977,
@@ -26647,6 +32006,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Stimmung"],
+    },
   },
   {
     id: 4978,
@@ -26661,6 +32023,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Lauf",
+    synonyms: {
+      B1: ["die Vita"],
+    },
   },
   {
     id: 4979,
@@ -26674,6 +32039,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Haut"],
+    },
   },
   {
     id: 4980,
@@ -26687,6 +32055,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Ausbildung"],
+    },
   },
   {
     id: 4981,
@@ -26700,6 +32071,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Ausbildungsstelle"],
+    },
   },
   {
     id: 4982,
@@ -26714,6 +32088,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "leisten",
+    synonyms: {
+      B1: ["schaffen"],
+      B2: ["erbringen"],
+    },
   },
   {
     id: 4983,
@@ -26728,6 +32106,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "leiten",
+    synonyms: {
+      B1: ["der Chef"],
+    },
   },
   {
     id: 4984,
@@ -26741,6 +32122,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Schüler"],
+    },
   },
   {
     id: 4985,
@@ -26754,6 +32138,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Leser"],
+    },
   },
   {
     id: 4986,
@@ -26767,6 +32154,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Nachschlagewerk"],
+    },
   },
   {
     id: 4987,
@@ -26780,6 +32170,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Zuneigung"],
+    },
   },
   {
     id: 4988,
@@ -26794,6 +32187,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Linie",
+    synonyms: {
+      B1: ["die Strecke"],
+    },
   },
   {
     id: 4989,
@@ -26807,6 +32203,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Schrifttum"],
+    },
   },
   {
     id: 4990,
@@ -26820,6 +32219,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["anerkennen"],
+    },
   },
   {
     id: 4991,
@@ -26833,6 +32235,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Öffnung"],
+    },
   },
   {
     id: 4992,
@@ -26846,6 +32251,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["entspannt"],
+    },
   },
   {
     id: 4993,
@@ -26859,6 +32267,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["abfahren"],
+    },
   },
   {
     id: 4994,
@@ -26873,6 +32284,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Luft",
+    synonyms: {
+      B1: ["die Atemluft"],
+    },
   },
   {
     id: 4995,
@@ -26886,6 +32300,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Zeitschrift"],
+    },
   },
   {
     id: 4996,
@@ -26899,6 +32316,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["dünn"],
+    },
   },
   {
     id: 4997,
@@ -26912,6 +32332,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Defizit"],
+      B2: ["der Fehler"],
+    },
   },
   {
     id: 4998,
@@ -26925,6 +32349,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Stoff"],
+    },
   },
   {
     id: 4999,
@@ -26938,6 +32365,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Wand"],
+    },
   },
   {
     id: 5000,
@@ -26951,6 +32381,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["höchstens"],
+      B1: ["äußerst"],
+      B2: ["uneingeschränkt"],
+    },
   },
   {
     id: 5001,
@@ -26964,6 +32399,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Massenmedien"],
+    },
   },
   {
     id: 5002,
@@ -26977,6 +32415,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["viele"],
+      B1: ["etliche"],
+      B2: ["diverse"],
+    },
   },
   {
     id: 5003,
@@ -26990,6 +32433,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Großteil"],
+      B2: ["die Mehrzahl"],
+    },
   },
   {
     id: 5004,
@@ -27003,6 +32450,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["egal"],
+      B1: ["von mir aus"],
+    },
   },
   {
     id: 5005,
@@ -27017,6 +32468,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "melden",
+    synonyms: {
+      A2: ["berichten"],
+      B1: ["mitteilen"],
+      B2: ["anzeigen"],
+    },
   },
   {
     id: 5006,
@@ -27031,6 +32487,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "melden",
+    synonyms: {
+      A2: ["die Nachricht"],
+      B1: ["die Mitteilung"],
+    },
   },
   {
     id: 5007,
@@ -27044,6 +32504,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["mitfühlend"],
+      B2: ["human"],
+    },
   },
   {
     id: 5008,
@@ -27057,6 +32521,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Speisekarte"],
+      B2: ["das Gericht"],
+    },
   },
   {
     id: 5009,
@@ -27070,6 +32538,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["seltsam"],
+      B2: ["sonderbar"],
+    },
   },
   {
     id: 5010,
@@ -27083,6 +32555,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["abmessen"],
+      B1: ["ermitteln"],
+      B2: ["vermessen"],
+    },
   },
   {
     id: 5011,
@@ -27096,6 +32573,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Material"],
+    },
   },
   {
     id: 5012,
@@ -27109,6 +32589,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Verfahren"],
+      B2: ["die Vorgehensweise"],
+    },
   },
   {
     id: 5013,
@@ -27122,6 +32606,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Großstadt"],
+      B2: ["die Weltstadt"],
+    },
   },
   {
     id: 5014,
@@ -27136,6 +32624,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Metzger",
+    synonyms: {
+      B1: ["der Fleischer", "die Fleischerin"],
+      B2: ["der Schlachter", "die Schlachterin"],
+    },
   },
   {
     id: 5015,
@@ -27151,6 +32643,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Mieter",
+    synonyms: {
+      B1: ["der Mietende", "die Mietende"],
+    },
   },
   {
     id: 5016,
@@ -27165,6 +32660,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Migrant",
+    synonyms: {
+      B1: ["der Zuwanderer", "die Zuwanderin"],
+      B2: ["der Einwanderer", "die Einwanderin"],
+    },
   },
   {
     id: 5017,
@@ -27178,6 +32677,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Zuwanderung"],
+      B2: ["die Wanderungsbewegung"],
+    },
   },
   {
     id: 5018,
@@ -27191,6 +32694,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["sanft"],
+      B2: ["gemäßigt"],
+    },
   },
   {
     id: 5019,
@@ -27204,6 +32711,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der kleinere Teil"],
+    },
   },
   {
     id: 5020,
@@ -27217,6 +32727,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["wenig"],
+      B1: ["geringfügig"],
+      B2: ["marginal"],
+    },
   },
   {
     id: 5021,
@@ -27231,6 +32746,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Mitglied",
+    synonyms: {
+      B1: ["der Teilnehmer"],
+      B2: ["der Angehörige"],
+    },
   },
   {
     id: 5022,
@@ -27244,6 +32763,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["eingerichtet"],
+    },
   },
   {
     id: 5023,
@@ -27258,6 +32780,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "mobil",
+    synonyms: {
+      B1: ["der Anrufbeantworter"],
+    },
   },
   {
     id: 5024,
@@ -27271,6 +32796,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Chance"],
+      B1: ["die Option"],
+    },
   },
   {
     id: 5025,
@@ -27284,6 +32813,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["so gut wie möglich"],
+      B1: ["nach Möglichkeit"],
+    },
   },
   {
     id: 5026,
@@ -27297,6 +32830,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Mohrrübe", "die Karotte"],
+    },
   },
   {
     id: 5027,
@@ -27310,6 +32846,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Erdtrabant"],
+    },
   },
   {
     id: 5028,
@@ -27323,6 +32862,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Moped"],
+      B1: ["das Kraftrad"],
+    },
   },
   {
     id: 5029,
@@ -27336,6 +32879,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Müllentsorgung"],
+    },
   },
   {
     id: 5030,
@@ -27349,6 +32895,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["gesprochen"],
+      B2: ["verbal"],
+    },
   },
   {
     id: 5031,
@@ -27362,6 +32912,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Geldstück"],
+    },
   },
   {
     id: 5032,
@@ -27375,6 +32928,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["musisch"],
+    },
   },
   {
     id: 5033,
@@ -27388,6 +32944,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["als"],
+      B1: ["nachher"],
+    },
   },
   {
     id: 5034,
@@ -27401,6 +32961,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Interesse"],
+      B2: ["die Anfrage"],
+    },
   },
   {
     id: 5035,
@@ -27414,6 +32978,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["später"],
+      B1: ["danach"],
+    },
   },
   {
     id: 5036,
@@ -27428,6 +32996,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "schlagen",
+    synonyms: {
+      A2: ["suchen"],
+      B1: ["nachsehen"],
+    },
   },
   {
     id: 5037,
@@ -27442,6 +33014,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Speise",
+    synonyms: {
+      B1: ["der Nachtisch", "das Dessert"],
+    },
   },
   {
     id: 5038,
@@ -27455,6 +33030,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Kinder"],
+      B2: ["die Jugend"],
+    },
   },
   {
     id: 5039,
@@ -27468,6 +33047,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Stecknadel"],
+    },
   },
   {
     id: 5040,
@@ -27481,6 +33063,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Stift"],
+    },
   },
   {
     id: 5041,
@@ -27494,6 +33079,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["näher kommen"],
+      B1: ["herankommen"],
+    },
   },
   {
     id: 5042,
@@ -27508,6 +33097,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "mitten",
+    synonyms: {
+      B1: ["die Lebensmittel"],
+      B2: ["die Nahrung"],
+    },
   },
   {
     id: 5043,
@@ -27521,6 +33114,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["denn"],
+      B1: ["und zwar"],
+    },
   },
   {
     id: 5044,
@@ -27535,6 +33132,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "national",
+    synonyms: {
+      B1: ["landesweit"],
+      B2: ["überregional"],
+    },
   },
   {
     id: 5045,
@@ -27548,6 +33149,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["nebenher"],
+      B1: ["beiläufig"],
+    },
   },
   {
     id: 5046,
@@ -27561,6 +33166,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Neffe"],
+      B2: ["die Nichte"],
+    },
   },
   {
     id: 5047,
@@ -27574,6 +33183,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Nervenfaser"],
+    },
   },
   {
     id: 5048,
@@ -27587,6 +33199,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["interessiert"],
+      B1: ["wissbegierig"],
+    },
   },
   {
     id: 5049,
@@ -27601,6 +33217,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Nichtraucher",
+    synonyms: {
+      B1: ["die Nichtraucherin"],
+    },
   },
   {
     id: 5050,
@@ -27614,6 +33233,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["gering"],
+      B1: ["tief"],
+    },
   },
   {
     id: 5051,
@@ -27627,6 +33250,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["an keinem Ort"],
+      B1: ["nirgends"],
+    },
   },
   {
     id: 5052,
@@ -27640,6 +33267,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["noch einmal"],
+      B1: ["abermals"],
+    },
   },
   {
     id: 5053,
@@ -27653,6 +33284,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["noch einmal"],
+      B1: ["erneut"],
+    },
   },
   {
     id: 5054,
@@ -27666,6 +33301,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Notlage"],
+      B2: ["die Bedrängnis"],
+    },
   },
   {
     id: 5055,
@@ -27680,6 +33319,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "gehen",
+    synonyms: {
+      B1: ["der Notausstieg"],
+    },
   },
   {
     id: 5056,
@@ -27693,6 +33335,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["notwendig"],
+      B1: ["erforderlich"],
+      B2: ["unerlässlich"],
+    },
   },
   {
     id: 5057,
@@ -27706,6 +33353,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["helfen"],
+      B1: ["nutzen"],
+    },
   },
   {
     id: 5058,
@@ -27719,6 +33370,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["herausgeben"],
+      B2: ["publizieren"],
+    },
   },
   {
     id: 5059,
@@ -27732,6 +33387,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["häufiger"],
+    },
   },
   {
     id: 5060,
@@ -27745,6 +33403,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Musiktheater"],
+    },
   },
   {
     id: 5061,
@@ -27758,6 +33419,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Kapelle"],
+    },
   },
   {
     id: 5062,
@@ -27772,6 +33436,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "ordnen",
+    synonyms: {
+      A2: ["sortieren"],
+      B1: ["aufräumen"],
+    },
   },
   {
     id: 5063,
@@ -27785,6 +33453,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Wohnsitz"],
+    },
   },
   {
     id: 5064,
@@ -27798,6 +33469,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Weltmeer"],
+    },
   },
   {
     id: 5065,
@@ -27811,6 +33485,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Defekt"],
+      B2: ["die Störung"],
+    },
   },
   {
     id: 5066,
@@ -27824,6 +33502,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["gleichzeitig"],
+      B2: ["nebeneinander"],
+    },
   },
   {
     id: 5067,
@@ -27837,6 +33519,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["abgestellt"],
+    },
   },
   {
     id: 5068,
@@ -27850,6 +33535,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Fahrgast", "die Fahrgästin"],
+    },
   },
   {
     id: 5069,
@@ -27863,6 +33551,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["untätig"],
+    },
   },
   {
     id: 5070,
@@ -27889,6 +33580,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Unglück"],
+      B2: ["das Missgeschick"],
+    },
   },
   {
     id: 5072,
@@ -27902,6 +33597,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["in Rente gehen"],
+      B1: ["aufhören zu arbeiten"],
+    },
   },
   {
     id: 5073,
@@ -27916,6 +33615,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Personal",
+    synonyms: {
+      B1: ["die Daten"],
+    },
   },
   {
     id: 5074,
@@ -27930,6 +33632,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Personal",
+    synonyms: {
+      B1: ["die Belegschaft"],
+      B2: ["die Mitarbeiterschaft"],
+    },
   },
   {
     id: 5075,
@@ -27944,6 +33650,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "pflegen",
+    synonyms: {
+      A2: ["sich kümmern um"],
+      B1: ["betreuen"],
+      B2: ["hegen"],
+    },
   },
   {
     id: 5076,
@@ -27958,6 +33669,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "pflegen",
+    synonyms: {
+      B1: ["der Betreuer", "die Betreuerin"],
+    },
   },
   {
     id: 5077,
@@ -27971,6 +33685,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Einbildung"],
+      B2: ["die Vorstellung"],
+    },
   },
   {
     id: 5078,
@@ -27984,6 +33702,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Kunststoff"],
+    },
   },
   {
     id: 5079,
@@ -27998,6 +33719,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Politik",
+    synonyms: {
+      B1: ["der Staatsmann", "die Staatsfrau"],
+    },
   },
   {
     id: 5080,
@@ -28011,6 +33735,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Fritten"],
+    },
   },
   {
     id: 5081,
@@ -28024,6 +33751,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["beliebt"],
+      B2: ["volkstümlich"],
+    },
   },
   {
     id: 5082,
@@ -28037,6 +33768,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Geldbörse"],
+      B1: ["die Brieftasche"],
+    },
   },
   {
     id: 5083,
@@ -28051,6 +33786,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Praktikant",
+    synonyms: {
+      B1: ["der Praktikant", "die Praktikantin"],
+    },
   },
   {
     id: 5084,
@@ -28064,6 +33802,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["zeigen"],
+      B1: ["vorstellen"],
+      B2: ["vorführen"],
+    },
   },
   {
     id: 5085,
@@ -28077,6 +33820,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Vortrag"],
+      B2: ["die Vorführung"],
+    },
   },
   {
     id: 5086,
@@ -28090,6 +33837,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Zeitungen"],
+    },
   },
   {
     id: 5087,
@@ -28103,6 +33853,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["toll", "super"],
+      B1: ["klasse"],
+      B2: ["erstklassig"],
+    },
   },
   {
     id: 5088,
@@ -28116,6 +33871,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["herstellen"],
+      B1: ["anfertigen"],
+      B2: ["fertigen"],
+    },
   },
   {
     id: 5089,
@@ -28130,6 +33890,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Sportler",
+    synonyms: {
+      B1: ["der Berufssportler", "die Berufssportlerin"],
+    },
   },
   {
     id: 5090,
@@ -28143,6 +33906,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["zum Wohl"],
+      B1: ["Gesundheit"],
+    },
   },
   {
     id: 5091,
@@ -28157,6 +33924,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Protest",
+    synonyms: {
+      B1: ["der Einspruch"],
+      B2: ["die Beschwerde"],
+    },
   },
   {
     id: 5092,
@@ -28170,6 +33941,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Ablauf"],
+      B2: ["der Rechtsstreit"],
+    },
   },
   {
     id: 5093,
@@ -28183,6 +33958,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Zuschauer"],
+      B2: ["die Zuhörerschaft"],
+    },
   },
   {
     id: 5094,
@@ -28196,6 +33975,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["quer durch"],
+    },
   },
   {
     id: 5095,
@@ -28209,6 +33991,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Fahrradfahrer", "die Fahrradfahrerin"],
+    },
   },
   {
     id: 5096,
@@ -28223,6 +34008,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Rand",
+    synonyms: {
+      B1: ["die Kante"],
+      B2: ["der Saum"],
+    },
   },
   {
     id: 5097,
@@ -28236,6 +34025,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["sich enthaaren"],
+    },
   },
   {
     id: 5098,
@@ -28249,6 +34041,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Tipp"],
+      B1: ["der Ratschlag"],
+    },
   },
   {
     id: 5099,
@@ -28262,6 +34058,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Qualmer"],
+    },
   },
   {
     id: 5100,
@@ -28275,6 +34074,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["umsetzen"],
+      B2: ["verwirklichen"],
+    },
   },
   {
     id: 5101,
@@ -28288,6 +34091,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Wirklichkeit"],
+    },
   },
   {
     id: 5102,
@@ -28301,6 +34107,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Suche"],
+      B2: ["die Nachforschung"],
+    },
   },
   {
     id: 5103,
@@ -28314,6 +34124,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["verringern"],
+      B1: ["verkleinern"],
+      B2: ["senken"],
+    },
   },
   {
     id: 5104,
@@ -28327,6 +34142,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Vortrag"],
+      B2: ["die Abhandlung"],
+    },
   },
   {
     id: 5105,
@@ -28340,6 +34159,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Erneuerung"],
+      B2: ["die Neuordnung"],
+    },
   },
   {
     id: 5106,
@@ -28354,6 +34177,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Regel",
+    synonyms: {
+      B1: ["die Vorschrift"],
+      B2: ["die Norm"],
+    },
   },
   {
     id: 5107,
@@ -28368,6 +34195,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "folgen",
+    synonyms: {
+      B1: ["die Abfolge"],
+    },
   },
   {
     id: 5108,
@@ -28381,6 +34211,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["putzen", "säubern"],
+      B1: ["waschen"],
+    },
   },
   {
     id: 5109,
@@ -28394,6 +34228,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Werbung"],
+    },
   },
   {
     id: 5110,
@@ -28407,6 +34244,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["ziemlich"],
+      B1: ["vergleichsweise"],
+      B2: ["verhältnismäßig"],
+    },
   },
   {
     id: 5111,
@@ -28420,6 +34262,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Ruhegeld"],
+      B2: ["die Altersversorgung"],
+    },
   },
   {
     id: 5112,
@@ -28433,6 +34279,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["aufhören zu arbeiten"],
+      B1: ["in den Ruhestand gehen"],
+    },
   },
   {
     id: 5113,
@@ -28446,6 +34296,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Bericht"],
+    },
   },
   {
     id: 5114,
@@ -28459,6 +34312,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Berichterstatter", "die Berichterstatterin"],
+      B2: ["der Journalist", "die Journalistin"],
+    },
   },
   {
     id: 5115,
@@ -28472,6 +34329,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Achtung"],
+      B2: ["die Hochachtung"],
+    },
   },
   {
     id: 5116,
@@ -28485,6 +34346,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Gefahr"],
+      B2: ["das Wagnis"],
+    },
   },
   {
     id: 5117,
@@ -28498,6 +34363,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Erzählung"],
+    },
   },
   {
     id: 5118,
@@ -28511,6 +34379,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Rückreise"],
+    },
   },
   {
     id: 5119,
@@ -28524,6 +34395,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["zurück"],
+    },
   },
   {
     id: 5120,
@@ -28537,6 +34411,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Telefonnummer"],
+    },
   },
   {
     id: 5121,
@@ -28551,6 +34428,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Rundfahrt",
+    synonyms: {
+      B1: ["die Reise"],
+      B2: ["die Rundreise"],
+    },
   },
   {
     id: 5122,
@@ -28564,6 +34445,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Raum"],
+      B2: ["die Halle"],
+    },
   },
   {
     id: 5123,
@@ -28578,6 +34463,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Sack",
+    synonyms: {
+      B1: ["der Beutel"],
+    },
   },
   {
     id: 5124,
@@ -28591,6 +34479,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Laden"],
+      B2: ["der Studio"],
+    },
   },
   {
     id: 5125,
@@ -28604,6 +34496,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["alle"],
+      B1: ["ganze"],
+    },
   },
   {
     id: 5126,
@@ -28617,6 +34513,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Kies"],
+    },
   },
   {
     id: 5127,
@@ -28631,6 +34530,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "schalten",
+    synonyms: {
+      A2: ["stellen"],
+      B1: ["umstellen"],
+    },
   },
   {
     id: 5128,
@@ -28644,6 +34547,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["einschätzen"],
+      B2: ["veranschlagen"],
+    },
   },
   {
     id: 5129,
@@ -28658,6 +34565,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "scheiden",
+    synonyms: {
+      B1: ["die Trennung"],
+    },
   },
   {
     id: 5130,
@@ -28672,6 +34582,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "schieben",
+    synonyms: {
+      A2: ["drücken"],
+      B1: ["rücken"],
+      B2: ["befördern"],
+    },
   },
   {
     id: 5131,
@@ -28685,6 +34600,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["schräg"],
+      B2: ["windschief"],
+    },
   },
   {
     id: 5132,
@@ -28699,6 +34618,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "schlagen",
+    synonyms: {
+      A2: ["hauen"],
+      B1: ["prügeln"],
+    },
   },
   {
     id: 5133,
@@ -28712,6 +34635,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Warteschlange"],
+    },
   },
   {
     id: 5134,
@@ -28725,6 +34651,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["dünn"],
+      B1: ["schmal"],
+    },
   },
   {
     id: 5135,
@@ -28738,6 +34668,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["eng"],
+      B1: ["dünn"],
+    },
   },
   {
     id: 5136,
@@ -28751,6 +34685,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Dreck"],
+      B1: ["die Verunreinigung"],
+    },
   },
   {
     id: 5137,
@@ -28764,6 +34702,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["dreckig machen"],
+      B1: ["beschmutzen"],
+    },
   },
   {
     id: 5138,
@@ -28777,6 +34719,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Fleischgericht"],
+    },
   },
   {
     id: 5139,
@@ -28791,6 +34736,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Schrift",
+    synonyms: {
+      B1: ["der Autor", "die Autorin"],
+      B2: ["der Verfasser", "die Verfasserin"],
+    },
   },
   {
     id: 5140,
@@ -28805,6 +34754,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Schritt",
+    synonyms: {
+      B1: ["der Tritt"],
+      B2: ["die Maßnahme"],
+    },
   },
   {
     id: 5141,
@@ -28819,6 +34772,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Schuld",
+    synonyms: {
+      B1: ["die Verantwortung"],
+      B2: ["das Verschulden"],
+    },
   },
   {
     id: 5142,
@@ -28833,6 +34790,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Schuld",
+    synonyms: {
+      B1: ["die Verbindlichkeiten"],
+    },
   },
   {
     id: 5143,
@@ -28847,6 +34807,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Schuld",
+    synonyms: {
+      B1: ["verantwortlich"],
+      B2: ["straffällig"],
+    },
   },
   {
     id: 5144,
@@ -28860,6 +34824,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Schale"],
+    },
   },
   {
     id: 5145,
@@ -28873,6 +34840,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["rütteln"],
+    },
   },
   {
     id: 5146,
@@ -28886,6 +34856,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["nichts sagen"],
+      B1: ["verstummen"],
+    },
   },
   {
     id: 5147,
@@ -28899,6 +34873,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Problem"],
+      B2: ["das Hindernis"],
+    },
   },
   {
     id: 5148,
@@ -28912,6 +34890,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["selbst"],
+      B1: ["persönlich"],
+    },
   },
   {
     id: 5149,
@@ -28925,6 +34907,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["natürlich"],
+      B1: ["klar"],
+      B2: ["zweifellos"],
+    },
   },
   {
     id: 5150,
@@ -28938,6 +34925,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["merkwürdig"],
+      B2: ["sonderbar"],
+    },
   },
   {
     id: 5151,
@@ -28951,6 +34942,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Kurs"],
+      B2: ["die Lehrveranstaltung"],
+    },
   },
   {
     id: 5152,
@@ -28965,6 +34960,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "senden",
+    synonyms: {
+      B1: ["der Rundfunkanbieter"],
+    },
   },
   {
     id: 5153,
@@ -28979,6 +34977,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Senior",
+    synonyms: {
+      B1: ["die Rentner"],
+      B2: ["die älteren Menschen"],
+    },
   },
   {
     id: 5154,
@@ -28992,6 +34994,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["aufrecht"],
+      B1: ["vertikal"],
+      B2: ["lotrecht"],
+    },
   },
   {
     id: 5155,
@@ -29005,6 +35012,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Mitarbeiter im Service"],
+    },
   },
   {
     id: 5156,
@@ -29019,6 +35029,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "sichern",
+    synonyms: {
+      A2: ["schützen"],
+      B1: ["absichern"],
+    },
   },
   {
     id: 5157,
@@ -29032,6 +35046,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["erkennbar"],
+      B2: ["sichtlich"],
+    },
   },
   {
     id: 5158,
@@ -29046,6 +35064,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "siegen",
+    synonyms: {
+      A2: ["gewinnen"],
+      B1: ["triumphieren"],
+    },
   },
   {
     id: 5159,
@@ -29059,6 +35081,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["per Sie sein"],
+    },
   },
   {
     id: 5160,
@@ -29072,6 +35097,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["fallen"],
+      B1: ["absinken"],
+      B2: ["zurückgehen"],
+    },
   },
   {
     id: 5161,
@@ -29086,6 +35116,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Sitz",
+    synonyms: {
+      B1: ["der Platz"],
+      B2: ["der Standort"],
+    },
   },
   {
     id: 5162,
@@ -29099,6 +35133,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["wenn"],
+      B1: ["sowie"],
+    },
   },
   {
     id: 5163,
@@ -29112,6 +35150,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Strumpf"],
+    },
   },
   {
     id: 5164,
@@ -29125,6 +35166,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["damit"],
+      B1: ["so dass"],
+    },
   },
   {
     id: 5165,
@@ -29138,6 +35183,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["angeblich"],
+      B2: ["vermeintlich"],
+    },
   },
   {
     id: 5166,
@@ -29151,6 +35200,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["so lange wie"],
+      B1: ["solang"],
+    },
   },
   {
     id: 5167,
@@ -29165,6 +35218,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "sorgen",
+    synonyms: {
+      A2: ["sich kümmern um"],
+      B1: ["bereitstellen"],
+      B2: ["sorgen für"],
+    },
   },
   {
     id: 5168,
@@ -29178,6 +35236,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Tunke"],
+    },
   },
   {
     id: 5169,
@@ -29191,6 +35252,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["ebenso viel wie"],
+    },
   },
   {
     id: 5170,
@@ -29204,6 +35268,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["ohnehin"],
+    },
   },
   {
     id: 5171,
@@ -29218,6 +35285,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "sozial",
+    synonyms: {
+      B1: ["gesellschaftlich"],
+      B2: ["gemeinnützig"],
+    },
   },
   {
     id: 5172,
@@ -29231,6 +35302,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["preiswert"],
+      B1: ["wirtschaftlich"],
+      B2: ["genügsam"],
+    },
   },
   {
     id: 5173,
@@ -29245,6 +35321,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Speise",
+    synonyms: {
+      B1: ["der Bahnrestaurant"],
+    },
   },
   {
     id: 5174,
@@ -29258,6 +35337,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Fachmann", "die Fachfrau"],
+      B2: ["der Experte", "die Expertin"],
+    },
   },
   {
     id: 5175,
@@ -29271,6 +35354,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["besonders"],
+      B2: ["eigens"],
+    },
   },
   {
     id: 5176,
@@ -29284,6 +35371,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Mitspieler", "die Mitspielerin"],
+    },
   },
   {
     id: 5177,
@@ -29297,6 +35387,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["scharf"],
+      B2: ["kantig"],
+    },
   },
   {
     id: 5178,
@@ -29310,6 +35404,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Erstsprache"],
+    },
   },
   {
     id: 5179,
@@ -29323,6 +35420,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Folgesprache"],
+    },
   },
   {
     id: 5180,
@@ -29336,6 +35436,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["hüpfen"],
+      B1: ["hopsen"],
+    },
   },
   {
     id: 5181,
@@ -29349,6 +35453,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["abwaschen"],
+      B1: ["abspülen"],
+    },
   },
   {
     id: 5182,
@@ -29362,6 +35470,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["merken"],
+      B1: ["fühlen"],
+      B2: ["wahrnehmen"],
+    },
   },
   {
     id: 5183,
@@ -29376,6 +35489,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Stadion",
+    synonyms: {
+      B1: ["die Arena"],
+      B2: ["die Spielstätte"],
+    },
   },
   {
     id: 5184,
@@ -29389,6 +35506,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["kommen aus"],
+      B1: ["herrühren"],
+      B2: ["entstammen"],
+    },
   },
   {
     id: 5185,
@@ -29403,6 +35525,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "starten",
+    synonyms: {
+      A2: ["beginnen"],
+      B1: ["loslegen"],
+    },
   },
   {
     id: 5186,
@@ -29417,6 +35543,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "starten",
+    synonyms: {
+      A2: ["der Anfang"],
+      B1: ["der Beginn"],
+    },
   },
   {
     id: 5187,
@@ -29430,6 +35560,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Auswertung"],
+    },
   },
   {
     id: 5188,
@@ -29443,6 +35576,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["zahlenmäßig"],
+    },
   },
   {
     id: 5189,
@@ -29457,6 +35593,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Staub",
+    synonyms: {
+      B1: ["der Schmutz"],
+    },
   },
   {
     id: 5190,
@@ -29471,6 +35610,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Staub",
+    synonyms: {
+      A2: ["saugen"],
+      B1: ["Staub saugen"],
+    },
   },
   {
     id: 5191,
@@ -29484,6 +35627,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["pieksen"],
+    },
   },
   {
     id: 5192,
@@ -29498,6 +35644,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "stecken",
+    synonyms: {
+      A2: ["stellen"],
+      B1: ["legen"],
+      B2: ["stopfen"],
+    },
   },
   {
     id: 5193,
@@ -29512,6 +35663,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "phrase",
     family: "stehen",
+    synonyms: {
+      A2: ["anhalten"],
+      B1: ["innehalten"],
+    },
   },
   {
     id: 5194,
@@ -29526,6 +35681,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "steigen",
+    synonyms: {
+      A2: ["hochgehen"],
+      B1: ["klettern"],
+      B2: ["ansteigen"],
+    },
   },
   {
     id: 5195,
@@ -29539,6 +35699,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["abschüssig"],
+    },
   },
   {
     id: 5196,
@@ -29552,6 +35715,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Fels"],
+    },
   },
   {
     id: 5197,
@@ -29565,6 +35731,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Flugbegleiter", "die Flugbegleiterin"],
+    },
   },
   {
     id: 5198,
@@ -29579,6 +35748,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Stil",
+    synonyms: {
+      B1: ["die Art"],
+      B2: ["die Machart"],
+    },
   },
   {
     id: 5199,
@@ -29593,6 +35766,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Stil",
+    synonyms: {
+      B2: ["stilmäßig"],
+    },
   },
   {
     id: 5200,
@@ -29606,6 +35782,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["ruhig"],
+      B1: ["leise"],
+    },
   },
   {
     id: 5201,
@@ -29619,6 +35799,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Stimmabgabe"],
+    },
   },
   {
     id: 5202,
@@ -29633,6 +35816,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Stoff",
+    synonyms: {
+      B1: ["das Gewebe"],
+      B2: ["das Material"],
+    },
   },
   {
     id: 5203,
@@ -29646,6 +35833,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Störung"],
+      B2: ["die Beeinträchtigung"],
+    },
   },
   {
     id: 5204,
@@ -29659,6 +35850,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["schubsen"],
+      B1: ["rempeln"],
+      B2: ["anrempeln"],
+    },
   },
   {
     id: 5205,
@@ -29672,6 +35868,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Geldbuße"],
+      B2: ["die Sanktion"],
+    },
   },
   {
     id: 5206,
@@ -29685,6 +35885,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["verboten"],
+      B2: ["ahndbar"],
+    },
   },
   {
     id: 5207,
@@ -29699,6 +35903,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "streiken",
+    synonyms: {
+      B1: ["die Arbeit niederlegen"],
+    },
   },
   {
     id: 5208,
@@ -29713,6 +35920,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "streiken",
+    synonyms: {
+      B1: ["die Arbeitsniederlegung"],
+    },
   },
   {
     id: 5209,
@@ -29726,6 +35936,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Zank"],
+      B1: ["die Meinungsverschiedenheit"],
+    },
   },
   {
     id: 5210,
@@ -29739,6 +35953,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Socke"],
+    },
   },
   {
     id: 5211,
@@ -29752,6 +35969,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Untersuchung"],
+    },
   },
   {
     id: 5212,
@@ -29765,6 +35985,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Student", "die Studentin"],
+    },
   },
   {
     id: 5213,
@@ -29778,6 +36001,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["sprachlos"],
+      B2: ["wortlos"],
+    },
   },
   {
     id: 5214,
@@ -29791,6 +36018,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Abhängigkeit"],
+    },
   },
   {
     id: 5215,
@@ -29804,6 +36034,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["abhängig"],
+    },
   },
   {
     id: 5216,
@@ -29818,6 +36051,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "mitten",
+    synonyms: {
+      B1: ["die Droge"],
+    },
   },
   {
     id: 5217,
@@ -29831,6 +36067,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Zeichen"],
+    },
   },
   {
     id: 5218,
@@ -29844,6 +36083,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Prinzip"],
+      B2: ["die Ordnung"],
+    },
   },
   {
     id: 5219,
@@ -29857,6 +36100,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Auftritt"],
+      B2: ["die Szenerie"],
+    },
   },
   {
     id: 5220,
@@ -29870,6 +36117,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Übersicht"],
+      B2: ["das Verzeichnis"],
+    },
   },
   {
     id: 5221,
@@ -29884,6 +36135,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Lauf",
+    synonyms: {
+      B1: ["der Tagesplan"],
+    },
   },
   {
     id: 5222,
@@ -29897,6 +36151,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Tiefland"],
+    },
   },
   {
     id: 5223,
@@ -29910,6 +36167,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Begabung"],
+      B2: ["das Geschick"],
+    },
   },
   {
     id: 5224,
@@ -29923,6 +36184,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Knopf"],
+    },
   },
   {
     id: 5225,
@@ -29936,6 +36200,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Handlung"],
+    },
   },
   {
     id: 5226,
@@ -29949,6 +36216,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Fakt"],
+      B2: ["der Umstand"],
+    },
   },
   {
     id: 5227,
@@ -29962,6 +36233,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["wirklich"],
+      B1: ["in der Tat"],
+      B2: ["faktisch"],
+    },
   },
   {
     id: 5228,
@@ -29975,6 +36251,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["gehörlos"],
+    },
   },
   {
     id: 5229,
@@ -29988,6 +36267,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Technik"],
+    },
   },
   {
     id: 5230,
@@ -30002,6 +36284,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "phrase",
     family: "ziehen",
+    synonyms: {
+      B1: ["Tee ruhen lassen"],
+    },
   },
   {
     id: 5231,
@@ -30015,6 +36300,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Geschwindigkeit"],
+      B2: ["die Schnelligkeit"],
+    },
   },
   {
     id: 5232,
@@ -30029,6 +36318,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "testen",
+    synonyms: {
+      A2: ["prüfen"],
+      B1: ["ausprobieren"],
+      B2: ["erproben"],
+    },
   },
   {
     id: 5233,
@@ -30042,6 +36336,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["gedacht"],
+      B2: ["denkbar"],
+    },
   },
   {
     id: 5234,
@@ -30055,6 +36353,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Lehre"],
+      B2: ["die These"],
+    },
   },
   {
     id: 5235,
@@ -30068,6 +36370,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Behandlung"],
+    },
   },
   {
     id: 5236,
@@ -30081,6 +36386,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Heimtier"],
+    },
   },
   {
     id: 5237,
@@ -30094,6 +36402,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["schreiben"],
+      B1: ["eingeben"],
+    },
   },
   {
     id: 5238,
@@ -30107,6 +36419,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Ableben"],
+    },
   },
   {
     id: 5239,
@@ -30120,6 +36435,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["lebensgefährlich"],
+      B2: ["letal"],
+    },
   },
   {
     id: 5240,
@@ -30133,6 +36452,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["aufgeschlossen"],
+      B2: ["duldsam"],
+    },
   },
   {
     id: 5241,
@@ -30147,6 +36470,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Tradition",
+    synonyms: {
+      B1: ["der Brauch"],
+      B2: ["die Überlieferung"],
+    },
   },
   {
     id: 5242,
@@ -30160,6 +36487,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Tränenwasser"],
+    },
   },
   {
     id: 5243,
@@ -30174,6 +36504,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "treiben",
+    synonyms: {
+      A2: ["machen"],
+      B1: ["ausüben"],
+      B2: ["betreiben"],
+    },
   },
   {
     id: 5244,
@@ -30188,6 +36523,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "phrase",
     family: "leben",
+    synonyms: {
+      B1: ["getrennt wohnen"],
+    },
   },
   {
     id: 5245,
@@ -30202,6 +36540,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "treten",
+    synonyms: {
+      A2: ["gehen"],
+      B1: ["stoßen"],
+    },
   },
   {
     id: 5246,
@@ -30215,6 +36557,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["zuverlässig"],
+      B2: ["ergeben"],
+    },
   },
   {
     id: 5247,
@@ -30228,6 +36574,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Zusatzgabe"],
+    },
   },
   {
     id: 5248,
@@ -30242,6 +36591,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Tuch",
+    synonyms: {
+      B1: ["das Halstuch"],
+    },
   },
   {
     id: 5249,
@@ -30256,6 +36608,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Tüte",
+    synonyms: {
+      B1: ["der Beutel"],
+    },
   },
   {
     id: 5250,
@@ -30269,6 +36624,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Sorte"],
+      B2: ["der Kerl"],
+    },
   },
   {
     id: 5251,
@@ -30282,6 +36641,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["anfahren"],
+    },
   },
   {
     id: 5252,
@@ -30295,6 +36657,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["generell"],
+    },
   },
   {
     id: 5253,
@@ -30308,6 +36673,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["vorbeifahren"],
+    },
   },
   {
     id: 5254,
@@ -30321,6 +36689,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["denken"],
+      B1: ["erwägen"],
+    },
   },
   {
     id: 5255,
@@ -30334,6 +36706,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Aufenthalt"],
+      B2: ["die Nächtigung"],
+    },
   },
   {
     id: 5256,
@@ -30347,6 +36723,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["nehmen"],
+    },
   },
   {
     id: 5257,
@@ -30360,6 +36739,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["prüfen"],
+      B1: ["kontrollieren"],
+    },
   },
   {
     id: 5258,
@@ -30373,6 +36756,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["überschreiten"],
+      B2: ["durchqueren"],
+    },
   },
   {
     id: 5259,
@@ -30387,6 +36774,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "überraschen",
+    synonyms: {
+      B1: ["verblüffen"],
+    },
   },
   {
     id: 5260,
@@ -30401,6 +36791,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "überraschen",
+    synonyms: {
+      B1: ["der Schock"],
+      B2: ["der Clou"],
+    },
   },
   {
     id: 5261,
@@ -30415,6 +36809,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "treiben",
+    synonyms: {
+      B1: ["überziehen"],
+      B2: ["aufbauschen"],
+    },
   },
   {
     id: 5262,
@@ -30429,6 +36827,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "überzeugen",
+    synonyms: {
+      B1: ["die Meinung"],
+      B2: ["die Gewissheit"],
+    },
   },
   {
     id: 5263,
@@ -30442,6 +36844,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["normal"],
+      B1: ["gewöhnlich"],
+    },
   },
   {
     id: 5264,
@@ -30456,6 +36862,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "übrig",
+    synonyms: {
+      A2: ["übrig geblieben"],
+      B1: ["restlich"],
+    },
   },
   {
     id: 5265,
@@ -30469,6 +36879,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Erhebung"],
+      B2: ["die Befragung"],
+    },
   },
   {
     id: 5266,
@@ -30483,6 +36897,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "gehen",
+    synonyms: {
+      B1: ["handhaben"],
+      B2: ["verfahren"],
+    },
   },
   {
     id: 5267,
@@ -30497,6 +36915,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "leiten",
+    synonyms: {
+      B1: ["die Umfahrung"],
+    },
   },
   {
     id: 5268,
@@ -30510,6 +36931,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["umso mehr"],
+    },
   },
   {
     id: 5269,
@@ -30524,6 +36948,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "umtauschen",
+    synonyms: {
+      B1: ["der Austausch"],
+    },
   },
   {
     id: 5270,
@@ -30538,6 +36965,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Umwelt",
+    synonyms: {
+      B1: ["der Naturschutz"],
+    },
   },
   {
     id: 5271,
@@ -30552,6 +36982,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Umwelt",
+    synonyms: {
+      B1: ["die Verschmutzung"],
+    },
   },
   {
     id: 5272,
@@ -30565,6 +36998,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["beängstigend"],
+      B2: ["ungemein"],
+    },
   },
   {
     id: 5273,
@@ -30578,6 +37015,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Dienstkleidung"],
+    },
   },
   {
     id: 5274,
@@ -30592,6 +37032,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "brechen",
+    synonyms: {
+      A2: ["stören"],
+      B1: ["unterbinden"],
+    },
   },
   {
     id: 5275,
@@ -30605,6 +37049,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Gespräch"],
+      B2: ["der Zeitvertreib"],
+    },
   },
   {
     id: 5276,
@@ -30618,6 +37066,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Dokumente"],
+      B2: ["die Papiere"],
+    },
   },
   {
     id: 5277,
@@ -30631,6 +37083,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["vermeiden"],
+      B2: ["absehen von"],
+    },
   },
   {
     id: 5278,
@@ -30644,6 +37100,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Geschäftsmann", "die Geschäftsfrau"],
+    },
   },
   {
     id: 5279,
@@ -30657,6 +37116,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["lehren"],
+      B1: ["erteilen"],
+    },
   },
   {
     id: 5280,
@@ -30670,6 +37133,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["verboten"],
+    },
   },
   {
     id: 5281,
@@ -30684,6 +37150,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "scheiden",
+    synonyms: {
+      B1: ["trennen"],
+      B2: ["differenzieren"],
+    },
   },
   {
     id: 5282,
@@ -30697,6 +37167,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["verschieden"],
+      B1: ["abweichend"],
+    },
   },
   {
     id: 5283,
@@ -30710,6 +37184,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["hervorheben"],
+    },
   },
   {
     id: 5284,
@@ -30723,6 +37200,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Prüfung"],
+    },
   },
   {
     id: 5285,
@@ -30736,6 +37216,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Anlass"],
+      B2: ["der Auslöser"],
+    },
   },
   {
     id: 5286,
@@ -30749,6 +37233,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["anfangs"],
+      B1: ["eigentlich"],
+    },
   },
   {
     id: 5287,
@@ -30762,6 +37250,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Gefäß"],
+    },
   },
   {
     id: 5288,
@@ -30775,6 +37266,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Verabschiedung"],
+    },
   },
   {
     id: 5289,
@@ -30788,6 +37282,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["ändern"],
+      B1: ["wechseln"],
+      B2: ["wandeln"],
+    },
   },
   {
     id: 5290,
@@ -30802,6 +37301,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "verboten",
+    synonyms: {
+      B1: ["das Verbieten"],
+    },
   },
   {
     id: 5291,
@@ -30816,6 +37318,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "verbinden",
+    synonyms: {
+      A2: ["anschließen"],
+      B1: ["vernetzen"],
+    },
   },
   {
     id: 5292,
@@ -30829,6 +37335,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["machen"],
+      B1: ["zubringen"],
+    },
   },
   {
     id: 5293,
@@ -30843,6 +37353,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "vergangen",
+    synonyms: {
+      B1: ["die Geschichte"],
+    },
   },
   {
     id: 5294,
@@ -30856,6 +37369,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["umsonst"],
+      B2: ["erfolglos"],
+    },
   },
   {
     id: 5295,
@@ -30869,6 +37386,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Gegenüberstellung"],
+    },
   },
   {
     id: 5296,
@@ -30882,6 +37402,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["sich amüsieren"],
+      B2: ["sich ergötzen"],
+    },
   },
   {
     id: 5297,
@@ -30895,6 +37419,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["größer machen"],
+      B2: ["erweitern"],
+    },
   },
   {
     id: 5298,
@@ -30908,6 +37436,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Beziehung"],
+      B2: ["die Relation"],
+    },
   },
   {
     id: 5299,
@@ -30921,6 +37453,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["länger machen"],
+      B1: ["ausdehnen"],
+    },
   },
   {
     id: 5300,
@@ -30934,6 +37470,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["weggehen"],
+    },
   },
   {
     id: 5301,
@@ -30947,6 +37486,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["nicht finden"],
+      B1: ["sich verirren"],
+    },
   },
   {
     id: 5302,
@@ -30960,6 +37503,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Unterlegene"],
+    },
   },
   {
     id: 5303,
@@ -30973,6 +37519,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Verpachtung"],
+    },
   },
   {
     id: 5304,
@@ -30987,6 +37536,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "mitten",
+    synonyms: {
+      B1: ["die Vermittlung"],
+    },
   },
   {
     id: 5305,
@@ -31001,6 +37553,11 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "vermuten",
+    synonyms: {
+      A2: ["denken"],
+      B1: ["glauben"],
+      B2: ["mutmaßen"],
+    },
   },
   {
     id: 5306,
@@ -31015,6 +37572,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "vermuten",
+    synonyms: {
+      A2: ["wahrscheinlich"],
+      B1: ["voraussichtlich"],
+    },
   },
   {
     id: 5307,
@@ -31028,6 +37589,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["klug"],
+      B1: ["überlegt"],
+      B2: ["besonnen"],
+    },
   },
   {
     id: 5308,
@@ -31042,6 +37608,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "verpacken",
+    synonyms: {
+      A2: ["einpacken"],
+      B1: ["einwickeln"],
+    },
   },
   {
     id: 5309,
@@ -31056,6 +37626,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "pflegen",
+    synonyms: {
+      B1: ["ernähren"],
+      B2: ["beköstigen"],
+    },
   },
   {
     id: 5310,
@@ -31069,6 +37643,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["gebunden"],
+    },
   },
   {
     id: 5311,
@@ -31082,6 +37659,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["preisgeben"],
+      B2: ["hintergehen"],
+    },
   },
   {
     id: 5312,
@@ -31095,6 +37676,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Treffen"],
+      B2: ["die Tagung"],
+    },
   },
   {
     id: 5313,
@@ -31108,6 +37693,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["verpassen"],
+    },
   },
   {
     id: 5314,
@@ -31122,6 +37710,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "sichern",
+    synonyms: {
+      A2: ["schützen"],
+      B1: ["absichern"],
+    },
   },
   {
     id: 5315,
@@ -31136,6 +37728,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "sprechen",
+    synonyms: {
+      A2: ["zusagen"],
+      B1: ["zusichern"],
+    },
   },
   {
     id: 5316,
@@ -31150,6 +37746,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "stecken",
+    synonyms: {
+      A2: ["verbergen"],
+    },
   },
   {
     id: 5317,
@@ -31163,6 +37762,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Versuch"],
+    },
   },
   {
     id: 5318,
@@ -31176,6 +37778,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["glauben"],
+      B2: ["sich verlassen"],
+    },
   },
   {
     id: 5319,
@@ -31189,6 +37795,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["bestrafen"],
+      B2: ["verdammen"],
+    },
   },
   {
     id: 5320,
@@ -31202,6 +37812,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Amt"],
+    },
   },
   {
     id: 5321,
@@ -31215,6 +37828,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["verbunden"],
+    },
   },
   {
     id: 5322,
@@ -31228,6 +37844,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["verwirren"],
+    },
   },
   {
     id: 5323,
@@ -31242,6 +37861,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "verzeihen",
+    synonyms: {
+      A2: ["vergeben"],
+      B1: ["nachsehen"],
+    },
   },
   {
     id: 5324,
@@ -31256,6 +37879,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "verzeihen",
+    synonyms: {
+      A2: ["Entschuldigung"],
+      B1: ["Pardon"],
+    },
   },
   {
     id: 5325,
@@ -31269,6 +37896,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["digital"],
+      B2: ["simuliert"],
+    },
   },
   {
     id: 5326,
@@ -31282,6 +37913,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Erreger"],
+    },
   },
   {
     id: 5327,
@@ -31295,6 +37929,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Geschäftskarte"],
+    },
   },
   {
     id: 5328,
@@ -31308,6 +37945,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["ganz"],
+      B1: ["komplett"],
+    },
   },
   {
     id: 5329,
@@ -31321,6 +37962,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["aneinander"],
+    },
   },
   {
     id: 5330,
@@ -31335,6 +37979,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "voraus",
+    synonyms: {
+      A2: ["vorn"],
+      B1: ["vorweg"],
+    },
   },
   {
     id: 5331,
@@ -31348,6 +37996,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Vorrecht"],
+    },
   },
   {
     id: 5332,
@@ -31361,6 +38012,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["planen"],
+      B1: ["beabsichtigen"],
+    },
   },
   {
     id: 5333,
@@ -31375,6 +38030,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "kommen",
+    synonyms: {
+      A2: ["geben"],
+      B1: ["erscheinen"],
+    },
   },
   {
     id: 5334,
@@ -31388,6 +38047,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["befristet"],
+      B2: ["einstweilig"],
+    },
   },
   {
     id: 5335,
@@ -31402,6 +38065,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "vorstellen",
+    synonyms: {
+      B1: ["das Bewerbungsgespräch"],
+    },
   },
   {
     id: 5336,
@@ -31416,6 +38082,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Wahl",
+    synonyms: {
+      B1: ["die Ortsvorwahl"],
+    },
   },
   {
     id: 5337,
@@ -31429,6 +38098,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Anschuldigung"],
+    },
   },
   {
     id: 5338,
@@ -31443,6 +38115,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Waage",
+    synonyms: {
+      B1: ["horizontal"],
+    },
   },
   {
     id: 5339,
@@ -31457,6 +38132,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "wachsen",
+    synonyms: {
+      A2: ["größer werden"],
+      B1: ["zunehmen"],
+    },
   },
   {
     id: 5340,
@@ -31470,6 +38149,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["verrückt"],
+      B2: ["wahnwitzig"],
+    },
   },
   {
     id: 5341,
@@ -31483,6 +38166,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Ehrlichkeit"],
+    },
   },
   {
     id: 5342,
@@ -31496,6 +38182,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Mauer"],
+    },
   },
   {
     id: 5343,
@@ -31510,6 +38199,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "wandern",
+    synonyms: {
+      B1: ["der Ausflug"],
+    },
   },
   {
     id: 5344,
@@ -31524,6 +38216,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "warnen",
+    synonyms: {
+      B1: ["aufmerksam machen"],
+    },
   },
   {
     id: 5345,
@@ -31537,6 +38232,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["sich weigern"],
+      B2: ["verweigern"],
+    },
   },
   {
     id: 5346,
@@ -31550,6 +38249,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["global"],
+      B2: ["international"],
+    },
   },
   {
     id: 5347,
@@ -31564,6 +38267,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "wenden",
+    synonyms: {
+      A2: ["umdrehen"],
+    },
   },
   {
     id: 5348,
@@ -31577,6 +38283,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Reklame"],
+    },
   },
   {
     id: 5349,
@@ -31590,6 +38299,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["schmeißen"],
+      B1: ["schleudern"],
+    },
   },
   {
     id: 5350,
@@ -31604,6 +38317,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "wert",
+    synonyms: {
+      B1: ["wertvoll"],
+    },
   },
   {
     id: 5351,
@@ -31618,6 +38334,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "wert",
+    synonyms: {
+      B1: ["nutzlos"],
+    },
   },
   {
     id: 5352,
@@ -31632,6 +38351,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "wetten",
+    synonyms: {
+      B1: ["einen Wetteinsatz machen"],
+    },
   },
   {
     id: 5353,
@@ -31647,6 +38369,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Wetter",
+    synonyms: {
+      B1: ["die Wetterprognose"],
+    },
   },
   {
     id: 5354,
@@ -31661,6 +38386,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Wetter",
+    synonyms: {
+      B1: ["der Wetterbericht"],
+    },
   },
   {
     id: 5355,
@@ -31674,6 +38402,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["ungezähmt"],
+      B2: ["ungestüm"],
+    },
   },
   {
     id: 5356,
@@ -31687,6 +38419,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["warum"],
+      B1: ["weshalb"],
+    },
   },
   {
     id: 5357,
@@ -31700,6 +38436,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["zuwinken"],
+    },
   },
   {
     id: 5358,
@@ -31714,6 +38453,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "wirken",
+    synonyms: {
+      B1: ["die Folge"],
+    },
   },
   {
     id: 5359,
@@ -31728,6 +38470,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Wirt",
+    synonyms: {
+      B1: ["der Gastgeber", "die Gastgeberin"],
+    },
   },
   {
     id: 5360,
@@ -31742,6 +38487,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Wissenschaft",
+    synonyms: {
+      B1: ["der Forscher", "die Forscherin"],
+    },
   },
   {
     id: 5361,
@@ -31756,6 +38504,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Sitz",
+    synonyms: {
+      B1: ["der Wohnort"],
+    },
   },
   {
     id: 5362,
@@ -31769,6 +38520,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["über was"],
+    },
   },
   {
     id: 5363,
@@ -31782,6 +38536,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["um was"],
+    },
   },
   {
     id: 5364,
@@ -31796,6 +38553,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "die Wunde",
+    synonyms: {
+      B1: ["erstaunt sein"],
+    },
   },
   {
     id: 5365,
@@ -31809,6 +38569,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["sauer"],
+      B1: ["zornig"],
+      B2: ["aufgebracht"],
+    },
   },
   {
     id: 5366,
@@ -31822,6 +38587,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Menge"],
+    },
   },
   {
     id: 5367,
@@ -31835,6 +38603,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["viele"],
+      B1: ["viele"],
+    },
   },
   {
     id: 5368,
@@ -31848,6 +38620,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Überweisung"],
+    },
   },
   {
     id: 5369,
@@ -31861,6 +38636,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["rechnen"],
+    },
   },
   {
     id: 5370,
@@ -31874,6 +38652,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Zahnpasta"],
+    },
   },
   {
     id: 5371,
@@ -31887,6 +38668,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Greifzange"],
+    },
   },
   {
     id: 5372,
@@ -31901,6 +38685,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Zeichen",
+    synonyms: {
+      B1: ["das Signal"],
+    },
   },
   {
     id: 5373,
@@ -31915,6 +38702,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Zeichen",
+    synonyms: {
+      B1: ["das Schild"],
+    },
   },
   {
     id: 5374,
@@ -31928,6 +38718,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Satz"],
+    },
   },
   {
     id: 5375,
@@ -31941,6 +38734,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["campen"],
+    },
   },
   {
     id: 5376,
@@ -31954,6 +38750,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["zentral gelegen"],
+    },
   },
   {
     id: 5377,
@@ -31967,6 +38766,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["vernichten"],
+    },
   },
   {
     id: 5378,
@@ -31994,6 +38796,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Bereich"],
+    },
   },
   {
     id: 5380,
@@ -32007,6 +38812,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Zufall"],
+    },
   },
   {
     id: 5381,
@@ -32020,6 +38828,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["per Zufall"],
+    },
   },
   {
     id: 5382,
@@ -32033,6 +38844,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Zutritt"],
+    },
   },
   {
     id: 5383,
@@ -32046,6 +38860,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["erreichbar"],
+    },
   },
   {
     id: 5384,
@@ -32060,6 +38877,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "gehen",
+    synonyms: {
+      B1: ["auf jemanden zugehen"],
+    },
   },
   {
     id: 5385,
@@ -32073,6 +38893,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["erst"],
+      B1: ["zuerst"],
+    },
   },
   {
     id: 5386,
@@ -32087,6 +38911,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "sagen",
+    synonyms: {
+      B1: ["zusichern"],
+    },
   },
   {
     id: 5387,
@@ -32100,6 +38927,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Kooperation"],
+    },
   },
   {
     id: 5388,
@@ -32113,6 +38943,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Kontext"],
+    },
   },
   {
     id: 5389,
@@ -32127,6 +38960,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "schauen",
+    synonyms: {
+      B1: ["der Besucher", "die Besucherin"],
+    },
   },
   {
     id: 5390,
@@ -32140,6 +38976,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Aufpreis"],
+    },
   },
   {
     id: 5391,
@@ -32153,6 +38992,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Lage"],
+    },
   },
   {
     id: 5392,
@@ -32166,6 +39008,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Bestandteile"],
+    },
   },
   {
     id: 5393,
@@ -32179,6 +39024,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["verlässlich"],
+    },
   },
   {
     id: 5394,
@@ -32205,6 +39053,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["nötigen"],
+    },
   },
   {
     id: 5396,
@@ -32218,6 +39069,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Dauerabonnement"],
+    },
   },
   {
     id: 5397,
@@ -32231,6 +39085,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Lehrling"],
+    },
   },
   {
     id: 5398,
@@ -32244,6 +39101,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Kellergeschoss"],
+    },
   },
   {
     id: 5399,
@@ -32257,6 +39117,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Kinderhüterin"],
+    },
   },
   {
     id: 5400,
@@ -32312,6 +39175,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "das Camp",
+    synonyms: {
+      B1: ["zelten"],
+    },
   },
   {
     id: 5404,
@@ -32353,6 +39219,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["die Innenstadt"],
+      B1: ["das Stadtzentrum"],
+    },
   },
   {
     id: 5407,
@@ -32366,6 +39236,11 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["sportlich"],
+      B1: ["in Form"],
+      B2: ["leistungsfähig"],
+    },
   },
   {
     id: 5408,
@@ -32379,6 +39254,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Kraftfahrzeug"],
+    },
   },
   {
     id: 5409,
@@ -32392,6 +39270,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["das Auto"],
+      B1: ["der Personenwagen"],
+    },
   },
   {
     id: 5410,
@@ -32405,6 +39287,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["weltweit"],
+      B2: ["international"],
+    },
   },
   {
     id: 5411,
@@ -32457,6 +39343,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Mörder", "die Mörderin"],
+      B2: ["der Auftragsmörder"],
+    },
   },
   {
     id: 5415,
@@ -32470,6 +39360,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Leiter", "die Leiterin"],
+      B2: ["der Geschäftsführer", "die Geschäftsführerin"],
+    },
   },
   {
     id: 5416,
@@ -32496,6 +39390,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["in Ordnung"],
+      B1: ["einverstanden"],
+    },
   },
   {
     id: 5418,
@@ -32549,6 +39447,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["das Lied"],
+      B2: ["der Titel"],
+    },
   },
   {
     id: 5422,
@@ -32562,6 +39464,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Werbespot"],
+      B2: ["der Clip"],
+    },
   },
   {
     id: 5423,
@@ -32617,6 +39523,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Trend",
+    synonyms: {
+      B1: ["die Tendenz"],
+      B2: ["die Strömung"],
+    },
   },
   {
     id: 5427,
@@ -32643,6 +39553,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Nutzer", "die Nutzerin"],
+      B2: ["der Anwender", "die Anwenderin"],
+    },
   },
   {
     id: 5429,
@@ -32656,6 +39570,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["der Sprecher", "die Sprecherin"],
+      B2: ["der Präsentator", "die Präsentatorin"],
+    },
   },
   {
     id: 5430,
@@ -32696,6 +39614,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "melden",
+    synonyms: {
+      A2: ["die Antwort"],
+      B1: ["die Reaktion"],
+    },
   },
   {
     id: 5433,
@@ -32867,6 +39789,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["lila"],
+    },
   },
   {
     id: 5446,
@@ -32923,6 +39848,9 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Bund",
+    synonyms: {
+      B1: ["der Regierungschef", "die Regierungschefin"],
+    },
   },
   {
     id: 5450,
@@ -32951,6 +39879,10 @@ export const B1_Vocabulary = [
     level: "B1",
     type: "word",
     family: "der Bürger",
+    synonyms: {
+      B1: ["der Stadtvorsteher", "die Stadtvorsteherin"],
+      B2: ["das Stadtoberhaupt"],
+    },
   },
   {
     id: 5452,
@@ -33295,6 +40227,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Stechmücke"],
+      B2: ["der Moskito"],
+    },
   },
   {
     id: 5478,
@@ -33387,6 +40323,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["werktags"],
+      B1: ["an Werktagen"],
+    },
   },
   {
     id: 5485,
@@ -33400,6 +40340,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["jede Stunde"],
+      B1: ["in Abständen von einer Stunde"],
+    },
   },
   {
     id: 5486,
@@ -33413,6 +40357,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["jede Woche"],
+      B1: ["pro Woche"],
+    },
   },
   {
     id: 5487,
@@ -33426,6 +40374,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["jedes Jahr"],
+      B1: ["pro Jahr"],
+    },
   },
   {
     id: 5488,
@@ -33465,6 +40417,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Postbote", "die Postbotin"],
+      B1: ["der Zusteller", "die Zustellerin"],
+    },
   },
   {
     id: 5491,
@@ -33518,6 +40474,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["die Anzeige"],
+      B2: ["das Inserat"],
+    },
   },
   {
     id: 5495,
@@ -33531,6 +40491,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["der Fernseher"],
+    },
   },
   {
     id: 5496,
@@ -33544,6 +40507,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      A2: ["oder"],
+      B1: ["beziehungsweise"],
+    },
   },
   {
     id: 5497,
@@ -33622,6 +40589,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Du liebe Zeit"],
+      B2: ["Um Gottes willen"],
+    },
   },
   {
     id: 5503,
@@ -33635,6 +40606,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Das ist unglaublich!"],
+    },
   },
   {
     id: 5504,
@@ -33648,6 +40622,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Das ist unfassbar!"],
+      B2: ["Das ist der Gipfel!"],
+    },
   },
   {
     id: 5505,
@@ -33661,6 +40639,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Das kann nicht dein Ernst sein!"],
+    },
   },
   {
     id: 5506,
@@ -33674,6 +40655,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["So ein Pech!"],
+      B1: ["So ein Ärger!"],
+    },
   },
   {
     id: 5507,
@@ -33700,6 +40685,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Das kann doch nicht wahr sein!"],
+    },
   },
   {
     id: 5509,
@@ -33713,6 +40701,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Endlich!"],
+    },
   },
   {
     id: 5510,
@@ -33752,6 +40743,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Nein, wirklich?"],
+    },
   },
   {
     id: 5513,
@@ -33765,6 +40759,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Wirklich?"],
+    },
   },
   {
     id: 5514,
@@ -33778,6 +40775,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Das ist ja schrecklich!"],
+    },
   },
   {
     id: 5515,
@@ -33791,6 +40791,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Ich kann es nicht glauben!"],
+    },
   },
   {
     id: 5516,
@@ -33856,6 +40859,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich muss gehen"],
+      B1: ["Ich muss jetzt los"],
+    },
   },
   {
     id: 5521,
@@ -33869,6 +40876,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Was für ein Zufall!"],
+    },
   },
   {
     id: 5522,
@@ -33999,6 +41009,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["In Ordnung"],
+      B1: ["Alles klar"],
+    },
   },
   {
     id: 5532,
@@ -34090,6 +41104,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Bitte schön"],
+      B1: ["Gern geschehen"],
+    },
   },
   {
     id: 5539,
@@ -34103,6 +41121,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Lass es"],
+      B2: ["Schon gut"],
+    },
   },
   {
     id: 5540,
@@ -34142,6 +41164,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich informiere dich"],
+      B1: ["Ich melde mich bei dir"],
+    },
   },
   {
     id: 5543,
@@ -34168,6 +41194,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Habe ich bekommen"],
+    },
   },
   {
     id: 5545,
@@ -34233,6 +41262,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Habe ich bekommen"],
+    },
   },
   {
     id: 5550,
@@ -34259,6 +41291,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Alles gut"],
+      B1: ["Kein Problem"],
+    },
   },
   {
     id: 5552,
@@ -34285,6 +41321,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Kein Problem"],
+    },
   },
   {
     id: 5554,
@@ -34350,6 +41389,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich finde..."],
+      B1: ["Ich meine..."],
+    },
   },
   {
     id: 5559,
@@ -34467,6 +41510,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Nach meinem Wissen"],
+    },
   },
   {
     id: 5568,
@@ -34493,6 +41539,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Meiner Ansicht nach"],
+    },
   },
   {
     id: 5570,
@@ -34519,6 +41568,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Ich bin ziemlich überzeugt"],
+    },
   },
   {
     id: 5572,
@@ -34532,6 +41584,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Ich könnte mich täuschen"],
+    },
   },
   {
     id: 5573,
@@ -34571,6 +41626,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Das kommt darauf an, ob..."],
+    },
   },
   {
     id: 5576,
@@ -34597,6 +41655,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Ich finde das nicht gut"],
+    },
   },
   {
     id: 5578,
@@ -34649,6 +41710,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Das ist eine Frage des Geschmacks"],
+    },
   },
   {
     id: 5582,
@@ -34662,6 +41726,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich finde..."],
+    },
   },
   {
     id: 5583,
@@ -34714,6 +41781,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich glaube, dass..."],
+      B1: ["Ich nehme an, dass..."],
+    },
   },
   {
     id: 5587,
@@ -34727,6 +41798,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Meiner Meinung nach..."],
+    },
   },
   {
     id: 5588,
@@ -34792,6 +41866,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Das ist mir egal"],
+    },
   },
   {
     id: 5593,
@@ -34806,6 +41883,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Viel Glück wünschen"],
+    },
   },
   {
     id: 5594,
@@ -34832,6 +41912,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Jetzt ist Schluss!"],
+    },
   },
   {
     id: 5596,
@@ -34897,6 +41980,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Im Vertrauen gesagt"],
+    },
   },
   {
     id: 5601,
@@ -34910,6 +41996,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Ehrlich gesagt"],
+    },
   },
   {
     id: 5602,
@@ -34923,6 +42012,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Mal ehrlich"],
+    },
   },
   {
     id: 5603,
@@ -34975,6 +42067,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Das ist eben so"],
+    },
   },
   {
     id: 5607,
@@ -34988,6 +42083,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Keine Ahnung"],
+    },
   },
   {
     id: 5608,
@@ -35001,6 +42099,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Egal wie"],
+    },
   },
   {
     id: 5609,
@@ -35027,6 +42128,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Ist ja egal"],
+    },
   },
   {
     id: 5611,
@@ -35040,6 +42144,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Wo bin ich stehen geblieben?"],
+    },
   },
   {
     id: 5612,
@@ -35092,6 +42199,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["oder ähnlich"],
+    },
   },
   {
     id: 5616,
@@ -35105,6 +42215,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["ungefähr so"],
+    },
   },
   {
     id: 5617,
@@ -35118,6 +42231,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["grundsätzlich"],
+    },
   },
   {
     id: 5618,
@@ -35144,6 +42260,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["und dergleichen"],
+    },
   },
   {
     id: 5620,
@@ -35170,6 +42289,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Was mich angeht"],
+    },
   },
   {
     id: 5622,
@@ -35196,6 +42318,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["Das bedeutet"],
+    },
   },
   {
     id: 5624,
@@ -35209,6 +42334,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Abschließend"],
+      B2: ["Schlussendlich"],
+    },
   },
   {
     id: 5625,
@@ -35222,6 +42351,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Insgesamt"],
+    },
   },
   {
     id: 5626,
@@ -35287,6 +42419,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Davon abgesehen"],
+    },
   },
   {
     id: 5631,
@@ -35300,6 +42435,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Deswegen"],
+    },
   },
   {
     id: 5632,
@@ -35326,6 +42464,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Da stimme ich dir völlig zu"],
+    },
   },
   {
     id: 5634,
@@ -35339,6 +42480,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Das sehe ich genauso"],
+    },
   },
   {
     id: 5635,
@@ -35352,6 +42496,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Genau"],
+    },
   },
   {
     id: 5636,
@@ -35404,6 +42551,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Ich stimme dir zu"],
+    },
   },
   {
     id: 5640,
@@ -35417,6 +42567,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Ich stimme Ihnen zu"],
+    },
   },
   {
     id: 5641,
@@ -35469,6 +42622,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Meinetwegen"],
+    },
   },
   {
     id: 5645,
@@ -35482,6 +42638,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Meinetwegen"],
+    },
   },
   {
     id: 5646,
@@ -35495,6 +42654,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Ich bin Ihrer Meinung"],
+    },
   },
   {
     id: 5647,
@@ -35508,6 +42670,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Das sehe ich nicht so"],
+    },
   },
   {
     id: 5648,
@@ -35586,6 +42751,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Du hast recht"],
+    },
   },
   {
     id: 5654,
@@ -35599,6 +42767,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Entschuldigung, haben Sie kurz Zeit?"],
+    },
   },
   {
     id: 5655,
@@ -35625,6 +42796,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Ich weiß nicht weiter"],
+    },
   },
   {
     id: 5657,
@@ -35638,6 +42812,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Könntest du mir helfen?"],
+    },
   },
   {
     id: 5658,
@@ -35651,6 +42828,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Könnten Sie mir helfen?"],
+    },
   },
   {
     id: 5659,
@@ -35677,6 +42857,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich brauche deine Hilfe"],
+    },
   },
   {
     id: 5661,
@@ -35872,6 +43055,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Frag einfach!"],
+    },
   },
   {
     id: 5676,
@@ -36067,6 +43253,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Danke, dass Sie zurückgerufen haben"],
+    },
   },
   {
     id: 5691,
@@ -36145,32 +43334,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
-  },
-  {
-    id: 5697,
-    word: "Sehr geehrte Damen und Herren",
-    translation: "Dear Sir or Madam",
-    definition: "Formelle Anrede im Brief.",
-    example: "Sehr geehrte Damen und Herren,",
-    exampleTranslation: "Dear Sir or Madam,",
-    thema: "Kommunikation",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "phrase",
-  },
-  {
-    id: 5698,
-    word: "Mit freundlichen Grüßen",
-    translation: "Yours sincerely",
-    definition: "Formeller Briefschluss.",
-    example: "Mit freundlichen Grüßen, Anna Müller",
-    exampleTranslation: "Yours sincerely, Anna Müller",
-    thema: "Kommunikation",
-    priority: "High",
-    favorite: false,
-    level: "B1",
-    type: "phrase",
+    synonyms: {
+      A2: ["Wir haben gesprochen"],
+    },
   },
   {
     id: 5699,
@@ -36184,6 +43350,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Liebe Grüße"],
+      B2: ["Herzliche Grüße"],
+    },
   },
   {
     id: 5700,
@@ -36197,6 +43367,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Danke im Voraus"],
+    },
   },
   {
     id: 5701,
@@ -36262,6 +43435,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Wie vereinbart"],
+    },
   },
   {
     id: 5706,
@@ -36444,6 +43620,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Wer macht das?"],
+    },
   },
   {
     id: 5720,
@@ -36457,6 +43636,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Das mache ich"],
+    },
   },
   {
     id: 5721,
@@ -36626,6 +43808,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Das ist fertig"],
+    },
   },
   {
     id: 5734,
@@ -36730,6 +43915,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Haben Sie noch Fragen?"],
+    },
   },
   {
     id: 5742,
@@ -36847,6 +44035,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich komme etwas später"],
+    },
   },
   {
     id: 5751,
@@ -37081,6 +44272,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Ich bin völlig erschöpft"],
+    },
   },
   {
     id: 5769,
@@ -37094,6 +44288,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Ich kann nicht mehr"],
+    },
   },
   {
     id: 5770,
@@ -37185,6 +44382,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich bin wütend"],
+    },
   },
   {
     id: 5777,
@@ -37211,6 +44411,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Das ist lästig!"],
+    },
   },
   {
     id: 5779,
@@ -37224,6 +44427,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich habe Angst"],
+    },
   },
   {
     id: 5780,
@@ -37289,6 +44495,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich freue mich mit dir"],
+    },
   },
   {
     id: 5785,
@@ -37328,6 +44537,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Halt durch!"],
+    },
   },
   {
     id: 5788,
@@ -37341,6 +44553,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Das wird wieder gut"],
+    },
   },
   {
     id: 5789,
@@ -37458,6 +44673,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Das war unabsichtlich"],
+    },
   },
   {
     id: 5798,
@@ -37497,6 +44715,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Nimm es mir nicht übel"],
+    },
   },
   {
     id: 5801,
@@ -37653,6 +44874,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Vielen Dank"],
+      B1: ["Besten Dank"],
+    },
   },
   {
     id: 5813,
@@ -37666,6 +44891,10 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Vielen, vielen Dank!"],
+      B1: ["Tausendmal Dank!"],
+    },
   },
   {
     id: 5814,
@@ -37679,6 +44908,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Entschuldigen Sie, dass ich störe"],
+    },
   },
   {
     id: 5815,
@@ -38043,6 +45275,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Draußen ist Glatteis"],
+    },
   },
   {
     id: 5843,
@@ -38056,6 +45291,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Es regnet sehr stark"],
+    },
   },
   {
     id: 5844,
@@ -38069,6 +45307,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Es regnet sehr stark"],
+    },
   },
   {
     id: 5845,
@@ -38082,6 +45323,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Es regnet leicht"],
+    },
   },
   {
     id: 5846,
@@ -38108,6 +45352,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Was für ein schlechtes Wetter!"],
+    },
   },
   {
     id: 5848,
@@ -38121,6 +45368,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Was für ein schlechtes Wetter!"],
+    },
   },
   {
     id: 5849,
@@ -38264,6 +45514,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Ich übernehme die Rechnung"],
+    },
   },
   {
     id: 5860,
@@ -38303,6 +45556,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Besuch mich mal!"],
+    },
   },
   {
     id: 5863,
@@ -38420,6 +45676,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Das möchte ich nicht verpassen"],
+    },
   },
   {
     id: 5872,
@@ -38433,6 +45692,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Ich kann leider nicht kommen"],
+    },
   },
   {
     id: 5873,
@@ -38446,6 +45708,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      A2: ["Das geht bei mir leider nicht"],
+    },
   },
   {
     id: 5874,
@@ -38537,6 +45802,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Ich möchte reklamieren"],
+    },
   },
   {
     id: 5881,
@@ -38550,6 +45818,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Ich möchte mein Geld zurück"],
+    },
   },
   {
     id: 5882,
@@ -38745,6 +46016,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Das ist nicht in Ordnung"],
+    },
   },
   {
     id: 5897,
@@ -38797,6 +46071,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Das kann nicht sein"],
+    },
   },
   {
     id: 5901,
@@ -38810,6 +46087,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Jetzt habe ich genug"],
+    },
   },
   {
     id: 5902,
@@ -38823,6 +46103,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Wer ist dafür zuständig?"],
+    },
   },
   {
     id: 5903,
@@ -38875,6 +46158,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Stell dir mal vor..."],
+    },
   },
   {
     id: 5907,
@@ -39070,6 +46356,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Was für ein Durcheinander!"],
+    },
   },
   {
     id: 5922,
@@ -39096,6 +46385,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["So ist das eben"],
+    },
   },
   {
     id: 5924,
@@ -39135,6 +46427,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Erzähl bitte weiter!"],
+    },
   },
   {
     id: 5927,
@@ -39148,6 +46443,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "word",
+    synonyms: {
+      B1: ["Wirklich?"],
+    },
   },
   {
     id: 5928,
@@ -39187,6 +46485,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Nur für Mitarbeiter"],
+    },
   },
   {
     id: 5931,
@@ -39785,6 +47086,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Ich zahle!"],
+    },
   },
   {
     id: 5977,
@@ -39863,6 +47167,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Das verstehe ich nicht"],
+    },
   },
   {
     id: 5983,
@@ -40227,6 +47534,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Genug!"],
+    },
   },
   {
     id: 6011,
@@ -40253,6 +47563,9 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Verschwinde!"],
+    },
   },
   {
     id: 6013,
@@ -40944,5 +48257,8 @@ export const B1_Vocabulary = [
     favorite: false,
     level: "B1",
     type: "phrase",
+    synonyms: {
+      B1: ["Das ist ja unfassbar!"],
+    },
   },
 ];
