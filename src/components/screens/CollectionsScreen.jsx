@@ -1,24 +1,39 @@
-import React, { useState, useMemo } from "react";
+import React, { useState, useEffect, useMemo, useRef } from "react";
 import { Star } from "lucide-react";
-import WordCard from "../vocabulary/WordCard";
 import SearchAndFilters from "../vocabulary/SearchAndFilters";
 import { getWordType } from "../../utils/wordTypes";
 import ExpandableThemeFilter from "../collections/ExpandableThemeFilter";
+import PaginatedWordList from "../vocabulary/PaginatedWordList";
 
 export default function CollectionsScreen({
   favoriteVocabulary,
   setSelectedWordId,
   navigateTo,
   toggleFavorite,
-  
+  visibleCollectionsCount,
+  setVisibleCollectionsCount,
+  collectionsScrollY,
 }) {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedThemeFilter, setSelectedThemeFilter] = useState("All Words");
   const [selectedLevelFilter, setSelectedLevelFilter] = useState("All Words");
   const [selectedTypeFilter, setSelectedTypeFilter] = useState("All Types");
 
-  // Themes that actually have at least one favorite, with counts,
-  // sorted most-favorited first
+  const isFirstRender = useRef(true);
+
+  useEffect(() => {
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
+    }
+    setVisibleCollectionsCount(100);
+  }, [
+    searchQuery,
+    selectedThemeFilter,
+    selectedLevelFilter,
+    selectedTypeFilter,
+  ]);
+
   const favoriteThemes = useMemo(() => {
     const counts = new Map();
     favoriteVocabulary.forEach((w) => {
@@ -101,42 +116,42 @@ export default function CollectionsScreen({
         setSelectedThemeFilter={setSelectedThemeFilter}
       />
 
-      {/* Favorite words list */}
-      <div className="space-y-2 pt-1">
-        {favoriteVocabulary.length === 0 ? (
-          <div className="text-center py-12 px-6 border border-dashed border-[#e2e7e3] rounded-2xl">
-            <Star className="w-6 h-6 text-[#b8c2bc] mx-auto mb-2" />
-            <p className="font-sans text-sm text-[#767d78]">
-              Noch keine Favoriten.
-            </p>
-            <p className="font-sans text-xs text-[#8a928e] mt-1">
-              Tap the star on a word to save it here.
-            </p>
-            <button
-              onClick={() => navigateTo("vocabulary", "push_back")}
-              className="mt-3 font-sans text-xs font-bold text-[#435249] underline"
-            >
-              Zum Vokabular
-            </button>
-          </div>
-        ) : filteredFavorites.length === 0 ? (
-          <div className="text-center py-12 border border-dashed border-[#e2e7e3] rounded-2xl">
-            <p className="font-sans text-sm text-[#767d78]">
-              Keine Favoriten gefunden.
-            </p>
-          </div>
-        ) : (
-          filteredFavorites.map((item) => (
-            <WordCard
-              key={item.id}
-              item={item}
-              setSelectedWordId={setSelectedWordId}
-              navigateTo={navigateTo}
-              toggleFavorite={toggleFavorite}
-            />
-          ))
-        )}
-      </div>
+      {/* Favorite words list: pagination, scroll restore, jump to ID,
+          scroll to top — all shared with the Vocabulary screen */}
+      <PaginatedWordList
+        items={filteredFavorites}
+        setSelectedWordId={setSelectedWordId}
+        navigateTo={navigateTo}
+        toggleFavorite={toggleFavorite}
+        visibleCount={visibleCollectionsCount}
+        setVisibleCount={setVisibleCollectionsCount}
+        scrollY={collectionsScrollY}
+        emptyState={
+          favoriteVocabulary.length === 0 ? (
+            <div className="text-center py-12 px-6 border border-dashed border-[#e2e7e3] rounded-2xl">
+              <Star className="w-6 h-6 text-[#b8c2bc] mx-auto mb-2" />
+              <p className="font-sans text-sm text-[#767d78]">
+                Noch keine Favoriten.
+              </p>
+              <p className="font-sans text-xs text-[#8a928e] mt-1">
+                Tap the star on a word to save it here.
+              </p>
+              <button
+                onClick={() => navigateTo("vocabulary", "push_back")}
+                className="mt-3 font-sans text-xs font-bold text-[#435249] underline"
+              >
+                Zum Vokabular
+              </button>
+            </div>
+          ) : (
+            <div className="text-center py-12 border border-dashed border-[#e2e7e3] rounded-2xl">
+              <p className="font-sans text-sm text-[#767d78]">
+                Keine Favoriten gefunden.
+              </p>
+            </div>
+          )
+        }
+      />
     </div>
   );
 }

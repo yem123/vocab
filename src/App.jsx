@@ -129,6 +129,9 @@ export default function App() {
   const PAGE_SIZE = 100;
   const [visibleVocabCount, setVisibleVocabCount] = useState(PAGE_SIZE);
   const [vocabScrollY, setVocabScrollY] = useState(0);
+  const [visibleCollectionsCount, setVisibleCollectionsCount] =
+    useState(PAGE_SIZE);
+  const [collectionsScrollY, setCollectionsScrollY] = useState(0);
 
   const [formExampleTranslation, setFormExampleTranslation] = useState("");
   const [isGenerating, setIsGenerating] = useState(false);
@@ -162,25 +165,25 @@ export default function App() {
     selectedTypeFilter,
   ]);
 
-    const clearSyncedLocalChanges = () => {
-      let removedCount = 0;
-      setUserVocabulary((prev) => {
-        const cleaned = prev.filter((entry) => {
-          const isRedundant = (() => {
-            if (entry.deleted) {
-              return ALL_VOCABULARY.some((w) => w.id === entry.id);
-            }
-            const builtIn = ALL_VOCABULARY.find((w) => w.id === entry.id);
-            if (!builtIn) return false;
-            return JSON.stringify(entry) === JSON.stringify(builtIn);
-          })();
-          if (isRedundant) removedCount++;
-          return !isRedundant;
-        });
-        return cleaned;
+  const clearSyncedLocalChanges = () => {
+    let removedCount = 0;
+    setUserVocabulary((prev) => {
+      const cleaned = prev.filter((entry) => {
+        const isRedundant = (() => {
+          if (entry.deleted) {
+            return ALL_VOCABULARY.some((w) => w.id === entry.id);
+          }
+          const builtIn = ALL_VOCABULARY.find((w) => w.id === entry.id);
+          if (!builtIn) return false;
+          return JSON.stringify(entry) === JSON.stringify(builtIn);
+        })();
+        if (isRedundant) removedCount++;
+        return !isRedundant;
       });
-      return removedCount;
-    };
+      return cleaned;
+    });
+    return removedCount;
+  };
 
   const resetForm = () => {
     setFormThema("Alltag");
@@ -246,30 +249,33 @@ export default function App() {
   };
 
   // Screen transition handler
-  const navigateTo = (screen, anim = "push") => {
-    if (currentScreen === "vocabulary" && screen !== "vocabulary") {
-      setVocabScrollY(window.scrollY);
-    }
-    if (screen !== "add" && editingWordId !== null) {
-      setEditingWordId(null);
-      resetForm();
-    }
-    if (
-      screen === "detail" &&
-      (currentScreen === "vocabulary" ||
-        currentScreen === "collections" ||
-        currentScreen === "myWords")
-    ) {
-      setDetailOrigin(currentScreen);
-    }
-    setTransitionAnim(
-      anim === "slide_up" ? "animate-slide-up" : "animate-fade-in",
-    );
-    setTimeout(() => {
-      setCurrentScreen(screen);
-      setTransitionAnim("animate-fade-in");
-    }, 120);
-  };
+    const navigateTo = (screen, anim = "push") => {
+      if (currentScreen === "vocabulary" && screen !== "vocabulary") {
+        setVocabScrollY(window.scrollY);
+      }
+      if (currentScreen === "collections" && screen !== "collections") {
+        setCollectionsScrollY(window.scrollY);
+      }
+      if (screen !== "add" && editingWordId !== null) {
+        setEditingWordId(null);
+        resetForm();
+      }
+      if (
+        screen === "detail" &&
+        (currentScreen === "vocabulary" ||
+          currentScreen === "collections" ||
+          currentScreen === "myWords")
+      ) {
+        setDetailOrigin(currentScreen);
+      }
+      setTransitionAnim(
+        anim === "slide_up" ? "animate-slide-up" : "animate-fade-in",
+      );
+      setTimeout(() => {
+        setCurrentScreen(screen);
+        setTransitionAnim("animate-fade-in");
+      }, 120);
+    };
 
   const activeWord = useMemo(() => {
     return vocabulary.find((w) => w.id === selectedWordId) || vocabulary[0];
@@ -311,9 +317,15 @@ export default function App() {
     return vocabulary.filter((w) => w.favorite);
   }, [vocabulary]);
 
-  const myWords = useMemo(() => {
-    return vocabulary.filter((w) => w.id > BASE_MAX_ID);
-  }, [vocabulary]);
+    const myWords = useMemo(() => {
+      return vocabulary.filter((w) => w.id > BASE_MAX_ID);
+    }, [vocabulary]);
+
+    const navigationList = useMemo(() => {
+      if (detailOrigin === "collections") return favoriteVocabulary;
+      if (detailOrigin === "myWords") return myWords;
+      return vocabulary;
+    }, [detailOrigin, vocabulary, favoriteVocabulary, myWords]);
 
   const handleAIFill = async (overwrite = false) => {
     if (!formWord.trim()) return;
@@ -617,8 +629,11 @@ export default function App() {
               favoriteVocabulary={favoriteVocabulary}
               setSelectedWordId={setSelectedWordId}
               navigateTo={navigateTo}
+              buildGithubSyncPayload={buildGithubSyncPayload}
               toggleFavorite={toggleFavorite}
-              clearSyncedLocalChanges={clearSyncedLocalChanges}
+              visibleCollectionsCount={visibleCollectionsCount}
+              setVisibleCollectionsCount={setVisibleCollectionsCount}
+              collectionsScrollY={collectionsScrollY}
             />
           )}
 
@@ -680,7 +695,7 @@ export default function App() {
           {currentScreen === "detail" && activeWord && (
             <DetailScreen
               activeWord={activeWord}
-              vocabulary={vocabulary}
+              vocabulary={navigationList}
               navigateTo={navigateTo}
               toggleFavorite={toggleFavorite}
               deleteWord={deleteWord}

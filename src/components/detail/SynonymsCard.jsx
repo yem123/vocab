@@ -27,28 +27,20 @@ export default function SynonymsCard({ synonyms }) {
       </button>
 
       {open && (
-        <div className="mt-3 space-y-3">
-          {levels.map((level) => {
-            const words = synonyms[level] || [];
-            if (words.length === 0) return null;
-            return (
-              <div key={level} className="flex flex-wrap gap-2">
-                {words.map((syn) => (
-                  <span
-                    key={syn}
-                    className="relative bg-white border border-[#e8e5e0] rounded-xl pl-3 pr-2 py-1.5"
-                  >
-                    <span className="font-serif text-sm text-[#2c302e]">
-                      {syn}
-                    </span>
-                    <span className="absolute -top-2 -right-2 font-sans text-[9px] font-bold text-white bg-[#2c302e] px-1.5 py-0.5 rounded-full shadow-sm">
-                      {level}
-                    </span>
-                  </span>
-                ))}
-              </div>
-            );
-          })}
+        <div className="mt-3 flex flex-wrap gap-3">
+          {levels.flatMap((level) =>
+            (synonyms[level] || []).map((syn) => (
+              <span
+                key={`${level}-${syn}`}
+                className="relative bg-white border border-[#e8e5e0] rounded-xl pl-3 pr-2 py-1.5"
+              >
+                <span className="font-serif text-sm text-[#2c302e]">{syn}</span>
+                <span className="absolute -top-2 -right-2 font-sans text-[9px] font-bold text-white bg-[#2c302e] px-1.5 py-0.5 rounded-full shadow-sm">
+                  {level}
+                </span>
+              </span>
+            )),
+          )}
         </div>
       )}
     </div>
