@@ -9656,20 +9656,7 @@ export const A1_Vocabulary = [
       B1: ["das Hallenbad", "die Schwimmhalle"],
     },
   },
-  {
-    id: 649,
-    word: "schon lange",
-    translation: "for a long time",
-    definition: "Bereits seit längerer Zeit andauernd.",
-    example: "Ich wohne hier schon lange.",
-    exampleTranslation: "I have been living here for a long time.",
-    thema: "Zeit",
-    level: "A1",
-    type: "phrase",
-    priority: "Medium",
-    favorite: true,
-    synonyms: {"A2":["seit Langem"],"B1":["längst"]},
-  },
+  
   {
     id: 650,
     word: "der Antwortbogen, Antwortbögen",
@@ -14947,19 +14934,7 @@ export const A1_Vocabulary = [
       B1: ["der Kindergärtner"],
     },
   },
-  {
-    id: 1005,
-    word: "zum Teil",
-    translation: "partially / in part",
-    definition: "Nicht vollständig, teilweise.",
-    example: "Die Fragen waren zum Teil sehr schwer.",
-    exampleTranslation: "The questions were partly very difficult.",
-    thema: "Adverbien",
-    level: "A1",
-    type: "phrase",
-    priority: "Medium",
-    favorite: true,
-  },
+  
   {
     id: 1006,
     word: "der Kassierer, - / die Kassiererin, -nen",
