@@ -2818,7 +2818,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "In the morning I leave the house early.",
     thema: "Alltag",
     priority: "Medium",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     family: "gehen",
@@ -7771,7 +7771,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "Can we use 'du' with each other? – Yes, gladly.",
     thema: "Soziales & Kontakt",
     priority: "Medium",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -9550,7 +9550,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "I have been living here for a long time.",
     thema: "Zeit & Jahreszeiten",
     priority: "Medium",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -10863,7 +10863,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "The window is open.",
     thema: "Alltag",
     priority: "Medium",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -10879,7 +10879,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "School is over at one o'clock.",
     thema: "Alltag",
     priority: "Medium",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -10912,7 +10912,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "The library is closed on Sundays.",
     thema: "Alltag",
     priority: "Medium",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -12557,7 +12557,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "The movie is over.",
     thema: "Zeit & Jahreszeiten",
     priority: "High",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -14741,7 +14741,7 @@ export const A1_Vocabulary = [
     level: "A1",
     type: "phrase",
     priority: "Medium",
-    favorite: true,
+    favorite: false,
   },
   {
     id: 992,
@@ -14862,7 +14862,7 @@ export const A1_Vocabulary = [
     type: "phrase",
     family: "lernen",
     priority: "High",
-    favorite: true,
+    favorite: false,
   },
   
   {
@@ -15031,7 +15031,7 @@ export const A1_Vocabulary = [
     type: "phrase",
     family: "lernen",
     priority: "High",
-    favorite: true,
+    favorite: false,
   },
   {
     id: 1014,
@@ -15843,7 +15843,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "You painted your room. How lovely!",
     thema: "Gefühle",
     priority: "High",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -15893,7 +15893,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "You're going to the cinema? Have fun!",
     thema: "Soziales & Kontakt",
     priority: "High",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -15927,7 +15927,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "Do you have any pets?",
     thema: "Kommunikation",
     priority: "Medium",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
   },
@@ -15990,7 +15990,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "Hello, this is Maria Schmidt speaking.",
     thema: "Kommunikation",
     priority: "High",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -16068,7 +16068,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "How are you feeling?",
     thema: "Gefühle",
     priority: "High",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -16134,7 +16134,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "Ouch, that hurts!",
     thema: "Gefühle",
     priority: "High",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -16202,7 +16202,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "Thanks! – You're welcome.",
     thema: "Kommunikation",
     priority: "High",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -16283,7 +16283,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "It's snowing.",
     thema: "Natur & Tiere",
     priority: "High",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
   },
@@ -16309,7 +16309,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "It's cloudy.",
     thema: "Natur & Tiere",
     priority: "Medium",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -16325,7 +16325,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "The sky is grey.",
     thema: "Natur & Tiere",
     priority: "Low",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
   },
@@ -16686,7 +16686,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "Good luck!",
     thema: "Kommunikation",
     priority: "High",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -16996,7 +16996,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "Do you accept credit cards?",
     thema: "Finanzen",
     priority: "High",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -17012,7 +17012,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "Happy birthday!",
     thema: "Soziales & Kontakt",
     priority: "High",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -17175,7 +17175,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "We'd like a table for two.",
     thema: "Essen & Gastronomie",
     priority: "High",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -17241,7 +17241,7 @@ export const A1_Vocabulary = [
     level: "A1",
     type: "Phrase",
     priority: "Medium",
-    favorite: true,
+    favorite: false,
     synonyms: {"A2":["Was für ein Gericht ist das?"]},
   },
   {
@@ -17266,7 +17266,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "One more, please.",
     thema: "Essen & Gastronomie",
     priority: "High",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -17282,7 +17282,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "I'm full.",
     thema: "Essen & Gastronomie",
     priority: "High",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -17328,7 +17328,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "To your health!",
     thema: "Freizeit & Kultur",
     priority: "High",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -17412,7 +17412,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "How long will it take?",
     thema: "Alltag",
     priority: "Medium",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -17445,7 +17445,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "It hurts here.",
     thema: "Gesundheit",
     priority: "High",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -17462,7 +17462,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "Ouch! That hurts!",
     thema: "Gesundheit",
     priority: "Medium",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
   },
@@ -17598,7 +17598,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "Merry Christmas!",
     thema: "Soziales & Kontakt",
     priority: "High",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -17615,7 +17615,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "Happy New Year!",
     thema: "Soziales & Kontakt",
     priority: "High",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -17824,7 +17824,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "It was very tasty.",
     thema: "Essen & Gastronomie",
     priority: "Medium",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -17937,7 +17937,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "I'm on my way.",
     thema: "Kommunikation",
     priority: "High",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -17953,7 +17953,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "I'll be there in a minute.",
     thema: "Kommunikation",
     priority: "High",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -17985,7 +17985,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "I'm thirsty.",
     thema: "Gesundheit",
     priority: "High",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -18001,7 +18001,7 @@ export const A1_Vocabulary = [
     exampleTranslation: "That doesn't matter.",
     thema: "Kommunikation",
     priority: "High",
-    favorite: true,
+    favorite: false,
     level: "A1",
     type: "phrase",
     synonyms: {
@@ -18398,6 +18398,6 @@ export const A1_Vocabulary = [
     level: "A1",
     type: "Phrase",
     priority: "High",
-    favorite: true,
+    favorite: false,
   },
 ];
