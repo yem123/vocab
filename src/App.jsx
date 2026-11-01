@@ -17,6 +17,9 @@ import { WORD_TYPES, getWordType } from "./utils/wordTypes";
 import { UserAdded_Vocabulary } from "./data/userAddedVocabulary";
 import MyWordsScreen from "./components/screens/MyWordsScreen";
 
+import { VIDEOS } from "./data/videos";
+import VideosScreen from "./components/screens/VideosScreen";
+
 const DEFAULT_THEMES = [
   "im Restaurant",
   "im Café",
@@ -78,6 +81,15 @@ const mergeVocabulary = (userLayer) => {
 export default function App() {
   const [currentScreen, setCurrentScreen] = useState("vocabulary");
   const [formFamily, setFormFamily] = useState("");
+
+  const [addedVideos, setAddedVideos] = useState([]);
+
+  const videos = useMemo(() => {
+    const seen = new Set();
+    return [...VIDEOS, ...addedVideos].filter(
+      (v) => !seen.has(v.id) && seen.add(v.id),
+    );
+  }, [addedVideos]);
 
   const [userVocabulary, setUserVocabulary] = useState(() => {
     try {
@@ -249,33 +261,33 @@ export default function App() {
   };
 
   // Screen transition handler
-    const navigateTo = (screen, anim = "push") => {
-      if (currentScreen === "vocabulary" && screen !== "vocabulary") {
-        setVocabScrollY(window.scrollY);
-      }
-      if (currentScreen === "collections" && screen !== "collections") {
-        setCollectionsScrollY(window.scrollY);
-      }
-      if (screen !== "add" && editingWordId !== null) {
-        setEditingWordId(null);
-        resetForm();
-      }
-      if (
-        screen === "detail" &&
-        (currentScreen === "vocabulary" ||
-          currentScreen === "collections" ||
-          currentScreen === "myWords")
-      ) {
-        setDetailOrigin(currentScreen);
-      }
-      setTransitionAnim(
-        anim === "slide_up" ? "animate-slide-up" : "animate-fade-in",
-      );
-      setTimeout(() => {
-        setCurrentScreen(screen);
-        setTransitionAnim("animate-fade-in");
-      }, 120);
-    };
+  const navigateTo = (screen, anim = "push") => {
+    if (currentScreen === "vocabulary" && screen !== "vocabulary") {
+      setVocabScrollY(window.scrollY);
+    }
+    if (currentScreen === "collections" && screen !== "collections") {
+      setCollectionsScrollY(window.scrollY);
+    }
+    if (screen !== "add" && editingWordId !== null) {
+      setEditingWordId(null);
+      resetForm();
+    }
+    if (
+      screen === "detail" &&
+      (currentScreen === "vocabulary" ||
+        currentScreen === "collections" ||
+        currentScreen === "myWords")
+    ) {
+      setDetailOrigin(currentScreen);
+    }
+    setTransitionAnim(
+      anim === "slide_up" ? "animate-slide-up" : "animate-fade-in",
+    );
+    setTimeout(() => {
+      setCurrentScreen(screen);
+      setTransitionAnim("animate-fade-in");
+    }, 120);
+  };
 
   const activeWord = useMemo(() => {
     return vocabulary.find((w) => w.id === selectedWordId) || vocabulary[0];
@@ -317,15 +329,15 @@ export default function App() {
     return vocabulary.filter((w) => w.favorite);
   }, [vocabulary]);
 
-    const myWords = useMemo(() => {
-      return vocabulary.filter((w) => w.id > BASE_MAX_ID);
-    }, [vocabulary]);
+  const myWords = useMemo(() => {
+    return vocabulary.filter((w) => w.id > BASE_MAX_ID);
+  }, [vocabulary]);
 
-    const navigationList = useMemo(() => {
-      if (detailOrigin === "collections") return favoriteVocabulary;
-      if (detailOrigin === "myWords") return myWords;
-      return vocabulary;
-    }, [detailOrigin, vocabulary, favoriteVocabulary, myWords]);
+  const navigationList = useMemo(() => {
+    if (detailOrigin === "collections") return favoriteVocabulary;
+    if (detailOrigin === "myWords") return myWords;
+    return vocabulary;
+  }, [detailOrigin, vocabulary, favoriteVocabulary, myWords]);
 
   const handleAIFill = async (overwrite = false) => {
     if (!formWord.trim()) return;
@@ -524,8 +536,6 @@ export default function App() {
         return;
       }
 
-      // No file knows this id yet: a brand-new word the user added.
-      // (A deleted tombstone for a never-saved new word needs no sync.)
       if (!entry.deleted) {
         ensureFile(NEW_WORDS_PATH).additions.push(entry);
       }
@@ -555,8 +565,6 @@ export default function App() {
     setUserVocabulary((prev) => {
       const isBuiltIn = id <= BASE_MAX_ID;
       const withoutExisting = prev.filter((w) => w.id !== id);
-      // Built-in words need a tombstone so the merge hides them;
-      // user-added words can just be removed outright.
       return isBuiltIn
         ? [...withoutExisting, { id, deleted: true }]
         : withoutExisting;
@@ -579,16 +587,11 @@ export default function App() {
   return (
     <div className="min-h-screen bg-[#fcfbf9] text-[#2c302e] font-serif flex flex-col items-center justify-start selection:bg-[#8fa394]/30">
       <div className="w-full max-w-md bg-white min-h-screen shadow-2xl flex flex-col relative border-x border-[#eae7e2]">
-        {/* Global Header */}
         <Header />
-
-        {/* Dynamic Screen Viewport */}
         <main
           className={`flex-1 flex flex-col pb-28 transition-all duration-200 ${transitionAnim}`}
         >
-          {/* ================================================= */}
-          {/* SCREEN 1: VOCABULARY LIST & SEARCH VIEW           */}
-          {/* ================================================= */}
+
           {currentScreen === "vocabulary" && (
             <VocabularyScreen
               vocabulary={vocabulary}
@@ -614,16 +617,10 @@ export default function App() {
             />
           )}
 
-          {/* ================================================= */}
-          {/* SCREEN 2: THEMEN & COLLECTIONS                    */}
-          {/* ================================================= */}
           {currentScreen === "themen" && (
             <ThemenScreen vocabulary={vocabulary} openTheme={openTheme} />
           )}
 
-          {/* ================================================= */}
-          {/* SCREEN: COLLECTIONS (FAVORITES)                   */}
-          {/* ================================================= */}
           {currentScreen === "collections" && (
             <CollectionsScreen
               favoriteVocabulary={favoriteVocabulary}
@@ -637,9 +634,6 @@ export default function App() {
             />
           )}
 
-          {/* ================================================= */}
-          {/* SCREEN: MY WORDS (USER-ADDED)                     */}
-          {/* ================================================= */}
           {currentScreen === "myWords" && (
             <MyWordsScreen
               myWords={myWords}
@@ -649,9 +643,15 @@ export default function App() {
             />
           )}
 
-          {/* ================================================= */}
-          {/* SCREEN 3: ADD WORD SCREEN                         */}
-          {/* ================================================= */}
+          {currentScreen === "videos" && (
+            <VideosScreen
+              videos={videos}
+              onVideoAdded={(video) =>
+                setAddedVideos((prev) => [...prev, video])
+              }
+            />
+          )}
+
           {currentScreen === "add" && (
             <AddWordScreen
               navigateTo={navigateTo}
@@ -689,9 +689,6 @@ export default function App() {
             />
           )}
 
-          {/* ================================================= */}
-          {/* SCREEN 4: DETAIL CARD                             */}
-          {/* ================================================= */}
           {currentScreen === "detail" && activeWord && (
             <DetailScreen
               activeWord={activeWord}
@@ -707,7 +704,6 @@ export default function App() {
           )}
         </main>
 
-        {/* Global Bottom Navigation Bar */}
         <BottomNav
           currentScreen={currentScreen}
           navigateTo={navigateTo}

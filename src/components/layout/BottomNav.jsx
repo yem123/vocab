@@ -1,5 +1,5 @@
 import React from "react";
-import { BookOpen, Layers, Star, PenLine } from "lucide-react"; // add PenLine
+import { BookOpen, Layers, Star, PenLine, Play } from "lucide-react"; // add PenLine
 
 export default function BottomNav({ currentScreen, navigateTo, detailOrigin }) {
   // Which tab is highlighted: detail pages belong to the tab they were opened from,
@@ -64,6 +64,16 @@ export default function BottomNav({ currentScreen, navigateTo, detailOrigin }) {
       >
         <PenLine className="w-5 h-5" />
         <span className="text-[10px] font-sans mt-0.5">My Words</span>
+      </button>
+      <button
+        onClick={() => navigateTo("videos", "none")}
+        className={tabClass(activeTab === "videos")}
+      >
+        <Play
+          className="w-5 h-5"
+          strokeWidth={activeTab === "videos" ? 2.5 : 2}
+        />
+        <span className="text-[10px] font-sans mt-0.5">Videos</span>
       </button>
     </nav>
   );
