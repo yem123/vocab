@@ -18,7 +18,7 @@ import { UserAdded_Vocabulary } from "./data/userAddedVocabulary";
 import MyWordsScreen from "./components/screens/MyWordsScreen";
 
 import { VIDEOS } from "./data/videos";
-import VideosScreen from "./components/screens/VideosScreen";
+import MediaScreen from "./components/screens/MediaScreen";
 
 const DEFAULT_THEMES = [
   "im Restaurant",
@@ -591,7 +591,6 @@ export default function App() {
         <main
           className={`flex-1 flex flex-col pb-28 transition-all duration-200 ${transitionAnim}`}
         >
-
           {currentScreen === "vocabulary" && (
             <VocabularyScreen
               vocabulary={vocabulary}
@@ -643,8 +642,8 @@ export default function App() {
             />
           )}
 
-          {currentScreen === "videos" && (
-            <VideosScreen
+          {currentScreen === "media" && (
+            <MediaScreen
               videos={videos}
               onVideoAdded={(video) =>
                 setAddedVideos((prev) => [...prev, video])

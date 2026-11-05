@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Play, SkipBack, SkipForward } from "lucide-react";
-import AddVideoLink from "../videos/AddVideoLink";
+import AddVideoLink from "../media/AddVideoLink";
 
 const thumb = (id) => `https://i.ytimg.com/vi/${id}/mqdefault.jpg`;
 
@@ -17,16 +17,6 @@ export default function VideosScreen({ videos, onVideoAdded }) {
 
   return (
     <div className="flex-1 flex flex-col px-6 py-2 space-y-3">
-      {/* Header */}
-      <div className="bg-[#f4f6f4] border border-[#e5eae6] rounded-2xl p-5">
-        <span className="font-sans text-[10px] uppercase font-bold tracking-wider text-[#637368]">
-          Videos
-        </span>
-        <h2 className="text-xl font-serif text-[#2c302e] mt-1">Playlist</h2>
-        <p className="font-sans text-xs text-[#637368] mt-1">
-          {videos.length} {videos.length === 1 ? "Video" : "Videos"}
-        </p>
-      </div>
 
       <AddVideoLink onAdded={onVideoAdded} />
 

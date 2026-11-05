@@ -1,5 +1,5 @@
 import React from "react";
-import { BookOpen, Layers, Star, PenLine, Play } from "lucide-react"; // add PenLine
+import { BookOpen, Layers, Star, PenLine, Library } from "lucide-react"; // add PenLine
 
 export default function BottomNav({ currentScreen, navigateTo, detailOrigin }) {
   // Which tab is highlighted: detail pages belong to the tab they were opened from,
@@ -29,7 +29,7 @@ export default function BottomNav({ currentScreen, navigateTo, detailOrigin }) {
           className="w-5 h-5"
           strokeWidth={activeTab === "vocabulary" ? 2.5 : 2}
         />
-        <span className="text-[10px]">Vocabulary</span>
+        <span className="text-[10px]">Vocab</span>
       </button>
 
       <button
@@ -44,6 +44,17 @@ export default function BottomNav({ currentScreen, navigateTo, detailOrigin }) {
       </button>
 
       <button
+        onClick={() => navigateTo("media", "none")}
+        className={tabClass(activeTab === "media")}
+      >
+        <Library
+          className="w-5 h-5"
+          strokeWidth={activeTab === "media" ? 2.5 : 2}
+        />
+        <span className="text-[10px]">Media</span>
+      </button>
+
+      <button
         onClick={() => navigateTo("collections", "none")}
         className={tabClass(activeTab === "collections")}
       >
@@ -51,7 +62,7 @@ export default function BottomNav({ currentScreen, navigateTo, detailOrigin }) {
           className="w-5 h-5"
           strokeWidth={activeTab === "collections" ? 2.5 : 2}
         />
-        <span className="text-[10px]">Favorites</span>
+        <span className="text-[10px]">Fav</span>
       </button>
       <button
         onClick={() => navigateTo("myWords", "none")}
@@ -64,16 +75,6 @@ export default function BottomNav({ currentScreen, navigateTo, detailOrigin }) {
       >
         <PenLine className="w-5 h-5" />
         <span className="text-[10px] font-sans mt-0.5">My Words</span>
-      </button>
-      <button
-        onClick={() => navigateTo("videos", "none")}
-        className={tabClass(activeTab === "videos")}
-      >
-        <Play
-          className="w-5 h-5"
-          strokeWidth={activeTab === "videos" ? 2.5 : 2}
-        />
-        <span className="text-[10px] font-sans mt-0.5">Videos</span>
       </button>
     </nav>
   );
