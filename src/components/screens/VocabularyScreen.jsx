@@ -2,7 +2,6 @@ import React from "react";
 import SanctuaryBanner from "../vocabulary/SanctuaryBanner";
 import SearchAndFilters from "../vocabulary/SearchAndFilters";
 import VocabularyList from "../vocabulary/VocabularyList";
-import BackupControls from "../vocabulary/BackupControls";
 import SaveToGithubButton from "../collections/SaveToGithubButton";
 
 export default function VocabularyScreen({
@@ -15,7 +14,6 @@ export default function VocabularyScreen({
   setSelectedWordId,
   navigateTo,
   themes,
-  handleImportBackup,
   selectedLevelFilter,
   setSelectedLevelFilter,
   selectedTypeFilter,
@@ -31,13 +29,6 @@ export default function VocabularyScreen({
     <div className="flex-1 flex flex-col px-6 py-5 space-y-5">
       {/* Sanctuary Banner */}
       <SanctuaryBanner vocabulary={vocabulary} navigateTo={navigateTo} />
-
-      {/* Backup: export / import */}
-      <BackupControls
-        vocabulary={vocabulary}
-        themes={themes}
-        onImport={handleImportBackup}
-      />
 
       {/* Saves favorites, edits, deletions, and new words back to GitHub */}
       <SaveToGithubButton

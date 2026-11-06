@@ -373,41 +373,6 @@ export default function App() {
     return Math.max(BASE_MAX_ID, maxUser) + 1;
   };
 
-  // Merges an imported backup into the user layer (skips duplicate words,
-  // matched against the full merged vocabulary)
-  const handleImportBackup = ({
-    vocabulary: imported,
-    themes: importedThemes,
-  }) => {
-    const existingWords = new Set(
-      vocabulary.map((w) => w.word.trim().toLowerCase()),
-    );
-    let nextId = getNextId();
-    const newEntries = [];
-    let skipped = 0;
-
-    imported.forEach((w) => {
-      const key = w.word.toLowerCase();
-      if (existingWords.has(key)) {
-        skipped++;
-        return;
-      }
-      existingWords.add(key);
-      newEntries.push({ ...w, id: nextId });
-      nextId += 1;
-    });
-
-    setUserVocabulary([...newEntries, ...userVocabulary]);
-
-    // Add any new themes from the file (ignoring upper/lower case)
-    const newThemes = importedThemes.filter(
-      (t) => !themes.some((x) => x.toLowerCase() === t.toLowerCase()),
-    );
-    if (newThemes.length > 0) setThemes([...themes, ...newThemes]);
-
-    return { added: newEntries.length, skipped };
-  };
-
   const handleSaveNewWord = (e) => {
     e.preventDefault();
     if (!formWord.trim() || !formTranslation.trim()) return;
@@ -602,7 +567,6 @@ export default function App() {
               setSelectedWordId={setSelectedWordId}
               navigateTo={navigateTo}
               themes={themes}
-              handleImportBackup={handleImportBackup}
               selectedLevelFilter={selectedLevelFilter}
               setSelectedLevelFilter={setSelectedLevelFilter}
               selectedTypeFilter={selectedTypeFilter}
