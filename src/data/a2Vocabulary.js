@@ -2947,7 +2947,7 @@ export const A2_Vocabulary = [
     exampleTranslation: "The roofers have to tile the roof today.",
     thema: "Arbeit",
     priority: "Medium",
-    favorite: false,
+    favorite: true,
     level: "A2",
     type: "phrase",
     family: "das Dach",
