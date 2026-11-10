@@ -1,5 +1,6 @@
 const GITHUB_API = "https://api.github.com";
 const BRANCH = "main";
+const REPO = "yem123 / vocab";
 const FILE_PATH = "src/data/videos.js";
 const TEMPLATE = `// Managed by the app's "Add link" button. Do not edit by hand.
 export const VIDEOS = [
@@ -69,14 +70,12 @@ export default async function handler(req, res) {
     }
     const meta = await oembed.json();
 
-    const owner = process.env.GITHUB_OWNER;
-    const repo = process.env.GITHUB_REPO;
     const headers = {
       Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
       Accept: "application/vnd.github+json",
       "User-Agent": "vocab-app",
     };
-    const fileUrl = `${GITHUB_API}/repos/${owner}/${repo}/contents/${FILE_PATH}`;
+    const fileUrl = `${GITHUB_API}/repos/${REPO}/contents/${FILE_PATH}`;
 
     let text = TEMPLATE;
     let sha;

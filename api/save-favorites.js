@@ -1,5 +1,23 @@
 const GITHUB_API = "https://api.github.com";
+REPO = "yem123 / vocab";
 const BRANCH = "main";
+
+const gh = (url, options = {}) =>
+  fetch(url, {
+    ...options,
+    headers: {
+      Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+      Accept: "application/vnd.github+json",
+      "Content-Type": "application/json",
+      "User-Agent": "vocab-app",
+    },
+  });
+
+// Turns a failed GitHub response into a readable message
+const describe = async (res) => {
+  const body = await res.json().catch(() => ({}));
+  return `${res.status}: ${body.message || res.statusText || "error"}`;
+};
 
 // Splits an array literal's contents into top-level {...} object substrings.
 function splitObjects(source) {
@@ -115,56 +133,49 @@ function applyChanges(
   return result;
 }
 
-const githubHeaders = (token) => ({
-  Authorization: `Bearer ${token}`,
-  Accept: "application/vnd.github+json",
-  "User-Agent": "vocab-app",
-});
-
 export default async function handler(req, res) {
   if (req.method !== "POST") {
     return res.status(405).json({ error: "Method not allowed" });
   }
 
-  const { password, filesChanges } = req.body || {};
-
-  if (!process.env.SAVE_PASSWORD || password !== process.env.SAVE_PASSWORD) {
-    return res.status(401).json({ error: "Incorrect password" });
-  }
-  if (!filesChanges || typeof filesChanges !== "object") {
-    return res.status(400).json({ error: "No changes provided" });
-  }
-
-  const owner = process.env.GITHUB_OWNER;
-  const repo = process.env.GITHUB_REPO;
-  const headers = githubHeaders(process.env.GITHUB_TOKEN);
-  const results = {};
-
   try {
+    const { password, filesChanges } = req.body || {};
+
+    if (
+      !process.env.GITHUB_TOKEN
+    ) {
+      return res.status(500).json({
+        error:
+          "Server is missing GITHUB_TOKEN.",
+      });
+    }
+    if (!process.env.SAVE_PASSWORD || password !== process.env.SAVE_PASSWORD) {
+      return res.status(401).json({ error: "Incorrect password" });
+    }
+    if (!filesChanges || typeof filesChanges !== "object") {
+      return res.status(400).json({ error: "No changes provided" });
+    }
+
+    const results = {};
+
     for (const [filePath, changes] of Object.entries(filesChanges)) {
       const favoritedIds = new Set(changes.favoritedIds || []);
       const deletedIds = new Set(changes.deletedIds || []);
       const editsById = new Map((changes.edits || []).map((w) => [w.id, w]));
       const additions = changes.additions || [];
 
-      const getRes = await fetch(
-        `${GITHUB_API}/repos/${owner}/${repo}/contents/${filePath}?ref=${BRANCH}`,
-        { headers },
-      );
+      const url = `${GITHUB_API}/repos/${REPO}/contents/${filePath}`;
+
+      // Read the current file from GitHub
+      const getRes = await gh(`${url}?ref=${BRANCH}`);
       if (!getRes.ok) {
-        const errText = await getRes.text();
-        console.error(
-          `GitHub GET error (${filePath}):`,
-          getRes.status,
-          errText,
-        );
-        results[filePath] = { error: "Could not fetch file" };
+        const detail = await describe(getRes);
+        console.error(`GitHub GET error (${filePath}):`, detail);
+        results[filePath] = { error: `Could not fetch file (${detail})` };
         continue;
       }
-      const fileData = await getRes.json();
-      const currentText = Buffer.from(fileData.content, "base64").toString(
-        "utf-8",
-      );
+      const file = await getRes.json();
+      const currentText = Buffer.from(file.content, "base64").toString("utf-8");
 
       const updatedText = applyChanges(currentText, {
         favoritedIds,
@@ -178,28 +189,20 @@ export default async function handler(req, res) {
         continue;
       }
 
-      const putRes = await fetch(
-        `${GITHUB_API}/repos/${owner}/${repo}/contents/${filePath}`,
-        {
-          method: "PUT",
-          headers: { ...headers, "Content-Type": "application/json" },
-          body: JSON.stringify({
-            message: `Sync vocabulary changes in ${filePath}`,
-            content: Buffer.from(updatedText, "utf-8").toString("base64"),
-            branch: BRANCH,
-            sha: fileData.sha,
-          }),
-        },
-      );
-
+      // Commit the change
+      const putRes = await gh(url, {
+        method: "PUT",
+        body: JSON.stringify({
+          message: `Sync vocabulary changes in ${filePath}`,
+          content: Buffer.from(updatedText, "utf-8").toString("base64"),
+          sha: file.sha,
+          branch: BRANCH,
+        }),
+      });
       if (!putRes.ok) {
-        const errText = await putRes.text();
-        console.error(
-          `GitHub PUT error (${filePath}):`,
-          putRes.status,
-          errText,
-        );
-        results[filePath] = { error: "Could not save file" };
+        const detail = await describe(putRes);
+        console.error(`GitHub PUT error (${filePath}):`, detail);
+        results[filePath] = { error: `Could not save file (${detail})` };
         continue;
       }
 
@@ -207,8 +210,10 @@ export default async function handler(req, res) {
     }
 
     return res.status(200).json({ success: true, results });
-  } catch (err) {
-    console.error("save-favorites error:", err);
-    return res.status(500).json({ error: "Unexpected error" });
+  } catch (e) {
+    console.error("save-favorites error:", e);
+    return res
+      .status(500)
+      .json({ error: e.message || "Unexpected server error." });
   }
 }
