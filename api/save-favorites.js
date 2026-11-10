@@ -1,5 +1,5 @@
 const GITHUB_API = "https://api.github.com";
-REPO = "yem123 / vocab";
+const REPO = "yem123/vocab";
 const BRANCH = "main";
 
 const gh = (url, options = {}) =>

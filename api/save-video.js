@@ -1,6 +1,6 @@
 const GITHUB_API = "https://api.github.com";
 const BRANCH = "main";
-const REPO = "yem123 / vocab";
+const REPO = "yem123/vocab";
 const FILE_PATH = "src/data/videos.js";
 const TEMPLATE = `// Managed by the app's "Add link" button. Do not edit by hand.
 export const VIDEOS = [
@@ -85,8 +85,11 @@ export default async function handler(req, res) {
       sha = data.sha;
       text = Buffer.from(data.content, "base64").toString("utf-8");
     } else if (getRes.status !== 404) {
-      console.error("GitHub GET error:", getRes.status, await getRes.text());
-      return res.status(502).json({ error: "Could not reach GitHub" });
+      const body = await getRes.json().catch(() => ({}));
+      console.error("GitHub GET error:", getRes.status, body);
+      return res.status(502).json({
+        error: `Could not reach GitHub (${getRes.status}: ${body.message || "error"})`,
+      });
     }
 
     if (text.includes(`"${id}"`)) {
@@ -99,6 +102,7 @@ export default async function handler(req, res) {
       id,
       title: meta.title,
       channel: meta.author_name,
+      ...(cleanDuration ? { duration: cleanDuration } : {}),
       addedAt: new Date().toISOString(),
     };
     const entry =
@@ -106,6 +110,9 @@ export default async function handler(req, res) {
       `    id: ${JSON.stringify(video.id)},\n` +
       `    title: ${JSON.stringify(video.title)},\n` +
       `    channel: ${JSON.stringify(video.channel)},\n` +
+      (video.duration
+        ? `    duration: ${JSON.stringify(video.duration)},\n`
+        : "") +
       `    addedAt: ${JSON.stringify(video.addedAt)},\n` +
       `  },\n`;
 
@@ -122,8 +129,11 @@ export default async function handler(req, res) {
       }),
     });
     if (!putRes.ok) {
-      console.error("GitHub PUT error:", putRes.status, await putRes.text());
-      return res.status(502).json({ error: "Could not save to GitHub" });
+      const body = await putRes.json().catch(() => ({}));
+      console.error("GitHub PUT error:", putRes.status, body);
+      return res.status(502).json({
+        error: `Could not save to GitHub (${putRes.status}: ${body.message || "error"})`,
+      });
     }
 
     return res.status(200).json({ success: true, video });
