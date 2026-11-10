@@ -10,6 +10,7 @@ const gh = (url, options = {}) =>
       Accept: "application/vnd.github+json",
       "Content-Type": "application/json",
       "User-Agent": "vocab-app",
+      ...(options.headers || {}),
     },
   });
 
@@ -141,12 +142,9 @@ export default async function handler(req, res) {
   try {
     const { password, filesChanges } = req.body || {};
 
-    if (
-      !process.env.GITHUB_TOKEN
-    ) {
+    if (!process.env.GITHUB_TOKEN) {
       return res.status(500).json({
-        error:
-          "Server is missing GITHUB_TOKEN.",
+        error: "Server is missing GITHUB_TOKEN.",
       });
     }
     if (!process.env.SAVE_PASSWORD || password !== process.env.SAVE_PASSWORD) {
@@ -175,7 +173,31 @@ export default async function handler(req, res) {
         continue;
       }
       const file = await getRes.json();
-      const currentText = Buffer.from(file.content, "base64").toString("utf-8");
+
+      let currentText;
+      if (file.encoding === "base64" && file.content) {
+        currentText = Buffer.from(file.content, "base64").toString("utf-8");
+      } else {
+        // Files over 1 MB come back with empty content, so fetch the raw text
+        const rawRes = await gh(`${url}?ref=${BRANCH}`, {
+          headers: { Accept: "application/vnd.github.raw+json" },
+        });
+        if (!rawRes.ok) {
+          const detail = await describe(rawRes);
+          results[filePath] = {
+            error: `Could not read large file (${detail})`,
+          };
+          continue;
+        }
+        currentText = await rawRes.text();
+      }
+
+      if (!currentText.trim()) {
+        results[filePath] = {
+          error: "File came back empty, nothing was changed",
+        };
+        continue;
+      }
 
       const updatedText = applyChanges(currentText, {
         favoritedIds,

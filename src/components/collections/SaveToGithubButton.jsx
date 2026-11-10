@@ -23,10 +23,17 @@ export default function SaveToGithubButton({
         return;
       }
 
-      await saveFavoritesToGithub(password, filesChanges);
+      const data = await saveFavoritesToGithub(password, filesChanges);
+      const updated = Object.values(data.results || {}).filter(
+        (r) => r.updated,
+      ).length;
 
       setStatus("success");
-      setMessage("Changes saved to server.");
+      setMessage(
+        updated > 0
+          ? `Committed ${updated} file${updated === 1 ? "" : "s"} to GitHub.`
+          : "No changes to commit: GitHub already matches.",
+      );
       setPassword("");
       setShowPrompt(false);
     } catch (err) {
