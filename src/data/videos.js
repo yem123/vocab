@@ -17,4 +17,11 @@ export const VIDEOS = [  {
     duration: "14:52",
     addedAt: "2026-11-10T22:24:56.839Z",
   },
+  {
+    id: "dt8FF7W-oCc",
+    title: "Emmas große Talentshow 🌟 | Staffel 1 Folge 18  | BABY born Serie auf Deutsch",
+    channel: "BABY born Deutsch",
+    duration: "05:47",
+    addedAt: "2026-11-11T01:08:33.690Z",
+  },
 ];
