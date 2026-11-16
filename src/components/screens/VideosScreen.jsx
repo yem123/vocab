@@ -107,12 +107,27 @@ export default function VideosScreen({ videos, onVideoAdded }) {
                         i + 1
                       )}
                     </span>
-                    <img
-                      src={thumb(v.id)}
-                      alt=""
-                      loading="lazy"
-                      className="w-28 aspect-video object-cover rounded-md bg-[#e2e7e3] shrink-0"
-                    />
+                    <div className="relative w-28 shrink-0">
+                      <img
+                        src={thumb(v.id)}
+                        alt=""
+                        loading="lazy"
+                        className="w-full aspect-video object-cover rounded-md bg-[#e2e7e3]"
+                      />
+                      {active && (
+                        <div className="absolute inset-0 rounded-md bg-black/35 flex items-center justify-center">
+                          <Play
+                            className="w-5 h-5 text-white"
+                            fill="currentColor"
+                          />
+                        </div>
+                      )}
+                      {v.duration && (
+                        <span className="absolute bottom-1 right-1 bg-black/85 text-white font-sans text-[11px] font-semibold leading-none px-1.5 py-1 rounded">
+                          {v.duration}
+                        </span>
+                      )}
+                    </div>
                     <div className="min-w-0 flex-1">
                       <p className="font-sans text-xs font-semibold text-[#2c302e] line-clamp-2">
                         {v.title}

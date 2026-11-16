@@ -4,6 +4,7 @@ import {
   Download,
   Search,
   ChevronRight,
+  Folder,
   FolderOpen,
 } from "lucide-react";
 import { PDFS } from "virtual:media-pdfs";
@@ -25,6 +26,10 @@ const formatDate = (iso) =>
 
 const href = (p) => `${import.meta.env.BASE_URL}${p.url}`;
 
+const countFiles = (node) =>
+  node.files.length +
+  [...node.folders.values()].reduce((n, f) => n + countFiles(f), 0);
+
 function PdfCard({ pdf }) {
   return (
     <div className="group flex items-center gap-3 bg-white border border-[#f0eee9] hover:border-[#d0d7d3] rounded-2xl p-3 shadow-xs transition-all">
@@ -34,7 +39,6 @@ function PdfCard({ pdf }) {
         rel="noopener noreferrer"
         className="flex items-center gap-3 min-w-0 flex-1"
       >
-        {/* Document-style tile */}
         <div className="relative w-11 h-14 shrink-0 rounded-lg bg-[#f8ede9] border border-[#efd9d1] flex items-center justify-center">
           <FileText className="w-5 h-5 text-[#b5513a]" />
           <span className="absolute -bottom-1.5 left-1/2 -translate-x-1/2 bg-[#b5513a] text-white font-sans text-[8px] font-bold tracking-wider px-1.5 py-0.5 rounded">
@@ -65,11 +69,76 @@ function PdfCard({ pdf }) {
   );
 }
 
+function FolderRow({ node, depth, open, onToggle, children }) {
+  const total = countFiles(node);
+  const subCount = node.folders.size;
+
+  return (
+    <div>
+      <button
+        type="button"
+        onClick={onToggle}
+        aria-expanded={open}
+        className={`w-full flex items-center gap-3 rounded-2xl border text-left transition-all ${
+          depth === 0 ? "p-3" : "px-3 py-2.5"
+        } ${
+          open
+            ? "bg-[#f4f6f4] border-[#b8c2bc] shadow-sm"
+            : "bg-white border-[#f0eee9] hover:border-[#d0d7d3] shadow-xs"
+        }`}
+      >
+        <div
+          className={`shrink-0 rounded-xl flex items-center justify-center transition-colors ${
+            depth === 0 ? "w-10 h-10" : "w-8 h-8"
+          } ${open ? "bg-[#435249] text-white" : "bg-[#f4f6f4] text-[#4a5750]"}`}
+        >
+          {open ? (
+            <FolderOpen className={depth === 0 ? "w-5 h-5" : "w-4 h-4"} />
+          ) : (
+            <Folder className={depth === 0 ? "w-5 h-5" : "w-4 h-4"} />
+          )}
+        </div>
+
+        <div className="min-w-0 flex-1">
+          <p
+            className={`font-serif text-[#2c302e] truncate ${
+              depth === 0 ? "text-base" : "text-[15px]"
+            }`}
+          >
+            {prettify(node.name)}
+          </p>
+          <p className="font-sans text-[11px] text-[#8a928e] mt-0.5">
+            {total} {total === 1 ? "PDF" : "PDFs"}
+            {subCount > 0 &&
+              ` · ${subCount} ${subCount === 1 ? "Ordner" : "Ordner"}`}
+          </p>
+        </div>
+
+        <ChevronRight
+          className={`w-4 h-4 shrink-0 text-[#8a928e] transition-transform duration-200 ${
+            open ? "rotate-90" : ""
+          }`}
+        />
+      </button>
+
+      {open && (
+        <div className="animate-fade-in ml-5 pl-3 mt-2 space-y-2 border-l-2 border-[#dfe5e1]">
+          {children}
+        </div>
+      )}
+    </div>
+  );
+}
+
 export default function PdfLibrary() {
   const [query, setQuery] = useState("");
   const [sort, setSort] = useState("name"); // name | recent | size
+  // One open folder per level: { [parentPath]: openChildPath }
+  const [openMap, setOpenMap] = useState({});
 
-  const groups = useMemo(() => {
+  const searching = query.trim().length > 0;
+
+  const { tree, shown } = useMemo(() => {
     const q = query.trim().toLowerCase();
     const list = PDFS.filter(
       (p) =>
@@ -82,20 +151,76 @@ export default function PdfLibrary() {
       return a.name.localeCompare(b.name, "de", { numeric: true });
     });
 
-    const map = new Map();
+    const root = { name: "", path: "", folders: new Map(), files: [] };
     list.forEach((p) => {
-      const key = p.folder || "";
-      if (!map.has(key)) map.set(key, []);
-      map.get(key).push(p);
+      let node = root;
+      if (p.folder) {
+        let path = "";
+        p.folder.split("/").forEach((seg) => {
+          path = path ? `${path}/${seg}` : seg;
+          if (!node.folders.has(seg)) {
+            node.folders.set(seg, {
+              name: seg,
+              path,
+              folders: new Map(),
+              files: [],
+            });
+          }
+          node = node.folders.get(seg);
+        });
+      }
+      node.files.push(p);
     });
-    // Files in the root first, then folders A–Z
-    return [...map.entries()].sort(([a], [b]) =>
-      a === "" ? -1 : b === "" ? 1 : a.localeCompare(b, "de"),
-    );
+
+    return { tree: root, shown: list.length };
   }, [query, sort]);
 
+  const toggle = (parentPath, childPath) => {
+    setOpenMap((prev) => {
+      const next = { ...prev };
+      const current = prev[parentPath];
+      // Collapse the folder that was open and everything inside it
+      const closeBranch = (path) => {
+        Object.keys(next).forEach((k) => {
+          if (k === path || k.startsWith(path + "/")) delete next[k];
+        });
+      };
+      if (current) closeBranch(current);
+      if (current === childPath) {
+        delete next[parentPath];
+      } else {
+        next[parentPath] = childPath;
+      }
+      return next;
+    });
+  };
+
+  const renderLevel = (node, depth) => {
+    const folders = [...node.folders.values()].sort((a, b) =>
+      a.name.localeCompare(b.name, "de", { numeric: true }),
+    );
+    return (
+      <>
+        {folders.map((f) => (
+          <FolderRow
+            key={f.path}
+            node={f}
+            depth={depth}
+            // While searching, every matching folder is shown open
+            open={searching || openMap[node.path] === f.path}
+            onToggle={() => toggle(node.path, f.path)}
+          >
+            {renderLevel(f, depth + 1)}
+          </FolderRow>
+        ))}
+        {node.files.map((p) => (
+          <PdfCard key={p.url} pdf={p} />
+        ))}
+      </>
+    );
+  };
+
   const total = PDFS.length;
-  const shown = groups.reduce((n, [, items]) => n + items.length, 0);
 
   if (total === 0) {
     return (
@@ -152,22 +277,7 @@ export default function PdfLibrary() {
           <p className="font-sans text-sm text-[#767d78]">Nichts gefunden.</p>
         </div>
       ) : (
-        groups.map(([folder, items]) => (
-          <section key={folder || "root"} className="space-y-2">
-            {folder && (
-              <h3 className="flex items-center gap-1.5 pt-1 font-sans text-[10px] uppercase font-bold tracking-wider text-[#637368]">
-                <FolderOpen className="w-3.5 h-3.5" />
-                {folder}
-                <span className="font-semibold text-[#8a928e]">
-                  · {items.length}
-                </span>
-              </h3>
-            )}
-            {items.map((p) => (
-              <PdfCard key={`${folder}/${p.name}`} pdf={p} />
-            ))}
-          </section>
-        ))
+        <div className="space-y-2">{renderLevel(tree, 0)}</div>
       )}
     </div>
   );
