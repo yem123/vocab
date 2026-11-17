@@ -228,14 +228,8 @@ export default function App() {
       word.exampleTranslation === "English translation of study example.";
 
     setEditingWordId(word.id);
-    if (themes.includes(word.thema)) {
-      setFormThema(word.thema);
-      setFormCustomThema("");
-    } else {
-      // Theme was removed from the list: keep it via the manual field
-      setFormThema(themes[0] || "");
-      setFormCustomThema(word.thema);
-    }
+    setFormThema(word.thema || "");
+    setFormCustomThema("");
     setFormWord(word.word);
     setFormTranslation(word.translation);
     setFormDefinition(isPlaceholderDefinition ? "" : word.definition || "");
@@ -331,6 +325,18 @@ export default function App() {
 
   const myWords = useMemo(() => {
     return vocabulary.filter((w) => w.id > BASE_MAX_ID);
+  }, [vocabulary]);
+
+  // Themes in use, with word counts, most used first
+  const existingThemes = useMemo(() => {
+    const counts = new Map();
+    vocabulary.forEach((w) => {
+      const name = (w.thema || "").trim();
+      if (name) counts.set(name, (counts.get(name) || 0) + 1);
+    });
+    return [...counts.entries()]
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "de"))
+      .map(([name, count]) => ({ name, count }));
   }, [vocabulary]);
 
   const navigationList = useMemo(() => {
@@ -649,6 +655,7 @@ export default function App() {
               setAiPassword={setAiPassword}
               formFamily={formFamily}
               setFormFamily={setFormFamily}
+              existingThemes={existingThemes}
             />
           )}
 

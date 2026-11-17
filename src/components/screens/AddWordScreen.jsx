@@ -35,6 +35,7 @@ export default function AddWordScreen({
   setAiPassword,
   formFamily,
   setFormFamily,
+  existingThemes,
 }) {
   return (
     <div className="flex-1 flex flex-col px-6 py-5 space-y-5 animate-slide-up">
@@ -78,6 +79,7 @@ export default function AddWordScreen({
         setAiPassword={setAiPassword}
         formFamily={formFamily}
         setFormFamily={setFormFamily}
+        existingThemes={existingThemes}
       />
     </div>
   );

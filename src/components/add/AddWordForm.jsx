@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { Sparkles } from "lucide-react";
 import ThemeDropdown from "./ThemeDropdown";
 import GermanTextField from "../common/GermanTextField";
 import { WORD_TYPES } from "../../utils/wordTypes";
+import ExpandableThemePicker from "./ExpandableThemePicker";
 
 export default function AddWordForm({
   handleSaveNewWord,
@@ -24,8 +25,6 @@ export default function AddWordForm({
   isGenerating,
   aiError,
   isEditing,
-  themes,
-  removeTheme,
   formCustomThema,
   setFormCustomThema,
   formType,
@@ -36,11 +35,16 @@ export default function AddWordForm({
   setAiPassword,
   formFamily,
   setFormFamily,
+  existingThemes,
 }) {
+  const [showNewTheme, setShowNewTheme] = useState(
+    Boolean(formCustomThema && formCustomThema.trim()),
+  );
+
   return (
     <form onSubmit={handleSaveNewWord} className="space-y-4 font-sans text-xs">
       {/* Thema selector */}
-      <div className="bg-[#f9f9f7] border border-[#e8e5e0] p-3.5 rounded-2xl space-y-1">
+      <div className="bg-[#f9f9f7] border border-[#e8e5e0] p-3.5 rounded-2xl space-y-2">
         <div className="flex justify-between items-center text-[#767d78]">
           <span className="font-semibold uppercase tracking-wider text-[10px]">
             Thema
@@ -48,23 +52,33 @@ export default function AddWordForm({
           <span>(Optional)</span>
         </div>
 
-        {/* Manual thema input: added to the dropdown list on save if it's new */}
-        <GermanTextField
-          type="text"
-          placeholder="Neues Thema eingeben..."
-          value={formCustomThema}
-          onChange={(e) => setFormCustomThema(e.target.value)}
-          className="w-full bg-transparent border-none text-sm font-serif text-[#2c302e] focus:outline-none placeholder:text-[#b8c2bc]"
+        <ExpandableThemePicker
+          themes={existingThemes}
+          value={formCustomThema.trim() ? "" : formThema}
+          onSelect={(name) => {
+            setFormThema(name);
+            setFormCustomThema("");
+            setShowNewTheme(false);
+          }}
         />
 
-        {/* Dropdown list with a remove (X) button on each thema */}
-        <ThemeDropdown
-          themes={themes}
-          formThema={formThema}
-          setFormThema={setFormThema}
-          setFormCustomThema={setFormCustomThema}
-          removeTheme={removeTheme}
-        />
+        {!showNewTheme ? (
+          <button
+            type="button"
+            onClick={() => setShowNewTheme(true)}
+            className="font-sans text-[11px] font-semibold text-[#435249] underline"
+          >
+            + Neues Thema
+          </button>
+        ) : (
+          <GermanTextField
+            type="text"
+            placeholder="Neues Thema eingeben..."
+            value={formCustomThema}
+            onChange={(e) => setFormCustomThema(e.target.value)}
+            className="w-full bg-white border border-[#e8e5e0] rounded-lg px-3 py-2 text-sm font-serif text-[#2c302e] focus:outline-none focus:border-[#637368] placeholder:text-[#b8c2bc]"
+          />
+        )}
       </div>
 
       {/* Word family: links related entries (e.g. entscheiden, die Entscheidung, ...) */}
