@@ -35,7 +35,7 @@ export default function DetailScreen({
       />
       <WordHeader activeWord={activeWord} />
       <DefinitionCard activeWord={activeWord} />
-      <ExampleCard activeWord={activeWord} /> {/* Synonyms, grouped by level */}
+      <ExampleCard activeWord={activeWord} />
       <SynonymsCard synonyms={activeWord.synonyms} />
       <FamilyCard
         familyMembers={getFamilyMembers(activeWord)}

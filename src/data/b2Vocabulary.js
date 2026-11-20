@@ -17,7 +17,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 6501,
-    word: "zurückführen (auf)",
+    word: "zurückführen auf",
     translation: "to trace back (to)",
     definition: "Die Ursache in etwas sehen.",
     example: "Das lässt sich auf einen Fehler zurückführen.",
@@ -272,11 +272,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 6516,
-    word: "widerspiegeln",
+    word: "widerspiegeln / sich widerspiegeln in",
     translation: "to reflect",
     definition: "Etwas deutlich zeigen.",
     example: "Die Zahlen spiegeln die Lage wider.",
     exampleTranslation: "The figures reflect the situation.",
+    example2: "Das Problem spiegelt sich in den Zahlen wider.",
+    example2Translation: "The problem is reflected in the figures.",
     thema: "Kommunikation",
     priority: "Medium",
     favorite: false,
@@ -872,7 +874,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 6555,
-    word: "mindern (um + A.)",
+    word: "mindern um",
     translation: "to reduce, to decrease",
     definition: "Etwas verringern oder herabsetzen.",
     example: "Der Vermieter musste die Miete um zehn Prozent mindern.",
@@ -1153,7 +1155,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 6572,
-    word: "sich spezialisieren (auf + A.)",
+    word: "sich spezialisieren auf",
     translation: "to specialize (in)",
     definition: "Sich auf ein bestimmtes Fachgebiet konzentrieren.",
     example:
@@ -1321,11 +1323,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 6582,
-    word: "motivieren",
+    word: "motivieren / motivieren zu",
     translation: "to motivate",
     definition: "Jemanden zum Handeln anregen.",
     example: "Der Lehrer motiviert die Schüler.",
     exampleTranslation: "The teacher motivates the pupils.",
+    example2: "Der Trainer motiviert die Spieler zu Höchstleistungen.",
+    example2Translation: "The coach motivates the players to peak performance.",
     thema: "Schule und Lernen",
     priority: "High",
     favorite: false,
@@ -1743,7 +1747,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 6607,
-    word: "einen Einblick bekommen (in + A.)",
+    word: "einen Einblick bekommen in",
     translation: "to get an insight (into)",
     definition: "Informationen oder Einblicke in einen Bereich erhalten.",
     example:
@@ -1982,7 +1986,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 6621,
-    word: "jdn. freistellen (für + A.)",
+    word: "jdn. freistellen für",
     translation: "to release someone (from duties/for a purpose)",
     definition:
       "Jemanden von der Arbeit oder dem Dienst für eine bestimmte Zeit befreien.",
@@ -2341,7 +2345,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 6642,
-    word: "zerstreuen",
+    word: "zerstreuen / sich zerstreuen",
     translation: "to disperse; to dispel",
     definition: "Auseinandertreiben; Sorgen vertreiben.",
     example: "Die Polizei zerstreute die Menge.",
@@ -2374,11 +2378,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 6644,
-    word: "mithalten",
+    word: "mithalten / mithalten mit",
     translation: "to keep up",
     definition: "Mit anderen Schritt halten.",
     example: "Ich kann beim Tempo nicht mithalten.",
     exampleTranslation: "I can't keep up with the pace.",
+    example2: "Er kann mit den anderen Läufern nicht mithalten.",
+    example2Translation: "He cannot keep up with the other runners.",
     thema: "Freizeit & Kultur",
     priority: "Medium",
     favorite: false,
@@ -2899,7 +2905,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 6675,
-    word: "neigen (zu)",
+    word: "neigen zu",
     translation: "to tend (to)",
     definition: "Eine Tendenz zu etwas haben.",
     example: "Er neigt dazu, zu spät zu kommen.",
@@ -2916,7 +2922,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 6676,
-    word: "profitieren (von + D.)",
+    word: "profitieren von",
     translation: "to profit from, to benefit from",
     definition: "Vorteile aus etwas ziehen.",
     example: "Alle Mitarbeiter profitieren von den neuen Arbeitszeitmodellen.",
@@ -3396,11 +3402,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 6704,
-    word: "täuschen",
+    word: "täuschen / sich täuschen in",
     translation: "to deceive, mislead",
     definition: "Jemanden etwas Falsches glauben lassen.",
     example: "Der Schein kann täuschen.",
     exampleTranslation: "Appearances can be deceiving.",
+    example2: "Ich habe mich in ihm getäuscht.",
+    example2Translation: "I was mistaken about him.",
     thema: "Kommunikation",
     priority: "Medium",
     favorite: false,
@@ -3551,11 +3559,15 @@ export const B2_Vocabulary = [
   },
   {
     id: 6713,
-    word: "vereinigen",
+    word: "vereinigen / sich vereinigen mit",
     translation: "to unite",
     definition: "Zu einem Ganzen zusammenfügen.",
     example: "Die Parteien vereinigen sich.",
     exampleTranslation: "The parties unite.",
+    example2:
+      "Das kleine Unternehmen vereinigt sich mit einem größeren Konzern.",
+    example2Translation:
+      "The small company is merging with a larger corporation.",
     thema: "Gesellschaft",
     priority: "Medium",
     favorite: false,
@@ -3683,7 +3695,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 6721,
-    word: "Verhandlungen führen (mit + D.)",
+    word: "Verhandlungen führen mit",
     translation: "to conduct negotiations",
     definition:
       "Gespräche führen, um eine Einigung oder einen Vertrag zu erzielen.",
@@ -3855,7 +3867,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 6731,
-    word: "zusammenhängen",
+    word: "zusammenhängen mit",
     translation: "to be connected",
     definition: "In Verbindung stehen.",
     example: "Das hängt mit dem Wetter zusammen.",
@@ -4621,7 +4633,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 6776,
-    word: "verfügen (über)",
+    word: "verfügen über",
     translation: "to have at one's disposal",
     definition: "Etwas besitzen oder haben.",
     example: "Sie verfügt über viel Erfahrung.",
@@ -4983,7 +4995,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 6797,
-    word: "gut umgehen können (mit + D.)",
+    word: "gut umgehen können mit",
     translation: "to be able to handle well",
     definition: "Fähig sein, gut mit etwas oder jemandem zu verfahren.",
     example: "Sie kann gut mit stressigen Situationen umgehen.",
@@ -5303,7 +5315,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 6816,
-    word: "vermitteln",
+    word: "vermitteln zwischen",
     translation: "to convey, mediate",
     definition: "Etwas weitergeben; zwischen Parteien helfen.",
     example: "Sie vermittelt zwischen den Kollegen.",
@@ -5866,11 +5878,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 6849,
-    word: "übereinstimmen",
+    word: "übereinstimmen / übereinstimmen mit",
     translation: "to agree, match",
     definition: "Mit etwas gleich sein.",
     example: "Die Angaben stimmen nicht überein.",
     exampleTranslation: "The details do not match.",
+    example2: "Ihre Aussage stimmt nicht mit den Fakten überein.",
+    example2Translation: "Her statement does not agree with the facts.",
     thema: "Alltag",
     priority: "High",
     favorite: false,
@@ -6091,7 +6105,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 6863,
-    word: "verschärfen",
+    word: "verschärfen / sich verschärfen",
     translation: "to tighten, intensify",
     definition: "Strenger oder schlimmer machen.",
     example: "Die Regeln wurden verschärft.",
@@ -6229,7 +6243,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 6871,
-    word: "vertiefen",
+    word: "vertiefen / sich vertiefen in",
     translation: "to deepen",
     definition: "Etwas intensiver machen.",
     example: "Im Kurs vertiefen wir die Grammatik.",
@@ -6537,7 +6551,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 6889,
-    word: "überschätzen",
+    word: "überschätzen / sich überschätzen",
     translation: "to overestimate",
     definition: "Etwas zu hoch einschätzen.",
     example: "Du überschätzt dich.",
@@ -6554,7 +6568,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 6890,
-    word: "sich anstrengen (bei + D. / mit + D.)",
+    word: "sich anstrengen bei / mit",
     translation: "to make an effort, to exert oneself",
     definition: "Kräfte oder Mühe aufwenden, um ein Ziel zu erreichen.",
     example: "Man muss sich bei der Prüfung sehr anstrengen, um zu bestehen.",
@@ -6826,7 +6840,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 6906,
-    word: "untermauern",
+    word: "untermauern mit",
     translation: "to underpin, back up",
     definition: "Eine Aussage durch Argumente stützen.",
     example: "Sie untermauerte ihre Meinung mit Zahlen.",
@@ -6910,7 +6924,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 6911,
-    word: "verzögern",
+    word: "verzögern / sich verzögern",
     translation: "to delay",
     definition: "Etwas später geschehen lassen.",
     example: "Das Wetter verzögert die Arbeiten.",
@@ -6961,7 +6975,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 6914,
-    word: "Kritik üben/äußern (an + D.)",
+    word: "Kritik üben/äußern an",
     translation: "to criticize, to express criticism",
     definition: "Sich kritisch zu einer Sache oder Person äußern.",
     example: "Es ist wichtig, konstruktive Kritik zu äußern.",
@@ -7028,7 +7042,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 6918,
-    word: "unterschätzen",
+    word: "unterschätzen / sich unterschätzen",
     translation: "to underestimate",
     definition: "Etwas als zu klein einschätzen.",
     example: "Unterschätze die Aufgabe nicht.",
@@ -7777,7 +7791,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 6962,
-    word: "sich festlegen lassen (auf + A.)",
+    word: "sich festlegen lassen auf",
     translation: "to be pinned down (to), to commit to",
     definition:
       "Sich auf eine bestimmte Aussage oder Option verpflichten lassen.",
@@ -8171,7 +8185,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 6985,
-    word: "sich unbeliebt machen (bei + D.)",
+    word: "sich unbeliebt machen bei",
     translation: "to make oneself unpopular (with)",
     definition: "Durch sein Verhalten Sympathien bei anderen verlieren.",
     example:
@@ -8367,7 +8381,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 6997,
-    word: "einen schlechten Eindruck hinterlassen (bei + D.)",
+    word: "einen schlechten Eindruck hinterlassen bei",
     translation: "to leave a bad impression (on)",
     definition: "Bewirken, dass andere eine negative Meinung über einen haben.",
     example:
@@ -8572,7 +8586,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7009,
-    word: "jdn. loben (für + A.)",
+    word: "jdn. loben für",
     translation: "to praise someone (for)",
     definition: "Anerkennung oder Lob für eine Leistung aussprechen.",
     example: "Der Chef hat sie für ihre hervorragende Arbeit gelobt.",
@@ -8622,7 +8636,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7012,
-    word: "ein Angebot einholen (für + A.)",
+    word: "ein Angebot einholen für",
     translation: "to obtain a quote / an offer",
     definition: "Nachfragen und Kostenvoranschläge von Firmen anfordern.",
     example: "Für die Renovierung sollten wir verschiedene Angebote einholen.",
@@ -8720,7 +8734,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7018,
-    word: "einen Gegenpol bilden (zu + D.)",
+    word: "einen Gegenpol bilden zu",
     translation: "to form a counterpart (to)",
     definition: "Einen Kontrast oder ein Gegengewicht zu etwas darstellen.",
     example:
@@ -8756,7 +8770,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7020,
-    word: "noch etwas Spielraum haben (bei + D.)",
+    word: "noch etwas Spielraum haben bei",
     translation: "to have some leeway (for negotiation)",
     definition: "Noch Handlungsspielraum oder Verhandlungsspielraum besitzen.",
     example: "Beim Preis haben wir zum Glück noch etwas Spielraum.",
@@ -9860,7 +9874,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7086,
-    word: "weiterentwickeln",
+    word: "weiterentwickeln / sich weiterentwickeln",
     translation: "to develop further",
     definition: "Etwas verbessern und ausbauen.",
     example: "Wir entwickeln das Produkt weiter.",
@@ -10061,7 +10075,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7098,
-    word: "die Grundlage legen (für + A.)",
+    word: "die Grundlage legen für",
     translation: "to lay the foundation (for)",
     definition: "Die Basis für etwas schaffen.",
     example:
@@ -10267,7 +10281,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7110,
-    word: "verbilligen",
+    word: "verbilligen / sich verbilligen",
     translation: "to make cheaper, to reduce in price",
     definition: "Den Preis von etwas senken.",
     example: "Durch den Rabatt hat sich das Produkt deutlich verbilligt.",
@@ -10503,7 +10517,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7124,
-    word: "unterkommen (in + D.)",
+    word: "unterkommen in",
     translation: "to find accommodation, to find a place to stay",
     definition: "Eine Bleibe oder einen Arbeitsplatz finden.",
     example:
@@ -10539,7 +10553,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7126,
-    word: "sich fit machen (für + A.)",
+    word: "sich fit machen für",
     translation: "to get fit (for)",
     definition: "Sich durch Training oder Vorbereitung auf etwas einstellen.",
     example:
@@ -10623,7 +10637,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7131,
-    word: "trauern",
+    word: "trauern um",
     translation: "to mourn",
     definition: "Traurig über einen Verlust sein.",
     example: "Die Familie trauert um den Großvater.",
@@ -10900,7 +10914,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7147,
-    word: "Auswirkungen haben (auf + A.)",
+    word: "Auswirkungen haben auf",
     translation: "to have an impact (on)",
     definition: "Konsequenzen für etwas mit sich bringen.",
     example: "Das neue Gesetz hat direkte Auswirkungen auf unsere Arbeit.",
@@ -10951,7 +10965,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7150,
-    word: "die Kosten überschlagen (für + A.)",
+    word: "die Kosten überschlagen für",
     translation: "to estimate the costs",
     definition: "Die anfallenden Kosten grob überschlagen oder berechnen.",
     example: "Der Handwerker wird die Kosten für die Reparatur überschlagen.",
@@ -11155,7 +11169,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7162,
-    word: "sich Gedanken machen (über + A.)",
+    word: "sich Gedanken machen über",
     translation: "to think about, to worry about",
     definition: "Über etwas nachdenken oder sich Sorgen machen.",
     example: "Mach dir keine Gedanken, wir finden eine Lösung.",
@@ -11345,7 +11359,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7173,
-    word: "die Kosten tragen (für + A.)",
+    word: "die Kosten tragen für",
     translation: "to bear the costs (for)",
     definition: "Für die Bezahlung von Kosten aufkommen.",
     example: "Der Arbeitgeber trägt die Kosten für die Weiterbildung.",
@@ -11363,7 +11377,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7174,
-    word: "Einfluss nehmen (auf + A.)",
+    word: "Einfluss nehmen auf",
     translation: "to influence, to exert influence (on)",
     definition: "Einen Effekt oder Einfluss auf etwas ausüben.",
     example: "Das Wetter kann unsere Pläne negativ beeinflussen.",
@@ -11659,7 +11673,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7191,
-    word: "sich verpflichten (zu + D.)",
+    word: "sich verpflichten zu",
     translation: "to commit oneself (to), to obligate oneself",
     definition: "Eine verbindliche Verpflichtung eingehen.",
     example:
@@ -11813,7 +11827,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7200,
-    word: "sich richten (an + A.)",
+    word: "sich richten an",
     translation: "to be addressed to, to target",
     definition: "Sich an eine bestimmte Zielgruppe wenden.",
     example: "Dieses Angebot richtet sich speziell an junge Unternehmer.",
@@ -12351,7 +12365,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7231,
-    word: "angewiesen sein (auf + A.)",
+    word: "angewiesen sein auf",
     translation: "to be dependent on",
     definition: "Hilfe oder Unterstützung von jemandem brauchen.",
     example: "Ältere Menschen sind oft auf die Hilfe von Pflegern angewiesen.",
@@ -12452,7 +12466,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7237,
-    word: "Wert legen (auf + A.)",
+    word: "Wert legen auf",
     translation: "to place value on, to attach importance to",
     definition: "Wichtig finden, dass etwas Bestimmtes erfüllt wird.",
     example: "Unser Hotel legt großen Wert auf Sauberkeit und Komfort.",
@@ -12697,7 +12711,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7251,
-    word: "jemanden motivieren (zu + D.)",
+    word: "jemanden motivieren zu",
     translation: "to motivate someone (to)",
     definition: "Jemandem Ansporn geben, etwas zu tun.",
     example: "Ein guter Trainer versteht es, sein Team zu motivieren.",
@@ -13510,7 +13524,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7299,
-    word: "schwören (auf + A.)",
+    word: "schwören auf",
     translation: "to swear by, to be devoted to",
     definition: "Große Stücke auf etwas halten oder einen Eid leisten.",
     example:
@@ -13906,7 +13920,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7322,
-    word: "zuständig sein (für + A.)",
+    word: "zuständig sein für",
     translation: "to be responsible for",
     definition: "Die offizielle Zuständigkeit für einen Bereich haben.",
     example: "Frau Müller ist für den Kundenservice zuständig.",
@@ -15273,7 +15287,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7400,
-    word: "basieren (auf + D.)",
+    word: "basieren auf",
     translation: "to be based on",
     definition: "Auf einer Grundlage beruhen.",
     example: "Der Bericht basiert auf aktuellen statistischen Daten.",
@@ -16075,7 +16089,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7445,
-    word: "deuten",
+    word: "deuten auf",
     translation: "to point, to interpret",
     definition: "Mit dem Finger auf etwas zeigen oder etwas deuten.",
     example: "Er deutete mit dem Finger auf die fehlerhafte Stelle im Text.",
@@ -16110,7 +16124,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7447,
-    word: "kommunizieren (mit + D.)",
+    word: "kommunizieren mit",
     translation: "to communicate",
     definition: "Informationen und Gedanken mit anderen austauschen.",
     example:
@@ -16250,7 +16264,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7455,
-    word: "scheitern",
+    word: "scheitern an",
     translation: "to fail",
     definition: "Keinen Erfolg haben, misslingen.",
     example: "Das Projekt ist leider an technischen Problemen gescheitert.",
@@ -16287,7 +16301,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7457,
-    word: "sich rechtfertigen",
+    word: "sich rechtfertigen für",
     translation: "to justify oneself",
     definition: "Gründe für ein Verhalten angeben, um Kritik abzuwehren.",
     example:
@@ -16322,7 +16336,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7459,
-    word: "vertraut sein (mit + D.)",
+    word: "vertraut sein mit",
     translation: "to be familiar with",
     definition: "Gute Kenntnisse über etwas haben.",
     example: "Mit dieser Software bin ich bereits bestens vertraut.",
@@ -16338,7 +16352,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7460,
-    word: "stammen (aus/von + D.)",
+    word: "stammen aus / von",
     translation: "to originate from, to stem from",
     definition:
       "Seinen Ursprung an einem bestimmten Ort oder in einer Zeit haben.",
@@ -16460,7 +16474,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7467,
-    word: "Bezug nehmen (auf + A.)",
+    word: "Bezug nehmen auf",
     translation: "to refer to",
     definition: "Sich in einer Mitteilung auf etwas Vorheriges beziehen.",
     example: "Ich nehme Bezug auf unser Telefongespräch von gestern.",
@@ -16549,7 +16563,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7472,
-    word: "sich in Verbindung setzen (mit + D.)",
+    word: "sich in Verbindung setzen mit",
     translation: "to get in touch with, to contact",
     definition: "Kontakt zu jemandem aufnehmen.",
     example:
@@ -17088,7 +17102,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7503,
-    word: "weiterkommen (bei + D.)",
+    word: "weiterkommen bei",
     translation: "to make progress with",
     definition: "Fortschritte in einer Sache erzielen.",
     example:
@@ -17177,7 +17191,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7508,
-    word: "in Kontakt bleiben (mit + D.)",
+    word: "in Kontakt bleiben mit",
     translation: "to stay in touch with",
     definition: "Die Verbindung zu jemandem aufrechterhalten.",
     example: "Lass uns nach dem Kurs unbedingt in Kontakt bleiben.",
@@ -17248,12 +17262,14 @@ export const B2_Vocabulary = [
   },
   {
     id: 7512,
-    word: "vermischen",
+    word: "vermischen / sich vermischen mit",
     translation: "to mix, to blend",
     definition: "Verschiedene Dinge zusammenfügen.",
     example:
       "Man sollte Arbeit und Privatleben nicht zu stark miteinander vermischen.",
     exampleTranslation: "One should not mix work and private life too much.",
+    example2: "Öl vermischt sich nicht mit Wasser.",
+    example2Translation: "Oil does not mix with water.",
     thema: "Alltag",
     priority: "High",
     favorite: false,
@@ -17457,7 +17473,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7524,
-    word: "jemandem danken (für + A.)",
+    word: "jemandem danken für",
     translation: "to thank someone for",
     definition: "Dankbarkeit für eine Tat ausdrücken.",
     example:
@@ -18508,7 +18524,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7584,
-    word: "sich qualifizieren (für + A.)",
+    word: "sich qualifizieren für",
     translation: "to qualify for",
     definition: "Sich durch Ausbildung oder Leistung für etwas eignen.",
     example: "Durch den Kurs kann sie sich für höhere Aufgaben qualifizieren.",
@@ -18542,11 +18558,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 7586,
-    word: "verteidigen",
+    word: "verteidigen / sich verteidigen gegen",
     translation: "to defend",
     definition: "Etwas gegen Angriffe schützen oder verteidigen.",
     example: "Er hat seine Idee in der Besprechung vehement verteidigt.",
     exampleTranslation: "He vehemently defended his idea in the meeting.",
+    example2: "Er verteidigte sich gegen die Vorwürfe.",
+    example2Translation: "He defended himself against the accusations.",
     thema: "Arbeit",
     priority: "High",
     favorite: false,
@@ -18596,13 +18614,15 @@ export const B2_Vocabulary = [
   },
   {
     id: 7589,
-    word: "drohen",
+    word: "drohen / drohen mit",
     translation: "to threaten",
     definition: "Mit einer negativen Konsequenz drohen.",
     example:
       "Bei schlechten Leistungen droht dem Unternehmen der Verlust von Kunden.",
     exampleTranslation:
       "In case of poor performance, the company faces the loss of customers.",
+    example2: "Der Chef drohte den Mitarbeitern mit der Kündigung.",
+    example2Translation: "The boss threatened the employees with dismissal.",
     thema: "Wirtschaft",
     priority: "High",
     favorite: false,
@@ -18824,7 +18844,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7602,
-    word: "aufmerksam machen (auf + A.)",
+    word: "aufmerksam machen auf",
     translation: "to draw attention to",
     definition: "Jemanden auf etwas hinweisen.",
     example:
@@ -18881,7 +18901,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7605,
-    word: "verknüpfen (mit + D.)",
+    word: "verknüpfen mit",
     translation: "to link with, to connect",
     definition: "Miteinander verbinden.",
     example: "Wir müssen Theorie und Praxis eng miteinander verknüpfen.",
@@ -18916,7 +18936,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7607,
-    word: "differenzieren (zwischen + D.)",
+    word: "differenzieren zwischen",
     translation: "to differentiate between",
     definition: "Unterschiede zwischen Dingen machen.",
     example:
@@ -19687,13 +19707,15 @@ export const B2_Vocabulary = [
   },
   {
     id: 7651,
-    word: "forschen",
+    word: "forschen / forschen nach",
     translation: "to research",
     definition: "Wissenschaftliche Untersuchungen durchführen.",
     example:
       "Die Wissenschaftler forschen an einem neuen Medikament gegen die Krankheit.",
     exampleTranslation:
       "The scientists are researching a new medicine against the disease.",
+    example2: "Die Archäologen forschen nach alten Spuren.",
+    example2Translation: "The archaeologists are searching for ancient traces.",
     thema: "Gesundheit",
     priority: "High",
     favorite: false,
@@ -19705,7 +19727,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7652,
-    word: "sich beschweren (bei + D. / über + A.)",
+    word: "sich beschweren bei / über",
     translation: "to complain",
     definition: "Seinen Unmut über etwas oder jemanden äußern.",
     example:
@@ -19793,7 +19815,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7657,
-    word: "sich bewerben (um + A., bei + D.)",
+    word: "sich bewerben um / bei",
     translation: "to apply for",
     definition:
       "Sich offiziell um eine Arbeitsstelle oder einen Platz bemühen.",
@@ -20106,7 +20128,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7675,
-    word: "sich begeistern (für + A.)",
+    word: "sich begeistern für",
     translation: "to be enthusiastic about",
     definition: "Großes Interesse und Freude für etwas zeigen.",
     example: "Für moderne Technik kann er sich schnell begeistern.",
@@ -20179,7 +20201,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7679,
-    word: "sich auskennen (mit + D.)",
+    word: "sich auskennen mit",
     translation: "to be familiar with, to know one's way around",
     definition: "Gute Kenntnisse über etwas haben.",
     example: "Mit dieser Computersoftware kenne ich mich bestens aus.",
@@ -20213,7 +20235,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7681,
-    word: "sich informieren (bei + D. / über + A.)",
+    word: "sich informieren bei / über",
     translation: "to inform oneself",
     definition: "Informationen zu einem Thema einholen.",
     example: "Sie können sich online über unsere neuen Produkte informieren.",
@@ -20382,7 +20404,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7691,
-    word: "vorbeikommen",
+    word: "vorbeikommen bei",
     translation: "to drop by, to come over",
     definition: "Kurz einen Ort besuchen.",
     example: "Komm doch morgen Nachmittag auf einen Kaffee bei mir vorbei.",
@@ -20505,7 +20527,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7698,
-    word: "verpflichtet sein (zu + D.)",
+    word: "verpflichtet sein zu",
     translation: "to be obliged to",
     definition: "Etwas tun müssen aufgrund von Regeln.",
     example:
@@ -20588,7 +20610,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7703,
-    word: "ableiten",
+    word: "ableiten aus",
     translation: "to derive, deduce",
     definition: "Etwas aus etwas anderem folgern.",
     example: "Aus den Zahlen lässt sich ein Trend ableiten.",
@@ -20604,11 +20626,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 7704,
-    word: "ablenken",
+    word: "ablenken / sich ablenken von",
     translation: "to distract",
     definition: "Die Aufmerksamkeit von etwas weglenken.",
     example: "Das Handy lenkt mich beim Lernen ab.",
     exampleTranslation: "My phone distracts me while studying.",
+    example2: "Er lenkt sich mit Musik von seinen Sorgen ab.",
+    example2Translation: "He distracts himself from his worries with music.",
     thema: "Alltag",
     priority: "High",
     favorite: false,
@@ -20684,11 +20708,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 7709,
-    word: "abweichen",
+    word: "abweichen / abweichen von",
     translation: "to deviate, differ",
     definition: "Von einer Regel oder Norm verschieden sein.",
     example: "Die Ergebnisse weichen stark voneinander ab.",
     exampleTranslation: "The results differ greatly from each other.",
+    example2: "Das Ergebnis weicht von der Prognose ab.",
+    example2Translation: "The result deviates from the forecast.",
     thema: "Alltag",
     priority: "Medium",
     favorite: false,
@@ -20977,7 +21003,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7727,
-    word: "anhängen",
+    word: "anhängen an",
     translation: "to attach, append",
     definition: "Etwas an etwas befestigen oder dazufügen.",
     example: "Hängen Sie bitte die Datei an die E-Mail an.",
@@ -21778,11 +21804,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 7776,
-    word: "auszeichnen",
+    word: "auszeichnen / sich auszeichnen durch",
     translation: "to award, distinguish",
     definition: "Jemandem einen Preis geben; hervorheben.",
     example: "Sie wurde für ihre Arbeit ausgezeichnet.",
     exampleTranslation: "She was awarded for her work.",
+    example2: "Sie zeichnet sich durch große Geduld aus.",
+    example2Translation: "She is distinguished by great patience.",
     thema: "Freizeit & Kultur",
     priority: "Medium",
     favorite: false,
@@ -22085,7 +22113,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7795,
-    word: "beharren (auf)",
+    word: "beharren auf",
     translation: "to insist (on)",
     definition: "Auf etwas bestehen.",
     example: "Er beharrt auf seiner Meinung.",
@@ -22615,11 +22643,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 7827,
-    word: "bewahren",
+    word: "bewahren / bewahren vor",
     translation: "to preserve, keep",
     definition: "Etwas schützen und behalten.",
     example: "Bewahren Sie bitte Ruhe!",
     exampleTranslation: "Please keep calm!",
+    example2: "Die Impfung bewahrt vor schweren Krankheiten.",
+    example2Translation: "The vaccination protects against serious illnesses.",
     thema: "Alltag",
     priority: "Medium",
     favorite: false,
@@ -22715,11 +22745,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 7833,
-    word: "beziehen",
+    word: "beziehen / sich beziehen auf",
     translation: "to obtain / to cover something",
     definition: "Waren bekommen; Bett beziehen.",
     example: "Ich beziehe meinen Strom von einem Ökoanbieter.",
     exampleTranslation: "I get my electricity from a green provider.",
+    example2: "Meine Frage bezieht sich auf Ihr Angebot.",
+    example2Translation: "My question refers to your offer.",
     thema: "Wirtschaft",
     level: "B2",
     type: "Word",
@@ -23022,11 +23054,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 7852,
-    word: "demonstrieren",
+    word: "demonstrieren für / gegen",
     translation: "to demonstrate",
     definition: "Etwas zeigen; öffentlich protestieren.",
     example: "Tausende demonstrierten für mehr Klimaschutz.",
     exampleTranslation: "Thousands demonstrated for more climate protection.",
+    example2: "Viele Menschen demonstrieren gegen die Erhöhung der Mieten.",
+    example2Translation: "Many people demonstrate against the rent increase.",
     thema: "Gesellschaft",
     priority: "Medium",
     favorite: false,
@@ -23186,11 +23220,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 7862,
-    word: "drängen",
+    word: "drängen auf / zu",
     translation: "to urge, push",
     definition: "Jemanden zur Eile antreiben.",
     example: "Er drängt mich, die Entscheidung zu treffen.",
     exampleTranslation: "He is pushing me to make the decision.",
+    example2: "Die Opposition drängt auf eine schnelle Lösung.",
+    example2Translation: "The opposition is pressing for a quick solution.",
     thema: "Kommunikation",
     priority: "Medium",
     favorite: false,
@@ -23235,11 +23271,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 7865,
-    word: "durchsetzen",
+    word: "durchsetzen / sich durchsetzen gegen",
     translation: "to enforce; to assert oneself",
     definition: "Ein Ziel gegen Widerstand erreichen.",
     example: "Sie konnte ihren Plan durchsetzen.",
     exampleTranslation: "She managed to push through her plan.",
+    example2: "Sie hat sich gegen alle Widerstände durchgesetzt.",
+    example2Translation: "She prevailed against all resistance.",
     thema: "Arbeit",
     priority: "Medium",
     favorite: false,
@@ -23384,11 +23422,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 7874,
-    word: "einbringen",
+    word: "einbringen / sich einbringen in",
     translation: "to contribute",
     definition: "Etwas zu einer Gruppe beitragen.",
     example: "Jeder kann seine Ideen einbringen.",
     exampleTranslation: "Everyone can contribute their ideas.",
+    example2: "Er bringt sich aktiv in die Projektarbeit ein.",
+    example2Translation: "He contributes actively to the project work.",
     thema: "Arbeit",
     priority: "Medium",
     favorite: false,
@@ -23565,7 +23605,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7885,
-    word: "empfinden",
+    word: "empfinden als",
     translation: "to feel, perceive",
     definition: "Ein Gefühl haben.",
     example: "Ich empfinde die Musik als beruhigend.",
@@ -24803,7 +24843,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 7961,
-    word: "investieren",
+    word: "investieren in",
     translation: "to invest",
     definition: "Geld oder Zeit in etwas stecken.",
     example: "Sie investiert in Aktien.",
@@ -29555,7 +29595,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8294,
-    word: "haften (für + A.)",
+    word: "haften für",
     translation: "to be liable (for)",
     definition: "Rechtlich für einen Schaden verantwortlich sein.",
     example: "Eltern haften nicht immer für ihre Kinder.",
@@ -29776,11 +29816,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 8309,
-    word: "verabschieden",
+    word: "verabschieden / sich verabschieden von",
     translation: "to pass (a law)",
     definition: "Ein Gesetz offiziell beschließen.",
     example: "Der Bundestag hat das Gesetz verabschiedet.",
     exampleTranslation: "The Bundestag passed the law.",
+    example2: "Er verabschiedet sich von seinen Gästen.",
+    example2Translation: "He says goodbye to his guests.",
     thema: "Gesellschaft",
     priority: "Medium",
     favorite: false,
@@ -30525,7 +30567,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8357,
-    word: "zurückgreifen (auf + A.)",
+    word: "zurückgreifen auf",
     translation: "to fall back on",
     definition: "Etwas Vorhandenes nutzen.",
     example: "Er kann auf viel Erfahrung zurückgreifen.",
@@ -30559,7 +30601,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8359,
-    word: "Stellung nehmen (zu + D.)",
+    word: "Stellung nehmen zu",
     translation: "to comment (on), to take a position",
     definition: "Seine Meinung zu etwas sagen.",
     example: "Der Minister nahm zu den Vorwürfen Stellung.",
@@ -30756,7 +30798,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8372,
-    word: "genesen",
+    word: "genesen von",
     translation: "to recover",
     definition: "Wieder gesund werden.",
     example: "Er ist von der Krankheit vollständig genesen.",
@@ -31479,7 +31521,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8419,
-    word: "auswandern (nach + D.)",
+    word: "auswandern nach",
     translation: "to emigrate",
     definition: "Das eigene Land verlassen, um woanders zu leben.",
     example: "Meine Cousine ist nach Kanada ausgewandert.",
@@ -31496,7 +31538,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8420,
-    word: "sich einleben",
+    word: "sich einleben in",
     translation: "to settle in",
     definition: "Sich an einen neuen Ort gewöhnen.",
     example: "Ich habe mich schnell in der neuen Stadt eingelebt.",
@@ -31530,7 +31572,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8422,
-    word: "konfrontieren (mit + D.)",
+    word: "konfrontieren mit",
     translation: "to confront",
     definition: "Jemanden mit etwas Unangenehmem direkt zusammenbringen.",
     example: "Die Polizei konfrontierte ihn mit den Beweisen.",
@@ -31968,7 +32010,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8451,
-    word: "eingehen (auf + A.)",
+    word: "eingehen auf",
     translation: "to address",
     definition: "Sich mit etwas näher beschäftigen.",
     example: "Der Lehrer geht auf jede Frage ein.",
@@ -32241,7 +32283,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8469,
-    word: "anhören",
+    word: "anhören / sich anhören",
     translation: "to listen to",
     definition: "Aufmerksam zuhören.",
     example: "Ich höre mir das Konzert an.",
@@ -32859,11 +32901,14 @@ export const B2_Vocabulary = [
   },
   {
     id: 8511,
-    word: "werben",
+    word: "werben / werben für / um",
     translation: "to advertise",
     definition: "Für etwas Werbung machen.",
     example: "Die Firma wirbt im Fernsehen.",
     exampleTranslation: "The company advertises on TV.",
+    example2: "Die Firma wirbt für ihr neues Produkt und um neue Kunden.",
+    example2Translation:
+      "The company advertises its new product and tries to win new customers.",
     thema: "Medien",
     priority: "Medium",
     favorite: false,
@@ -34254,7 +34299,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8604,
-    word: "erhoffen",
+    word: "sich erhoffen",
     translation: "to hope for",
     definition: "Sich etwas wünschen.",
     example: "Wir erhoffen uns eine Verbesserung.",
@@ -34364,7 +34409,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8611,
-    word: "avancieren",
+    word: "avancieren zu",
     translation: "to advance",
     definition: "Zu einer höheren Position aufsteigen.",
     example: "Er avancierte zum Abteilungsleiter.",
@@ -34411,11 +34456,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 8614,
-    word: "erregen",
+    word: "erregen / sich erregen über",
     translation: "to arouse",
     definition: "Aufmerksamkeit oder Gefühle wecken.",
     example: "Der Skandal erregte großes Aufsehen.",
     exampleTranslation: "The scandal caused a great stir.",
+    example2: "Er erregt sich über die laute Musik.",
+    example2Translation: "He gets worked up about the loud music.",
     thema: "Gefühle",
     priority: "Medium",
     favorite: false,
@@ -34476,7 +34523,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8618,
-    word: "fluchen",
+    word: "fluchen über",
     translation: "to swear",
     definition: "Wütend schimpfen.",
     example: "Er fluchte laut über den Stau.",
@@ -34645,7 +34692,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8629,
-    word: "zutrauen",
+    word: "zutrauen / sich zutrauen",
     translation: "to credit with",
     definition: "Jemandem etwas zumuten.",
     example: "Ich traue ihr diese Aufgabe zu.",
@@ -34775,7 +34822,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8638,
-    word: "übergeben",
+    word: "übergeben / sich übergeben",
     translation: "to hand over",
     definition: "Etwas jemandem aushändigen.",
     example: "Er übergab die Schlüssel dem Hausmeister.",
@@ -35142,7 +35189,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8663,
-    word: "spenden",
+    word: "spenden für",
     translation: "to donate",
     definition: "Geld oder Sachen kostenlos geben.",
     example: "Viele Menschen spendeten für die Opfer.",
@@ -35201,11 +35248,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 8667,
-    word: "versetzen",
+    word: "versetzen / sich versetzen in",
     translation: "to transfer",
     definition: "An einen anderen Ort oder in eine andere Lage bringen.",
     example: "Er wurde nach Hamburg versetzt.",
     exampleTranslation: "He was transferred to Hamburg.",
+    example2: "Versetz dich in meine Lage!",
+    example2Translation: "Put yourself in my position!",
     thema: "Arbeit",
     priority: "Medium",
     favorite: false,
@@ -35748,7 +35797,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8704,
-    word: "ausleihen",
+    word: "ausleihen / sich ausleihen",
     translation: "to borrow",
     definition: "Etwas für kurze Zeit nehmen.",
     example: "Ich leihe mir ein Buch aus.",
@@ -35765,7 +35814,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8705,
-    word: "meckern",
+    word: "meckern über",
     translation: "to grumble",
     definition: "Ständig unzufrieden sprechen.",
     example: "Er meckert immer über das Essen.",
@@ -35895,7 +35944,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8714,
-    word: "entfalten",
+    word: "entfalten / sich entfalten",
     translation: "to unfold",
     definition: "Sich ausbreiten oder entwickeln.",
     example: "Sie kann ihre Talente entfalten.",
@@ -35945,11 +35994,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 8717,
-    word: "experimentieren",
+    word: "experimentieren / experimentieren mit",
     translation: "to experiment",
     definition: "Versuche machen.",
     example: "Die Kinder experimentieren im Labor.",
     exampleTranslation: "The children experiment in the lab.",
+    example2: "Die Schüler experimentieren mit verschiedenen Farben.",
+    example2Translation: "The pupils experiment with different colors.",
     thema: "Schule und Lernen",
     priority: "Medium",
     favorite: false,
@@ -36003,7 +36054,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8721,
-    word: "heranführen",
+    word: "heranführen an",
     translation: "to introduce",
     definition: "Jemanden langsam an etwas gewöhnen.",
     example: "Die Lehrerin führt die Kinder an Musik heran.",
@@ -36474,7 +36525,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8754,
-    word: "verschaffen",
+    word: "sich verschaffen",
     translation: "to procure",
     definition: "Sich etwas besorgen.",
     example: "Ich muss mir einen Überblick verschaffen.",
@@ -36589,7 +36640,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8762,
-    word: "auskommen (mit + D.)",
+    word: "auskommen mit",
     translation: "to get by",
     definition: "Mit etwas zurechtkommen.",
     example: "Sie kommt mit wenig Geld aus.",
@@ -36960,7 +37011,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8788,
-    word: "versinken",
+    word: "versinken in",
     translation: "to sink",
     definition: "Nach unten sinken.",
     example: "Das Schiff versank im Meer.",
@@ -37073,7 +37124,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8796,
-    word: "eintauchen",
+    word: "eintauchen in",
     translation: "to dive in",
     definition: "In etwas hineingehen.",
     example: "Sie taucht in die Geschichte ein.",
@@ -37606,7 +37657,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8832,
-    word: "grübeln",
+    word: "grübeln über",
     translation: "to brood",
     definition: "Lange über etwas nachdenken.",
     example: "Er grübelt über das Problem.",
@@ -38294,7 +38345,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8880,
-    word: "einprägen",
+    word: "einprägen / sich einprägen",
     translation: "to memorise",
     definition: "Sich etwas gut merken.",
     example: "Ich präge mir die Wörter ein.",
@@ -38366,7 +38417,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8885,
-    word: "gönnen",
+    word: "gönnen / sich gönnen",
     translation: "to treat oneself",
     definition: "Sich oder anderen etwas Schönes erlauben.",
     example: "Ich gönne mir einen Urlaub.",
@@ -38494,7 +38545,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8894,
-    word: "widmen",
+    word: "sich widmen",
     translation: "to dedicate",
     definition: "Jemandem etwas schenken oder sich intensiv um etwas kümmern.",
     example: "Sie widmet sich ganz der Musik.",
@@ -39264,11 +39315,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 8947,
-    word: "erpressen",
+    word: "erpressen / erpressen mit",
     translation: "to blackmail",
     definition: "Jemanden mit Drohungen zu etwas zwingen.",
     example: "Er erpresste die Firma.",
     exampleTranslation: "He blackmailed the company.",
+    example2: "Der Täter erpresste sie mit Fotos.",
+    example2Translation: "The perpetrator blackmailed her with photos.",
     thema: "Sicherheit",
     priority: "Low",
     favorite: false,
@@ -39278,7 +39331,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8948,
-    word: "anpassen",
+    word: "anpassen / sich anpassen an",
     translation: "to adapt",
     definition: "Etwas an Bedingungen angleichen.",
     example: "Ich passe den Plan an.",
@@ -39549,7 +39602,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8967,
-    word: "zittern",
+    word: "zittern vor",
     translation: "to tremble",
     definition: "Sich schnell und unwillkürlich bewegen.",
     example: "Er zittert vor Kälte.",
@@ -39660,7 +39713,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 8975,
-    word: "einlassen (sich auf + A.)",
+    word: "sich einlassen auf",
     translation: "to get involved (in)",
     definition: "Sich auf etwas einstellen.",
     example: "Ich lasse mich auf das Abenteuer ein.",
@@ -40241,7 +40294,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9015,
-    word: "erstarren",
+    word: "erstarren vor",
     translation: "to freeze",
     definition: "Starr werden.",
     example: "Vor Schreck erstarrte er.",
@@ -40397,7 +40450,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9026,
-    word: "nagen",
+    word: "nagen an",
     translation: "to gnaw",
     definition: "Mit den Zähnen kleine Stücke abbeißen.",
     example: "Der Hund nagt am Knochen.",
@@ -40634,7 +40687,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9043,
-    word: "verweisen (auf + A.)",
+    word: "verweisen auf",
     translation: "to refer (to)",
     definition: "Auf etwas hinweisen.",
     example: "Ich verweise auf unseren Vertrag.",
@@ -40776,7 +40829,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9053,
-    word: "distanzieren (sich von + D.)",
+    word: "sich distanzieren von",
     translation: "to distance oneself (from)",
     definition: "Sich abgrenzen.",
     example: "Er distanziert sich von dieser Aussage.",
@@ -40905,7 +40958,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9062,
-    word: "staunen",
+    word: "staunen über",
     translation: "to marvel",
     definition: "Überrascht sein.",
     example: "Die Kinder staunten über das Feuerwerk.",
@@ -41390,11 +41443,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 9096,
-    word: "zusammensetzen",
+    word: "zusammensetzen / sich zusammensetzen aus",
     translation: "to put together",
     definition: "Aus Teilen etwas bauen.",
     example: "Er setzt das Puzzle zusammen.",
     exampleTranslation: "He puts the puzzle together.",
+    example2: "Das Team setzt sich aus zehn Mitgliedern zusammen.",
+    example2Translation: "The team is made up of ten members.",
     thema: "Alltag",
     priority: "Medium",
     favorite: false,
@@ -41687,11 +41742,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 9117,
-    word: "fusionieren",
+    word: "fusionieren / fusionieren mit",
     translation: "to merge",
     definition: "Sich zusammenschließen.",
     example: "Die beiden Banken fusionieren.",
     exampleTranslation: "The two banks are merging.",
+    example2: "Die Firma fusioniert mit einem Konkurrenten.",
+    example2Translation: "The company is merging with a competitor.",
     thema: "Wirtschaft",
     priority: "Low",
     favorite: false,
@@ -41701,11 +41758,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 9118,
-    word: "ängstigen",
+    word: "ängstigen / sich ängstigen vor",
     translation: "to frighten",
     definition: "Jemandem Angst machen.",
     example: "Der Gedanke ängstigt mich.",
     exampleTranslation: "The thought frightens me.",
+    example2: "Sie ängstigt sich vor der Prüfung.",
+    example2Translation: "She is afraid of the exam.",
     thema: "Gefühle",
     priority: "Low",
     favorite: false,
@@ -41715,7 +41774,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9119,
-    word: "ernennen",
+    word: "ernennen zu",
     translation: "to appoint",
     definition: "Jemanden offiziell zu etwas machen.",
     example: "Er wurde zum Direktor ernannt.",
@@ -41946,7 +42005,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9135,
-    word: "beladen",
+    word: "beladen mit",
     translation: "to load",
     definition: "Etwas mit Dingen füllen.",
     example: "Sie belädt das Auto mit Koffern.",
@@ -41973,7 +42032,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9137,
-    word: "sehnen (sich nach + D.)",
+    word: "sich sehnen nach",
     translation: "to long (for)",
     definition: "Etwas stark wünschen.",
     example: "Ich sehne mich nach Ruhe.",
@@ -42034,7 +42093,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9141,
-    word: "anknüpfen (an + A.)",
+    word: "anknüpfen an",
     translation: "to build (on)",
     definition: "An Früheres anschließen.",
     example: "Wir knüpfen an unser letztes Gespräch an.",
@@ -42418,7 +42477,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9168,
-    word: "verwandeln",
+    word: "verwandeln / sich verwandeln in",
     translation: "to transform",
     definition: "Etwas ganz anders machen.",
     example: "Der Regen verwandelte den Weg in Schlamm.",
@@ -42507,7 +42566,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9174,
-    word: "abschwächen",
+    word: "abschwächen / sich abschwächen",
     translation: "to weaken",
     definition: "Schwächer machen.",
     example: "Er schwächte seine Aussage ab.",
@@ -42952,7 +43011,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9205,
-    word: "zugreifen",
+    word: "zugreifen auf",
     translation: "to access, to grab",
     definition: "Auf etwas zugreifen oder zupacken.",
     example: "Ich kann auf die Datei nicht zugreifen.",
@@ -43147,7 +43206,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9218,
-    word: "aufwärmen",
+    word: "aufwärmen / sich aufwärmen",
     translation: "to warm up",
     definition: "Warm machen.",
     example: "Ich wärme die Suppe auf.",
@@ -43706,7 +43765,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9257,
-    word: "zukommen",
+    word: "zukommen auf",
     translation: "to approach",
     definition: "Auf jemanden zukommen oder zustehen.",
     example: "Eine Veränderung kommt auf uns zu.",
@@ -44102,7 +44161,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9284,
-    word: "geraten (in + A.)",
+    word: "geraten in",
     translation: "to get (into)",
     definition: "In eine Lage kommen.",
     example: "Er geriet in Schwierigkeiten.",
@@ -44508,7 +44567,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9312,
-    word: "ausdrücken",
+    word: "ausdrücken / sich ausdrücken",
     translation: "to express",
     definition: "Etwas in Worten oder Gesten zeigen.",
     example: "Er drückt seine Gefühle selten aus.",
@@ -44539,11 +44598,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 9314,
-    word: "austauschen",
+    word: "austauschen / sich austauschen über / mit",
     translation: "to exchange",
     definition: "Etwas gegen etwas tauschen.",
     example: "Wir tauschen Erfahrungen aus.",
     exampleTranslation: "We exchange experiences.",
+    example2: "Ich tausche mich mit meinen Kollegen über Erfahrungen aus.",
+    example2Translation: "I exchange experiences with my colleagues.",
     thema: "Kommunikation",
     priority: "Medium",
     favorite: false,
@@ -44693,7 +44754,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9325,
-    word: "heulen",
+    word: "heulen vor",
     translation: "to howl, to cry",
     definition: "Laut weinen oder jaulen.",
     example: "Sie heulte vor Wut.",
@@ -44752,11 +44813,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 9329,
-    word: "isolieren",
+    word: "isolieren / sich isolieren von",
     translation: "to isolate",
     definition: "Etwas abtrennen.",
     example: "Kranke werden isoliert.",
     exampleTranslation: "Sick people are isolated.",
+    example2: "Er isoliert sich von seinen Freunden.",
+    example2Translation: "He isolates himself from his friends.",
     thema: "Gesundheit",
     priority: "Medium",
     favorite: false,
@@ -45234,7 +45297,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9362,
-    word: "bloßstellen",
+    word: "bloßstellen / sich bloßstellen",
     translation: "to expose",
     definition: "Jemanden vor anderen blamieren.",
     example: "Er stellte sie vor allen bloß.",
@@ -45324,7 +45387,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9368,
-    word: "gelangen",
+    word: "gelangen zu",
     translation: "to reach",
     definition: "Irgendwohin kommen.",
     example: "Wie gelangt man zum Bahnhof?",
@@ -45398,7 +45461,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9373,
-    word: "klammern (sich an + A.)",
+    word: "sich klammern an",
     translation: "to cling (to)",
     definition: "Sich fest halten.",
     example: "Das Kind klammert sich an die Mutter.",
@@ -45480,7 +45543,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9379,
-    word: "trauen",
+    word: "trauen / sich trauen",
     translation: "to trust",
     definition: "Vertrauen haben.",
     example: "Ich traue ihm nicht.",
@@ -45701,7 +45764,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9394,
-    word: "zurückhalten",
+    word: "zurückhalten / sich zurückhalten",
     translation: "to hold back",
     definition: "Nicht weitergeben oder sich beherrschen.",
     example: "Er konnte sich kaum zurückhalten.",
@@ -45787,7 +45850,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9400,
-    word: "befestigen",
+    word: "befestigen an",
     translation: "to fasten",
     definition: "Etwas festmachen.",
     example: "Er befestigt das Bild an der Wand.",
@@ -46273,11 +46336,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 9434,
-    word: "abschweifen",
+    word: "abschweifen / abschweifen von",
     translation: "to digress",
     definition: "Vom Thema abkommen.",
     example: "Er schweift ständig ab.",
     exampleTranslation: "He keeps digressing.",
+    example2: "Sie schweift immer wieder von dem Thema ab.",
+    example2Translation: "She keeps digressing from the topic.",
     thema: "Kommunikation",
     priority: "Low",
     favorite: false,
@@ -46287,11 +46352,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 9435,
-    word: "abwenden",
+    word: "abwenden / sich abwenden von",
     translation: "to avert",
     definition: "Etwas verhindern oder wegdrehen.",
     example: "Wir konnten das Schlimmste abwenden.",
     exampleTranslation: "We were able to avert the worst.",
+    example2: "Sie wendet sich von ihrer Familie ab.",
+    example2Translation: "She turns away from her family.",
     thema: "Alltag",
     priority: "Low",
     favorite: false,
@@ -46335,7 +46402,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9438,
-    word: "anreichern",
+    word: "anreichern mit",
     translation: "to enrich",
     definition: "Etwas hinzufügen.",
     example: "Das Müsli ist mit Vitaminen angereichert.",
@@ -46497,11 +46564,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 9449,
-    word: "ersticken",
+    word: "ersticken / ersticken an",
     translation: "to suffocate",
     definition: "Keine Luft bekommen.",
     example: "Er wäre fast erstickt.",
     exampleTranslation: "He almost suffocated.",
+    example2: "Das Kind ist fast an einem Stück Brot erstickt.",
+    example2Translation: "The child almost choked on a piece of bread.",
     thema: "Gesundheit",
     priority: "Medium",
     favorite: false,
@@ -46510,7 +46579,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9450,
-    word: "erwärmen",
+    word: "erwärmen / sich erwärmen",
     translation: "to warm up",
     definition: "Warm machen oder werden.",
     example: "Die Erde erwärmt sich.",
@@ -46945,7 +47014,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9481,
-    word: "verringern",
+    word: "verringern / sich verringern",
     translation: "to reduce",
     definition: "Kleiner machen.",
     example: "Wir wollen den Verbrauch verringern.",
@@ -46962,7 +47031,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9482,
-    word: "verschlechtern",
+    word: "verschlechtern / sich verschlechtern",
     translation: "to worsen",
     definition: "Schlechter machen oder werden.",
     example: "Die Lage verschlechtert sich.",
@@ -47079,11 +47148,14 @@ export const B2_Vocabulary = [
   },
   {
     id: 9490,
-    word: "beauftragen",
+    word: "beauftragen / beauftragen mit",
     translation: "to commission",
     definition: "Jemandem eine Aufgabe geben.",
     example: "Wir beauftragen einen Handwerker.",
     exampleTranslation: "We commission a tradesman.",
+    example2: "Die Stadt beauftragt die Firma mit dem Bau der Brücke.",
+    example2Translation:
+      "The city commissions the company to build the bridge.",
     thema: "Arbeit",
     priority: "Medium",
     favorite: false,
@@ -47252,7 +47324,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9502,
-    word: "inspirieren",
+    word: "inspirieren zu",
     translation: "to inspire",
     definition: "Zu etwas anregen.",
     example: "Die Reise inspirierte ihn zu einem Roman.",
@@ -47728,7 +47800,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9534,
-    word: "bezeichnen",
+    word: "bezeichnen als",
     translation: "to describe, to call",
     definition: "Mit einem Namen benennen.",
     example: "Man bezeichnet ihn als Genie.",
@@ -47789,7 +47861,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9538,
-    word: "einreden (auf + A.)",
+    word: "einreden auf",
     translation: "to persuade",
     definition: "Jemanden beeinflussen.",
     example: "Sie redete auf ihn ein.",
@@ -47861,11 +47933,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 9543,
-    word: "fokussieren",
+    word: "fokussieren / sich fokussieren auf",
     translation: "to focus",
     definition: "Auf einen Punkt konzentrieren.",
     example: "Wir fokussieren unsere Ziele.",
     exampleTranslation: "We focus on our goals.",
+    example2: "Wir fokussieren uns auf den Kundenservice.",
+    example2Translation: "We are focusing on customer service.",
     thema: "Arbeit",
     priority: "Low",
     favorite: false,
@@ -48068,7 +48142,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9558,
-    word: "konkurrieren (mit + D.)",
+    word: "konkurrieren mit",
     translation: "to compete (with)",
     definition: "Mit anderen im Wettbewerb stehen.",
     example: "Die Firmen konkurrieren um Kunden.",
@@ -48096,7 +48170,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9560,
-    word: "kreisen (um + A.)",
+    word: "kreisen um",
     translation: "to revolve (around)",
     definition: "Sich im Kreis bewegen oder Thema haben.",
     example: "Meine Gedanken kreisen um die Prüfung.",
@@ -48138,7 +48212,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9563,
-    word: "mangeln (an + D.)",
+    word: "mangeln an",
     translation: "to lack",
     definition: "Nicht genug vorhanden sein.",
     example: "Es mangelt an Fachkräften.",
@@ -48360,7 +48434,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9578,
-    word: "streben (nach + D.)",
+    word: "streben nach",
     translation: "to strive (for)",
     definition: "Etwas anstreben.",
     example: "Er strebt nach Erfolg.",
@@ -48539,7 +48613,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9590,
-    word: "abraten",
+    word: "abraten von",
     translation: "to advise against",
     definition: "Von etwas abbringen.",
     example: "Der Arzt rät davon ab.",
@@ -48675,7 +48749,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9599,
-    word: "bedrohen",
+    word: "bedrohen mit",
     translation: "to threaten",
     definition: "Jemandem Gefahr androhen.",
     example: "Der Mann bedrohte ihn mit einem Messer.",
@@ -49436,7 +49510,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9650,
-    word: "umstellen (auf + A.)",
+    word: "umstellen auf",
     translation: "to switch (to)",
     definition: "Etwas ändern auf.",
     example: "Wir stellen auf Ökostrom um.",
@@ -49548,7 +49622,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9657,
-    word: "verteuern",
+    word: "verteuern / sich verteuern",
     translation: "to make more expensive",
     definition: "Teurer machen.",
     example: "Die Steuer verteuert den Sprit.",
@@ -49739,11 +49813,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 9670,
-    word: "ausstatten",
+    word: "ausstatten / ausstatten mit",
     translation: "to equip",
     definition: "Mit Dingen versehen.",
     example: "Das Büro ist modern ausgestattet.",
     exampleTranslation: "The office is modernly equipped.",
+    example2: "Das Zimmer ist mit einem Balkon ausgestattet.",
+    example2Translation: "The room is equipped with a balcony.",
     thema: "Arbeit",
     priority: "Medium",
     favorite: false,
@@ -49801,7 +49877,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9674,
-    word: "eindringen (in + A.)",
+    word: "eindringen in",
     translation: "to penetrate",
     definition: "Gewaltsam hineingelangen.",
     example: "Diebe sind in das Haus eingedrungen.",
@@ -50103,11 +50179,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 9695,
-    word: "anstecken",
+    word: "anstecken / sich anstecken bei",
     translation: "to infect",
     definition: "Eine Krankheit übertragen.",
     example: "Er hat mich mit der Grippe angesteckt.",
     exampleTranslation: "He infected me with the flu.",
+    example2: "Ich habe mich bei meiner Kollegin angesteckt.",
+    example2Translation: "I caught it from my colleague.",
     thema: "Gesundheit",
     priority: "Medium",
     favorite: false,
@@ -50145,7 +50223,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9698,
-    word: "aufheizen",
+    word: "aufheizen / sich aufheizen",
     translation: "to heat up",
     definition: "Warm machen.",
     example: "Die Sonne heizt das Zimmer auf.",
@@ -50176,11 +50254,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 9700,
-    word: "begrenzen",
+    word: "begrenzen / begrenzen auf",
     translation: "to limit",
     definition: "Eine Grenze setzen.",
     example: "Wir müssen die Kosten begrenzen.",
     exampleTranslation: "We must limit the costs.",
+    example2: "Wir begrenzen die Teilnehmerzahl auf zwanzig.",
+    example2Translation: "We limit the number of participants to twenty.",
     thema: "Finanzen",
     priority: "Medium",
     favorite: false,
@@ -50246,7 +50326,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9705,
-    word: "entziehen",
+    word: "entziehen / sich entziehen",
     translation: "to withdraw",
     definition: "Wegnehmen.",
     example: "Man hat ihm den Führerschein entzogen.",
@@ -50260,7 +50340,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9706,
-    word: "erhitzen",
+    word: "erhitzen / sich erhitzen",
     translation: "to heat",
     definition: "Heiß machen.",
     example: "Erhitzen Sie die Milch langsam.",
@@ -50305,7 +50385,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9709,
-    word: "etablieren",
+    word: "etablieren / sich etablieren",
     translation: "to establish",
     definition: "Fest einführen.",
     example: "Das Unternehmen hat sich etabliert.",
@@ -50528,11 +50608,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 9724,
-    word: "schwanken",
+    word: "schwanken / schwanken zwischen",
     translation: "to fluctuate",
     definition: "Sich hin und her bewegen.",
     example: "Die Preise schwanken stark.",
     exampleTranslation: "Prices fluctuate strongly.",
+    example2: "Er schwankt zwischen zwei Angeboten.",
+    example2Translation: "He is torn between two offers.",
     thema: "Wirtschaft",
     priority: "Medium",
     favorite: false,
@@ -50585,7 +50667,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9728,
-    word: "tüfteln",
+    word: "tüfteln an",
     translation: "to tinker",
     definition: "Geduldig an etwas basteln.",
     example: "Er tüftelt an einer Erfindung.",
@@ -50857,7 +50939,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9747,
-    word: "stoßen auf + A",
+    word: "stoßen auf",
     translation: "to come across; to meet with",
     definition: "Etwas zufällig finden oder erleben.",
     example: "Der Vorschlag stieß auf großes Interesse.",
@@ -50939,7 +51021,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9752,
-    word: "Kritik üben (an + D)",
+    word: "Kritik üben an",
     translation: "to criticize",
     definition: "Etwas oder jemanden kritisieren.",
     example: "Viele übten Kritik an dem neuen Gesetz.",
@@ -51310,7 +51392,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9777,
-    word: "sich beklagen (über + A)",
+    word: "sich beklagen über",
     translation: "to complain",
     definition: "Sich über etwas beschweren.",
     example: "Die Gäste beklagten sich über den Lärm.",
@@ -51327,7 +51409,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9778,
-    word: "flirten",
+    word: "flirten mit",
     translation: "to flirt",
     definition: "Mit jemandem spielerisch Interesse zeigen.",
     example: "Er flirtete den ganzen Abend mit ihr.",
@@ -51341,7 +51423,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9779,
-    word: "sich hineinversetzen (in + A)",
+    word: "sich hineinversetzen in",
     translation: "to put oneself in someone's shoes",
     definition: "Sich in die Lage eines anderen denken.",
     example: "Ich kann mich gut in dich hineinversetzen.",
@@ -51679,7 +51761,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9801,
-    word: "ermutigen",
+    word: "ermutigen zu",
     translation: "to encourage",
     definition: "Jemandem Mut machen.",
     example: "Die Lehrerin ermutigte ihn, sich zu bewerben.",
@@ -52085,7 +52167,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9829,
-    word: "abstammen von + D",
+    word: "abstammen von",
     translation: "to descend from",
     definition: "Von jemandem als Vorfahr herkommen.",
     example: "Er stammt von deutschen Einwanderern ab.",
@@ -52164,7 +52246,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9834,
-    word: "gehören zu + D",
+    word: "gehören zu",
     translation: "to belong to",
     definition: "Teil von etwas sein.",
     example: "Er gehört zu unserem Freundeskreis.",
@@ -52178,7 +52260,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9835,
-    word: "konfrontiert sein (mit + D)",
+    word: "konfrontiert sein mit",
     translation: "to be confronted with",
     definition: "Mit etwas Schwierigem direkt zu tun haben.",
     example: "Neue Einwanderer sind oft mit Vorurteilen konfrontiert.",
@@ -52192,7 +52274,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9836,
-    word: "sich niederlassen",
+    word: "sich niederlassen in",
     translation: "to settle down",
     definition: "Sich an einem Ort dauerhaft ansiedeln.",
     example: "Sie ließen sich in Hamburg nieder.",
@@ -52344,7 +52426,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9846,
-    word: "gelten als + N",
+    word: "gelten als",
     translation: "to be regarded as",
     definition: "Für etwas gehalten werden.",
     example: "Er gilt als guter Koch.",
@@ -52358,7 +52440,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9847,
-    word: "sich verbeugen (vor + D)",
+    word: "sich verbeugen vor",
     translation: "to bow",
     definition: "Den Oberkörper zur Begrüßung oder aus Respekt nach vorn neigen.",
     example: "Der Schauspieler verbeugte sich vor dem Publikum.",
@@ -52805,7 +52887,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9878,
-    word: "aufkommen für + A",
+    word: "aufkommen für",
     translation: "to bear the cost of",
     definition: "Die Kosten für etwas übernehmen.",
     example: "Die Versicherung kommt für den Schaden auf.",
@@ -52839,7 +52921,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9880,
-    word: "auskommen ohne + A",
+    word: "auskommen ohne",
     translation: "to manage without",
     definition: "Ohne etwas zurechtkommen.",
     example: "Ich komme nicht ohne Kaffee aus.",
@@ -52961,7 +53043,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9888,
-    word: "zugutekommen + D",
+    word: "zugutekommen",
     translation: "to benefit",
     definition: "Jemandem nützen.",
     example: "Das Geld kommt den Kindern zugute.",
@@ -53113,7 +53195,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9898,
-    word: "unterbringen",
+    word: "unterbringen in",
     translation: "to accommodate; to put up",
     definition: "Einen Platz für jemanden oder etwas finden.",
     example: "Wir konnten alle Gäste im Hotel unterbringen.",
@@ -53127,7 +53209,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9899,
-    word: "verstauen",
+    word: "verstauen in",
     translation: "to stow",
     definition: "Etwas ordentlich an einen Platz legen.",
     example: "Er verstaute die Koffer im Kofferraum.",
@@ -53183,7 +53265,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9903,
-    word: "Gebrauch machen von + D",
+    word: "Gebrauch machen von",
     translation: "to make use of",
     definition: "Etwas benutzen.",
     example: "Er machte von seinem Recht Gebrauch.",
@@ -53927,7 +54009,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9955,
-    word: "basieren auf + D",
+    word: "basieren auf",
     translation: "to be based on",
     definition: "Auf etwas beruhen.",
     example: "Der Film basiert auf einer wahren Geschichte.",
@@ -54496,7 +54578,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9993,
-    word: "bilden",
+    word: "bilden / sich bilden",
     translation: "to form",
     definition: "Etwas entstehen lassen oder ausmachen.",
     example: "Die Schüler bilden eine Gruppe.",
@@ -54538,11 +54620,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 9996,
-    word: "spalten",
+    word: "spalten / sich spalten in",
     translation: "to split",
     definition: "In Teile trennen.",
     example: "Die Frage spaltete die Gesellschaft.",
     exampleTranslation: "The question split society.",
+    example2: "Die Partei spaltet sich in zwei Lager.",
+    example2Translation: "The party splits into two camps.",
     thema: "Gesellschaft",
     priority: "Medium",
     favorite: false,
@@ -54569,7 +54653,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 9998,
-    word: "verbreiten",
+    word: "verbreiten / sich verbreiten",
     translation: "to spread",
     definition: "Etwas bekannt machen oder weitergeben.",
     example: "Er verbreitet Gerüchte über seine Kollegen.",
@@ -55221,11 +55305,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 10043,
-    word: "einreichen",
+    word: "einreichen / einreichen bei",
     translation: "to submit",
     definition: "Ein Dokument offiziell abgeben.",
     example: "Bitte reichen Sie die Unterlagen bis Montag ein.",
     exampleTranslation: "Please submit the documents by Monday.",
+    example2: "Reichen Sie den Antrag bei der Stadt ein.",
+    example2Translation: "Submit the application to the city.",
     thema: "Verwaltung",
     priority: "Medium",
     favorite: false,
@@ -55238,7 +55324,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 10044,
-    word: "entnehmen + D",
+    word: "entnehmen",
     translation: "to take from; to infer",
     definition: "Etwas aus etwas herausnehmen oder ableiten.",
     example: "Dem Bericht entnehme ich, dass es besser wird.",
@@ -55269,11 +55355,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 10046,
-    word: "sich immatrikulieren",
+    word: "sich immatrikulieren / sich immatrikulieren für",
     translation: "to enrol",
     definition: "Sich an der Universität anmelden.",
     example: "Bis Oktober muss man sich immatrikulieren.",
     exampleTranslation: "You must enrol by October.",
+    example2: "Ich immatrikuliere mich für das Fach Biologie.",
+    example2Translation: "I am enrolling in biology.",
     thema: "Schule und Lernen",
     priority: "Low",
     favorite: false,
@@ -55300,7 +55388,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 10048,
-    word: "ringen um + A",
+    word: "ringen um",
     translation: "to struggle for",
     definition: "Sich sehr um etwas bemühen.",
     example: "Die Mitarbeiter ringen um Anerkennung.",
@@ -55837,7 +55925,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 10085,
-    word: "gelangen in + A",
+    word: "gelangen in",
     translation: "to get into",
     definition: "Irgendwohin kommen.",
     example: "Giftstoffe gelangen ins Grundwasser.",
@@ -56321,7 +56409,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 10119,
-    word: "infizieren",
+    word: "infizieren / sich infizieren bei",
     translation: "to infect",
     definition: "Mit Krankheitserregern anstecken.",
     example: "Er hat sich bei der Kollegin infiziert.",
@@ -56670,11 +56758,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 10143,
-    word: "montieren",
+    word: "montieren / montieren an",
     translation: "to assemble; to install",
     definition: "Teile zusammenbauen oder anbringen.",
     example: "Der Techniker montiert die Lampe.",
     exampleTranslation: "The technician installs the lamp.",
+    example2: "Er montiert das Regal an der Wand.",
+    example2Translation: "He mounts the shelf on the wall.",
     thema: "Handwerk",
     priority: "Medium",
     favorite: false,
@@ -57108,7 +57198,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 10173,
-    word: "raten zu + D",
+    word: "raten zu",
     translation: "to recommend",
     definition: "Etwas empfehlen.",
     example: "Ich rate zu diesem Modell.",
@@ -57125,7 +57215,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 10174,
-    word: "setzen auf + A",
+    word: "setzen auf",
     translation: "to bet on; to rely on",
     definition: "Auf etwas vertrauen.",
     example: "Die Firma setzt auf erneuerbare Energien.",
@@ -57156,7 +57246,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 10176,
-    word: "zugreifen auf + A",
+    word: "zugreifen auf",
     translation: "to access",
     definition: "Auf Daten oder Dateien zurückgreifen.",
     example: "Alle Mitarbeiter können auf die Datei zugreifen.",
@@ -57187,7 +57277,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 10178,
-    word: "verstellen",
+    word: "verstellen / sich verstellen",
     translation: "to adjust / to block",
     definition: "Die Position oder Einstellung von etwas verändern, einen Durchgang versperren oder das eigene Verhalten täuschend anpassen.",
     example: "Kannst du die Heizung bitte verstellen?",
@@ -57789,7 +57879,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 10220,
-    word: "umwandeln",
+    word: "umwandeln in",
     translation: "to convert",
     definition: "In etwas anderes verwandeln.",
     example: "Pflanzen wandeln Licht in Energie um.",
@@ -57924,7 +58014,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 10229,
-    word: "ausgehen von + D",
+    word: "ausgehen von",
     translation: "to assume",
     definition: "Etwas annehmen oder als Basis nehmen.",
     example: "Ich gehe davon aus, dass es klappt.",
@@ -57941,7 +58031,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 10230,
-    word: "sich befassen mit + D",
+    word: "sich befassen mit",
     translation: "to deal with",
     definition: "Sich mit einem Thema beschäftigen.",
     example: "Er befasst sich mit Geschichte.",
@@ -57958,7 +58048,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 10231,
-    word: "eingehen auf + A",
+    word: "eingehen auf",
     translation: "to address; to respond to",
     definition: "Auf etwas ausführlich reagieren.",
     example: "Sie ging auf die Frage ein.",
@@ -58084,7 +58174,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 10240,
-    word: "Bezug nehmen auf + A",
+    word: "Bezug nehmen auf",
     translation: "to refer to",
     definition: "Sich auf etwas beziehen.",
     example: "Ich nehme Bezug auf Ihr Schreiben.",
@@ -58101,7 +58191,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 10241,
-    word: "im Widerspruch stehen (zu + D)",
+    word: "im Widerspruch stehen zu",
     translation: "to contradict",
     definition: "Einer Aussage widersprechen.",
     example: "Seine Worte stehen im Widerspruch zu seinen Taten.",
@@ -58449,7 +58539,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 10266,
-    word: "bestehen in + D",
+    word: "bestehen in",
     translation: "to consist in",
     definition: "Aus etwas bestehen.",
     example: "Die Aufgabe besteht in der Analyse von Daten.",
@@ -58885,7 +58975,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 10296,
-    word: "eintreten für + A",
+    word: "eintreten für",
     translation: "to stand up for",
     definition: "Sich für etwas einsetzen.",
     example: "Er tritt für die Rechte der Schwachen ein.",
@@ -58919,7 +59009,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 10298,
-    word: "teilhaben an + D",
+    word: "teilhaben an",
     translation: "to participate in",
     definition: "An etwas beteiligt sein.",
     example: "Alle sollen am gesellschaftlichen Leben teilhaben.",
@@ -58950,7 +59040,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 10300,
-    word: "verstoßen gegen + A",
+    word: "verstoßen gegen",
     translation: "to violate",
     definition: "Gegen Regeln oder Gesetze handeln.",
     example: "Er verstieß gegen das Gesetz.",
@@ -59165,7 +59255,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 10315,
-    word: "ablesen",
+    word: "ablesen an",
     translation: "to read off",
     definition: "Etwas an einem Gerät oder Text erkennen.",
     example: "Man kann die Daten am Diagramm ablesen.",
@@ -59429,7 +59519,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 10333,
-    word: "freistellen",
+    word: "freistellen von",
     translation: "to exempt; to release",
     definition: "Von einer Pflicht befreien.",
     example: "Der Chef stellte ihn vom Dienst frei.",
@@ -59443,11 +59533,13 @@ export const B2_Vocabulary = [
   },
   {
     id: 10334,
-    word: "mitwirken",
+    word: "mitwirken bei / an",
     translation: "to participate; to cooperate",
     definition: "An etwas mithelfen.",
     example: "Alle müssen am Verfahren mitwirken.",
     exampleTranslation: "Everyone must cooperate in the procedure.",
+    example2: "Sie wirkt bei dem Projekt mit.",
+    example2Translation: "She takes part in the project.",
     thema: "Verwaltung",
     priority: "Low",
     favorite: false,
@@ -59460,7 +59552,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 10335,
-    word: "stattgeben + D",
+    word: "stattgeben",
     translation: "to grant (an application)",
     definition: "Einem Antrag zustimmen.",
     example: "Das Gericht gab dem Antrag statt.",
@@ -59603,7 +59695,7 @@ export const B2_Vocabulary = [
   },
   {
     id: 10345,
-    word: "zugrunde liegen + D",
+    word: "zugrunde liegen",
     translation: "to underlie",
     definition: "Als Grundlage dienen.",
     example: "Der Entscheidung liegen neue Daten zugrunde.",
