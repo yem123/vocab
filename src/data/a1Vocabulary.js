@@ -15052,20 +15052,7 @@ export const A1_Vocabulary = [
     type: "word",
     family: "das Herz",
   },
-  {
-    id: 1013,
-    word: "auswendig lernen",
-    translation: "to memorize / to learn by heart",
-    definition: "Etwas im Gedächtnis behalten durch Lernen.",
-    example: "Wir müssen die Vokabeln auswendig lernen.",
-    exampleTranslation: "We have to memorize the vocabulary.",
-    thema: "Schule und Lernen",
-    level: "A1",
-    type: "phrase",
-    family: "lernen",
-    priority: "High",
-    favorite: false,
-  },
+  
   {
     id: 1014,
     word: "der Weihnachtsmann, -männer",
