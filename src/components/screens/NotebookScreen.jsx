@@ -2,8 +2,7 @@ import React, { useMemo, useState } from "react";
 import { Search, NotebookPen, Plus } from "lucide-react";
 import GermanTextField from "../common/GermanTextField";
 import SaveToGithubButton from "../collections/SaveToGithubButton";
-import NoteComposer from "../notebook/NoteComposer";
-import NoteCard from "../notebook/NoteCard";
+import NotePaper from "../notebook/NotePaper";
 
 export default function NotebookScreen({
   notes,
@@ -16,18 +15,18 @@ export default function NotebookScreen({
 }) {
   const [query, setQuery] = useState("");
   const [composing, setComposing] = useState(false);
-  const [editingId, setEditingId] = useState(null);
 
-  const filteredNotes = useMemo(() => {
+  const list = useMemo(() => {
     const q = query.trim().toLowerCase();
-
     return notes
       .filter(
         (n) =>
           !q ||
           n.text.toLowerCase().includes(q) ||
-          (n.translation || "").toLowerCase().includes(q),
-      );
+          (n.translation || "").toLowerCase().includes(q) ||
+          (n.remark || "").toLowerCase().includes(q),
+      )
+      .sort((a, b) => String(b.createdAt).localeCompare(String(a.createdAt)));
   }, [notes, query]);
 
   const handleDelete = (id) => {
@@ -36,6 +35,7 @@ export default function NotebookScreen({
 
   return (
     <div className="flex-1 flex flex-col px-6 py-2 space-y-3">
+      {/* Header */}
       <div className="bg-[#f4f6f4] border border-[#e5eae6] rounded-2xl p-5">
         <div className="flex justify-between items-center">
           <span className="font-sans text-[10px] uppercase font-bold tracking-wider text-[#637368]">
@@ -64,8 +64,10 @@ export default function NotebookScreen({
         onNotesSaved={markNotesSaved}
       />
 
-      <div className="flex items-center gap-1 w-full">
+      {/* Search + new note */}
+      <div className="flex items-start gap-2">
         <GermanTextField
+          wrapperClassName="flex-1 min-w-0"
           icon={
             <Search className="absolute left-3.5 top-3.5 w-4 h-4 text-[#8a928e]" />
           }
@@ -73,65 +75,56 @@ export default function NotebookScreen({
           placeholder="Notizen durchsuchen..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          className="w-full flex-1 min-w-0 font-sans bg-[#f9f9f7] border border-[#e8e5e0] rounded-xl pl-10 pr-4 py-3 text-sm focus:outline-none focus:border-[#637368] placeholder:text-[#9ea6a1]"
+          className="w-full font-sans bg-[#f9f9f7] border border-[#e8e5e0] rounded-xl pl-10 pr-4 py-3 text-sm focus:outline-none focus:border-[#637368] placeholder:text-[#9ea6a1]"
         />
-
         <button
+          type="button"
           onClick={() => setComposing(true)}
-          className="w-10 h-10 shrink-0 rounded-xl bg-[#2c302e] text-white flex items-center justify-center shadow hover:bg-black transition-transform active:scale-95"
-          title="Add Word"
+          disabled={composing}
+          title="Neue Notiz"
+          className="shrink-0 w-11.5 h-11.5 rounded-xl bg-[#2c302e] hover:bg-black text-white flex items-center justify-center transition-colors disabled:opacity-40"
         >
           <Plus className="w-5 h-5" />
         </button>
       </div>
 
+      {/* A blank page, written on right in the list */}
       {composing && (
-        <NoteComposer
-          onSubmit={(data) => {
+        <NotePaper
+          isNew
+          note={null}
+          onSave={(data) => {
             addNote(data);
             setComposing(false);
           }}
-          onCancel={() => setComposing(false)}
+          onCancelNew={() => setComposing(false)}
         />
       )}
 
-      {notes.length === 0 ? (
-        <div className="text-center py-12 px-6 border border-dashed border-[#c9d0cd] rounded-2xl">
+      {notes.length === 0 && !composing ? (
+        <div className="text-center py-12 px-6 border border-dashed border-[#e2e7e3] rounded-2xl">
           <NotebookPen className="w-6 h-6 text-[#b8c2bc] mx-auto mb-2" />
           <p className="font-sans text-sm text-[#767d78]">
             Noch keine Notizen.
           </p>
           <p className="font-sans text-xs text-[#8a928e] mt-1">
-            Schreib deinen ersten Satz oder deine erste Redewendung auf.
+            Tippe auf „+“, um deine erste Notiz zu schreiben.
           </p>
         </div>
-      ) : filteredNotes.length === 0 ? (
+      ) : list.length === 0 && notes.length > 0 ? (
         <div className="text-center py-10 border border-dashed border-[#e2e7e3] rounded-2xl">
           <p className="font-sans text-sm text-[#767d78]">Nichts gefunden.</p>
         </div>
       ) : (
-        <div className="space-y-3">
-          {filteredNotes.map((n) =>
-            editingId === n.id ? (
-              <NoteComposer
-                key={n.id}
-                initial={n}
-                submitLabel="Aktualisieren"
-                onSubmit={(data) => {
-                  updateNote(n.id, data);
-                  setEditingId(null);
-                }}
-                onCancel={() => setEditingId(null)}
-              />
-            ) : (
-              <NoteCard
-                key={n.id}
-                note={n}
-                onEdit={setEditingId}
-                onDelete={handleDelete}
-              />
-            ),
-          )}
+        <div className="space-y-2.5">
+          {list.map((n) => (
+            <NotePaper
+              key={n.id}
+              note={n}
+              onSave={(data) => updateNote(n.id, data)}
+              onDelete={handleDelete}
+            />
+          ))}
         </div>
       )}
     </div>
