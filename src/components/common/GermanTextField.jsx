@@ -51,10 +51,9 @@ export default function GermanTextField({
 
   return (
     <div
-      className={wrapperClassName}
+      className={`w-full min-w-0 flex-1 ${wrapperClassName}`}
       onFocus={() => setFocused(true)}
       onBlur={(e) => {
-        // Stay open while focus moves inside this wrapper
         if (!e.currentTarget.contains(e.relatedTarget)) setFocused(false);
       }}
     >

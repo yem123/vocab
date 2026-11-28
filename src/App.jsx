@@ -15,7 +15,8 @@ import { fetchWordDetails } from "./utils/aiWordHelper";
 import CollectionsScreen from "./components/screens/CollectionsScreen";
 import { WORD_TYPES, getWordType } from "./utils/wordTypes";
 import { UserAdded_Vocabulary } from "./data/userAddedVocabulary";
-import MyWordsScreen from "./components/screens/MyWordsScreen";
+import NotebookScreen from "./components/screens/NotebookScreen";
+import { useNotebook } from "./hooks/useNotebook";
 
 import { VIDEOS } from "./data/videos";
 import MediaScreen from "./components/screens/MediaScreen";
@@ -149,6 +150,8 @@ export default function App() {
   const [isGenerating, setIsGenerating] = useState(false);
   const [aiError, setAiError] = useState("");
 
+  const notebook = useNotebook();
+
   useEffect(() => {
     try {
       localStorage.setItem(
@@ -270,7 +273,7 @@ export default function App() {
       screen === "detail" &&
       (currentScreen === "vocabulary" ||
         currentScreen === "collections" ||
-        currentScreen === "myWords")
+        currentScreen === "notebook")
     ) {
       setDetailOrigin(currentScreen);
     }
@@ -323,11 +326,6 @@ export default function App() {
     return vocabulary.filter((w) => w.favorite);
   }, [vocabulary]);
 
-  const myWords = useMemo(() => {
-    return vocabulary.filter((w) => w.id > BASE_MAX_ID);
-  }, [vocabulary]);
-
-  // Themes in use, with word counts, most used first
   const existingThemes = useMemo(() => {
     const counts = new Map();
     vocabulary.forEach((w) => {
@@ -341,9 +339,9 @@ export default function App() {
 
   const navigationList = useMemo(() => {
     if (detailOrigin === "collections") return favoriteVocabulary;
-    if (detailOrigin === "myWords") return myWords;
+    if (detailOrigin === "notebook") return notebook;
     return vocabulary;
-  }, [detailOrigin, vocabulary, favoriteVocabulary, myWords]);
+  }, [detailOrigin, vocabulary, favoriteVocabulary, notebook]);
 
   const handleAIFill = async (overwrite = false) => {
     if (!formWord.trim()) return;
@@ -583,6 +581,8 @@ export default function App() {
               vocabScrollY={vocabScrollY}
               buildGithubSyncPayload={buildGithubSyncPayload}
               clearSyncedLocalChanges={clearSyncedLocalChanges}
+              buildNotesPayload={notebook.buildNotesPayload}
+              onNotesSaved={notebook.markNotesSaved}
             />
           )}
 
@@ -603,12 +603,15 @@ export default function App() {
             />
           )}
 
-          {currentScreen === "myWords" && (
-            <MyWordsScreen
-              myWords={myWords}
-              setSelectedWordId={setSelectedWordId}
-              navigateTo={navigateTo}
-              toggleFavorite={toggleFavorite}
+          {currentScreen === "notebook" && (
+            <NotebookScreen
+              notes={notebook.notes}
+              unsavedCount={notebook.unsavedCount}
+              addNote={notebook.addNote}
+              updateNote={notebook.updateNote}
+              deleteNote={notebook.deleteNote}
+              buildNotesPayload={notebook.buildNotesPayload}
+              markNotesSaved={notebook.markNotesSaved}
             />
           )}
 

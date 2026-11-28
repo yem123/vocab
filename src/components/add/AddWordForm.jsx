@@ -42,7 +42,7 @@ export default function AddWordForm({
   );
 
   return (
-    <form onSubmit={handleSaveNewWord} className="space-y-4 font-sans text-xs">
+    <form name="addWord" onSubmit={handleSaveNewWord} className="space-y-4 font-sans text-xs">
       {/* Thema selector */}
       <div className="bg-[#f9f9f7] border border-[#e8e5e0] p-3.5 rounded-2xl space-y-2">
         <div className="flex justify-between items-center text-[#767d78]">

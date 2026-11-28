@@ -1,9 +1,8 @@
 import React from "react";
-import { BookOpen, Layers, Star, PenLine, Library } from "lucide-react"; // add PenLine
+import { BookOpen, Layers, Star, NotebookPen, Library } from "lucide-react"; // add PenLine
 
 export default function BottomNav({ currentScreen, navigateTo, detailOrigin }) {
-  // Which tab is highlighted: detail pages belong to the tab they were opened from,
-  // and the Add Word page belongs to Vocabulary
+
   const activeTab =
     currentScreen === "detail"
       ? detailOrigin
@@ -11,7 +10,6 @@ export default function BottomNav({ currentScreen, navigateTo, detailOrigin }) {
         ? "vocabulary"
         : currentScreen;
 
-  // Shared style: the selected tab gets a dark pill, the others stay muted
   const tabClass = (isActive) =>
     `flex flex-col items-center gap-1 px-4 py-1.5 rounded-xl transition-colors ${
       isActive
@@ -65,16 +63,14 @@ export default function BottomNav({ currentScreen, navigateTo, detailOrigin }) {
         <span className="text-[10px]">Fav</span>
       </button>
       <button
-        onClick={() => navigateTo("myWords", "none")}
-        className={`flex flex-col items-center gap-1 px-2 ${
-          currentScreen === "myWords" ||
-          (detailOrigin === "myWords" && currentScreen === "detail")
-            ? "text-[#2c302e]"
-            : "text-[#8a928e]"
-        }`}
+        onClick={() => navigateTo("notebook", "none")}
+        className={tabClass(activeTab === "notebook")}
       >
-        <PenLine className="w-5 h-5" />
-        <span className="text-[10px] font-sans mt-0.5">My Words</span>
+        <NotebookPen
+          className="w-5 h-5"
+          strokeWidth={activeTab === "notebook" ? 2.5 : 2}
+        />
+        <span className="text-[10px]">Notizbuch</span>
       </button>
     </nav>
   );

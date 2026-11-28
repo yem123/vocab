@@ -24,6 +24,8 @@ export default function VocabularyScreen({
   vocabScrollY,
   buildGithubSyncPayload,
   clearSyncedLocalChanges,
+  buildNotesPayload,
+  onNotesSaved,
 }) {
   return (
     <div className="flex-1 flex flex-col px-6 py-5 space-y-5">
@@ -34,6 +36,8 @@ export default function VocabularyScreen({
       <SaveToGithubButton
         buildGithubSyncPayload={buildGithubSyncPayload}
         clearSyncedLocalChanges={clearSyncedLocalChanges}
+        buildNotesPayload={buildNotesPayload}
+        onNotesSaved={onNotesSaved}
       />
 
       {/* Search bar & Filter Pills */}

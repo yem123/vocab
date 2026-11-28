@@ -1,10 +1,14 @@
 import React, { useState } from "react";
 import { UploadCloud, Check, Trash2 } from "lucide-react";
 import { saveFavoritesToGithub } from "../../utils/saveFavoritesToGithub";
+import { saveNotesToGithub } from "../../utils/saveNotesToGithub";
 
 export default function SaveToGithubButton({
   buildGithubSyncPayload,
   clearSyncedLocalChanges,
+  buildNotesPayload,
+  onNotesSaved,
+  notesOnly = false,
 }) {
   const [showPrompt, setShowPrompt] = useState(false);
   const [password, setPassword] = useState("");
@@ -15,25 +19,45 @@ export default function SaveToGithubButton({
     setStatus("saving");
     setMessage("");
     try {
-      const filesChanges = buildGithubSyncPayload();
+      const filesChanges =
+        !notesOnly && buildGithubSyncPayload ? buildGithubSyncPayload() : {};
+      const notesPayload = buildNotesPayload ? buildNotesPayload() : null;
 
-      if (Object.keys(filesChanges).length === 0) {
+      const hasVocab = Object.keys(filesChanges).length > 0;
+      const hasNotes =
+        notesPayload &&
+        notesPayload.notes.length + notesPayload.deletedIds.length > 0;
+
+      if (!hasVocab && !hasNotes) {
         setStatus("idle");
         setMessage("Nothing to save.");
         return;
       }
 
-      const data = await saveFavoritesToGithub(password, filesChanges);
-      const updated = Object.values(data.results || {}).filter(
-        (r) => r.updated,
-      ).length;
+      const parts = [];
+
+      if (hasVocab) {
+        const data = await saveFavoritesToGithub(password, filesChanges);
+        const n = Object.values(data.results || {}).filter(
+          (r) => r.updated,
+        ).length;
+        parts.push(
+          n > 0
+            ? `${n} vocabulary file${n === 1 ? "" : "s"} committed`
+            : "vocabulary already up to date",
+        );
+      }
+
+      if (hasNotes) {
+        const r = await saveNotesToGithub(password, notesPayload);
+        if (onNotesSaved) onNotesSaved(notesPayload);
+        parts.push(
+          r.unchanged ? "notes already up to date" : "notes committed",
+        );
+      }
 
       setStatus("success");
-      setMessage(
-        updated > 0
-          ? `Committed ${updated} file${updated === 1 ? "" : "s"} to GitHub.`
-          : "No changes to commit: GitHub already matches.",
-      );
+      setMessage(parts.join(" · ") + ".");
       setPassword("");
       setShowPrompt(false);
     } catch (err) {
@@ -73,20 +97,23 @@ export default function SaveToGithubButton({
           >
             <UploadCloud className="w-3.5 h-3.5" /> Save
           </button>
-          <button
-            type="button"
-            onClick={handleClear}
-            title="Remove local overrides already reflected in the deployed data"
-            className="flex items-center justify-center gap-1.5 bg-[#f4f3ef] hover:bg-[#eae7e2] text-[#637368] px-3.5 py-2.5 rounded-xl font-sans text-xs font-semibold transition-colors"
-          >
-            <Trash2 className="w-3.5 h-3.5" /> Clear synced
-          </button>
+          {clearSyncedLocalChanges && !notesOnly && (
+            <button
+              type="button"
+              onClick={handleClear}
+              title="Remove local overrides already reflected in the deployed data"
+              className="flex items-center justify-center gap-1.5 bg-[#f4f3ef] hover:bg-[#eae7e2] text-[#637368] px-3.5 py-2.5 rounded-xl font-sans text-xs font-semibold transition-colors"
+            >
+              <Trash2 className="w-3.5 h-3.5" /> Clear synced
+            </button>
+          )}
         </div>
       ) : (
         <div className="bg-[#f4f3ef] border border-[#e8e5e0] rounded-xl p-3 space-y-2">
           <p className="font-sans text-[11px] text-[#637368]">
-            Enter the password to save your favorites, edits, deletions, and new
-            words to the server.
+            {notesOnly
+              ? "Enter the password to save your notebook to GitHub."
+              : "Enter the password to save your vocabulary changes and notes to GitHub."}
           </p>
           <input
             type="password"
@@ -100,7 +127,7 @@ export default function SaveToGithubButton({
               type="button"
               onClick={handleSave}
               disabled={status === "saving" || !password}
-              className="flex-1 flex items-center justify-center gap-1.5 bg-[#2c302e] hover:bg-black text-white py-2 rounded-lg font-sans text-xs font-semibold transition-colors disabled:opacity-40"
+              className="flex-1 bg-[#2c302e] hover:bg-black text-white py-2 rounded-lg font-sans text-xs font-semibold transition-colors disabled:opacity-40"
             >
               {status === "saving" ? "Saving..." : "Confirm"}
             </button>

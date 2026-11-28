@@ -10,7 +10,7 @@ export default function DetailTopNav({
 }) {
   const ORIGIN_LABELS = {
     collections: "Collections",
-    myWords: "My Words",
+    notebook: "notebook",
     vocabulary: "Vocabulary",
   };
 
