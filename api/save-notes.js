@@ -24,11 +24,14 @@ const clip = (v, max) => String(v ?? "").slice(0, max);
 
 function cleanNote(n) {
   if (!n || typeof n.id !== "string" || !n.id || n.id.length > 60) return null;
+    const title = clip(n.title, 200).trim();
   const text = clip(n.text, 2000).trim();
   if (!text) return null;
   const now = new Date().toISOString();
+  
   return {
     id: n.id,
+    title,
     text,
     translation: clip(n.translation, 2000).trim(),
     pinned: Boolean(n.pinned),

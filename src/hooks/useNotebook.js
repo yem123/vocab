@@ -20,8 +20,11 @@ const read = (key, fallback) => {
 const sig = (n) =>
   [
     n.id,
+    n.title,
     n.text,
     n.translation,
+    n.remark,
+    n.category,
     n.pinned,
     n.createdAt,
     n.updatedAt,
@@ -37,7 +40,6 @@ export function useNotebook() {
     () => new Set(read(SAVED_KEY, [])),
   );
 
-  // On load: drop local entries the deployed file already contains
   useEffect(() => {
     setLayer((prev) => {
       const next = prev.filter((e) => {
@@ -91,10 +93,13 @@ export function useNotebook() {
   const upsert = (note) =>
     setLayer((prev) => [note, ...prev.filter((e) => e.id !== note.id)]);
 
-  const clean = (d) => ({
-    text: String(d.text || "").trim(),
-    translation: String(d.translation || "").trim(),
-  });
+    const clean = (d) => ({
+      title: String(d.title || "").trim(),
+      text: String(d.text || "").trim(),
+      translation: String(d.translation || "").trim(),
+      remark: String(d.remark || "").trim(),
+      category: d.category || "Satz",
+    });
 
   const addNote = (data) => {
     const now = new Date().toISOString();

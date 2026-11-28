@@ -15,6 +15,8 @@ export default function NotebookScreen({
 }) {
   const [query, setQuery] = useState("");
   const [composing, setComposing] = useState(false);
+  // Only one note is open at a time
+  const [openId, setOpenId] = useState(null);
 
   const list = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -22,6 +24,7 @@ export default function NotebookScreen({
       .filter(
         (n) =>
           !q ||
+          (n.title || "").toLowerCase().includes(q) ||
           n.text.toLowerCase().includes(q) ||
           (n.translation || "").toLowerCase().includes(q) ||
           (n.remark || "").toLowerCase().includes(q),
@@ -30,7 +33,10 @@ export default function NotebookScreen({
   }, [notes, query]);
 
   const handleDelete = (id) => {
-    if (confirm("Diese Notiz wirklich löschen?")) deleteNote(id);
+    if (confirm("Diese Notiz wirklich löschen?")) {
+      deleteNote(id);
+      if (openId === id) setOpenId(null);
+    }
   };
 
   return (
@@ -79,16 +85,18 @@ export default function NotebookScreen({
         />
         <button
           type="button"
-          onClick={() => setComposing(true)}
+          onClick={() => {
+            setComposing(true);
+            setOpenId(null);
+          }}
           disabled={composing}
           title="Neue Notiz"
-          className="shrink-0 w-11.5 h-11.5 rounded-xl bg-[#2c302e] hover:bg-black text-white flex items-center justify-center transition-colors disabled:opacity-40"
+          className="shrink-0 w-w-11.5 h-w-11.5 rounded-xl bg-[#2c302e] hover:bg-black text-white flex items-center justify-center transition-colors disabled:opacity-40"
         >
           <Plus className="w-5 h-5" />
         </button>
       </div>
 
-      {/* A blank page, written on right in the list */}
       {composing && (
         <NotePaper
           isNew
@@ -121,6 +129,8 @@ export default function NotebookScreen({
             <NotePaper
               key={n.id}
               note={n}
+              open={openId === n.id}
+              onToggle={() => setOpenId(openId === n.id ? null : n.id)}
               onSave={(data) => updateNote(n.id, data)}
               onDelete={handleDelete}
             />
